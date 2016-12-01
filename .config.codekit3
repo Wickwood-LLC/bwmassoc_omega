@@ -41,6 +41,166 @@
 		"oAP": "\/css\/bwmassoc-omega.styles.css.map",
 		"oF": 0
 		},
+	"\/fonts\/LICENSE.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Semibold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Semibold.otf",
+		"oF": 0
+		},
+	"\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf",
+		"oF": 0
+		},
+	"\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Thin.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Thin.otf",
+		"oF": 0
+		},
+	"\/fonts\/Mark Simonson - Proxima Nova Extrabold Italic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extrabold Italic.otf",
+		"oF": 0
+		},
+	"\/fonts\/Mark Simonson - Proxima Nova Extrabold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extrabold.otf",
+		"oF": 0
+		},
+	"\/fonts\/Mark Simonson - Proxima Nova Semibold Italic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Semibold Italic.otf",
+		"oF": 0
+		},
+	"\/fonts\/Mark Simonson - Proxima Nova Semibold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Semibold.otf",
+		"oF": 0
+		},
+	"\/fonts\/Mark Simonson - Proxima Nova Thin.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Thin.otf",
+		"oF": 0
+		},
+	"\/fonts\/OpenSans-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/OpenSans-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/OpenSans-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/OpenSans-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/OpenSans-Semibold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/OpenSans-Semibold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/OpenSans-SemiboldItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/OpenSans-SemiboldItalic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/pnb.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/pnb.eot",
+		"oF": 0
+		},
+	"\/fonts\/pnb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/pnb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/pnb.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/pnb.ttf",
+		"oF": 0
+		},
+	"\/fonts\/pnb.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/pnb.woff",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Regular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/ProximaNova-Regular.otf",
+		"oF": 0
+		},
+	"\/fonts\/Roboto-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Roboto-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Roboto-BoldItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Roboto-BoldItalic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Roboto-Italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Roboto-Italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Roboto-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Roboto-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Roboto-LightItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Roboto-LightItalic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Roboto-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Roboto-Medium.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Roboto-MediumItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Roboto-MediumItalic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/Roboto-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/Roboto-Regular.ttf",
+		"oF": 0
+		},
 	"\/gulpfile.js": {
 		"ft": 64,
 		"mi": 1,
