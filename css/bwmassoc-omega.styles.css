@@ -22,7 +22,8 @@ body {
   font-size: 37px;
   font-family: 'pnb';
   font-weight: 600;
-  margin-top: 3px; }
+  margin-top: 0.5em;
+  margin-bottom: 0; }
   .pane-page-site-name h1 a {
     text-decoration: none;
     color: #0355a3; }
