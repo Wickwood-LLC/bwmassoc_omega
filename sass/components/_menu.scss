@@ -68,6 +68,11 @@
 			   	color: #1894c7;
 				}
 
+				&[href*='login'] {
+					background: #1894c7;
+					color: white;
+				}
+
 				i {
 					margin-right: 3px;
 				}

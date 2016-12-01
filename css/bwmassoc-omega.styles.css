@@ -99,6 +99,9 @@ body {
           background: #fff;
           text-decoration: none;
           color: #1894c7; }
+        #block-system-user-menu ul.menu li a[href*='login'] {
+          background: #1894c7;
+          color: white; }
         #block-system-user-menu ul.menu li a i {
           margin-right: 3px; }
 
