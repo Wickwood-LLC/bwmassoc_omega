@@ -1,5 +1,5 @@
 name = BWMAssoc Omega
-description = Please provide a description for your theme.
+description = Omega-based theme for Biweekly Mortgage Association.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
