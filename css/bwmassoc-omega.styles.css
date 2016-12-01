@@ -53,7 +53,7 @@ body {
   display: inline-block;
   float: right; }
   #block-superfish-1 #superfish-1 {
-    display: inline-block; }
+    position: initial; }
     #block-superfish-1 #superfish-1 li {
       padding: 0 10px; }
       #block-superfish-1 #superfish-1 li.active a {
@@ -70,9 +70,11 @@ body {
         position: relative;
         top: 0px;
         text-decoration: none; }
-        #block-superfish-1 #superfish-1 li a :hover, #block-superfish-1 #superfish-1 li a :focus {
+        #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a:focus {
           background: #fff;
           text-decoration: none;
           color: #1894c7; }
+        #block-superfish-1 #superfish-1 li a i {
+          margin-right: 3px; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

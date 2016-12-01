@@ -3,7 +3,7 @@
 	float: right;
 
 	#superfish-1 {
-		display: inline-block;
+		position: initial;
 
 		li {
 			padding: 0 10px;
@@ -25,10 +25,14 @@
 				top: 0px;
 				text-decoration: none;
 
-				:hover, :focus {
+				&:hover, &:focus {
 					background: #fff;
 			    text-decoration: none;
 			   	color: #1894c7;
+				}
+
+				i {
+					margin-right: 3px;
 				}
 			}
 		}
