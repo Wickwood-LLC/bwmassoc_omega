@@ -68,7 +68,8 @@ body {
         padding: 16px 20px;
         text-transform: uppercase;
         position: relative;
-        top: 0px; }
+        top: 0px;
+        text-decoration: none; }
         #block-superfish-1 #superfish-1 li a :hover, #block-superfish-1 #superfish-1 li a :focus {
           background: #fff;
           text-decoration: none;
