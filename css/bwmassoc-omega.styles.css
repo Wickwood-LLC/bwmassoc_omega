@@ -9,13 +9,24 @@ html {
   font-family: sans-serif; }
 
 body {
-  background-color: #f2fafe; }
+  background-color: #f2fafe;
+  margin-left: 0;
+  margin-right: 0; }
 
 .l-region--header,
 .l-main,
 .l-footer {
   max-width: 1360px;
   margin: 0 auto; }
+
+.l-branding {
+  display: inline-block;
+  width: 100%;
+  background: #f2f2f2;
+  box-shadow: #e0e7eb 0px 3px 5px 5px; }
+  .l-branding .l-region--branding {
+    max-width: 1360px;
+    margin: 0 auto; }
 
 .pane-page-site-name h1 {
   text-align: center;
@@ -35,5 +46,26 @@ body {
   font-family: 'pnb';
   font-weight: 600;
   margin: 10px 0; }
+
+#block-superfish-1 {
+  display: inline-block;
+  float: right; }
+  #block-superfish-1 #superfish-1 {
+    display: inline-block; }
+    #block-superfish-1 #superfish-1 li {
+      padding: 0 10px; }
+      #block-superfish-1 #superfish-1 li.active a {
+        background: #fff;
+        text-decoration: none;
+        color: #1894c7; }
+      #block-superfish-1 #superfish-1 li a {
+        color: #262626;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 600;
+        padding: 16px 20px;
+        text-transform: uppercase;
+        position: relative;
+        top: 0px; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

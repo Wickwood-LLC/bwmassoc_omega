@@ -1,0 +1,29 @@
+#block-superfish-1 {
+	display: inline-block;
+	float: right;
+
+	#superfish-1 {
+		display: inline-block;
+
+		li {
+			padding: 0 10px;
+
+			&.active a {
+				background: #fff;
+				text-decoration: none;
+				color: #1894c7;
+			}
+
+			a {
+				color: #262626;
+				font-family: "Open Sans";
+				font-size: 16px;
+				font-weight: 600;
+				padding: 16px 20px;
+				text-transform: uppercase;
+				position: relative;
+				top: 0px;
+			}
+		}
+	}
+}

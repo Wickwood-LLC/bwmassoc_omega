@@ -13,6 +13,8 @@ html {
 }
 body {
 	background-color: #f2fafe;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .l-region--header,
@@ -20,4 +22,16 @@ body {
 .l-footer {
 	max-width: 1360px;
 	margin: 0 auto;
+}
+
+.l-branding {
+	display: inline-block;
+	width: 100%;
+	background: #f2f2f2;
+	box-shadow: rgb(224, 231, 235) 0px 3px 5px 5px;
+
+	.l-region--branding {
+		max-width: 1360px;
+		margin: 0 auto;
+	}
 }
