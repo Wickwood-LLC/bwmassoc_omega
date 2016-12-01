@@ -13,14 +13,15 @@ body {
   max-width: 1360px;
   margin: 0 auto; }
 
-.pane-page-site-name h1 a {
+.pane-page-site-name h1 {
   text-align: center;
-  text-decoration: none;
-  color: #0355a3;
   font-size: 37px;
   font-family: 'pnb';
   font-weight: 600;
   margin-top: 3px; }
+  .pane-page-site-name h1 a {
+    text-decoration: none;
+    color: #0355a3; }
 
 .pane-page-slogan h2 {
   text-align: center;

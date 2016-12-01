@@ -1,11 +1,14 @@
-.pane-page-site-name h1 a {
+.pane-page-site-name h1 {
 	text-align: center;
-	text-decoration: none;
-	color: #0355a3;
 	font-size: 37px;
 	font-family: 'pnb';
 	font-weight: 600;
 	margin-top: 3px;
+
+	a {
+		text-decoration: none;
+		color: #0355a3;
+	}
 }
 
 .pane-page-slogan h2 {
