@@ -11,8 +11,7 @@ html {
 
 body {
   background-color: #f2fafe;
-  margin-left: 0;
-  margin-right: 0; }
+  margin: 0; }
 
 .l-region--header,
 .l-main,
@@ -83,7 +82,8 @@ body {
     margin: 0;
     padding: 0; }
     #block-system-user-menu ul.menu li {
-      list-style: none; }
+      list-style: none;
+      float: left; }
       #block-system-user-menu ul.menu li a {
         display: block;
         color: #262626;
