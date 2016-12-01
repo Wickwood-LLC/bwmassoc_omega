@@ -5,3 +5,10 @@ html {
 body {
 	background-color: #f2fafe;
 }
+
+.l-region--header,
+.l-main,
+.l-footer {
+	max-width: 1360px;
+	margin: 0 auto;
+}

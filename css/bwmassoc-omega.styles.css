@@ -7,12 +7,15 @@ html {
 body {
   background-color: #f2fafe; }
 
-#block-panels-mini-header-bwmassoc-com {
-  max-width: 1170px;
+.l-region--header,
+.l-main,
+.l-footer {
+  max-width: 1360px;
   margin: 0 auto; }
 
-.pane-page-site-name h1 {
+.pane-page-site-name h1 a {
   text-align: center;
+  text-decoration: none;
   color: #0355a3;
   font-size: 37px;
   font-family: 'pnb';
@@ -24,6 +27,7 @@ body {
   color: #2c2c2c;
   font-size: 29px;
   font-family: 'pnb';
-  font-weight: 600; }
+  font-weight: 600;
+  margin: 10px 0; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
