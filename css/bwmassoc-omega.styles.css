@@ -24,7 +24,8 @@ body {
   display: inline-block;
   width: 100%;
   background: #f2f2f2;
-  box-shadow: #e0e7eb 0px 3px 5px 5px; }
+  box-shadow: #e0e7eb 0px 3px 5px 5px;
+  margin-bottom: 10px; }
   .l-branding .l-region--branding {
     max-width: 1360px;
     margin: 0 auto; }
@@ -61,12 +62,16 @@ body {
         color: #1894c7; }
       #block-superfish-1 #superfish-1 li a {
         color: #262626;
-        font-family: "Open Sans";
+        font-family: 'Open Sans', sans-serif;
         font-size: 16px;
         font-weight: 600;
         padding: 16px 20px;
         text-transform: uppercase;
         position: relative;
         top: 0px; }
+        #block-superfish-1 #superfish-1 li a :hover, #block-superfish-1 #superfish-1 li a :focus {
+          background: #fff;
+          text-decoration: none;
+          color: #1894c7; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

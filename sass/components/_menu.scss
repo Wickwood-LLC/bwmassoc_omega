@@ -16,13 +16,19 @@
 
 			a {
 				color: #262626;
-				font-family: "Open Sans";
+				font-family: 'Open Sans', sans-serif;
 				font-size: 16px;
 				font-weight: 600;
 				padding: 16px 20px;
 				text-transform: uppercase;
 				position: relative;
 				top: 0px;
+
+				:hover, :focus {
+					background: #fff;
+			    text-decoration: none;
+			   	color: #1894c7;
+				}
 			}
 		}
 	}
