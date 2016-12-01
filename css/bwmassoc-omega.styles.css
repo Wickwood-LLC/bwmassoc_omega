@@ -68,7 +68,8 @@ body {
         text-transform: uppercase;
         position: relative;
         top: 0px;
-        text-decoration: none; }
+        text-decoration: none;
+        line-height: 1.5; }
         #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a:focus {
           background: #fff;
           text-decoration: none;
@@ -94,7 +95,8 @@ body {
         text-transform: uppercase;
         position: relative;
         top: 0px;
-        text-decoration: none; }
+        text-decoration: none;
+        line-height: 1.5; }
         #block-system-user-menu ul.menu li a:hover, #block-system-user-menu ul.menu li a:focus {
           background: #fff;
           text-decoration: none;
