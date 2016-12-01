@@ -55,7 +55,7 @@ body {
   #block-superfish-1 #superfish-1 {
     position: initial; }
     #block-superfish-1 #superfish-1 li {
-      padding: 0 10px; }
+      padding: 0; }
       #block-superfish-1 #superfish-1 li.active a {
         background: #fff;
         text-decoration: none;
@@ -75,6 +75,30 @@ body {
           text-decoration: none;
           color: #1894c7; }
         #block-superfish-1 #superfish-1 li a i {
+          margin-right: 3px; }
+
+#block-system-user-menu {
+  float: left; }
+  #block-system-user-menu ul.menu {
+    margin: 0;
+    padding: 0; }
+    #block-system-user-menu ul.menu li {
+      list-style: none; }
+      #block-system-user-menu ul.menu li a {
+        color: #262626;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 16px 20px;
+        text-transform: uppercase;
+        position: relative;
+        top: 0px;
+        text-decoration: none; }
+        #block-system-user-menu ul.menu li a:hover, #block-system-user-menu ul.menu li a:focus {
+          background: #fff;
+          text-decoration: none;
+          color: #1894c7; }
+        #block-system-user-menu ul.menu li a i {
           margin-right: 3px; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

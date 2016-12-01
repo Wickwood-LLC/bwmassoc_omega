@@ -6,13 +6,48 @@
 		position: initial;
 
 		li {
-			padding: 0 10px;
+			padding: 0;
 
 			&.active a {
 				background: #fff;
 				text-decoration: none;
 				color: #1894c7;
 			}
+
+			a {
+				color: #262626;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 16px;
+				font-weight: 600;
+				padding: 16px 20px;
+				text-transform: uppercase;
+				position: relative;
+				top: 0px;
+				text-decoration: none;
+
+				&:hover, &:focus {
+					background: #fff;
+			    text-decoration: none;
+			   	color: #1894c7;
+				}
+
+				i {
+					margin-right: 3px;
+				}
+			}
+		}
+	}
+}
+
+#block-system-user-menu {
+	float: left;
+
+	ul.menu {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
 
 			a {
 				color: #262626;
