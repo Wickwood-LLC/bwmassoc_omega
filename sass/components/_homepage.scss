@@ -55,7 +55,8 @@
 			background: #ec1f27;
 			padding: 9px 15px;
 			border-radius: 75px;
-			margin-left: 40px;
+			margin: 1em auto;
+			display: table;
 		}
 		.saved {
 			color: #fff;
@@ -65,7 +66,19 @@
 			background: #00ad31;
 			padding: 9px 15px;
 			border-radius: 75px;
-			margin-left: 40px;
+			margin: 1em auto;
+			display: table;
+		}
+		.calculate-savings {
+			color: #fff;
+			font-size: 18px;
+			font-family: 'Roboto';
+			font-weight: 600;
+			background: #017cca;
+			padding: 9px 15px;
+			border-radius: 75px;
+			margin: 1em auto;
+			display: table;
 		}
 
 		#conventional {
