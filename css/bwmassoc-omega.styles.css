@@ -189,7 +189,33 @@ h6 {
     font-weight: 500;
     padding: 12px 10px;
     display: inline-block;
-    text-decoration: none; }
+    text-decoration: none;
+    position: relative;
+    border-top-right-radius: 24px;
+    padding-right: 13px; }
+    .quicktabs-tabs li a:after {
+      content: " ";
+      position: absolute;
+      top: -1px;
+      width: 23px;
+      background-color: inherit;
+      border-radius: 0 12px 0 0;
+      -webkit-transform: skew(24deg);
+              transform: skew(24deg);
+      right: -13px;
+      z-index: 1;
+      height: 46px; }
+  .quicktabs-tabs li.active a {
+    background-color: white;
+    color: black;
+    border: 1px solid #c1c1c1;
+    border-bottom: 1px solid white;
+    z-index: 2; }
+    .quicktabs-tabs li.active a:after {
+      border: 1px solid #c1c1c1;
+      border-left: 0;
+      border-bottom: 0;
+      z-index: 2; }
   .quicktabs-tabs li:first-child a {
     background: #57a63d;
     border: 1px solid #57a63d; }
