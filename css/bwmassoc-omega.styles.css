@@ -176,6 +176,21 @@ h6 {
   #wwm-collapse-3 a#logo img {
     height: 132px; }
 
+.quicktabs-tabs {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -1px; }
+  .quicktabs-tabs li a {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 10px;
+    display: inline-block;
+    text-decoration: none; }
+
 #quicktabs-container-bwmassoc_home_page {
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1; }
@@ -194,7 +209,7 @@ h6 {
     position: relative; }
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items {
       position: absolute;
-      bottom: -26px; }
+      bottom: -24px; }
       #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items img {
         width: 100%; }
   #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] img[alt="Compare Home"] {

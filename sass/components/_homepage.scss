@@ -1,3 +1,21 @@
+.quicktabs-tabs {
+	margin: 0;
+	padding: 0;
+	margin-bottom: -1px;
+
+	li a {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 10px;
+    display: inline-block;
+    text-decoration: none;
+	}
+}
+
 #quicktabs-container-bwmassoc_home_page {
 	background: #fff none repeat scroll 0 0;
 	border: 1px solid #c1c1c1;
@@ -23,7 +41,7 @@
 
 			.field__items {
 				position: absolute;
-				bottom: -26px;
+				bottom: -24px;
 
 				img {
 					width: 100%;
