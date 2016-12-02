@@ -56,6 +56,36 @@
 		}
 	}
 
+	.right-column {
+		.share-us {
+			.pane-title {
+				text-align: center;
+    		margin-bottom: 0;
+    		font-size: 18px;
+			}
+			p {
+				margin: 3px;
+				font-size: 14px;
+				color: grey;
+			}
+		}
+
+		#widgets-element-socialmedia_share-default {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			align-items: center;
+			width: 100px;
+			margin: 0 auto;
+
+			.widgets-element a {
+				display: block;
+				height: 32px;
+				margin: 2px;
+			}
+		}
+	}
+
 	a#logo {
 		display: block;
     margin-top: 10px;
