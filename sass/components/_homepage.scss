@@ -1,4 +1,4 @@
-.quicktabs-tabs {
+ul.quicktabs-tabs {
 	margin: 0;
 	padding: 0;
 	margin-bottom: -1px;
@@ -8,7 +8,7 @@
 
 		a {
 	    border-top-left-radius: 5px;
-	    border-top-right-radius: 5px;
+	    border-top-right-radius: 24px;
 	    color: #fff;
 	    font-family: "Roboto";
 	    font-size: 17px;
@@ -17,8 +17,8 @@
 	    display: inline-block;
 	    text-decoration: none;
 	    position: relative;
-	    border-top-right-radius: 24px;
 	    padding-right: 13px;
+	    border-bottom: 1px solid #c1c1c1;
 
 	    &:after {
 	    	content: " ";
@@ -27,6 +27,7 @@
 			  width: 23px;
 			  background-color: inherit;
 			  border-radius: 0 12px 0 0;
+			  border-bottom: 1px solid #c1c1c1;
 			  transform: skew(24deg);
 			  right: -13px;
 			  z-index: 1;
