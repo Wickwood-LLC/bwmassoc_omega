@@ -43,3 +43,25 @@
     }
 	}
 }
+
+#wwm-collapse-3 {
+	.left-column {
+		> div {
+			display: flex;
+    	flex-wrap: nowrap;
+
+    	.pane-block-4 {
+    		width: 150px;
+    	}
+		}
+	}
+
+	a#logo {
+		display: block;
+    margin-top: 10px;
+
+    img {
+    	height: 132px;
+    }
+	}
+}

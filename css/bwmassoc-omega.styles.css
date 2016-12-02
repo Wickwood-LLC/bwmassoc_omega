@@ -64,6 +64,20 @@ body {
   #bbblogo a#bbblink img:hover {
     margin-left: -82px; }
 
+#wwm-collapse-3 .left-column > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+  #wwm-collapse-3 .left-column > div .pane-block-4 {
+    width: 150px; }
+#wwm-collapse-3 a#logo {
+  display: block;
+  margin-top: 10px; }
+  #wwm-collapse-3 a#logo img {
+    height: 132px; }
+
 #block-superfish-3 {
   display: inline-block;
   float: right; }
