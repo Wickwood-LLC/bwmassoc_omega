@@ -190,19 +190,19 @@ h6 {
     padding: 12px 10px;
     display: inline-block;
     text-decoration: none; }
-  .quicktabs-tabs li:first-child {
+  .quicktabs-tabs li:first-child a {
     background: #57a63d;
     border: 1px solid #57a63d; }
-  .quicktabs-tabs li:nth-child(2) {
+  .quicktabs-tabs li:nth-child(2) a {
     background: #0792cd;
     border: 1px solid #0792cd; }
-  .quicktabs-tabs li:nth-child(3) {
+  .quicktabs-tabs li:nth-child(3) a {
     background: #ec1f27;
     border: 1px solid #ec1f27; }
-  .quicktabs-tabs li:nth-child(4) {
+  .quicktabs-tabs li:nth-child(4) a {
     background: #33a6d7;
     border: 1px solid #33a6d7; }
-  .quicktabs-tabs li:nth-child(5) {
+  .quicktabs-tabs li:nth-child(5) a {
     background: #0355a3;
     border: 1px solid #0355a3; }
 

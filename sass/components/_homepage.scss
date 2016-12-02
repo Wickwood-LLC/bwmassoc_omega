@@ -16,23 +16,23 @@
 	    text-decoration: none;
 		}
 
-		&:first-child {
+		&:first-child a {
 			background: #57a63d;
 			border: 1px solid #57a63d;
 		}
-		&:nth-child(2) {
+		&:nth-child(2) a {
 			background: #0792cd;
 			border: 1px solid #0792cd;
 		}
-		&:nth-child(3) {
+		&:nth-child(3) a {
 			background: #ec1f27;
 			border: 1px solid #ec1f27;
 		}
-		&:nth-child(4) {
+		&:nth-child(4) a {
 			background: #33a6d7;
 			border: 1px solid #33a6d7;
 		}
-		&:nth-child(5) {
+		&:nth-child(5) a {
 			background: #0355a3;
 			border: 1px solid #0355a3;
 		}
