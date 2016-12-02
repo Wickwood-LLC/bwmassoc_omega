@@ -29,6 +29,25 @@ body {
     max-width: 1360px;
     margin: 0 auto; }
 
+#block-block-3 p {
+  display: inline-block;
+  width: 100%; }
+#block-block-3 .copyright {
+  color: #181818;
+  font-size: 13px;
+  font-family: 'Open Sans';
+  margin: 0;
+  float: left; }
+#block-block-3 .footer-links {
+  float: right;
+  font-size: 13px;
+  font-family: 'Open Sans'; }
+  #block-block-3 .footer-links a {
+    color: #0355a3;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    text-decoration: underline; }
+
 .pane-page-site-name h1 {
   text-align: center;
   font-size: 37px;
