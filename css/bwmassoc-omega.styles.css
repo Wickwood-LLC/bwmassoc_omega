@@ -54,7 +54,8 @@ body {
   width: 82px;
   margin-top: 10px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  height: 132px; }
   #bbblogo a#bbblink:hover {
     width: 107px;
     background-color: white;
