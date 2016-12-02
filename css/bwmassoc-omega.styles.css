@@ -123,6 +123,10 @@ body {
   #wwm-collapse-3 a#logo img {
     height: 132px; }
 
+#quicktabs-container-bwmassoc_home_page {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #c1c1c1; }
+
 #block-superfish-3 {
   display: inline-block;
   float: right; }
