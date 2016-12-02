@@ -47,6 +47,27 @@
 			}
 		}
 
+		.saved-nothing {
+			color: #fff;
+			font-size: 18px;
+			font-family: 'Roboto';
+			font-weight: 600;
+			background: #ec1f27;
+			padding: 9px 15px;
+			border-radius: 75px;
+			margin-left: 40px;
+		}
+		.saved {
+			color: #fff;
+			font-size: 18px;
+			font-family: 'Roboto';
+			font-weight: 600;
+			background: #00ad31;
+			padding: 9px 15px;
+			border-radius: 75px;
+			margin-left: 40px;
+		}
+
 		#conventional {
 			display: flex;
 		}
