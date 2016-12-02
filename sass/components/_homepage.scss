@@ -1,4 +1,34 @@
 #quicktabs-container-bwmassoc_home_page {
 	background: #fff none repeat scroll 0 0;
 	border: 1px solid #c1c1c1;
+
+	hr {
+		margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+	}
+
+	article[about="/dare-to-compare"] {
+		.field--name-body {
+			width: calc((100% / 3) * 2);
+			display: inline-block;
+		}
+
+		.field--name-field-featured-image {
+			width: calc(100% / 3);
+			display: inline-block;
+			height: 100%;
+			position: relative;
+
+			.field__items {
+				position: absolute;
+				bottom: -25px;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
 }

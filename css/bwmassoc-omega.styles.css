@@ -126,6 +126,24 @@ body {
 #quicktabs-container-bwmassoc_home_page {
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1; }
+  #quicktabs-container-bwmassoc_home_page hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee; }
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-body {
+    width: calc((100% / 3) * 2);
+    display: inline-block; }
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image {
+    width: calc(100% / 3);
+    display: inline-block;
+    height: 100%;
+    position: relative; }
+    #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items {
+      position: absolute;
+      bottom: -25px; }
+      #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items img {
+        width: 100%; }
 
 #block-superfish-3 {
   display: inline-block;
