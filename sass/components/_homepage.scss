@@ -23,12 +23,36 @@
 
 			.field__items {
 				position: absolute;
-				bottom: -25px;
+				bottom: -26px;
 
 				img {
 					width: 100%;
 				}
 			}
+		}
+
+		img[alt="Compare Home"] {
+			float: left;
+		}
+
+		.text-info {
+			ul {
+				margin: 0;
+				padding: 0;
+
+				li {
+					display: flex;
+					align-items: center;
+				}
+			}
+		}
+
+		#conventional {
+			display: flex;
+		}
+
+		#supersaver {
+			display: flex;
 		}
 	}
 }

@@ -141,9 +141,29 @@ body {
     position: relative; }
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items {
       position: absolute;
-      bottom: -25px; }
+      bottom: -26px; }
       #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items img {
         width: 100%; }
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] img[alt="Compare Home"] {
+    float: left; }
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .text-info ul {
+    margin: 0;
+    padding: 0; }
+    #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .text-info ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #conventional {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #supersaver {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 #block-superfish-3 {
   display: inline-block;
