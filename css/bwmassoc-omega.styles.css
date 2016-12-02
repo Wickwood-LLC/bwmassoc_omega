@@ -48,6 +48,21 @@ body {
   font-weight: 600;
   margin: 10px 0; }
 
+#bbblogo a#bbblink {
+  display: block;
+  overflow: hidden;
+  width: 82px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; }
+  #bbblogo a#bbblink:hover {
+    width: 107px;
+    background-color: white;
+    border: 1px solid #035a78;
+    border-radius: 10px; }
+  #bbblogo a#bbblink img:hover {
+    margin-left: -82px; }
+
 #block-superfish-3 {
   display: inline-block;
   float: right; }
