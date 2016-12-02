@@ -190,6 +190,21 @@ h6 {
     padding: 12px 10px;
     display: inline-block;
     text-decoration: none; }
+  .quicktabs-tabs li:first-child {
+    background: #57a63d;
+    border: 1px solid #57a63d; }
+  .quicktabs-tabs li:nth-child(2) {
+    background: #0792cd;
+    border: 1px solid #0792cd; }
+  .quicktabs-tabs li:nth-child(3) {
+    background: #ec1f27;
+    border: 1px solid #ec1f27; }
+  .quicktabs-tabs li:nth-child(4) {
+    background: #33a6d7;
+    border: 1px solid #33a6d7; }
+  .quicktabs-tabs li:nth-child(5) {
+    background: #0355a3;
+    border: 1px solid #0355a3; }
 
 #quicktabs-container-bwmassoc_home_page {
   background: #fff none repeat scroll 0 0;

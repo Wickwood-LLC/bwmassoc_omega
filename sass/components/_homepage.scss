@@ -3,16 +3,39 @@
 	padding: 0;
 	margin-bottom: -1px;
 
-	li a {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    color: #fff;
-    font-family: "Roboto";
-    font-size: 17px;
-    font-weight: 500;
-    padding: 12px 10px;
-    display: inline-block;
-    text-decoration: none;
+	li {
+		a {
+	    border-top-left-radius: 5px;
+	    border-top-right-radius: 5px;
+	    color: #fff;
+	    font-family: "Roboto";
+	    font-size: 17px;
+	    font-weight: 500;
+	    padding: 12px 10px;
+	    display: inline-block;
+	    text-decoration: none;
+		}
+
+		&:first-child {
+			background: #57a63d;
+			border: 1px solid #57a63d;
+		}
+		&:nth-child(2) {
+			background: #0792cd;
+			border: 1px solid #0792cd;
+		}
+		&:nth-child(3) {
+			background: #ec1f27;
+			border: 1px solid #ec1f27;
+		}
+		&:nth-child(4) {
+			background: #33a6d7;
+			border: 1px solid #33a6d7;
+		}
+		&:nth-child(5) {
+			background: #0355a3;
+			border: 1px solid #0355a3;
+		}
 	}
 }
 
