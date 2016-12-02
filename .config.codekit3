@@ -374,6 +374,18 @@
 		"oAP": "\/template.php",
 		"oF": 0
 		},
+	"\/templates\/maintenance-page.tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/maintenance-page.tpl.php",
+		"oF": 0
+		},
+	"\/templates\/page.tpl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/page.tpl.php",
+		"oF": 0
+		},
 	"\/theme-settings.php": {
 		"ft": 8192,
 		"oA": 2,
