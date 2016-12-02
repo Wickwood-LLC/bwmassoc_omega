@@ -180,57 +180,59 @@ h6 {
   margin: 0;
   padding: 0;
   margin-bottom: -1px; }
-  .quicktabs-tabs li a {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    color: #fff;
-    font-family: "Roboto";
-    font-size: 17px;
-    font-weight: 500;
-    padding: 12px 10px;
-    display: inline-block;
-    text-decoration: none;
-    position: relative;
-    border-top-right-radius: 24px;
-    padding-right: 13px; }
-    .quicktabs-tabs li a:after {
-      content: " ";
-      position: absolute;
-      top: -1px;
-      width: 23px;
-      background-color: inherit;
-      border-radius: 0 12px 0 0;
-      -webkit-transform: skew(24deg);
-              transform: skew(24deg);
-      right: -13px;
-      z-index: 1;
-      height: 46px; }
-  .quicktabs-tabs li:first-child a {
-    background: #57a63d;
-    border: 1px solid #57a63d; }
-  .quicktabs-tabs li:nth-child(2) a {
-    background: #0792cd;
-    border: 1px solid #0792cd; }
-  .quicktabs-tabs li:nth-child(3) a {
-    background: #ec1f27;
-    border: 1px solid #ec1f27; }
-  .quicktabs-tabs li:nth-child(4) a {
-    background: #33a6d7;
-    border: 1px solid #33a6d7; }
-  .quicktabs-tabs li:nth-child(5) a {
-    background: #0355a3;
-    border: 1px solid #0355a3; }
-  .quicktabs-tabs li.active a {
-    background-color: white;
-    color: black;
-    border: 1px solid #c1c1c1;
-    border-bottom: 1px solid white;
-    z-index: 2; }
-    .quicktabs-tabs li.active a:after {
+  .quicktabs-tabs li {
+    padding: 0; }
+    .quicktabs-tabs li a {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      color: #fff;
+      font-family: "Roboto";
+      font-size: 17px;
+      font-weight: 500;
+      padding: 12px 10px;
+      display: inline-block;
+      text-decoration: none;
+      position: relative;
+      border-top-right-radius: 24px;
+      padding-right: 13px; }
+      .quicktabs-tabs li a:after {
+        content: " ";
+        position: absolute;
+        top: -1px;
+        width: 23px;
+        background-color: inherit;
+        border-radius: 0 12px 0 0;
+        -webkit-transform: skew(24deg);
+                transform: skew(24deg);
+        right: -13px;
+        z-index: 1;
+        height: 46px; }
+    .quicktabs-tabs li:first-child a {
+      background: #57a63d;
+      border: 1px solid #57a63d; }
+    .quicktabs-tabs li:nth-child(2) a {
+      background: #0792cd;
+      border: 1px solid #0792cd; }
+    .quicktabs-tabs li:nth-child(3) a {
+      background: #ec1f27;
+      border: 1px solid #ec1f27; }
+    .quicktabs-tabs li:nth-child(4) a {
+      background: #33a6d7;
+      border: 1px solid #33a6d7; }
+    .quicktabs-tabs li:nth-child(5) a {
+      background: #0355a3;
+      border: 1px solid #0355a3; }
+    .quicktabs-tabs li.active a {
+      background-color: white;
+      color: black;
       border: 1px solid #c1c1c1;
-      border-left: 0;
-      border-bottom: 0;
+      border-bottom: 1px solid white;
       z-index: 2; }
+      .quicktabs-tabs li.active a:after {
+        border: 1px solid #c1c1c1;
+        border-left: 0;
+        border-bottom: 0;
+        z-index: 2; }
 
 #quicktabs-container-bwmassoc_home_page {
   background: #fff none repeat scroll 0 0;
@@ -287,7 +289,6 @@ h6 {
     display: table; }
   #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .calculate-savings {
     color: #fff;
-    font-size: 18px;
     font-family: 'Roboto';
     font-weight: 600;
     background: #017cca;
