@@ -48,18 +48,18 @@ body {
   font-weight: 600;
   margin: 10px 0; }
 
-#block-superfish-1 {
+#block-superfish-3 {
   display: inline-block;
   float: right; }
-  #block-superfish-1 #superfish-1 {
+  #block-superfish-3 ul.sf-menu-main-menu---bwmassoc {
     position: initial; }
-    #block-superfish-1 #superfish-1 li {
+    #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li {
       padding: 0; }
-      #block-superfish-1 #superfish-1 li.active a {
+      #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li.active a {
         background: #fff;
         text-decoration: none;
         color: #1894c7; }
-      #block-superfish-1 #superfish-1 li a {
+      #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li a {
         color: #262626;
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
@@ -70,22 +70,22 @@ body {
         top: 0px;
         text-decoration: none;
         line-height: 1.5; }
-        #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a:focus {
+        #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li a:hover, #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li a:focus {
           background: #fff;
           text-decoration: none;
           color: #1894c7; }
-        #block-superfish-1 #superfish-1 li a i {
+        #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li a i {
           margin-right: 3px; }
 
-#block-system-user-menu {
+#block-superfish-2 {
   float: left; }
-  #block-system-user-menu ul.menu {
+  #block-superfish-2 ul.sf-menu-user-menu-bwmassoc {
     margin: 0;
     padding: 0; }
-    #block-system-user-menu ul.menu li {
+    #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li {
       list-style: none;
       float: left; }
-      #block-system-user-menu ul.menu li a {
+      #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a {
         display: block;
         color: #262626;
         font-family: 'Open Sans', sans-serif;
@@ -97,14 +97,14 @@ body {
         top: 0px;
         text-decoration: none;
         line-height: 1.5; }
-        #block-system-user-menu ul.menu li a:hover, #block-system-user-menu ul.menu li a:focus {
+        #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a:hover, #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a:focus {
           background: #fff;
           text-decoration: none;
           color: #1894c7; }
-        #block-system-user-menu ul.menu li a[href*='login'] {
+        #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a[href*='login'] {
           background: #1894c7;
           color: white; }
-        #block-system-user-menu ul.menu li a i {
+        #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a i {
           margin-right: 3px; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

@@ -1,8 +1,8 @@
-#block-superfish-1 {
+#block-superfish-3 {
 	display: inline-block;
 	float: right;
 
-	#superfish-1 {
+	ul.sf-menu-main-menu---bwmassoc {
 		position: initial;
 
 		li {
@@ -40,10 +40,10 @@
 	}
 }
 
-#block-system-user-menu {
+#block-superfish-2 {
 	float: left;
 
-	ul.menu {
+	ul.sf-menu-user-menu-bwmassoc {
 		margin: 0;
 		padding: 0;
 
