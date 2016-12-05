@@ -108,11 +108,13 @@ h6 {
     text-decoration: none;
     color: #0355a3; }
 
-.pane-page-slogan h2 {
+.pane-current-6 h2,
+.pane-current-7 h2,
+.pane-current-8 h2 {
   text-align: center;
   color: #2c2c2c;
   font-size: 29px;
-  font-family: 'pnb';
+  font-family: 'Raleway';
   font-weight: 600;
   margin: 10px 0; }
 
