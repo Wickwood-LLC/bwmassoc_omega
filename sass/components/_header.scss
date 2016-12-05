@@ -56,9 +56,12 @@
 	    border-radius: 10px;
     }
 
-    img:hover {
-    	margin-left: -132px;
+    img {
     	height: 200px;
+
+    	&:hover {
+      	margin-left: -132px;
+      }
     }
 	}
 }

@@ -143,9 +143,10 @@ h6 {
     background-color: white;
     border: 1px solid #035a78;
     border-radius: 10px; }
-  #bbblogo a#bbblink img:hover {
-    margin-left: -132px;
+  #bbblogo a#bbblink img {
     height: 200px; }
+    #bbblogo a#bbblink img:hover {
+      margin-left: -132px; }
 
 #wwm-collapse-3 .left-column > div {
   display: -webkit-box;
