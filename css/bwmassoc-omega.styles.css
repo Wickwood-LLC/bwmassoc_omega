@@ -195,7 +195,8 @@ ul.quicktabs-tabs {
   padding: 0;
   margin-bottom: -1px; }
   ul.quicktabs-tabs li {
-    padding: 0; }
+    padding: 0;
+    margin-right: 5px; }
     ul.quicktabs-tabs li a {
       border-top-left-radius: 5px;
       border-top-right-radius: 24px;
@@ -276,7 +277,8 @@ ul.quicktabs-tabs {
       #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items img {
         width: 100%; }
   #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] img[alt="Compare Home"] {
-    float: left; }
+    float: left;
+    width: 300px; }
   #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .text-info ul {
     margin: 0;
     padding: 0; }
@@ -317,14 +319,6 @@ ul.quicktabs-tabs {
     margin: 1em auto;
     display: table;
     text-decoration: none; }
-  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #conventional {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #supersaver {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,

@@ -5,6 +5,7 @@ ul.quicktabs-tabs {
 
 	li {
 		padding: 0;
+		margin-right: 5px;
 
 		a {
 	    border-top-left-radius: 5px;
@@ -113,6 +114,7 @@ ul.quicktabs-tabs {
 
 		img[alt="Compare Home"] {
 			float: left;
+			width: 300px;
 		}
 
 		.text-info {
@@ -159,14 +161,6 @@ ul.quicktabs-tabs {
 			margin: 1em auto;
 			display: table;
 			text-decoration: none;
-		}
-
-		#conventional {
-			display: flex;
-		}
-
-		#supersaver {
-			display: flex;
 		}
 	}
 }
