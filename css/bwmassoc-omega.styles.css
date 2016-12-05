@@ -129,6 +129,8 @@ h6 {
     display: inline-block; }
   .pane-current-9 .fieldable-panels-pane {
     display: inline-block; }
+  .pane-current-9 p {
+    margin: 0; }
 
 #bbblogo a#bbblink {
   display: block;
