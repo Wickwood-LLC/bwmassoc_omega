@@ -19,6 +19,7 @@ ul.quicktabs-tabs {
 	    text-decoration: none;
 	    position: relative;
 	    padding-right: 13px;
+	    padding-left: 1em;
 	    border-bottom: 1px solid #c1c1c1;
 
 	    &:after {
@@ -129,9 +130,16 @@ ul.quicktabs-tabs {
 			}
 		}
 
+		#conventional,
+		#supersaver {
+			h2, h3 {
+				margin: 0;
+			}
+		}
+
 		#savings {
 			margin-bottom: 1em;
-			
+
 			h1 {
 				margin-bottom: 0;
 			}

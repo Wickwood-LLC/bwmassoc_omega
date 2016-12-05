@@ -209,6 +209,7 @@ ul.quicktabs-tabs {
       text-decoration: none;
       position: relative;
       padding-right: 13px;
+      padding-left: 1em;
       border-bottom: 1px solid #c1c1c1; }
       ul.quicktabs-tabs li a:after {
         content: " ";
@@ -289,6 +290,10 @@ ul.quicktabs-tabs {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #conventional h2, #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #conventional h3,
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #supersaver h2,
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #supersaver h3 {
+    margin: 0; }
   #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #savings {
     margin-bottom: 1em; }
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #savings h1 {
