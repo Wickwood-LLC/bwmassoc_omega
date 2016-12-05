@@ -3,8 +3,7 @@
 	font-size: 37px;
 	font-family: 'Raleway';
 	font-weight: 600;
-	margin-top: 0.5em;
-	margin-bottom: 0;
+	margin: 0;
 
 	a {
 		text-decoration: none;
@@ -44,21 +43,22 @@
 	a#bbblink {
     display: block;
     overflow: hidden;
-    width: 82px;
+    width: 125px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    height: 132px;
+    height: 200px;
 
     &:hover {
-	    width: 107px;
+	    width: 150px;
 	    background-color: white;
 	    border: 1px solid #035a78;
 	    border-radius: 10px;
     }
 
     img:hover {
-    	margin-left: -82px;
+    	margin-left: -132px;
+    	height: 100%;
     }
 	}
 }
@@ -110,7 +110,7 @@
     margin-top: 10px;
 
     img {
-    	height: 132px;
+    	height: 200px;
     }
 	}
 }

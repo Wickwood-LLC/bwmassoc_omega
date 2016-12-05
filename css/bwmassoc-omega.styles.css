@@ -102,8 +102,7 @@ h6 {
   font-size: 37px;
   font-family: 'Raleway';
   font-weight: 600;
-  margin-top: 0.5em;
-  margin-bottom: 0; }
+  margin: 0; }
   .pane-page-site-name h1 a {
     text-decoration: none;
     color: #0355a3; }
@@ -134,18 +133,19 @@ h6 {
 #bbblogo a#bbblink {
   display: block;
   overflow: hidden;
-  width: 82px;
+  width: 125px;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  height: 132px; }
+  height: 200px; }
   #bbblogo a#bbblink:hover {
-    width: 107px;
+    width: 150px;
     background-color: white;
     border: 1px solid #035a78;
     border-radius: 10px; }
   #bbblogo a#bbblink img:hover {
-    margin-left: -82px; }
+    margin-left: -132px;
+    height: 100%; }
 
 #wwm-collapse-3 .left-column > div {
   display: -webkit-box;
@@ -185,7 +185,7 @@ h6 {
   display: block;
   margin-top: 10px; }
   #wwm-collapse-3 a#logo img {
-    height: 132px; }
+    height: 200px; }
 
 ul.quicktabs-tabs {
   margin: 0;
