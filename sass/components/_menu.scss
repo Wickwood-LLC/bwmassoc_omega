@@ -40,10 +40,12 @@
 	}
 }
 
-#block-superfish-2 {
+#block-superfish-2,
+#block-menu-menu-user-menu-bwmassoc-logout {
 	float: left;
 
-	ul.sf-menu-user-menu-bwmassoc {
+	ul.sf-menu-user-menu-bwmassoc,
+	ul.menu {
 		margin: 0;
 		padding: 0;
 
