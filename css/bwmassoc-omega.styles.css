@@ -326,6 +326,105 @@ ul.quicktabs-tabs {
     display: -ms-flexbox;
     display: flex; }
 
+/* These are styles for the login and registration pages. */
+.page-user-login #content .row,
+.not-logged-in.page-user #content .row,
+.page-user-password #content .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+.page-user-login .col-md-3,
+.not-logged-in.page-user .col-md-3,
+.page-user-password .col-md-3 {
+  display: none; }
+.page-user-login .col-md-6,
+.not-logged-in.page-user .col-md-6,
+.page-user-password .col-md-6 {
+  width: 100%;
+  max-width: 600px; }
+.page-user-login .radix-layouts-content,
+.not-logged-in.page-user .radix-layouts-content,
+.page-user-password .radix-layouts-content {
+  padding: 2em 1em 1em 1em;
+  border-radius: 10px;
+  border: 2px solid #689a04;
+  margin-bottom: 1em; }
+.page-user-login fieldset.captcha,
+.not-logged-in.page-user fieldset.captcha,
+.page-user-password fieldset.captcha {
+  border-radius: 10px;
+  text-align: center;
+  max-width: 554px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box; }
+  @media (min-width: 0px) and (max-width: 423px) {
+    .page-user-login fieldset.captcha,
+    .not-logged-in.page-user fieldset.captcha,
+    .page-user-password fieldset.captcha {
+      -webkit-transform: scale(0.75);
+              transform: scale(0.75);
+      -webkit-transform-origin: 0 0;
+              transform-origin: 0 0; } }
+  .page-user-login fieldset.captcha legend,
+  .not-logged-in.page-user fieldset.captcha legend,
+  .page-user-password fieldset.captcha legend {
+    text-align: left;
+    font-weight: bold; }
+.page-user-login #edit-submit,
+.not-logged-in.page-user #edit-submit,
+.page-user-password #edit-submit {
+  color: #fff;
+  display: table;
+  margin: 1em auto;
+  padding: 6px 12px !important;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #449d44; }
+  .page-user-login #edit-submit:hover,
+  .not-logged-in.page-user #edit-submit:hover,
+  .page-user-password #edit-submit:hover {
+    background-color: #5cb85c;
+    text-decoration: none; }
+
+form#user-login, form#user-pass {
+  margin: 0; }
+  form#user-login input, form#user-pass input {
+    font-size: 1em;
+    width: 100%; }
+  form#user-login > div > .form-item, form#user-pass > div > .form-item {
+    display: block;
+    margin: 0 auto 1em; }
+  form#user-login .g-recaptcha, form#user-pass .g-recaptcha {
+    display: table;
+    margin: auto; }
+  form#user-login #edit-actions, form#user-pass #edit-actions {
+    text-align: center;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0; }
+    form#user-login #edit-actions input, form#user-pass #edit-actions input {
+      margin: 0 auto;
+      width: auto; }
+
 #block-superfish-3 {
   display: inline-block;
   float: right; }

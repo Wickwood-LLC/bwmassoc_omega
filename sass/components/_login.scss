@@ -1,0 +1,99 @@
+/* These are styles for the login and registration pages. */
+
+.page-user-login,
+.not-logged-in.page-user,
+.page-user-password {
+    #content .row {
+        display: flex;
+        justify-content: center;
+    }
+    .col-md-3 {
+        display: none;
+    }
+    .col-md-6 {
+        width: 100%;
+        max-width: 600px;
+    }
+	.radix-layouts-content {
+        padding: 2em 1em 1em 1em;
+		border-radius: 10px;
+		border: 2px solid #689a04;
+        margin-bottom: 1em;
+	}
+
+    fieldset.captcha {
+        border-radius: 10px;
+        text-align: center;
+        max-width: 554px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+
+        @include breakpoint(0px 423px) {
+            transform: scale(0.75);
+            transform-origin: 0 0;
+        }
+
+        legend {
+            text-align: left;
+            font-weight: bold;
+        }
+    }
+
+    #edit-submit {
+        color: #fff;
+        display: table;
+        margin: 1em auto;
+        padding: 6px 12px !important;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #449d44;
+
+        &:hover {
+            background-color: #5cb85c;
+            text-decoration: none;
+        }
+    }
+}
+
+form#user-login, form#user-pass {
+    margin: 0;
+
+    input {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    & > div > .form-item {
+        display: block;
+        margin: 0 auto 1em;
+    }       
+
+    .g-recaptcha {
+        display: table;
+        margin: auto;
+    }
+
+    #edit-actions {
+        text-align: center;
+        background: none;
+        border: 0;
+        padding: 0;
+        margin: 0;
+
+        input {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+}
