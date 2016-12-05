@@ -327,9 +327,9 @@ ul.quicktabs-tabs {
     display: flex; }
 
 /* These are styles for the login and registration pages. */
-.page-user-login #content .row,
-.not-logged-in.page-user #content .row,
-.page-user-password #content .row {
+.page-user-login .l-main .row,
+.not-logged-in.page-user .l-main .row,
+.page-user-password .l-main .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
