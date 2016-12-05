@@ -28,6 +28,16 @@
 	font-size: 15px;
 	font-weight: 700;
 	text-align: center;
+	width: 100%;
+
+	&:before {
+		font-family: FontAwesome;
+		display: inline-block;
+	}
+
+	.fieldable-panels-pane {
+		display: inline-block;
+	}
 }
 
 #bbblogo {

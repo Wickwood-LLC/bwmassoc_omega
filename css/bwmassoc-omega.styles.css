@@ -123,7 +123,13 @@ h6 {
   font-family: "Raleway";
   font-size: 15px;
   font-weight: 700;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
+  .pane-current-9:before {
+    font-family: FontAwesome;
+    display: inline-block; }
+  .pane-current-9 .fieldable-panels-pane {
+    display: inline-block; }
 
 #bbblogo a#bbblink {
   display: block;
