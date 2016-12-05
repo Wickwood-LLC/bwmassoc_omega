@@ -322,6 +322,9 @@ ul.quicktabs-tabs {
     display: table;
     text-decoration: none;
     clear: both; }
+    #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .calculate-savings:before {
+      font-family: FontAwesome;
+      margin-right: 5px; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
