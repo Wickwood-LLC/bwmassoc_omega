@@ -298,7 +298,8 @@ ul.quicktabs-tabs {
     padding: 9px 15px;
     border-radius: 75px;
     margin: 1em auto;
-    display: table; }
+    display: table;
+    clear: both; }
   #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .saved {
     color: #fff;
     font-size: 18px;
@@ -308,7 +309,8 @@ ul.quicktabs-tabs {
     padding: 9px 15px;
     border-radius: 75px;
     margin: 1em auto;
-    display: table; }
+    display: table;
+    clear: both; }
   #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .calculate-savings {
     color: #fff;
     font-family: 'Roboto';
@@ -318,7 +320,8 @@ ul.quicktabs-tabs {
     border-radius: 75px;
     margin: 1em auto;
     display: table;
-    text-decoration: none; }
+    text-decoration: none;
+    clear: both; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
