@@ -129,6 +129,17 @@ ul.quicktabs-tabs {
 			}
 		}
 
+		#savings {
+			margin-bottom: 1em;
+			
+			h1 {
+				margin-bottom: 0;
+			}
+			p {
+				margin: 0;
+			}
+		}
+
 		.saved-nothing {
 			color: #fff;
 			font-size: 18px;
@@ -160,7 +171,7 @@ ul.quicktabs-tabs {
 			background: #017cca;
 			padding: 9px 15px;
 			border-radius: 75px;
-			margin: 1em auto;
+			margin: 0.5em auto;
 			display: table;
 			text-decoration: none;
 			clear: both;

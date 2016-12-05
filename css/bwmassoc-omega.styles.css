@@ -289,6 +289,12 @@ ul.quicktabs-tabs {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
+  #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #savings {
+    margin-bottom: 1em; }
+    #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #savings h1 {
+      margin-bottom: 0; }
+    #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #savings p {
+      margin: 0; }
   #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .saved-nothing {
     color: #fff;
     font-size: 18px;
@@ -318,7 +324,7 @@ ul.quicktabs-tabs {
     background: #017cca;
     padding: 9px 15px;
     border-radius: 75px;
-    margin: 1em auto;
+    margin: 0.5em auto;
     display: table;
     text-decoration: none;
     clear: both; }
