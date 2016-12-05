@@ -350,7 +350,7 @@ ul.quicktabs-tabs {
 .page-user-password .radix-layouts-content {
   padding: 2em 1em 1em 1em;
   border-radius: 10px;
-  border: 2px solid #689a04;
+  border: 2px solid #1894c7;
   margin-bottom: 1em; }
 .page-user-login fieldset.captcha,
 .not-logged-in.page-user fieldset.captcha,
@@ -397,11 +397,11 @@ ul.quicktabs-tabs {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  background-color: #449d44; }
+  background-color: #1894c7; }
   .page-user-login #edit-submit:hover,
   .not-logged-in.page-user #edit-submit:hover,
   .page-user-password #edit-submit:hover {
-    background-color: #5cb85c;
+    background-color: #0355a3;
     text-decoration: none; }
 
 form#user-login, form#user-pass {
