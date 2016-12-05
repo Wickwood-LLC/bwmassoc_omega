@@ -92,6 +92,9 @@ ul.quicktabs-tabs {
 	}
 
 	article[about="/dare-to-compare"] {
+		background: url('/files/styles/panopoly_image_original-no_watermark/public/media/image_uploads/girl.jpg?itok=-e97jT8t&c=e25b0691a8cdd1997455936d254a393f');
+		background-size: contain;
+		
 		.field--name-body {
 			width: calc((100% / 3) * 2);
 			display: inline-block;
