@@ -78,6 +78,18 @@ h6 {
   margin-right: 0;
   font-weight: bold; }
 
+.title-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .title-bar .page-title {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+
 #block-block-3 p {
   display: inline-block;
   width: 100%; }
