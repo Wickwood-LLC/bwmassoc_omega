@@ -437,6 +437,22 @@ form#user-login, form#user-pass {
 #block-superfish-3 {
   display: inline-block;
   float: right; }
+  #block-superfish-3 .sf-accordion-toggle {
+    padding: 16px 20px; }
+    #block-superfish-3 .sf-accordion-toggle a {
+      color: #262626;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      position: relative;
+      top: 0px;
+      text-decoration: none;
+      line-height: 1.5; }
+      #block-superfish-3 .sf-accordion-toggle a:hover, #block-superfish-3 .sf-accordion-toggle a:focus {
+        background: #fff;
+        text-decoration: none;
+        color: #1894c7; }
   #block-superfish-3 ul.sf-menu-main-menu---bwmassoc {
     position: initial; }
     #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li {
