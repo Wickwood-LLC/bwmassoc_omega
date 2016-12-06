@@ -69,24 +69,24 @@
 	a#bbblink {
     display: block;
     overflow: hidden;
-    width: 125px;
+    width: 113px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
+    height: 180px;
 
     &:hover {
-	    width: 152px;
+	    width: 136px;
 	    background-color: white;
 	    border: 1px solid #035a78;
 	    border-radius: 10px;
     }
 
     img {
-    	height: 200px;
+    	height: 180px;
 
     	&:hover {
-      	margin-left: -132px;
+      	margin-left: -120px;
       }
     }
 	}
