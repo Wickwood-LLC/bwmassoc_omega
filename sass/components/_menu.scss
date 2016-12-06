@@ -2,25 +2,27 @@
 	display: inline-block;
 	float: right;
 
-	.sf-accordion-toggle {
+	.sf-accordion-toggle a {
+		color: #262626;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		text-transform: uppercase;
+		position: relative;
+		top: 0px;
+		text-decoration: none;
+		line-height: 1.5;
 		padding: 16px 20px;
-		
-		a {
-			color: #262626;
-			font-family: 'Open Sans', sans-serif;
-			font-size: 16px;
-			font-weight: 600;
-			text-transform: uppercase;
-			position: relative;
-			top: 0px;
-			text-decoration: none;
-			line-height: 1.5;
-	
-			&:hover, &:focus {
-				background: #fff;
-			  text-decoration: none;
-			 	color: #1894c7;
-			}
+		display: block;
+
+		&:before {
+			content: '\f0c9 ';
+		}
+
+		&:hover, &:focus {
+			background: #fff;
+		  text-decoration: none;
+		 	color: #1894c7;
 		}
 	}
 
