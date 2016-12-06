@@ -83,17 +83,14 @@ h6 {
 #block-block-3 .copyright {
   color: #181818;
   font-size: 13px;
-  font-family: 'Open Sans';
   margin: 0;
   float: left; }
 #block-block-3 .footer-links {
   float: right;
-  font-size: 13px;
-  font-family: 'Open Sans'; }
+  font-size: 13px; }
   #block-block-3 .footer-links a {
     color: #0355a3;
     font-size: 13px;
-    font-family: 'Open Sans';
     text-decoration: underline; }
 
 .pane-page-site-name h1 {
@@ -200,7 +197,6 @@ ul.quicktabs-tabs {
       border-top-left-radius: 5px;
       border-top-right-radius: 24px;
       color: #fff;
-      font-family: "Roboto";
       font-size: 17px;
       font-weight: 500;
       padding: 12px 10px;
@@ -308,7 +304,6 @@ ul.quicktabs-tabs {
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .saved-nothing {
       color: #fff;
       font-size: 18px;
-      font-family: 'Roboto';
       font-weight: 600;
       background: #ec1f27;
       padding: 9px 15px;
@@ -319,7 +314,6 @@ ul.quicktabs-tabs {
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .saved {
       color: #fff;
       font-size: 18px;
-      font-family: 'Roboto';
       font-weight: 600;
       background: #00ad31;
       padding: 9px 15px;
@@ -329,7 +323,6 @@ ul.quicktabs-tabs {
       clear: both; }
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .calculate-savings {
       color: #fff;
-      font-family: 'Roboto';
       font-weight: 600;
       background: #017cca;
       padding: 9px 15px;
