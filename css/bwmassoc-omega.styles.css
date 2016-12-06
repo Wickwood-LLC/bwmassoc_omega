@@ -558,4 +558,53 @@ form#user-login, form#user-pass {
         #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a i {
           margin-right: 3px; }
 
+.primary-tabs {
+  height: 30px;
+  border-radius: 5px; }
+  .primary-tabs .tabs--primary {
+    margin-bottom: 0;
+    border-bottom: 0; }
+  .primary-tabs .tabs--secondary {
+    clear: right; }
+    .primary-tabs .tabs--secondary li a {
+      line-height: 1;
+      height: auto; }
+  .primary-tabs li {
+    margin-right: 0;
+    height: 30px;
+    position: relative;
+    background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
+    margin-bottom: 10px; }
+    .primary-tabs li:first-child {
+      border-radius: 5px 0 0 5px; }
+      .primary-tabs li:first-child a {
+        border-radius: 5px 0 0 5px; }
+    .primary-tabs li:last-child {
+      border-radius: 0 5px 5px 0; }
+      .primary-tabs li:last-child a {
+        border-radius: 0 5px 5px 0; }
+    .primary-tabs li :hover {
+      background-color: #e9efcc; }
+    .primary-tabs li.active {
+      background-image: -webkit-linear-gradient(top, #1e5799 0%, #8bbf50 0%, #6fae1b 98%, #6fae1b 100%);
+      background-image: linear-gradient(to bottom, #1e5799 0%, #8bbf50 0%, #6fae1b 98%, #6fae1b 100%); }
+  .primary-tabs a {
+    background: transparent;
+    font-size: 13px;
+    float: left;
+    text-align: center;
+    min-width: 70px;
+    padding: 5px 10px;
+    color: #333;
+    text-shadow: #fff 0 1px 0;
+    height: 30px;
+    line-height: 20px;
+    box-sizing: border-box; }
+    .primary-tabs a.active {
+      background-color: transparent;
+      color: #fff;
+      text-shadow: #33aa58 0 1px 0; }
+    .primary-tabs a:hover {
+      text-decoration: none; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

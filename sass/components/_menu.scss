@@ -152,3 +152,70 @@
 		}
 	}
 }
+
+.primary-tabs {
+	height: 30px;
+    border-radius: 5px;
+
+    .tabs--primary {
+    	margin-bottom: 0;
+    	border-bottom: 0;
+    }
+
+    .tabs--secondary {
+    	clear: right;
+
+    	li a {
+    		line-height: 1;
+    		height: auto;
+    	}
+    }
+
+    li {
+    	margin-right: 0;
+    	height: 30px;
+	    position: relative;
+	    background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
+	    margin-bottom: 10px;
+
+	    &:first-child {
+	    	border-radius: 5px 0 0 5px;
+	    	a {border-radius: 5px 0 0 5px;}
+	    }
+	    &:last-child {
+	    	border-radius: 0 5px 5px 0;
+	    	a {border-radius: 0 5px 5px 0;}
+	    }
+	    :hover {
+	    	background-color: #e9efcc;
+	    }
+
+	    &.active {
+	    	background-image: linear-gradient(to bottom, #1e5799 0%, #8bbf50 0%, #6fae1b 98%, #6fae1b 100%);
+	    }
+    }
+
+    a {
+    	background: transparent;
+    	font-size: 13px;
+    	float: left;
+	    text-align: center;
+	    min-width: 70px;
+	    padding: 5px 10px;
+	    color: #333;
+	    text-shadow: #fff 0 1px 0;
+	    height: 30px;
+    	line-height: 20px;
+    	box-sizing: border-box;
+
+    	&.active {
+    		background-color: transparent;
+    		color: #fff;
+    		text-shadow: #33aa58 0 1px 0;
+    	}
+
+    	&:hover {
+    		text-decoration: none;
+    	}
+    }
+}
