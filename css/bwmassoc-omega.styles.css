@@ -98,7 +98,8 @@ h6 {
   text-align: center;
   font-size: 48px;
   font-weight: 700;
-  margin: 0; }
+  margin: 0;
+  line-height: 1; }
   .pane-page-site-name h1 a {
     text-decoration: none;
     color: #0355a3; }
@@ -107,7 +108,8 @@ h6 {
 .pane-current-7 h2 {
   text-align: center;
   font-weight: 700;
-  margin: 10px 0; }
+  margin: 10px 0;
+  line-height: 1; }
   .pane-current-6 h2 a,
   .pane-current-7 h2 a {
     text-decoration: none;
@@ -121,10 +123,12 @@ h6 {
   .pane-current-7 a .slogan-2 {
     white-space: nowrap; }
     .pane-current-7 a .slogan-2:before {
-      content: ''; }
+      content: '';
+      margin-left: 13px; }
       @media (min-width: 1317px) {
         .pane-current-7 a .slogan-2:before {
-          content: '• '; } }
+          content: '• ';
+          margin-left: 0px; } }
 
 .pane-current-9 {
   color: #242424;
