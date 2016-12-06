@@ -590,10 +590,10 @@ form#user-login, form#user-pass {
       .tabs--primary li:last-child a {
         border-radius: 0 5px 5px 0; }
     .tabs--primary li :hover {
-      background-color: #e9efcc; }
+      background-color: #a1d4ea; }
     .tabs--primary li.active {
-      background-image: -webkit-linear-gradient(top, #1e5799 0%, #8bbf50 0%, #6fae1b 98%, #6fae1b 100%);
-      background-image: linear-gradient(to bottom, #1e5799 0%, #8bbf50 0%, #6fae1b 98%, #6fae1b 100%); }
+      background-image: -webkit-linear-gradient(top, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%);
+      background-image: linear-gradient(to bottom, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%); }
   .tabs--primary a {
     background: transparent;
     font-size: 13px;
