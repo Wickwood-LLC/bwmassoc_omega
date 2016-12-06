@@ -560,7 +560,9 @@ form#user-login, form#user-pass {
 
 .tabs--primary {
   height: 30px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  border-bottom: 0;
+  margin-bottom: 0; }
   .tabs--primary li {
     margin-right: 0;
     height: 30px;
