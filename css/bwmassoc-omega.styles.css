@@ -121,10 +121,10 @@ h6 {
   .pane-current-7 a .slogan-2 {
     white-space: nowrap; }
     .pane-current-7 a .slogan-2:before {
-      content: '• '; }
+      content: ''; }
       @media (min-width: 1317px) {
         .pane-current-7 a .slogan-2:before {
-          content: ''; } }
+          content: '• '; } }
 
 .pane-current-9 {
   color: #242424;

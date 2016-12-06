@@ -31,10 +31,10 @@
 		white-space: nowrap;
 
 		&:before {
-			content: '• ';
+			content: '';
 
 			@include breakpoint(1317px) {
-				content: '';
+				content: '• ';
 			}
 		}
 	}
