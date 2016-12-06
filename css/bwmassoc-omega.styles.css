@@ -107,11 +107,15 @@ h6 {
 .pane-current-7 h2,
 .pane-current-8 h2 {
   text-align: center;
-  color: #2c2c2c;
   font-size: 29px;
   font-family: 'Raleway';
   font-weight: 700;
   margin: 10px 0; }
+  .pane-current-6 h2 a,
+  .pane-current-7 h2 a,
+  .pane-current-8 h2 a {
+    text-decoration: none;
+    color: #2c2c2c; }
 
 .pane-current-9 {
   color: #242424;
@@ -450,7 +454,8 @@ form#user-login, form#user-pass {
     padding: 16px 20px;
     display: block; }
     #block-superfish-3 .sf-accordion-toggle a:before {
-      content: '\f0c9 '; }
+      content: '\f0c9  ';
+      font-family: FontAwesome; }
     #block-superfish-3 .sf-accordion-toggle a:hover, #block-superfish-3 .sf-accordion-toggle a:focus {
       background: #fff;
       text-decoration: none;
