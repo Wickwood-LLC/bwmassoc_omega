@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* No files to import found in variables/* */
 /* No files to import found in abstractions/* */
 html {
@@ -103,23 +104,27 @@ h6 {
     color: #0355a3; }
 
 .pane-current-6 h2,
-.pane-current-7 h2,
-.pane-current-8 h2 {
+.pane-current-7 h2 {
   text-align: center;
   font-weight: 700;
   margin: 10px 0; }
   .pane-current-6 h2 a,
-  .pane-current-7 h2 a,
-  .pane-current-8 h2 a {
+  .pane-current-7 h2 a {
     text-decoration: none;
     color: #2c2c2c; }
 
 .pane-current-6 a {
   font-size: 28px; }
 
-.pane-current-7 a,
-.pane-current-8 a {
+.pane-current-7 a {
   font-size: 20px; }
+  .pane-current-7 a .slogan-2 {
+    white-space: nowrap; }
+    .pane-current-7 a .slogan-2:before {
+      content: '• '; }
+      @media (min-width: 1317px) {
+        .pane-current-7 a .slogan-2:before {
+          content: ''; } }
 
 .pane-current-9 {
   color: #242424;

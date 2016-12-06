@@ -10,8 +10,7 @@
 	}
 }
 .pane-current-6 h2,
-.pane-current-7 h2,
-.pane-current-8 h2 {
+.pane-current-7 h2 {
 	text-align: center;
 	font-weight: 700;
 	margin: 10px 0;
@@ -25,9 +24,20 @@
 .pane-current-6 a {
 	font-size: 28px;
 }
-.pane-current-7 a,
-.pane-current-8 a {
+.pane-current-7 a {
 	font-size: 20px;
+
+	.slogan-2 {
+		white-space: nowrap;
+
+		&:before {
+			content: '• ';
+
+			@include breakpoint(1317px) {
+				content: '';
+			}
+		}
+	}
 }
 
 .pane-current-9 {
