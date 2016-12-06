@@ -463,18 +463,18 @@ form#user-login, form#user-pass {
         #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li a i {
           margin-right: 3px; }
 
-#block-menu-menu-user-menu-bwmassoc {
+#block-superfish-2 {
   float: left; }
-  #block-menu-menu-user-menu-bwmassoc ul.menu {
+  #block-superfish-2 ul#superfish-2 {
     margin: 0;
     padding: 0; }
-    #block-menu-menu-user-menu-bwmassoc ul.menu li {
+    #block-superfish-2 ul#superfish-2 li {
       list-style: none;
       float: left; }
-      #block-menu-menu-user-menu-bwmassoc ul.menu li:first-child a {
+      #block-superfish-2 ul#superfish-2 li:first-child a {
         background: #1894c7;
         color: white; }
-      #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+      #block-superfish-2 ul#superfish-2 li a {
         display: block;
         color: #262626;
         font-family: 'Open Sans', sans-serif;
@@ -486,11 +486,11 @@ form#user-login, form#user-pass {
         top: 0px;
         text-decoration: none;
         line-height: 1.5; }
-        #block-menu-menu-user-menu-bwmassoc ul.menu li a:hover, #block-menu-menu-user-menu-bwmassoc ul.menu li a:focus {
+        #block-superfish-2 ul#superfish-2 li a:hover, #block-superfish-2 ul#superfish-2 li a:focus {
           background: #fff;
           text-decoration: none;
           color: #1894c7; }
-        #block-menu-menu-user-menu-bwmassoc ul.menu li a i {
+        #block-superfish-2 ul#superfish-2 li a i {
           margin-right: 3px; }
 
 #block-menu-menu-user-menu-bwmassoc-logout {
