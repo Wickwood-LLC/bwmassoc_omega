@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/bleeds.png": {
+		"ft": 32768,
+		"iS": 6180,
+		"oA": 0,
+		"oAP": "\/bleeds.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,

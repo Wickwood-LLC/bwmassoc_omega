@@ -510,18 +510,18 @@ form#user-login, form#user-pass {
         #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li a i {
           margin-right: 3px; }
 
-#block-superfish-2 {
+#block-menu-menu-user-menu-bwmassoc-logout {
   float: left; }
-  #block-superfish-2 ul.sf-menu-user-menu-bwmassoc {
+  #block-menu-menu-user-menu-bwmassoc-logout ul.menu {
     margin: 0;
     padding: 0; }
-    #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li {
+    #block-menu-menu-user-menu-bwmassoc-logout ul.menu li {
       list-style: none;
       float: left; }
-      #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li:first-child a {
+      #block-menu-menu-user-menu-bwmassoc-logout ul.menu li:first-child a {
         background: #1894c7;
         color: white; }
-      #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a {
+      #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a {
         display: block;
         color: #262626;
         font-family: 'Open Sans', sans-serif;
@@ -533,11 +533,11 @@ form#user-login, form#user-pass {
         top: 0px;
         text-decoration: none;
         line-height: 1.5; }
-        #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a:hover, #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a:focus {
+        #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a:hover, #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a:focus {
           background: #fff;
           text-decoration: none;
           color: #1894c7; }
-        #block-superfish-2 ul.sf-menu-user-menu-bwmassoc li a i {
+        #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a i {
           margin-right: 3px; }
 
 #block-menu-menu-user-menu-bwmassoc-logout {
