@@ -323,6 +323,17 @@ ul.quicktabs-tabs {
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #conventional h3,
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #supersaver h3 {
       margin-bottom: 1em; }
+    #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #conventional > .content,
+    #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #supersaver > .content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #conventional > .content li p,
+      #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #supersaver > .content li p {
+        margin: 0; }
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #savings {
       margin-bottom: 1em; }
       #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] #savings h1 {

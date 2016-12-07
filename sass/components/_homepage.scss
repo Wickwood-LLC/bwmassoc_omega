@@ -140,6 +140,15 @@ ul.quicktabs-tabs {
 			h3 {
 				margin-bottom: 1em;
 			}
+
+			> .content {
+				display: flex;
+				align-items: center;
+
+				li p {
+					margin: 0;
+				}
+			}
 		}
 
 		#savings {
