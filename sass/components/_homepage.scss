@@ -2,10 +2,12 @@ ul.quicktabs-tabs {
 	margin: 0;
 	padding: 0;
 	margin-bottom: -1px;
+	display: flex;
 
 	li {
 		padding: 0;
 		margin-right: 5px;
+		flex: 1 auto;
 
 		a {
 	    border-top-left-radius: 5px;
@@ -20,6 +22,8 @@ ul.quicktabs-tabs {
 	    padding-right: 13px;
 	    padding-left: 1em;
 	    border-bottom: 1px solid #c1c1c1;
+	    width: 100%;
+	    text-align: center;
 
 	    &:after {
 	    	content: " ";
