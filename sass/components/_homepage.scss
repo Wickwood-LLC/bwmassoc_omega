@@ -3,6 +3,7 @@ ul.quicktabs-tabs {
 	padding: 0;
 	margin-bottom: -1px;
 	display: flex;
+	width: calc(100% - 17px);
 
 	li {
 		padding: 0;

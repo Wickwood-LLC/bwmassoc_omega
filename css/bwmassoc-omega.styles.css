@@ -220,7 +220,8 @@ ul.quicktabs-tabs {
   margin-bottom: -1px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  width: calc(100% - 17px); }
   ul.quicktabs-tabs li {
     padding: 0;
     margin-right: 5px;
