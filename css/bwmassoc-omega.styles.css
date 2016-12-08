@@ -316,7 +316,9 @@ ul.quicktabs-tabs {
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image {
       -webkit-box-flex: 1;
           -ms-flex: 1 45%;
-              flex: 1 45%; }
+              flex: 1 45%;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
       #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items img {
         width: 100%;
         vertical-align: bottom; }
