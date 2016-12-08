@@ -99,8 +99,12 @@ ul.quicktabs-tabs {
 		// background: url('/files/styles/panopoly_image_original-no_watermark/public/media/image_uploads/girl.jpg?itok=-e97jT8t&c=e25b0691a8cdd1997455936d254a393f') no-repeat bottom right;
 		background-size: 40%;
 
+		.node__content {
+			display: flex;
+		}
+
 		.field--name-body {
-			width: calc((100% / 3) * 2);
+			flex: calc((100% / 3) * 2);
 			display: inline-block;
 
 			.field__item > h1 {
@@ -115,17 +119,12 @@ ul.quicktabs-tabs {
 		}
 
 		.field--name-field-featured-image {
-			width: calc(100% / 3);
-			display: inline-block;
-			height: 100%;
-			position: relative;
+			flex: 1 45%;
 
 			.field__items {
-				position: absolute;
-				bottom: -25px;
-
 				img {
 					width: 100%;
+					vertical-align: bottom;
 				}
 			}
 		}
