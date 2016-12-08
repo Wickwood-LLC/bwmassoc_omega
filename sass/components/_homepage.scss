@@ -189,10 +189,6 @@
 						font-weight: bold;
 						line-height: 1;
 
-						.media {
-							flex: 0;
-						}
-
 						img {
 							width: 20px;
 						}
@@ -226,7 +222,7 @@
 					display: flex;
 					align-items: center;
 
-					.media {
+					> .media {
 						flex: 1;
 					}
 
