@@ -1,4 +1,17 @@
 .page-node-12852 {
+	.radix-bryant .row {
+		display: flex;
+		flex-flow: row wrap;
+
+		.radix-layouts-sidebar {
+			order: 1;
+
+			@include breakpoint(1024px) {
+				order: 0;
+			}
+		}
+	}
+
 	ul.quicktabs-tabs {
 		margin: 0;
 		padding: 0;
