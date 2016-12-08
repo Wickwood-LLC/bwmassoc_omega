@@ -50,7 +50,7 @@
 		    	}
 		    }
 
-		    @include breakpoint(768px) {
+		    @include breakpoint(1024px) {
 		    	font-size: 17px;
 
 		    	&:after {
