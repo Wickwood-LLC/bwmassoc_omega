@@ -189,6 +189,10 @@
 						font-weight: bold;
 						line-height: 1;
 
+						.media {
+							flex: 0;
+						}
+
 						img {
 							width: 20px;
 						}

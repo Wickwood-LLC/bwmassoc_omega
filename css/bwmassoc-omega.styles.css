@@ -382,6 +382,10 @@ h6 {
         font-size: 14px;
         font-weight: bold;
         line-height: 1; }
+        .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .text-info ul li .media {
+          -webkit-box-flex: 0;
+              -ms-flex: 0;
+                  flex: 0; }
         .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .text-info ul li img {
           width: 20px; }
         @media (min-width: 1024px) {
