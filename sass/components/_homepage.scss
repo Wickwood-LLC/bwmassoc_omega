@@ -99,9 +99,13 @@ ul.quicktabs-tabs {
 		background: url('/files/styles/panopoly_image_original-no_watermark/public/media/image_uploads/girl.jpg?itok=-e97jT8t&c=e25b0691a8cdd1997455936d254a393f') no-repeat bottom right;
 		background-size: 40%;
 
-		h1 a {
-			color: #0355a3;
-    	text-decoration: none;
+		h1 {
+			width: 150%;
+			
+			a {
+				color: #0355a3;
+	    	text-decoration: none;
+			}
 		}
 
 		.field--name-body {
