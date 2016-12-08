@@ -368,7 +368,8 @@ ul.quicktabs-tabs {
       border-radius: 75px;
       margin: 1em auto;
       display: table;
-      clear: both; }
+      clear: both;
+      margin-bottom: 0; }
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .saved {
       color: #fff;
       font-size: 18px;
@@ -378,7 +379,8 @@ ul.quicktabs-tabs {
       border-radius: 75px;
       margin: 1em auto;
       display: table;
-      clear: both; }
+      clear: both;
+      margin-bottom: 0; }
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .calculate-savings {
       color: #fff;
       font-weight: 600;
