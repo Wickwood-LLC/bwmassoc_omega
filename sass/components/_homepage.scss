@@ -143,6 +143,7 @@
 			.field--name-body {
 				flex: calc((100% / 3) * 2);
 				display: inline-block;
+				z-index: 2;
 
 				.field__item > h1 {
 					margin-top: 0;
@@ -158,6 +159,7 @@
 			.field--name-field-featured-image {
 				flex: 1 45%;
 				align-self: flex-end;
+				z-index: 1;
 
 				.field__items {
 					img {

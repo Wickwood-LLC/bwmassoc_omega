@@ -344,7 +344,8 @@ h6 {
     -webkit-box-flex: calc((100% / 3) * 2);
         -ms-flex: calc((100% / 3) * 2);
             flex: calc((100% / 3) * 2);
-    display: inline-block; }
+    display: inline-block;
+    z-index: 2; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-body .field__item > h1 {
       margin-top: 0;
       width: 150%; }
@@ -356,7 +357,8 @@ h6 {
         -ms-flex: 1 45%;
             flex: 1 45%;
     -ms-flex-item-align: end;
-        align-self: flex-end; }
+        align-self: flex-end;
+    z-index: 1; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image .field__items img {
       width: 100%;
       vertical-align: bottom; }
