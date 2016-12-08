@@ -301,10 +301,10 @@ ul.quicktabs-tabs {
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-body {
       width: calc((100% / 3) * 2);
       display: inline-block; }
-      #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-body .field__ite > h1 {
+      #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-body .field__item > h1 {
         margin-top: 0;
         width: 150%; }
-        #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-body .field__ite > h1 a {
+        #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-body .field__item > h1 a {
           color: #0355a3;
           text-decoration: none; }
     #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .field--name-field-featured-image {
