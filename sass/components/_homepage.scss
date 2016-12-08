@@ -12,6 +12,14 @@
 				flex: auto;
 			}
 		}
+
+		.radix-layouts-content {
+			flex: 100%;
+
+			@include breakpoint(1024px) {
+				flex: auto;
+			}
+		}
 	}
 
 	ul.quicktabs-tabs {
