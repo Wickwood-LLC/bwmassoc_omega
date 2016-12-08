@@ -171,13 +171,13 @@
 				float: left;
 
 				@include breakpoint(1024px) {
-					width: 300px;
+					width: 100%;
 				}
 			}
 
 			.text-info {
 				flex: 1;
-				
+
 				ul {
 					margin: 0;
 					padding: 0;
@@ -194,6 +194,14 @@
 						}
 
 						@include breakpoint(1024px) {
+							font-size: 18px;
+
+							img {
+								width: auto;
+							}
+						}
+
+						@include breakpoint(1200px) {
 							font-size: 24px;
 
 							img {
@@ -213,6 +221,10 @@
 				> .content {
 					display: flex;
 					align-items: center;
+
+					.media {
+						flex: 1;
+					}
 
 					li p {
 						margin: 0;
