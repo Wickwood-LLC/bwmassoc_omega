@@ -5,9 +5,11 @@
 
 		.radix-layouts-sidebar {
 			order: 1;
+			flex: 100%;
 
 			@include breakpoint(1024px) {
 				order: 0;
+				flex: auto;
 			}
 		}
 	}
