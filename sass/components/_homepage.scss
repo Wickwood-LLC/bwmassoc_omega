@@ -169,7 +169,10 @@
 
 			img[alt="Compare Home"] {
 				float: left;
-				width: 300px;
+
+				@include breakpoint(1024px) {
+					width: 300px;
+				}
 			}
 
 			.text-info {
@@ -180,9 +183,21 @@
 					li {
 						display: flex;
 						align-items: center;
-						font-size: 24px;
+						font-size: 14px;
 						font-weight: bold;
 						line-height: 1;
+
+						img {
+							width: 20px;
+						}
+
+						@include breakpoint(1024px) {
+							font-size: 24px;
+
+							img {
+								width: auto;
+							}
+						}
 					}
 				}
 			}
