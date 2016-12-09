@@ -346,7 +346,7 @@
 					background-color: #c0eaff;
 				}
 				td {
-					padding: 5px;
+					padding: 10px;
 					width: calc(100% / 3);
 				}
 			}
@@ -368,6 +368,39 @@
 				}
 			}
 		}
+	}
 
+	.view-bwma-client-testimonials {
+		.views-row {
+			position: relative;
+
+			.views-field-field-image-testimonial img {
+				width: 100%;
+			}
+
+			.views-field-title {
+				position: absolute;
+				z-index: 2;
+				bottom: 37px;
+				width: calc(100% - 8px);
+				text-align: center;
+				padding: 5px;
+				background-color: rgba(0, 0, 0, 0.5);
+				color: white;
+				margin: 0 4px;
+			}
+
+			.views-field-field-audio-testimonial {
+				position: absolute;
+				z-index: 2;
+				left: 0;
+				right: 0;
+				bottom: 0;
+
+				audio {
+					width: 100%;
+				}
+			}
+		}
 	}
 }

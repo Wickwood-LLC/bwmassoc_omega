@@ -488,7 +488,7 @@ h6 {
       padding: 5px;
       background-color: #c0eaff; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/compare-biweeklies"] .field--name-body td {
-      padding: 5px;
+      padding: 10px;
       width: calc(100% / 3); }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/compare-biweeklies"] .calculate-savings {
       color: #fff;
@@ -503,6 +503,28 @@ h6 {
       .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/compare-biweeklies"] .calculate-savings:before {
         font-family: FontAwesome;
         margin-right: 5px; }
+.page-node-12852 .view-bwma-client-testimonials .views-row {
+  position: relative; }
+  .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-image-testimonial img {
+    width: 100%; }
+  .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-title {
+    position: absolute;
+    z-index: 2;
+    bottom: 37px;
+    width: calc(100% - 8px);
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 0 4px; }
+  .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial audio {
+      width: 100%; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
