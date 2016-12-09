@@ -457,6 +457,10 @@ h6 {
     .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/dare-to-compare"] .calculate-savings:before {
       font-family: FontAwesome;
       margin-right: 5px; }
+  .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/7-minutes-7-years"] .field--name-body .field__item > h1 {
+    color: #0355a3; }
+  .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/7-minutes-7-years"] .field--name-body p {
+    font-size: 20px; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,

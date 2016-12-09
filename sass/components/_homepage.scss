@@ -286,9 +286,18 @@
 				}
 			}
 		}
-	}
 
-	@include breakpoint(768px) {
+		article[about="/7-minutes-7-years"] {
+			.field--name-body {
+				.field__item > h1 {
+					color: #0355a3;
+				}
+
+				p {
+					font-size: 20px;
+				}
+			}
+		}
 
 	}
 }
