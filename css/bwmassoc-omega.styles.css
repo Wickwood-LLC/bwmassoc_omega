@@ -503,6 +503,14 @@ h6 {
       .page-node-12852 #quicktabs-container-bwmassoc_home_page article[about="/compare-biweeklies"] .calculate-savings:before {
         font-family: FontAwesome;
         margin-right: 5px; }
+.page-node-12852 .view-bwma-client-testimonials .view-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
 .page-node-12852 .view-bwma-client-testimonials .views-row {
   position: relative; }
   .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-image-testimonial img {
@@ -525,6 +533,9 @@ h6 {
     bottom: 0; }
     .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial audio {
       width: 100%; }
+  @media (min-width: 768px) {
+    .page-node-12852 .view-bwma-client-testimonials .views-row {
+      margin: 1em; } }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,

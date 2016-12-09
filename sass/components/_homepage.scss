@@ -371,6 +371,12 @@
 	}
 
 	.view-bwma-client-testimonials {
+		.view-content {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-around;
+		}
+
 		.views-row {
 			position: relative;
 
@@ -400,6 +406,10 @@
 				audio {
 					width: 100%;
 				}
+			}
+
+			@include breakpoint(768px) {
+				margin: 1em;
 			}
 		}
 	}
