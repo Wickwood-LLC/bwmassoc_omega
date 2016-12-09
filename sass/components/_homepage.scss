@@ -288,6 +288,8 @@
 		}
 
 		article[about="/7-minutes-7-years"] {
+			padding: 0 1em;
+
 			.field--name-body {
 				.field__item > h1 {
 					color: #0355a3;
@@ -295,6 +297,25 @@
 
 				p {
 					font-size: 20px;
+				}
+			}
+		}
+
+		article[about="/as-seen-on-tv"] {
+			padding: 0 1em;
+			
+			.field--name-body {
+				.field__item > h1 {
+					color: #0355a3;
+				}
+
+				p {
+					font-size: 20px;
+					font-family: FontAwesome, sans-serif;
+				}
+
+				.media {
+					display: inline-block;
 				}
 			}
 		}
