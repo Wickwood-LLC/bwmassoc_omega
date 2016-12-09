@@ -534,7 +534,7 @@ h6 {
     bottom: 0; }
     .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial audio {
       width: 100%; }
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     .page-node-12852 .view-bwma-client-testimonials .views-row {
       margin: 0;
       margin-bottom: 1em; } }
