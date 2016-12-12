@@ -16,9 +16,11 @@
 
 		.radix-layouts-content {
 			flex: 100%;
+			padding: 0;
 
 			@include breakpoint(1024px) {
 				flex: auto;
+				padding-left: 1em;
 			}
 		}
 	}

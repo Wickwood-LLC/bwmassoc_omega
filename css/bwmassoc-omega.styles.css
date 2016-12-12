@@ -244,12 +244,14 @@ h6 {
   .page-node-12852 .radix-bryant .row .radix-layouts-content {
     -webkit-box-flex: 100%;
         -ms-flex: 100%;
-            flex: 100%; }
+            flex: 100%;
+    padding: 0; }
     @media (min-width: 1024px) {
       .page-node-12852 .radix-bryant .row .radix-layouts-content {
         -webkit-box-flex: 1;
             -ms-flex: auto;
-                flex: auto; } }
+                flex: auto;
+        padding-left: 1em; } }
 .page-node-12852 ul.quicktabs-tabs {
   margin: 0;
   padding: 0;
