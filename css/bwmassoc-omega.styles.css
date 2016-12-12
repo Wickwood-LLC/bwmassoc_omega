@@ -520,18 +520,18 @@ h6 {
     position: absolute;
     z-index: 2;
     bottom: 37px;
-    width: 96.5%;
+    width: calc(100% - 6px);
     text-align: center;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    margin-left: 2%; }
+    margin-left: 3px; }
   .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial {
     position: absolute;
     z-index: 2;
-    left: 1.5%;
-    right: 1.5%;
-    bottom: 1.75%; }
+    left: 3px;
+    right: 3px;
+    bottom: 3px; }
     .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial audio {
       width: 100%; }
   @media (min-width: 1024px) {
