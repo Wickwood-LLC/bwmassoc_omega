@@ -520,12 +520,12 @@ h6 {
     position: absolute;
     z-index: 2;
     bottom: 37px;
-    width: calc(100% - 6px);
+    width: calc(100% - 8px);
     text-align: center;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    margin-left: 3px; }
+    margin-left: 4px; }
   .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial {
     position: absolute;
     z-index: 2;
