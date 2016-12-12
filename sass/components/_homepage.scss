@@ -389,20 +389,20 @@
 				position: absolute;
 				z-index: 2;
 				bottom: 37px;
-				width: calc(100% - 8px);
+				width: 96%;
 				text-align: center;
 				padding: 5px;
 				background-color: rgba(0, 0, 0, 0.5);
 				color: white;
-				margin: 0 4px;
+				margin-left: 2%;
 			}
 
 			.views-field-field-audio-testimonial {
 				position: absolute;
 				z-index: 2;
-				left: 0;
-				right: 0;
-				bottom: 0;
+				left: 1.5%;
+				right: 1.5%;
+				bottom: 1.5%;
 
 				audio {
 					width: 100%;
