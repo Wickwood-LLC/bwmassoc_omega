@@ -25,6 +25,11 @@ body {
     max-width: 1360px;
     margin: 0 auto; }
 
+.l-region--header,
+.l-main,
+.l-footer {
+  padding: 0 1em; }
+
 h1 {
   display: block;
   font-size: 2em;
@@ -226,7 +231,8 @@ h6 {
             order: 1;
     -webkit-box-flex: 100%;
         -ms-flex: 100%;
-            flex: 100%; }
+            flex: 100%;
+    padding: 0; }
     @media (min-width: 1024px) {
       .page-node-12852 .radix-bryant .row .radix-layouts-sidebar {
         -webkit-box-ordinal-group: 1;

@@ -6,6 +6,7 @@
 		.radix-layouts-sidebar {
 			order: 1;
 			flex: 100%;
+			padding: 0;
 
 			@include breakpoint(1024px) {
 				order: 0;

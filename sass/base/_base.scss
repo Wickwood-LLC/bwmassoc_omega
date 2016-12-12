@@ -29,6 +29,12 @@ body {
 	}
 }
 
+.l-region--header,
+.l-main,
+.l-footer {
+	padding: 0 1em;
+}
+
 h1 { 
   display: block;
   font-size: 2em;
