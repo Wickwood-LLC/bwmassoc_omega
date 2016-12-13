@@ -512,42 +512,6 @@ h6 {
       .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-3 .calculate-savings:before {
         font-family: FontAwesome;
         margin-right: 5px; }
-.page-node-12852 .view-bwma-client-testimonials .view-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
-.page-node-12852 .view-bwma-client-testimonials .views-row {
-  position: relative;
-  margin: 1em; }
-  .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-image-testimonial img {
-    width: 100%; }
-  .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-title {
-    position: absolute;
-    z-index: 2;
-    bottom: 37px;
-    width: calc(100% - 8px);
-    text-align: center;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    margin-left: 4px; }
-  .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial {
-    position: absolute;
-    z-index: 2;
-    left: 3px;
-    right: 3px;
-    bottom: 3px; }
-    .page-node-12852 .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial audio {
-      width: 100%; }
-  @media (min-width: 1024px) {
-    .page-node-12852 .view-bwma-client-testimonials .views-row {
-      margin: 0;
-      margin-bottom: 1em;
-      width: 100%; } }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
@@ -798,5 +762,42 @@ form#user-login, form#user-pass {
       text-shadow: #33aa58 0 1px 0; }
     .tabs--primary a:hover {
       text-decoration: none; }
+
+.view-bwma-client-testimonials .view-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+.view-bwma-client-testimonials .views-row {
+  position: relative;
+  margin: 1em; }
+  .view-bwma-client-testimonials .views-row .views-field-field-image-testimonial img {
+    width: 100%; }
+  .view-bwma-client-testimonials .views-row .views-field-title {
+    position: absolute;
+    z-index: 2;
+    bottom: 37px;
+    width: calc(100% - 8px);
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-left: 4px; }
+  .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial {
+    position: absolute;
+    z-index: 2;
+    left: 3px;
+    right: 3px;
+    bottom: 3px; }
+    .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial audio {
+      width: 100%; }
+  @media (min-width: 1024px) {
+    .view-bwma-client-testimonials .views-row {
+      margin: 0;
+      margin-bottom: 1em;
+      width: 100%; } }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
