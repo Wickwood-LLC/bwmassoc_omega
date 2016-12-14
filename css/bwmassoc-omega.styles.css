@@ -283,7 +283,8 @@ h6 {
       padding-left: 1em;
       border-bottom: 1px solid #c1c1c1;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      height: 47px; }
       .page-node-12852 ul.quicktabs-tabs li a:after {
         content: " ";
         position: absolute;
@@ -296,17 +297,19 @@ h6 {
                 transform: skew(24deg);
         right: -13px;
         z-index: 1;
-        height: 46px; }
+        height: 47px; }
       @media (min-width: 748px) {
         .page-node-12852 ul.quicktabs-tabs li a {
-          font-size: 14px; }
+          font-size: 14px;
+          height: 43px; }
           .page-node-12852 ul.quicktabs-tabs li a:after {
-            height: 42px; } }
+            height: 43px; } }
       @media (min-width: 1169px) {
         .page-node-12852 ul.quicktabs-tabs li a {
-          font-size: 17px; }
+          font-size: 17px;
+          height: 47px; }
           .page-node-12852 ul.quicktabs-tabs li a:after {
-            height: 46px; } }
+            height: 47px; } }
     .page-node-12852 ul.quicktabs-tabs li:first-child a {
       background: #57a63d;
       border: 1px solid #57a63d;

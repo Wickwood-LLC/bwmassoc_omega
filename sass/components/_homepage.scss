@@ -54,6 +54,7 @@
 		    border-bottom: 1px solid #c1c1c1;
 		    width: 100%;
 		    text-align: center;
+		    height: 47px;
 
 		    &:after {
 		    	content: " ";
@@ -66,22 +67,24 @@
 				  transform: skew(24deg);
 				  right: -13px;
 				  z-index: 1;
-				  height: 46px;
+				  height: 47px;
 		    }
 
 		    @include breakpoint(748px) {
 		    	font-size: 14px;
+		    	height: 43px;
 
 		    	&:after {
-		    		height: 42px;
+		    		height: 43px;
 		    	}
 		    }
 
 		    @include breakpoint(1169px) {
 		    	font-size: 17px;
+		    	height: 47px;
 
 		    	&:after {
-		    		height: 46px;
+		    		height: 47px;
 		    	}
 		    }
 			}
