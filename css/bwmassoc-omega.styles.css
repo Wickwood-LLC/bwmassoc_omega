@@ -516,6 +516,21 @@ h6 {
         font-family: FontAwesome;
         margin-right: 5px; }
 
+.pane-superfish-4 {
+  display: inline-block; }
+  .pane-superfish-4 #superfish-4 {
+    margin-bottom: 0; }
+
+.node-type-bwmassoc-basic-page .pane-content-area-bwmassoc {
+  display: inline-block;
+  width: 100%;
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #c1c1c1; }
+.node-type-bwmassoc-basic-page .pane-node-title {
+  text-align: center;
+  color: #0355a3;
+  text-decoration: none; }
+
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
 .not-logged-in.page-user .l-main .row,

@@ -377,3 +377,26 @@
 		}
 	}
 }
+
+.pane-superfish-4 {
+	display: inline-block;
+
+	#superfish-4 {
+		margin-bottom: 0;
+	}
+}
+
+.node-type-bwmassoc-basic-page {
+	.pane-content-area-bwmassoc {
+		display: inline-block;
+		width: 100%;
+		background: #fff none repeat scroll 0 0;
+    	border: 1px solid #c1c1c1;
+	}
+
+	.pane-node-title {
+		text-align: center;
+		color: #0355a3;
+		text-decoration: none;
+	}
+}
