@@ -543,6 +543,35 @@ h6 {
   width: calc((100% / 3) * 2);
   display: inline-block;
   z-index: 2; }
+.section-biweekly-calculator .text-info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+  .section-biweekly-calculator .text-info ul {
+    margin: 0;
+    padding: 0; }
+    .section-biweekly-calculator .text-info ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1; }
+      .section-biweekly-calculator .text-info ul li img {
+        width: 20px; }
+      @media (min-width: 1024px) {
+        .section-biweekly-calculator .text-info ul li {
+          font-size: 18px; }
+          .section-biweekly-calculator .text-info ul li img {
+            width: auto; } }
+      @media (min-width: 1200px) {
+        .section-biweekly-calculator .text-info ul li {
+          font-size: 24px; }
+          .section-biweekly-calculator .text-info ul li img {
+            width: auto; } }
 .section-biweekly-calculator #conventional h2, .section-biweekly-calculator #conventional h3,
 .section-biweekly-calculator #supersaver h2,
 .section-biweekly-calculator #supersaver h3 {
