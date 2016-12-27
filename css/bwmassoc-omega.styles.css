@@ -531,6 +531,80 @@ h6 {
   color: #0355a3;
   text-decoration: none; }
 
+.section-biweekly-calculator hr {
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee; }
+.section-biweekly-calculator .pane-node-field-featured-image {
+  position: absolute;
+  bottom: -4px;
+  right: 0; }
+.section-biweekly-calculator .field--name-body {
+  width: calc((100% / 3) * 2);
+  display: inline-block;
+  z-index: 2; }
+.section-biweekly-calculator #conventional h2, .section-biweekly-calculator #conventional h3,
+.section-biweekly-calculator #supersaver h2,
+.section-biweekly-calculator #supersaver h3 {
+  margin: 0; }
+.section-biweekly-calculator #conventional > .content,
+.section-biweekly-calculator #supersaver > .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .section-biweekly-calculator #conventional > .content > .media,
+  .section-biweekly-calculator #supersaver > .content > .media {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .section-biweekly-calculator #conventional > .content li p,
+  .section-biweekly-calculator #supersaver > .content li p {
+    margin: 0; }
+.section-biweekly-calculator #savings {
+  margin-bottom: 1em; }
+  .section-biweekly-calculator #savings h1 {
+    margin: 0; }
+  .section-biweekly-calculator #savings p {
+    margin: 0; }
+.section-biweekly-calculator .saved-nothing {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  background: #ec1f27;
+  padding: 9px 15px;
+  border-radius: 75px;
+  margin: 1em auto;
+  display: table;
+  clear: both;
+  margin-bottom: 0; }
+.section-biweekly-calculator .saved {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  background: #00ad31;
+  padding: 9px 15px;
+  border-radius: 75px;
+  margin: 1em auto;
+  display: table;
+  clear: both;
+  margin-bottom: 0; }
+.section-biweekly-calculator .calculate-savings {
+  color: #fff;
+  font-weight: 600;
+  background: #017cca;
+  padding: 9px 15px;
+  border-radius: 75px;
+  margin: 0.5em auto;
+  display: table;
+  text-decoration: none;
+  clear: both; }
+  .section-biweekly-calculator .calculate-savings:before {
+    font-family: FontAwesome;
+    margin-right: 5px; }
+
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
 .not-logged-in.page-user .l-main .row,
