@@ -531,45 +531,40 @@ h6 {
   color: #0355a3;
   text-decoration: none; }
 
-.page-node-12848 hr {
+.section-biweekly-calculator hr {
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee; }
-.page-node-12848 .pane-node-field-featured-image {
+.section-biweekly-calculator .pane-node-field-featured-image {
   position: absolute;
   bottom: -4px;
   right: 0; }
-.page-node-12848 .field--name-body {
+.section-biweekly-calculator .field--name-body {
   width: calc((100% / 3) * 2);
   display: inline-block;
   z-index: 2; }
-.page-node-12848 #conventional h2, .page-node-12848 #conventional h3,
-.page-node-12848 #supersaver h2,
-.page-node-12848 #supersaver h3 {
+.section-biweekly-calculator #conventional h2, .section-biweekly-calculator #conventional h3,
+.section-biweekly-calculator #supersaver h2,
+.section-biweekly-calculator #supersaver h3 {
   margin: 0; }
-.page-node-12848 #conventional > .content,
-.page-node-12848 #supersaver > .content {
+.section-biweekly-calculator #conventional > .content,
+.section-biweekly-calculator #supersaver > .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .page-node-12848 #conventional > .content > .media,
-  .page-node-12848 #supersaver > .content > .media {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1; }
-  .page-node-12848 #conventional > .content li p,
-  .page-node-12848 #supersaver > .content li p {
+  .section-biweekly-calculator #conventional > .content li p,
+  .section-biweekly-calculator #supersaver > .content li p {
     margin: 0; }
-.page-node-12848 #savings {
+.section-biweekly-calculator #savings {
   margin-bottom: 1em; }
-  .page-node-12848 #savings h1 {
+  .section-biweekly-calculator #savings h1 {
     margin: 0; }
-  .page-node-12848 #savings p {
+  .section-biweekly-calculator #savings p {
     margin: 0; }
-.page-node-12848 .saved-nothing {
+.section-biweekly-calculator .saved-nothing {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -580,7 +575,7 @@ h6 {
   display: table;
   clear: both;
   margin-bottom: 0; }
-.page-node-12848 .saved {
+.section-biweekly-calculator .saved {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -591,7 +586,7 @@ h6 {
   display: table;
   clear: both;
   margin-bottom: 0; }
-.page-node-12848 .calculate-savings {
+.section-biweekly-calculator .calculate-savings {
   color: #fff;
   font-weight: 600;
   background: #017cca;
@@ -601,7 +596,7 @@ h6 {
   display: table;
   text-decoration: none;
   clear: both; }
-  .page-node-12848 .calculate-savings:before {
+  .section-biweekly-calculator .calculate-savings:before {
     font-family: FontAwesome;
     margin-right: 5px; }
 
