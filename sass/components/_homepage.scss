@@ -606,12 +606,13 @@
 	margin-bottom: -1px;
 	display: flex;
 	flex-flow: row wrap;
-	width: calc(100% - 17px);
+	width: 100%;
 
 	li {
 		padding: 0;
 		margin-right: 5px;
 		flex: 1 auto;
+		z-index: 1;
 
 		a {
 	    border-top-left-radius: 5px;
