@@ -468,6 +468,7 @@
 		flex: calc(100% / 3);
 		align-self: flex-end;
 		z-index: 1;
+		order: 1;
 
 		.field__items {
 			img {
