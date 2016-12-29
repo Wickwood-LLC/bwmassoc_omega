@@ -92,6 +92,7 @@ h6 {
 .title-bar {
 	display: flex;
 	align-items: center;
+  justify-content: flex-end;
 
 	.page-title {
 		flex: 1;
