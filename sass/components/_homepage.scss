@@ -387,6 +387,33 @@
 }
 
 .node-type-bwmassoc-basic-page {
+	.radix-bryant .row {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 0;
+
+		.radix-layouts-sidebar {
+			order: 1;
+			flex: 100%;
+			padding: 0;
+
+			@include breakpoint(1024px) {
+				order: 0;
+				flex: 25%;
+			}
+		}
+
+		.radix-layouts-content {
+			flex: 100%;
+			padding: 0;
+
+			@include breakpoint(1024px) {
+				flex: calc(75% - 1em);
+				padding-left: 1em;
+			}
+		}
+	}
+	
 	.pane-content-area-bwmassoc {
 		display: inline-block;
 		width: 100%;
@@ -598,6 +625,10 @@
 			}
 		}
 	}
+}
+
+.pane-superfish-4 {
+	width: calc(100% - 17px);
 }
 
 #superfish-4 {
