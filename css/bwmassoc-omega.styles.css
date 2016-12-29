@@ -637,29 +637,29 @@ h6 {
     font-family: FontAwesome;
     margin-right: 5px; }
 
-.section-7-minutes-7-years,
-.section-as-seen-on-tv {
+.section-7-minutes-7-years .pane-content-area-bwmassoc,
+.section-as-seen-on-tv .pane-content-area-bwmassoc {
   padding: 0 1em; }
 
-.section-compare-biweeklies {
+.section-compare-biweeklies .pane-content-area-bwmassoc {
   padding: 0 1em; }
-  .section-compare-biweeklies .field--name-body .field__item > h1 {
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body .field__item > h1 {
     color: #0355a3; }
-  .section-compare-biweeklies .field--name-body p {
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body p {
     font-size: 20px;
     font-family: FontAwesome, sans-serif; }
-  .section-compare-biweeklies .field--name-body tr:nth-child(even) {
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body tr:nth-child(even) {
     background-color: #eeeeee; }
-  .section-compare-biweeklies .field--name-body tr:hover {
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body tr:hover {
     background-color: #ffffdc; }
-  .section-compare-biweeklies .field--name-body th {
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body th {
     text-align: center;
     padding: 5px;
     background-color: #c0eaff; }
-  .section-compare-biweeklies .field--name-body td {
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body td {
     padding: 10px;
     width: calc(100% / 3); }
-  .section-compare-biweeklies .calculate-savings {
+  .section-compare-biweeklies .pane-content-area-bwmassoc .calculate-savings {
     color: #fff;
     font-weight: 600;
     background: #017cca;
@@ -669,7 +669,7 @@ h6 {
     display: table;
     text-decoration: none;
     clear: both; }
-    .section-compare-biweeklies .calculate-savings:before {
+    .section-compare-biweeklies .pane-content-area-bwmassoc .calculate-savings:before {
       font-family: FontAwesome;
       margin-right: 5px; }
 

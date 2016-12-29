@@ -544,54 +544,58 @@
 
 .section-7-minutes-7-years,
 .section-as-seen-on-tv {
-	padding: 0 1em;
+	.pane-content-area-bwmassoc {
+		padding: 0 1em;
+	}
 }
 
 .section-compare-biweeklies {
-	padding: 0 1em;
+	.pane-content-area-bwmassoc {
+		padding: 0 1em;
+		
+		.field--name-body {
+			.field__item > h1 {
+				color: #0355a3;
+			}
 	
-	.field--name-body {
-		.field__item > h1 {
-			color: #0355a3;
+			p {
+				font-size: 20px;
+				font-family: FontAwesome, sans-serif;
+			}
+	
+			tr:nth-child(even) {
+				background-color: #eeeeee;
+			}
+			tr:hover {
+				background-color: #ffffdc;
+			}
+	
+			th {
+				text-align: center;
+				padding: 5px;
+				background-color: #c0eaff;
+			}
+			td {
+				padding: 10px;
+				width: calc(100% / 3);
+			}
 		}
-
-		p {
-			font-size: 20px;
-			font-family: FontAwesome, sans-serif;
-		}
-
-		tr:nth-child(even) {
-			background-color: #eeeeee;
-		}
-		tr:hover {
-			background-color: #ffffdc;
-		}
-
-		th {
-			text-align: center;
-			padding: 5px;
-			background-color: #c0eaff;
-		}
-		td {
-			padding: 10px;
-			width: calc(100% / 3);
-		}
-	}
-
-	.calculate-savings {
-		color: #fff;
-		font-weight: 600;
-		background: #017cca;
-		padding: 9px 15px;
-		border-radius: 75px;
-		margin: 0.5em auto;
-		display: table;
-		text-decoration: none;
-		clear: both;
-
-		&:before {
-			font-family: FontAwesome;
-			margin-right: 5px;
+	
+		.calculate-savings {
+			color: #fff;
+			font-weight: 600;
+			background: #017cca;
+			padding: 9px 15px;
+			border-radius: 75px;
+			margin: 0.5em auto;
+			display: table;
+			text-decoration: none;
+			clear: both;
+	
+			&:before {
+				font-family: FontAwesome;
+				margin-right: 5px;
+			}
 		}
 	}
 }
