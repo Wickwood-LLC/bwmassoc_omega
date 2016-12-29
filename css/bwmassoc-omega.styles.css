@@ -519,7 +519,7 @@ h6 {
 .pane-superfish-4 {
   display: inline-block; }
   .pane-superfish-4 #superfish-4 {
-    margin-bottom: 0; }
+    margin-bottom: -5px; }
 
 .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc {
   display: inline-block;
@@ -672,6 +672,95 @@ h6 {
     .section-compare-biweeklies .pane-content-area-bwmassoc .calculate-savings:before {
       font-family: FontAwesome;
       margin-right: 5px; }
+
+#superfish-4 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  width: calc(100% - 17px); }
+  #superfish-4 li {
+    padding: 0;
+    margin-right: 5px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 auto;
+            flex: 1 auto; }
+    #superfish-4 li a {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 24px;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 500;
+      padding: 12px 10px;
+      display: inline-block;
+      text-decoration: none;
+      position: relative;
+      padding-right: 13px;
+      padding-left: 1em;
+      border-bottom: 1px solid #c1c1c1;
+      width: 100%;
+      text-align: center;
+      height: 47px; }
+      #superfish-4 li a:after {
+        content: " ";
+        position: absolute;
+        top: -1px;
+        width: 23px;
+        background-color: inherit;
+        border-radius: 0 12px 0 0;
+        border-bottom: 1px solid #c1c1c1;
+        -webkit-transform: skew(24deg);
+                transform: skew(24deg);
+        right: -13px;
+        z-index: 1;
+        height: 47px; }
+      @media (min-width: 748px) {
+        #superfish-4 li a {
+          font-size: 14px;
+          height: 43px; }
+          #superfish-4 li a:after {
+            height: 43px; } }
+      @media (min-width: 1169px) {
+        #superfish-4 li a {
+          font-size: 17px;
+          height: 47px; }
+          #superfish-4 li a:after {
+            height: 47px; } }
+    #superfish-4 li:first-child a {
+      background: #57a63d;
+      border: 1px solid #57a63d;
+      border-bottom: 1px solid #c1c1c1; }
+    #superfish-4 li:nth-child(2) a {
+      background: #0792cd;
+      border: 1px solid #0792cd;
+      border-bottom: 1px solid #c1c1c1; }
+    #superfish-4 li:nth-child(3) a {
+      background: #ec1f27;
+      border: 1px solid #ec1f27;
+      border-bottom: 1px solid #c1c1c1; }
+    #superfish-4 li:nth-child(4) a {
+      background: #33a6d7;
+      border: 1px solid #33a6d7;
+      border-bottom: 1px solid #c1c1c1; }
+    #superfish-4 li:nth-child(5) a {
+      background: #0355a3;
+      border: 1px solid #0355a3;
+      border-bottom: 1px solid #c1c1c1; }
+    #superfish-4 li.active a {
+      background-color: white;
+      color: black;
+      border: 1px solid #c1c1c1;
+      border-bottom: 1px solid white;
+      z-index: 2; }
+      #superfish-4 li.active a:after {
+        border: 1px solid #c1c1c1;
+        border-left: 0;
+        border-bottom: 0;
+        z-index: 2; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
