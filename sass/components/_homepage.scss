@@ -465,7 +465,7 @@
 	}
 
 	.pane-node-field-featured-image {
-		flex: 1 45%;
+		flex: calc(100% / 3);
 		align-self: flex-end;
 		z-index: 1;
 
