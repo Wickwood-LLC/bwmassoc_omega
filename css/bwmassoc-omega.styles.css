@@ -535,6 +535,8 @@ h6 {
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee; }
+.section-biweekly-calculator .pane-content-area-bwmassoc {
+  position: relative; }
 .section-biweekly-calculator .pane-node-field-featured-image {
   position: absolute;
   bottom: -4px;
@@ -543,6 +545,12 @@ h6 {
   width: calc((100% / 3) * 2);
   display: inline-block;
   z-index: 2; }
+  .section-biweekly-calculator .field--name-body .field__item > h1 {
+    color: #0355a3; }
+  .section-biweekly-calculator .field--name-body p {
+    font-size: 20px; }
+  .section-biweekly-calculator .field--name-body .file-video {
+    text-align: center; }
 .section-biweekly-calculator .text-info {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -628,6 +636,42 @@ h6 {
   .section-biweekly-calculator .calculate-savings:before {
     font-family: FontAwesome;
     margin-right: 5px; }
+
+.section-7-minutes-7-years,
+.section-as-seen-on-tv {
+  padding: 0 1em; }
+
+.section-compare-biweeklies {
+  padding: 0 1em; }
+  .section-compare-biweeklies .field--name-body .field__item > h1 {
+    color: #0355a3; }
+  .section-compare-biweeklies .field--name-body p {
+    font-size: 20px;
+    font-family: FontAwesome, sans-serif; }
+  .section-compare-biweeklies .field--name-body tr:nth-child(even) {
+    background-color: #eeeeee; }
+  .section-compare-biweeklies .field--name-body tr:hover {
+    background-color: #ffffdc; }
+  .section-compare-biweeklies .field--name-body th {
+    text-align: center;
+    padding: 5px;
+    background-color: #c0eaff; }
+  .section-compare-biweeklies .field--name-body td {
+    padding: 10px;
+    width: calc(100% / 3); }
+  .section-compare-biweeklies .calculate-savings {
+    color: #fff;
+    font-weight: 600;
+    background: #017cca;
+    padding: 9px 15px;
+    border-radius: 75px;
+    margin: 0.5em auto;
+    display: table;
+    text-decoration: none;
+    clear: both; }
+    .section-compare-biweeklies .calculate-savings:before {
+      font-family: FontAwesome;
+      margin-right: 5px; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
