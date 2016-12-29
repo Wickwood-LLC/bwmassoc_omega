@@ -519,7 +519,7 @@ h6 {
 .pane-superfish-4 {
   display: inline-block; }
   .pane-superfish-4 #superfish-4 {
-    margin-bottom: -5px; }
+    margin-bottom: -1px; }
 
 .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc {
   display: inline-block;
@@ -750,13 +750,13 @@ h6 {
       background: #0355a3;
       border: 1px solid #0355a3;
       border-bottom: 1px solid #c1c1c1; }
-    #superfish-4 li.active a {
+    #superfish-4 li.active-trail a {
       background-color: white;
       color: black;
       border: 1px solid #c1c1c1;
       border-bottom: 1px solid white;
       z-index: 2; }
-      #superfish-4 li.active a:after {
+      #superfish-4 li.active-trail a:after {
         border: 1px solid #c1c1c1;
         border-left: 0;
         border-bottom: 0;
