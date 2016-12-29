@@ -392,6 +392,10 @@
 		width: 100%;
 		background: #fff none repeat scroll 0 0;
     	border: 1px solid #c1c1c1;
+
+    	.file-video {
+			text-align: center;
+		}
 	}
 
 	.pane-node-title {
@@ -429,10 +433,6 @@
 
 		p {
 			font-size: 20px;
-		}
-
-		.file-video {
-			text-align: center;
 		}
 	}
 

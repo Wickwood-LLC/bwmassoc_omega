@@ -526,6 +526,8 @@ h6 {
   width: 100%;
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1; }
+  .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc .file-video {
+    text-align: center; }
 .node-type-bwmassoc-basic-page .pane-node-title {
   text-align: center;
   color: #0355a3;
@@ -549,8 +551,6 @@ h6 {
     color: #0355a3; }
   .section-biweekly-calculator .field--name-body p {
     font-size: 20px; }
-  .section-biweekly-calculator .field--name-body .file-video {
-    text-align: center; }
 .section-biweekly-calculator .text-info {
   -webkit-box-flex: 1;
       -ms-flex: 1;
