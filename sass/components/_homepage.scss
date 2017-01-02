@@ -414,6 +414,10 @@
 				padding-left: 1em;
 			}
 		}
+
+		.pane-content-area-bwmassoc {
+			padding: 0 1em;
+		}
 	}
 
 	.pane-content-area-bwmassoc {
@@ -444,6 +448,7 @@
 	.pane-content-area-bwmassoc {
 		display: flex;
 		flex-flow: row wrap;
+		padding: 0;
 	}
 
 	.pane-node-title {
@@ -738,6 +743,18 @@
 				}
 			}
 		}
+	}
+}
+
+.section-biweekly-calculator-form {
+	.pane-node-body {
+		display: inline-block;
+		width: calc(100% - 439px);
+		vertical-align: top;
+	}
+
+	.pane-aweber-webform-aweber-webform {
+		display: inline-block;
 	}
 }
 
