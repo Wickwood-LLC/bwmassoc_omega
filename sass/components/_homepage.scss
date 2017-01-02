@@ -450,7 +450,7 @@
 	}
 
 	.pane-node-body {
-		flex: calc((100% / 3) * 2);
+		flex: 55%;
 		display: inline-block;
 		z-index: 2;
 
@@ -466,7 +466,7 @@
 	}
 
 	.pane-node-field-featured-image {
-		flex: calc(100% / 3);
+		flex: 45%;
 		align-self: flex-end;
 		z-index: 1;
 		order: 1;
