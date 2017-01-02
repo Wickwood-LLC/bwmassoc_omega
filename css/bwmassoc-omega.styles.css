@@ -525,7 +525,8 @@ h6 {
     margin-bottom: -1px; }
 
 .node-type-bwmassoc-basic-page .radix-bryant .row,
-.page-contact-bwma .radix-bryant .row {
+.page-contact-bwma .radix-bryant .row,
+.page-node-10005 .radix-bryant .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,7 +534,8 @@ h6 {
       flex-flow: row wrap;
   margin: 0; }
   .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
-  .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar {
+  .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
+  .page-node-10005 .radix-bryant .row .radix-layouts-sidebar {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -543,7 +545,8 @@ h6 {
     padding: 0; }
     @media (min-width: 1024px) {
       .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
-      .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar {
+      .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
+      .page-node-10005 .radix-bryant .row .radix-layouts-sidebar {
         -webkit-box-ordinal-group: 1;
             -ms-flex-order: 0;
                 order: 0;
@@ -551,29 +554,34 @@ h6 {
             -ms-flex: 25%;
                 flex: 25%; } }
   .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
-  .page-contact-bwma .radix-bryant .row .radix-layouts-content {
+  .page-contact-bwma .radix-bryant .row .radix-layouts-content,
+  .page-node-10005 .radix-bryant .row .radix-layouts-content {
     -webkit-box-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
     padding: 0; }
     @media (min-width: 1024px) {
       .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
-      .page-contact-bwma .radix-bryant .row .radix-layouts-content {
+      .page-contact-bwma .radix-bryant .row .radix-layouts-content,
+      .page-node-10005 .radix-bryant .row .radix-layouts-content {
         -webkit-box-flex: calc(75% - 1em);
             -ms-flex: calc(75% - 1em);
                 flex: calc(75% - 1em);
         padding-left: 1em; } }
 .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc,
-.page-contact-bwma .pane-content-area-bwmassoc {
+.page-contact-bwma .pane-content-area-bwmassoc,
+.page-node-10005 .pane-content-area-bwmassoc {
   display: inline-block;
   width: 100%;
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1; }
   .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc .file-video,
-  .page-contact-bwma .pane-content-area-bwmassoc .file-video {
+  .page-contact-bwma .pane-content-area-bwmassoc .file-video,
+  .page-node-10005 .pane-content-area-bwmassoc .file-video {
     text-align: center; }
 .node-type-bwmassoc-basic-page .pane-node-title,
-.page-contact-bwma .pane-node-title {
+.page-contact-bwma .pane-node-title,
+.page-node-10005 .pane-node-title {
   text-align: center;
   color: #0355a3;
   text-decoration: none; }
@@ -768,21 +776,28 @@ h6 {
       font-family: FontAwesome;
       margin-right: 5px; }
 
-.section-contact-bwma .pane-content-area-bwmassoc {
+.section-contact-bwma .pane-content-area-bwmassoc,
+.section-contact-bwmassoc .pane-content-area-bwmassoc {
   padding: 0 1em; }
   .section-contact-bwma .pane-content-area-bwmassoc .pane-node-body,
-  .section-contact-bwma .pane-content-area-bwmassoc .pane-node-webform {
+  .section-contact-bwma .pane-content-area-bwmassoc .pane-node-webform,
+  .section-contact-bwmassoc .pane-content-area-bwmassoc .pane-node-body,
+  .section-contact-bwmassoc .pane-content-area-bwmassoc .pane-node-webform {
     padding: 0 20%; }
-  .section-contact-bwma .pane-content-area-bwmassoc .form-item label {
+  .section-contact-bwma .pane-content-area-bwmassoc .form-item label,
+  .section-contact-bwmassoc .pane-content-area-bwmassoc .form-item label {
     display: inline-block;
     margin-right: 0;
     width: 128px; }
-  .section-contact-bwma .pane-content-area-bwmassoc .form-item .description {
+  .section-contact-bwma .pane-content-area-bwmassoc .form-item .description,
+  .section-contact-bwmassoc .pane-content-area-bwmassoc .form-item .description {
     font-size: 0.8em;
     margin-top: 5px; }
-  .section-contact-bwma .pane-content-area-bwmassoc .form-actions {
+  .section-contact-bwma .pane-content-area-bwmassoc .form-actions,
+  .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions {
     text-align: center; }
-    .section-contact-bwma .pane-content-area-bwmassoc .form-actions input {
+    .section-contact-bwma .pane-content-area-bwmassoc .form-actions input,
+    .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions input {
       color: #fff;
       padding: 6px 12px !important;
       font-size: 1em;
@@ -802,15 +817,18 @@ h6 {
       border: 1px solid transparent;
       border-radius: 4px;
       background-color: #1894c7; }
-      .section-contact-bwma .pane-content-area-bwmassoc .form-actions input:hover {
+      .section-contact-bwma .pane-content-area-bwmassoc .form-actions input:hover,
+      .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions input:hover {
         background-color: #0355a3;
         text-decoration: none; }
-    .section-contact-bwma .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005 {
+    .section-contact-bwma .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005,
+    .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005 {
       margin-right: 1em;
       background-color: white;
       border: 1px solid #1894c7;
       color: #1894c7; }
-      .section-contact-bwma .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005:hover {
+      .section-contact-bwma .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005:hover,
+      .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005:hover {
         background-color: #68afcc;
         color: white; }
 
