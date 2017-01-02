@@ -843,10 +843,10 @@ h6 {
         height: 47px; }
       @media (min-width: 748px) {
         #superfish-4 li a {
-          font-size: 14px;
-          height: 43px; }
+          font-size: 12px;
+          height: 38px; }
           #superfish-4 li a:after {
-            height: 43px; } }
+            height: 38px; } }
       @media (min-width: 1293px) {
         #superfish-4 li a {
           font-size: 17px;
