@@ -734,7 +734,7 @@
 	    border-top-right-radius: 24px;
 	    color: #fff;
 	    font-size: 17px;
-	    font-weight: 500;
+	    font-weight: bold;
 	    padding: 12px 10px;
 	    display: inline-block;
 	    text-decoration: none;
@@ -769,7 +769,7 @@
 	    	}
 	    }
 
-	    @include breakpoint(1293px) {
+	    @include breakpoint(1351px) {
 	    	font-size: 17px;
 	    	height: 47px;
 

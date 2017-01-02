@@ -817,7 +817,7 @@ h6 {
       border-top-right-radius: 24px;
       color: #fff;
       font-size: 17px;
-      font-weight: 500;
+      font-weight: bold;
       padding: 12px 10px;
       display: inline-block;
       text-decoration: none;
@@ -847,7 +847,7 @@ h6 {
           height: 38px; }
           #superfish-4 li a:after {
             height: 38px; } }
-      @media (min-width: 1293px) {
+      @media (min-width: 1351px) {
         #superfish-4 li a {
           font-size: 17px;
           height: 47px; }
