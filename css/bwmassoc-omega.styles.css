@@ -721,6 +721,7 @@ h6 {
   font-size: 1.2em; }
 .section-7-minutes-7-years .calculate-savings,
 .section-as-seen-on-tv .calculate-savings {
+  font-family: FontAwesome, sans-serif;
   color: #fff;
   font-weight: 600;
   background: #017cca;
