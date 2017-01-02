@@ -712,7 +712,7 @@
 }
 
 .pane-superfish-4 {
-	width: calc(100% - 17px);
+	width: calc(100% - 12px);
 }
 
 #superfish-4 {
@@ -725,7 +725,7 @@
 
 	li {
 		padding: 0;
-		margin-right: 5px;
+		margin-right: 10px;
 		flex: 1 auto;
 		z-index: 1;
 
@@ -769,7 +769,7 @@
 	    	}
 	    }
 
-	    @include breakpoint(1169px) {
+	    @include breakpoint(1293px) {
 	    	font-size: 17px;
 	    	height: 47px;
 
