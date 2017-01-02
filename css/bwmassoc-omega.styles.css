@@ -719,6 +719,21 @@ h6 {
 .section-7-minutes-7-years .field--name-body p,
 .section-as-seen-on-tv .field--name-body p {
   font-size: 1.2em; }
+.section-7-minutes-7-years .calculate-savings,
+.section-as-seen-on-tv .calculate-savings {
+  color: #fff;
+  font-weight: 600;
+  background: #017cca;
+  padding: 9px 15px;
+  border-radius: 75px;
+  margin: 0.5em auto;
+  display: table;
+  text-decoration: none;
+  clear: both; }
+  .section-7-minutes-7-years .calculate-savings:before,
+  .section-as-seen-on-tv .calculate-savings:before {
+    font-family: FontAwesome;
+    margin-right: 5px; }
 
 .section-compare-biweeklies .pane-content-area-bwmassoc {
   padding: 0 1em; }

@@ -606,6 +606,23 @@
 	.field--name-body p {
 		font-size: 1.2em;
 	}
+
+	.calculate-savings {
+		color: #fff;
+		font-weight: 600;
+		background: #017cca;
+		padding: 9px 15px;
+		border-radius: 75px;
+		margin: 0.5em auto;
+		display: table;
+		text-decoration: none;
+		clear: both;
+
+		&:before {
+			font-family: FontAwesome;
+			margin-right: 5px;
+		}
+	}
 }
 
 .section-compare-biweeklies {
