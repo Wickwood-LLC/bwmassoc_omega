@@ -686,10 +686,16 @@
 			padding: 0 20%;
 		}
 
-		.form-item label {
-			display: inline-block;
-			margin-right: 0;
-			width: 128px;
+		.form-item {
+			label {
+				display: inline-block;
+				margin-right: 0;
+				width: 128px;
+			}
+			.description {
+				font-size: 0.8em;
+				margin-top: 5px;
+			}
 		}
 
 		.form-actions {
