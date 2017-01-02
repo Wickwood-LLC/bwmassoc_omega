@@ -599,7 +599,8 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+      flex-flow: row wrap; }
+.section-biweekly-calculator .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0; }
 .section-biweekly-calculator .pane-node-title {
   -webkit-box-flex: 1;
