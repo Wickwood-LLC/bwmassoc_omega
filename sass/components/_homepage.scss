@@ -517,6 +517,14 @@
 					height: auto;
 				}
 
+				@include breakpoint(768px) {
+					font-size: 24px;
+
+					img {
+						width: auto;
+					}
+				}
+
 				@include breakpoint(1024px) {
 					font-size: 18px;
 
@@ -525,7 +533,7 @@
 					}
 				}
 
-				@include breakpoint(1200px) {
+				@include breakpoint(1144px) {
 					font-size: 24px;
 
 					img {
@@ -552,6 +560,7 @@
 
 			li p {
 				margin: 0;
+				white-space: nowrap;
 			}
 		}
 	}
