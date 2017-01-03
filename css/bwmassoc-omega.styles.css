@@ -986,9 +986,11 @@ h6 {
       background: #0355a3; }
     #superfish-4-accordion li:last-child {
       border-radius: 0 0 10px 10px; }
+      #superfish-4-accordion li:last-child a {
+        border-radius: 0 0 10px 10px; }
     #superfish-4-accordion li a {
       border: 0px;
-      color: black;
+      color: white;
       padding-left: 34px;
       text-decoration: none;
       padding: 0.75em 1em; }

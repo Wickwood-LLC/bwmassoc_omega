@@ -933,11 +933,15 @@
 		}
 		&:last-child {
 			border-radius: 0 0 10px 10px;
+
+			a {
+				border-radius: 0 0 10px 10px;
+			}
 		}
 
 		a {
 			border: 0px;
-			color: black;
+			color: white;
 			padding-left: 34px;
 			text-decoration: none;
 			padding: 0.75em 1em;
