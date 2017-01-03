@@ -624,7 +624,11 @@ h6 {
   bottom: 0;
   max-width: 45%;
   max-height: 737px;
-  position: absolute; }
+  position: absolute;
+  display: none; }
+  @media (min-width: 768px) {
+    .section-biweekly-calculator .pane-node-field-featured-image {
+      display: block; } }
   .section-biweekly-calculator .pane-node-field-featured-image .field__items img {
     width: 100%;
     vertical-align: bottom; }
