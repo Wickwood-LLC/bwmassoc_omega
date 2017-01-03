@@ -607,11 +607,18 @@ h6 {
       -ms-flex: 1 0 100%;
           flex: 1 0 100%; }
 .section-biweekly-calculator .pane-node-body {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 66%;
-          flex: 0 66%;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
   display: inline-block;
-  z-index: 2; }
+  z-index: 2;
+  padding: 0 1em; }
+  @media (min-width: 768px) {
+    .section-biweekly-calculator .pane-node-body {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 66%;
+              flex: 0 66%;
+      padding: 0; } }
   .section-biweekly-calculator .pane-node-body .field__item > h1 {
     margin-top: 0;
     width: 150%; }

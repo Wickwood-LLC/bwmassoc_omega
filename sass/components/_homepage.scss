@@ -459,9 +459,15 @@
 	}
 
 	.pane-node-body {
-		flex: 0 66%;
+		flex: 100%;
 		display: inline-block;
 		z-index: 2;
+		padding: 0 1em;
+
+		@include breakpoint(768px) {
+			flex: 0 66%;
+			padding: 0;
+		}
 
 		.field__item > h1 {
 			margin-top: 0;
