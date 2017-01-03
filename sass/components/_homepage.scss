@@ -768,7 +768,13 @@
 }
 
 .pane-superfish-4 {
-	width: calc(100% - 12px);
+	width: 100%;
+	margin-bottom: 1em;
+
+	@include breakpoint(768px) {
+		width: calc(100% - 12px);
+		margin-bottom: 0;
+	}
 }
 
 #superfish-4 {
@@ -876,6 +882,10 @@
 			}
 		}
 	}
+
+	.sf-accordion-toggle {
+		margin-bottom: 1em;
+	}
 }
 
 #superfish-4-toggle {
@@ -887,6 +897,7 @@
     border-left: 0px;
     padding: 0.5em;
     font-size: 1.2em;
+    text-decoration: none;
 
     &.sf-expanded {
 		background-color: #239fd3;
