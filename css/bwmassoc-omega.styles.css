@@ -809,12 +809,27 @@ h6 {
   .section-contact-bwma .pane-content-area-bwmassoc .pane-node-webform,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .pane-node-body,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .pane-node-webform {
-    padding: 0 20%; }
+    padding: 1em; }
+    @media (min-width: 768px) {
+      .section-contact-bwma .pane-content-area-bwmassoc .pane-node-body,
+      .section-contact-bwma .pane-content-area-bwmassoc .pane-node-webform,
+      .section-contact-bwmassoc .pane-content-area-bwmassoc .pane-node-body,
+      .section-contact-bwmassoc .pane-content-area-bwmassoc .pane-node-webform {
+        padding: 0 20%; } }
+    .section-contact-bwma .pane-content-area-bwmassoc .pane-node-body p,
+    .section-contact-bwma .pane-content-area-bwmassoc .pane-node-webform p,
+    .section-contact-bwmassoc .pane-content-area-bwmassoc .pane-node-body p,
+    .section-contact-bwmassoc .pane-content-area-bwmassoc .pane-node-webform p {
+      font-size: 1.2em; }
   .section-contact-bwma .pane-content-area-bwmassoc .form-item label,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .form-item label {
     display: inline-block;
     margin-right: 0;
     width: 128px; }
+  .section-contact-bwma .pane-content-area-bwmassoc .form-item input,
+  .section-contact-bwmassoc .pane-content-area-bwmassoc .form-item input {
+    font-size: 16px;
+    width: calc(100% - 133px); }
   .section-contact-bwma .pane-content-area-bwmassoc .form-item .description,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .form-item .description {
     font-size: 0.8em;
