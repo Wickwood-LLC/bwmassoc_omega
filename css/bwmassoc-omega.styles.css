@@ -607,9 +607,9 @@ h6 {
       -ms-flex: 1 0 100%;
           flex: 1 0 100%; }
 .section-biweekly-calculator .pane-node-body {
-  -webkit-box-flex: 55%;
-      -ms-flex: 55%;
-          flex: 55%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 66%;
+          flex: 0 66%;
   display: inline-block;
   z-index: 2; }
   .section-biweekly-calculator .pane-node-body .field__item > h1 {
@@ -619,15 +619,11 @@ h6 {
       color: #0355a3;
       text-decoration: none; }
 .section-biweekly-calculator .pane-node-field-featured-image {
-  -webkit-box-flex: 45%;
-      -ms-flex: 45%;
-          flex: 45%;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
   z-index: 1;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1; }
+  right: 0;
+  bottom: 0;
+  max-width: 45%;
+  max-height: 737px; }
   .section-biweekly-calculator .pane-node-field-featured-image .field__items img {
     width: 100%;
     vertical-align: bottom; }
@@ -654,7 +650,8 @@ h6 {
       font-weight: bold;
       line-height: 1; }
       .section-biweekly-calculator .text-info ul li img {
-        width: 20px; }
+        width: 20px;
+        height: auto; }
       @media (min-width: 1024px) {
         .section-biweekly-calculator .text-info ul li {
           font-size: 18px; }

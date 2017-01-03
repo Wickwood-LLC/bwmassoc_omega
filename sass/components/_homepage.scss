@@ -459,7 +459,7 @@
 	}
 
 	.pane-node-body {
-		flex: 55%;
+		flex: 0 66%;
 		display: inline-block;
 		z-index: 2;
 
@@ -475,10 +475,11 @@
 	}
 
 	.pane-node-field-featured-image {
-		flex: 45%;
-		align-self: flex-end;
 		z-index: 1;
-		order: 1;
+		right: 0;
+		bottom: 0;
+		max-width: 45%;
+		max-height: 737px;
 
 		.field__items {
 			img {
@@ -512,6 +513,7 @@
 
 				img {
 					width: 20px;
+					height: auto;
 				}
 
 				@include breakpoint(1024px) {
