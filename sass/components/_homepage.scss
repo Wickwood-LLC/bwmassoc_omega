@@ -965,6 +965,8 @@
     li {
 		border: 1px solid #ddd;
 		box-sizing: border-box;
+		float: none;
+		width: 100%;
 
 		&:first-child a {
 			background: #57a63d;

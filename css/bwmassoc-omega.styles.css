@@ -1013,7 +1013,9 @@ h6 {
   box-sizing: border-box; }
   #superfish-4-accordion li {
     border: 1px solid #ddd;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    float: none;
+    width: 100%; }
     #superfish-4-accordion li:first-child a {
       background: #57a63d; }
     #superfish-4-accordion li:nth-child(2) a {
