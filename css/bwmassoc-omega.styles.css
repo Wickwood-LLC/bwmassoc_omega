@@ -842,10 +842,14 @@ h6 {
   padding: 0 1em; }
 .section-biweekly-calculator.page-node-12862 .pane-node-body {
   display: inline-block;
-  width: calc(100% - 439px);
+  -webkit-box-flex: calc(53% - 1em);
+      -ms-flex: calc(53% - 1em);
+          flex: calc(53% - 1em);
+  margin-right: 1em;
   vertical-align: top; }
 .section-biweekly-calculator.page-node-12862 .pane-aweber-webform-aweber-webform {
-  display: inline-block; }
+  display: inline-block;
+  margin-bottom: 1em; }
 
 .pane-superfish-4 {
   width: calc(100% - 12px); }
@@ -939,6 +943,33 @@ h6 {
         border-left: 0;
         border-bottom: 0;
         z-index: 2; }
+
+#superfish-4-toggle {
+  display: block;
+  text-align: center;
+  background-color: #0355a3;
+  color: white;
+  border-radius: 10px;
+  border-left: 0px;
+  padding: 0.5em;
+  font-size: 1.2em; }
+  #superfish-4-toggle.sf-expanded {
+    background-color: #239fd3;
+    border-radius: 10px 10px 0 0;
+    font-weight: normal; }
+
+#superfish-4-accordion {
+  border: 1px solid #239fd3;
+  border-top: 0px;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box; }
+  #superfish-4-accordion li {
+    border: 1px solid #ddd;
+    box-sizing: border-box; }
+    #superfish-4-accordion li a {
+      border: 0px;
+      color: black;
+      padding-left: 34px; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
