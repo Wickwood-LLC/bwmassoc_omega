@@ -805,6 +805,11 @@
 		flex: 1 calc(40% - 1em);
 		margin-right: 1em;
 		vertical-align: top;
+		order: 1;
+
+		@include breakpoint(822px) {
+			order: 0;
+		}
 
 		p {
 			font-size: 16px;
@@ -814,6 +819,11 @@
 	.pane-aweber-webform-aweber-webform {
 		display: inline-block;
 		margin-bottom: 1em;
+		width: 100%;
+
+		@include breakpoint(822px) {
+			width: auto;
+		}
 	}
 }
 

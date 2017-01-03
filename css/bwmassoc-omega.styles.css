@@ -884,12 +884,24 @@ h6 {
       -ms-flex: 1 calc(40% - 1em);
           flex: 1 calc(40% - 1em);
   margin-right: 1em;
-  vertical-align: top; }
+  vertical-align: top;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1; }
+  @media (min-width: 822px) {
+    .section-biweekly-calculator.page-node-12862 .pane-node-body {
+      -webkit-box-ordinal-group: 1;
+          -ms-flex-order: 0;
+              order: 0; } }
   .section-biweekly-calculator.page-node-12862 .pane-node-body p {
     font-size: 16px; }
 .section-biweekly-calculator.page-node-12862 .pane-aweber-webform-aweber-webform {
   display: inline-block;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  width: 100%; }
+  @media (min-width: 822px) {
+    .section-biweekly-calculator.page-node-12862 .pane-aweber-webform-aweber-webform {
+      width: auto; } }
 
 .pane-superfish-4 {
   width: 100%;
