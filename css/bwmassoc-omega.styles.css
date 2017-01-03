@@ -974,10 +974,24 @@ h6 {
   #superfish-4-accordion li {
     border: 1px solid #ddd;
     box-sizing: border-box; }
+    #superfish-4-accordion li:first-child a {
+      background: #57a63d; }
+    #superfish-4-accordion li:nth-child(2) a {
+      background: #0792cd; }
+    #superfish-4-accordion li:nth-child(3) a {
+      background: #ec1f27; }
+    #superfish-4-accordion li:nth-child(4) a {
+      background: #33a6d7; }
+    #superfish-4-accordion li:nth-child(5) a {
+      background: #0355a3; }
+    #superfish-4-accordion li:last-child {
+      border-radius: 0 0 10px 10px; }
     #superfish-4-accordion li a {
       border: 0px;
       color: black;
-      padding-left: 34px; }
+      padding-left: 34px;
+      text-decoration: none;
+      padding: 0.75em 1em; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,

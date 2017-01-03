@@ -916,10 +916,31 @@
 		border: 1px solid #ddd;
 		box-sizing: border-box;
 
+		&:first-child a {
+			background: #57a63d;
+		}
+		&:nth-child(2) a {
+			background: #0792cd;
+		}
+		&:nth-child(3) a {
+			background: #ec1f27;
+		}
+		&:nth-child(4) a {
+			background: #33a6d7;
+		}
+		&:nth-child(5) a {
+			background: #0355a3;
+		}
+		&:last-child {
+			border-radius: 0 0 10px 10px;
+		}
+
 		a {
 			border: 0px;
 			color: black;
 			padding-left: 34px;
+			text-decoration: none;
+			padding: 0.75em 1em;
 		}
     }
 }
