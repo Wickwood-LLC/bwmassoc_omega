@@ -794,7 +794,7 @@
 
 .section-biweekly-calculator.page-node-12862 {
 	.radix-bryant .row .pane-content-area-bwmassoc {
-		padding: 0 1em;
+		padding: 0 2em 1em 2em;
 	}
 
 	.pane-node-body {
@@ -802,6 +802,10 @@
 		flex: calc(53% - 1em);
 		margin-right: 1em;
 		vertical-align: top;
+
+		p {
+			font-size: 16px;
+		}
 	}
 
 	.pane-aweber-webform-aweber-webform {
