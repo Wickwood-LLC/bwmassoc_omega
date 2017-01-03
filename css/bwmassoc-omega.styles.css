@@ -877,9 +877,9 @@ h6 {
   padding: 0 2em 1em 2em; }
 .section-biweekly-calculator.page-node-12862 .pane-node-body {
   display: inline-block;
-  -webkit-box-flex: calc(53% - 1em);
-      -ms-flex: calc(53% - 1em);
-          flex: calc(53% - 1em);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 calc(50% - 1em);
+          flex: 1 calc(50% - 1em);
   margin-right: 1em;
   vertical-align: top; }
   .section-biweekly-calculator.page-node-12862 .pane-node-body p {
