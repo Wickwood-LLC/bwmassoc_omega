@@ -653,7 +653,12 @@ h6 {
       .section-biweekly-calculator .text-info ul li img {
         width: 20px;
         height: auto; }
-      @media (min-width: 768px) {
+      @media (min-width: 700px) {
+        .section-biweekly-calculator .text-info ul li {
+          font-size: 18px; }
+          .section-biweekly-calculator .text-info ul li img {
+            width: auto; } }
+      @media (min-width: 817px) {
         .section-biweekly-calculator .text-info ul li {
           font-size: 24px; }
           .section-biweekly-calculator .text-info ul li img {
