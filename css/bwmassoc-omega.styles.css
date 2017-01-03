@@ -727,8 +727,8 @@ h6 {
     font-family: FontAwesome;
     margin-right: 5px; }
 
-.section-7-minutes-7-years .pane-content-area-bwmassoc,
-.section-as-seen-on-tv .pane-content-area-bwmassoc {
+.section-7-minutes-7-years .radix-bryant .row .pane-content-area-bwmassoc,
+.section-as-seen-on-tv .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0 2em; }
 .section-7-minutes-7-years .field--name-body p,
 .section-as-seen-on-tv .field--name-body p {
@@ -838,11 +838,11 @@ h6 {
         background-color: #68afcc;
         color: white; }
 
-.section-biweekly-calculator-form .pane-node-body {
+.section-biweekly-calculator.page-node-12862 .pane-node-body {
   display: inline-block;
   width: calc(100% - 439px);
   vertical-align: top; }
-.section-biweekly-calculator-form .pane-aweber-webform-aweber-webform {
+.section-biweekly-calculator.page-node-12862 .pane-aweber-webform-aweber-webform {
   display: inline-block; }
 
 .pane-superfish-4 {
