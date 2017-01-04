@@ -30,7 +30,7 @@
 	font-size: 20px;
 
 	.slogan-2 {
-		white-space: nowrap;
+		display: block;
 
 		&:before {
 			content: '';
@@ -98,7 +98,7 @@
 
 		> div {
 			display: flex;
-	    	flex-wrap: nowrap;
+	    	flex-wrap: wrap;
 
 	    	.pane-block-4 {
 	    		width: 170px;

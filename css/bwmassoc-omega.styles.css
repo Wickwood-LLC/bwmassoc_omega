@@ -141,7 +141,7 @@ h6 {
 .pane-current-7 a {
   font-size: 20px; }
   .pane-current-7 a .slogan-2 {
-    white-space: nowrap; }
+    display: block; }
     .pane-current-7 a .slogan-2:before {
       content: '';
       margin-left: 13px; }
@@ -190,8 +190,8 @@ h6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     #wwm-collapse-3 .left-column > div .pane-block-4 {
       width: 170px; }
 #wwm-collapse-3 .right-column {
@@ -1056,9 +1056,11 @@ h6 {
         border-left: 0;
         border-bottom: 0;
         z-index: 2; }
-    #superfish-4 li:hover a {
-      background-color: #ffc43d;
-      color: black; }
+    #superfish-4 li:hover {
+      border-color: #ffc43d; }
+      #superfish-4 li:hover a {
+        background-color: #ffc43d;
+        color: black; }
   #superfish-4 .sf-accordion-toggle {
     margin-bottom: 1em; }
 
