@@ -50,6 +50,7 @@
 	font-weight: 700;
 	text-align: center;
 	width: 100%;
+	display: flex;
 
 	&:before {
 		font-family: FontAwesome;
@@ -94,11 +95,12 @@
 
 #wwm-collapse-3 {
 	.left-column {
-		flex: 0 auto;
+		flex: 0 32%;
 
 		> div {
 			display: flex;
 	    	flex-wrap: wrap;
+			justify-content: center;
 
 	    	.pane-block-4 {
 	    		width: 170px;
