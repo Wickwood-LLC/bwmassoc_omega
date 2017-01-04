@@ -1068,9 +1068,6 @@ h6 {
     box-sizing: border-box;
     float: none;
     width: 100%; }
-    #superfish-4-accordion li.active-trail a, #superfish-4-accordion li:hover a {
-      background-color: white;
-      color: black; }
     #superfish-4-accordion li:first-child a {
       background: #57a63d; }
     #superfish-4-accordion li:nth-child(2) a {
@@ -1091,6 +1088,12 @@ h6 {
       padding-left: 34px;
       text-decoration: none;
       padding: 0.75em 1em; }
+      #superfish-4-accordion li a:hover {
+        background-color: #ffc43d;
+        color: black; }
+      #superfish-4-accordion li a.active {
+        background-color: white;
+        color: black; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .l-main .row,
