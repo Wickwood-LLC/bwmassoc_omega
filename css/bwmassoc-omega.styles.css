@@ -932,7 +932,7 @@ h6 {
       border-top-left-radius: 5px;
       border-top-right-radius: 24px;
       color: #fff;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: bold;
       padding: 12px 10px;
       display: inline-block;
@@ -943,7 +943,7 @@ h6 {
       border-bottom: 1px solid #c1c1c1;
       width: 100%;
       text-align: center;
-      height: 38px; }
+      height: 37px; }
       #superfish-4 li a:after {
         content: " ";
         position: absolute;
@@ -956,7 +956,13 @@ h6 {
                 transform: skew(24deg);
         right: -13px;
         z-index: 1;
-        height: 38px; }
+        height: 37px; }
+      @media (min-width: 768px) {
+        #superfish-4 li a {
+          font-size: 12px;
+          height: 38px; }
+          #superfish-4 li a:after {
+            height: 38px; } }
       @media (min-width: 866px) {
         #superfish-4 li a {
           font-size: 14px;
