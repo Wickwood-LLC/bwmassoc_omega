@@ -532,27 +532,11 @@
 					font-size: 18px;
 
 					img {
-						width: auto;
+						width: 24px;
 					}
 				}
 
 				@include breakpoint(817px) {
-					font-size: 24px;
-
-					img {
-						width: auto;
-					}
-				}
-
-				@include breakpoint(1024px) {
-					font-size: 18px;
-
-					img {
-						width: auto;
-					}
-				}
-
-				@include breakpoint(1144px) {
 					font-size: 24px;
 
 					img {
@@ -586,6 +570,7 @@
 
 	#savings {
 		margin-bottom: 1em;
+		padding: 0 1em;
 
 		h1 {
 			margin: 0;
@@ -1067,6 +1052,7 @@
 			padding-left: 34px;
 			text-decoration: none;
 			padding: 0.75em 1em;
+			text-align: center;
 
 			&:hover {
 				background-color: #ffc43d;
