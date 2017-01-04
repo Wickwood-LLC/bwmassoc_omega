@@ -852,53 +852,98 @@
 		z-index: 1;
 
 		a {
-	    border-top-left-radius: 5px;
-	    border-top-right-radius: 24px;
-	    color: #fff;
-	    font-size: 17px;
-	    font-weight: bold;
-	    padding: 12px 10px;
-	    display: inline-block;
-	    text-decoration: none;
-	    position: relative;
-	    padding-right: 13px;
-	    padding-left: 1em;
-	    border-bottom: 1px solid #c1c1c1;
-	    width: 100%;
-	    text-align: center;
-	    height: 47px;
+		    border-top-left-radius: 5px;
+		    border-top-right-radius: 24px;
+		    color: #fff;
+		    font-size: 12px;
+		    font-weight: bold;
+		    padding: 12px 10px;
+		    display: inline-block;
+		    text-decoration: none;
+		    position: relative;
+		    padding-right: 13px;
+		    padding-left: 1em;
+		    border-bottom: 1px solid #c1c1c1;
+		    width: 100%;
+		    text-align: center;
+		    height: 38px;
 
-	    &:after {
-	    	content: " ";
-			  position: absolute;
-			  top: -1px;
-			  width: 23px;
-			  background-color: inherit;
-			  border-radius: 0 12px 0 0;
-			  border-bottom: 1px solid #c1c1c1;
-			  transform: skew(24deg);
-			  right: -13px;
-			  z-index: 1;
-			  height: 47px;
-	    }
+		    &:after {
+		    	content: " ";
+				position: absolute;
+				top: -1px;
+				width: 23px;
+				background-color: inherit;
+				border-radius: 0 12px 0 0;
+				border-bottom: 1px solid #c1c1c1;
+				transform: skew(24deg);
+				right: -13px;
+				z-index: 1;
+				height: 38px;
+			}
 
-	    @include breakpoint(748px) {
-	    	font-size: 12px;
-	    	height: 38px;
+			@include breakpoint(866px) {
+				font-size: 14px;
+				height: 40px;
 
-	    	&:after {
-	    		height: 38px;
-	    	}
-	    }
+				&:after {
+					height: 40px;
+				}
+			}
 
-	    @include breakpoint(1351px) {
-	    	font-size: 17px;
-	    	height: 47px;
+			@include breakpoint(963px) {
+				font-size: 16px;
+				height: 42px;
 
-	    	&:after {
-	    		height: 47px;
-	    	}
-	    }
+				&:after {
+					height: 42px;
+				}
+			}
+
+			@include breakpoint(1024px) {
+				font-size: 11px;
+				height: 36px;
+
+				&:after {
+					height: 36px;
+				}
+			}
+
+			@include breakpoint(1041px) {
+				font-size: 12px;
+				height: 38px;
+
+				&:after {
+					height: 38px;
+				}
+			}
+
+			@include breakpoint(1171px) {
+				font-size: 14px;
+				height: 40px;
+
+				&:after {
+					height: 40px;
+				}
+			}
+
+			@include breakpoint(1301px) {
+				font-size: 16px;
+				height: 42px;
+
+				&:after {
+					height: 42px;
+				}
+			}
+
+			@include breakpoint(1366px) {
+				font-size: 17px;
+				height: 47px;
+
+				&:after {
+					height: 47px;
+				}
+			}
 		}
 
 		&:first-child a {
@@ -941,6 +986,11 @@
 				z-index: 2;
 			}
 		}
+
+		&:hover a {
+			background-color: #ffc43d;
+			color: black;
+		}
 	}
 
 	.sf-accordion-toggle {
@@ -978,6 +1028,12 @@
 		box-sizing: border-box;
 		float: none;
 		width: 100%;
+
+		&.active-trail a,
+		&:hover a {
+			background-color: white;
+			color: black;
+		}
 
 		&:first-child a {
 			background: #57a63d;

@@ -932,7 +932,7 @@ h6 {
       border-top-left-radius: 5px;
       border-top-right-radius: 24px;
       color: #fff;
-      font-size: 17px;
+      font-size: 12px;
       font-weight: bold;
       padding: 12px 10px;
       display: inline-block;
@@ -943,7 +943,7 @@ h6 {
       border-bottom: 1px solid #c1c1c1;
       width: 100%;
       text-align: center;
-      height: 47px; }
+      height: 38px; }
       #superfish-4 li a:after {
         content: " ";
         position: absolute;
@@ -956,14 +956,44 @@ h6 {
                 transform: skew(24deg);
         right: -13px;
         z-index: 1;
-        height: 47px; }
-      @media (min-width: 748px) {
+        height: 38px; }
+      @media (min-width: 866px) {
+        #superfish-4 li a {
+          font-size: 14px;
+          height: 40px; }
+          #superfish-4 li a:after {
+            height: 40px; } }
+      @media (min-width: 963px) {
+        #superfish-4 li a {
+          font-size: 16px;
+          height: 42px; }
+          #superfish-4 li a:after {
+            height: 42px; } }
+      @media (min-width: 1024px) {
+        #superfish-4 li a {
+          font-size: 11px;
+          height: 36px; }
+          #superfish-4 li a:after {
+            height: 36px; } }
+      @media (min-width: 1041px) {
         #superfish-4 li a {
           font-size: 12px;
           height: 38px; }
           #superfish-4 li a:after {
             height: 38px; } }
-      @media (min-width: 1351px) {
+      @media (min-width: 1171px) {
+        #superfish-4 li a {
+          font-size: 14px;
+          height: 40px; }
+          #superfish-4 li a:after {
+            height: 40px; } }
+      @media (min-width: 1301px) {
+        #superfish-4 li a {
+          font-size: 16px;
+          height: 42px; }
+          #superfish-4 li a:after {
+            height: 42px; } }
+      @media (min-width: 1366px) {
         #superfish-4 li a {
           font-size: 17px;
           height: 47px; }
@@ -1000,6 +1030,9 @@ h6 {
         border-left: 0;
         border-bottom: 0;
         z-index: 2; }
+    #superfish-4 li:hover a {
+      background-color: #ffc43d;
+      color: black; }
   #superfish-4 .sf-accordion-toggle {
     margin-bottom: 1em; }
 
@@ -1029,6 +1062,9 @@ h6 {
     box-sizing: border-box;
     float: none;
     width: 100%; }
+    #superfish-4-accordion li.active-trail a, #superfish-4-accordion li:hover a {
+      background-color: white;
+      color: black; }
     #superfish-4-accordion li:first-child a {
       background: #57a63d; }
     #superfish-4-accordion li:nth-child(2) a {
