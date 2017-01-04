@@ -878,14 +878,15 @@ h6 {
   vertical-align: top;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
-          order: 1; }
+          order: 1;
+  font-size: 1.2em; }
   @media (min-width: 822px) {
     .section-biweekly-calculator.page-node-12862 .pane-node-body {
       -webkit-box-ordinal-group: 1;
           -ms-flex-order: 0;
               order: 0; } }
-  .section-biweekly-calculator.page-node-12862 .pane-node-body p {
-    font-size: 16px; }
+  .section-biweekly-calculator.page-node-12862 .pane-node-body li {
+    line-height: 1.5; }
 .section-biweekly-calculator.page-node-12862 .pane-aweber-webform-aweber-webform {
   display: inline-block;
   margin-bottom: 1em;
