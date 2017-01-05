@@ -211,8 +211,9 @@ h6 {
     text-align: center;
     margin: 0; }
   #wwm-collapse-3 .left-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane {
-    font-size: 14px;
-    margin: 0; }
+    font-size: 14px; }
+    #wwm-collapse-3 .left-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
+      margin: 0; }
   #wwm-collapse-3 .left-column .pane-widgets-s-socialmedia-share-default {
     width: 68px;
     margin: 0 auto; }
