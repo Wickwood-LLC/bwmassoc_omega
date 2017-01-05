@@ -67,43 +67,81 @@
 	}
 }
 
-#bbblogo {
-	a#bbblink {
-    display: block;
-    overflow: hidden;
-    width: 113px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-
-    &:hover {
-	    width: 136px;
-	    background-color: white;
-	    border: 1px solid #035a78;
-	    border-radius: 10px;
-    }
-
-    img {
-    	height: 180px;
-
-    	&:hover {
-      	margin-left: -120px;
-      }
-    }
-	}
-}
-
 #wwm-collapse-3 {
 	.left-column {
-		flex: 0 32%;
-		
+		flex: 0 0 377px;
+
+		@include breakpoint(1024px) {
+			flex: 0 0 301px;
+		}
+
 		.pane-block-4 {
 			width: 170px;
 			float: left;
+
+			@include breakpoint(1024) {
+				width: 124px;
+			}
 		}
+
+		#bbblogo {
+			a#bbblink {
+				display: block;
+				overflow: hidden;
+				width: 113px;
+				margin-top: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				height: 180px;
+
+				&:hover {
+				    width: 136px;
+				    background-color: white;
+				    border: 1px solid #035a78;
+				    border-radius: 10px;
+				}
+
+				img {
+					height: 180px;
+
+					&:hover {
+						margin-left: -120px;
+					}
+				}
+
+				@include breakpoint(1024) {
+		    		width: 94px;
+					height: 150px;
+
+					&:hover {
+						width: 112px;
+					}
+
+					img {
+						height: 150px;
+
+						&:hover {
+							margin-left: -100px;
+						}
+					}
+		    	}
+			}
+		}
+
 		.pane-page-logo {
 			float: left;
+		}
+		a#logo {
+			display: block;
+		    margin-top: 10px;
+
+		    img {
+		    	height: 180px;
+
+		    	@include breakpoint(1024) {
+		    		height: 150px;
+		    	}
+		    }
 		}
 	}
 
@@ -168,14 +206,5 @@
 			display: flex;
 			justify-content: center;
 		}
-	}
-
-	a#logo {
-		display: block;
-    margin-top: 10px;
-
-    img {
-    	height: 180px;
-    }
 	}
 }

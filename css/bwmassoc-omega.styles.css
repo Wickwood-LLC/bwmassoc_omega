@@ -170,33 +170,58 @@ h6 {
   .pane-current-9 p {
     margin: 0; }
 
-#bbblogo a#bbblink {
-  display: block;
-  overflow: hidden;
-  width: 113px;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 180px; }
-  #bbblogo a#bbblink:hover {
-    width: 136px;
-    background-color: white;
-    border: 1px solid #035a78;
-    border-radius: 10px; }
-  #bbblogo a#bbblink img {
-    height: 180px; }
-    #bbblogo a#bbblink img:hover {
-      margin-left: -120px; }
-
 #wwm-collapse-3 .left-column {
   -webkit-box-flex: 0;
-      -ms-flex: 0 32%;
-          flex: 0 32%; }
+      -ms-flex: 0 0 377px;
+          flex: 0 0 377px; }
+  @media (min-width: 1024px) {
+    #wwm-collapse-3 .left-column {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 301px;
+              flex: 0 0 301px; } }
   #wwm-collapse-3 .left-column .pane-block-4 {
     width: 170px;
     float: left; }
+    @media (min-width: 1024) {
+      #wwm-collapse-3 .left-column .pane-block-4 {
+        width: 124px; } }
+  #wwm-collapse-3 .left-column #bbblogo a#bbblink {
+    display: block;
+    overflow: hidden;
+    width: 113px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px; }
+    #wwm-collapse-3 .left-column #bbblogo a#bbblink:hover {
+      width: 136px;
+      background-color: white;
+      border: 1px solid #035a78;
+      border-radius: 10px; }
+    #wwm-collapse-3 .left-column #bbblogo a#bbblink img {
+      height: 180px; }
+      #wwm-collapse-3 .left-column #bbblogo a#bbblink img:hover {
+        margin-left: -120px; }
+    @media (min-width: 1024) {
+      #wwm-collapse-3 .left-column #bbblogo a#bbblink {
+        width: 94px;
+        height: 150px; }
+        #wwm-collapse-3 .left-column #bbblogo a#bbblink:hover {
+          width: 112px; }
+        #wwm-collapse-3 .left-column #bbblogo a#bbblink img {
+          height: 150px; }
+          #wwm-collapse-3 .left-column #bbblogo a#bbblink img:hover {
+            margin-left: -100px; } }
   #wwm-collapse-3 .left-column .pane-page-logo {
     float: left; }
+  #wwm-collapse-3 .left-column a#logo {
+    display: block;
+    margin-top: 10px; }
+    #wwm-collapse-3 .left-column a#logo img {
+      height: 180px; }
+      @media (min-width: 1024) {
+        #wwm-collapse-3 .left-column a#logo img {
+          height: 150px; } }
 #wwm-collapse-3 .right-column {
   -webkit-box-flex: 0;
       -ms-flex: 0;
@@ -254,11 +279,6 @@ h6 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-#wwm-collapse-3 a#logo {
-  display: block;
-  margin-top: 10px; }
-  #wwm-collapse-3 a#logo img {
-    height: 180px; }
 
 .page-node-12852 .radix-bryant .row {
   display: -webkit-box;
