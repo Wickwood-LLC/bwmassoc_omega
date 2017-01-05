@@ -73,21 +73,64 @@
 
 		@include breakpoint(1024px) {
 			flex: 0 0 301px;
+
+			.pane-block-4 {
+				width: 124px;
+			}
+
+			a#bbblink {
+				width: 94px;
+				height: 150px;
+
+				&:hover {
+					width: 112px;
+				}
+
+				img {
+					height: 150px;
+
+					&:hover {
+						margin-left: -100px;
+					}
+				}
+			}
+
+			a#logo img {
+				height: 150px;
+			}
 		}
 		@include breakpoint(1200px) {
 			flex: 0 0 377px;
+
+			.pane-block-4 {
+				width: 170px;
+			}
+
+			a#bbblink {
+				width: 113px;
+				height: 180px;
+
+				&:hover {
+					width: 136px;
+				}
+
+				img {
+					height: 180px;
+
+					&:hover {
+						margin-left: -120px;
+					}
+				}
+			}
+
+			a#logo img {
+				height: 180px;
+			}
 		}
 
 		.pane-block-4 {
 			width: 170px;
 			float: left;
-
-			@include breakpoint(1024px) {
-				width: 124px;
-			}
-			@include breakpoint(1200px) {
-				width: 170px;
-			}
 		}
 
 		#bbblogo {
@@ -114,58 +157,19 @@
 						margin-left: -120px;
 					}
 				}
-
-				@include breakpoint(1024px) {
-		    		width: 94px;
-					height: 150px;
-
-					&:hover {
-						width: 112px;
-					}
-
-					img {
-						height: 150px;
-
-						&:hover {
-							margin-left: -100px;
-						}
-					}
-		    	}
-		    	@include breakpoint(1200px) {
-					width: 113px;
-					height: 180px;
-
-					&:hover {
-						width: 136px;
-					}
-
-					img {
-						height: 180px;
-
-						&:hover {
-							margin-left: -120px;
-						}
-					}
-		    	}
 			}
 		}
 
 		.pane-page-logo {
 			float: left;
 		}
+
 		a#logo {
 			display: block;
 		    margin-top: 10px;
 
 		    img {
 		    	height: 180px;
-
-		    	@include breakpoint(1024px) {
-		    		height: 150px;
-		    	}
-		    	@include breakpoint(1200px) {
-		    		height: 180px;
-		    	}
 		    }
 		}
 	}
