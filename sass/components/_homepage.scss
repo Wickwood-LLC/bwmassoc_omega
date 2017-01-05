@@ -982,12 +982,10 @@
 			}
 		}
 
-		&:hover {
+		&:hover a {
+			background-color: #ffc43d;
+			color: black;
 			border-color: #ffc43d;
-			a {
-				background-color: #ffc43d;
-				color: black;
-			}
 		}
 	}
 

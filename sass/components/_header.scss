@@ -51,6 +51,7 @@
 	text-align: center;
 	width: 100%;
 	display: flex;
+	justify-content: center;
 
 	&:before {
 		font-family: FontAwesome;
@@ -109,7 +110,7 @@
 	}
 
 	.right-column {
-		flex: 0 auto;
+		flex: 0;
 		.share-us {
 			.pane-title {
 				text-align: center;
@@ -140,7 +141,7 @@
 	}
 
 	.middle-column {
-		flex: 0 auto;
+		flex: 1 auto;
 
 		.pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 {
 			text-align: center;
