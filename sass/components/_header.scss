@@ -131,7 +131,7 @@
 			}
 			.fieldable-panels-pane {
 				font-size: 14px;
-				
+
 				p {
 					margin: 0;
 				}
@@ -144,8 +144,6 @@
 		}
 
 		@include breakpoint(768px) {
-			flex: 0 0 301px;
-
 			.pane-block-4 {
 				width: 124px;
 			}
@@ -169,6 +167,13 @@
 
 			a#logo img {
 				height: 150px;
+			}
+		}
+		@include breakpoint(917px) {
+			flex: 0 0 301px;
+
+			.pane-block-4 {
+				float: left;
 			}
 		}
 		@include breakpoint(1200px) {
