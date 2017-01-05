@@ -77,11 +77,10 @@
 
 #wwm-collapse-3 {
 	.left-column {
-		flex: 0 0 377px;
+		flex: 0 0 100px;
 
 		.pane-block-4 {
-			width: 170px;
-			float: left;
+			width: 95px;
 		}
 
 		#bbblogo {
@@ -92,20 +91,20 @@
 				margin-top: 10px;
 				margin-left: auto;
 				margin-right: auto;
-				height: 180px;
+				height: 100px;
 
 				&:hover {
-				    width: 136px;
+				    width: 82px;
 				    background-color: white;
 				    border: 1px solid #035a78;
 				    border-radius: 10px;
 				}
 
 				img {
-					height: 180px;
+					height: 100px;
 
 					&:hover {
-						margin-left: -120px;
+						margin-left: -64px;
 					}
 				}
 			}
@@ -122,6 +121,21 @@
 		    img {
 		    	height: 180px;
 		    }
+		}
+
+		.pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 {
+			.pane-title {
+				font-size: 14px;
+				text-align: center;
+			}
+			.fieldable-panels-pane {
+				font-size: 14px;
+			}
+		}
+
+		.pane-widgets-s-socialmedia-share-default {
+			width: 68px;
+			margin: 0 auto;
 		}
 
 		@include breakpoint(768px) {
@@ -184,6 +198,7 @@
 
 	.right-column {
 		flex: 0;
+
 		.share-us {
 			.pane-title {
 				text-align: center;
