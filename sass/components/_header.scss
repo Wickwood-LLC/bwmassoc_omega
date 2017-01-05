@@ -252,8 +252,8 @@
 			vertical-align: middle;
 			margin-left: calc(50% - 238px);		//to center both this block and the social sharing widget together inline.
 
-			@include breakpoint(597px 651px) {
-				margin-left: calc(40% - 238px);
+			@include breakpoint(597px 657px) {
+				margin-left: calc(38% - 238px);
 			}
 
 			h2.pane-title {
