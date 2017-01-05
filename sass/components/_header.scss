@@ -5,6 +5,14 @@
 	margin: 0;
 	line-height: 1;
 
+	@include breakpoint(936px) {
+		font-size: 40px;
+	}
+
+	@include breakpoint(1053px) {
+		font-size: 48px;
+	}
+
 	a {
 		text-decoration: none;
 		color: #0355a3;
@@ -116,7 +124,7 @@
 		    }
 		}
 
-		@include breakpoint(1024px) {
+		@include breakpoint(768px) {
 			flex: 0 0 301px;
 
 			.pane-block-4 {

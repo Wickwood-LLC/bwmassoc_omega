@@ -120,6 +120,12 @@ h6 {
   font-weight: 700;
   margin: 0;
   line-height: 1; }
+  @media (min-width: 936px) {
+    .pane-page-site-name h1 {
+      font-size: 40px; } }
+  @media (min-width: 1053px) {
+    .pane-page-site-name h1 {
+      font-size: 48px; } }
   .pane-page-site-name h1 a {
     text-decoration: none;
     color: #0355a3; }
@@ -201,7 +207,7 @@ h6 {
     margin-top: 10px; }
     #wwm-collapse-3 .left-column a#logo img {
       height: 180px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     #wwm-collapse-3 .left-column {
       -webkit-box-flex: 0;
           -ms-flex: 0 0 301px;
