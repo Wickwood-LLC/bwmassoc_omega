@@ -74,13 +74,19 @@
 		@include breakpoint(1024px) {
 			flex: 0 0 301px;
 		}
+		@include breakpoint(1200px) {
+			flex: 0 0 377px;
+		}
 
 		.pane-block-4 {
 			width: 170px;
 			float: left;
 
-			@include breakpoint(1024) {
+			@include breakpoint(1024px) {
 				width: 124px;
+			}
+			@include breakpoint(1200px) {
+				width: 170px;
 			}
 		}
 
@@ -109,7 +115,7 @@
 					}
 				}
 
-				@include breakpoint(1024) {
+				@include breakpoint(1024px) {
 		    		width: 94px;
 					height: 150px;
 
@@ -122,6 +128,22 @@
 
 						&:hover {
 							margin-left: -100px;
+						}
+					}
+		    	}
+		    	@include breakpoint(1200px) {
+					width: 113px;
+					height: 180px;
+
+					&:hover {
+						width: 136px;
+					}
+
+					img {
+						height: 180px;
+
+						&:hover {
+							margin-left: -120px;
 						}
 					}
 		    	}
@@ -138,8 +160,11 @@
 		    img {
 		    	height: 180px;
 
-		    	@include breakpoint(1024) {
+		    	@include breakpoint(1024px) {
 		    		height: 150px;
+		    	}
+		    	@include breakpoint(1200px) {
+		    		height: 180px;
 		    	}
 		    }
 		}
