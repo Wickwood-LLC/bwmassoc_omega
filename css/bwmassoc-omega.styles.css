@@ -147,11 +147,11 @@ h6 {
 .pane-current-7 a {
   font-size: 20px; }
   .pane-current-7 a .slogan-2 {
-    display: block; }
+    display: inline; }
     .pane-current-7 a .slogan-2:before {
       content: '';
       margin-left: 13px; }
-      @media (min-width: 1317px) {
+      @media (min-width: 1335px) {
         .pane-current-7 a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
