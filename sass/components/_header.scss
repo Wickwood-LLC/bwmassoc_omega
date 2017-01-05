@@ -145,6 +145,9 @@
 
 		.pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 {
 			text-align: center;
+			display: inline-table;
+			vertical-align: middle;
+			margin-left: calc(50% - 238px);		//to center both this block and the social sharing widget together inline.
 
 			h2.pane-title {
 				font-size: 17px;
@@ -155,6 +158,12 @@
 				display: inline-block;
 				font-weight: bold;
 			}
+		}
+
+		.pane-widgets-s-socialmedia-share-default {
+			display: inline-table;
+			margin-right: auto;
+			vertical-align: middle;
 		}
 
 		#widgets-element-socialmedia_share-default {
