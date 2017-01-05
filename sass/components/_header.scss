@@ -97,15 +97,13 @@
 #wwm-collapse-3 {
 	.left-column {
 		flex: 0 32%;
-
-		> div {
-			display: flex;
-	    	flex-wrap: wrap;
-			justify-content: center;
-
-	    	.pane-block-4 {
-	    		width: 170px;
-	    	}
+		
+		.pane-block-4 {
+			width: 170px;
+			float: left;
+		}
+		.pane-page-logo {
+			float: left;
 		}
 	}
 
@@ -114,8 +112,8 @@
 		.share-us {
 			.pane-title {
 				text-align: center;
-    		margin-bottom: 0;
-    		font-size: 18px;
+	    		margin-bottom: 0;
+	    		font-size: 18px;
 			}
 			p {
 				margin: 3px;
