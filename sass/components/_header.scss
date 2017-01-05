@@ -40,6 +40,10 @@
 	.slogan-2 {
 		display: inline;
 
+		@include breakpoint(768px) {
+			white-space: nowrap;
+		}
+
 		&:before {
 			content: '';
 			margin-left: 13px;

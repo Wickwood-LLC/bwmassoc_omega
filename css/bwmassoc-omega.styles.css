@@ -148,6 +148,9 @@ h6 {
   font-size: 20px; }
   .pane-current-7 a .slogan-2 {
     display: inline; }
+    @media (min-width: 768px) {
+      .pane-current-7 a .slogan-2 {
+        white-space: nowrap; } }
     .pane-current-7 a .slogan-2:before {
       content: '';
       margin-left: 13px; }
