@@ -71,6 +71,51 @@
 	.left-column {
 		flex: 0 0 377px;
 
+		.pane-block-4 {
+			width: 170px;
+			float: left;
+		}
+
+		#bbblogo {
+			a#bbblink {
+				display: block;
+				overflow: hidden;
+				width: 113px;
+				margin-top: 10px;
+				margin-left: auto;
+				margin-right: auto;
+				height: 180px;
+
+				&:hover {
+				    width: 136px;
+				    background-color: white;
+				    border: 1px solid #035a78;
+				    border-radius: 10px;
+				}
+
+				img {
+					height: 180px;
+
+					&:hover {
+						margin-left: -120px;
+					}
+				}
+			}
+		}
+
+		.pane-page-logo {
+			float: left;
+		}
+
+		a#logo {
+			display: block;
+		    margin-top: 10px;
+
+		    img {
+		    	height: 180px;
+		    }
+		}
+
 		@include breakpoint(1024px) {
 			flex: 0 0 301px;
 
@@ -126,51 +171,6 @@
 			a#logo img {
 				height: 180px;
 			}
-		}
-
-		.pane-block-4 {
-			width: 170px;
-			float: left;
-		}
-
-		#bbblogo {
-			a#bbblink {
-				display: block;
-				overflow: hidden;
-				width: 113px;
-				margin-top: 10px;
-				margin-left: auto;
-				margin-right: auto;
-				height: 180px;
-
-				&:hover {
-				    width: 136px;
-				    background-color: white;
-				    border: 1px solid #035a78;
-				    border-radius: 10px;
-				}
-
-				img {
-					height: 180px;
-
-					&:hover {
-						margin-left: -120px;
-					}
-				}
-			}
-		}
-
-		.pane-page-logo {
-			float: left;
-		}
-
-		a#logo {
-			display: block;
-		    margin-top: 10px;
-
-		    img {
-		    	height: 180px;
-		    }
 		}
 	}
 
