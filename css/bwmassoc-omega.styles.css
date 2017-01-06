@@ -227,8 +227,6 @@ h6 {
   #wwm-collapse-3 .left-column .pane-widgets-s-socialmedia-share-default {
     width: 68px;
     margin: 0 auto; }
-    #wwm-collapse-3 .left-column .pane-widgets-s-socialmedia-share-default .widgets-element {
-      margin-right: 3px; }
   @media (min-width: 768px) {
     #wwm-collapse-3 .left-column .pane-block-4 {
       width: 124px; }
@@ -328,6 +326,8 @@ h6 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+    #wwm-collapse-3 .middle-column #widgets-element-socialmedia_share-default .widgets-element {
+      margin-right: 3px; }
 
 .page-node-12852 .radix-bryant .row {
   display: -webkit-box;

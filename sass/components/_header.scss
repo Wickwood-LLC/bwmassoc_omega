@@ -154,10 +154,6 @@
 		.pane-widgets-s-socialmedia-share-default {
 			width: 68px;
 			margin: 0 auto;
-
-			.widgets-element {
-				margin-right: 3px;
-			}
 		}
 
 		@include breakpoint(768px) {
@@ -288,6 +284,10 @@
 		#widgets-element-socialmedia_share-default {
 			display: flex;
 			justify-content: center;
+
+			.widgets-element {
+				margin-right: 3px;
+			}
 		}
 	}
 }
