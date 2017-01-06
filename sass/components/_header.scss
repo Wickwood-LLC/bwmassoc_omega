@@ -151,7 +151,7 @@
 			margin: 0 auto;
 		}
 
-		@include breakpoint(917px) {
+		@include breakpoint(1024px) {
 			.pane-block-4 {
 				width: 124px;
 			}
@@ -177,7 +177,7 @@
 				height: 150px;
 			}
 		}
-		@include breakpoint(917px) {
+		@include breakpoint(1024px) {
 			flex: 0 0 301px;
 
 			.pane-block-4 {

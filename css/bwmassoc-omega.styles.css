@@ -224,7 +224,7 @@ h6 {
   #wwm-collapse-3 .left-column .pane-widgets-s-socialmedia-share-default {
     width: 68px;
     margin: 0 auto; }
-  @media (min-width: 917px) {
+  @media (min-width: 1024px) {
     #wwm-collapse-3 .left-column .pane-block-4 {
       width: 124px; }
     #wwm-collapse-3 .left-column #bbblogo a#bbblink {
@@ -238,7 +238,7 @@ h6 {
           margin-left: -100px; }
     #wwm-collapse-3 .left-column a#logo img {
       height: 150px; } }
-  @media (min-width: 917px) {
+  @media (min-width: 1024px) {
     #wwm-collapse-3 .left-column {
       -webkit-box-flex: 0;
           -ms-flex: 0 0 301px;
