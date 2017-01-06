@@ -41,6 +41,10 @@
 .pane-current-7 a {
 	font-size: 20px;
 
+	@include breakpoint(563px 669px) {
+		font-size: 16px;
+	}
+
 	@include breakpoint(597px 1155px) {
 		font-size: 18px;
 	}
@@ -73,7 +77,11 @@
 	display: flex;
 	justify-content: center;
 
-	@include breakpoint(1080px) {
+	@include breakpoint(603px 763px) {
+		font-size: 17px;
+	}
+
+	@include breakpoint(1082px) {
 		font-size: 17px;
 	}
 
@@ -259,7 +267,7 @@
 			vertical-align: middle;
 			margin-left: calc(50% - 238px);		//to center both this block and the social sharing widget together inline.
 
-			@include breakpoint(586px 681px) {
+			@include breakpoint(586px 745px) {
 				margin-left: calc(38% - 238px);
 			}
 
