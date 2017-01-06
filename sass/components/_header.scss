@@ -46,7 +46,7 @@
 	}
 
 	.slogan-2 {
-		display: inline;
+		display: inline-block;
 
 		@include breakpoint(768px) {
 			white-space: nowrap;
@@ -66,12 +66,16 @@
 
 .pane-current-9 {
 	color: #242424;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 700;
 	text-align: center;
 	width: 100%;
 	display: flex;
 	justify-content: center;
+
+	@include breakpoint(1040px) {
+		font-size: 17px;
+	}
 
 	.fieldable-panels-pane {
 		display: inline-block;

@@ -153,7 +153,7 @@ h6 {
     .pane-current-7 a {
       font-size: 18px; } }
   .pane-current-7 a .slogan-2 {
-    display: inline; }
+    display: inline-block; }
     @media (min-width: 768px) {
       .pane-current-7 a .slogan-2 {
         white-space: nowrap; } }
@@ -167,7 +167,7 @@ h6 {
 
 .pane-current-9 {
   color: #242424;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
   text-align: center;
   width: 100%;
@@ -177,6 +177,9 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media (min-width: 1040px) {
+    .pane-current-9 {
+      font-size: 17px; } }
   .pane-current-9 .fieldable-panels-pane {
     display: inline-block; }
   .pane-current-9 p {
