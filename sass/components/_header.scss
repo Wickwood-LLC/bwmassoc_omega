@@ -73,11 +73,6 @@
 	display: flex;
 	justify-content: center;
 
-	&:before {
-		font-family: FontAwesome;
-		display: inline-block;
-	}
-
 	.fieldable-panels-pane {
 		display: inline-block;
 	}
@@ -156,7 +151,7 @@
 			margin: 0 auto;
 		}
 
-		@include breakpoint(768px) {
+		@include breakpoint(917px) {
 			.pane-block-4 {
 				width: 124px;
 			}

@@ -177,9 +177,6 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .pane-current-9:before {
-    font-family: FontAwesome;
-    display: inline-block; }
   .pane-current-9 .fieldable-panels-pane {
     display: inline-block; }
   .pane-current-9 p {
@@ -227,7 +224,7 @@ h6 {
   #wwm-collapse-3 .left-column .pane-widgets-s-socialmedia-share-default {
     width: 68px;
     margin: 0 auto; }
-  @media (min-width: 768px) {
+  @media (min-width: 917px) {
     #wwm-collapse-3 .left-column .pane-block-4 {
       width: 124px; }
     #wwm-collapse-3 .left-column #bbblogo a#bbblink {
