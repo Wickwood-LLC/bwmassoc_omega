@@ -255,7 +255,7 @@
 			vertical-align: middle;
 			margin-left: calc(50% - 238px);		//to center both this block and the social sharing widget together inline.
 
-			@include breakpoint(597px 657px) {
+			@include breakpoint(597px 681px) {
 				margin-left: calc(38% - 238px);
 			}
 
