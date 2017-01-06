@@ -5,11 +5,11 @@
 	margin: 0;
 	line-height: 1;
 
-	@include breakpoint(936px) {
+	@include breakpoint(597px) {
 		font-size: 40px;
 	}
 
-	@include breakpoint(1053px) {
+	@include breakpoint(1156px) {
 		font-size: 48px;
 	}
 
@@ -33,9 +33,17 @@
 
 .pane-current-6 a {
 	font-size: 28px;
+
+	@include breakpoint(597px 1155px) {
+		font-size: 24px;
+	}
 }
 .pane-current-7 a {
 	font-size: 20px;
+
+	@include breakpoint(597px 1155px) {
+		font-size: 18px;
+	}
 
 	.slogan-2 {
 		display: inline;
@@ -146,6 +154,10 @@
 		.pane-widgets-s-socialmedia-share-default {
 			width: 68px;
 			margin: 0 auto;
+
+			.widgets-element {
+				margin-right: 3px;
+			}
 		}
 
 		@include breakpoint(768px) {

@@ -120,10 +120,10 @@ h6 {
   font-weight: 700;
   margin: 0;
   line-height: 1; }
-  @media (min-width: 936px) {
+  @media (min-width: 597px) {
     .pane-page-site-name h1 {
       font-size: 40px; } }
-  @media (min-width: 1053px) {
+  @media (min-width: 1156px) {
     .pane-page-site-name h1 {
       font-size: 48px; } }
   .pane-page-site-name h1 a {
@@ -143,9 +143,15 @@ h6 {
 
 .pane-current-6 a {
   font-size: 28px; }
+  @media (min-width: 597px) and (max-width: 1155px) {
+    .pane-current-6 a {
+      font-size: 24px; } }
 
 .pane-current-7 a {
   font-size: 20px; }
+  @media (min-width: 597px) and (max-width: 1155px) {
+    .pane-current-7 a {
+      font-size: 18px; } }
   .pane-current-7 a .slogan-2 {
     display: inline; }
     @media (min-width: 768px) {
@@ -221,6 +227,8 @@ h6 {
   #wwm-collapse-3 .left-column .pane-widgets-s-socialmedia-share-default {
     width: 68px;
     margin: 0 auto; }
+    #wwm-collapse-3 .left-column .pane-widgets-s-socialmedia-share-default .widgets-element {
+      margin-right: 3px; }
   @media (min-width: 768px) {
     #wwm-collapse-3 .left-column .pane-block-4 {
       width: 124px; }
