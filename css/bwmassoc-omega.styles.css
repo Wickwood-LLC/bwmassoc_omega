@@ -142,10 +142,10 @@ h6 {
     color: #2c2c2c; }
 
 .pane-current-6 a {
-  font-size: 28px; }
-  @media (min-width: 597px) and (max-width: 1155px) {
+  font-size: 24px; }
+  @media (min-width: 1156px) {
     .pane-current-6 a {
-      font-size: 24px; } }
+      font-size: 28px; } }
 
 .pane-current-7 a {
   font-size: 20px; }

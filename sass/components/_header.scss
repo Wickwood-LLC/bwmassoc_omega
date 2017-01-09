@@ -32,10 +32,10 @@
 }
 
 .pane-current-6 a {
-	font-size: 28px;
+	font-size: 24px;
 
-	@include breakpoint(597px 1155px) {
-		font-size: 24px;
+	@include breakpoint(1156px) {
+		font-size: 28px;
 	}
 }
 .pane-current-7 a {
