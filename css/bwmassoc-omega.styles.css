@@ -203,6 +203,12 @@ h6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100px;
           flex: 0 0 100px; }
+  #wwm-collapse-3 .left-column > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
   #wwm-collapse-3 .left-column .pane-block-4 {
     width: 95px;
     margin: 0 auto; }
@@ -259,7 +265,13 @@ h6 {
     #wwm-collapse-3 .left-column {
       -webkit-box-flex: 0;
           -ms-flex: 0 0 301px;
-              flex: 0 0 301px; }
+              flex: 0 0 301px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
       #wwm-collapse-3 .left-column .pane-block-4 {
         float: left; } }
   @media (min-width: 1200px) {

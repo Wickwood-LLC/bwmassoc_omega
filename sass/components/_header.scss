@@ -108,6 +108,11 @@
 	.left-column {
 		flex: 0 0 100px;
 
+		>div {
+			display: flex;
+			flex-flow: row wrap;
+		}
+
 		.pane-block-4 {
 			width: 95px;
 			margin: 0 auto;
@@ -201,6 +206,8 @@
 		}
 		@include breakpoint(1024px) {
 			flex: 0 0 301px;
+			align-items: center;
+			display: flex;
 
 			.pane-block-4 {
 				float: left;
