@@ -60,6 +60,11 @@
 			content: '';
 			margin-left: 13px;
 
+			@include breakpoint(889px 1023px) {
+				content: '• ';
+				margin-left: 0px;
+			}
+
 			@include breakpoint(1077px 1199px) {
 				content: '• ';
 				margin-left: 0px;

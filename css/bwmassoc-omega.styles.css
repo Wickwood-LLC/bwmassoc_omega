@@ -163,6 +163,10 @@ h6 {
     .pane-current-7 a .slogan-2:before {
       content: '';
       margin-left: 13px; }
+      @media (min-width: 889px) and (max-width: 1023px) {
+        .pane-current-7 a .slogan-2:before {
+          content: '• ';
+          margin-left: 0px; } }
       @media (min-width: 1077px) and (max-width: 1199px) {
         .pane-current-7 a .slogan-2:before {
           content: '• ';
