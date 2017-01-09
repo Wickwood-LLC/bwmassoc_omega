@@ -689,6 +689,29 @@ h6 {
         -webkit-box-flex: 25%;
             -ms-flex: 25%;
                 flex: 25%; } }
+    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
+    .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
+    .page-node-10005 .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title {
+      text-align: center;
+      margin-bottom: 0; }
+    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
+    .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
+    .page-node-10005 .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
+      margin-top: 0;
+      margin-bottom: 0; }
+    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
+    .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
+    .page-node-10005 .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
+      .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
+      .page-node-10005 .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element {
+        margin-right: 5px; }
   .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
   .page-contact-bwma .radix-bryant .row .radix-layouts-content,
   .page-node-10005 .radix-bryant .row .radix-layouts-content {

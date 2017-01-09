@@ -403,6 +403,26 @@
 				order: 0;
 				flex: 25%;
 			}
+
+			.pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 {
+				.pane-title {
+					text-align: center;
+					margin-bottom: 0;
+				}
+				.fieldable-panels-pane p {
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+			}
+
+			#widgets-element-socialmedia_share-default {
+				display: flex;
+				justify-content: center;
+
+				.widgets-element {
+					margin-right: 5px;
+				}
+			}
 		}
 
 		.radix-layouts-content {
