@@ -1573,22 +1573,39 @@ form#user-login, form#user-pass {
   border-radius: 5px; }
   #user-account-main-page .action-links li {
     list-style: none; }
+  #user-account-main-page ul {
+    margin: 0;
+    padding: 0; }
+    #user-account-main-page ul li {
+      list-style: none; }
 
 .views-table {
   width: 100%; }
 
 .pane-basic-user-info-for-user-account .field__label {
-  width: 100px; }
+  width: 120px; }
 
 .pane-user-field-identification {
-  width: 100px;
+  width: 120px;
   float: left; }
+  .pane-user-field-identification:after {
+    content: ':\00a0'; }
 
 .pane-user-roles ul li {
   margin-left: 0;
   padding: 0; }
 .pane-user-roles li.first {
   text-transform: capitalize; }
+
+.field--name-field-phone-type {
+  display: inline-block;
+  font-weight: bold;
+  width: 100px; }
+  .field--name-field-phone-type:after {
+    content: ':\00a0'; }
+
+.field--name-field-phone-number {
+  display: inline-block; }
 
 .pane-content .field-collection-container {
   border-bottom: 0;

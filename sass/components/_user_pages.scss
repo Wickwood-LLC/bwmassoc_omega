@@ -7,6 +7,15 @@
 	.action-links li {
 		list-style: none;
 	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+		}
+	}
 }
 
 .views-table {
@@ -14,11 +23,15 @@
 }
 
 .pane-basic-user-info-for-user-account .field__label {
-	width: 100px;
+	width: 120px;
 }
 .pane-user-field-identification {
-	width: 100px;
+	width: 120px;
 	float: left;
+
+	&:after {
+	    content: ':\00a0';
+	}
 }
 .pane-user-roles {
   ul li {
@@ -28,6 +41,19 @@
   li.first {
     text-transform: capitalize;
   }
+}
+
+.field--name-field-phone-type {
+	display: inline-block;
+    font-weight: bold;
+    width: 100px;
+
+    &:after {
+	    content: ':\00a0';
+	}
+}
+.field--name-field-phone-number {
+	display: inline-block;
 }
 
 .pane-content .field-collection-container {
