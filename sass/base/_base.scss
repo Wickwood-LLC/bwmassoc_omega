@@ -98,3 +98,19 @@ h6 {
 		flex: 1;
 	}
 }
+
+.boxed {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em 0;
+  position: relative;
+
+  h2, h3 {
+    position: absolute;
+    margin: 0;
+    top: -11px;
+    background: white;
+    padding: 0 1em;
+    display: inline-block !important;
+  }
+}
