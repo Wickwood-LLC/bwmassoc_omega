@@ -191,6 +191,9 @@ h6 {
   @media (min-width: 603px) and (max-width: 763px) {
     .pane-current-9 {
       font-size: 17px; } }
+  @media (min-width: 764px) and (max-width: 806px) {
+    .pane-current-9 {
+      font-size: 17px; } }
   @media (min-width: 1082px) {
     .pane-current-9 {
       font-size: 17px; } }
