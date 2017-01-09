@@ -1601,6 +1601,8 @@ form#user-login, form#user-pass {
   display: inline-block;
   font-weight: bold;
   width: 100px; }
+  .field--name-field-phone-type .field__items {
+    display: inline-block; }
   .field--name-field-phone-type:after {
     content: ':\00a0'; }
 

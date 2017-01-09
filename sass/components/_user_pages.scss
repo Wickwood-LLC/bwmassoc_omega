@@ -48,6 +48,10 @@
     font-weight: bold;
     width: 100px;
 
+    .field__items {
+    	display: inline-block;
+    }
+
     &:after {
 	    content: ':\00a0';
 	}
