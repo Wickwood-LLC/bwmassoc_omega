@@ -1,11 +1,11 @@
 .pane-page-site-name h1 {
 	text-align: center;
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: 700;
 	margin: 0;
 	line-height: 1;
 
-	@include breakpoint(597px) {
+	@include breakpoint(746px) {
 		font-size: 40px;
 	}
 

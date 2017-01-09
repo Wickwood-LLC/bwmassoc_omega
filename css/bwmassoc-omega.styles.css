@@ -116,11 +116,11 @@ h6 {
 
 .pane-page-site-name h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
   margin: 0;
   line-height: 1; }
-  @media (min-width: 597px) {
+  @media (min-width: 746px) {
     .pane-page-site-name h1 {
       font-size: 40px; } }
   @media (min-width: 1156px) {
