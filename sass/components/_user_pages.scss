@@ -4,3 +4,38 @@
 	border: 1px solid #c1c1c1;
 	border-radius: 5px;
 }
+
+.views-table {
+	width: 100%;
+}
+
+.pane-basic-user-info .field-label {
+	width: 100px;
+}
+.pane-basic-user-info-for-user-account .field-label {
+	width: 100px;
+}
+.pane-user-field-identification {
+	width: 100px;
+	float: left;
+}
+.pane-user-roles {
+  ul li {
+    margin-left: 0;
+    padding: 0; 
+  }
+  li.first {
+    text-transform: capitalize;
+  }
+}
+
+.pane-content .field-collection-container {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.field-collection-view {
+    border: 1px dotted #D3D7D9;
+    padding: 0.5em 1em;
+    margin: 0;
+}
