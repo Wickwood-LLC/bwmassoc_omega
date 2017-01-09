@@ -1571,14 +1571,13 @@ form#user-login, form#user-pass {
   padding: 1em;
   border: 1px solid #c1c1c1;
   border-radius: 5px; }
+  #user-account-main-page .action-links li {
+    list-style: none; }
 
 .views-table {
   width: 100%; }
 
-.pane-basic-user-info .field-label {
-  width: 100px; }
-
-.pane-basic-user-info-for-user-account .field-label {
+.pane-basic-user-info-for-user-account .field__label {
   width: 100px; }
 
 .pane-user-field-identification {
@@ -1599,4 +1598,5 @@ form#user-login, form#user-pass {
   border: 1px dotted #D3D7D9;
   padding: 0.5em 1em;
   margin: 0; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

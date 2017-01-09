@@ -3,16 +3,17 @@
 	padding: 1em;
 	border: 1px solid #c1c1c1;
 	border-radius: 5px;
+
+	.action-links li {
+		list-style: none;
+	}
 }
 
 .views-table {
 	width: 100%;
 }
 
-.pane-basic-user-info .field-label {
-	width: 100px;
-}
-.pane-basic-user-info-for-user-account .field-label {
+.pane-basic-user-info-for-user-account .field__label {
 	width: 100px;
 }
 .pane-user-field-identification {
