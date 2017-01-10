@@ -35,3 +35,14 @@ function bwmassoc_omega_menu_local_task($variables) {
 
   return '<li' . (!empty($variables['element']['#active']) ? ' class="active"' : '') . '>' . l($link_text, $link['href'], $link['localized_options']) . $children . "</li>\n";
 }
+
+function _bwmassoc_omega_local_tasks(&$vars) {
+  if (!empty($vars['secondary_local_tasks']) && is_array($vars['primary_local_tasks'])) {
+    foreach ($vars['primary_local_tasks'] as $key => $element) {
+      if (!empty($element['#active'])) {
+        $vars['primary_local_tasks'][$key] = $vars['primary_local_tasks'][$key] + $vars['secondary_local_tasks'];
+        break;
+      }
+    }
+  }
+}
