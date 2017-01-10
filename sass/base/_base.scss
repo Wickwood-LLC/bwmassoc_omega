@@ -99,6 +99,22 @@ a {
   text-decoration: none;
 }
 
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+tr:hover {
+  background-color: #ffffdc;
+}
+
+th {
+  text-align: center;
+  padding: 5px;
+  background-color: #c0eaff;
+}
+td {
+  padding: 10px;
+}
+
 .title-bar {
 	display: flex;
 	align-items: center;
