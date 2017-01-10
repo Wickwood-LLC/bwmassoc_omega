@@ -235,13 +235,12 @@ a {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+        flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   #wwm-collapse-3 .left-column .pane-block-4 {
-    width: 95px;
-    margin: 0 auto; }
-    @media (min-width: 0) and (max-width: 450px) {
-      #wwm-collapse-3 .left-column .pane-block-4 {
-        margin: 0; } }
+    width: 95px; }
   #wwm-collapse-3 .left-column #bbblogo a#bbblink {
     display: block;
     overflow: hidden;
