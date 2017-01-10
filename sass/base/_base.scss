@@ -7,6 +7,12 @@ html {
 body {
 	background-color: #f2fafe;
 	margin: 0;
+
+  &.not-logged-in {
+    #block-panels-mini-header-bwmassoc-com {
+      margin-bottom: 1em;
+    }
+  }
 }
 
 .l-region--header,
