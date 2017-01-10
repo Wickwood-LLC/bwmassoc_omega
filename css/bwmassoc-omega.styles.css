@@ -1609,10 +1609,11 @@ form#user-login, form#user-pass {
 
 .pane-user-field-identification {
   width: 120px;
-  float: left; }
-  .pane-user-field-identification .field--name-field-identification {
-    font-weight: bold; }
-    .pane-user-field-identification .field--name-field-identification:after {
+  display: inline-block;
+  font-weight: bold; }
+  .pane-user-field-identification .field--name-field-identification .field__item {
+    float: left; }
+    .pane-user-field-identification .field--name-field-identification .field__item:after {
       content: ':\00a0'; }
 
 .pane-user-roles ul li {

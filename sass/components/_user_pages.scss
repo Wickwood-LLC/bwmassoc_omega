@@ -27,11 +27,11 @@
 }
 .pane-user-field-identification {
 	width: 120px;
-	float: left;
+	display: inline-block;
+	font-weight: bold;
 
-	.field--name-field-identification {
-		font-weight: bold;
-
+	.field--name-field-identification .field__item {
+		float: left;
 		&:after {
 		    content: ':\00a0';
 		}
