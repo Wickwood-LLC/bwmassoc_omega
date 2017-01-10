@@ -1616,6 +1616,9 @@ form#user-login, form#user-pass {
     .pane-user-field-identification .field--name-field-identification .field__item:after {
       content: ':\00a0'; }
 
+.pane-user-field-ss-or-ein {
+  display: inline-block; }
+
 .pane-user-roles ul li {
   margin-left: 0;
   padding: 0;
@@ -1623,7 +1626,8 @@ form#user-login, form#user-pass {
 
 .pane-user-mail .field-label {
   width: 50px;
-  display: inline-block; }
+  display: inline-block;
+  font-weight: bold; }
 .pane-user-mail .field-items {
   display: inline-block; }
 

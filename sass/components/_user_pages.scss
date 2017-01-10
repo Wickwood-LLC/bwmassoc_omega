@@ -37,6 +37,9 @@
 		}
 	}
 }
+.pane-user-field-ss-or-ein {
+	display: inline-block;
+}
 .pane-user-roles {
   ul li {
     margin-left: 0;
@@ -49,6 +52,7 @@
 	.field-label {
 		width: 50px;
 		display: inline-block;
+		font-weight: bold;
 	}
 	.field-items {
 		display: inline-block;
