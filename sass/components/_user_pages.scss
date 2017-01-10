@@ -29,18 +29,30 @@
 	width: 120px;
 	float: left;
 
-	&:after {
-	    content: ':\00a0';
+	.field--name-field-identification {
+		font-weight: bold;
+
+		&:after {
+		    content: ':\00a0';
+		}
 	}
 }
 .pane-user-roles {
   ul li {
     margin-left: 0;
     padding: 0; 
-  }
-  li.first {
     text-transform: capitalize;
   }
+}
+
+.pane-user-mail {
+	.field-label {
+		width: 50px;
+		display: inline-block;
+	}
+	.field-items {
+		display: inline-block;
+	}
 }
 
 .field--name-field-phone-type {

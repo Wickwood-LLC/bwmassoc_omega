@@ -112,10 +112,13 @@ a {
   .boxed h2, .boxed h3 {
     position: absolute;
     margin: 0;
-    top: -11px;
     background: white;
     padding: 0 1em;
     display: inline-block !important; }
+  .boxed h2 {
+    top: -15px; }
+  .boxed h3 {
+    top: -11px; }
 
 #block-block-3 p {
   display: inline-block;
@@ -1607,14 +1610,21 @@ form#user-login, form#user-pass {
 .pane-user-field-identification {
   width: 120px;
   float: left; }
-  .pane-user-field-identification:after {
-    content: ':\00a0'; }
+  .pane-user-field-identification .field--name-field-identification {
+    font-weight: bold; }
+    .pane-user-field-identification .field--name-field-identification:after {
+      content: ':\00a0'; }
 
 .pane-user-roles ul li {
   margin-left: 0;
-  padding: 0; }
-.pane-user-roles li.first {
+  padding: 0;
   text-transform: capitalize; }
+
+.pane-user-mail .field-label {
+  width: 50px;
+  display: inline-block; }
+.pane-user-mail .field-items {
+  display: inline-block; }
 
 .field--name-field-phone-type {
   display: inline-block;

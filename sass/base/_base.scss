@@ -119,9 +119,14 @@ a {
   h2, h3 {
     position: absolute;
     margin: 0;
-    top: -11px;
     background: white;
     padding: 0 1em;
     display: inline-block !important;
+  }
+  h2 {
+    top: -15px;
+  }
+  h3 {
+    top: -11px;
   }
 }
