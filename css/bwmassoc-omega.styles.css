@@ -1666,4 +1666,7 @@ form#user-login, form#user-pass {
   padding: 0.5em 1em;
   margin: 0; }
 
+.pane-chaos-data .field .field__label {
+  width: 335px; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
