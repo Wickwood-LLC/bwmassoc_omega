@@ -131,6 +131,13 @@ a {
     font-size: 13px;
     text-decoration: underline; }
 
+@media (min-width: 0) and (max-width: 450px) {
+  #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
 .pane-page-site-name h1 {
   text-align: center;
   font-size: 36px;
@@ -232,6 +239,9 @@ a {
   #wwm-collapse-3 .left-column .pane-block-4 {
     width: 95px;
     margin: 0 auto; }
+    @media (min-width: 0) and (max-width: 450px) {
+      #wwm-collapse-3 .left-column .pane-block-4 {
+        margin: 0; } }
   #wwm-collapse-3 .left-column #bbblogo a#bbblink {
     display: block;
     overflow: hidden;

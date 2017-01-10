@@ -1,3 +1,11 @@
+#block-panels-mini-header-bwmassoc-com {
+	#wwm-collapse-3 {
+		@include breakpoint(0 450px) {
+			flex-direction: column;
+		}
+	}
+}
+
 .pane-page-site-name h1 {
 	text-align: center;
 	font-size: 36px;
@@ -120,6 +128,10 @@
 		.pane-block-4 {
 			width: 95px;
 			margin: 0 auto;
+
+			@include breakpoint(0 450px) {
+				margin: 0;
+			}
 		}
 
 		#bbblogo {
