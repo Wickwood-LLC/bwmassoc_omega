@@ -827,8 +827,15 @@ a {
   .section-biweekly-calculator .pane-node-field-featured-image .field__items img {
     width: 100%;
     vertical-align: bottom; }
+.section-biweekly-calculator div[alt="Compare Home"] {
+  max-width: 255px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
 .section-biweekly-calculator img[alt="Compare Home"] {
-  float: left; }
+  float: left;
+  width: 100%;
+  height: auto; }
   @media (min-width: 1024px) {
     .section-biweekly-calculator img[alt="Compare Home"] {
       width: 100%; } }

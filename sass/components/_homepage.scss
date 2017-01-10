@@ -522,8 +522,15 @@
 		}
 	}
 
+	div[alt="Compare Home"] {
+		max-width: 255px;
+		flex: 1;
+	}
+
 	img[alt="Compare Home"] {
 		float: left;
+		width: 100%;
+		height: auto;
 
 		@include breakpoint(1024px) {
 			width: 100%;
