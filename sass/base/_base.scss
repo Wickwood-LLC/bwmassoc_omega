@@ -14,7 +14,7 @@ body {
     }
   }
 
-  &.logged-in {
+  &.admin-menu {
     @include breakpoint(250px) {
       margin-top: 151px !important;
     }
