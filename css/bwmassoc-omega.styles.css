@@ -1784,24 +1784,4 @@ form#user-login, form#user-pass {
 .panelizer-view-mode.node-embedded-to-profile > .panel-display {
   display: none; }
 
-.action-links {
-  float: left;
-  font-size: 11px;
-  padding: 20px 0 20px 10px; }
-  .action-links > li {
-    margin-left: 0; }
-  .action-links > li, .action-links > li a {
-    float: left; }
-  .action-links a {
-    border-radius: 5px;
-    margin: 0 5px 0 0;
-    padding: 0 5px 0 25px;
-    color: #fff;
-    text-shadow: #666 0 1px 0;
-    background-color: #7bc;
-    text-shadow: #38a 0 1px 0; }
-    .action-links a:before {
-      content: '\f067';
-      font-family: FontAwesome; }
-
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
