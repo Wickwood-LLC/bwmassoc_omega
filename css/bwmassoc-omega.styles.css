@@ -1620,6 +1620,43 @@ form#user-login, form#user-pass {
     padding: 16px 20px; }
   body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
     padding: 16px 20px; } }
+@media (min-width: 551px) {
+  body.not-logged-in #block-superfish-3 {
+    width: 100%;
+    text-align: center; }
+    body.not-logged-in #block-superfish-3 #superfish-3 {
+      display: inline-block !important;
+      vertical-align: middle; }
+      body.not-logged-in #block-superfish-3 #superfish-3 li a {
+        font-size: 14px;
+        padding: 6px 10px; }
+  body.not-logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    font-size: 14px;
+    padding: 6px 10px; } }
+@media (min-width: 724px) {
+  body.not-logged-in #block-superfish-3 {
+    width: auto; } }
+@media (min-width: 765px) {
+  body.not-logged-in #block-superfish-3 #superfish-3 li a {
+    font-size: 15px; }
+  body.not-logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    font-size: 15px; } }
+@media (min-width: 806px) {
+  body.not-logged-in #block-superfish-3 #superfish-3 li a {
+    font-size: 16px; }
+  body.not-logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    font-size: 16px; } }
+@media (min-width: 866px) {
+  body.not-logged-in #block-superfish-3 #superfish-3 li a {
+    padding: 11px 16px; }
+  body.not-logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    padding: 11px 16px; } }
+@media (min-width: 926px) {
+  body.not-logged-in #block-superfish-3 #superfish-3 li a {
+    padding: 16px 20px; }
+  body.not-logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    padding: 16px 20px; } }
+
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
