@@ -152,6 +152,10 @@ td {
     top: -15px; }
   .boxed h3 {
     top: -11px; }
+  .boxed .ctools-toggle {
+    position: absolute;
+    top: -10px;
+    z-index: 1; }
 
 #block-block-3 p {
   display: inline-block;
@@ -1714,7 +1718,8 @@ form#user-login, form#user-pass {
 .views-table {
   width: 100%; }
 
-.pane-basic-user-info-for-user-account .field__label {
+.pane-basic-user-info-for-user-account .field__label,
+.pane-basic-user-info .field__label {
   width: 124px; }
 
 .pane-user-field-identification {

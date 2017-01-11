@@ -23,8 +23,11 @@
 	width: 100%;
 }
 
-.pane-basic-user-info-for-user-account .field__label {
-	width: 124px;
+.pane-basic-user-info-for-user-account,
+.pane-basic-user-info{
+	.field__label {
+		width: 124px;
+	}
 }
 .pane-user-field-identification {
 	width: 120px;

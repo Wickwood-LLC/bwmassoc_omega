@@ -166,4 +166,10 @@ td {
   h3 {
     top: -11px;
   }
+
+  .ctools-toggle {
+    position: absolute;
+    top: -10px;
+    z-index: 1;
+  }
 }
