@@ -26,9 +26,9 @@ body {
 @media (min-width: 620px) {
   html body.admin-menu {
     margin-top: 54px !important; } }
-@media (min-width: 620px) and (max-width: 1083px) {
+@media (min-width: 1084px) {
   html body.admin-menu {
-    margin-top: 54px !important; } }
+    margin-top: 29px !important; } }
 
 .l-region--header,
 .l-main,
@@ -1585,19 +1585,41 @@ form#user-login, form#user-pass {
       text-decoration: none; }
 
 @media (min-width: 551px) {
-  #block-superfish-3 {
+  body.logged-in #block-superfish-3 {
     width: 100%;
     text-align: center; }
-    #block-superfish-3 #superfish-3 {
+    body.logged-in #block-superfish-3 #superfish-3 {
       display: inline-block !important;
       vertical-align: middle; }
-      #block-superfish-3 #superfish-3 li a {
+      body.logged-in #block-superfish-3 #superfish-3 li a {
         font-size: 14px;
         padding: 6px 10px; }
-
-  #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+  body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
     font-size: 14px;
     padding: 6px 10px; } }
+@media (min-width: 724px) {
+  body.logged-in #block-superfish-3 {
+    width: auto; } }
+@media (min-width: 765px) {
+  body.logged-in #block-superfish-3 #superfish-3 li a {
+    font-size: 15px; }
+  body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    font-size: 15px; } }
+@media (min-width: 806px) {
+  body.logged-in #block-superfish-3 #superfish-3 li a {
+    font-size: 16px; }
+  body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    font-size: 16px; } }
+@media (min-width: 866px) {
+  body.logged-in #block-superfish-3 #superfish-3 li a {
+    padding: 11px 16px; }
+  body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    padding: 11px 16px; } }
+@media (min-width: 926px) {
+  body.logged-in #block-superfish-3 #superfish-3 li a {
+    padding: 16px 20px; }
+  body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    padding: 16px 20px; } }
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
