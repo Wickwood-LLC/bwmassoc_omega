@@ -13,8 +13,9 @@ body {
       margin-bottom: 1em;
     }
   }
+}
 
-  &.admin-menu {
+html body.admin-menu {
     @include breakpoint(250px) {
       margin-top: 151px !important;
     }
@@ -34,7 +35,6 @@ body {
       margin-top: 54px !important;
     }
   }
-}
 
 .l-region--header,
 .l-main,

@@ -10,24 +10,25 @@ body {
   margin: 0; }
   body.not-logged-in #block-panels-mini-header-bwmassoc-com {
     margin-bottom: 1em; }
-  @media (min-width: 250px) {
-    body.admin-menu {
-      margin-top: 151px !important; } }
-  @media (min-width: 289px) {
-    body.admin-menu {
-      margin-top: 126px !important; } }
-  @media (min-width: 340px) {
-    body.admin-menu {
-      margin-top: 102px !important; } }
-  @media (min-width: 407px) {
-    body.admin-menu {
-      margin-top: 78px !important; } }
-  @media (min-width: 620px) {
-    body.admin-menu {
-      margin-top: 54px !important; } }
-  @media (min-width: 620px) and (max-width: 1083px) {
-    body.admin-menu {
-      margin-top: 54px !important; } }
+
+@media (min-width: 250px) {
+  html body.admin-menu {
+    margin-top: 151px !important; } }
+@media (min-width: 289px) {
+  html body.admin-menu {
+    margin-top: 126px !important; } }
+@media (min-width: 340px) {
+  html body.admin-menu {
+    margin-top: 102px !important; } }
+@media (min-width: 407px) {
+  html body.admin-menu {
+    margin-top: 78px !important; } }
+@media (min-width: 620px) {
+  html body.admin-menu {
+    margin-top: 54px !important; } }
+@media (min-width: 620px) and (max-width: 1083px) {
+  html body.admin-menu {
+    margin-top: 54px !important; } }
 
 .l-region--header,
 .l-main,
