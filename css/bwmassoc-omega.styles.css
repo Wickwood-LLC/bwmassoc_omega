@@ -150,7 +150,7 @@ td {
     font-size: 13px;
     text-decoration: underline; }
 
-@media (min-width: 0) and (max-width: 450px) {
+@media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1565,6 +1565,20 @@ form#user-login, form#user-pass {
     .tabs--primary a:hover {
       text-decoration: none; }
 
+@media (min-width: 551px) {
+  #block-superfish-3 {
+    width: 100%;
+    text-align: center; }
+    #block-superfish-3 #superfish-3 {
+      display: inline-block;
+      vertical-align: middle; }
+      #block-superfish-3 #superfish-3 li a {
+        font-size: 14px;
+        padding: 6px 10px; }
+
+  #block-menu-menu-user-menu-bwmassoc li a {
+    font-size: 14px;
+    padding: 6px 10px; } }
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -221,3 +221,29 @@
   	}
   }
 }
+
+@include breakpoint(551px) {
+	#block-superfish-3 {
+		width: 100%;
+		text-align: center;
+
+		#superfish-3 {
+			display: inline-block;
+			vertical-align: middle;
+
+			li a {
+				font-size: 14px;
+				padding: 6px 10px;
+			}
+		}
+	}
+
+	#block-menu-menu-user-menu-bwmassoc {
+		li a {
+			font-size: 14px;
+			padding: 6px 10px;
+		}
+	}
+
+
+}
