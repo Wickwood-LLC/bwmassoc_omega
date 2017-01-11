@@ -1646,7 +1646,7 @@ form#user-login, form#user-pass {
     font-size: 16px; }
   body.not-logged-in #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a {
     font-size: 16px; } }
-@media (min-width: 678px) {
+@media (min-width: 688px) {
   body.not-logged-in #block-superfish-3 #superfish-3 li a {
     padding: 11px 16px; }
   body.not-logged-in #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a {
