@@ -333,12 +333,12 @@ body.not-logged-in {
 			}
 		}
 	}
-	@include breakpoint(724px) {
+	@include breakpoint(566px) {
 		#block-superfish-3 {
 			width: auto;
 		}
 	}
-	@include breakpoint(765px) {
+	@include breakpoint(566px) {
 		#block-superfish-3 {	
 			#superfish-3 {	
 				li a {
@@ -353,7 +353,7 @@ body.not-logged-in {
 			}
 		}
 	}
-	@include breakpoint(806px) {
+	@include breakpoint(628px) {
 		#block-superfish-3 {	
 			#superfish-3 {	
 				li a {
@@ -368,7 +368,7 @@ body.not-logged-in {
 			}
 		}
 	}
-	@include breakpoint(866px) {
+	@include breakpoint(678px) {
 		#block-superfish-3 {	
 			#superfish-3 {	
 				li a {
@@ -383,7 +383,7 @@ body.not-logged-in {
 			}
 		}
 	}
-	@include breakpoint(926px) {
+	@include breakpoint(728px) {
 		#block-superfish-3 {	
 			#superfish-3 {	
 				li a {
