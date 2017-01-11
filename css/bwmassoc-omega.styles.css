@@ -1694,17 +1694,21 @@ form#user-login, form#user-pass {
       margin-bottom: 1em;
       width: 100%; } }
 
-#user-account-main-page {
+#user-account-main-page,
+.page-user-view-bwma-client {
   background-color: white;
   padding: 1em;
   border: 1px solid #c1c1c1;
   border-radius: 5px; }
-  #user-account-main-page .action-links li {
+  #user-account-main-page .action-links li,
+  .page-user-view-bwma-client .action-links li {
     list-style: none; }
-  #user-account-main-page ul {
+  #user-account-main-page ul,
+  .page-user-view-bwma-client ul {
     margin: 0;
     padding: 0; }
-    #user-account-main-page ul li {
+    #user-account-main-page ul li,
+    .page-user-view-bwma-client ul li {
       list-style: none; }
 
 .views-table {
