@@ -1788,19 +1788,23 @@ form#user-login, form#user-pass {
   font-size: 11px;
   padding: 20px 0 20px 10px; }
   .action-links > li {
-    margin-left: 0; }
+    margin-left: 0;
+    list-style: none; }
   .action-links > li, .action-links > li a {
     float: left; }
   .action-links a {
     border-radius: 5px;
     margin: 0 5px 0 0;
-    padding: 0 5px 0 25px;
+    display: inline-block;
+    line-height: 21px;
+    padding-right: 1em;
     color: #fff;
     text-shadow: #666 0 1px 0;
     background-color: #7bc;
     text-shadow: #38a 0 1px 0; }
     .action-links a:before {
       content: '\f067';
-      font-family: FontAwesome; }
+      font-family: FontAwesome;
+      padding: 0 0.5em; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
