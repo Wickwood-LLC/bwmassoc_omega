@@ -1770,4 +1770,18 @@ form#user-login, form#user-pass {
 .pane-chaos-data .field .field__label {
   width: 335px; }
 
+.panelizer-view-mode.node-embedded-to-profile > h3 {
+  cursor: pointer; }
+  .panelizer-view-mode.node-embedded-to-profile > h3:before {
+    content: '\f0d9';
+    font-family: FontAwesome;
+    width: 17px;
+    height: 17px;
+    display: inline-block; }
+.panelizer-view-mode.node-embedded-to-profile > h3.open:before {
+  content: '\f0d7';
+  font-family: FontAwesome; }
+.panelizer-view-mode.node-embedded-to-profile > .panel-display {
+  display: none; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

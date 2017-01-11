@@ -98,3 +98,26 @@
 		}
 	}
 }
+
+.panelizer-view-mode.node-embedded-to-profile {
+  >h3 {
+    cursor: pointer;
+
+    &:before {
+      content: '\f0d9';
+      font-family: FontAwesome;
+      width: 17px;
+      height: 17px;
+      display: inline-block;
+    }
+  }
+
+  >h3.open:before {
+    content: '\f0d7';
+    font-family: FontAwesome;
+  }
+
+  >.panel-display {
+    display: none;
+  }
+}
