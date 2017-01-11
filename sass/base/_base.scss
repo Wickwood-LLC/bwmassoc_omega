@@ -13,6 +13,27 @@ body {
       margin-bottom: 1em;
     }
   }
+
+  &.logged-in {
+    @include breakpoint(250px) {
+      margin-top: 151px !important;
+    }
+    @include breakpoint(289px) {
+      margin-top: 126px !important;
+    }
+    @include breakpoint(340px) {
+      margin-top: 102px !important;
+    }
+    @include breakpoint(407px) {
+      margin-top: 78px !important;
+    }
+    @include breakpoint(620px) {
+      margin-top: 54px !important;
+    }
+    @include breakpoint(620px 1083px) {
+      margin-top: 54px !important;
+    }
+  }
 }
 
 .l-region--header,
