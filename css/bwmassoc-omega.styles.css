@@ -1570,13 +1570,13 @@ form#user-login, form#user-pass {
     width: 100%;
     text-align: center; }
     #block-superfish-3 #superfish-3 {
-      display: inline-block;
+      display: inline-block !important;
       vertical-align: middle; }
       #block-superfish-3 #superfish-3 li a {
         font-size: 14px;
         padding: 6px 10px; }
 
-  #block-menu-menu-user-menu-bwmassoc li a {
+  #block-menu-menu-user-menu-bwmassoc ul.menu li a {
     font-size: 14px;
     padding: 6px 10px; } }
 .view-bwma-client-testimonials .view-content {
