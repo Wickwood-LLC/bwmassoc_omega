@@ -122,10 +122,52 @@
   }
 }
 
+.pane-loan-chaos-data {
+	.field .field__label {
+		width: 258px;
+	}
+}
+
+.pane-client-additional-id-info {
+	.field .field__label {
+		width: 204px;
+	}
+}
+
+.client-acquisition {
+	.field .field__label {
+		width: 264px;
+	}
+}
+
+.pane-loan-debit-information {
+	.field .field__label {
+		width: 282px;
+	}
+}
+
+.pane-bwma-enrolment {
+	.field .field__label {
+		width: 196px;
+	}
+}
+
+.pane-afts-advance {
+	.field .field__label {
+		width: 320px;
+	}
+}
+
+.pane-node-field-service-bureaus {
+	.field .field__label {
+		width: 216px;
+	}
+}
+
 .action-links {
-	// float: left;
 	font-size: 11px;
 	padding: 20px 0 20px 10px;
+	margin-top: 5px;
 
 	&>li {
 		margin-left: 0;
@@ -150,6 +192,10 @@
 			content: '\f067';
 			font-family: FontAwesome;
 			padding: 0 0.5em;
+		}
+
+		&:last-child {
+			margin-right: 0;
 		}
 	}
 }
