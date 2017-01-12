@@ -1,35 +1,45 @@
 #block-superfish-3 {
 	display: inline-block;
-	float: right;
+	position: absolute;
+    right: 0;
 
-	.sf-accordion-toggle a {
-		color: #262626;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 16px;
-		font-weight: 600;
-		text-transform: uppercase;
-		position: relative;
-		top: 0px;
-		text-decoration: none;
-		line-height: 1.5;
-		padding: 16px 20px;
-		display: block;
+	.sf-accordion-toggle {
+		float: right;
 
-		&:before {
-			content: '\f0c9  ';
-			font-family: FontAwesome;
-		}
-
-		&:hover, &:focus {
-			background: #fff;
-		  text-decoration: none;
-		 	color: #1894c7;
+		a {
+			color: #262626;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 16px;
+			font-weight: 600;
+			text-transform: uppercase;
+			position: relative;
+			top: 0px;
+			text-decoration: none;
+			line-height: 1.5;
+			padding: 16px 20px;
+			display: block;
+			
+	
+			&:before {
+				content: '\f0c9  ';
+				font-family: FontAwesome;
+			}
+	
+			&:hover, &:focus {
+				background: #fff;
+			  text-decoration: none;
+			 	color: #1894c7;
+			}
 		}
 	}
 
 	#superfish-3-accordion {
 		&.sf-hidden {
 			display: none !important;
+		}
+
+		li {
+			background-color: #f2f2f2;
 		}
 	}
 
