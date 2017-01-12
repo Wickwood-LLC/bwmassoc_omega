@@ -1601,7 +1601,7 @@ form#user-login, form#user-pass {
       vertical-align: middle; }
       body.logged-in #block-superfish-3 #superfish-3 li a {
         font-size: 13px;
-        padding: 6px 3px; }
+        padding: 6px 6px; }
   body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
     font-size: 13px;
     padding: 6px 3px; } }
