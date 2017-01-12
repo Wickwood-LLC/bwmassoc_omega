@@ -1459,6 +1459,8 @@ form#user-login, form#user-pass {
       background: #fff;
       text-decoration: none;
       color: #1894c7; }
+  #block-superfish-3 #superfish-3-accordion.sf-hidden {
+    display: none !important; }
   #block-superfish-3 ul.sf-menu-main-menu---bwmassoc {
     position: initial; }
     #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li {

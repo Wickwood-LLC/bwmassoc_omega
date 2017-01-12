@@ -27,6 +27,12 @@
 		}
 	}
 
+	#superfish-3-accordion {
+		&.sf-hidden {
+			display: none !important;
+		}
+	}
+
 	ul.sf-menu-main-menu---bwmassoc {
 		position: initial;
 
