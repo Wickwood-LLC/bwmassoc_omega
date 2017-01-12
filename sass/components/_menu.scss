@@ -209,7 +209,7 @@
 }
 
 body.logged-in	{
-	@include breakpoint(0px 550px) {
+	@include breakpoint(551px 724px) {
 		#block-superfish-3 {	
 			#superfish-3 {	
 				li a i:before {

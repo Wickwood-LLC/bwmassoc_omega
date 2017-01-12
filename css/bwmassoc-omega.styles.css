@@ -1588,7 +1588,7 @@ form#user-login, form#user-pass {
     .tabs--primary a:hover {
       text-decoration: none; }
 
-@media (min-width: 0px) and (max-width: 550px) {
+@media (min-width: 551px) and (max-width: 724px) {
   body.logged-in #block-superfish-3 #superfish-3 li a i:before {
     content: ''; }
   body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a i:before {
