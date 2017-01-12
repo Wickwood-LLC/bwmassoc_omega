@@ -1595,14 +1595,20 @@ form#user-login, form#user-pass {
     content: ''; } }
 @media (min-width: 551px) {
   body.logged-in #block-superfish-3 {
-    width: 100%;
     text-align: center; }
     body.logged-in #block-superfish-3 #superfish-3 {
       display: inline-block !important;
       vertical-align: middle; }
       body.logged-in #block-superfish-3 #superfish-3 li a {
-        font-size: 14px;
-        padding: 6px 10px; }
+        font-size: 13px;
+        padding: 6px 3px; }
+  body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
+    font-size: 13px;
+    padding: 6px 3px; } }
+@media (min-width: 645px) {
+  body.logged-in #block-superfish-3 #superfish-3 li a {
+    font-size: 14px;
+    padding: 6px 10px; }
   body.logged-in #block-menu-menu-user-menu-bwmassoc ul.menu li a {
     font-size: 14px;
     padding: 6px 10px; } }

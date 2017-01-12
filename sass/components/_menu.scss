@@ -226,13 +226,29 @@ body.logged-in	{
 	}
 	@include breakpoint(551px) {
 		#block-superfish-3 {
-			width: 100%;
 			text-align: center;
 
 			#superfish-3 {
 				display: inline-block !important;
 				vertical-align: middle;
 
+				li a {
+					font-size: 13px;
+					padding: 6px 3px;
+				}
+			}
+		}
+
+		#block-menu-menu-user-menu-bwmassoc {
+			ul.menu li a {
+				font-size: 13px;
+				padding: 6px 3px;
+			}
+		}
+	}
+	@include breakpoint(645px) {
+		#block-superfish-3 {	
+			#superfish-3 {	
 				li a {
 					font-size: 14px;
 					padding: 6px 10px;
