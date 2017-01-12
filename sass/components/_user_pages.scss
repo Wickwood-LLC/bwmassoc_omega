@@ -19,6 +19,10 @@
 	}
 }
 
+.field {
+	line-height: 1.5;
+}
+
 .views-table {
 	width: 100%;
 }
@@ -135,8 +139,15 @@
 }
 
 .client-acquisition {
-	.field .field__label {
-		width: 264px;
+	.col-md-8 {
+		.field .field__label {
+			width: 116px;
+		}
+	}
+	.col-md-4 {
+		.field .field__label {
+			width: 264px;
+		}
 	}
 }
 

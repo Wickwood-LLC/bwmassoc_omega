@@ -149,7 +149,8 @@ td {
     padding: 0 1em;
     display: inline-block !important; }
   .boxed h2 {
-    top: -15px; }
+    top: -13px;
+    font-size: 1.3em; }
   .boxed h3 {
     top: -11px; }
   .boxed .ctools-toggle {
@@ -1731,6 +1732,9 @@ form#user-login, form#user-pass {
     #user-account-client-profile ul li {
       list-style: none; }
 
+.field {
+  line-height: 1.5; }
+
 .views-table {
   width: 100%; }
 
@@ -1806,7 +1810,9 @@ form#user-login, form#user-pass {
 .pane-client-additional-id-info .field .field__label {
   width: 204px; }
 
-.client-acquisition .field .field__label {
+.client-acquisition .col-md-8 .field .field__label {
+  width: 116px; }
+.client-acquisition .col-md-4 .field .field__label {
   width: 264px; }
 
 .pane-loan-debit-information .field .field__label {
