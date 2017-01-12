@@ -158,6 +158,9 @@ td {
     top: -10px;
     z-index: 1; }
 
+#overlay-tabs {
+  display: none; }
+
 #block-block-3 p {
   display: inline-block;
   width: 100%; }
@@ -1733,7 +1736,7 @@ form#user-login, form#user-pass {
       list-style: none; }
 
 .field {
-  line-height: 1.5; }
+  line-height: 1.3; }
 
 .views-table {
   width: 100%; }
