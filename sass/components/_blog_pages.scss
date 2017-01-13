@@ -6,19 +6,13 @@
 		display: block;
 	}
 	
-	#main-content .panel-myriad-layout {
+	.l-content #wwm-stacked-and-packed-9 {
 		display: flex;
 		flex-flow: row wrap;
 		padding: 1em;
 		padding-top: 0px;
 
-		.row-one {
-			display: flex;
-			flex-flow: row wrap;
-			width: 100%;
-		}
-
-		.main-content {
+		.panel-col-mid {
 			flex: 1 100%;
 			padding: 0.5em;
 
@@ -28,7 +22,7 @@
 			}
 		}
 
-		.sidebar-content {
+		.panel-col-right {
 			flex: 1 1 0;
 			margin: 0.5em;
 
