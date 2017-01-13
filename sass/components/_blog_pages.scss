@@ -65,6 +65,7 @@
 		.featured-display .view-content {
 			display: flex;
 			flex-flow: row wrap;
+			background-color: #0355a3;
 
 		    .views-row {
 		    	width: 50%;
@@ -116,7 +117,6 @@
 		.main-display .view-content {
 			display: flex;
 			flex-flow: row wrap;
-			background-color: #0355a3;
 			justify-content: center;
 
 			.views-row {
