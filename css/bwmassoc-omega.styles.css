@@ -174,24 +174,31 @@ td {
       flex-flow: row wrap;
   padding: 1em;
   padding-top: 0px; }
-  .blog-type-page #main-content .panel-myriad-layout .panel-col-mid {
+  .blog-type-page #main-content .panel-myriad-layout .row-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    width: 100%; }
+  .blog-type-page #main-content .panel-myriad-layout .main-content {
     -webkit-box-flex: 1;
         -ms-flex: 1 100%;
             flex: 1 100%;
     padding: 0.5em; }
     @media (min-width: 626px) {
-      .blog-type-page #main-content .panel-myriad-layout .panel-col-mid {
+      .blog-type-page #main-content .panel-myriad-layout .main-content {
         min-width: 560px;
         -webkit-box-flex: 3;
             -ms-flex: 3 0 560px;
                 flex: 3 0 560px; } }
-  .blog-type-page #main-content .panel-myriad-layout .panel-col-right {
+  .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 0;
             flex: 1 1 0;
     margin: 0.5em; }
     @media (min-width: 375px) {
-      .blog-type-page #main-content .panel-myriad-layout .panel-col-right {
+      .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
         min-width: 300px;
         -webkit-box-flex: 1;
             -ms-flex: 1 1 300px;
@@ -207,6 +214,12 @@ td {
       padding: 3px 4px;
       border-radius: 5px;
       width: auto; }
+  .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
+  .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6,
+  .blog-type-page #main-content .panel-myriad-layout .pane-press-releases-test-panel-pane-6 {
+    background: url(../images/banner.jpg) center center;
+    background-size: cover;
+    margin: 0 0 1em 0; }
   .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -220,9 +233,9 @@ td {
               flex: 1 100%;
       padding: 0.5em;
       margin: 0.5em;
-      border: 2px solid #0355a3;
+      border: 2px solid #689a04;
       border-radius: 5px;
-      background-color: white;
+      background-color: #f5f5f5;
       font-size: 14px;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -259,13 +272,53 @@ td {
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
       width: 100%;
       height: auto; }
+  .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+    .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 30%;
+              flex: 1 30%;
+      margin: 0.5em;
+      padding: 0; }
+      @media (min-width: 375px) {
+        .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row {
+          min-width: 300px;
+          -webkit-box-flex: 1;
+              -ms-flex: 1 1 300px;
+                  flex: 1 1 300px; } }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .panel-display {
+        padding: 0; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .panel-flexible {
+        padding: 1em; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row h2 {
+        margin: 0.5em 0 0 0;
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row h3 {
+        margin: 0 0 0.5em 0;
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-2 {
+        width: 100%; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-1 {
+        background-color: #9bcb3b;
+        padding: 1em;
+        border-radius: 8px 8px 0 0; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-2 {
+        padding: 0 1em 1em 1em; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .pane-node-field-ad-image {
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .field--name-field-amazon-book-listing {
+        text-align: center; }
   .blog-type-page #main-content .panel-myriad-layout .main-display .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
-    background-color: #0355A5;
+    background-color: #689a04;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
