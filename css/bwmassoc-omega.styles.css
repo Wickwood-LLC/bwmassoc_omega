@@ -205,6 +205,8 @@ td {
                 flex: 1 1 300px; } }
     .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed .pane-title {
       background-color: transparent; }
+    .blog-type-page .l-content .panel-myriad-layout .sidebar-content ul {
+      margin: 0; }
   .blog-type-page .l-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
   .blog-type-page .l-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {
