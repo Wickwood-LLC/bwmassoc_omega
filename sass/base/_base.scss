@@ -153,18 +153,18 @@ td {
   position: relative;
   border-radius: 5px;
 
-  h2, h3 {
+  .pane-title {
     position: absolute;
     margin: 0;
     background: white;
     padding: 0 1em;
     display: inline-block !important;
   }
-  h2 {
+  h2.pane-title {
     top: -13px;
     font-size: 1.3em;
   }
-  h3 {
+  h3.pane-title {
     top: -11px;
   }
 

@@ -142,16 +142,16 @@ td {
   margin: 1em 0;
   position: relative;
   border-radius: 5px; }
-  .boxed h2, .boxed h3 {
+  .boxed .pane-title {
     position: absolute;
     margin: 0;
     background: white;
     padding: 0 1em;
     display: inline-block !important; }
-  .boxed h2 {
+  .boxed h2.pane-title {
     top: -13px;
     font-size: 1.3em; }
-  .boxed h3 {
+  .boxed h3.pane-title {
     top: -11px; }
   .boxed .ctools-toggle {
     position: absolute;
