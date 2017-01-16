@@ -5,10 +5,10 @@
 	    margin-left: 5px;
 	    filter: invert(1);
 	}
+}
 
-	li.menuparent ul {
-		background: #f2f2f2;
-	}
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+	background: #f2f2f2;
 }
 
 #block-superfish-3 {
