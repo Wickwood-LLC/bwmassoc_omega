@@ -41,25 +41,25 @@
  *
  * @ingroup themeable
  */
-// function bwmassoc_omega_menu_local_tasks(&$variables) {
-//   $output = '';
+function bwmassoc_omega_menu_local_tasks(&$variables) {
+  $output = '';
 
-//   dpm($variables);
+  dpm($variables);
 
-//   if (!empty($variables['primary'])) {
-//     $variables['primary']['#prefix'] = '<h2 class="element-invisible">' . t('Primary tabs') . '</h2>';
-//     $variables['primary']['#prefix'] .= '<ul class="tabs tabs--primary  links--inline">';
-//     $variables['primary']['#suffix'] = '</ul>';
+  if (!empty($variables['primary'])) {
+    $variables['primary']['#prefix'] = '<h2 class="element-invisible">' . t('Primary tabs') . '</h2>';
+    $variables['primary']['#prefix'] .= '<ul class="tabs tabs--primary  links--inline">';
+    $variables['primary']['#suffix'] = '</ul>';
 
-// 	if (!empty($variables['secondary'])) {
-// 		$variables['secondary']['#prefix'] = '<h2 class="element-invisible">' . t('Secondary tabs') . '</h2>';
-// 		$variables['secondary']['#prefix'] .= '<ul class="tabs tabs--secondary links--inline">';
-// 		$variables['secondary']['#suffix'] = '</ul>';
-// 	}
+	if (!empty($variables['secondary'])) {
+		$variables['secondary']['#prefix'] = '<h2 class="element-invisible">' . t('Secondary tabs') . '</h2>';
+		$variables['secondary']['#prefix'] .= '<ul class="tabs tabs--secondary links--inline">';
+		$variables['secondary']['#suffix'] = '</ul>';
+	}
 
-//     $output .= drupal_render($variables['primary']);
-//   }
+    $output .= drupal_render($variables['primary']);
+  }
 
-//   return $output;
-// }
+  return $output;
+}
 
