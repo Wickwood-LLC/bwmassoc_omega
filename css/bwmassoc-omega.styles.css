@@ -137,7 +137,7 @@ td {
             flex: 1; }
 
 .boxed {
-  border: 2px solid #0355a3;
+  border: 1px solid #ccc;
   padding: 1em;
   margin: 1em 0;
   position: relative;
@@ -1695,6 +1695,13 @@ form#user-login, form#user-pass {
     width: 100%;
     height: 100%; }
 
+.sf-menu .sf-sub-indicator {
+  position: static;
+  display: inline-block;
+  margin-left: 5px;
+  -webkit-filter: invert(1);
+          filter: invert(1); }
+
 #block-superfish-3 {
   display: inline-block;
   position: absolute;
@@ -1723,7 +1730,10 @@ form#user-login, form#user-pass {
   #block-superfish-3 #superfish-3-accordion.sf-hidden {
     display: none !important; }
   #block-superfish-3 #superfish-3-accordion li {
-    background-color: #f2f2f2; }
+    background-color: #f2f2f2;
+    text-align: center; }
+    #block-superfish-3 #superfish-3-accordion li.menuparent ul {
+      background: #f2f2f2; }
   #block-superfish-3 ul.sf-menu-main-menu---bwmassoc {
     position: initial; }
     #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li {
