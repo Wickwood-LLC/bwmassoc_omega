@@ -1,8 +1,14 @@
-.sf-menu .sf-sub-indicator {
-	position: static;
-	display: inline-block;
-    margin-left: 5px;
-    filter: invert(1);
+.sf-menu {
+	.sf-sub-indicator {
+		position: static;
+		display: inline-block;
+	    margin-left: 5px;
+	    filter: invert(1);
+	}
+
+	li.menuparent ul {
+		background: #f2f2f2;
+	}
 }
 
 #block-superfish-3 {

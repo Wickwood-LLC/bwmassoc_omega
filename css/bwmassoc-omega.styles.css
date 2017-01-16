@@ -1701,6 +1701,8 @@ form#user-login, form#user-pass {
   margin-left: 5px;
   -webkit-filter: invert(1);
           filter: invert(1); }
+.sf-menu li.menuparent ul {
+  background: #f2f2f2; }
 
 #block-superfish-3 {
   display: inline-block;
