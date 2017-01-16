@@ -180,9 +180,6 @@ td {
     top: -10px;
     z-index: 1; }
 
-#overlay-tabs {
-  display: none; }
-
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
