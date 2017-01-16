@@ -9,7 +9,7 @@
 /**
  * Override of theme('menu_local_task').
  */
-function rubik_menu_local_task($variables) {
+function bwmassoc_omega_menu_local_task($variables) {
 	
 	dpm($variables);
 
