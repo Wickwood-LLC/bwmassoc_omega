@@ -44,8 +44,25 @@ body {
   margin-bottom: 10px; }
   .l-branding.blockFloat-processed {
     z-index: 10;
-    margin-top: 30px;
     width: 100% !important; }
+  @media (min-width: 250px) {
+    .l-branding.floating-block-active {
+      margin-top: 151px !important; } }
+  @media (min-width: 289px) {
+    .l-branding.floating-block-active {
+      margin-top: 126px !important; } }
+  @media (min-width: 340px) {
+    .l-branding.floating-block-active {
+      margin-top: 102px !important; } }
+  @media (min-width: 407px) {
+    .l-branding.floating-block-active {
+      margin-top: 78px !important; } }
+  @media (min-width: 620px) {
+    .l-branding.floating-block-active {
+      margin-top: 54px !important; } }
+  @media (min-width: 1084px) {
+    .l-branding.floating-block-active {
+      margin-top: 29px !important; } }
   .l-branding .l-region--branding {
     max-width: 1360px;
     margin: 0 auto;
