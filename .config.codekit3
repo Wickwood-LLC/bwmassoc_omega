@@ -1151,6 +1151,12 @@
 		"oA": 2,
 		"oAP": "\/theme-settings.php",
 		"oF": 0
+		},
+	"\/theme\/menu-local-tasks.theme.inc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/theme\/menu-local-tasks.theme.inc",
+		"oF": 0
 		}
 	},
 "hooks": [
