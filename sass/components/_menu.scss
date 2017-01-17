@@ -67,6 +67,30 @@
 
 			&:hover a {
 				background-color: #ffc43d;
+				color: black;
+			}
+
+			&:first-child > ul {
+				li:nth-child(2) a {
+					background: #57a63d;
+					color: white;
+				}
+				li:nth-child(3) a {
+					background: #0792cd;
+					color: white;
+				}
+				li:nth-child(4) a {
+					background: #ec1f27;
+					color: white;
+				}
+				li:nth-child(5) a {
+					background: #33a6d7;
+					color: white;
+				}
+				li:nth-child(6) a {
+					background: #0355a3;
+					color: white;
+				}
 			}
 		}
 	}
