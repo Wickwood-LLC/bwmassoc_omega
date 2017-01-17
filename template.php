@@ -53,6 +53,7 @@ function bwmassoc_omega_menu_local_tasks(&$variables) {
     $variables['primary']['#prefix'] = '<h2 class="element-invisible">' . t('Primary tabs') . '</h2>';
     $variables['primary']['#prefix'] .= '<ul class="tabs tabs--primary  links--inline">';
     $variables['primary']['#suffix'] = '</ul>';
+    $variables['primary']['children'] = 'test';
 
 	if (!empty($variables['secondary'])) {
 		$variables['secondary']['#prefix'] = '<h2 class="element-invisible">' . t('Secondary tabs') . '</h2>';
