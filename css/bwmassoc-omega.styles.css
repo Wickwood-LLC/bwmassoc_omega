@@ -29,9 +29,6 @@ body {
 @media (min-width: 1084px) {
   html body.admin-menu {
     margin-top: 29px !important; } }
-html body.admin-menu .l-branding.blockFloat-processed {
-  z-index: 10;
-  width: 100% !important; }
 @media (min-width: 250px) {
   html body.admin-menu .l-branding.floating-block-active {
     margin-top: 151px !important; } }
@@ -63,6 +60,9 @@ html body.admin-menu .l-branding.blockFloat-processed {
   background: #f2f2f2;
   box-shadow: #cecece 0px 0px 3px 2px;
   margin-bottom: 10px; }
+  .l-branding.blockFloat-processed {
+    z-index: 10;
+    width: 100% !important; }
   .l-branding .l-region--branding {
     max-width: 1360px;
     margin: 0 auto;
