@@ -1779,6 +1779,9 @@ form#user-login, form#user-pass {
     #block-superfish-3 #superfish-3-accordion li a:hover {
       background-color: #ffc43d;
       color: black; }
+    #block-superfish-3 #superfish-3-accordion li a.active {
+      background-color: white;
+      color: #1894c7; }
   #block-superfish-3 ul.sf-menu-main-menu---bwmassoc {
     position: initial; }
     #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li {
