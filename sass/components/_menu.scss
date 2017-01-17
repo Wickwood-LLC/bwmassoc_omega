@@ -65,11 +65,6 @@
 				}
 			}
 
-			&:hover a {
-				background-color: #ffc43d;
-				color: black;
-			}
-
 			&:first-child > ul {
 				li:nth-child(2) a {
 					background: #57a63d;
@@ -91,6 +86,11 @@
 					background: #0355a3;
 					color: white;
 				}
+			}
+
+			&:hover a {
+				background-color: #ffc43d;
+				color: black;
 			}
 		}
 	}

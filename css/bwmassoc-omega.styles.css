@@ -1758,9 +1758,6 @@ form#user-login, form#user-pass {
       background-color: white; }
     #block-superfish-3 #superfish-3-accordion li.menuparent ul li {
       background: #dee7f1; }
-    #block-superfish-3 #superfish-3-accordion li:hover a {
-      background-color: #ffc43d;
-      color: black; }
     #block-superfish-3 #superfish-3-accordion li:first-child > ul li:nth-child(2) a {
       background: #57a63d;
       color: white; }
@@ -1776,6 +1773,9 @@ form#user-login, form#user-pass {
     #block-superfish-3 #superfish-3-accordion li:first-child > ul li:nth-child(6) a {
       background: #0355a3;
       color: white; }
+    #block-superfish-3 #superfish-3-accordion li:hover a {
+      background-color: #ffc43d;
+      color: black; }
   #block-superfish-3 ul.sf-menu-main-menu---bwmassoc {
     position: initial; }
     #block-superfish-3 ul.sf-menu-main-menu---bwmassoc li {
