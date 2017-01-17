@@ -52,10 +52,10 @@ function bwmassoc_omega_menu_local_task($variables) {
 
 function _bwmassoc_omega_local_tasks(&$vars) {
 	dpm($vars);
-  if (!empty($vars['secondary_local_tasks']) && is_array($vars['primary_local_tasks'])) {
-    foreach ($vars['primary_local_tasks'] as $key => $element) {
+  if (!empty($vars['tabs']['#secondary']) && is_array($vars['tabs']['#primary'])) {
+    foreach ($vars['tabs']['#primary'] as $key => $element) {
       if (!empty($element['#active'])) {
-        $vars['primary_local_tasks'][$key] = $vars['primary_local_tasks'][$key] + $vars['secondary_local_tasks'];
+        $vars['tabs']['#primary'][$key] = $vars['tabs']['#primary'][$key] + $vars['tabs']['#secondary'];
         break;
       }
     }
