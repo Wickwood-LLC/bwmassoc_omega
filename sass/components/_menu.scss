@@ -59,15 +59,15 @@
 				background-color: white;
 			}
 
-			&.menuparent {
-				ul li {
-					background: #dee7f1;
-				}
-			}
-
 			&:hover a {
 				background-color: #ffc43d;
 				color: black;
+			}
+
+			&.menuparent a {
+				ul li {
+					background: #dee7f1;
+				}
 			}
 
 			&:first-child > ul {
