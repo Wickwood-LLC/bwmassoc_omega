@@ -9,7 +9,7 @@
 /**
  * Implements hook_preprocess_page().
  */
-function bwmassoc_omega_preprocess_page(&$variables) {
+function bwmassoc_omega_preprocess_page(&$vars) {
   // You can use preprocess hooks to modify the variables before they are passed
   // to the theme function or template file.
 
