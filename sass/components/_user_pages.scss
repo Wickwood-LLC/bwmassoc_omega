@@ -346,7 +346,7 @@
 	}
 
 	.pane-basic-user-info-user-edit {
-		@include flexifields(142px);
+		@include flexifields(150px);
 
 		.date-form-element-content,
 		.date-padding {
@@ -377,6 +377,7 @@
 				width: auto;
 			    display: inline-block;
 			    margin-right: 10px;
+			    margin-bottom: 0;
 
 			    input {
 			    	width: auto;
@@ -393,6 +394,7 @@
 				.form-item {
 					display: inline-block;
     				width: auto;
+    				margin-bottom: 0;
 
 					input {
 						display: inline-block;
@@ -619,8 +621,25 @@
     }
 
     .pane-user-field-related-clients {
-    	#edit-uid-wrapper {
+    	.subform, #edit-uid-wrapper {
     		max-width: 100%;
+    	}
+
+    	.relation-select-entities {
+    		width: 100%;
+    		margin-bottom: 1em;
+
+    		.rs-wrapper {
+    			height: auto;
+    		}
+    	}
+
+    	label {
+    		@include flexifields(205px);
+    	}
+
+    	[id*="relation-select-relation-fields"] {
+    		width: 100%;
     	}
     }
 
@@ -630,6 +649,10 @@
 
 	#edit-masquerade-users {
 		width: 100%;
+	}
+
+	.field-name-field-name-notes {
+		margin-bottom: 1em;
 	}
 }
 

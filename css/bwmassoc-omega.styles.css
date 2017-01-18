@@ -186,6 +186,10 @@ fieldset {
   padding: 0.5em 1em;
   min-width: 0; }
 
+html.js fieldset.collapsed {
+  border-width: 2px;
+  height: 2em; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
@@ -2427,14 +2431,14 @@ form#user-login, form#user-pass {
 .page-admin-people-create .pane-basic-user-info-user-edit label,
 .page-user-register .pane-basic-user-info-user-edit label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 142px;
-          flex: 0 0 142px; }
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px; }
 .page-user-edit .pane-basic-user-info-user-edit input,
 .page-admin-people-create .pane-basic-user-info-user-edit input,
 .page-user-register .pane-basic-user-info-user-edit input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 142px);
-          flex: 1 1 calc(100% - 142px);
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
   min-width: 150px; }
 .page-user-edit .pane-basic-user-info-user-edit .date-form-element-content,
 .page-user-edit .pane-basic-user-info-user-edit .date-padding,
@@ -2506,7 +2510,8 @@ form#user-login, form#user-pass {
 .page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio {
   width: auto;
   display: inline-block;
-  margin-right: 10px; }
+  margin-right: 10px;
+  margin-bottom: 0; }
   .page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input,
   .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input,
   .page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input {
@@ -2523,7 +2528,8 @@ form#user-login, form#user-pass {
     .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item,
     .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item {
       display: inline-block;
-      width: auto; }
+      width: auto;
+      margin-bottom: 0; }
       .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input,
       .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input,
       .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input {
@@ -2839,10 +2845,50 @@ form#user-login, form#user-pass {
 .page-admin-people-create .pane-user-form-timezone .form-item-timezone,
 .page-user-register .pane-user-form-timezone .form-item-timezone {
   margin: 0; }
-.page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
+.page-user-edit .pane-user-field-related-clients .subform, .page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
+.page-admin-people-create .pane-user-field-related-clients .subform,
 .page-admin-people-create .pane-user-field-related-clients #edit-uid-wrapper,
+.page-user-register .pane-user-field-related-clients .subform,
 .page-user-register .pane-user-field-related-clients #edit-uid-wrapper {
   max-width: 100%; }
+.page-user-edit .pane-user-field-related-clients .relation-select-entities,
+.page-admin-people-create .pane-user-field-related-clients .relation-select-entities,
+.page-user-register .pane-user-field-related-clients .relation-select-entities {
+  width: 100%;
+  margin-bottom: 1em; }
+  .page-user-edit .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
+  .page-admin-people-create .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
+  .page-user-register .pane-user-field-related-clients .relation-select-entities .rs-wrapper {
+    height: auto; }
+.page-user-edit .pane-user-field-related-clients label .form-item,
+.page-admin-people-create .pane-user-field-related-clients label .form-item,
+.page-user-register .pane-user-field-related-clients label .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .pane-user-field-related-clients label label,
+.page-admin-people-create .pane-user-field-related-clients label label,
+.page-user-register .pane-user-field-related-clients label label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 205px;
+          flex: 0 0 205px; }
+.page-user-edit .pane-user-field-related-clients label input,
+.page-admin-people-create .pane-user-field-related-clients label input,
+.page-user-register .pane-user-field-related-clients label input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 205px);
+          flex: 1 1 calc(100% - 205px);
+  min-width: 150px; }
+.page-user-edit .pane-user-field-related-clients [id*="relation-select-relation-fields"],
+.page-admin-people-create .pane-user-field-related-clients [id*="relation-select-relation-fields"],
+.page-user-register .pane-user-field-related-clients [id*="relation-select-relation-fields"] {
+  width: 100%; }
 .page-user-edit .tabledrag-toggle-weight-wrapper,
 .page-admin-people-create .tabledrag-toggle-weight-wrapper,
 .page-user-register .tabledrag-toggle-weight-wrapper {
@@ -2851,6 +2897,10 @@ form#user-login, form#user-pass {
 .page-admin-people-create #edit-masquerade-users,
 .page-user-register #edit-masquerade-users {
   width: 100%; }
+.page-user-edit .field-name-field-name-notes,
+.page-admin-people-create .field-name-field-name-notes,
+.page-user-register .field-name-field-name-notes {
+  margin-bottom: 1em; }
 
 .page-user-register .field-name-field-phone input[value="Remove"] {
   -webkit-transform: rotate(0deg);
@@ -2859,5 +2909,4 @@ form#user-login, form#user-pass {
   font-size: 10px;
   padding: 3px 5px;
   right: -50px; }
-
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
