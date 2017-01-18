@@ -2087,676 +2087,142 @@ form#user-login, form#user-pass {
       margin-bottom: 1em;
       width: 100%; } }
 
-.page-user-edit #user-edit {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-  .page-user-edit #user-edit div[class*="column"] {
-    padding: 0.5em;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 30%;
-            flex: 1 1 30%; }
+#user-account-main-page,
+#user-account-client-profile {
+  background-color: white;
+  padding: 1em;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px; }
+  #user-account-main-page .action-links li,
+  #user-account-client-profile .action-links li {
+    list-style: none; }
+  #user-account-main-page ul,
+  #user-account-client-profile ul {
+    margin: 0;
+    padding: 0; }
+    #user-account-main-page ul li,
+    #user-account-client-profile ul li {
+      list-style: none; }
 
-.page-user-edit #wwm-special-1,
-.page-admin-people-create #wwm-special-1,
-.page-user-register #wwm-special-1 {
-  padding: 0 1em; }
-.page-user-edit .form-item .clearfix,
-.page-admin-people-create .form-item .clearfix,
-.page-user-register .form-item .clearfix {
+.field {
+  line-height: 1.3; }
+
+.views-table {
   width: 100%; }
-.page-user-edit .form-type-radio,
-.page-user-edit .form-type-checkbox,
-.page-admin-people-create .form-type-radio,
-.page-admin-people-create .form-type-checkbox,
-.page-user-register .form-type-radio,
-.page-user-register .form-type-checkbox {
-  display: block; }
-  .page-user-edit .form-type-radio input,
-  .page-user-edit .form-type-checkbox input,
-  .page-admin-people-create .form-type-radio input,
-  .page-admin-people-create .form-type-checkbox input,
-  .page-user-register .form-type-radio input,
-  .page-user-register .form-type-checkbox input {
-    width: auto; }
-.page-user-edit input.form-radio,
-.page-user-edit input.form-checkbox,
-.page-admin-people-create input.form-radio,
-.page-admin-people-create input.form-checkbox,
-.page-user-register input.form-radio,
-.page-user-register input.form-checkbox {
-  display: block;
-  float: left; }
-.page-user-edit label.option,
-.page-admin-people-create label.option,
-.page-user-register label.option {
-  display: block;
-  margin-left: 25px;
-  font-weight: normal;
-  text-align: left; }
-.page-user-edit input.field-add-more-submit,
-.page-admin-people-create input.field-add-more-submit,
-.page-user-register input.field-add-more-submit {
-  text-transform: capitalize;
-  margin: .5em auto 0;
-  display: table; }
-.page-user-edit input[value="Remove"],
-.page-admin-people-create input[value="Remove"],
-.page-user-register input[value="Remove"] {
-  position: absolute;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  right: -72px;
-  top: 50%;
-  background-color: #6fae1b;
-  color: white;
-  min-width: auto !important; }
-.page-user-edit .field-add-more-submit,
-.page-admin-people-create .field-add-more-submit,
-.page-user-register .field-add-more-submit {
-  background-color: #6fae1b;
-  color: white; }
-.page-user-edit .password-strength,
-.page-admin-people-create .password-strength,
-.page-user-register .password-strength {
-  float: none;
-  margin: 0 auto 1em;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 100%;
-          flex: 1 100%; }
-.page-user-edit .password-confirm,
-.page-admin-people-create .password-confirm,
-.page-user-register .password-confirm {
-  float: none;
-  margin: 0 auto 1em;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 100%;
-          flex: 1 100%; }
-  .page-user-edit .password-confirm.form-text,
-  .page-admin-people-create .password-confirm.form-text,
-  .page-user-register .password-confirm.form-text {
-    margin-bottom: 0; }
-.page-user-edit .password-suggestions,
-.page-admin-people-create .password-suggestions,
-.page-user-register .password-suggestions {
-  margin: 0.7em auto; }
-.page-user-edit .pane-user-form-account .form-item,
-.page-admin-people-create .pane-user-form-account .form-item,
-.page-user-register .pane-user-form-account .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .pane-user-form-account label,
-.page-admin-people-create .pane-user-form-account label,
-.page-user-register .pane-user-form-account label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 130px;
-          flex: 0 0 130px; }
-.page-user-edit .pane-user-form-account input,
-.page-admin-people-create .pane-user-form-account input,
-.page-user-register .pane-user-form-account input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 130px);
-          flex: 1 1 calc(100% - 130px);
-  min-width: 150px; }
-.page-user-edit .pane-user-form-account .form-type-password-confirm label, .page-user-edit .pane-user-form-account .form-type-password-confirm input,
-.page-admin-people-create .pane-user-form-account .form-type-password-confirm label,
-.page-admin-people-create .pane-user-form-account .form-type-password-confirm input,
-.page-user-register .pane-user-form-account .form-type-password-confirm label,
-.page-user-register .pane-user-form-account .form-type-password-confirm input {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%; }
-.page-user-edit .pane-user-form-account .form-item-status .form-radios,
-.page-admin-people-create .pane-user-form-account .form-item-status .form-radios,
-.page-user-register .pane-user-form-account .form-item-status .form-radios {
-  display: inline-block; }
-  .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio,
-  .page-admin-people-create .pane-user-form-account .form-item-status .form-radios .form-type-radio,
-  .page-user-register .pane-user-form-account .form-item-status .form-radios .form-type-radio {
-    display: inline-block;
-    width: auto; }
-    .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio label,
-    .page-admin-people-create .pane-user-form-account .form-item-status .form-radios .form-type-radio label,
-    .page-user-register .pane-user-form-account .form-item-status .form-radios .form-type-radio label {
-      width: auto; }
-.page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes,
-.page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes,
-.page-user-register .pane-user-form-account .form-item-roles .form-checkboxes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
-  .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
-  .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
-    display: block;
-    min-width: 200px;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 50%;
-            flex: 1 1 50%; }
-.page-user-edit .pane-user-form-account .form-item-notify,
-.page-admin-people-create .pane-user-form-account .form-item-notify,
-.page-user-register .pane-user-form-account .form-item-notify {
-  margin-bottom: 0;
-  border: 1px solid red;
-  background-color: #f3b9b9;
-  padding: 5px; }
-  .page-user-edit .pane-user-form-account .form-item-notify .form-checkbox,
-  .page-admin-people-create .pane-user-form-account .form-item-notify .form-checkbox,
-  .page-user-register .pane-user-form-account .form-item-notify .form-checkbox {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
-  .page-user-edit .pane-user-form-account .form-item-notify input,
-  .page-admin-people-create .pane-user-form-account .form-item-notify input,
-  .page-user-register .pane-user-form-account .form-item-notify input {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 auto;
-            flex: 0 auto; }
-  .page-user-edit .pane-user-form-account .form-item-notify label,
-  .page-admin-people-create .pane-user-form-account .form-item-notify label,
-  .page-user-register .pane-user-form-account .form-item-notify label {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 130px;
-            flex: 1 130px;
-    margin-left: 0; }
-.page-user-edit .pane-basic-user-info-user-edit .form-item,
-.page-admin-people-create .pane-basic-user-info-user-edit .form-item,
-.page-user-register .pane-basic-user-info-user-edit .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .pane-basic-user-info-user-edit label,
-.page-admin-people-create .pane-basic-user-info-user-edit label,
-.page-user-register .pane-basic-user-info-user-edit label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100px;
-          flex: 0 0 100px; }
-.page-user-edit .pane-basic-user-info-user-edit input,
-.page-admin-people-create .pane-basic-user-info-user-edit input,
-.page-user-register .pane-basic-user-info-user-edit input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 100px);
-          flex: 1 1 calc(100% - 100px);
-  min-width: 150px; }
-.page-user-edit .pane-basic-user-info-user-edit .date-form-element-content,
-.page-user-edit .pane-basic-user-info-user-edit .date-padding,
-.page-admin-people-create .pane-basic-user-info-user-edit .date-form-element-content,
-.page-admin-people-create .pane-basic-user-info-user-edit .date-padding,
-.page-user-register .pane-basic-user-info-user-edit .date-form-element-content,
-.page-user-register .pane-basic-user-info-user-edit .date-padding {
-  width: 100%; }
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate label,
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary label,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate label,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary label,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate label,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100px;
-          flex: 0 0 100px; }
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate input,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary input,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate input,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 100px);
-          flex: 1 1 calc(100% - 100px);
-  min-width: 150px; }
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate input,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary input,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate input,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary input {
-  max-width: 173px; }
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary .description,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary .description,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .description {
-  display: none; }
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 65px;
-          flex: 0 0 65px; }
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-radios,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-radios,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-radios {
-  display: inline-block; }
-.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio,
-.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio,
-.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio {
-  width: auto;
+
+.pane-basic-user-info-for-user-account .field__label,
+.pane-basic-user-info .field__label {
+  width: 124px; }
+
+.pane-user-field-identification {
+  width: 120px;
   display: inline-block;
-  margin-right: 10px; }
-  .page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input,
-  .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input,
-  .page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input {
-    width: auto; }
-.page-user-edit .field-multiple-table,
-.page-admin-people-create .field-multiple-table,
-.page-user-register .field-multiple-table {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .page-user-edit .field-multiple-table th.field-label,
-  .page-admin-people-create .field-multiple-table th.field-label,
-  .page-user-register .field-multiple-table th.field-label {
-    display: none; }
-  .page-user-edit .field-multiple-table tbody,
-  .page-admin-people-create .field-multiple-table tbody,
-  .page-user-register .field-multiple-table tbody {
-    width: 100%; }
-.page-user-edit .pane-user-group-full-name .form-item,
-.page-admin-people-create .pane-user-group-full-name .form-item,
-.page-user-register .pane-user-group-full-name .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .pane-user-group-full-name label,
-.page-admin-people-create .pane-user-group-full-name label,
-.page-user-register .pane-user-group-full-name label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 110px;
-          flex: 0 0 110px; }
-.page-user-edit .pane-user-group-full-name input,
-.page-admin-people-create .pane-user-group-full-name input,
-.page-user-register .pane-user-group-full-name input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 110px);
-          flex: 1 1 calc(100% - 110px);
-  min-width: 150px; }
-.page-user-edit .pane-user-group-full-name .description,
-.page-admin-people-create .pane-user-group-full-name .description,
-.page-user-register .pane-user-group-full-name .description {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%; }
-.page-user-edit .pane-user-group-full-name .form-type-radio,
-.page-user-edit .pane-user-group-full-name .form-type-checkbox,
-.page-admin-people-create .pane-user-group-full-name .form-type-radio,
-.page-admin-people-create .pane-user-group-full-name .form-type-checkbox,
-.page-user-register .pane-user-group-full-name .form-type-radio,
-.page-user-register .pane-user-group-full-name .form-type-checkbox {
-  display: block; }
-  .page-user-edit .pane-user-group-full-name .form-type-radio input,
-  .page-user-edit .pane-user-group-full-name .form-type-checkbox input,
-  .page-admin-people-create .pane-user-group-full-name .form-type-radio input,
-  .page-admin-people-create .pane-user-group-full-name .form-type-checkbox input,
-  .page-user-register .pane-user-group-full-name .form-type-radio input,
-  .page-user-register .pane-user-group-full-name .form-type-checkbox input {
-    width: auto; }
-.page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]),
-.page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]),
-.page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-  .page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user,
-  .page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user,
-  .page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 calc(100% - 271px);
-            flex: 1 1 calc(100% - 271px);
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex; }
-    .page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input,
-    .page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input,
-    .page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input {
-      width: calc(100% - 40px);
-      min-width: 150px; }
-.page-user-edit .field-name-field-user-notes .field-name-field-date,
-.page-admin-people-create .field-name-field-user-notes .field-name-field-date,
-.page-user-register .field-name-field-user-notes .field-name-field-date {
+  font-weight: bold; }
+  .pane-user-field-identification .field--name-field-identification .field__item {
+    float: left; }
+    .pane-user-field-identification .field--name-field-identification .field__item:after {
+      content: ':\00a0'; }
+
+.pane-user-field-ss-or-ein {
   display: inline-block; }
-  .page-user-edit .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
-  .page-admin-people-create .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
-  .page-user-register .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
-    display: none; }
-  .page-user-edit .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield,
-  .page-admin-people-create .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield,
-  .page-user-register .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield {
-    margin-right: 10px; }
-  .page-user-edit .field-name-field-user-notes .field-name-field-date .description,
-  .page-admin-people-create .field-name-field-user-notes .field-name-field-date .description,
-  .page-user-register .field-name-field-user-notes .field-name-field-date .description {
-    display: none; }
-.page-user-edit .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item,
-.page-admin-people-create .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item,
-.page-user-register .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item {
-  margin-bottom: 0px; }
-.page-user-edit .field-name-field-user-notes fieldset,
-.page-admin-people-create .field-name-field-user-notes fieldset,
-.page-user-register .field-name-field-user-notes fieldset {
-  border: 1px solid #CCCCCC; }
-.page-user-edit .field-name-field-user-notes fieldset,
-.page-admin-people-create .field-name-field-user-notes fieldset,
-.page-user-register .field-name-field-user-notes fieldset {
-  min-width: 0; }
-.page-user-edit .field-name-field-user-notes .filter-help a,
-.page-admin-people-create .field-name-field-user-notes .filter-help a,
-.page-user-register .field-name-field-user-notes .filter-help a {
-  display: inline-block; }
-.page-user-edit .field-name-field-user-notes .filter-guidelines,
-.page-admin-people-create .field-name-field-user-notes .filter-guidelines,
-.page-user-register .field-name-field-user-notes .filter-guidelines {
+
+.pane-user-roles ul li {
+  margin-left: 0;
   padding: 0;
-  clear: both; }
-.page-user-edit .field-name-field-user-notes .filter-guidelines-item,
-.page-admin-people-create .field-name-field-user-notes .filter-guidelines-item,
-.page-user-register .field-name-field-user-notes .filter-guidelines-item {
-  word-break: break-word; }
-.page-user-edit .field-name-field-phone .form-item,
-.page-admin-people-create .field-name-field-phone .form-item,
-.page-user-register .field-name-field-phone .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .field-name-field-phone label,
-.page-admin-people-create .field-name-field-phone label,
-.page-user-register .field-name-field-phone label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 120px;
-          flex: 0 0 120px; }
-.page-user-edit .field-name-field-phone input,
-.page-admin-people-create .field-name-field-phone input,
-.page-user-register .field-name-field-phone input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 120px);
-          flex: 1 1 calc(100% - 120px);
-  min-width: 150px; }
-.page-user-edit .field-name-field-phone .description,
-.page-admin-people-create .field-name-field-phone .description,
-.page-user-register .field-name-field-phone .description {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%; }
-.page-user-edit .field-name-field-phone > div > .form-item,
-.page-admin-people-create .field-name-field-phone > div > .form-item,
-.page-user-register .field-name-field-phone > div > .form-item {
-  margin-bottom: 0; }
-.page-user-edit .field-name-field-phone .field-name-field-accept-text-messages .form-item,
-.page-admin-people-create .field-name-field-phone .field-name-field-accept-text-messages .form-item,
-.page-user-register .field-name-field-phone .field-name-field-accept-text-messages .form-item {
-  display: block; }
-.page-user-edit .field-name-field-name-suffix .form-item,
-.page-admin-people-create .field-name-field-name-suffix .form-item,
-.page-user-register .field-name-field-name-suffix .form-item {
-  margin-bottom: 0; }
-.page-user-edit .field-name-field-book-types .form-item.form-type-radio,
-.page-admin-people-create .field-name-field-book-types .form-item.form-type-radio,
-.page-user-register .field-name-field-book-types .form-item.form-type-radio {
-  margin-bottom: 0;
-  width: auto;
-  display: inline-block;
-  margin-right: 8px; }
-.page-user-edit .field-name-field-mailing-address .form-item,
-.page-admin-people-create .field-name-field-mailing-address .form-item,
-.page-user-register .field-name-field-mailing-address .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .field-name-field-mailing-address label,
-.page-admin-people-create .field-name-field-mailing-address label,
-.page-user-register .field-name-field-mailing-address label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 114px;
-          flex: 0 0 114px; }
-.page-user-edit .field-name-field-mailing-address input,
-.page-admin-people-create .field-name-field-mailing-address input,
-.page-user-register .field-name-field-mailing-address input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 114px);
-          flex: 1 1 calc(100% - 114px);
-  min-width: 150px; }
-.page-user-edit .field-name-field-mailing-address .description,
-.page-admin-people-create .field-name-field-mailing-address .description,
-.page-user-register .field-name-field-mailing-address .description {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%; }
-.page-user-edit .field-name-field-mailing-address .field-name-field-address-type,
-.page-admin-people-create .field-name-field-mailing-address .field-name-field-address-type,
-.page-user-register .field-name-field-mailing-address .field-name-field-address-type {
-  margin-bottom: 10px; }
-.page-user-edit .field-name-field-mailing-address select.country,
-.page-user-edit .field-name-field-mailing-address select.state,
-.page-admin-people-create .field-name-field-mailing-address select.country,
-.page-admin-people-create .field-name-field-mailing-address select.state,
-.page-user-register .field-name-field-mailing-address select.country,
-.page-user-register .field-name-field-mailing-address select.state {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 114px);
-          flex: 1 1 calc(100% - 114px);
-  min-width: 100px; }
-.page-user-edit .field-name-field-mailing-address > div > .form-item,
-.page-admin-people-create .field-name-field-mailing-address > div > .form-item,
-.page-user-register .field-name-field-mailing-address > div > .form-item {
-  margin-bottom: 0; }
-.page-user-edit .field-name-field-mailing-address .field-type-addressfield fieldset,
-.page-admin-people-create .field-name-field-mailing-address .field-type-addressfield fieldset,
-.page-user-register .field-name-field-mailing-address .field-type-addressfield fieldset {
-  border: 0px;
-  padding: 0;
-  margin-bottom: 0; }
-.page-user-edit .field-name-field-mailing-address .field-type-addressfield legend,
-.page-admin-people-create .field-name-field-mailing-address .field-type-addressfield legend,
-.page-user-register .field-name-field-mailing-address .field-type-addressfield legend {
-  display: none; }
-.page-user-edit .field-name-field-websites input[type="text"],
-.page-admin-people-create .field-name-field-websites input[type="text"],
-.page-user-register .field-name-field-websites input[type="text"] {
-  width: calc(100% - 38px); }
-.page-user-edit .field-name-field-websites .link-field-title,
-.page-user-edit .field-name-field-websites .link-field-url,
-.page-admin-people-create .field-name-field-websites .link-field-title,
-.page-admin-people-create .field-name-field-websites .link-field-url,
-.page-user-register .field-name-field-websites .link-field-title,
-.page-user-register .field-name-field-websites .link-field-url {
-  width: 100%;
-  margin: 12px 0px; }
-.page-user-edit .field-name-field-websites .description,
-.page-admin-people-create .field-name-field-websites .description,
-.page-user-register .field-name-field-websites .description {
-  white-space: normal; }
-.page-user-edit .field-name-field-websites #field-websites-add-more-wrapper > .form-item,
-.page-admin-people-create .field-name-field-websites #field-websites-add-more-wrapper > .form-item,
-.page-user-register .field-name-field-websites #field-websites-add-more-wrapper > .form-item {
-  margin-bottom: 0; }
-.page-user-edit tr.draggable,
-.page-admin-people-create tr.draggable,
-.page-user-register tr.draggable {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: 1px solid #689a04;
-  padding: 10px;
-  box-sizing: border-box;
-  width: 100%; }
-.page-user-edit tr.draggable td:not([class]),
-.page-admin-people-create tr.draggable td:not([class]),
-.page-user-register tr.draggable td:not([class]) {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  display: block;
-  position: relative;
-  width: calc(100% - 38px); }
-.page-user-edit td.field-multiple-drag,
-.page-admin-people-create td.field-multiple-drag,
-.page-user-register td.field-multiple-drag {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  box-sizing: border-box;
-  display: block;
+  text-transform: capitalize; }
+
+.pane-user-mail .field-label {
   width: 50px;
-  padding: 10px;
-  padding-right: 0; }
-.page-user-edit .pane-user-form-timezone fieldset,
-.page-admin-people-create .pane-user-form-timezone fieldset,
-.page-user-register .pane-user-form-timezone fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0; }
-.page-user-edit .pane-user-form-timezone legend,
-.page-user-edit .pane-user-form-timezone label,
-.page-admin-people-create .pane-user-form-timezone legend,
-.page-admin-people-create .pane-user-form-timezone label,
-.page-user-register .pane-user-form-timezone legend,
-.page-user-register .pane-user-form-timezone label {
-  display: none; }
-.page-user-edit .pane-user-form-timezone select,
-.page-admin-people-create .pane-user-form-timezone select,
-.page-user-register .pane-user-form-timezone select {
-  width: 100%;
-  min-width: 0; }
-.page-user-edit .pane-user-form-timezone .form-item-timezone,
-.page-admin-people-create .pane-user-form-timezone .form-item-timezone,
-.page-user-register .pane-user-form-timezone .form-item-timezone {
-  margin: 0; }
-.page-user-edit .tabledrag-toggle-weight-wrapper,
-.page-admin-people-create .tabledrag-toggle-weight-wrapper,
-.page-user-register .tabledrag-toggle-weight-wrapper {
-  display: none; }
-.page-user-edit #edit-masquerade-users,
-.page-admin-people-create #edit-masquerade-users,
-.page-user-register #edit-masquerade-users {
-  width: 100%; }
-
-.page-user-register .field-name-field-phone input[value="Remove"] {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  float: right;
-  font-size: 10px;
-  padding: 3px 5px;
-  right: -50px; }
-
-.page-user.section-users .pane-basic-user-info-for-user-account .field {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-  .page-user.section-users .pane-basic-user-info-for-user-account .field .field__label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 120px;
-            flex: 0 0 120px; }
-  .page-user.section-users .pane-basic-user-info-for-user-account .field .field__items {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 calc(100% - 120px);
-            flex: 1 1 calc(100% - 120px); }
-.page-user.section-users .pane-user-field-phone,
-.page-user.section-users .pane-user-field-mailing-address,
-.page-user.section-users .pane-user-field-user-notes {
-  padding: 0; }
-  .page-user.section-users .pane-user-field-phone > .field > .field__items > .field__item,
-  .page-user.section-users .pane-user-field-mailing-address > .field > .field__items > .field__item,
-  .page-user.section-users .pane-user-field-user-notes > .field > .field__items > .field__item {
-    padding: 1em; }
-  .page-user.section-users .pane-user-field-phone .pane-title,
-  .page-user.section-users .pane-user-field-mailing-address .pane-title,
-  .page-user.section-users .pane-user-field-user-notes .pane-title {
-    margin-left: 1em; }
-  .page-user.section-users .pane-user-field-phone .field-collection-container,
-  .page-user.section-users .pane-user-field-mailing-address .field-collection-container,
-  .page-user.section-users .pane-user-field-user-notes .field-collection-container {
-    border: 0; }
-    .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item,
-    .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item,
-    .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item {
-      padding: 0 1em; }
-      .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item:first-child,
-      .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item:first-child,
-      .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item:first-child {
-        padding-top: 1em; }
-      .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item.odd,
-      .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item.odd,
-      .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item.odd {
-        background-color: #E6E6E6;
-        border-bottom: 1px solid #D3D7D9; }
-      .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item.even,
-      .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item.even,
-      .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item.even {
-        border-bottom: 1px solid #D3D7D9; }
-.page-user.section-users .field--name-field-publishing-stage {
-  margin-bottom: 1em; }
-.page-user.section-users .field--name-field-date {
   display: inline-block;
-  margin-right: 1em; }
-.page-user.section-users .field--name-field-staff-user {
+  font-weight: bold; }
+.pane-user-mail .field-items {
   display: inline-block; }
-.page-user.section-users .field-collection-container {
+
+.field--name-field-phone-type {
+  display: inline-block;
+  font-weight: bold;
+  width: 100px; }
+  .field--name-field-phone-type .field__items {
+    display: inline-block; }
+  .field--name-field-phone-type:after {
+    content: ':\00a0'; }
+
+.field--name-field-phone-number {
+  display: inline-block; }
+
+.panel-pane .field-collection-container {
+  border-bottom: 0;
   margin-bottom: 0; }
-  .page-user.section-users .field-collection-container ul.action-links-field-collection-add {
-    margin: 5px 0 0 0; }
-.page-user.section-users .field-collection-view {
-  padding: 0;
-  margin: 0;
-  border: 0; }
-.page-user.section-users #masquerade-block-1 .form-item-masquerade-user-field,
-.page-user.section-users #masquerade-block-1 #edit-submit {
-  display: inline-block; }
+
+.field-collection-view {
+  border: 1px dotted #D3D7D9;
+  padding: 0.5em 1em;
+  margin: 0; }
+
+.pane-chaos-data .field .field__label {
+  width: 335px; }
+
+.panelizer-view-mode.node-embedded-to-profile > h3 {
+  cursor: pointer; }
+  .panelizer-view-mode.node-embedded-to-profile > h3:before {
+    content: '\f0da';
+    font-family: FontAwesome;
+    width: 17px;
+    height: 17px;
+    display: inline-block; }
+.panelizer-view-mode.node-embedded-to-profile > h3.open:before {
+  content: '\f0d7';
+  font-family: FontAwesome; }
+.panelizer-view-mode.node-embedded-to-profile > .panel-display {
+  display: none; }
+
+.pane-loan-chaos-data .field .field__label {
+  width: 258px; }
+
+.pane-client-additional-id-info .field .field__label {
+  width: 204px; }
+
+.client-acquisition .col-md-8 .field .field__label {
+  width: 116px; }
+.client-acquisition .col-md-4 .field .field__label {
+  width: 264px; }
+
+.pane-loan-debit-information .field .field__label {
+  width: 282px; }
+
+.pane-bwma-enrolment .field .field__label {
+  width: 196px; }
+
+.pane-afts-advance .field .field__label {
+  width: 320px; }
+
+.pane-node-field-service-bureaus .field .field__label {
+  width: 216px; }
+
+.action-links {
+  font-size: 11px;
+  padding: 20px 0 20px 10px;
+  margin-top: 5px; }
+  .action-links > li {
+    margin-left: 0;
+    list-style: none; }
+  .action-links > li, .action-links > li a {
+    float: left; }
+  .action-links a {
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+    display: inline-block;
+    line-height: 21px;
+    padding-right: 1em;
+    color: #fff;
+    text-shadow: #666 0 1px 0;
+    background-color: #7bc;
+    text-shadow: #38a 0 1px 0; }
+    .action-links a:before {
+      content: '\f067';
+      font-family: FontAwesome;
+      padding: 0 0.5em; }
+    .action-links a:last-child {
+      margin-right: 0; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

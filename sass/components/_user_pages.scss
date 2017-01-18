@@ -1,702 +1,702 @@
-// #user-account-main-page,
-// #user-account-client-profile {
-// 	background-color: white;
-// 	padding: 1em;
-// 	border: 1px solid #c1c1c1;
-// 	border-radius: 5px;
+#user-account-main-page,
+#user-account-client-profile {
+	background-color: white;
+	padding: 1em;
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
 
-// 	.action-links li {
-// 		list-style: none;
+	.action-links li {
+		list-style: none;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+		}
+	}
+}
+
+.field {
+	line-height: 1.3;
+}
+
+.views-table {
+	width: 100%;
+}
+
+.pane-basic-user-info-for-user-account,
+.pane-basic-user-info{
+	.field__label {
+		width: 124px;
+	}
+}
+.pane-user-field-identification {
+	width: 120px;
+	display: inline-block;
+	font-weight: bold;
+
+	.field--name-field-identification .field__item {
+		float: left;
+		&:after {
+		    content: ':\00a0';
+		}
+	}
+}
+.pane-user-field-ss-or-ein {
+	display: inline-block;
+}
+.pane-user-roles {
+  ul li {
+    margin-left: 0;
+    padding: 0; 
+    text-transform: capitalize;
+  }
+}
+
+.pane-user-mail {
+	.field-label {
+		width: 50px;
+		display: inline-block;
+		font-weight: bold;
+	}
+	.field-items {
+		display: inline-block;
+	}
+}
+
+.field--name-field-phone-type {
+	display: inline-block;
+    font-weight: bold;
+    width: 100px;
+
+    .field__items {
+    	display: inline-block;
+    }
+
+    &:after {
+	    content: ':\00a0';
+	}
+}
+.field--name-field-phone-number {
+	display: inline-block;
+}
+
+.panel-pane .field-collection-container {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.field-collection-view {
+    border: 1px dotted #D3D7D9;
+    padding: 0.5em 1em;
+    margin: 0;
+}
+
+.pane-chaos-data {
+	.field {
+		.field__label {
+			width: 335px;
+		}
+	}
+}
+
+.panelizer-view-mode.node-embedded-to-profile {
+  >h3 {
+    cursor: pointer;
+
+    &:before {
+      content: '\f0da';
+      font-family: FontAwesome;
+      width: 17px;
+      height: 17px;
+      display: inline-block;
+    }
+  }
+
+  >h3.open:before {
+    content: '\f0d7';
+    font-family: FontAwesome;
+  }
+
+  >.panel-display {
+    display: none;
+  }
+}
+
+.pane-loan-chaos-data {
+	.field .field__label {
+		width: 258px;
+	}
+}
+
+.pane-client-additional-id-info {
+	.field .field__label {
+		width: 204px;
+	}
+}
+
+.client-acquisition {
+	.col-md-8 {
+		.field .field__label {
+			width: 116px;
+		}
+	}
+	.col-md-4 {
+		.field .field__label {
+			width: 264px;
+		}
+	}
+}
+
+.pane-loan-debit-information {
+	.field .field__label {
+		width: 282px;
+	}
+}
+
+.pane-bwma-enrolment {
+	.field .field__label {
+		width: 196px;
+	}
+}
+
+.pane-afts-advance {
+	.field .field__label {
+		width: 320px;
+	}
+}
+
+.pane-node-field-service-bureaus {
+	.field .field__label {
+		width: 216px;
+	}
+}
+
+.action-links {
+	font-size: 11px;
+	padding: 20px 0 20px 10px;
+	margin-top: 5px;
+
+	&>li {
+		margin-left: 0;
+		list-style: none;
+	}
+	&>li, &>li a {
+		float: left;
+	}
+
+	a {
+		border-radius: 5px;
+		margin: 0 5px 0 0;
+		display: inline-block;
+		line-height: 21px;
+		padding-right: 1em;
+		color: #fff;
+		text-shadow: #666 0 1px 0;
+		background-color: #7bc;
+		text-shadow: #38a 0 1px 0;
+
+		&:before {
+			content: '\f067';
+			font-family: FontAwesome;
+			padding: 0 0.5em;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+// .page-user-edit #user-edit {
+// 	display: flex;
+// 	flex-flow: row wrap;
+
+// 	div[class*="column"] {
+// 		padding: 0.5em;
+// 		flex: 1 1 30%;
+// 	}
+// }
+
+// .page-user-edit,
+// .page-admin-people-create,
+// .page-user-register {
+// 	#wwm-special-1{
+// 		padding: 0 1em;
 // 	}
 
-// 	ul {
-// 		margin: 0;
+// 	.form-item .clearfix {
+// 		width: 100%;
+// 	}
+
+// 	.form-type-radio,
+// 	.form-type-checkbox {
+// 		display: block;
+		
+// 		input {
+// 			width: auto;
+// 		}
+// 	}
+
+// 	input.form-radio,
+// 	input.form-checkbox {
+// 		display: block;
+// 	    float: left;
+// 	}
+
+// 	label.option {
+// 		display: block;
+// 	    margin-left: 25px;
+// 	    font-weight: normal;
+// 		text-align: left;
+// 	}
+
+// 	input.field-add-more-submit {
+// 	    text-transform: capitalize;
+// 	    margin: .5em auto 0;
+// 	    display: table;
+// 	}
+
+// 	input[value="Remove"] {
+// 		position: absolute;
+// 	    -webkit-transform: rotate(-90deg);
+// 	    transform: rotate(-90deg);
+// 	    right: -72px;
+// 	    top: 50%;
+// 	    background-color: #6fae1b;
+// 	    color: white;
+// 	    min-width: auto !important;
+// 	}
+// 	.field-add-more-submit {
+// 		background-color: #6fae1b;
+// 		color: white;
+// 	}
+
+// 	.password-strength {
+// 		float: none;
+// 	    margin: 0 auto 1em;
+// 	    flex: 1 100%;
+// 	}
+// 	.password-confirm {
+// 		float: none;
+// 	    margin: 0 auto 1em;
+// 	    flex: 1 100%;
+
+// 	    &.form-text {
+// 	    	margin-bottom: 0;
+// 	    }
+// 	}
+// 	.password-suggestions {
+// 		margin: 0.7em auto;
+// 	}
+
+// 	.pane-user-form-account {
+// 		@include flexifields(130px);
+
+// 		.form-type-password-confirm {
+// 			label, input {
+// 				flex: 100%;
+// 			}
+// 		}
+
+// 		.form-item-status .form-radios {
+// 			display: inline-block;
+
+// 			.form-type-radio {
+// 				display: inline-block;
+// 				width: auto;
+
+// 				label {
+// 					width: auto;
+// 				}
+// 			}
+// 		}
+
+// 		.form-item-roles {
+// 			.form-checkboxes {
+// 				display: flex;
+// 	    		flex-flow: row wrap;
+	
+// 				.form-type-checkbox {
+// 					display: block;
+// 				    min-width: 200px;
+// 				    flex: 1 1 50%;
+// 				}
+// 			}
+// 		}
+
+// 		.form-item-notify {
+// 			margin-bottom: 0;
+// 			border: 1px solid red;
+// 			background-color: #f3b9b9;
+// 			padding: 5px;
+			
+// 			.form-checkbox {
+// 				display: flex;
+// 	    		flex-flow: row wrap;
+// 			}
+
+// 			input{
+// 				flex: 0 auto;
+// 			}
+// 			label {
+// 				flex: 1 130px;
+// 				margin-left: 0;
+// 			}
+// 		}
+// 	}
+
+// 	.pane-basic-user-info-user-edit {
+// 		@include flexifields(100px);
+
+// 		.date-form-element-content,
+// 		.date-padding {
+// 			width: 100%;
+// 		}
+
+// 		.field-name-field-birthdate,
+// 		.field-name-field-anniversary {
+// 			@include flexifields(100px);
+
+// 			input {
+// 				max-width: 173px;
+// 			}
+
+// 			.description {
+// 				display: none;
+// 			}
+// 		}
+
+// 		.field-name-field-gender {
+// 			.form-type-radios > label {
+// 				flex: 0 0 65px;
+// 			}
+// 			.form-radios {
+// 				display: inline-block;
+// 			}
+// 			.form-type-radio {
+// 				width: auto;
+// 			    display: inline-block;
+// 			    margin-right: 10px;
+
+// 			    input {
+// 			    	width: auto;
+// 				}
+// 			}
+// 		}
+//     }
+
+// 	.field-multiple-table {
+// 		width: 100%;
+//     	display: flex;
+
+// 		th.field-label {
+// 			display: none;
+// 		}
+
+// 		tbody {
+// 			width: 100%;
+// 		}
+// 	}
+
+// 	.pane-user-group-full-name {
+// 		@include flexifields(110px);
+
+// 		.description {
+// 			flex: 100%;
+// 		}
+
+// 		.form-type-radio,
+// 		.form-type-checkbox {
+// 			display: block;
+			
+// 			input {
+// 				width: auto;
+// 			}
+// 		}
+// 	}
+
+// 	.field-name-field-user-notes {
+// 		#field-user-notes-values {
+// 			td:not([class]) {
+// 				display: flex;
+//     			flex-flow: row wrap;
+
+//     			.field-name-field-staff-user {
+// 					flex: 1 1 calc(100% - 271px);
+//     				display: inline-flex;
+
+// 					input {
+// 						width: calc(100% - 40px);
+//     					min-width: 150px;
+// 					}
+// 				}
+// 			}
+// 		}
+
+// 		.field-name-field-date {
+// 			display: inline-block;
+
+// 			.form-type-date-combo>label {
+// 				display: none;
+// 			}
+// 			.form-item.form-type-textfield {
+// 				margin-right: 10px;
+// 			}
+
+// 			.description {
+// 				display: none;
+// 			}
+// 		}
+
+// 		#field-user-notes-add-more-wrapper > .form-item {
+// 			margin-bottom: 0px;
+// 		}
+
+// 		fieldset {
+// 			border: 1px solid #CCCCCC;
+// 		}
+
+// 		fieldset {
+// 			min-width: 0;
+// 		}
+
+// 		.filter-help a {
+// 			display: inline-block;
+// 		}
+// 		.filter-guidelines {
+// 			padding: 0;
+// 			clear: both;
+// 		}
+// 		.filter-guidelines-item {
+// 			word-break: break-word;
+// 		}
+// 	}
+
+// 	.field-name-field-phone {
+// 		@include flexifields(120px);
+
+// 		.description {
+// 			flex: 100%;
+// 		}
+
+// 		>div>.form-item {
+// 			margin-bottom: 0;
+// 		}
+
+// 		.field-name-field-accept-text-messages .form-item {
+// 			display: block;
+// 		}
+// 	}
+
+// 	.field-name-field-name-suffix .form-item {
+// 		margin-bottom: 0;
+// 	}
+
+// 	.field-name-field-book-types .form-item.form-type-radio {
+// 		margin-bottom: 0;
+// 		width: auto;
+// 	    display: inline-block;
+// 	    margin-right: 8px;
+// 	}
+
+// 	.field-name-field-mailing-address {
+// 		@include flexifields(114px);
+
+// 		.description {
+// 			flex: 100%;
+// 		}
+
+// 		.field-name-field-address-type {
+// 			margin-bottom: 10px;
+// 		}
+
+// 		select.country,
+// 		select.state {
+// 			flex: 1 1 calc(100% - 114px);
+//     		min-width: 100px;
+// 		}
+
+// 		>div>.form-item {
+// 			margin-bottom: 0;
+// 		}
+
+// 		.field-type-addressfield {
+// 			fieldset {
+// 				border: 0px;
+// 				padding: 0;
+// 				margin-bottom: 0;
+// 			}
+// 			legend {
+// 				display: none;
+// 			}
+// 		}
+// 	}
+
+// 	.field-name-field-websites {
+// 		input[type="text"] {
+// 			width: calc(100% - 38px);
+// 		}
+
+// 		.link-field-title,
+// 		.link-field-url {
+// 			width: 100%;
+// 			margin: 12px 0px;
+// 		}
+
+// 		.description {
+// 			white-space: normal;
+// 		}
+
+// 		#field-websites-add-more-wrapper > .form-item {
+// 			margin-bottom: 0;
+// 		}
+// 	}
+
+// 	tr.draggable {
+// 		display: flex;
+// 		border: 1px solid #689a04;
+// 	    padding: 10px;
+// 	    box-sizing: border-box;
+// 	    width: 100%;
+// 	}
+// 	tr.draggable td:not([class]) {
+// 		flex: 100%;
+//     	display: block;
+//     	position: relative;
+//     	width: calc(100% - 38px);
+// 	}
+
+// 	td.field-multiple-drag {
+// 		order: 1;
+// 	    box-sizing: border-box;
+// 	    display: block;
+// 	    width: 50px;
+// 	    padding: 10px;
+// 	    padding-right: 0;
+// 	}
+
+// 	.pane-user-form-timezone {
+// 		fieldset {
+// 			border: 0;
+// 			margin: 0;
+// 			padding: 0;
+// 		}
+// 		legend,
+// 		label {
+// 			display: none;
+// 		}
+// 		select {
+// 			width: 100%;
+// 			min-width: 0;
+// 		}
+
+// 		.form-item-timezone {
+// 			margin: 0;
+// 		}
+//     }
+
+// 	.tabledrag-toggle-weight-wrapper {
+// 		display: none;
+// 	}
+
+// 	#edit-masquerade-users {
+// 		width: 100%;
+// 	}
+// }
+
+// .page-user-register {
+// 	.field-name-field-phone input[value="Remove"] {
+// 		transform: rotate(0deg);
+// 		float: right;
+// 		font-size: 10px;
+// 		padding: 3px 5px;
+// 		right: -50px;
+// 	}
+// }
+
+// .page-user.section-users {
+// 	.pane-basic-user-info-for-user-account {
+// 		.field {
+// 			display: flex;
+// 			flex-flow: row wrap;
+
+// 			.field__label {
+// 				flex: 0 0 120px;
+// 			}
+
+// 			.field__items {
+// 				flex: 1 1 calc(100% - 120px)
+// 			}
+// 		}
+// 	}
+
+// 	.pane-user-field-phone,
+// 	.pane-user-field-mailing-address,
+// 	.pane-user-field-user-notes {
 // 		padding: 0;
 
-// 		li {
-// 			list-style: none;
+// 		> .field > .field__items > .field__item {
+// 			padding: 1em;
+// 		}
+
+// 		.pane-title {
+// 			margin-left: 1em;
+// 		}
+
+// 		.field-collection-container {
+// 			border: 0;
+
+// 			> .field > .field__items > .field__item {
+// 				padding: 0 1em;
+	
+// 				&:first-child {
+// 					padding-top: 1em;
+// 				}
+	
+// 				&.odd {
+// 					background-color: #E6E6E6;
+// 					border-bottom: 1px solid #D3D7D9;
+// 				}
+// 				&.even {
+// 					border-bottom: 1px solid #D3D7D9;
+// 				}
+// 			}
 // 		}
 // 	}
-// }
 
-// .field {
-// 	line-height: 1.3;
-// }
-
-// .views-table {
-// 	width: 100%;
-// }
-
-// .pane-basic-user-info-for-user-account,
-// .pane-basic-user-info{
-// 	.field__label {
-// 		width: 124px;
+// 	.field--name-field-publishing-stage {
+// 		margin-bottom: 1em;
 // 	}
-// }
-// .pane-user-field-identification {
-// 	width: 120px;
-// 	display: inline-block;
-// 	font-weight: bold;
-
-// 	.field--name-field-identification .field__item {
-// 		float: left;
-// 		&:after {
-// 		    content: ':\00a0';
-// 		}
-// 	}
-// }
-// .pane-user-field-ss-or-ein {
-// 	display: inline-block;
-// }
-// .pane-user-roles {
-//   ul li {
-//     margin-left: 0;
-//     padding: 0; 
-//     text-transform: capitalize;
-//   }
-// }
-
-// .pane-user-mail {
-// 	.field-label {
-// 		width: 50px;
+// 	.field--name-field-date {
 // 		display: inline-block;
-// 		font-weight: bold;
+//     	margin-right: 1em;
 // 	}
-// 	.field-items {
+// 	.field--name-field-staff-user {
 // 		display: inline-block;
 // 	}
-// }
 
-// .field--name-field-phone-type {
-// 	display: inline-block;
-//     font-weight: bold;
-//     width: 100px;
+// 	.field-collection-container {
+// 		margin-bottom: 0;
 
-//     .field__items {
-//     	display: inline-block;
-//     }
-
-//     &:after {
-// 	    content: ':\00a0';
+// 		ul.action-links-field-collection-add {
+// 			margin: 5px 0 0 0;
+// 		}
 // 	}
-// }
-// .field--name-field-phone-number {
-// 	display: inline-block;
-// }
 
-// .panel-pane .field-collection-container {
-//     border-bottom: 0;
-//     margin-bottom: 0;
-// }
+// 	.field-collection-view {
+// 		padding: 0;
+//     	margin: 0;
+//     	border: 0;
+// 	}
 
-// .field-collection-view {
-//     border: 1px dotted #D3D7D9;
-//     padding: 0.5em 1em;
-//     margin: 0;
-// }
-
-// .pane-chaos-data {
-// 	.field {
-// 		.field__label {
-// 			width: 335px;
+// 	#masquerade-block-1 {
+// 		.form-item-masquerade-user-field,
+// 		#edit-submit {
+// 			display: inline-block;
 // 		}
 // 	}
 // }
-
-// .panelizer-view-mode.node-embedded-to-profile {
-//   >h3 {
-//     cursor: pointer;
-
-//     &:before {
-//       content: '\f0da';
-//       font-family: FontAwesome;
-//       width: 17px;
-//       height: 17px;
-//       display: inline-block;
-//     }
-//   }
-
-//   >h3.open:before {
-//     content: '\f0d7';
-//     font-family: FontAwesome;
-//   }
-
-//   >.panel-display {
-//     display: none;
-//   }
-// }
-
-// .pane-loan-chaos-data {
-// 	.field .field__label {
-// 		width: 258px;
-// 	}
-// }
-
-// .pane-client-additional-id-info {
-// 	.field .field__label {
-// 		width: 204px;
-// 	}
-// }
-
-// .client-acquisition {
-// 	.col-md-8 {
-// 		.field .field__label {
-// 			width: 116px;
-// 		}
-// 	}
-// 	.col-md-4 {
-// 		.field .field__label {
-// 			width: 264px;
-// 		}
-// 	}
-// }
-
-// .pane-loan-debit-information {
-// 	.field .field__label {
-// 		width: 282px;
-// 	}
-// }
-
-// .pane-bwma-enrolment {
-// 	.field .field__label {
-// 		width: 196px;
-// 	}
-// }
-
-// .pane-afts-advance {
-// 	.field .field__label {
-// 		width: 320px;
-// 	}
-// }
-
-// .pane-node-field-service-bureaus {
-// 	.field .field__label {
-// 		width: 216px;
-// 	}
-// }
-
-// .action-links {
-// 	font-size: 11px;
-// 	padding: 20px 0 20px 10px;
-// 	margin-top: 5px;
-
-// 	&>li {
-// 		margin-left: 0;
-// 		list-style: none;
-// 	}
-// 	&>li, &>li a {
-// 		float: left;
-// 	}
-
-// 	a {
-// 		border-radius: 5px;
-// 		margin: 0 5px 0 0;
-// 		display: inline-block;
-// 		line-height: 21px;
-// 		padding-right: 1em;
-// 		color: #fff;
-// 		text-shadow: #666 0 1px 0;
-// 		background-color: #7bc;
-// 		text-shadow: #38a 0 1px 0;
-
-// 		&:before {
-// 			content: '\f067';
-// 			font-family: FontAwesome;
-// 			padding: 0 0.5em;
-// 		}
-
-// 		&:last-child {
-// 			margin-right: 0;
-// 		}
-// 	}
-// }
-
-.page-user-edit #user-edit {
-	display: flex;
-	flex-flow: row wrap;
-
-	div[class*="column"] {
-		padding: 0.5em;
-		flex: 1 1 30%;
-	}
-}
-
-.page-user-edit,
-.page-admin-people-create,
-.page-user-register {
-	#wwm-special-1{
-		padding: 0 1em;
-	}
-
-	.form-item .clearfix {
-		width: 100%;
-	}
-
-	.form-type-radio,
-	.form-type-checkbox {
-		display: block;
-		
-		input {
-			width: auto;
-		}
-	}
-
-	input.form-radio,
-	input.form-checkbox {
-		display: block;
-	    float: left;
-	}
-
-	label.option {
-		display: block;
-	    margin-left: 25px;
-	    font-weight: normal;
-		text-align: left;
-	}
-
-	input.field-add-more-submit {
-	    text-transform: capitalize;
-	    margin: .5em auto 0;
-	    display: table;
-	}
-
-	input[value="Remove"] {
-		position: absolute;
-	    -webkit-transform: rotate(-90deg);
-	    transform: rotate(-90deg);
-	    right: -72px;
-	    top: 50%;
-	    background-color: #6fae1b;
-	    color: white;
-	    min-width: auto !important;
-	}
-	.field-add-more-submit {
-		background-color: #6fae1b;
-		color: white;
-	}
-
-	.password-strength {
-		float: none;
-	    margin: 0 auto 1em;
-	    flex: 1 100%;
-	}
-	.password-confirm {
-		float: none;
-	    margin: 0 auto 1em;
-	    flex: 1 100%;
-
-	    &.form-text {
-	    	margin-bottom: 0;
-	    }
-	}
-	.password-suggestions {
-		margin: 0.7em auto;
-	}
-
-	.pane-user-form-account {
-		@include flexifields(130px);
-
-		.form-type-password-confirm {
-			label, input {
-				flex: 100%;
-			}
-		}
-
-		.form-item-status .form-radios {
-			display: inline-block;
-
-			.form-type-radio {
-				display: inline-block;
-				width: auto;
-
-				label {
-					width: auto;
-				}
-			}
-		}
-
-		.form-item-roles {
-			.form-checkboxes {
-				display: flex;
-	    		flex-flow: row wrap;
-	
-				.form-type-checkbox {
-					display: block;
-				    min-width: 200px;
-				    flex: 1 1 50%;
-				}
-			}
-		}
-
-		.form-item-notify {
-			margin-bottom: 0;
-			border: 1px solid red;
-			background-color: #f3b9b9;
-			padding: 5px;
-			
-			.form-checkbox {
-				display: flex;
-	    		flex-flow: row wrap;
-			}
-
-			input{
-				flex: 0 auto;
-			}
-			label {
-				flex: 1 130px;
-				margin-left: 0;
-			}
-		}
-	}
-
-	.pane-basic-user-info-user-edit {
-		@include flexifields(100px);
-
-		.date-form-element-content,
-		.date-padding {
-			width: 100%;
-		}
-
-		.field-name-field-birthdate,
-		.field-name-field-anniversary {
-			@include flexifields(100px);
-
-			input {
-				max-width: 173px;
-			}
-
-			.description {
-				display: none;
-			}
-		}
-
-		.field-name-field-gender {
-			.form-type-radios > label {
-				flex: 0 0 65px;
-			}
-			.form-radios {
-				display: inline-block;
-			}
-			.form-type-radio {
-				width: auto;
-			    display: inline-block;
-			    margin-right: 10px;
-
-			    input {
-			    	width: auto;
-				}
-			}
-		}
-    }
-
-	.field-multiple-table {
-		width: 100%;
-    	display: flex;
-
-		th.field-label {
-			display: none;
-		}
-
-		tbody {
-			width: 100%;
-		}
-	}
-
-	.pane-user-group-full-name {
-		@include flexifields(110px);
-
-		.description {
-			flex: 100%;
-		}
-
-		.form-type-radio,
-		.form-type-checkbox {
-			display: block;
-			
-			input {
-				width: auto;
-			}
-		}
-	}
-
-	.field-name-field-user-notes {
-		#field-user-notes-values {
-			td:not([class]) {
-				display: flex;
-    			flex-flow: row wrap;
-
-    			.field-name-field-staff-user {
-					flex: 1 1 calc(100% - 271px);
-    				display: inline-flex;
-
-					input {
-						width: calc(100% - 40px);
-    					min-width: 150px;
-					}
-				}
-			}
-		}
-
-		.field-name-field-date {
-			display: inline-block;
-
-			.form-type-date-combo>label {
-				display: none;
-			}
-			.form-item.form-type-textfield {
-				margin-right: 10px;
-			}
-
-			.description {
-				display: none;
-			}
-		}
-
-		#field-user-notes-add-more-wrapper > .form-item {
-			margin-bottom: 0px;
-		}
-
-		fieldset {
-			border: 1px solid #CCCCCC;
-		}
-
-		fieldset {
-			min-width: 0;
-		}
-
-		.filter-help a {
-			display: inline-block;
-		}
-		.filter-guidelines {
-			padding: 0;
-			clear: both;
-		}
-		.filter-guidelines-item {
-			word-break: break-word;
-		}
-	}
-
-	.field-name-field-phone {
-		@include flexifields(120px);
-
-		.description {
-			flex: 100%;
-		}
-
-		>div>.form-item {
-			margin-bottom: 0;
-		}
-
-		.field-name-field-accept-text-messages .form-item {
-			display: block;
-		}
-	}
-
-	.field-name-field-name-suffix .form-item {
-		margin-bottom: 0;
-	}
-
-	.field-name-field-book-types .form-item.form-type-radio {
-		margin-bottom: 0;
-		width: auto;
-	    display: inline-block;
-	    margin-right: 8px;
-	}
-
-	.field-name-field-mailing-address {
-		@include flexifields(114px);
-
-		.description {
-			flex: 100%;
-		}
-
-		.field-name-field-address-type {
-			margin-bottom: 10px;
-		}
-
-		select.country,
-		select.state {
-			flex: 1 1 calc(100% - 114px);
-    		min-width: 100px;
-		}
-
-		>div>.form-item {
-			margin-bottom: 0;
-		}
-
-		.field-type-addressfield {
-			fieldset {
-				border: 0px;
-				padding: 0;
-				margin-bottom: 0;
-			}
-			legend {
-				display: none;
-			}
-		}
-	}
-
-	.field-name-field-websites {
-		input[type="text"] {
-			width: calc(100% - 38px);
-		}
-
-		.link-field-title,
-		.link-field-url {
-			width: 100%;
-			margin: 12px 0px;
-		}
-
-		.description {
-			white-space: normal;
-		}
-
-		#field-websites-add-more-wrapper > .form-item {
-			margin-bottom: 0;
-		}
-	}
-
-	tr.draggable {
-		display: flex;
-		border: 1px solid #689a04;
-	    padding: 10px;
-	    box-sizing: border-box;
-	    width: 100%;
-	}
-	tr.draggable td:not([class]) {
-		flex: 100%;
-    	display: block;
-    	position: relative;
-    	width: calc(100% - 38px);
-	}
-
-	td.field-multiple-drag {
-		order: 1;
-	    box-sizing: border-box;
-	    display: block;
-	    width: 50px;
-	    padding: 10px;
-	    padding-right: 0;
-	}
-
-	.pane-user-form-timezone {
-		fieldset {
-			border: 0;
-			margin: 0;
-			padding: 0;
-		}
-		legend,
-		label {
-			display: none;
-		}
-		select {
-			width: 100%;
-			min-width: 0;
-		}
-
-		.form-item-timezone {
-			margin: 0;
-		}
-    }
-
-	.tabledrag-toggle-weight-wrapper {
-		display: none;
-	}
-
-	#edit-masquerade-users {
-		width: 100%;
-	}
-}
-
-.page-user-register {
-	.field-name-field-phone input[value="Remove"] {
-		transform: rotate(0deg);
-		float: right;
-		font-size: 10px;
-		padding: 3px 5px;
-		right: -50px;
-	}
-}
-
-.page-user.section-users {
-	.pane-basic-user-info-for-user-account {
-		.field {
-			display: flex;
-			flex-flow: row wrap;
-
-			.field__label {
-				flex: 0 0 120px;
-			}
-
-			.field__items {
-				flex: 1 1 calc(100% - 120px)
-			}
-		}
-	}
-
-	.pane-user-field-phone,
-	.pane-user-field-mailing-address,
-	.pane-user-field-user-notes {
-		padding: 0;
-
-		> .field > .field__items > .field__item {
-			padding: 1em;
-		}
-
-		.pane-title {
-			margin-left: 1em;
-		}
-
-		.field-collection-container {
-			border: 0;
-
-			> .field > .field__items > .field__item {
-				padding: 0 1em;
-	
-				&:first-child {
-					padding-top: 1em;
-				}
-	
-				&.odd {
-					background-color: #E6E6E6;
-					border-bottom: 1px solid #D3D7D9;
-				}
-				&.even {
-					border-bottom: 1px solid #D3D7D9;
-				}
-			}
-		}
-	}
-
-	.field--name-field-publishing-stage {
-		margin-bottom: 1em;
-	}
-	.field--name-field-date {
-		display: inline-block;
-    	margin-right: 1em;
-	}
-	.field--name-field-staff-user {
-		display: inline-block;
-	}
-
-	.field-collection-container {
-		margin-bottom: 0;
-
-		ul.action-links-field-collection-add {
-			margin: 5px 0 0 0;
-		}
-	}
-
-	.field-collection-view {
-		padding: 0;
-    	margin: 0;
-    	border: 0;
-	}
-
-	#masquerade-block-1 {
-		.form-item-masquerade-user-field,
-		#edit-submit {
-			display: inline-block;
-		}
-	}
-}
