@@ -381,6 +381,11 @@
 
 			    input {
 			    	width: auto;
+			    	margin: 0 5px 0 0;
+				}
+				label {
+					margin: 0;
+					display: inline-block;
 				}
 			}
 		}
@@ -389,8 +394,6 @@
 			width: auto;
 
 			.form-radios {
-				width: 100%;
-
 				.form-item {
 					display: inline-block;
     				width: auto;
@@ -406,6 +409,11 @@
 						display: inline-block;
 					}
 				}
+			}
+
+			.description {
+				padding-top: 0.5em;
+				font-weight: normal;
 			}
 		}
     }
@@ -511,10 +519,6 @@
 		.field-name-field-accept-text-messages .form-item {
 			display: block;
 		}
-	}
-
-	.field-name-field-name-suffix .form-item {
-		margin-bottom: 0;
 	}
 
 	.field-name-field-book-types .form-item.form-type-radio {
