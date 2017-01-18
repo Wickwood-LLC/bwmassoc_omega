@@ -179,6 +179,13 @@ td {
     top: -10px;
     z-index: 1; }
 
+fieldset {
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  min-width: 0; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
