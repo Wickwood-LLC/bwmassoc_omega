@@ -634,7 +634,7 @@
     		}
     	}
 
-    	label {
+    	label[for*="edit-field-related-clients"] {
     		@include flexifields(205px);
     	}
 

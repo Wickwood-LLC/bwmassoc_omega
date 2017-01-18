@@ -2860,9 +2860,9 @@ form#user-login, form#user-pass {
   .page-admin-people-create .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
   .page-user-register .pane-user-field-related-clients .relation-select-entities .rs-wrapper {
     height: auto; }
-.page-user-edit .pane-user-field-related-clients label .form-item,
-.page-admin-people-create .pane-user-field-related-clients label .form-item,
-.page-user-register .pane-user-field-related-clients label .form-item {
+.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"] .form-item,
+.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"] .form-item,
+.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2872,15 +2872,15 @@ form#user-login, form#user-pass {
           align-items: center;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-.page-user-edit .pane-user-field-related-clients label label,
-.page-admin-people-create .pane-user-field-related-clients label label,
-.page-user-register .pane-user-field-related-clients label label {
+.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"] label,
+.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"] label,
+.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] label {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 205px;
           flex: 0 0 205px; }
-.page-user-edit .pane-user-field-related-clients label input,
-.page-admin-people-create .pane-user-field-related-clients label input,
-.page-user-register .pane-user-field-related-clients label input {
+.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"] input,
+.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"] input,
+.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] input {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc(100% - 205px);
           flex: 1 1 calc(100% - 205px);
@@ -2909,4 +2909,5 @@ form#user-login, form#user-pass {
   font-size: 10px;
   padding: 3px 5px;
   right: -50px; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
