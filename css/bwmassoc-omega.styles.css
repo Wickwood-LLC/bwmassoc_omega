@@ -1918,15 +1918,35 @@ form#user-login, form#user-pass {
     float: none; }
   .tabs--primary ul.secondary-tabs {
     height: 20px;
-    overflow: hidden; }
-    .tabs--primary ul.secondary-tabs li a {
-      display: block;
+    overflow: hidden;
+    list-style: none;
+    min-width: 150px;
+    float: left;
+    position: relative;
+    margin: 5px 5px 5px 0;
+    font-size: 11px;
+    background: #0355a3;
+    border-radius: 3px;
+    z-index: 1;
+    padding: 0; }
+    .tabs--primary ul.secondary-tabs li {
+      background: transparent;
       float: none;
-      height: 0px;
-      position: relative;
-      top: -20px; }
+      height: auto;
+      text-align: left;
+      margin-bottom: 0; }
+      .tabs--primary ul.secondary-tabs li a {
+        display: block;
+        float: none;
+        height: 0px;
+        position: relative;
+        top: -20px;
+        padding: 0 10px 0 25px;
+        color: white;
+        text-shadow: none; }
     .tabs--primary ul.secondary-tabs li.active a {
-      top: 0; }
+      top: 0;
+      background: transparent; }
     .tabs--primary ul.secondary-tabs:hover {
       height: auto;
       overflow: visible; }

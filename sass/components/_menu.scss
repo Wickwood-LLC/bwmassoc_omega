@@ -298,17 +298,41 @@
 	ul.secondary-tabs {
 		height: 20px;
 		overflow: hidden;
+		list-style: none;
+		min-width: 150px;
+		float: left;
+		position: relative;
+		margin: 5px 5px 5px 0;
+		font-size: 11px;
+		background: #0355a3;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		z-index: 1;
+		padding: 0;
 
-		li a {
-			display: block;
+		li {
+			background: transparent;
 			float: none;
-			height: 0px;
-			position: relative;
-			top: -20px;
+			height: auto;
+			text-align: left;
+			margin-bottom: 0;
+
+			a {
+				display: block;
+				float: none;
+				height: 0px;
+				position: relative;
+				top: -20px;
+				padding: 0 10px 0 25px;
+				color: white;
+				text-shadow: none;
+			}
 		}
 
 		li.active a {
 			top: 0;
+			background: transparent;
 		}
 
 		&:hover {
