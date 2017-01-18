@@ -964,6 +964,12 @@
 		"oAP": "\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_settings.scssc",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/f6c805f8e760dd2b05f3c8010654443fb0c67bd2\/_mixins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/f6c805f8e760dd2b05f3c8010654443fb0c67bd2\/_mixins.scssc",
+		"oF": 0
+		},
 	"\/sass\/abstractions\/_mixins.scss": {
 		"aP": 1,
 		"bl": 0,

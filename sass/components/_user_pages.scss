@@ -233,7 +233,7 @@
 		}
 	}
 
-	input {
+	input, textarea, select {
 		font-size: 16px;
 	}
 
@@ -616,6 +616,12 @@
 		.form-item-timezone {
 			margin: 0;
 		}
+    }
+
+    .pane-user-field-related-clients {
+    	#edit-uid-wrapper {
+    		max-width: 100%;
+    	}
     }
 
 	.tabledrag-toggle-weight-wrapper {

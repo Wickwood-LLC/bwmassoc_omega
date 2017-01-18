@@ -2245,9 +2245,13 @@ form#user-login, form#user-pass {
   .page-user-register .form-type-radio input,
   .page-user-register .form-type-checkbox input {
     width: auto; }
-.page-user-edit input,
+.page-user-edit input, .page-user-edit textarea, .page-user-edit select,
 .page-admin-people-create input,
-.page-user-register input {
+.page-admin-people-create textarea,
+.page-admin-people-create select,
+.page-user-register input,
+.page-user-register textarea,
+.page-user-register select {
   font-size: 16px; }
 .page-user-edit input.form-radio,
 .page-user-edit input.form-checkbox,
@@ -2828,6 +2832,10 @@ form#user-login, form#user-pass {
 .page-admin-people-create .pane-user-form-timezone .form-item-timezone,
 .page-user-register .pane-user-form-timezone .form-item-timezone {
   margin: 0; }
+.page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
+.page-admin-people-create .pane-user-field-related-clients #edit-uid-wrapper,
+.page-user-register .pane-user-field-related-clients #edit-uid-wrapper {
+  max-width: 100%; }
 .page-user-edit .tabledrag-toggle-weight-wrapper,
 .page-admin-people-create .tabledrag-toggle-weight-wrapper,
 .page-user-register .tabledrag-toggle-weight-wrapper {
