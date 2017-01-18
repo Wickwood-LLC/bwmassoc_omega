@@ -329,16 +329,17 @@
 				padding: 0 10px 0 25px;
 				color: white;
 				text-shadow: none;
+				text-align: left;
 
 				&:hover {
 					background: #479bea;
 				}
 			}
 
-			&:first-child {
+			&:first-child, &:first-child a{
 				border-radius: 5px 5px 0 0;
 			}
-			&:last-child {
+			&:last-child, &:first-child a {
 				border-radius: 0 0 5px 5px;
 			}
 		}

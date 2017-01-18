@@ -1945,12 +1945,13 @@ form#user-login, form#user-pass {
         top: -20px;
         padding: 0 10px 0 25px;
         color: white;
-        text-shadow: none; }
+        text-shadow: none;
+        text-align: left; }
         .tabs--primary ul.secondary-tabs li a:hover {
           background: #479bea; }
-      .tabs--primary ul.secondary-tabs li:first-child {
+      .tabs--primary ul.secondary-tabs li:first-child, .tabs--primary ul.secondary-tabs li:first-child a {
         border-radius: 5px 5px 0 0; }
-      .tabs--primary ul.secondary-tabs li:last-child {
+      .tabs--primary ul.secondary-tabs li:last-child, .tabs--primary ul.secondary-tabs li:first-child a {
         border-radius: 0 0 5px 5px; }
     .tabs--primary ul.secondary-tabs li.active a {
       top: 0;
