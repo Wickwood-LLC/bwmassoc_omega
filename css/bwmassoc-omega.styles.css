@@ -1959,7 +1959,8 @@ form#user-login, form#user-pass {
         border-radius: 0 0 5px 5px; }
     .tabs--primary ul.secondary-tabs li.active a {
       top: 0;
-      background: transparent; }
+      background: transparent;
+      height: 40px; }
     .tabs--primary ul.secondary-tabs:hover {
       height: auto;
       overflow: visible; }
