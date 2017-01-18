@@ -190,6 +190,9 @@ html.js fieldset.collapsed {
   border-width: 1px;
   height: 2em; }
 
+input[type="radio"] {
+  margin: 0; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
@@ -2293,14 +2296,18 @@ form#user-login, form#user-pass {
   transform: rotate(-90deg);
   right: -72px;
   top: 50%;
-  background-color: #6fae1b;
+  background-color: #1196cf;
   color: white;
-  min-width: auto !important; }
+  min-width: auto !important;
+  border: 0;
+  border-radius: 5px; }
 .page-user-edit .field-add-more-submit,
 .page-admin-people-create .field-add-more-submit,
 .page-user-register .field-add-more-submit {
-  background-color: #6fae1b;
-  color: white; }
+  background-color: #1196cf;
+  color: white;
+  border: 0;
+  border-radius: 5px; }
 .page-user-edit .password-strength,
 .page-admin-people-create .password-strength,
 .page-user-register .password-strength {
@@ -2802,7 +2809,7 @@ form#user-login, form#user-pass {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid #689a04;
+  border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
   width: 100%; }
