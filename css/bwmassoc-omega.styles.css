@@ -2504,24 +2504,24 @@ form#user-login, form#user-pass {
 .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification,
 .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification {
   width: auto; }
-  .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios,
-  .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios,
-  .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios {
+  .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios,
+  .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios,
+  .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios {
     width: 100%; }
-    .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item,
-    .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item,
-    .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item {
+    .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item,
+    .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item,
+    .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item {
       display: inline-block;
       width: auto; }
-      .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item input,
-      .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item input,
-      .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item input {
+      .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input,
+      .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input,
+      .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input {
         display: inline-block;
         vertical-align: middle;
         margin: 0 5px 0 0; }
-      .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item label,
-      .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item label,
-      .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification > .form-radios .form-item label {
+      .page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item label,
+      .page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item label,
+      .page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item label {
         margin-left: 0;
         display: inline-block; }
 .page-user-edit .field-multiple-table,
