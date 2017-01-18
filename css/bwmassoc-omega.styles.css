@@ -1891,7 +1891,7 @@ form#user-login, form#user-pass {
       border-radius: 0 5px 5px 0; }
       .tabs--primary > li:last-child a {
         border-radius: 0 5px 5px 0; }
-    .tabs--primary > li :hover {
+    .tabs--primary > li:hover {
       background-color: #a1d4ea; }
     .tabs--primary > li.active {
       background-image: -webkit-linear-gradient(top, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%);
@@ -1928,13 +1928,15 @@ form#user-login, form#user-pass {
     background: #0560ff;
     border-radius: 3px;
     z-index: 1;
-    padding: 0; }
+    padding: 0;
+    border-radius: 5px; }
     .tabs--primary ul.secondary-tabs li {
       background: transparent;
       float: none;
       height: auto;
       text-align: left;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-right: 0; }
       .tabs--primary ul.secondary-tabs li a {
         display: block;
         float: none;
@@ -1944,6 +1946,12 @@ form#user-login, form#user-pass {
         padding: 0 10px 0 25px;
         color: white;
         text-shadow: none; }
+        .tabs--primary ul.secondary-tabs li a:hover {
+          background: #479bea; }
+      .tabs--primary ul.secondary-tabs li:first-child {
+        border-radius: 5px 5px 0 0; }
+      .tabs--primary ul.secondary-tabs li:last-child {
+        border-radius: 0 0 5px 5px; }
     .tabs--primary ul.secondary-tabs li.active a {
       top: 0;
       background: transparent; }

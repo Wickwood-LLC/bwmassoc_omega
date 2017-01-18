@@ -256,7 +256,7 @@
 		border-radius: 0 5px 5px 0;
 		a {border-radius: 0 5px 5px 0;}
 	}
-	:hover {
+	&:hover {
 		background-color: #a1d4ea;
 	}
 
@@ -310,6 +310,7 @@
 		border-radius: 3px;
 		z-index: 1;
 		padding: 0;
+		border-radius: 5px;
 
 		li {
 			background: transparent;
@@ -317,6 +318,7 @@
 			height: auto;
 			text-align: left;
 			margin-bottom: 0;
+			margin-right: 0;
 
 			a {
 				display: block;
@@ -327,6 +329,17 @@
 				padding: 0 10px 0 25px;
 				color: white;
 				text-shadow: none;
+
+				&:hover {
+					background: #479bea;
+				}
+			}
+
+			&:first-child {
+				border-radius: 5px 5px 0 0;
+			}
+			&:last-child {
+				border-radius: 0 0 5px 5px;
 			}
 		}
 
