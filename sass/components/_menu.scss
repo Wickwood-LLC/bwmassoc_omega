@@ -333,6 +333,13 @@
 
 				&:hover {
 					background: #479bea;
+
+					&:first-child {
+						border-radius: 5px 5px 0 0;
+					}
+					&:last-child {
+						border-radius: 0 0 5px 5px;
+					}
 				}
 			}
 
