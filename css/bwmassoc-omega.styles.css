@@ -2272,9 +2272,9 @@ form#user-login, form#user-pass {
         -ms-flex: 1 130px;
             flex: 1 130px;
     margin-left: 0; }
-.page-user-edit .pane-user-group-personla-info .form-item,
-.page-admin-people-create .pane-user-group-personla-info .form-item,
-.page-user-register .pane-user-group-personla-info .form-item {
+.page-user-edit .pane-basic-user-info-user-edit .form-item,
+.page-admin-people-create .pane-basic-user-info-user-edit .form-item,
+.page-user-register .pane-basic-user-info-user-edit .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2284,32 +2284,32 @@ form#user-login, form#user-pass {
           align-items: center;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-.page-user-edit .pane-user-group-personla-info label,
-.page-admin-people-create .pane-user-group-personla-info label,
-.page-user-register .pane-user-group-personla-info label {
+.page-user-edit .pane-basic-user-info-user-edit label,
+.page-admin-people-create .pane-basic-user-info-user-edit label,
+.page-user-register .pane-basic-user-info-user-edit label {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100px;
           flex: 0 0 100px; }
-.page-user-edit .pane-user-group-personla-info input,
-.page-admin-people-create .pane-user-group-personla-info input,
-.page-user-register .pane-user-group-personla-info input {
+.page-user-edit .pane-basic-user-info-user-edit input,
+.page-admin-people-create .pane-basic-user-info-user-edit input,
+.page-user-register .pane-basic-user-info-user-edit input {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc(100% - 100px);
           flex: 1 1 calc(100% - 100px);
   min-width: 150px; }
-.page-user-edit .pane-user-group-personla-info .date-form-element-content,
-.page-user-edit .pane-user-group-personla-info .date-padding,
-.page-admin-people-create .pane-user-group-personla-info .date-form-element-content,
-.page-admin-people-create .pane-user-group-personla-info .date-padding,
-.page-user-register .pane-user-group-personla-info .date-form-element-content,
-.page-user-register .pane-user-group-personla-info .date-padding {
+.page-user-edit .pane-basic-user-info-user-edit .date-form-element-content,
+.page-user-edit .pane-basic-user-info-user-edit .date-padding,
+.page-admin-people-create .pane-basic-user-info-user-edit .date-form-element-content,
+.page-admin-people-create .pane-basic-user-info-user-edit .date-padding,
+.page-user-register .pane-basic-user-info-user-edit .date-form-element-content,
+.page-user-register .pane-basic-user-info-user-edit .date-padding {
   width: 100%; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate .form-item,
-.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary .form-item,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-birthdate .form-item,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-anniversary .form-item,
-.page-user-register .pane-user-group-personla-info .field-name-field-birthdate .form-item,
-.page-user-register .pane-user-group-personla-info .field-name-field-anniversary .form-item {
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2319,58 +2319,58 @@ form#user-login, form#user-pass {
           align-items: center;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate label,
-.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary label,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-birthdate label,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-anniversary label,
-.page-user-register .pane-user-group-personla-info .field-name-field-birthdate label,
-.page-user-register .pane-user-group-personla-info .field-name-field-anniversary label {
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate label,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary label,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate label,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary label,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate label,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary label {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100px;
           flex: 0 0 100px; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate input,
-.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary input,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-birthdate input,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-anniversary input,
-.page-user-register .pane-user-group-personla-info .field-name-field-birthdate input,
-.page-user-register .pane-user-group-personla-info .field-name-field-anniversary input {
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary input {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc(100% - 100px);
           flex: 1 1 calc(100% - 100px);
   min-width: 150px; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate input,
-.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary input,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-birthdate input,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-anniversary input,
-.page-user-register .pane-user-group-personla-info .field-name-field-birthdate input,
-.page-user-register .pane-user-group-personla-info .field-name-field-anniversary input {
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary input {
   max-width: 173px; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate .description,
-.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary .description,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-birthdate .description,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-anniversary .description,
-.page-user-register .pane-user-group-personla-info .field-name-field-birthdate .description,
-.page-user-register .pane-user-group-personla-info .field-name-field-anniversary .description {
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary .description,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary .description,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .description {
   display: none; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label,
-.page-user-register .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label {
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 65px;
           flex: 0 0 65px; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-radios,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-gender .form-radios,
-.page-user-register .pane-user-group-personla-info .field-name-field-gender .form-radios {
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-radios,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-radios,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-radios {
   display: inline-block; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radio,
-.page-admin-people-create .pane-user-group-personla-info .field-name-field-gender .form-type-radio,
-.page-user-register .pane-user-group-personla-info .field-name-field-gender .form-type-radio {
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio {
   width: auto;
   display: inline-block;
   margin-right: 10px; }
-  .page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radio input,
-  .page-admin-people-create .pane-user-group-personla-info .field-name-field-gender .form-type-radio input,
-  .page-user-register .pane-user-group-personla-info .field-name-field-gender .form-type-radio input {
+  .page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input,
+  .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input,
+  .page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input {
     width: auto; }
 .page-user-edit .field-multiple-table,
 .page-admin-people-create .field-multiple-table,
