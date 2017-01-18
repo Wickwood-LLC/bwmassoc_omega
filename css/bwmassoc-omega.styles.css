@@ -1875,24 +1875,25 @@ form#user-login, form#user-pass {
   height: 30px;
   border-radius: 5px;
   border-bottom: 0;
-  margin-bottom: 0; }
-  .tabs--primary li {
+  margin-bottom: 0;
+  text-transform: capitalize; }
+  .tabs--primary > li {
     margin-right: 0;
     height: 30px;
     position: relative;
     background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
     margin-bottom: 10px; }
-    .tabs--primary li:first-child {
+    .tabs--primary > li:first-child {
       border-radius: 5px 0 0 5px; }
-      .tabs--primary li:first-child a {
+      .tabs--primary > li:first-child a {
         border-radius: 5px 0 0 5px; }
-    .tabs--primary li:last-child {
+    .tabs--primary > li:last-child {
       border-radius: 0 5px 5px 0; }
-      .tabs--primary li:last-child a {
+      .tabs--primary > li:last-child a {
         border-radius: 0 5px 5px 0; }
-    .tabs--primary li :hover {
+    .tabs--primary > li :hover {
       background-color: #a1d4ea; }
-    .tabs--primary li.active {
+    .tabs--primary > li.active {
       background-image: -webkit-linear-gradient(top, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%);
       background-image: linear-gradient(to bottom, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%); }
   .tabs--primary a {
@@ -1913,6 +1914,26 @@ form#user-login, form#user-pass {
       text-shadow: #33aa58 0 1px 0; }
     .tabs--primary a:hover {
       text-decoration: none; }
+  .tabs--primary ul.secondary-tabs.links:hover li, .tabs--primary ul.secondary-tabs.links:hover li a {
+    float: none; }
+  .tabs--primary ul.secondary-tabs {
+    height: 20px;
+    overflow: hidden; }
+    .tabs--primary ul.secondary-tabs li a {
+      display: block;
+      float: none;
+      height: 0px;
+      position: relative;
+      top: -20px; }
+    .tabs--primary ul.secondary-tabs li.active a {
+      top: 0; }
+    .tabs--primary ul.secondary-tabs:hover {
+      height: auto;
+      overflow: visible; }
+      .tabs--primary ul.secondary-tabs:hover li a {
+        height: auto;
+        position: relative;
+        top: 0px; }
 
 @media (min-width: 551px) and (max-width: 724px) {
   body.logged-in #block-superfish-3 #superfish-3 li a i:before {

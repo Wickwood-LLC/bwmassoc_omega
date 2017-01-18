@@ -2,8 +2,8 @@
 	.sf-sub-indicator {
 		position: static;
 		display: inline-block;
-	    margin-left: 5px;
-	    filter: invert(1);
+		margin-left: 5px;
+		filter: invert(1);
 	}
 }
 
@@ -14,7 +14,7 @@
 #block-superfish-3 {
 	display: inline-block;
 	position: absolute;
-    right: 0;
+	right: 0;
 
 	.sf-accordion-toggle {
 		float: right;
@@ -41,7 +41,7 @@
 			&:hover, &:focus {
 				background: #fff;
 			  text-decoration: none;
-			 	color: #1894c7;
+				color: #1894c7;
 			}
 		}
 	}
@@ -134,8 +134,8 @@
 
 				&:hover, &:focus {
 					background: #fff;
-			    text-decoration: none;
-			   	color: #1894c7;
+				text-decoration: none;
+				color: #1894c7;
 				}
 
 				i {
@@ -179,8 +179,8 @@
 
 				&:hover, &:focus {
 					background: #fff;
-			    text-decoration: none;
-			   	color: #1894c7;
+				text-decoration: none;
+				color: #1894c7;
 				}
 
 				i {
@@ -217,8 +217,8 @@
 
 				&:hover, &:focus {
 					background: #fff;
-			    text-decoration: none;
-			   	color: #1894c7;
+				text-decoration: none;
+				color: #1894c7;
 				}
 
 				&[href*='login'] {
@@ -236,57 +236,92 @@
 
 .tabs--primary {
 	height: 30px;
-  border-radius: 5px;
-  border-bottom: 0;
-  margin-bottom: 0;
+	border-radius: 5px;
+	border-bottom: 0;
+	margin-bottom: 0;
+	text-transform: capitalize;
 
-  li {
-  	margin-right: 0;
-  	height: 30px;
-    position: relative;
-    background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
-    margin-bottom: 10px;
+  > li {
+	margin-right: 0;
+	height: 30px;
+	position: relative;
+	background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
+	margin-bottom: 10px;
 
-    &:first-child {
-    	border-radius: 5px 0 0 5px;
-    	a {border-radius: 5px 0 0 5px;}
-    }
-    &:last-child {
-    	border-radius: 0 5px 5px 0;
-    	a {border-radius: 0 5px 5px 0;}
-    }
-    :hover {
-    	background-color: #a1d4ea;
-    }
+	&:first-child {
+		border-radius: 5px 0 0 5px;
+		a {border-radius: 5px 0 0 5px;}
+	}
+	&:last-child {
+		border-radius: 0 5px 5px 0;
+		a {border-radius: 0 5px 5px 0;}
+	}
+	:hover {
+		background-color: #a1d4ea;
+	}
 
-    &.active {
-    	background-image: linear-gradient(to bottom, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%);
-    }
+	&.active {
+		background-image: linear-gradient(to bottom, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%);
+	}
   }
 
   a {
-  	background: transparent;
-  	font-size: 13px;
-  	float: left;
-    text-align: center;
-    min-width: 70px;
-    padding: 5px 10px;
-    color: #333;
-    text-shadow: #fff 0 1px 0;
-    height: 30px;
-  	line-height: 20px;
-  	box-sizing: border-box;
+	background: transparent;
+	font-size: 13px;
+	float: left;
+	text-align: center;
+	min-width: 70px;
+	padding: 5px 10px;
+	color: #333;
+	text-shadow: #fff 0 1px 0;
+	height: 30px;
+	line-height: 20px;
+	box-sizing: border-box;
 
-  	&.active {
-  		background-color: transparent;
-  		color: #fff;
-  		text-shadow: #33aa58 0 1px 0;
-  	}
+	&.active {
+		background-color: transparent;
+		color: #fff;
+		text-shadow: #33aa58 0 1px 0;
+	}
 
-  	&:hover {
-  		text-decoration: none;
-  	}
+	&:hover {
+		text-decoration: none;
+	}
   }
+
+	ul.secondary-tabs.links:hover {
+		li, li a {
+			float: none;
+		}
+	}
+
+	ul.secondary-tabs {
+		height: 20px;
+		overflow: hidden;
+
+		li a {
+			display: block;
+			float: none;
+			height: 0px;
+			position: relative;
+			top: -20px;
+		}
+
+		li.active a {
+			top: 0;
+		}
+
+		&:hover {
+			height: auto;
+			overflow: visible;
+
+			li a {
+				height: auto;
+				position: relative;
+				top: 0px;
+			}
+		}
+	}
 }
 
 body.logged-in	{
