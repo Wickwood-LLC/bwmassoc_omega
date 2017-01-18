@@ -233,6 +233,10 @@
 		}
 	}
 
+	input {
+		font-size: 16px;
+	}
+
 	input.form-radio,
 	input.form-checkbox {
 		display: block;
@@ -342,7 +346,7 @@
 	}
 
 	.pane-basic-user-info-user-edit {
-		@include flexifields(100px);
+		@include flexifields(142px);
 
 		.date-form-element-content,
 		.date-padding {
@@ -376,6 +380,29 @@
 
 			    input {
 			    	width: auto;
+				}
+			}
+		}
+
+		.pane-user-field-identification {
+			width: auto;
+
+			>.form-radios {
+				width: 100%;
+
+				.form-item {
+					display: inline-block;
+    				width: auto;
+
+					input {
+						display: inline-block;
+					    vertical-align: middle;
+					    margin: 0 5px 0 0;
+					}
+					label {
+						margin-left: 0;
+						display: inline-block;
+					}
 				}
 			}
 		}
