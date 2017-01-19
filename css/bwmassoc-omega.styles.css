@@ -463,6 +463,90 @@ input[type="radio"] {
     font-size: 13px;
     text-decoration: underline; }
 
+.form-item {
+  font-size: 16px;
+  margin-bottom: 10px; }
+  .form-item label {
+    display: inline-block; }
+  .form-item input, .form-item keygen, .form-item select {
+    display: inline-block;
+    background-color: white; }
+  .form-item input, .form-item textarea, .form-item keygen, .form-item select, .form-item button {
+    font-size: 16px; }
+  .form-item th {
+    background-color: initial; }
+  .form-item tr.odd {
+    background-color: #FAFAF8; }
+  .form-item tr.even {
+    background-color: #E6E6E6; }
+  .form-item .container-inline-date .form-item input {
+    margin: 0; }
+
+input[type="submit"] {
+  display: table;
+  padding: 6px 12px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+
+#module-filter-show-wrapper .form-item {
+  display: inline-block; }
+  #module-filter-show-wrapper .form-item label {
+    margin-left: 0; }
+
+fieldset {
+  margin-bottom: 1em;
+  border: 2px solid #689a04;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  min-width: 0; }
+
+html.js fieldset.collapsed {
+  border-width: 2px;
+  height: 2em; }
+
+.form-actions {
+  text-align: center;
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: 9px;
+  margin-top: 10px;
+  margin-bottom: 0; }
+  .form-actions #edit-submit {
+    display: inline-block;
+    background-color: #0f753b;
+    color: white; }
+    .form-actions #edit-submit:hover {
+      background-color: #7fb739; }
+  .form-actions [type="submit"] {
+    display: inline-block;
+    margin-left: 10px; }
+
+.page-manager-save-page-form {
+  text-align: center; }
+  .page-manager-save-page-form .changed-notification {
+    text-align: left; }
+  .page-manager-save-page-form [type="submit"] {
+    display: inline-block;
+    margin: 10px; }
+
+.field-type-addressfield .form-item,
+[id*="field-phone-values"] .form-item {
+  margin-bottom: 0.5em; }
+
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;
