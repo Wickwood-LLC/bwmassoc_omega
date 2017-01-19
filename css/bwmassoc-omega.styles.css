@@ -182,6 +182,10 @@ td {
 input[type="radio"] {
   margin: 0; }
 
+div.vertical-tabs {
+  background: white;
+  padding-bottom: 1em; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
@@ -2312,7 +2316,8 @@ form#user-login, form#user-pass {
     .action-links a:last-child {
       margin-right: 0; }
 
-.user-profile-form {
+#user-profile-form,
+#edit-profile-bwma-client {
   background: white;
   border: 1px solid #ccc;
   border-radius: 5px;
