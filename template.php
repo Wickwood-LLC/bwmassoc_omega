@@ -82,7 +82,7 @@ function bwmassoc_omega_menu_local_tasks(&$variables) {
 }
 
 /*******	Moving field descriptions before the field 	*******/
-function sp123_omega_field_multiple_value_form($variables) {
+function bwmassoc_omega_field_multiple_value_form($variables) {
   $element = $variables['element'];
   $output = '';
 
