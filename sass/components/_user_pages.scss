@@ -642,8 +642,15 @@
     		}
     	}
 
+    	.rs-remove-item {
+    		color: blue;
+    	}
+    	.redirect-list {
+    		margin-bottom: 0;
+    	}
+
     	label[for*="edit-field-related-clients"] {
-    		@include flexifields(205px);
+    		flex: 1 auto;
     	}
 
     	[id*="relation-select-relation-fields"] {

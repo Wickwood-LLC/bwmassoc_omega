@@ -2870,31 +2870,20 @@ form#user-login, form#user-pass {
   .page-admin-people-create .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
   .page-user-register .pane-user-field-related-clients .relation-select-entities .rs-wrapper {
     height: auto; }
-.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"] .form-item,
-.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"] .form-item,
-.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"] label,
-.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"] label,
-.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 205px;
-          flex: 0 0 205px; }
-.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"] input,
-.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"] input,
-.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] input {
+.page-user-edit .pane-user-field-related-clients .rs-remove-item,
+.page-admin-people-create .pane-user-field-related-clients .rs-remove-item,
+.page-user-register .pane-user-field-related-clients .rs-remove-item {
+  color: blue; }
+.page-user-edit .pane-user-field-related-clients .redirect-list,
+.page-admin-people-create .pane-user-field-related-clients .redirect-list,
+.page-user-register .pane-user-field-related-clients .redirect-list {
+  margin-bottom: 0; }
+.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"],
+.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"],
+.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 205px);
-          flex: 1 1 calc(100% - 205px);
-  min-width: 150px; }
+      -ms-flex: 1 auto;
+          flex: 1 auto; }
 .page-user-edit .pane-user-field-related-clients [id*="relation-select-relation-fields"],
 .page-admin-people-create .pane-user-field-related-clients [id*="relation-select-relation-fields"],
 .page-user-register .pane-user-field-related-clients [id*="relation-select-relation-fields"] {
