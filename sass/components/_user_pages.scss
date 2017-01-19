@@ -526,6 +526,10 @@
 		.field-name-field-accept-text-messages .form-item {
 			display: block;
 		}
+		.field-name-field-note label {
+			flex: auto;
+			white-space: normal;
+		}
 	}
 
 	.field-name-field-book-types .form-item.form-type-radio {

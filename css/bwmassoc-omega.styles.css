@@ -504,7 +504,7 @@ fieldset {
   min-width: 0; }
 
 html.js fieldset.collapsed {
-  border-width: 2px;
+  border-width: 1px;
   height: 2em; }
 
 .form-actions {
@@ -2792,6 +2792,13 @@ form#user-login, form#user-pass {
 .page-admin-people-create .field-name-field-phone .field-name-field-accept-text-messages .form-item,
 .page-user-register .field-name-field-phone .field-name-field-accept-text-messages .form-item {
   display: block; }
+.page-user-edit .field-name-field-phone .field-name-field-note label,
+.page-admin-people-create .field-name-field-phone .field-name-field-note label,
+.page-user-register .field-name-field-phone .field-name-field-note label {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  white-space: normal; }
 .page-user-edit .field-name-field-book-types .form-item.form-type-radio,
 .page-admin-people-create .field-name-field-book-types .form-item.form-type-radio,
 .page-user-register .field-name-field-book-types .form-item.form-type-radio {
