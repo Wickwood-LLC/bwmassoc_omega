@@ -263,7 +263,7 @@
 		position: absolute;
 	    -webkit-transform: rotate(-90deg);
 	    transform: rotate(-90deg);
-	    right: -72px;
+	    right: -60px;
 	    top: 50%;
 	    background-color: #1196cf;
 	    color: white;
@@ -631,6 +631,12 @@
     }
 
     .pane-user-field-related-clients {
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 0.5em;
+		position: relative;
+		margin-top: 1.5em;
+
     	.subform, #edit-uid-wrapper {
     		max-width: 100%;
     	}
@@ -653,6 +659,18 @@
 
     	label[for*="edit-field-related-clients"] {
     		flex: 1 auto;
+			position: absolute;
+			top: -9px;
+			background: white;
+			padding: 0 1em;
+    	}
+
+    	input[value="Search"] {
+			margin-top: 0;
+			background: #1196cf;
+			color: white;
+			font-size: 12px;
+			min-width: auto;
     	}
 
     	[id*="relation-select-relation-fields"] {

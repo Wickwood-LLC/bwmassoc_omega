@@ -179,17 +179,6 @@ td {
     top: -10px;
     z-index: 1; }
 
-fieldset {
-  margin-bottom: 1em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 0.5em 1em;
-  min-width: 0; }
-
-html.js fieldset.collapsed {
-  border-width: 1px;
-  height: 2em; }
-
 input[type="radio"] {
   margin: 0; }
 
@@ -509,7 +498,7 @@ input[type="submit"] {
 
 fieldset {
   margin-bottom: 1em;
-  border: 2px solid #689a04;
+  border: 1px solid #ccc;
   border-radius: 10px;
   padding: 0.5em 1em;
   min-width: 0; }
@@ -527,10 +516,10 @@ html.js fieldset.collapsed {
   margin-bottom: 0; }
   .form-actions #edit-submit {
     display: inline-block;
-    background-color: #0f753b;
+    background-color: #1894c7;
     color: white; }
     .form-actions #edit-submit:hover {
-      background-color: #7fb739; }
+      background-color: #61c4ef; }
   .form-actions [type="submit"] {
     display: inline-block;
     margin-left: 10px; }
@@ -2380,7 +2369,7 @@ form#user-login, form#user-pass {
   position: absolute;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  right: -72px;
+  right: -60px;
   top: 50%;
   background-color: #1196cf;
   color: white;
@@ -2940,39 +2929,59 @@ form#user-login, form#user-pass {
 .page-admin-people-create .pane-user-form-timezone .form-item-timezone,
 .page-user-register .pane-user-form-timezone .form-item-timezone {
   margin: 0; }
-.page-user-edit .pane-user-field-related-clients .subform, .page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
-.page-admin-people-create .pane-user-field-related-clients .subform,
-.page-admin-people-create .pane-user-field-related-clients #edit-uid-wrapper,
-.page-user-register .pane-user-field-related-clients .subform,
-.page-user-register .pane-user-field-related-clients #edit-uid-wrapper {
-  max-width: 100%; }
-.page-user-edit .pane-user-field-related-clients .relation-select-entities,
-.page-admin-people-create .pane-user-field-related-clients .relation-select-entities,
-.page-user-register .pane-user-field-related-clients .relation-select-entities {
-  width: 100%;
-  margin-bottom: 1em; }
-  .page-user-edit .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
-  .page-admin-people-create .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
-  .page-user-register .pane-user-field-related-clients .relation-select-entities .rs-wrapper {
-    height: auto; }
-.page-user-edit .pane-user-field-related-clients .rs-remove-item,
-.page-admin-people-create .pane-user-field-related-clients .rs-remove-item,
-.page-user-register .pane-user-field-related-clients .rs-remove-item {
-  color: blue; }
-.page-user-edit .pane-user-field-related-clients .redirect-list,
-.page-admin-people-create .pane-user-field-related-clients .redirect-list,
-.page-user-register .pane-user-field-related-clients .redirect-list {
-  margin-bottom: 0; }
-.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"],
-.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"],
-.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 auto;
-          flex: 1 auto; }
-.page-user-edit .pane-user-field-related-clients [id*="relation-select-relation-fields"],
-.page-admin-people-create .pane-user-field-related-clients [id*="relation-select-relation-fields"],
-.page-user-register .pane-user-field-related-clients [id*="relation-select-relation-fields"] {
-  width: 100%; }
+.page-user-edit .pane-user-field-related-clients,
+.page-admin-people-create .pane-user-field-related-clients,
+.page-user-register .pane-user-field-related-clients {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em;
+  position: relative;
+  margin-top: 1.5em; }
+  .page-user-edit .pane-user-field-related-clients .subform, .page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
+  .page-admin-people-create .pane-user-field-related-clients .subform,
+  .page-admin-people-create .pane-user-field-related-clients #edit-uid-wrapper,
+  .page-user-register .pane-user-field-related-clients .subform,
+  .page-user-register .pane-user-field-related-clients #edit-uid-wrapper {
+    max-width: 100%; }
+  .page-user-edit .pane-user-field-related-clients .relation-select-entities,
+  .page-admin-people-create .pane-user-field-related-clients .relation-select-entities,
+  .page-user-register .pane-user-field-related-clients .relation-select-entities {
+    width: 100%;
+    margin-bottom: 1em; }
+    .page-user-edit .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
+    .page-admin-people-create .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
+    .page-user-register .pane-user-field-related-clients .relation-select-entities .rs-wrapper {
+      height: auto; }
+  .page-user-edit .pane-user-field-related-clients .rs-remove-item,
+  .page-admin-people-create .pane-user-field-related-clients .rs-remove-item,
+  .page-user-register .pane-user-field-related-clients .rs-remove-item {
+    color: blue; }
+  .page-user-edit .pane-user-field-related-clients .redirect-list,
+  .page-admin-people-create .pane-user-field-related-clients .redirect-list,
+  .page-user-register .pane-user-field-related-clients .redirect-list {
+    margin-bottom: 0; }
+  .page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"],
+  .page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"],
+  .page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 auto;
+            flex: 1 auto;
+    position: absolute;
+    top: -9px;
+    background: white;
+    padding: 0 1em; }
+  .page-user-edit .pane-user-field-related-clients input[value="Search"],
+  .page-admin-people-create .pane-user-field-related-clients input[value="Search"],
+  .page-user-register .pane-user-field-related-clients input[value="Search"] {
+    margin-top: 0;
+    background: #1196cf;
+    color: white;
+    font-size: 12px;
+    min-width: auto; }
+  .page-user-edit .pane-user-field-related-clients [id*="relation-select-relation-fields"],
+  .page-admin-people-create .pane-user-field-related-clients [id*="relation-select-relation-fields"],
+  .page-user-register .pane-user-field-related-clients [id*="relation-select-relation-fields"] {
+    width: 100%; }
 .page-user-edit .tabledrag-toggle-weight-wrapper,
 .page-admin-people-create .tabledrag-toggle-weight-wrapper,
 .page-user-register .tabledrag-toggle-weight-wrapper {

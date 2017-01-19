@@ -204,18 +204,6 @@ td {
   }
 }
 
-fieldset {
-  margin-bottom: 1em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 0.5em 1em;
-  min-width: 0;
-}
-html.js fieldset.collapsed {
-  border-width: 1px;
-  height: 2em;
-}
-
 input[type="radio"] {
   margin: 0;
 }

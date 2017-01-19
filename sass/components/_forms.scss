@@ -58,7 +58,7 @@ input[type="submit"]{
 
 fieldset {
 	margin-bottom: 1em;
-    border: 2px solid #689a04;
+    border: 1px solid #ccc;
     border-radius: 10px;
     padding: 0.5em 1em;
     min-width: 0;
@@ -79,11 +79,11 @@ html.js fieldset.collapsed {
 
 	#edit-submit {
 		display: inline-block;
-		background-color: #0f753b;
+		background-color: #1894c7;
 		color: white;
 
 		&:hover {
-			background-color: #7fb739;
+			background-color: #61c4ef;
 		}
 	}
 	[type="submit"] {
