@@ -2812,7 +2812,6 @@ form#user-login, form#user-pass {
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #ccc;
-  padding: 10px;
   box-sizing: border-box;
   width: 100%; }
 .page-user-edit tr.draggable td:not([class]),

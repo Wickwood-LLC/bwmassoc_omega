@@ -1048,6 +1048,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/components\/_forms.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/components\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
