@@ -129,20 +129,11 @@ function bwmassoc_omega_field_multiple_value_form($variables) {
       );
     }
 
-    if ($element['#field_name'] == 'field_mailing_address') {
-    	$output = '<div class="form-item">';
-	    $output .= $element['#description'] ? '<div class="description">' . $element['#description'] . '</div>' : '';
-	    $output .= theme('table', array('header' => $header, 'rows' => $rows, 'attributes' => array('id' => $table_id, 'class' => array('field-multiple-table'))));
-	    $output .= '<div class="clearfix">' . drupal_render($add_more_button) . '</div>';
-	    $output .= '</div>';
-    }
-    else {
-    	$output = '<div class="form-item">';
-	    $output .= theme('table', array('header' => $header, 'rows' => $rows, 'attributes' => array('id' => $table_id, 'class' => array('field-multiple-table'))));
-	    $output .= $element['#description'] ? '<div class="description">' . $element['#description'] . '</div>' : '';
-	    $output .= '<div class="clearfix">' . drupal_render($add_more_button) . '</div>';
-	    $output .= '</div>';
-    }
+	$output = '<div class="form-item">';
+	$output .= $element['#description'] ? '<div class="description">' . $element['#description'] . '</div>' : '';
+	$output .= theme('table', array('header' => $header, 'rows' => $rows, 'attributes' => array('id' => $table_id, 'class' => array('field-multiple-table'))));
+	$output .= '<div class="clearfix">' . drupal_render($add_more_button) . '</div>';
+	$output .= '</div>';
 
     drupal_add_tabledrag($table_id, 'order', 'sibling', $order_class);
   }
