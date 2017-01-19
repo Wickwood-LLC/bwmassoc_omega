@@ -573,6 +573,10 @@
 			width: calc(100% - 38px);
 		}
 
+		[id*="add-more-wrapper"] >.form-item {
+			margin-bottom: 0;
+		}
+
 		.link-field-title,
 		.link-field-url {
 			width: 100%;
@@ -586,13 +590,25 @@
 		#field-websites-add-more-wrapper > .form-item {
 			margin-bottom: 0;
 		}
+
+		tr.draggable {
+			min-height: 130px;
+		}
 	}
 
 	.field-name-field-additional-email-addresses {
 		@include flexifields(50px);
 
+		[id*="add-more-wrapper"] >.form-item {
+			margin-bottom: 0;
+		}
+
 		.field-name-field-email {
 			margin-bottom: 1em;
+		}
+
+		tr.draggable {
+			min-height: 130px;
 		}
 	}
 

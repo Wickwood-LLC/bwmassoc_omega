@@ -471,9 +471,6 @@ input[type="radio"] {
   .form-item .container-inline-date .form-item input {
     margin: 0; }
 
-[id*="add-more-wrapper"] > .form-item {
-  margin-bottom: 0; }
-
 input[type="submit"] {
   display: table;
   padding: 6px 12px;
@@ -2865,6 +2862,10 @@ form#user-login, form#user-pass {
 .page-admin-people-create .field-name-field-website input[type="text"],
 .page-user-register .field-name-field-website input[type="text"] {
   width: calc(100% - 38px); }
+.page-user-edit .field-name-field-website [id*="add-more-wrapper"] > .form-item,
+.page-admin-people-create .field-name-field-website [id*="add-more-wrapper"] > .form-item,
+.page-user-register .field-name-field-website [id*="add-more-wrapper"] > .form-item {
+  margin-bottom: 0; }
 .page-user-edit .field-name-field-website .link-field-title,
 .page-user-edit .field-name-field-website .link-field-url,
 .page-admin-people-create .field-name-field-website .link-field-title,
@@ -2881,6 +2882,10 @@ form#user-login, form#user-pass {
 .page-admin-people-create .field-name-field-website #field-websites-add-more-wrapper > .form-item,
 .page-user-register .field-name-field-website #field-websites-add-more-wrapper > .form-item {
   margin-bottom: 0; }
+.page-user-edit .field-name-field-website tr.draggable,
+.page-admin-people-create .field-name-field-website tr.draggable,
+.page-user-register .field-name-field-website tr.draggable {
+  min-height: 130px; }
 .page-user-edit .field-name-field-additional-email-addresses .form-item,
 .page-admin-people-create .field-name-field-additional-email-addresses .form-item,
 .page-user-register .field-name-field-additional-email-addresses .form-item {
@@ -2906,10 +2911,18 @@ form#user-login, form#user-pass {
       -ms-flex: 1 1 calc(100% - 50px);
           flex: 1 1 calc(100% - 50px);
   min-width: 150px; }
+.page-user-edit .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item,
+.page-admin-people-create .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item,
+.page-user-register .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item {
+  margin-bottom: 0; }
 .page-user-edit .field-name-field-additional-email-addresses .field-name-field-email,
 .page-admin-people-create .field-name-field-additional-email-addresses .field-name-field-email,
 .page-user-register .field-name-field-additional-email-addresses .field-name-field-email {
   margin-bottom: 1em; }
+.page-user-edit .field-name-field-additional-email-addresses tr.draggable,
+.page-admin-people-create .field-name-field-additional-email-addresses tr.draggable,
+.page-user-register .field-name-field-additional-email-addresses tr.draggable {
+  min-height: 130px; }
 .page-user-edit tr.draggable,
 .page-admin-people-create tr.draggable,
 .page-user-register tr.draggable {
