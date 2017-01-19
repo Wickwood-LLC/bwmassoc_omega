@@ -2726,9 +2726,9 @@ form#user-login, form#user-pass {
   width: auto;
   display: inline-block;
   margin-right: 8px; }
-.page-user-edit .field-name-field-mailing-address .form-item,
-.page-admin-people-create .field-name-field-mailing-address .form-item,
-.page-user-register .field-name-field-mailing-address .form-item {
+.page-user-edit .field-name-field-collection-mailing-address .form-item,
+.page-admin-people-create .field-name-field-collection-mailing-address .form-item,
+.page-user-register .field-name-field-collection-mailing-address .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2738,52 +2738,52 @@ form#user-login, form#user-pass {
           align-items: center;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-.page-user-edit .field-name-field-mailing-address label,
-.page-admin-people-create .field-name-field-mailing-address label,
-.page-user-register .field-name-field-mailing-address label {
+.page-user-edit .field-name-field-collection-mailing-address label,
+.page-admin-people-create .field-name-field-collection-mailing-address label,
+.page-user-register .field-name-field-collection-mailing-address label {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 114px;
           flex: 0 0 114px; }
-.page-user-edit .field-name-field-mailing-address input,
-.page-admin-people-create .field-name-field-mailing-address input,
-.page-user-register .field-name-field-mailing-address input {
+.page-user-edit .field-name-field-collection-mailing-address input,
+.page-admin-people-create .field-name-field-collection-mailing-address input,
+.page-user-register .field-name-field-collection-mailing-address input {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc(100% - 114px);
           flex: 1 1 calc(100% - 114px);
   min-width: 150px; }
-.page-user-edit .field-name-field-mailing-address .description,
-.page-admin-people-create .field-name-field-mailing-address .description,
-.page-user-register .field-name-field-mailing-address .description {
+.page-user-edit .field-name-field-collection-mailing-address .description,
+.page-admin-people-create .field-name-field-collection-mailing-address .description,
+.page-user-register .field-name-field-collection-mailing-address .description {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
-.page-user-edit .field-name-field-mailing-address .field-name-field-address-type,
-.page-admin-people-create .field-name-field-mailing-address .field-name-field-address-type,
-.page-user-register .field-name-field-mailing-address .field-name-field-address-type {
+.page-user-edit .field-name-field-collection-mailing-address .field-name-field-address-type,
+.page-admin-people-create .field-name-field-collection-mailing-address .field-name-field-address-type,
+.page-user-register .field-name-field-collection-mailing-address .field-name-field-address-type {
   margin-bottom: 10px; }
-.page-user-edit .field-name-field-mailing-address select.country,
-.page-user-edit .field-name-field-mailing-address select.state,
-.page-admin-people-create .field-name-field-mailing-address select.country,
-.page-admin-people-create .field-name-field-mailing-address select.state,
-.page-user-register .field-name-field-mailing-address select.country,
-.page-user-register .field-name-field-mailing-address select.state {
+.page-user-edit .field-name-field-collection-mailing-address select.country,
+.page-user-edit .field-name-field-collection-mailing-address select.state,
+.page-admin-people-create .field-name-field-collection-mailing-address select.country,
+.page-admin-people-create .field-name-field-collection-mailing-address select.state,
+.page-user-register .field-name-field-collection-mailing-address select.country,
+.page-user-register .field-name-field-collection-mailing-address select.state {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc(100% - 114px);
           flex: 1 1 calc(100% - 114px);
   min-width: 100px; }
-.page-user-edit .field-name-field-mailing-address > div > .form-item,
-.page-admin-people-create .field-name-field-mailing-address > div > .form-item,
-.page-user-register .field-name-field-mailing-address > div > .form-item {
+.page-user-edit .field-name-field-collection-mailing-address > div > .form-item,
+.page-admin-people-create .field-name-field-collection-mailing-address > div > .form-item,
+.page-user-register .field-name-field-collection-mailing-address > div > .form-item {
   margin-bottom: 0; }
-.page-user-edit .field-name-field-mailing-address .field-type-addressfield fieldset,
-.page-admin-people-create .field-name-field-mailing-address .field-type-addressfield fieldset,
-.page-user-register .field-name-field-mailing-address .field-type-addressfield fieldset {
+.page-user-edit .field-name-field-collection-mailing-address .field-type-addressfield fieldset,
+.page-admin-people-create .field-name-field-collection-mailing-address .field-type-addressfield fieldset,
+.page-user-register .field-name-field-collection-mailing-address .field-type-addressfield fieldset {
   border: 0px;
   padding: 0;
   margin-bottom: 0; }
-.page-user-edit .field-name-field-mailing-address .field-type-addressfield legend,
-.page-admin-people-create .field-name-field-mailing-address .field-type-addressfield legend,
-.page-user-register .field-name-field-mailing-address .field-type-addressfield legend {
+.page-user-edit .field-name-field-collection-mailing-address .field-type-addressfield legend,
+.page-admin-people-create .field-name-field-collection-mailing-address .field-type-addressfield legend,
+.page-user-register .field-name-field-collection-mailing-address .field-type-addressfield legend {
   display: none; }
 .page-user-edit .field-name-field-websites input[type="text"],
 .page-admin-people-create .field-name-field-websites input[type="text"],
