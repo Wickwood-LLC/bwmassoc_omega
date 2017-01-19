@@ -1938,7 +1938,7 @@ form#user-login, form#user-pass {
     position: relative;
     margin: 5px 5px 5px 0;
     font-size: 11px;
-    background: #0560ff;
+    background: #2271bd;
     border-radius: 3px;
     z-index: 1;
     padding: 0;
@@ -2237,10 +2237,12 @@ form#user-login, form#user-pass {
     .action-links a:last-child {
       margin-right: 0; }
 
-.page-user-edit #wwm-special-1,
-.page-admin-people-create #wwm-special-1,
-.page-user-register #wwm-special-1 {
-  padding: 0 1em; }
+.user-profile-form {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1em; }
+
 .page-user-edit .form-item .clearfix,
 .page-admin-people-create .form-item .clearfix,
 .page-user-register .form-item .clearfix {

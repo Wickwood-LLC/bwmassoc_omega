@@ -213,13 +213,16 @@
 	}
 }
 
+.user-profile-form {
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 1em;
+}
+
 .page-user-edit,
 .page-admin-people-create,
 .page-user-register {
-	#wwm-special-1{
-		padding: 0 1em;
-	}
-
 	.form-item .clearfix {
 		width: 100%;
 	}
