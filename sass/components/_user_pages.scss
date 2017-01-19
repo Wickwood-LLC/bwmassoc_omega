@@ -568,7 +568,7 @@
 		}
 	}
 
-	.field-name-field-websites {
+	.field-name-field-website {
 		input[type="text"] {
 			width: calc(100% - 38px);
 		}
@@ -585,6 +585,14 @@
 
 		#field-websites-add-more-wrapper > .form-item {
 			margin-bottom: 0;
+		}
+	}
+
+	.field-name-field-additional-email-addresses {
+		@include flexifields(50px);
+
+		.field-name-field-email {
+			margin-bottom: 1em;
 		}
 	}
 
