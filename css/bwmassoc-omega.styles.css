@@ -523,6 +523,8 @@ html.js fieldset.collapsed {
   .form-actions [type="submit"] {
     display: inline-block;
     margin-left: 10px; }
+  .form-actions#edit-actions {
+    float: none; }
 
 .page-manager-save-page-form {
   text-align: center; }
