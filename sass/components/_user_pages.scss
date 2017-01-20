@@ -754,6 +754,10 @@
 	.field-name-field-driver-s-license {
 		@include flexifields(250px);
 
+		legend {
+			font-weight: bold;
+		}
+
 		.description {
 			flex: 100%;
 		}
@@ -767,6 +771,25 @@
 	.client-acquisition-edit {
 		.panels-flexible-region-inside-first {
 			@include flexifields(100px);
+		}
+
+		.field-name-field-source-notes label {
+			flex: 100%;
+		}
+		.field-name-field-source select {
+			flex: 1 1 calc(100% - 100px);
+			min-width: 0;
+		}
+
+		.field-name-field-thank-you-card-and-referra {
+			@include flexifields(80px);
+
+			legend {
+				font-weight: bold;
+			}
+		}
+		.field-name-field-note label {
+			flex: 100%;
 		}
 	}
 }
