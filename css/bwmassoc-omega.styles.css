@@ -3062,6 +3062,10 @@ form#user-login, form#user-pass {
   padding: 3px 5px;
   right: -50px; }
 
+#edit-profile-bwma-client .pane-user-field-identification {
+  display: block; }
+  #edit-profile-bwma-client .pane-user-field-identification .field__item {
+    width: 125px; }
 #edit-profile-bwma-client .pane-user-field-related-clients {
   margin-top: 0;
   border: 0;
