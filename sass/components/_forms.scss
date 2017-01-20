@@ -86,6 +86,14 @@ html.js fieldset.collapsed {
 			background-color: #61c4ef;
 		}
 	}
+	#edit-delete {
+		color: white;
+		background: red;
+
+		&:hover {
+			background-color: #ffa3a3;
+		}
+	}
 	[type="submit"] {
 		display: inline-block;
     	margin-left: 10px;

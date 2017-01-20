@@ -524,6 +524,11 @@ html.js fieldset.collapsed {
     color: white; }
     .form-actions #edit-submit:hover {
       background-color: #61c4ef; }
+  .form-actions #edit-delete {
+    color: white;
+    background: red; }
+    .form-actions #edit-delete:hover {
+      background-color: #ffa3a3; }
   .form-actions [type="submit"] {
     display: inline-block;
     margin-left: 10px; }
@@ -3203,6 +3208,7 @@ form#user-login, form#user-pass {
 #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"] {
   display: inline-block;
   background-color: #1196cf;
+  color: white;
   margin-top: 0.5em;
   margin-left: 0.5em; }
 
