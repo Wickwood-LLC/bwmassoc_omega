@@ -3174,5 +3174,36 @@ form#user-login, form#user-pass {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
+#edit-profile-bwma-client .field-name-field-notes .field-name-field-date {
+  display: inline-block;
+  vertical-align: top; }
+#edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user {
+  display: inline-block; }
+  #edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user input {
+    width: 24em; }
+#edit-profile-bwma-client .field-name-field-loans table {
+  width: 100%; }
+#edit-profile-bwma-client .field-name-field-loans tr {
+  display: table-row; }
+#edit-profile-bwma-client .field-name-field-loans input[value="Edit"] {
+  background-color: #1196cf;
+  color: white; }
+#edit-profile-bwma-client .field-name-field-loans input[value="Remove"] {
+  -webkit-transform: none;
+          transform: none;
+  position: static;
+  display: inline-block;
+  margin-left: 0.5em;
+  background: #c0c0c0;
+  color: black; }
+#edit-profile-bwma-client .field-name-field-loans input[value="Add new Loan"] {
+  display: inline-block;
+  margin-top: 0.5em;
+  background-color: #1196cf;
+  color: white; }
+#edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"] {
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-left: 0.5em; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

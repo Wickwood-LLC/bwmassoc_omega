@@ -792,4 +792,51 @@
 			flex: 100%;
 		}
 	}
+
+	.field-name-field-notes {
+		.field-name-field-date {
+			display: inline-block;
+			vertical-align: top;
+		}
+		.field-name-field-staff-user {
+			display: inline-block;
+
+			input {
+				width: 24em;
+			}
+		}
+	}
+
+	.field-name-field-loans {
+		table {
+			width: 100%;
+		}
+		tr {
+			display: table-row;
+		}
+
+		input[value="Edit"] {
+			background-color: #1196cf;
+			color: white;
+		}
+		input[value="Remove"] {
+			transform: none;
+			position: static;
+			display: inline-block;
+			margin-left: 0.5em;
+			background: #c0c0c0;
+			color: black;
+		}
+		input[value="Add new Loan"] {
+			display: inline-block;
+			margin-top: 0.5em;
+			background-color: #1196cf;
+			color: white;
+		}
+		input[value="Add existing Loan"] {
+			display: inline-block;
+			margin-top: 0.5em;
+			margin-left: 0.5em;
+		}
+	}
 }
