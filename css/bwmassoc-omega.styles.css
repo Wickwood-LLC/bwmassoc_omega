@@ -524,10 +524,12 @@ html.js fieldset.collapsed {
     color: white; }
     .form-actions #edit-submit:hover {
       background-color: #61c4ef; }
-  .form-actions #edit-delete {
+  .form-actions #edit-delete,
+  .form-actions #edit-cancel {
     color: white;
     background: red; }
-    .form-actions #edit-delete:hover {
+    .form-actions #edit-delete:hover,
+    .form-actions #edit-cancel:hover {
       background-color: #ffa3a3; }
   .form-actions [type="submit"] {
     display: inline-block;
