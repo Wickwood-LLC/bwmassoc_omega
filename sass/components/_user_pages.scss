@@ -750,4 +750,8 @@
 			list-style: none;
 		}
 	}
+
+	.field-name-field-driver-s-license {
+		@include flexifields(190px);
+	}
 }

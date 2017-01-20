@@ -3074,5 +3074,24 @@ form#user-login, form#user-pass {
     padding: 0;
     margin: 0;
     list-style: none; }
+#edit-profile-bwma-client .field-name-field-driver-s-license .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+#edit-profile-bwma-client .field-name-field-driver-s-license label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 190px;
+          flex: 0 0 190px; }
+#edit-profile-bwma-client .field-name-field-driver-s-license input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 190px);
+          flex: 1 1 calc(100% - 190px);
+  min-width: 150px; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
