@@ -752,6 +752,21 @@
 	}
 
 	.field-name-field-driver-s-license {
-		@include flexifields(190px);
+		@include flexifields(250px);
+
+		.description {
+			flex: 100%;
+		}
+	}
+
+	.field-name-field-company-name,
+	.field-name-field-occupation-or-title-tag {
+		@include flexifields(150px);
+	}
+
+	.client-acquisition-edit {
+		.panels-flexible-region-inside-first {
+			@include flexifields(100px);
+		}
 	}
 }
