@@ -2378,7 +2378,7 @@ form#user-login, form#user-pass {
   transform: rotate(-90deg);
   right: -60px;
   top: 50%;
-  background-color: #1196cf;
+  background-color: #ffa3a3;
   color: white;
   min-width: auto !important;
   border: 0;
@@ -3186,6 +3186,7 @@ form#user-login, form#user-pass {
 #edit-profile-bwma-client .field-name-field-loans tr {
   display: table-row; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Edit"] {
+  display: inline-block;
   background-color: #1196cf;
   color: white; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Remove"] {
@@ -3193,9 +3194,7 @@ form#user-login, form#user-pass {
           transform: none;
   position: static;
   display: inline-block;
-  margin-left: 0.5em;
-  background: #c0c0c0;
-  color: black; }
+  margin-left: 0.5em; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Add new Loan"] {
   display: inline-block;
   margin-top: 0.5em;
@@ -3203,6 +3202,7 @@ form#user-login, form#user-pass {
   color: white; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"] {
   display: inline-block;
+  background-color: #1196cf;
   margin-top: 0.5em;
   margin-left: 0.5em; }
 

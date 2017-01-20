@@ -266,7 +266,7 @@
 	    transform: rotate(-90deg);
 	    right: -60px;
 	    top: 50%;
-	    background-color: #1196cf;
+	    background-color: #ffa3a3;
 	    color: white;
 	    min-width: auto !important;
 		border: 0;
@@ -816,6 +816,7 @@
 		}
 
 		input[value="Edit"] {
+			display: inline-block;
 			background-color: #1196cf;
 			color: white;
 		}
@@ -824,8 +825,6 @@
 			position: static;
 			display: inline-block;
 			margin-left: 0.5em;
-			background: #c0c0c0;
-			color: black;
 		}
 		input[value="Add new Loan"] {
 			display: inline-block;
@@ -835,6 +834,7 @@
 		}
 		input[value="Add existing Loan"] {
 			display: inline-block;
+			background-color: #1196cf;
 			margin-top: 0.5em;
 			margin-left: 0.5em;
 		}
