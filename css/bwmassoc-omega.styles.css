@@ -3062,4 +3062,13 @@ form#user-login, form#user-pass {
   padding: 3px 5px;
   right: -50px; }
 
+#edit-profile-bwma-client .pane-user-field-related-clients {
+  margin-top: 0;
+  border: 0;
+  padding: 0; }
+  #edit-profile-bwma-client .pane-user-field-related-clients ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

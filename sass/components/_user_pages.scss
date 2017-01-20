@@ -729,3 +729,17 @@
 		right: -50px;
 	}
 }
+
+#edit-profile-bwma-client {
+	.pane-user-field-related-clients {
+		margin-top: 0;
+		border: 0;
+		padding: 0;
+		
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+	}
+}
