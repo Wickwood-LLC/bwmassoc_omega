@@ -233,6 +233,9 @@ div.vertical-tabs {
   display: table;
   margin-top: 2em;
   width: 100%; }
+.blog-type-page .panel-col-sidebar.panel-col-right .panel-pane {
+  background-color: white;
+  font-size: 1em; }
 
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image {
