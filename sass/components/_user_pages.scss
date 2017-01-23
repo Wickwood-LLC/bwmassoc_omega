@@ -271,12 +271,20 @@
 	    min-width: auto !important;
 		border: 0;
 		border-radius: 5px;
+
+		&:hover {
+			background-color: red;
+		}
 	}
 	.field-add-more-submit {
 		background-color: #1196cf;
 		color: white;
 		border: 0;
 		border-radius: 5px;
+
+		&:hover {
+			background-color: #61c4ef;
+		}
 	}
 
 	.password-strength {

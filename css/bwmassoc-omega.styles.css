@@ -520,17 +520,17 @@ html.js fieldset.collapsed {
   margin-bottom: 0; }
   .form-actions #edit-submit {
     display: inline-block;
-    background-color: #1894c7;
+    background-color: #1196cf;
     color: white; }
     .form-actions #edit-submit:hover {
       background-color: #61c4ef; }
   .form-actions #edit-delete,
   .form-actions #edit-cancel {
     color: white;
-    background: red; }
+    background: #ffa3a3; }
     .form-actions #edit-delete:hover,
     .form-actions #edit-cancel:hover {
-      background-color: #ffa3a3; }
+      background-color: red; }
   .form-actions [type="submit"] {
     display: inline-block;
     margin-left: 10px; }
@@ -2390,6 +2390,10 @@ form#user-login, form#user-pass {
   min-width: auto !important;
   border: 0;
   border-radius: 5px; }
+  .page-user-edit input[value="Remove"]:hover,
+  .page-admin-people-create input[value="Remove"]:hover,
+  .page-user-register input[value="Remove"]:hover {
+    background-color: red; }
 .page-user-edit .field-add-more-submit,
 .page-admin-people-create .field-add-more-submit,
 .page-user-register .field-add-more-submit {
@@ -2397,6 +2401,10 @@ form#user-login, form#user-pass {
   color: white;
   border: 0;
   border-radius: 5px; }
+  .page-user-edit .field-add-more-submit:hover,
+  .page-admin-people-create .field-add-more-submit:hover,
+  .page-user-register .field-add-more-submit:hover {
+    background-color: #61c4ef; }
 .page-user-edit .password-strength,
 .page-admin-people-create .password-strength,
 .page-user-register .password-strength {

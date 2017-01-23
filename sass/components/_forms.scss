@@ -79,7 +79,7 @@ html.js fieldset.collapsed {
 
 	#edit-submit {
 		display: inline-block;
-		background-color: #1894c7;
+		background-color: #1196cf;
 		color: white;
 
 		&:hover {
@@ -89,10 +89,10 @@ html.js fieldset.collapsed {
 	#edit-delete,
 	#edit-cancel {
 		color: white;
-		background: red;
+		background: #ffa3a3;
 
 		&:hover {
-			background-color: #ffa3a3;
+			background-color: red;
 		}
 	}
 	[type="submit"] {
