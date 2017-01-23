@@ -179,6 +179,9 @@ td {
     top: -10px;
     z-index: 1; }
 
+table {
+  width: 100%; }
+
 input[type="radio"] {
   margin: 0; }
 
