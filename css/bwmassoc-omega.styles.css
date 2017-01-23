@@ -3204,6 +3204,8 @@ form#user-login, form#user-pass {
   display: inline-block;
   background-color: #1196cf;
   color: white; }
+  #edit-profile-bwma-client .field-name-field-loans input[value="Edit"]:hover {
+    background-color: #61c4ef; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Remove"] {
   -webkit-transform: none;
           transform: none;
@@ -3215,11 +3217,15 @@ form#user-login, form#user-pass {
   margin-top: 0.5em;
   background-color: #1196cf;
   color: white; }
+  #edit-profile-bwma-client .field-name-field-loans input[value="Add new Loan"]:hover {
+    background-color: #61c4ef; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"] {
   display: inline-block;
   background-color: #1196cf;
   color: white;
   margin-top: 0.5em;
   margin-left: 0.5em; }
+  #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"]:hover {
+    background-color: #61c4ef; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

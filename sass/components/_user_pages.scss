@@ -827,6 +827,10 @@
 			display: inline-block;
 			background-color: #1196cf;
 			color: white;
+
+			&:hover {
+				background-color: #61c4ef;
+			}
 		}
 		input[value="Remove"] {
 			transform: none;
@@ -839,6 +843,10 @@
 			margin-top: 0.5em;
 			background-color: #1196cf;
 			color: white;
+
+			&:hover {
+				background-color: #61c4ef;
+			}
 		}
 		input[value="Add existing Loan"] {
 			display: inline-block;
@@ -846,6 +854,10 @@
 			color: white;
 			margin-top: 0.5em;
 			margin-left: 0.5em;
+
+			&:hover {
+				background-color: #61c4ef;
+			}
 		}
 	}
 }
