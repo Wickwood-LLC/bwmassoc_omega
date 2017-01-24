@@ -227,6 +227,10 @@ ul.breadcrumb {
     height: 30px;
     padding-left: 10px;
     margin-left: -10px;
-    background: url(../../images/breadcrumb-bg.png) right;
+    background: url(../images/breadcrumb-bg.png) 100% 0px no-repeat;
+
+    &:hover {
+      background: url(../images/breadcrumb-bg.png) 100% -30px no-repeat;
+    }
   }
 }
