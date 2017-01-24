@@ -720,6 +720,14 @@
 		"oAP": "\/images\/breadcrumb-bg",
 		"oF": 0
 		},
+	"\/images\/breadcrumb-bg.png": {
+		"ft": 32768,
+		"iS": 806,
+		"oA": 0,
+		"oAP": "\/images\/breadcrumb-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/js\/bwmassoc-omega.behaviors-min.js": {
 		"ft": 64,
 		"mi": 1,
