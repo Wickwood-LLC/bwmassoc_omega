@@ -40,9 +40,13 @@
 			.boxed {
 				background-color: white;
 				margin: 0 0 1em 0;
-				
+
 				.pane-title {
 					position: static;
+				}
+
+				ul {
+					padding-left: 20px;
 				}
 			}
 
@@ -52,7 +56,6 @@
 		}
 
 		.view-display-id-panel_pane_1 .view-content {
-			padding: 0.5em;
 		}
 
 		.view-display-id-panel_pane_2 {

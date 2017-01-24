@@ -236,10 +236,10 @@ div.vertical-tabs {
       margin: 0 0 1em 0; }
       .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed .pane-title {
         position: static; }
+      .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed ul {
+        padding-left: 20px; }
     .blog-type-page .l-content .panel-myriad-layout .sidebar-content ul {
       margin: 0; }
-  .blog-type-page .l-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
-    padding: 0.5em; }
   .blog-type-page .l-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {
     margin-bottom: 0; }
     .blog-type-page .l-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li {
