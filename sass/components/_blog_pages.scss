@@ -37,8 +37,13 @@
 				flex: 1 1 300px;
 			}
 
-			.boxed .pane-title {
-				background-color: #f2fafe;
+			.boxed {
+				background-color: white;
+				margin: 0 0 1em 0;
+				
+				.pane-title {
+					position: static;
+				}
 			}
 
 			ul {

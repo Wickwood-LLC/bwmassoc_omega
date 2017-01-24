@@ -231,8 +231,11 @@ div.vertical-tabs {
         -webkit-box-flex: 1;
             -ms-flex: 1 1 300px;
                 flex: 1 1 300px; } }
-    .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed .pane-title {
-      background-color: #f2fafe; }
+    .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed {
+      background-color: white;
+      margin: 0 0 1em 0; }
+      .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed .pane-title {
+        position: static; }
     .blog-type-page .l-content .panel-myriad-layout .sidebar-content ul {
       margin: 0; }
   .blog-type-page .l-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
