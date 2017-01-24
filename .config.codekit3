@@ -714,6 +714,14 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/images\/breadcrumb-bg.png": {
+		"ft": 32768,
+		"iS": 1348,
+		"oA": 0,
+		"oAP": "\/images\/breadcrumb-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/js\/bwmassoc-omega.behaviors-min.js": {
 		"ft": 64,
 		"mi": 1,
