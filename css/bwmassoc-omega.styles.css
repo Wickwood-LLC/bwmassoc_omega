@@ -2243,7 +2243,7 @@ form#user-login, form#user-pass {
         position: relative;
         top: 0px; }
 
-.tabs.secondary {
+.tabs.secondary:not(#views-display-menu-tabs) {
   float: right; }
 
 @media (min-width: 551px) and (max-width: 724px) {

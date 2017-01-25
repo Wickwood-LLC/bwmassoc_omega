@@ -365,7 +365,7 @@
 	}
 }
 
-.tabs.secondary {
+.tabs.secondary:not(#views-display-menu-tabs) {
 	float: right;
 }
 
