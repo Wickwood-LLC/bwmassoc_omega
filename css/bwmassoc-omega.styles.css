@@ -2103,7 +2103,6 @@ form#user-login, form#user-pass {
 
 .tabs--primary,
 .tabs.secondary {
-  height: 30px;
   border-radius: 5px;
   border-bottom: 0;
   margin-bottom: 0;
@@ -2222,6 +2221,9 @@ form#user-login, form#user-pass {
         height: auto;
         position: relative;
         top: 0px; }
+
+.tabs.secondary {
+  float: right; }
 
 @media (min-width: 551px) and (max-width: 724px) {
   body.logged-in #block-superfish-3 #superfish-3 li a i:before {

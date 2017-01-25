@@ -236,7 +236,6 @@
 
 .tabs--primary,
 .tabs.secondary {
-	height: 30px;
 	border-radius: 5px;
 	border-bottom: 0;
 	margin-bottom: 0;
@@ -364,6 +363,10 @@
 			}
 		}
 	}
+}
+
+.tabs.secondary {
+	float: right;
 }
 
 body.logged-in	{
