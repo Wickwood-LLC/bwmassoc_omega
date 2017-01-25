@@ -145,3 +145,20 @@ html.js fieldset.collapsed {
 		}
 	}
 }
+
+#views-ui-preview-form {
+	.form-item-live-preview {
+		float: none;
+	}
+
+	.form-item-view-args {
+		width: auto;
+		display: inline-block;
+	}
+
+	#preview-submit-wrapper {
+		display: inline-block;
+		width: auto;
+		vertical-align: top;
+	}
+}

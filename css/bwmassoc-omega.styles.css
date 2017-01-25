@@ -648,6 +648,16 @@ html.js fieldset.collapsed {
     .form-buttons input:last-child {
       margin-right: 0; }
 
+#views-ui-preview-form .form-item-live-preview {
+  float: none; }
+#views-ui-preview-form .form-item-view-args {
+  width: auto;
+  display: inline-block; }
+#views-ui-preview-form #preview-submit-wrapper {
+  display: inline-block;
+  width: auto;
+  vertical-align: top; }
+
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;
