@@ -606,11 +606,13 @@ input[type="submit"] {
     margin-right: 0; }
 
 input[value="Save"],
-input[value="Apply"] {
+input[value*="Apply"],
+input#edit-submit {
   background-color: #1196cf;
   color: white; }
   input[value="Save"]:hover,
-  input[value="Apply"]:hover {
+  input[value*="Apply"]:hover,
+  input#edit-submit:hover {
     background-color: #2271bd; }
 
 input[value="Remove"] {
