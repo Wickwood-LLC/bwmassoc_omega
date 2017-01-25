@@ -119,7 +119,7 @@ html.js fieldset.collapsed {
 	}
 	[type="submit"] {
 		display: inline-block;
-		margin-left: 0;
+		margin-left: 0 !important;
     	margin-right: 10px;
 
     	&:last-child {

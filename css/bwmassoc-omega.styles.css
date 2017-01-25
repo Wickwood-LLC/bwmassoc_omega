@@ -659,7 +659,7 @@ html.js fieldset.collapsed {
       background-color: red; }
   .form-actions [type="submit"] {
     display: inline-block;
-    margin-left: 0;
+    margin-left: 0 !important;
     margin-right: 10px; }
     .form-actions [type="submit"]:last-child {
       margin-right: 0; }
@@ -2123,14 +2123,14 @@ form#user-login, form#user-pass {
           margin-right: 3px; }
 
 .tabs--primary,
-.tabs.secondary {
+.tabs.secondary:not(#views-display-menu-tabs) {
   border-radius: 5px;
   border-bottom: 0;
   margin-bottom: 0;
   text-transform: capitalize;
   list-style: none; }
   .tabs--primary > li,
-  .tabs.secondary > li {
+  .tabs.secondary:not(#views-display-menu-tabs) > li {
     margin-right: 0;
     height: 30px;
     position: relative;
@@ -2138,26 +2138,26 @@ form#user-login, form#user-pass {
     margin-bottom: 10px;
     float: left; }
     .tabs--primary > li:first-child,
-    .tabs.secondary > li:first-child {
+    .tabs.secondary:not(#views-display-menu-tabs) > li:first-child {
       border-radius: 5px 0 0 5px; }
       .tabs--primary > li:first-child a,
-      .tabs.secondary > li:first-child a {
+      .tabs.secondary:not(#views-display-menu-tabs) > li:first-child a {
         border-radius: 5px 0 0 5px; }
     .tabs--primary > li:last-child,
-    .tabs.secondary > li:last-child {
+    .tabs.secondary:not(#views-display-menu-tabs) > li:last-child {
       border-radius: 0 5px 5px 0; }
       .tabs--primary > li:last-child a,
-      .tabs.secondary > li:last-child a {
+      .tabs.secondary:not(#views-display-menu-tabs) > li:last-child a {
         border-radius: 0 5px 5px 0; }
     .tabs--primary > li:hover,
-    .tabs.secondary > li:hover {
+    .tabs.secondary:not(#views-display-menu-tabs) > li:hover {
       background-color: #a1d4ea; }
     .tabs--primary > li.active,
-    .tabs.secondary > li.active {
+    .tabs.secondary:not(#views-display-menu-tabs) > li.active {
       background-image: -webkit-linear-gradient(top, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%);
       background-image: linear-gradient(to bottom, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%); }
   .tabs--primary a,
-  .tabs.secondary a {
+  .tabs.secondary:not(#views-display-menu-tabs) a {
     background: transparent;
     font-size: 13px;
     float: left;
@@ -2170,19 +2170,19 @@ form#user-login, form#user-pass {
     line-height: 20px;
     box-sizing: border-box; }
     .tabs--primary a.active,
-    .tabs.secondary a.active {
+    .tabs.secondary:not(#views-display-menu-tabs) a.active {
       background-color: transparent;
       color: #fff;
       text-shadow: #33aa58 0 1px 0; }
     .tabs--primary a:hover,
-    .tabs.secondary a:hover {
+    .tabs.secondary:not(#views-display-menu-tabs) a:hover {
       text-decoration: none; }
   .tabs--primary ul.secondary-tabs.links:hover li, .tabs--primary ul.secondary-tabs.links:hover li a,
-  .tabs.secondary ul.secondary-tabs.links:hover li,
-  .tabs.secondary ul.secondary-tabs.links:hover li a {
+  .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs.links:hover li,
+  .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs.links:hover li a {
     float: none; }
   .tabs--primary ul.secondary-tabs,
-  .tabs.secondary ul.secondary-tabs {
+  .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs {
     height: 20px;
     overflow: hidden;
     list-style: none;
@@ -2197,7 +2197,7 @@ form#user-login, form#user-pass {
     padding: 0;
     border-radius: 5px; }
     .tabs--primary ul.secondary-tabs li,
-    .tabs.secondary ul.secondary-tabs li {
+    .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li {
       background: transparent;
       float: none;
       height: auto;
@@ -2205,7 +2205,7 @@ form#user-login, form#user-pass {
       margin-bottom: 0;
       margin-right: 0; }
       .tabs--primary ul.secondary-tabs li a,
-      .tabs.secondary ul.secondary-tabs li a {
+      .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li a {
         display: block;
         float: none;
         height: 0px;
@@ -2216,29 +2216,29 @@ form#user-login, form#user-pass {
         text-shadow: none;
         text-align: left; }
         .tabs--primary ul.secondary-tabs li a:hover,
-        .tabs.secondary ul.secondary-tabs li a:hover {
+        .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li a:hover {
           background: #479bea; }
       .tabs--primary ul.secondary-tabs li:first-child, .tabs--primary ul.secondary-tabs li:first-child a, .tabs--primary ul.secondary-tabs li:first-child a:hover,
-      .tabs.secondary ul.secondary-tabs li:first-child,
-      .tabs.secondary ul.secondary-tabs li:first-child a,
-      .tabs.secondary ul.secondary-tabs li:first-child a:hover {
+      .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li:first-child,
+      .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li:first-child a,
+      .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li:first-child a:hover {
         border-radius: 5px 5px 0 0; }
       .tabs--primary ul.secondary-tabs li:last-child, .tabs--primary ul.secondary-tabs li:last-child a, .tabs--primary ul.secondary-tabs li:last-child a:hover,
-      .tabs.secondary ul.secondary-tabs li:last-child,
-      .tabs.secondary ul.secondary-tabs li:last-child a,
-      .tabs.secondary ul.secondary-tabs li:last-child a:hover {
+      .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li:last-child,
+      .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li:last-child a,
+      .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li:last-child a:hover {
         border-radius: 0 0 5px 5px; }
     .tabs--primary ul.secondary-tabs li.active a,
-    .tabs.secondary ul.secondary-tabs li.active a {
+    .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs li.active a {
       top: 0;
       background: transparent;
       height: 40px; }
     .tabs--primary ul.secondary-tabs:hover,
-    .tabs.secondary ul.secondary-tabs:hover {
+    .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs:hover {
       height: auto;
       overflow: visible; }
       .tabs--primary ul.secondary-tabs:hover li a,
-      .tabs.secondary ul.secondary-tabs:hover li a {
+      .tabs.secondary:not(#views-display-menu-tabs) ul.secondary-tabs:hover li a {
         height: auto;
         position: relative;
         top: 0px; }

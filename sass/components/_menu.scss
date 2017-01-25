@@ -235,7 +235,7 @@
 }
 
 .tabs--primary,
-.tabs.secondary {
+.tabs.secondary:not(#views-display-menu-tabs) {
 	border-radius: 5px;
 	border-bottom: 0;
 	margin-bottom: 0;
