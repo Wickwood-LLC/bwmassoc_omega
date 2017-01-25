@@ -201,6 +201,10 @@
 
 .node-type-article-post,
 .node-type-panopoly-news-article {
+	.pane-content-area {
+		display: inline-block;
+	}
+	
 	.pane-node-title {
 		text-align: center;
 
@@ -247,6 +251,19 @@
 			position: static;
 			padding: 0;
 			margin-bottom: 0.5em;
+		}
+	}
+
+	.view-related-news {
+		.views-row {
+			display: inline-block;
+			width: 100%;
+			margin-bottom: 1em;
+		}
+
+		.views-field-field-featured-image {
+			float: left;
+			margin-right: 1em;
 		}
 	}
 }

@@ -418,6 +418,9 @@ ul.breadcrumb {
     .blog-type-page .l-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
 
+.node-type-article-post .pane-content-area,
+.node-type-panopoly-news-article .pane-content-area {
+  display: inline-block; }
 .node-type-article-post .pane-node-title,
 .node-type-panopoly-news-article .pane-node-title {
   text-align: center; }
@@ -468,6 +471,15 @@ ul.breadcrumb {
     position: static;
     padding: 0;
     margin-bottom: 0.5em; }
+.node-type-article-post .view-related-news .views-row,
+.node-type-panopoly-news-article .view-related-news .views-row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1em; }
+.node-type-article-post .view-related-news .views-field-field-featured-image,
+.node-type-panopoly-news-article .view-related-news .views-field-field-featured-image {
+  float: left;
+  margin-right: 1em; }
 
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }
