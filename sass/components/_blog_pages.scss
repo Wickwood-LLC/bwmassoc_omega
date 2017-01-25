@@ -204,7 +204,7 @@
 	.pane-content-area {
 		display: inline-block;
 	}
-	
+
 	.pane-node-title {
 		text-align: center;
 
@@ -272,6 +272,29 @@
   h1.page-title {
 	text-align: center;
   }
+
+  	.view-related-news {
+		.views-row {
+			display: inline-block;
+			width: 100%;
+			margin-bottom: 1em;
+		}
+
+		.views-field-field-featured-image {
+			float: left;
+			margin-right: 1em;
+		}
+	}
+
+	.boxed {
+		background-color: white;
+
+		.pane-title {
+			position: static;
+			padding: 0;
+			margin-bottom: 0.5em;
+		}
+	}
   
   .content-main {
 	max-width: 960px;

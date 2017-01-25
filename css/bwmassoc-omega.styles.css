@@ -483,6 +483,19 @@ ul.breadcrumb {
 
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }
+.node-type-press-release.panelized-node .view-related-news .views-row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1em; }
+.node-type-press-release.panelized-node .view-related-news .views-field-field-featured-image {
+  float: left;
+  margin-right: 1em; }
+.node-type-press-release.panelized-node .boxed {
+  background-color: white; }
+  .node-type-press-release.panelized-node .boxed .pane-title {
+    position: static;
+    padding: 0;
+    margin-bottom: 0.5em; }
 .node-type-press-release.panelized-node .content-main {
   max-width: 960px;
   background: #FFF;
