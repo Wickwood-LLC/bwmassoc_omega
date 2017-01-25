@@ -32,7 +32,6 @@
 }
 
 input[type="submit"]{
-	display: table;
     padding: 6px 12px;
     font-size: 1em;
     font-weight: 400;
@@ -46,6 +45,28 @@ input[type="submit"]{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    margin-right: 1em;
+
+    &:last-child {
+    	margin-right: 0;
+    }
+}
+input[value="Save"],
+input[value="Apply"] {
+	background-color: #1196cf;
+	color: white;
+
+	&:hover {
+		background-color: #2271bd;
+	}
+}
+input[value="Remove"] {
+	color: white;
+	background: #ffa3a3;
+
+	&:hover {
+		background-color: red;
+	}
 }
 
 #module-filter-show-wrapper .form-item {

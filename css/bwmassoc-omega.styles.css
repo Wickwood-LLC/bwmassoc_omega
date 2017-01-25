@@ -584,7 +584,6 @@ ul.breadcrumb {
     margin: 0; }
 
 input[type="submit"] {
-  display: table;
   padding: 6px 12px;
   font-size: 1em;
   font-weight: 400;
@@ -601,7 +600,24 @@ input[type="submit"] {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px; }
+  border-radius: 4px;
+  margin-right: 1em; }
+  input[type="submit"]:last-child {
+    margin-right: 0; }
+
+input[value="Save"],
+input[value="Apply"] {
+  background-color: #1196cf;
+  color: white; }
+  input[value="Save"]:hover,
+  input[value="Apply"]:hover {
+    background-color: #2271bd; }
+
+input[value="Remove"] {
+  color: white;
+  background: #ffa3a3; }
+  input[value="Remove"]:hover {
+    background-color: red; }
 
 #module-filter-show-wrapper .form-item {
   display: inline-block; }
@@ -2565,7 +2581,7 @@ form#user-login, form#user-pass {
   .page-user-edit .field-add-more-submit:hover,
   .page-admin-people-create .field-add-more-submit:hover,
   .page-user-register .field-add-more-submit:hover {
-    background-color: #61c4ef; }
+    background-color: #2271bd; }
 .page-user-edit .password-strength,
 .page-admin-people-create .password-strength,
 .page-user-register .password-strength {
@@ -3366,7 +3382,7 @@ form#user-login, form#user-pass {
   background-color: #1196cf;
   color: white; }
   #edit-profile-bwma-client .field-name-field-loans input[value="Edit"]:hover {
-    background-color: #61c4ef; }
+    background-color: #2271bd; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Remove"] {
   -webkit-transform: none;
           transform: none;
@@ -3379,7 +3395,7 @@ form#user-login, form#user-pass {
   background-color: #1196cf;
   color: white; }
   #edit-profile-bwma-client .field-name-field-loans input[value="Add new Loan"]:hover {
-    background-color: #61c4ef; }
+    background-color: #2271bd; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"] {
   display: inline-block;
   background-color: #1196cf;
@@ -3387,6 +3403,6 @@ form#user-login, form#user-pass {
   margin-top: 0.5em;
   margin-left: 0.5em; }
   #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"]:hover {
-    background-color: #61c4ef; }
+    background-color: #2271bd; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
