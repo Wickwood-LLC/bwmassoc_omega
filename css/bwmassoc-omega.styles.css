@@ -659,7 +659,10 @@ html.js fieldset.collapsed {
       background-color: red; }
   .form-actions [type="submit"] {
     display: inline-block;
-    margin-left: 10px; }
+    margin-left: 0;
+    margin-right: 10px; }
+    .form-actions [type="submit"]:last-child {
+      margin-right: 0; }
   .form-actions#edit-actions {
     float: none; }
 
