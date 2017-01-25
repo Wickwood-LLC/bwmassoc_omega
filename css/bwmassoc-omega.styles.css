@@ -204,7 +204,7 @@ ul.breadcrumb {
     ul.breadcrumb li:first-child {
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px; }
-      ul.breadcrumb li:first-child:before {
+      ul.breadcrumb li:first-child:before, ul.breadcrumb li:first-child:before:hover {
         border: 0; }
     ul.breadcrumb li:before {
       width: 0px;

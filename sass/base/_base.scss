@@ -235,7 +235,7 @@ ul.breadcrumb {
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px;
 
-      &:before {
+      &:before, &:before:hover {
         border: 0;
       }
     }
