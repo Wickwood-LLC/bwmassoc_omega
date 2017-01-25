@@ -201,6 +201,14 @@
 
 .node-type-article-post,
 .node-type-panopoly-news-article {
+	.pane-node-title {
+		text-align: center;
+
+		h1 {
+			margin-top: 0;
+		}
+	}
+
 	.field--name-field-featured-image {
 		float: left;
 		margin-right: 1em;
@@ -229,6 +237,14 @@
 		@include breakpoint(848px) {
 			flex: 0 300px;
 			padding-left: 15px;
+		}
+	}
+
+	.boxed {
+		background-color: white;
+
+		.pane-title {
+			position: static;
 		}
 	}
 }
