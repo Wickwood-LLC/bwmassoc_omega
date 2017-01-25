@@ -2107,14 +2107,16 @@ form#user-login, form#user-pass {
   border-radius: 5px;
   border-bottom: 0;
   margin-bottom: 0;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  list-style: none; }
   .tabs--primary > li,
   .tabs.secondary > li {
     margin-right: 0;
     height: 30px;
     position: relative;
     background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    float: left; }
     .tabs--primary > li:first-child,
     .tabs.secondary > li:first-child {
       border-radius: 5px 0 0 5px; }
