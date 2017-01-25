@@ -237,6 +237,9 @@ ul.breadcrumb {
     ul.breadcrumb li a {
       color: white; }
 
+.advanced-help-link {
+  float: left; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
@@ -462,7 +465,9 @@ ul.breadcrumb {
   background-color: white; }
   .node-type-article-post .boxed .pane-title,
   .node-type-panopoly-news-article .boxed .pane-title {
-    position: static; }
+    position: static;
+    padding: 0;
+    margin-bottom: 0.5em; }
 
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }
@@ -629,6 +634,19 @@ html.js fieldset.collapsed {
 .field-type-addressfield .form-item,
 [id*="field-phone-values"] .form-item {
   margin-bottom: 0.5em; }
+
+.advanced-help-link {
+  float: left; }
+
+.form-buttons {
+  text-align: center; }
+  .form-buttons input[type="submit"] {
+    display: inline-block; }
+  .form-buttons input {
+    margin-left: 0;
+    margin-right: 1em; }
+    .form-buttons input:last-child {
+      margin-right: 0; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {

@@ -124,3 +124,24 @@ html.js fieldset.collapsed {
 		margin-bottom: 0.5em;
 	}
 }
+
+.advanced-help-link {
+  float: left;
+}
+
+.form-buttons {
+	text-align: center;
+
+	input[type="submit"] {
+		display: inline-block;
+	}
+
+	input {
+		margin-left: 0;
+		margin-right: 1em;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
