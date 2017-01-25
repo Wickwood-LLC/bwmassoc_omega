@@ -191,7 +191,8 @@ div.vertical-tabs {
 
 ul.breadcrumb {
   list-style: none;
-  display: inline-block; }
+  display: inline-block;
+  margin-bottom: 0; }
   ul.breadcrumb li {
     float: left;
     padding-right: 10px;
