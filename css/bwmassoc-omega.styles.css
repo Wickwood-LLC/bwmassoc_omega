@@ -312,6 +312,10 @@ ul.breadcrumb {
       padding: 3px 4px;
       border-radius: 5px;
       width: auto; }
+  .blog-type-page .l-content .panel-myriad-layout .pane-articles-test-panel-pane-1,
+  .blog-type-page .l-content .panel-myriad-layout .pane-news-test-panel-pane-1,
+  .blog-type-page .l-content .panel-myriad-layout .pane-press-releases-test-panel-pane-1 {
+    width: 100%; }
   .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
