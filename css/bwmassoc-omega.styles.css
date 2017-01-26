@@ -298,7 +298,10 @@ ul.breadcrumb {
       margin: 0 0 1em 0; }
       .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed .pane-title {
         position: static;
-        margin-bottom: 0.5em; }
+        margin-bottom: 0.5em;
+        padding: 0;
+        width: 100%;
+        text-align: center; }
       .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed ul {
         padding-left: 20px; }
     .blog-type-page .l-content .panel-myriad-layout .sidebar-content ul {
