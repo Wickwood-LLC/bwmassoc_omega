@@ -206,12 +206,12 @@
 .node-type-article-post,
 .node-type-panopoly-news-article {
 	&.logged-in {
-		.panels-ipe-portlet-wrapper:first-child {
+		.panels-ipe-portlet-marker:first-child {
 			.boxed {
 				margin-top: 0;
 			}
 		}
-		.panels-ipe-portlet-wrapper:last-child {
+		.panels-ipe-portlet-marker:last-child {
 			.boxed {
 				margin-bottom: 0;
 			}
