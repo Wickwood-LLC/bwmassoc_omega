@@ -217,6 +217,17 @@
 		}
 	}
 
+	.pane-page-actions {
+		text-align: center;
+
+		.action-links {
+			display: inline-block;
+			padding: 0;
+			margin: 0;
+			margin-top: -10px;
+		}
+	}
+
 	.field--name-field-featured-image {
 		float: left;
 		margin-right: 1em;

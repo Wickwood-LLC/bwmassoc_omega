@@ -431,6 +431,15 @@ ul.breadcrumb {
   .node-type-article-post .pane-node-title h1,
   .node-type-panopoly-news-article .pane-node-title h1 {
     margin-top: 0; }
+.node-type-article-post .pane-page-actions,
+.node-type-panopoly-news-article .pane-page-actions {
+  text-align: center; }
+  .node-type-article-post .pane-page-actions .action-links,
+  .node-type-panopoly-news-article .pane-page-actions .action-links {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px; }
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image {
   float: left;
