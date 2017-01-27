@@ -237,6 +237,9 @@ ul.breadcrumb {
     ul.breadcrumb li a {
       color: white; }
 
+.pane-node-links img {
+  display: inline-block; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
