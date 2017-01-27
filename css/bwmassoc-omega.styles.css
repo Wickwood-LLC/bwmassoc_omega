@@ -2444,6 +2444,9 @@ form#user-login, form#user-pass {
 .views-table {
   width: 100%; }
 
+.user-account-page-title {
+  margin: 0; }
+
 .pane-basic-user-info-for-user-account .field__label,
 .pane-basic-user-info .field__label {
   width: 124px; }
