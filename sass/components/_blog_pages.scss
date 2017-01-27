@@ -261,22 +261,22 @@
 
 	.radix-layouts-content {
 		flex: 1 1 500px;
-		padding-right: 0;
+		padding-right: 15px;
 
 		@include breakpoint(848px) {
 			min-width: 500px;
-			padding-right: 15px;
+			padding-right: 0;
 		}
 	}
 
 	.radix-layouts-sidebar {
 		flex: 1 300px;
 		min-width: 300px;
-		padding-left: 0;
+		padding-left: 15px;
 
 		@include breakpoint(848px) {
 			flex: 0 300px;
-			padding-left: 15px;
+			padding-left: 0;
 		}
 	}
 

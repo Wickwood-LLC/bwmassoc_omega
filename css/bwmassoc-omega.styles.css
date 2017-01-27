@@ -473,26 +473,26 @@ ul.breadcrumb {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 500px;
           flex: 1 1 500px;
-  padding-right: 0; }
+  padding-right: 15px; }
   @media (min-width: 848px) {
     .node-type-article-post .radix-layouts-content,
     .node-type-panopoly-news-article .radix-layouts-content {
       min-width: 500px;
-      padding-right: 15px; } }
+      padding-right: 0; } }
 .node-type-article-post .radix-layouts-sidebar,
 .node-type-panopoly-news-article .radix-layouts-sidebar {
   -webkit-box-flex: 1;
       -ms-flex: 1 300px;
           flex: 1 300px;
   min-width: 300px;
-  padding-left: 0; }
+  padding-left: 15px; }
   @media (min-width: 848px) {
     .node-type-article-post .radix-layouts-sidebar,
     .node-type-panopoly-news-article .radix-layouts-sidebar {
       -webkit-box-flex: 0;
           -ms-flex: 0 300px;
               flex: 0 300px;
-      padding-left: 15px; } }
+      padding-left: 0; } }
 .node-type-article-post .boxed,
 .node-type-panopoly-news-article .boxed {
   background-color: white; }
