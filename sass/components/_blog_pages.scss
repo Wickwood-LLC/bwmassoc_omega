@@ -339,6 +339,17 @@
 			margin-bottom: 0.5em;
 		}
 	}
+
+	.pane-page-actions {
+		text-align: center;
+
+		.action-links {
+			display: inline-block;
+			padding: 0;
+			margin: 0;
+			margin-top: -10px;
+		}
+	}
   
   .content-main {
 	max-width: 960px;
