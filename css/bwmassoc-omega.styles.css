@@ -192,7 +192,8 @@ div.vertical-tabs {
 ul.breadcrumb {
   list-style: none;
   display: inline-block;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 0; }
   ul.breadcrumb li {
     float: left;
     padding-right: 10px;
@@ -200,8 +201,10 @@ ul.breadcrumb {
     height: 30px;
     padding-left: 10px;
     margin-left: 13px;
+    margin-bottom: 5px;
     background: #1894c7;
-    position: relative; }
+    position: relative;
+    font-size: 12px; }
     ul.breadcrumb li:first-child {
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px; }

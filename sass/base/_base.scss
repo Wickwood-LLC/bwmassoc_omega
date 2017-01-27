@@ -221,6 +221,7 @@ ul.breadcrumb {
   list-style: none;
   display: inline-block;
   margin-bottom: 0;
+  padding: 0;
 
   li {
     float: left;
@@ -229,8 +230,10 @@ ul.breadcrumb {
     height: 30px;
     padding-left: 10px;
     margin-left: 13px;
+    margin-bottom: 5px;
     background: #1894c7;
     position: relative;
+    font-size: 12px;
 
     &:first-child {
       border-top-left-radius: 5px;
