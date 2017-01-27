@@ -489,12 +489,6 @@ ul.breadcrumb {
     position: static;
     padding: 0;
     margin-bottom: 0.5em; }
-  .node-type-article-post .boxed:first-child,
-  .node-type-panopoly-news-article .boxed:first-child {
-    margin-top: 0; }
-  .node-type-article-post .boxed:last-child,
-  .node-type-panopoly-news-article .boxed:last-child {
-    margin-bottom: 0; }
 .node-type-article-post .view-related-news .view-content,
 .node-type-panopoly-news-article .view-related-news .view-content {
   display: -webkit-box;
