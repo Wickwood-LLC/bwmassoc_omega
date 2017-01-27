@@ -205,6 +205,27 @@
 
 .node-type-article-post,
 .node-type-panopoly-news-article {
+	&.logged-in {
+		[class*="panels"]:first-child {
+			.panel-pane {
+				margin-top: 0;
+			}
+		}
+		[class*="panels"]:last-child {
+			.panel-pane {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&.not-logged-in {
+		.panel-pane:first-child {
+			margin-top: 0;
+		}
+		.panel-pane:last-child {
+			margin-bottom: 0;
+		}
+	}
+
 	.pane-content-area {
 		display: inline-block;
 	}
