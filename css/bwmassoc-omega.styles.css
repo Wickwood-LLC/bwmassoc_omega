@@ -442,6 +442,9 @@ ul.breadcrumb {
 .node-type-article-post.not-logged-in .boxed:last-child,
 .node-type-panopoly-news-article.not-logged-in .boxed:last-child {
   margin-bottom: 0; }
+.node-type-article-post article.boxed,
+.node-type-panopoly-news-article article.boxed {
+  margin: 0; }
 .node-type-article-post .pane-content-area,
 .node-type-panopoly-news-article .pane-content-area {
   display: inline-block; }
