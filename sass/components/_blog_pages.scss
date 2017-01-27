@@ -267,13 +267,26 @@
 			padding: 0;
 			margin-bottom: 0.5em;
 		}
+
+		&:first-child {
+			margin-top: 0;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 	.view-related-news {
+		.view-content {
+			display: flex;
+			flex-flow: row wrap;
+		}
+
 		.views-row {
 			display: inline-block;
 			width: 100%;
 			margin-bottom: 1em;
+			flex: 1 1 250px;
 		}
 
 		.views-field-field-featured-image {
