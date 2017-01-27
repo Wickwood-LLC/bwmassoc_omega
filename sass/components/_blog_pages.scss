@@ -265,7 +265,6 @@
 
 		@include breakpoint(848px) {
 			min-width: 500px;
-			padding-right: 0;
 		}
 	}
 
@@ -276,7 +275,6 @@
 
 		@include breakpoint(848px) {
 			flex: 0 300px;
-			padding-left: 0;
 		}
 	}
 
