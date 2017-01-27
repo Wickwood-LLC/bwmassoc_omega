@@ -2537,8 +2537,9 @@ form#user-login, form#user-pass {
 
 .action-links {
   font-size: 11px;
-  padding: 20px 0 20px 10px;
-  margin-top: 5px; }
+  padding: 0;
+  margin-top: 0;
+  display: inline-block; }
   .action-links > li {
     margin-left: 0;
     list-style: none; }
@@ -3315,6 +3316,8 @@ form#user-login, form#user-pass {
   padding: 3px 5px;
   right: -50px; }
 
+#edit-profile-bwma-client .profile-edit-form-title h1 {
+  margin: 0; }
 #edit-profile-bwma-client .pane-user-field-identification {
   display: block; }
   #edit-profile-bwma-client .pane-user-field-identification .field__item {
