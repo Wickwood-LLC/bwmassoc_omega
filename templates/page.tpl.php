@@ -112,7 +112,7 @@
       <?php print $messages; ?>
       <?php print render($page['help']); ?>
       <?php if ($action_links && !(in_array($node->type, array('article_post', 'panopoly_news_article', 'press_release')))): ?> 
-        <!-- <ul class="action-links"><?php print render($action_links); ?></ul> -->
+        <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
