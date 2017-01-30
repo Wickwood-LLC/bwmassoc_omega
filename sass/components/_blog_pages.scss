@@ -45,7 +45,7 @@
 		    margin: 0.5em;
 
 		    @include breakpoint(375px) {
-				width: 300px;
+				max-width: 300px;
 				flex: 1 1 300px;
 
 			}
