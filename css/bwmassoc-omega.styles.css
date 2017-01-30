@@ -524,7 +524,7 @@ ul.breadcrumb {
   float: left;
   margin-right: 1em; }
 
-.node-type-press-release.panelized-node .logged-in .field--name-field-basic-text-text h1 {
+.node-type-press-release.panelized-node.logged-in .field--name-field-basic-text-text h1 {
   margin-bottom: 0; }
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }

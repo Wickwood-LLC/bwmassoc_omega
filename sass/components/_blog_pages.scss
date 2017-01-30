@@ -313,7 +313,7 @@
 }
 
 .node-type-press-release.panelized-node {
-	.logged-in {
+	&.logged-in {
 		.field--name-field-basic-text-text h1 {
 			margin-bottom: 0;
 		}
