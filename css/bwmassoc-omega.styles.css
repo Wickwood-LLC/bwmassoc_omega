@@ -297,7 +297,7 @@ ul.breadcrumb {
     margin: 0.5em; }
     @media (min-width: 375px) {
       .blog-type-page .l-content .panel-myriad-layout .sidebar-content {
-        min-width: 300px;
+        width: 300px;
         -webkit-box-flex: 1;
             -ms-flex: 1 1 300px;
                 flex: 1 1 300px; } }
@@ -333,7 +333,6 @@ ul.breadcrumb {
     display: flex;
     -ms-flex-flow: row wrap;
         flex-flow: row wrap;
-    background-color: #0355a3;
     border-radius: 8px; }
     .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row {
       width: 50%;
@@ -341,8 +340,8 @@ ul.breadcrumb {
           -ms-flex: 1 100%;
               flex: 1 100%;
       padding: 0.5em;
-      margin: 0.5em;
-      border: 2px solid #0355a3;
+      margin: 0 0.5em;
+      border: 2px solid #cccccc;
       border-radius: 5px;
       background-color: white;
       font-size: 14px;
