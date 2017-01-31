@@ -579,13 +579,6 @@ ul.breadcrumb {
     display: inline-flex; }
     .node-type-press-release.panelized-node .field--name-field-full-contact-details h4:after {
       content: '\00a0'; }
-.node-type-press-release.panelized-node .field--name-field-upload-document {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
 .node-type-press-release.panelized-node .field--name-field-featured-image {
   width: 100%; }
   @media (min-width: 481px) {
