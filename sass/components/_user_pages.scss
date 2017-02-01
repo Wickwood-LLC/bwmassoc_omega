@@ -829,6 +829,10 @@
 	}
 
 	.field-name-field-loans {
+		.ief-form {
+			@include loans-ief;
+		}
+		
 		table {
 			width: 100%;
 		}

@@ -13,3 +13,325 @@
     min-width: $min-width;
   }
 }
+
+@mixin loans-ief {
+  * {
+    box-sizing: border-box;
+  }
+  div[class*="form-title"] {
+    display: inline;
+  }
+
+  .group-loan-custom-title {
+    .field-name-field-loan-custom-title {
+      @include flexifields(90px);
+    }
+
+    .field-name-field-loan-custom-title-options {
+      .form-radios {
+        display: inline-block;
+        width: auto;
+        margin-left: 10px;
+      }
+      .form-type-radio {
+        display: inline-block;
+        width: auto;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .field-name-field-used-diy-form {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .loan-debit-info,
+  .deferred-enrolment-fees {
+    @include breakpoint(0px) {
+      width: 100%;
+      margin-right: 0;
+      float: none;
+    }
+     @include breakpoint(780px) {
+      display: block;
+      width: 49%;
+      margin-right: 1%;
+      float: left;
+      clear: left;
+    }
+    @include breakpoint(992px) {
+      width: 100%;
+      margin-right: 0;
+      float: none;
+    }
+    @include breakpoint(1280px) {
+      display: block;
+      width: 49%;
+      margin-right: 1%;
+      float: left;
+      clear: left;
+    }
+  }
+  .loan-notes {
+    clear: both;
+    width: 100%;
+  }
+
+  .field-name-field-bwma-loan-program {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    .form-radios .form-item {
+      float: left;
+      width: 150px;
+    }
+  }
+
+  .field-name-field-drafting-account-informati {
+    .fieldset-title {
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .field .field-label {
+      width: 152px;
+    }
+
+    .form-item {
+      input {
+        width: auto;
+      }
+      label {
+        width: 150px;
+      }
+    }
+
+    .field-name-field-account-owner-name,
+    .field-name-field-lender {
+      @include flexifields(150px);
+    }
+    .field-name-field-account-type {
+      .form-item.form-type-radios {
+        width: 100%;
+      }
+      .form-radios {
+        display: inline-block;
+      }
+      .form-type-radio {
+        display: inline-block;
+        margin-right: 10px;
+        width: auto;
+      }
+    }
+  }
+
+  .field-name-field-total-deferred-enrollment- {
+    input {
+      display: inline-block;
+      width: auto;
+    }
+  }
+  .field-name-field-loan-enrollment-date {
+    display: inline-block;
+  }
+  .field-name-field-used-diy-form {
+    display: inline-block;
+    vertical-align: top;
+
+    label.option {
+      font-size: 13px;
+      font-weight: bold;
+    }
+  }
+  .field-name-field-deferred-fee-amount {
+    width: 100%;
+  }
+  .field-name-field-additional-extra-principal,
+  .field-name-field-debit-amount-advanced-by-s,
+  .field-name-field-debit-advanced-by-afts-amo {
+    input {
+      width: auto;
+    }
+  }
+
+  .field-name-field-collection-status {
+    .field-name-field-status,
+    .field-name-field-date {
+      float: left;
+      width: 50%;
+    }
+
+    .field-name-field-status .description {
+      display: inline-block;
+      width: auto;
+    }
+
+    .field-name-field-note {
+      clear: left;
+    }
+  }
+
+  .field-name-field-welcome-package-note {
+    clear: left;
+  }
+  .field-name-field-debit-fee-notes {
+    .field-name-field-note {
+      clear: left;
+    }
+  }
+  .field-name-field-amount input {
+    width: auto;
+  }
+
+  .field-name-field-address {
+    .form-item {
+      display: flex;
+      align-items: center;
+
+      label {
+        flex: 0 0 75px;
+      }
+      input {
+        flex: auto;
+      }
+      select {
+        width: auto;
+      }
+    }
+  }
+  .field-name-field-loan-type .form-item {
+    display: flex;
+    align-items: center;
+
+    label {
+      flex: 0 0 90px;
+    }
+  }
+
+  .field-name-field-monthly-payment,
+  .field-name-field-additional-extra-principal,
+  .field-name-field-debit-fee {
+    input {
+      width: auto;
+    }
+  }
+
+  .field-name-field-debiting-schedule .form-radios .form-item {
+    float: left;
+    width: 100px;
+  }
+
+  .field-name-field-current-lender,
+  .field-name-field-current-service-bureau {
+    label {
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    .field-items { margin-left: 0; }
+  }
+
+  .afts-advance {
+    label { width: 287px; }
+    input { width: auto;  }
+
+    .field-name-field-debit-advanced-by-afts-amo,
+    .field-name-field-chargeback-fee-amount {
+      label {
+        margin-right: -12px;
+      }
+    }
+  }
+
+  .field-name-field-deferred-fees {
+    label { width: 162px; }
+    input { width: auto;  }
+
+    .field-name-field-deferred-fee-amount {
+      label {
+        margin-right: -12px;
+      }
+    }
+  }
+  
+  .bwma-enrolment,
+  .loan-lenders,
+  .loan-sb,
+  .afts-advance,
+  .loan-status-history {
+    @include breakpoint(0px) {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+    }
+    @include breakpoint(780px) {
+      display: inline-block;
+      width: 49%;
+      margin-left: 1%;
+    }
+    @include breakpoint(992px) {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+    }
+    @include breakpoint(1280px) {
+      display: inline-block;
+      width: 49%;
+      margin-left: 1%;
+    }
+  }
+  .loan-status-history {
+    float: right;
+  }
+  .loan-chaos-data {
+    clear: both;
+
+    .form-item input {
+      width: auto;
+    }
+  }
+  .loan-lenders {
+    .field-name-field-lender .form-item {
+      display: flex;
+
+      label { flex: 0 0 114px; }
+      input { flex: auto; }
+    }
+    label { width: 110px;  }
+    input { width: auto;  }
+  }
+  .loan-sb {
+    .field-name-field-service-bureau .form-item {
+      display: flex;
+
+      label { flex: 0 0 184px; }
+      input { flex: auto; }
+    }
+    label { width: 180px;  }
+    input { width: auto;  }
+  }
+
+  .boxed {
+    position: relative;
+
+    h3 {
+      position: absolute;
+      top: -11px;
+      background: white;
+      padding: 0 0.5em;
+    }
+  }
+
+  div[class*="form-status"] {
+    display: none;
+    
+    .form-type-radio {
+      display: inline-block;
+      padding: 5px;
+      width: auto;
+  
+      label { font-weight: bold; }
+    }
+  }
+}
