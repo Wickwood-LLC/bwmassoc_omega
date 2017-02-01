@@ -462,10 +462,19 @@ ul.breadcrumb {
     padding: 0;
     margin: 0;
     margin-top: -10px; }
-.node-type-article-post .field--name-field-featured-image,
-.node-type-panopoly-news-article .field--name-field-featured-image {
+.node-type-article-post .field--name-field-featured-image img,
+.node-type-panopoly-news-article .field--name-field-featured-image img {
   float: left;
-  margin-right: 1em; }
+  margin-bottom: 1em;
+  max-width: 480px;
+  height: auto;
+  width: 100%; }
+  @media (min-width: 481px) {
+    .node-type-article-post .field--name-field-featured-image img,
+    .node-type-panopoly-news-article .field--name-field-featured-image img {
+      width: 50%;
+      margin-right: 1em;
+      margin-bottom: 0; } }
 .node-type-article-post .row,
 .node-type-panopoly-news-article .row {
   display: -webkit-box;

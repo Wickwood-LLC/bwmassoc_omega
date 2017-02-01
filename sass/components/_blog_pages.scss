@@ -254,8 +254,19 @@
 	}
 
 	.field--name-field-featured-image {
-		float: left;
-		margin-right: 1em;
+		img {
+			float: left;
+			margin-bottom: 1em;
+			max-width: 480px;
+			height: auto;
+			width: 100%;
+
+			@include breakpoint(481px) {
+				width: 50%;
+				margin-right: 1em;
+				margin-bottom: 0;
+			}
+		}
 	}
 
 	.row {
