@@ -3624,9 +3624,12 @@ form#user-login, form#user-pass {
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input,
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-fee input {
   width: auto; }
-#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debiting-schedule .form-radios .form-item {
-  float: left;
-  width: 100px; }
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debiting-schedule {
+  display: inline-block; }
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debiting-schedule .form-radios .form-item {
+    float: left;
+    min-width: 150px;
+    width: 25%; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-current-lender label,
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-current-service-bureau label {
   font-weight: bold;

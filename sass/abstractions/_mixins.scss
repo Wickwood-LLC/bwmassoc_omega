@@ -224,9 +224,14 @@
     }
   }
 
-  .field-name-field-debiting-schedule .form-radios .form-item {
-    float: left;
-    width: 100px;
+  .field-name-field-debiting-schedule {
+    display: inline-block;
+    
+    .form-radios .form-item {
+      float: left;
+      min-width: 150px;
+      width: 25%;
+    }
   }
 
   .field-name-field-current-lender,
