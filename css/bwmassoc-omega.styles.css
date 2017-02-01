@@ -3448,6 +3448,10 @@ form#user-login, form#user-pass {
   box-sizing: border-box; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form div[class*="form-title"] {
   display: inline; }
+#edit-profile-bwma-client .field-name-field-loans .ief-form .form-wrapper {
+  margin-bottom: 10px; }
+#edit-profile-bwma-client .field-name-field-loans .ief-form .description {
+  white-space: normal; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3720,10 +3724,7 @@ form#user-login, form#user-pass {
 #edit-profile-bwma-client .field-name-field-loans .ief-form .boxed {
   position: relative; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .boxed h3 {
-    position: absolute;
-    top: -11px;
-    background: white;
-    padding: 0 0.5em; }
+    margin-top: 0; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] {
   display: none; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio {
