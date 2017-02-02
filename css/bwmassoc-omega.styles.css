@@ -2721,24 +2721,28 @@ form#user-login, form#user-pass {
     .page-admin-people-create .pane-user-form-account .form-item-status .form-radios .form-type-radio label,
     .page-user-register .pane-user-form-account .form-item-status .form-radios .form-type-radio label {
       width: auto; }
-.page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes,
-.page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes,
-.page-user-register .pane-user-form-account .form-item-roles .form-checkboxes {
-  -webkit-column-count: 1;
-     -moz-column-count: 1;
-          column-count: 1; }
-  @media (min-width: 1020px) and (max-width: 1249px) {
-    .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes,
-    .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes,
-    .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes {
-      -webkit-column-count: 2;
-         -moz-column-count: 2;
-              column-count: 2; } }
-  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
-  .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
-  .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
-    display: block;
-    min-width: 200px; }
+.page-user-edit .pane-user-form-account .form-item-roles,
+.page-admin-people-create .pane-user-form-account .form-item-roles,
+.page-user-register .pane-user-form-account .form-item-roles {
+  display: block; }
+  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes,
+  .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes,
+  .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes {
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1; }
+    @media (min-width: 1020px) and (max-width: 1249px) {
+      .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes,
+      .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes,
+      .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes {
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2; } }
+    .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
+    .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
+    .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
+      display: block;
+      min-width: 200px; }
 .page-user-edit .pane-user-form-account .form-item-notify,
 .page-admin-people-create .pane-user-form-account .form-item-notify,
 .page-user-register .pane-user-form-account .form-item-notify {
