@@ -338,13 +338,15 @@
 
 		.form-item-roles {
 			.form-checkboxes {
-				display: flex;
-	    		flex-flow: row wrap;
+				column-count: 1;
+
+				@include breakpoint(1020px 1249px) {
+					column-count: 2;
+				}
 	
 				.form-type-checkbox {
 					display: block;
 				    min-width: 200px;
-				    flex: 1 1 50%;
 				}
 			}
 		}
