@@ -605,6 +605,13 @@ ul.breadcrumb {
   .node-type-press-release.panelized-node .pane-node-links .links {
     display: inline-block; }
 
+.node-type-lender .panel-display,
+.node-type-service-bureau .panel-display {
+  background-color: white;
+  padding: 1em;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px; }
+
 #block-block-3 p {
   display: inline-block;
   width: 100%; }
