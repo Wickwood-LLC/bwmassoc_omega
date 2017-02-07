@@ -230,4 +230,14 @@ html.js fieldset.collapsed {
 	tbody {
 		width: 100%;
 	}
+	tr.draggable {
+		display: flex;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		width: 100%;
+
+		td:not([class]) {
+			position: relative;
+		}
+	}
 }

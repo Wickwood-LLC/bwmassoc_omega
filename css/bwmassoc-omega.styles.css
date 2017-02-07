@@ -787,6 +787,15 @@ html.js fieldset.collapsed {
   background-color: #c0eaff; }
 .field-multiple-table tbody {
   width: 100%; }
+.field-multiple-table tr.draggable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 100%; }
+  .field-multiple-table tr.draggable td:not([class]) {
+    position: relative; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
