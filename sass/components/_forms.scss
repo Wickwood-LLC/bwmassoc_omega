@@ -223,13 +223,10 @@ html.js fieldset.collapsed {
 }
 
 .field-multiple-table {
-	width: 100%;
-	display: flex;
-
-	th.field-label {
-		display: none;
+	th {
+		padding: 5px;
+		background-color: #c0eaff;
 	}
-
 	tbody {
 		width: 100%;
 	}

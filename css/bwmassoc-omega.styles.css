@@ -782,15 +782,11 @@ html.js fieldset.collapsed {
   width: auto;
   vertical-align: top; }
 
-.field-multiple-table {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .field-multiple-table th.field-label {
-    display: none; }
-  .field-multiple-table tbody {
-    width: 100%; }
+.field-multiple-table th {
+  padding: 5px;
+  background-color: #c0eaff; }
+.field-multiple-table tbody {
+  width: 100%; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
