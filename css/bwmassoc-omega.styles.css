@@ -681,7 +681,13 @@ input[value="Remove"] {
 input.field-add-more-submit {
   text-transform: capitalize;
   margin: .5em auto 0;
-  display: table; }
+  display: table;
+  background-color: #1196cf;
+  color: white;
+  border: 0;
+  border-radius: 5px; }
+  input.field-add-more-submit:hover {
+    background-color: #2271bd; }
 
 input[value="Remove"] {
   position: absolute;
@@ -696,14 +702,6 @@ input[value="Remove"] {
   border-radius: 5px; }
   input[value="Remove"]:hover {
     background-color: red; }
-
-.field-add-more-submit {
-  background-color: #1196cf;
-  color: white;
-  border: 0;
-  border-radius: 5px; }
-  .field-add-more-submit:hover {
-    background-color: #2271bd; }
 
 #module-filter-show-wrapper .form-item {
   display: inline-block; }
@@ -2637,40 +2635,6 @@ form#user-login, form#user-pass {
   margin-left: 25px;
   font-weight: normal;
   text-align: left; }
-.page-user-edit input.field-add-more-submit,
-.page-admin-people-create input.field-add-more-submit,
-.page-user-register input.field-add-more-submit {
-  text-transform: capitalize;
-  margin: .5em auto 0;
-  display: table; }
-.page-user-edit input[value="Remove"],
-.page-admin-people-create input[value="Remove"],
-.page-user-register input[value="Remove"] {
-  position: absolute;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  right: -60px;
-  top: 50%;
-  background-color: #ffa3a3;
-  color: white;
-  min-width: auto !important;
-  border: 0;
-  border-radius: 5px; }
-  .page-user-edit input[value="Remove"]:hover,
-  .page-admin-people-create input[value="Remove"]:hover,
-  .page-user-register input[value="Remove"]:hover {
-    background-color: red; }
-.page-user-edit .field-add-more-submit,
-.page-admin-people-create .field-add-more-submit,
-.page-user-register .field-add-more-submit {
-  background-color: #1196cf;
-  color: white;
-  border: 0;
-  border-radius: 5px; }
-  .page-user-edit .field-add-more-submit:hover,
-  .page-admin-people-create .field-add-more-submit:hover,
-  .page-user-register .field-add-more-submit:hover {
-    background-color: #2271bd; }
 .page-user-edit .password-strength,
 .page-admin-people-create .password-strength,
 .page-user-register .password-strength {

@@ -71,10 +71,18 @@ input[value="Remove"] {
 }
 
 input.field-add-more-submit {
-	    text-transform: capitalize;
-	    margin: .5em auto 0;
-	    display: table;
+	text-transform: capitalize;
+	margin: .5em auto 0;
+	display: table;
+	background-color: #1196cf;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+
+	&:hover {
+		background-color: #2271bd;
 	}
+}
 
 input[value="Remove"] {
 	position: absolute;
@@ -90,16 +98,6 @@ input[value="Remove"] {
 
 	&:hover {
 		background-color: red;
-	}
-}
-.field-add-more-submit {
-	background-color: #1196cf;
-	color: white;
-	border: 0;
-	border-radius: 5px;
-
-	&:hover {
-		background-color: #2271bd;
 	}
 }
 
