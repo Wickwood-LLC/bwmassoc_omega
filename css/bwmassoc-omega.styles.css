@@ -605,13 +605,6 @@ ul.breadcrumb {
   .node-type-press-release.panelized-node .pane-node-links .links {
     display: inline-block; }
 
-.node-type-lender .panel-display,
-.node-type-service-bureau .panel-display {
-  background-color: white;
-  padding: 1em;
-  border: 1px solid #c1c1c1;
-  border-radius: 5px; }
-
 #block-block-3 p {
   display: inline-block;
   width: 100%; }
@@ -684,6 +677,33 @@ input[value="Remove"] {
   background: #ffa3a3; }
   input[value="Remove"]:hover {
     background-color: red; }
+
+input.field-add-more-submit {
+  text-transform: capitalize;
+  margin: .5em auto 0;
+  display: table; }
+
+input[value="Remove"] {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  right: -60px;
+  top: 50%;
+  background-color: #ffa3a3;
+  color: white;
+  min-width: auto !important;
+  border: 0;
+  border-radius: 5px; }
+  input[value="Remove"]:hover {
+    background-color: red; }
+
+.field-add-more-submit {
+  background-color: #1196cf;
+  color: white;
+  border: 0;
+  border-radius: 5px; }
+  .field-add-more-submit:hover {
+    background-color: #2271bd; }
 
 #module-filter-show-wrapper .form-item {
   display: inline-block; }
@@ -2377,6 +2397,13 @@ form#user-login, form#user-pass {
     padding: 16px 20px; }
   body.not-logged-in #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a {
     padding: 16px 20px; } }
+
+.node-type-lender .panel-display,
+.node-type-service-bureau .panel-display {
+  background-color: white;
+  padding: 1em;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px; }
 
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
