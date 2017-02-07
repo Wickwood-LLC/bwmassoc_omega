@@ -659,8 +659,6 @@ input[type="submit"] {
   border: 1px solid transparent;
   border-radius: 4px;
   margin-right: 1em; }
-  input[type="submit"]:last-child {
-    margin-right: 0; }
 
 input[value="Save"],
 input[value*="Apply"],
@@ -674,7 +672,8 @@ input#edit-submit {
 
 input[value="Remove"] {
   color: white;
-  background: #ffa3a3; }
+  background: #ffa3a3;
+  margin-right: 0; }
   input[value="Remove"]:hover {
     background-color: red; }
 
@@ -782,6 +781,16 @@ html.js fieldset.collapsed {
   display: inline-block;
   width: auto;
   vertical-align: top; }
+
+.field-multiple-table {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .field-multiple-table th.field-label {
+    display: none; }
+  .field-multiple-table tbody {
+    width: 100%; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {

@@ -48,7 +48,7 @@ input[type="submit"]{
     margin-right: 1em;
 
     &:last-child {
-    	margin-right: 0;
+    	// margin-right: 0;
     }
 }
 input[value="Save"],
@@ -64,6 +64,7 @@ input#edit-submit {
 input[value="Remove"] {
 	color: white;
 	background: #ffa3a3;
+	margin-right: 0;
 
 	&:hover {
 		background-color: red;
@@ -218,5 +219,18 @@ html.js fieldset.collapsed {
 		display: inline-block;
 		width: auto;
 		vertical-align: top;
+	}
+}
+
+.field-multiple-table {
+	width: 100%;
+	display: flex;
+
+	th.field-label {
+		display: none;
+	}
+
+	tbody {
+		width: 100%;
 	}
 }
