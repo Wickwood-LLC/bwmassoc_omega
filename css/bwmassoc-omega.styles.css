@@ -794,6 +794,10 @@ html.js fieldset.collapsed {
   border: 1px solid #ccc;
   box-sizing: border-box;
   width: 100%; }
+  .field-multiple-table tr.draggable td.field-multiple-drag {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
   .field-multiple-table tr.draggable td:not([class]) {
     position: relative; }
 

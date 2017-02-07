@@ -236,6 +236,10 @@ html.js fieldset.collapsed {
 		box-sizing: border-box;
 		width: 100%;
 
+		td.field-multiple-drag {
+			order: 1;
+		}
+
 		td:not([class]) {
 			position: relative;
 		}
