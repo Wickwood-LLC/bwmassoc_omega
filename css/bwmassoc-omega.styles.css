@@ -833,7 +833,8 @@ html.js fieldset.collapsed {
 .pane-form div.addressfield-container-inline > div.form-item {
   float: none; }
 
-form[class*="panelizer"] {
+form[class*="panelizer"],
+form[class*="panels"] {
   background-color: white;
   padding: 1em;
   border: 1px solid #c1c1c1;
