@@ -2460,6 +2460,13 @@ form#user-login, form#user-pass {
   border: 1px solid #c1c1c1;
   border-radius: 5px; }
 
+.page-admin .admin-list,
+.page-admin .admin {
+  background-color: white;
+  padding: 1em;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px; }
+
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
