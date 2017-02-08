@@ -2012,6 +2012,13 @@ html.js fieldset.collapsed {
         color: black; }
 
 /* These are styles for the login and registration pages. */
+.page-user-login main#main-content,
+.not-logged-in.page-user main#main-content,
+.page-user-password main#main-content {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0; }
 .page-user-login .l-main .row,
 .not-logged-in.page-user .l-main .row,
 .page-user-password .l-main .row {
