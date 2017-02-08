@@ -292,7 +292,7 @@ html.js fieldset.collapsed {
 	}
 }
 
-form.panelizer-edit-content-form {
+form[class*="panelizer"] {
 	background-color: white;
 	padding: 1em;
 	border: 1px solid #c1c1c1;
