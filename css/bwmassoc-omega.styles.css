@@ -640,7 +640,8 @@ ul.breadcrumb {
   .form-item .container-inline-date .form-item input {
     margin: 0; }
 
-input[type="submit"] {
+input[type="submit"],
+a.button.fake-ok {
   padding: 6px 12px;
   font-size: 1em;
   font-weight: 400;
@@ -662,12 +663,14 @@ input[type="submit"] {
 
 input[value="Save"],
 input[value*="Apply"],
-input#edit-submit {
+input#edit-submit,
+a.button.fake-ok {
   background-color: #1196cf;
   color: white; }
   input[value="Save"]:hover,
   input[value*="Apply"]:hover,
-  input#edit-submit:hover {
+  input#edit-submit:hover,
+  a.button.fake-ok:hover {
     background-color: #2271bd; }
 
 input[value="Remove"] {
