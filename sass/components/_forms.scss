@@ -246,7 +246,10 @@ html.js fieldset.collapsed {
 		}
 
 		td:not([class]) {
+			flex: 100%;
+			display: block;
 			position: relative;
+			width: calc(100% - 38px);
 		}
 	}
 }

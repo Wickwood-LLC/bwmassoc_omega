@@ -804,7 +804,12 @@ html.js fieldset.collapsed {
     padding: 10px;
     padding-right: 0; }
   .field-multiple-table tr.draggable td:not([class]) {
-    position: relative; }
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    display: block;
+    position: relative;
+    width: calc(100% - 38px); }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
