@@ -1477,6 +1477,11 @@ html.js fieldset.collapsed {
   color: #0355a3;
   text-decoration: none; }
 
+.section-biweekly-calculator main#main-content {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0; }
 .section-biweekly-calculator hr {
   margin-bottom: 20px;
   border: 0;
@@ -1633,6 +1638,12 @@ html.js fieldset.collapsed {
     font-family: FontAwesome;
     margin-right: 5px; }
 
+.section-7-minutes-7-years main#main-content,
+.section-as-seen-on-tv main#main-content {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0; }
 .section-7-minutes-7-years .radix-bryant .row .pane-content-area-bwmassoc,
 .section-as-seen-on-tv .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0 2em; }
@@ -1656,6 +1667,11 @@ html.js fieldset.collapsed {
     font-family: FontAwesome;
     margin-right: 5px; }
 
+.section-compare-biweeklies main#main-content {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0; }
 .section-compare-biweeklies .pane-content-area-bwmassoc {
   padding: 0 1em; }
   .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body .field__item > h1 {
@@ -1688,6 +1704,12 @@ html.js fieldset.collapsed {
       font-family: FontAwesome;
       margin-right: 5px; }
 
+.section-contact-bwma main#main-content,
+.section-contact-bwmassoc main#main-content {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0; }
 .section-contact-bwma .pane-content-area-bwmassoc,
 .section-contact-bwmassoc .pane-content-area-bwmassoc {
   padding: 0 1em; }
@@ -1762,6 +1784,11 @@ html.js fieldset.collapsed {
         background-color: #68afcc;
         color: white; }
 
+.section-biweekly-calculator.page-node-12862 main#main-content {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0; }
 .section-biweekly-calculator.page-node-12862 .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0 2em 1em 2em; }
 .section-biweekly-calculator.page-node-12862 .pane-node-body {
