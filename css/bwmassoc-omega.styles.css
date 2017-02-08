@@ -811,6 +811,8 @@ html.js fieldset.collapsed {
     position: relative;
     width: calc(100% - 38px); }
 
+.pane-form .form-item {
+  margin-bottom: 0.5em; }
 .pane-form .field-widget-link-field tr.draggable td.field-multiple-drag {
   width: 110px; }
 .pane-form .field-widget-link-field tr.draggable td:not([class]) {
@@ -820,7 +822,7 @@ html.js fieldset.collapsed {
   .pane-form .field-widget-link-field .link-field-title .form-item:before {
     content: 'Title';
     font-weight: bold;
-    width: 37px;
+    width: 33px;
     display: inline-block; }
 .pane-form .field-widget-link-field .link-field-url {
   width: 100%; }
@@ -828,6 +830,8 @@ html.js fieldset.collapsed {
   -webkit-transform: none;
           transform: none;
   right: -83px; }
+.pane-form div.addressfield-container-inline > div.form-item {
+  float: none; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
