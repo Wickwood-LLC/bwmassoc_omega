@@ -811,20 +811,20 @@ html.js fieldset.collapsed {
     position: relative;
     width: calc(100% - 38px); }
 
-.field-widget-link-field tr.draggable td.field-multiple-drag {
+.pane-form .field-widget-link-field tr.draggable td.field-multiple-drag {
   width: 110px; }
-.field-widget-link-field tr.draggable td:not([class]) {
+.pane-form .field-widget-link-field tr.draggable td:not([class]) {
   width: calc(100% - 110px); }
-.field-widget-link-field .link-field-title {
+.pane-form .field-widget-link-field .link-field-title {
   width: 100%; }
-  .field-widget-link-field .link-field-title .form-item:before {
+  .pane-form .field-widget-link-field .link-field-title .form-item:before {
     content: 'Title';
     font-weight: bold;
     width: 37px;
     display: inline-block; }
-.field-widget-link-field .link-field-url {
+.pane-form .field-widget-link-field .link-field-url {
   width: 100%; }
-.field-widget-link-field input[value="Remove"] {
+.pane-form .field-widget-link-field input[value="Remove"] {
   -webkit-transform: none;
           transform: none;
   right: -83px; }
