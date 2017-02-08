@@ -2460,8 +2460,7 @@ form#user-login, form#user-pass {
   border: 1px solid #c1c1c1;
   border-radius: 5px; }
 
-.page-admin .admin-list,
-.page-admin .admin {
+main#main-content {
   background-color: white;
   padding: 1em;
   border: 1px solid #c1c1c1;
