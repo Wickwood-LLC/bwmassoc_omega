@@ -2517,22 +2517,16 @@ main#main-content {
       margin-bottom: 1em;
       width: 100%; } }
 
-#user-account-main-page,
-#user-account-client-profile {
-  background-color: white;
-  padding: 1em;
-  border: 1px solid #c1c1c1;
-  border-radius: 5px; }
-  #user-account-main-page .action-links li,
-  #user-account-client-profile .action-links li {
+#user-account-main-page .action-links li,
+#user-account-client-profile .action-links li {
+  list-style: none; }
+#user-account-main-page ul,
+#user-account-client-profile ul {
+  margin: 0;
+  padding: 0; }
+  #user-account-main-page ul li,
+  #user-account-client-profile ul li {
     list-style: none; }
-  #user-account-main-page ul,
-  #user-account-client-profile ul {
-    margin: 0;
-    padding: 0; }
-    #user-account-main-page ul li,
-    #user-account-client-profile ul li {
-      list-style: none; }
 
 .field {
   line-height: 1.3; }
@@ -2663,13 +2657,6 @@ main#main-content {
 
 .pane-user-history-panel-pane-1 {
   margin-top: 0; }
-
-#user-profile-form,
-#edit-profile-bwma-client {
-  background: white;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 1em; }
 
 .page-user-edit .form-item .clearfix,
 .page-admin-people-create .form-item .clearfix,
