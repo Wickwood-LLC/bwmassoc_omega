@@ -811,6 +811,24 @@ html.js fieldset.collapsed {
     position: relative;
     width: calc(100% - 38px); }
 
+.field-widget-link-field tr.draggable td.field-multiple-drag {
+  width: 110px; }
+.field-widget-link-field tr.draggable td:not([class]) {
+  width: calc(100% - 110px); }
+.field-widget-link-field .link-field-title {
+  width: 100%; }
+  .field-widget-link-field .link-field-title .form-item:before {
+    content: 'Title';
+    font-weight: bold;
+    width: 37px;
+    display: inline-block; }
+.field-widget-link-field .link-field-url {
+  width: 100%; }
+.field-widget-link-field input[value="Remove"] {
+  -webkit-transform: none;
+          transform: none;
+  right: -83px; }
+
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;
@@ -2424,8 +2442,8 @@ form#user-login, form#user-pass {
   body.not-logged-in #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a {
     padding: 16px 20px; } }
 
-.node-type-lender .panel-display,
-.node-type-service-bureau .panel-display {
+.page-node .panel-display,
+.node-form .panel-display {
   background-color: white;
   padding: 1em;
   border: 1px solid #c1c1c1;

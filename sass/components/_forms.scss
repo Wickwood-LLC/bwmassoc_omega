@@ -253,3 +253,31 @@ html.js fieldset.collapsed {
 		}
 	}
 }
+
+.field-widget-link-field {
+	tr.draggable {
+		td.field-multiple-drag {
+			width: 110px;
+		}
+		td:not([class]) {
+			width: calc(100% - 110px);
+		}
+	}
+	.link-field-title {
+		width: 100%;
+
+		.form-item:before {
+			content: 'Title';
+			font-weight: bold;
+			width: 37px;
+			display: inline-block;
+		}
+	}
+	.link-field-url {
+		width: 100%;
+	}
+	input[value="Remove"] {
+		transform: none;
+		right: -83px;
+	}
+}
