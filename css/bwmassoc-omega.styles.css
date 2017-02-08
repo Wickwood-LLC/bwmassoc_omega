@@ -833,6 +833,12 @@ html.js fieldset.collapsed {
 .pane-form div.addressfield-container-inline > div.form-item {
   float: none; }
 
+form.panelizer-edit-content-form {
+  background-color: white;
+  padding: 1em;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px; }
+
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;

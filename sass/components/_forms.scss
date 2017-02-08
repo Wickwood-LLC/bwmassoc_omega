@@ -258,7 +258,7 @@ html.js fieldset.collapsed {
 	.form-item {
 		margin-bottom: 0.5em;
 	}
-	
+
 	.field-widget-link-field {
 		tr.draggable {
 			td.field-multiple-drag {
@@ -290,4 +290,11 @@ html.js fieldset.collapsed {
 	div.addressfield-container-inline > div.form-item {
 		float: none;
 	}
+}
+
+form.panelizer-edit-content-form {
+	background-color: white;
+	padding: 1em;
+	border: 1px solid #c1c1c1;
+	border-radius: 5px;
 }
