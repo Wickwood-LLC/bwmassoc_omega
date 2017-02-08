@@ -2446,8 +2446,7 @@ form#user-login, form#user-pass {
   body.not-logged-in #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a {
     padding: 16px 20px; } }
 
-.page-node .panel-display,
-.node-form .panel-display {
+.page-node .panel-display {
   background-color: white;
   padding: 1em;
   border: 1px solid #c1c1c1;
