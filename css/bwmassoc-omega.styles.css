@@ -57,7 +57,8 @@ body {
   display: inline-block;
   width: 100%;
   background: #f2f2f2;
-  box-shadow: #cecece 0px 0px 3px 2px;
+  -webkit-box-shadow: #cecece 0px 0px 3px 2px;
+          box-shadow: #cecece 0px 0px 3px 2px;
   margin-bottom: 10px; }
   .l-branding.blockFloat-processed {
     z-index: 10;
@@ -144,16 +145,20 @@ td {
 
 .title-bar {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
   .title-bar .page-title {
     -webkit-box-flex: 1;
+    -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; }
 
@@ -256,9 +261,11 @@ ul.breadcrumb {
   border-radius: 5px;
   padding: 1em;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   color: red;
@@ -266,21 +273,26 @@ ul.breadcrumb {
   text-align: center; }
 .blog-type-page .l-content .panel-myriad-layout {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   padding: 1em;
   padding-top: 0px; }
   .blog-type-page .l-content .panel-myriad-layout .row-one {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     width: 100%; }
   .blog-type-page .l-content .panel-myriad-layout .main-content {
     -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
         -ms-flex: 1 100%;
             flex: 1 100%;
     padding: 0.5em; }
@@ -288,10 +300,12 @@ ul.breadcrumb {
       .blog-type-page .l-content .panel-myriad-layout .main-content {
         min-width: 560px;
         -webkit-box-flex: 3;
+        -webkit-flex: 3 0 560px;
             -ms-flex: 3 0 560px;
                 flex: 3 0 560px; } }
   .blog-type-page .l-content .panel-myriad-layout .sidebar-content {
     -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0;
         -ms-flex: 1 1 0px;
             flex: 1 1 0;
     margin: 0.5em; }
@@ -299,6 +313,7 @@ ul.breadcrumb {
       .blog-type-page .l-content .panel-myriad-layout .sidebar-content {
         max-width: 300px;
         -webkit-box-flex: 1;
+        -webkit-flex: 1 1 300px;
             -ms-flex: 1 1 300px;
                 flex: 1 1 300px; } }
     .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed {
@@ -329,14 +344,17 @@ ul.breadcrumb {
     width: 100%; }
   .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     border-radius: 8px; }
     .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row {
       width: 50%;
       -webkit-box-flex: 1;
+      -webkit-flex: 1 100%;
           -ms-flex: 1 100%;
               flex: 1 100%;
       padding: 1em;
@@ -346,13 +364,16 @@ ul.breadcrumb {
       background-color: white;
       font-size: 14px;
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap; }
+      -webkit-flex-flow: column nowrap;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
       @media (min-width: 420px) {
         .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row {
           -webkit-box-flex: 1;
+          -webkit-flex: 1 1 300px;
               -ms-flex: 1 1 300px;
                   flex: 1 1 300px;
           font-size: 18px;
@@ -362,6 +383,7 @@ ul.breadcrumb {
         height: auto; }
       .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-body {
         -webkit-box-flex: 1;
+        -webkit-flex: 1;
             -ms-flex: 1;
                 flex: 1; }
     .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-field-title h2 {
@@ -379,29 +401,36 @@ ul.breadcrumb {
       height: auto; }
   .blog-type-page .l-content .panel-myriad-layout .main-display .view-content {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
     .blog-type-page .l-content .panel-myriad-layout .main-display .view-content .views-row {
       -webkit-box-flex: 1;
+      -webkit-flex: 1 30%;
           -ms-flex: 1 30%;
               flex: 1 30%;
       margin: 0.5em;
       background-color: white;
       font-size: 14px;
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap; }
+      -webkit-flex-flow: column nowrap;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
       @media (min-width: 375px) {
         .blog-type-page .l-content .panel-myriad-layout .main-display .view-content .views-row {
           min-width: 300px;
           -webkit-box-flex: 1;
+          -webkit-flex: 1 300px;
               -ms-flex: 1 300px;
                   flex: 1 300px;
           font-size: 18px; } }
@@ -417,6 +446,7 @@ ul.breadcrumb {
         text-align: center; }
       .blog-type-page .l-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body {
         -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
             -ms-flex-positive: 1;
                 flex-grow: 1; }
   .blog-type-page .l-content .panel-myriad-layout .views-field-view-node a {
@@ -478,13 +508,16 @@ ul.breadcrumb {
 .node-type-article-post .row,
 .node-type-panopoly-news-article .row {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .node-type-article-post .radix-layouts-content,
 .node-type-panopoly-news-article .radix-layouts-content {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 500px;
       -ms-flex: 1 1 500px;
           flex: 1 1 500px;
   padding-right: 15px; }
@@ -495,6 +528,7 @@ ul.breadcrumb {
 .node-type-article-post .radix-layouts-sidebar,
 .node-type-panopoly-news-article .radix-layouts-sidebar {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 300px;
       -ms-flex: 1 300px;
           flex: 1 300px;
   min-width: 300px;
@@ -503,6 +537,7 @@ ul.breadcrumb {
     .node-type-article-post .radix-layouts-sidebar,
     .node-type-panopoly-news-article .radix-layouts-sidebar {
       -webkit-box-flex: 0;
+      -webkit-flex: 0 300px;
           -ms-flex: 0 300px;
               flex: 0 300px; } }
 .node-type-article-post .boxed,
@@ -516,16 +551,19 @@ ul.breadcrumb {
 .node-type-article-post .view-related-news .view-content,
 .node-type-panopoly-news-article .view-related-news .view-content {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .node-type-article-post .view-related-news .views-row,
 .node-type-panopoly-news-article .view-related-news .views-row {
   display: inline-block;
   width: 100%;
   margin-bottom: 1em;
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 250px;
       -ms-flex: 1 1 250px;
           flex: 1 1 250px; }
 .node-type-article-post .view-related-news .views-field-field-featured-image,
@@ -560,14 +598,17 @@ ul.breadcrumb {
   background: #FFF;
   margin: 1em auto;
   position: relative;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   padding: 5%;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   .node-type-press-release.panelized-node .content-main:before, .node-type-press-release.panelized-node .content-main:after {
     content: "";
     position: absolute;
     z-index: -1;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     top: 50%;
     bottom: 0;
     left: 10px;
@@ -584,6 +625,7 @@ ul.breadcrumb {
   .node-type-press-release.panelized-node .field--name-field-full-contact-details h4 {
     margin: 0;
     display: -webkit-inline-box;
+    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
     .node-type-press-release.panelized-node .field--name-field-full-contact-details h4:after {
@@ -694,7 +736,8 @@ input.field-add-more-submit {
 input[value="Remove"] {
   position: absolute;
   -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
   right: -60px;
   top: 50%;
   background-color: #ffa3a3;
@@ -792,26 +835,32 @@ html.js fieldset.collapsed {
   width: 100%; }
 .field-multiple-table tr.draggable {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #ccc;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%; }
   .field-multiple-table tr.draggable td.field-multiple-drag {
     -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     display: block;
     width: 50px;
     padding: 10px;
     padding-right: 0; }
   .field-multiple-table tr.draggable td:not([class]) {
     -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
     display: block;
     position: relative;
+    width: -webkit-calc(100% - 38px);
     width: calc(100% - 38px); }
 
 .pane-form .form-item {
@@ -819,6 +868,7 @@ html.js fieldset.collapsed {
 .pane-form .field-widget-link-field tr.draggable td.field-multiple-drag {
   width: 110px; }
 .pane-form .field-widget-link-field tr.draggable td:not([class]) {
+  width: -webkit-calc(100% - 110px);
   width: calc(100% - 110px); }
 .pane-form .field-widget-link-field .link-field-title {
   width: 100%; }
@@ -831,6 +881,7 @@ html.js fieldset.collapsed {
   width: 100%; }
 .pane-form .field-widget-link-field input[value="Remove"] {
   -webkit-transform: none;
+      -ms-transform: none;
           transform: none;
   right: -83px; }
 .pane-form div.addressfield-container-inline > div.form-item {
@@ -840,6 +891,7 @@ html.js fieldset.collapsed {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column; } }
 
@@ -912,9 +964,11 @@ html.js fieldset.collapsed {
   text-align: center;
   width: 100%;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
   @media (min-width: 603px) and (max-width: 763px) {
@@ -933,15 +987,19 @@ html.js fieldset.collapsed {
 
 #wwm-collapse-3 .left-column {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100px;
       -ms-flex: 0 0 100px;
           flex: 0 0 100px; }
   #wwm-collapse-3 .left-column > div {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
   #wwm-collapse-3 .left-column .pane-block-4 {
@@ -998,12 +1056,15 @@ html.js fieldset.collapsed {
   @media (min-width: 1024px) {
     #wwm-collapse-3 .left-column {
       -webkit-box-flex: 0;
+      -webkit-flex: 0 0 301px;
           -ms-flex: 0 0 301px;
               flex: 0 0 301px;
       -webkit-box-align: center;
+      -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center;
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
       #wwm-collapse-3 .left-column .pane-block-4 {
@@ -1011,6 +1072,7 @@ html.js fieldset.collapsed {
   @media (min-width: 1200px) {
     #wwm-collapse-3 .left-column {
       -webkit-box-flex: 0;
+      -webkit-flex: 0 0 377px;
           -ms-flex: 0 0 377px;
               flex: 0 0 377px; }
       #wwm-collapse-3 .left-column .pane-block-4 {
@@ -1028,6 +1090,7 @@ html.js fieldset.collapsed {
         height: 180px; } }
 #wwm-collapse-3 .right-column {
   -webkit-box-flex: 0;
+  -webkit-flex: 0;
       -ms-flex: 0;
           flex: 0; }
   #wwm-collapse-3 .right-column .share-us .pane-title {
@@ -1040,14 +1103,18 @@ html.js fieldset.collapsed {
     color: grey; }
   #wwm-collapse-3 .right-column #widgets-element-socialmedia_share-default {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
+    -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
     width: 100px;
@@ -1058,15 +1125,18 @@ html.js fieldset.collapsed {
       margin: 2px; }
 #wwm-collapse-3 .middle-column {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 auto;
       -ms-flex: 1 auto;
           flex: 1 auto; }
   #wwm-collapse-3 .middle-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) {
     text-align: center;
     display: inline-table;
     vertical-align: middle;
+    margin-left: -webkit-calc(50% - 238px);
     margin-left: calc(50% - 238px); }
     @media (min-width: 586px) and (max-width: 745px) {
       #wwm-collapse-3 .middle-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) {
+        margin-left: -webkit-calc(38% - 238px);
         margin-left: calc(38% - 238px); } }
     #wwm-collapse-3 .middle-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) h2.pane-title {
       font-size: 17px;
@@ -1081,9 +1151,11 @@ html.js fieldset.collapsed {
     vertical-align: middle; }
   #wwm-collapse-3 .middle-column #widgets-element-socialmedia_share-default {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
     #wwm-collapse-3 .middle-column #widgets-element-socialmedia_share-default .widgets-element {
@@ -1091,35 +1163,43 @@ html.js fieldset.collapsed {
 
 .page-node-12852 .radix-bryant .row {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   margin: 0; }
   .page-node-12852 .radix-bryant .row .radix-layouts-sidebar {
     -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
     -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
     padding: 0; }
     @media (min-width: 1024px) {
       .page-node-12852 .radix-bryant .row .radix-layouts-sidebar {
         -webkit-box-ordinal-group: 1;
+        -webkit-order: 0;
             -ms-flex-order: 0;
                 order: 0;
         -webkit-box-flex: 25%;
+        -webkit-flex: 25%;
             -ms-flex: 25%;
                 flex: 25%; } }
   .page-node-12852 .radix-bryant .row .radix-layouts-content {
     -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
     padding: 0; }
     @media (min-width: 1024px) {
       .page-node-12852 .radix-bryant .row .radix-layouts-content {
-        -webkit-box-flex: calc(75% - 1em);
+        -webkit-box-flex: -webkit-calc(75% - 1em);
+        -webkit-flex: -webkit-calc(75% - 1em);
             -ms-flex: calc(75% - 1em);
                 flex: calc(75% - 1em);
         padding-left: 1em; } }
@@ -1128,15 +1208,19 @@ html.js fieldset.collapsed {
   padding: 0;
   margin-bottom: -1px;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: -webkit-calc(100% - 17px);
   width: calc(100% - 17px); }
   .page-node-12852 ul.quicktabs-tabs li {
     padding: 0;
     margin-right: 5px;
     -webkit-box-flex: 1;
+    -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto; }
     .page-node-12852 ul.quicktabs-tabs li a {
@@ -1164,6 +1248,7 @@ html.js fieldset.collapsed {
         border-radius: 0 12px 0 0;
         border-bottom: 1px solid #c1c1c1;
         -webkit-transform: skew(24deg);
+            -ms-transform: skew(24deg);
                 transform: skew(24deg);
         right: -13px;
         z-index: 1;
@@ -1220,10 +1305,12 @@ html.js fieldset.collapsed {
     border-top: 1px solid #eee; }
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .node__content {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .field--name-body {
-    -webkit-box-flex: calc((100% / 3) * 2);
+    -webkit-box-flex: -webkit-calc((100% / 3) * 2);
+    -webkit-flex: -webkit-calc((100% / 3) * 2);
         -ms-flex: calc((100% / 3) * 2);
             flex: calc((100% / 3) * 2);
     display: inline-block;
@@ -1236,10 +1323,12 @@ html.js fieldset.collapsed {
         text-decoration: none; }
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .field--name-field-featured-image {
     -webkit-box-flex: 1;
+    -webkit-flex: 1 45%;
         -ms-flex: 1 45%;
             flex: 1 45%;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
     z-index: 1; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .field--name-field-featured-image .field__items img {
       width: 100%;
@@ -1251,6 +1340,7 @@ html.js fieldset.collapsed {
         width: 100%; } }
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .text-info {
     -webkit-box-flex: 1;
+    -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .text-info ul {
@@ -1258,9 +1348,11 @@ html.js fieldset.collapsed {
       padding: 0; }
       .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .text-info ul li {
         display: -webkit-box;
+        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
+        -webkit-align-items: center;
             -ms-flex-align: center;
                 align-items: center;
         font-size: 14px;
@@ -1285,14 +1377,17 @@ html.js fieldset.collapsed {
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #conventional > .content,
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #supersaver > .content {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
+    -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #conventional > .content > .media,
     .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #supersaver > .content > .media {
       -webkit-box-flex: 1;
+      -webkit-flex: 1;
           -ms-flex: 1;
               flex: 1; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #conventional > .content li p,
@@ -1371,6 +1466,7 @@ html.js fieldset.collapsed {
       background-color: #c0eaff; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-3 .field--name-body td {
       padding: 10px;
+      width: -webkit-calc(100% / 3);
       width: calc(100% / 3); }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-3 .calculate-savings {
       color: #fff;
@@ -1395,18 +1491,22 @@ html.js fieldset.collapsed {
 .page-contact-bwma .radix-bryant .row,
 .page-node-10005 .radix-bryant .row {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   margin: 0; }
   .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
   .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
   .page-node-10005 .radix-bryant .row .radix-layouts-sidebar {
     -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
     -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
     padding: 0; }
@@ -1415,9 +1515,11 @@ html.js fieldset.collapsed {
       .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
       .page-node-10005 .radix-bryant .row .radix-layouts-sidebar {
         -webkit-box-ordinal-group: 1;
+        -webkit-order: 0;
             -ms-flex-order: 0;
                 order: 0;
         -webkit-box-flex: 25%;
+        -webkit-flex: 25%;
             -ms-flex: 25%;
                 flex: 25%; } }
     .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
@@ -1434,9 +1536,11 @@ html.js fieldset.collapsed {
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
     .page-node-10005 .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default {
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
+      -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center; }
       .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
@@ -1447,6 +1551,7 @@ html.js fieldset.collapsed {
   .page-contact-bwma .radix-bryant .row .radix-layouts-content,
   .page-node-10005 .radix-bryant .row .radix-layouts-content {
     -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
     padding: 0; }
@@ -1454,7 +1559,8 @@ html.js fieldset.collapsed {
       .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
       .page-contact-bwma .radix-bryant .row .radix-layouts-content,
       .page-node-10005 .radix-bryant .row .radix-layouts-content {
-        -webkit-box-flex: calc(75% - 1em);
+        -webkit-box-flex: -webkit-calc(75% - 1em);
+        -webkit-flex: -webkit-calc(75% - 1em);
             -ms-flex: calc(75% - 1em);
                 flex: calc(75% - 1em);
         padding-left: 1em; } }
@@ -1491,19 +1597,23 @@ html.js fieldset.collapsed {
   border-top: 1px solid #eee; }
 .section-biweekly-calculator .pane-content-area-bwmassoc {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .section-biweekly-calculator .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0;
   position: relative; }
 .section-biweekly-calculator .pane-node-title {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%; }
 .section-biweekly-calculator .pane-node-body {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%;
   display: inline-block;
@@ -1512,6 +1622,7 @@ html.js fieldset.collapsed {
   @media (min-width: 768px) {
     .section-biweekly-calculator .pane-node-body {
       -webkit-box-flex: 0;
+      -webkit-flex: 0 66%;
           -ms-flex: 0 66%;
               flex: 0 66%;
       padding: 0; } }
@@ -1538,6 +1649,7 @@ html.js fieldset.collapsed {
 .section-biweekly-calculator div[alt="Compare Home"] {
   max-width: 255px;
   -webkit-box-flex: 1;
+  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
 .section-biweekly-calculator img[alt="Compare Home"] {
@@ -1549,6 +1661,7 @@ html.js fieldset.collapsed {
       width: 100%; } }
 .section-biweekly-calculator .text-info {
   -webkit-box-flex: 1;
+  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
   .section-biweekly-calculator .text-info ul {
@@ -1556,9 +1669,11 @@ html.js fieldset.collapsed {
     padding: 0; }
     .section-biweekly-calculator .text-info ul li {
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
+      -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center;
       font-size: 14px;
@@ -1584,14 +1699,17 @@ html.js fieldset.collapsed {
 .section-biweekly-calculator #conventional > .content,
 .section-biweekly-calculator #supersaver > .content {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
   .section-biweekly-calculator #conventional > .content > .media,
   .section-biweekly-calculator #supersaver > .content > .media {
     -webkit-box-flex: 1;
+    -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; }
   .section-biweekly-calculator #conventional > .content li p,
@@ -1692,6 +1810,7 @@ html.js fieldset.collapsed {
     background-color: #c0eaff; }
   .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body td {
     padding: 10px;
+    width: -webkit-calc(100% / 3);
     width: calc(100% / 3); }
   .section-compare-biweeklies .pane-content-area-bwmassoc .calculate-savings {
     color: #fff;
@@ -1740,6 +1859,7 @@ html.js fieldset.collapsed {
   .section-contact-bwma .pane-content-area-bwmassoc .form-item input,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .form-item input {
     font-size: 16px;
+    width: -webkit-calc(100% - 133px);
     width: calc(100% - 133px); }
   .section-contact-bwma .pane-content-area-bwmassoc .form-item select,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .form-item select {
@@ -1797,17 +1917,20 @@ html.js fieldset.collapsed {
 .section-biweekly-calculator.page-node-12862 .pane-node-body {
   display: inline-block;
   -webkit-box-flex: 1;
+  -webkit-flex: 1 -webkit-calc(40% - 1em);
       -ms-flex: 1 calc(40% - 1em);
           flex: 1 calc(40% - 1em);
   margin-right: 1em;
   vertical-align: top;
   -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
       -ms-flex-order: 1;
           order: 1;
   font-size: 1.2em; }
   @media (min-width: 822px) {
     .section-biweekly-calculator.page-node-12862 .pane-node-body {
       -webkit-box-ordinal-group: 1;
+      -webkit-order: 0;
           -ms-flex-order: 0;
               order: 0; } }
   .section-biweekly-calculator.page-node-12862 .pane-node-body li {
@@ -1825,6 +1948,7 @@ html.js fieldset.collapsed {
   margin-bottom: 1em; }
   @media (min-width: 768px) {
     .pane-superfish-4 {
+      width: -webkit-calc(100% - 12px);
       width: calc(100% - 12px);
       margin-bottom: 0; } }
 
@@ -1833,15 +1957,18 @@ html.js fieldset.collapsed {
   padding: 0;
   margin-bottom: -1px;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   width: 100%; }
   #superfish-4 li {
     padding: 0;
     margin-right: 10px;
     -webkit-box-flex: 1;
+    -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto;
     z-index: 1; }
@@ -1870,6 +1997,7 @@ html.js fieldset.collapsed {
         border-radius: 0 12px 0 0;
         border-bottom: 1px solid #c1c1c1;
         -webkit-transform: skew(24deg);
+            -ms-transform: skew(24deg);
                 transform: skew(24deg);
         right: -13px;
         z-index: 1;
@@ -1979,11 +2107,13 @@ html.js fieldset.collapsed {
   border: 1px solid #239fd3;
   border-top: 0px;
   border-radius: 0 0 10px 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: block !important; }
   #superfish-4-accordion li {
     border: 1px solid #ddd;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     float: none;
     width: 100%; }
     #superfish-4-accordion li:first-child a {
@@ -2026,9 +2156,11 @@ html.js fieldset.collapsed {
 .not-logged-in.page-user .l-main .row,
 .page-user-password .l-main .row {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
 .page-user-login .col-md-3,
@@ -2055,14 +2187,17 @@ html.js fieldset.collapsed {
   max-width: 554px;
   margin-left: auto;
   margin-right: auto;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
   @media (min-width: 0px) and (max-width: 423px) {
     .page-user-login fieldset.captcha,
     .not-logged-in.page-user fieldset.captcha,
     .page-user-password fieldset.captcha {
       -webkit-transform: scale(0.75);
+          -ms-transform: scale(0.75);
               transform: scale(0.75);
       -webkit-transform-origin: 0 0;
+          -ms-transform-origin: 0 0;
               transform-origin: 0 0; } }
   .page-user-login fieldset.captcha legend,
   .not-logged-in.page-user fieldset.captcha legend,
@@ -2310,6 +2445,7 @@ form#user-login, form#user-pass {
       background-color: #a1d4ea; }
     .tabs--primary > li.active,
     .tabs.secondary:not(#views-display-menu-tabs) > li.active {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#1e5799), color-stop(0%, #33a6d7), color-stop(98%, #0792cd), to(#0355a3));
       background-image: -webkit-linear-gradient(top, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%);
       background-image: linear-gradient(to bottom, #1e5799 0%, #33a6d7 0%, #0792cd 98%, #0355a3 100%); }
   .tabs--primary a,
@@ -2324,7 +2460,8 @@ form#user-login, form#user-pass {
     text-shadow: #fff 0 1px 0;
     height: 30px;
     line-height: 20px;
-    box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
     .tabs--primary a.active,
     .tabs.secondary:not(#views-display-menu-tabs) a.active {
       background-color: transparent;
@@ -2492,12 +2629,15 @@ main#main-content {
 
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
 .view-bwma-client-testimonials .views-row {
   position: relative;
   margin: 1em; }
@@ -2507,6 +2647,7 @@ main#main-content {
     position: absolute;
     z-index: 2;
     bottom: 37px;
+    width: -webkit-calc(100% - 8px);
     width: calc(100% - 8px);
     text-align: center;
     padding: 5px;
@@ -2715,6 +2856,7 @@ main#main-content {
   float: none;
   margin: 0 auto 1em;
   -webkit-box-flex: 1;
+  -webkit-flex: 1 100%;
       -ms-flex: 1 100%;
           flex: 1 100%; }
 .page-user-edit .password-confirm,
@@ -2723,6 +2865,7 @@ main#main-content {
   float: none;
   margin: 0 auto 1em;
   -webkit-box-flex: 1;
+  -webkit-flex: 1 100%;
       -ms-flex: 1 100%;
           flex: 1 100%; }
   .page-user-edit .password-confirm.form-text,
@@ -2737,24 +2880,29 @@ main#main-content {
 .page-admin-people-create .pane-user-form-account .form-item,
 .page-user-register .pane-user-form-account .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .pane-user-form-account label,
 .page-admin-people-create .pane-user-form-account label,
 .page-user-register .pane-user-form-account label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 130px;
       -ms-flex: 0 0 130px;
           flex: 0 0 130px; }
 .page-user-edit .pane-user-form-account input,
 .page-admin-people-create .pane-user-form-account input,
 .page-user-register .pane-user-form-account input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 130px);
       -ms-flex: 1 1 calc(100% - 130px);
           flex: 1 1 calc(100% - 130px);
   min-width: 150px; }
@@ -2764,6 +2912,7 @@ main#main-content {
 .page-user-register .pane-user-form-account .form-type-password-confirm label,
 .page-user-register .pane-user-form-account .form-type-password-confirm input {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
 .page-user-edit .pane-user-form-account .form-item-status .form-radios,
@@ -2812,20 +2961,24 @@ main#main-content {
   .page-admin-people-create .pane-user-form-account .form-item-notify .form-checkbox,
   .page-user-register .pane-user-form-account .form-item-notify .form-checkbox {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
   .page-user-edit .pane-user-form-account .form-item-notify input,
   .page-admin-people-create .pane-user-form-account .form-item-notify input,
   .page-user-register .pane-user-form-account .form-item-notify input {
     -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
         -ms-flex: 0 auto;
             flex: 0 auto; }
   .page-user-edit .pane-user-form-account .form-item-notify label,
   .page-admin-people-create .pane-user-form-account .form-item-notify label,
   .page-user-register .pane-user-form-account .form-item-notify label {
     -webkit-box-flex: 1;
+    -webkit-flex: 1 130px;
         -ms-flex: 1 130px;
             flex: 1 130px;
     margin-left: 0; }
@@ -2833,24 +2986,29 @@ main#main-content {
 .page-admin-people-create .pane-basic-user-info-user-edit .form-item,
 .page-user-register .pane-basic-user-info-user-edit .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .pane-basic-user-info-user-edit label,
 .page-admin-people-create .pane-basic-user-info-user-edit label,
 .page-user-register .pane-basic-user-info-user-edit label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150px;
       -ms-flex: 0 0 150px;
           flex: 0 0 150px; }
 .page-user-edit .pane-basic-user-info-user-edit input,
 .page-admin-people-create .pane-basic-user-info-user-edit input,
 .page-user-register .pane-basic-user-info-user-edit input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 150px);
       -ms-flex: 1 1 calc(100% - 150px);
           flex: 1 1 calc(100% - 150px);
   min-width: 150px; }
@@ -2868,14 +3026,17 @@ main#main-content {
 .page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
 .page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate label,
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary label,
 .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate label,
@@ -2883,6 +3044,7 @@ main#main-content {
 .page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate label,
 .page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100px;
       -ms-flex: 0 0 100px;
           flex: 0 0 100px; }
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
@@ -2892,6 +3054,7 @@ main#main-content {
 .page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate input,
 .page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 100px);
       -ms-flex: 1 1 calc(100% - 100px);
           flex: 1 1 calc(100% - 100px);
   min-width: 150px; }
@@ -2913,6 +3076,7 @@ main#main-content {
 .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label,
 .page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 65px;
       -ms-flex: 0 0 65px;
           flex: 0 0 65px; }
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-radios,
@@ -2967,6 +3131,7 @@ main#main-content {
 .page-user-register .field-multiple-table {
   width: 100%;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   .page-user-edit .field-multiple-table th.field-label,
@@ -2981,24 +3146,29 @@ main#main-content {
 .page-admin-people-create .pane-user-group-full-name .form-item,
 .page-user-register .pane-user-group-full-name .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .pane-user-group-full-name label,
 .page-admin-people-create .pane-user-group-full-name label,
 .page-user-register .pane-user-group-full-name label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 110px;
       -ms-flex: 0 0 110px;
           flex: 0 0 110px; }
 .page-user-edit .pane-user-group-full-name input,
 .page-admin-people-create .pane-user-group-full-name input,
 .page-user-register .pane-user-group-full-name input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 110px);
       -ms-flex: 1 1 calc(100% - 110px);
           flex: 1 1 calc(100% - 110px);
   min-width: 150px; }
@@ -3006,6 +3176,7 @@ main#main-content {
 .page-admin-people-create .pane-user-group-full-name .description,
 .page-user-register .pane-user-group-full-name .description {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
 .page-user-edit .pane-user-group-full-name .form-type-radio,
@@ -3026,22 +3197,27 @@ main#main-content {
 .page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]),
 .page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   .page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user,
   .page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user,
   .page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user {
     -webkit-box-flex: 1;
+    -webkit-flex: 1 1 -webkit-calc(100% - 271px);
         -ms-flex: 1 1 calc(100% - 271px);
             flex: 1 1 calc(100% - 271px);
     display: -webkit-inline-box;
+    display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex; }
     .page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input,
     .page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input,
     .page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input {
+      width: -webkit-calc(100% - 40px);
       width: calc(100% - 40px);
       min-width: 150px; }
 .page-user-edit .field-name-field-user-notes .field-name-field-date,
@@ -3089,24 +3265,29 @@ main#main-content {
 .page-admin-people-create .field-name-field-phone .form-item,
 .page-user-register .field-name-field-phone .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .field-name-field-phone label,
 .page-admin-people-create .field-name-field-phone label,
 .page-user-register .field-name-field-phone label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 120px;
       -ms-flex: 0 0 120px;
           flex: 0 0 120px; }
 .page-user-edit .field-name-field-phone input,
 .page-admin-people-create .field-name-field-phone input,
 .page-user-register .field-name-field-phone input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 120px);
       -ms-flex: 1 1 calc(100% - 120px);
           flex: 1 1 calc(100% - 120px);
   min-width: 150px; }
@@ -3114,6 +3295,7 @@ main#main-content {
 .page-admin-people-create .field-name-field-phone .description,
 .page-user-register .field-name-field-phone .description {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
 .page-user-edit .field-name-field-phone > div > .form-item,
@@ -3128,6 +3310,7 @@ main#main-content {
 .page-admin-people-create .field-name-field-phone .field-name-field-note label,
 .page-user-register .field-name-field-phone .field-name-field-note label {
   -webkit-box-flex: 1;
+  -webkit-flex: auto;
       -ms-flex: auto;
           flex: auto;
   white-space: normal; }
@@ -3142,24 +3325,29 @@ main#main-content {
 .page-admin-people-create .field-name-field-collection-mailing-address .form-item,
 .page-user-register .field-name-field-collection-mailing-address .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .field-name-field-collection-mailing-address label,
 .page-admin-people-create .field-name-field-collection-mailing-address label,
 .page-user-register .field-name-field-collection-mailing-address label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 114px;
       -ms-flex: 0 0 114px;
           flex: 0 0 114px; }
 .page-user-edit .field-name-field-collection-mailing-address input,
 .page-admin-people-create .field-name-field-collection-mailing-address input,
 .page-user-register .field-name-field-collection-mailing-address input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 114px);
       -ms-flex: 1 1 calc(100% - 114px);
           flex: 1 1 calc(100% - 114px);
   min-width: 150px; }
@@ -3167,6 +3355,7 @@ main#main-content {
 .page-admin-people-create .field-name-field-collection-mailing-address .description,
 .page-user-register .field-name-field-collection-mailing-address .description {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
 .page-user-edit .field-name-field-collection-mailing-address .field-name-field-address-type,
@@ -3180,6 +3369,7 @@ main#main-content {
 .page-user-register .field-name-field-collection-mailing-address select.country,
 .page-user-register .field-name-field-collection-mailing-address select.state {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 114px);
       -ms-flex: 1 1 calc(100% - 114px);
           flex: 1 1 calc(100% - 114px);
   min-width: 100px; }
@@ -3200,6 +3390,7 @@ main#main-content {
 .page-user-edit .field-name-field-website input[type="text"],
 .page-admin-people-create .field-name-field-website input[type="text"],
 .page-user-register .field-name-field-website input[type="text"] {
+  width: -webkit-calc(100% - 38px);
   width: calc(100% - 38px); }
 .page-user-edit .field-name-field-website [id*="add-more-wrapper"] > .form-item,
 .page-admin-people-create .field-name-field-website [id*="add-more-wrapper"] > .form-item,
@@ -3229,24 +3420,29 @@ main#main-content {
 .page-admin-people-create .field-name-field-additional-email-addresses .form-item,
 .page-user-register .field-name-field-additional-email-addresses .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .field-name-field-additional-email-addresses label,
 .page-admin-people-create .field-name-field-additional-email-addresses label,
 .page-user-register .field-name-field-additional-email-addresses label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50px;
       -ms-flex: 0 0 50px;
           flex: 0 0 50px; }
 .page-user-edit .field-name-field-additional-email-addresses input,
 .page-admin-people-create .field-name-field-additional-email-addresses input,
 .page-user-register .field-name-field-additional-email-addresses input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 50px);
       -ms-flex: 1 1 calc(100% - 50px);
           flex: 1 1 calc(100% - 50px);
   min-width: 150px; }
@@ -3266,27 +3462,33 @@ main#main-content {
 .page-admin-people-create tr.draggable,
 .page-user-register tr.draggable {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #ccc;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%; }
 .page-user-edit tr.draggable td:not([class]),
 .page-admin-people-create tr.draggable td:not([class]),
 .page-user-register tr.draggable td:not([class]) {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%;
   display: block;
   position: relative;
+  width: -webkit-calc(100% - 38px);
   width: calc(100% - 38px); }
 .page-user-edit td.field-multiple-drag,
 .page-admin-people-create td.field-multiple-drag,
 .page-user-register td.field-multiple-drag {
   -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
       -ms-flex-order: 1;
           order: 1;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: block;
   width: 50px;
   padding: 10px;
@@ -3348,6 +3550,7 @@ main#main-content {
   .page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"],
   .page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] {
     -webkit-box-flex: 1;
+    -webkit-flex: 1 auto;
         -ms-flex: 1 auto;
             flex: 1 auto;
     position: absolute;
@@ -3381,6 +3584,7 @@ main#main-content {
 
 .page-user-register .field-name-field-phone input[value="Remove"] {
   -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
           transform: rotate(0deg);
   float: right;
   font-size: 10px;
@@ -3403,20 +3607,25 @@ main#main-content {
     list-style: none; }
 #edit-profile-bwma-client .field-name-field-driver-s-license .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 #edit-profile-bwma-client .field-name-field-driver-s-license label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 250px;
       -ms-flex: 0 0 250px;
           flex: 0 0 250px; }
 #edit-profile-bwma-client .field-name-field-driver-s-license input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 250px);
       -ms-flex: 1 1 calc(100% - 250px);
           flex: 1 1 calc(100% - 250px);
   min-width: 150px; }
@@ -3424,74 +3633,92 @@ main#main-content {
   font-weight: bold; }
 #edit-profile-bwma-client .field-name-field-driver-s-license .description {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
 #edit-profile-bwma-client .field-name-field-company-name .form-item,
 #edit-profile-bwma-client .field-name-field-occupation-or-title-tag .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 #edit-profile-bwma-client .field-name-field-company-name label,
 #edit-profile-bwma-client .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150px;
       -ms-flex: 0 0 150px;
           flex: 0 0 150px; }
 #edit-profile-bwma-client .field-name-field-company-name input,
 #edit-profile-bwma-client .field-name-field-occupation-or-title-tag input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 150px);
       -ms-flex: 1 1 calc(100% - 150px);
           flex: 1 1 calc(100% - 150px);
   min-width: 150px; }
 #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100px;
       -ms-flex: 0 0 100px;
           flex: 0 0 100px; }
 #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 100px);
       -ms-flex: 1 1 calc(100% - 100px);
           flex: 1 1 calc(100% - 100px);
   min-width: 150px; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-source-notes label {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-source select {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 100px);
       -ms-flex: 1 1 calc(100% - 100px);
           flex: 1 1 calc(100% - 100px);
   min-width: 0; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 80px;
       -ms-flex: 0 0 80px;
           flex: 0 0 80px; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 80px);
       -ms-flex: 1 1 calc(100% - 80px);
           flex: 1 1 calc(100% - 80px);
   min-width: 150px; }
@@ -3499,6 +3726,7 @@ main#main-content {
   font-weight: bold; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-note label {
   -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
 #edit-profile-bwma-client .field-name-field-notes .field-name-field-date {
@@ -3509,7 +3737,8 @@ main#main-content {
   #edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user input {
     width: 24em; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form * {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form div[class*="form-title"] {
   display: inline; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .form-wrapper {
@@ -3518,20 +3747,25 @@ main#main-content {
   white-space: normal; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 90px;
       -ms-flex: 0 0 90px;
           flex: 0 0 90px; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 90px);
       -ms-flex: 1 1 calc(100% - 90px);
           flex: 1 1 calc(100% - 90px);
   min-width: 150px; }
@@ -3597,22 +3831,27 @@ main#main-content {
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
   -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150px;
       -ms-flex: 0 0 150px;
           flex: 0 0 150px; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender input {
   -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 150px);
       -ms-flex: 1 1 calc(100% - 150px);
           flex: 1 1 calc(100% - 150px);
   min-width: 150px; }
@@ -3658,30 +3897,37 @@ main#main-content {
   width: auto; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item label {
     -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75px;
         -ms-flex: 0 0 75px;
             flex: 0 0 75px; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item input {
     -webkit-box-flex: 1;
+    -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item select {
     width: auto; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item label {
     -webkit-box-flex: 0;
+    -webkit-flex: 0 0 90px;
         -ms-flex: 0 0 90px;
             flex: 0 0 90px; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-monthly-payment input,
@@ -3758,14 +4004,17 @@ main#main-content {
     width: auto; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item label {
     -webkit-box-flex: 0;
+    -webkit-flex: 0 0 114px;
         -ms-flex: 0 0 114px;
             flex: 0 0 114px; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item input {
     -webkit-box-flex: 1;
+    -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders label {
@@ -3774,14 +4023,17 @@ main#main-content {
   width: auto; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item label {
     -webkit-box-flex: 0;
+    -webkit-flex: 0 0 184px;
         -ms-flex: 0 0 184px;
             flex: 0 0 184px; }
   #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item input {
     -webkit-box-flex: 1;
+    -webkit-flex: auto;
         -ms-flex: auto;
             flex: auto; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb label {
@@ -3812,6 +4064,7 @@ main#main-content {
     background-color: #2271bd; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Remove"] {
   -webkit-transform: none;
+      -ms-transform: none;
           transform: none;
   position: static;
   display: inline-block;
