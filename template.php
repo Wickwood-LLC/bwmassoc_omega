@@ -146,14 +146,18 @@ function bwmassoc_omega_field_multiple_value_form($variables) {
   return $output;
 }
 
-function bwmassoc_omega_preprocess_html(&$vars) {
-  $viewport = array(
-   '#tag' => 'meta',
-   '#attributes' => array(
-     'name' => 'viewport',
-     'content' => 'width=device-width, initial-scale=1.0, user-scalable=yes',
-   ),
-  );
-  drupal_add_html_head($viewport, 'viewport');
+// function bwmassoc_omega_preprocess_html(&$vars) {
+//   $viewport = array(
+//    '#tag' => 'meta',
+//    '#attributes' => array(
+//      'name' => 'viewport',
+//      'content' => 'width=device-width, initial-scale=1.0, user-scalable=yes',
+//    ),
+//   );
+//   drupal_add_html_head($viewport, 'viewport');
+// }
+
+function bwmassoc_omega_html_head_alter(&$head_elements) {
+  dpm($head_elements);
 }
 
