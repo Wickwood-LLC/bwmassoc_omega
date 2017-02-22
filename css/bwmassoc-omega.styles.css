@@ -1711,9 +1711,15 @@ html.js fieldset.collapsed {
   .section-biweekly-calculator #conventional > .content > .media,
   .section-biweekly-calculator #supersaver > .content > .media {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 1 auto;
-        -ms-flex: 0 1 auto;
-            flex: 0 1 auto; }
+    -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 1;
+        -ms-flex-negative: 1;
+            flex-shrink: 1;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto; }
   .section-biweekly-calculator #conventional > .content li p,
   .section-biweekly-calculator #supersaver > .content li p {
     margin: 0;
