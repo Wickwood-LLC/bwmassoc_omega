@@ -593,7 +593,7 @@
 			align-items: center;
 
 			> .media {
-				flex: 1;
+				flex: 0 1 auto;
 			}
 
 			li p {
@@ -644,7 +644,7 @@
 		font-weight: 600;
 		background: #017cca;
 		padding: 9px 15px;
-		border-radius: 75px;
+		border-radius: 20px;
 		margin: 0.5em auto;
 		display: table;
 		text-decoration: none;

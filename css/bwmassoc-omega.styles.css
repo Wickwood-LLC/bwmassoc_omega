@@ -1397,7 +1397,7 @@ html.js fieldset.collapsed {
   align-items: center; }
   .section-biweekly-calculator #conventional > .content > .media,
   .section-biweekly-calculator #supersaver > .content > .media {
-    flex: 1; }
+    flex: 0 1 auto; }
   .section-biweekly-calculator #conventional > .content li p,
   .section-biweekly-calculator #supersaver > .content li p {
     margin: 0;
@@ -1436,7 +1436,7 @@ html.js fieldset.collapsed {
   font-weight: 600;
   background: #017cca;
   padding: 9px 15px;
-  border-radius: 75px;
+  border-radius: 20px;
   margin: 0.5em auto;
   display: table;
   text-decoration: none;
