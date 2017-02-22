@@ -546,10 +546,13 @@
 
 	.text-info {
 		flex: 1;
+		display: inherit;
+		flex-flow: row wrap;
 
 		ul {
 			margin: 0;
 			padding: 0;
+			flex: 100%;
 
 			li {
 				display: flex;
