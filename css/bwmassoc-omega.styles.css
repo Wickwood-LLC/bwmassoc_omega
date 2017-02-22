@@ -1604,6 +1604,11 @@ html.js fieldset.collapsed {
   text-align: center;
   color: #0355a3;
   text-decoration: none; }
+  @media (min-width: 0px) and (max-width: 568px) {
+    .node-type-bwmassoc-basic-page .pane-node-title h1,
+    .page-contact-bwma .pane-node-title h1,
+    .page-node-10005 .pane-node-title h1 {
+      font-size: 1.5em; } }
 
 .section-biweekly-calculator main#main-content {
   background-color: transparent;
