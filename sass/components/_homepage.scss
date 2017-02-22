@@ -545,8 +545,10 @@
 	}
 
 	.text-info {
-		flex: 1;
-		display: inherit;
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: auto;
+		display: flex;
 		flex-flow: row wrap;
 
 		ul {
@@ -596,7 +598,9 @@
 			align-items: center;
 
 			> .media {
-				flex: 1;
+				flex-grow: 1;
+				flex-shrink: 1;
+				flex-basis: auto;
 			}
 
 			li p {
