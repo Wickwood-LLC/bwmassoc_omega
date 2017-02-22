@@ -299,13 +299,13 @@ html.js fieldset.collapsed {
 		label.previewLabel {
 			display: inline-block;
 			float: none;
-			width: 100px;
+			width: 200px;
 		}
 
 		.af-textWrap,
 		.af-selectWrap {
 			width: calc(100% - 100px);
-			min-width: 100px;
+			min-width: 200px;
 			display: inline-block;
 			float: none;
 		}
