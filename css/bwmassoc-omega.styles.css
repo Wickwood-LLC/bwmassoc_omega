@@ -1666,9 +1666,9 @@ html.js fieldset.collapsed {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  -webkit-flex-shrink: 1;
-      -ms-flex-negative: 1;
-          flex-shrink: 1;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
   -webkit-flex-basis: auto;
       -ms-flex-preferred-size: auto;
           flex-basis: auto;
@@ -1727,10 +1727,10 @@ html.js fieldset.collapsed {
           align-items: center; }
   .section-biweekly-calculator #conventional > .content > .media,
   .section-biweekly-calculator #supersaver > .content > .media {
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
     -webkit-flex-shrink: 1;
         -ms-flex-negative: 1;
             flex-shrink: 1;
