@@ -593,9 +593,7 @@
 			align-items: center;
 
 			> .media {
-				flex-grow: 0;
-				flex-shrink: 1;
-				flex-basis: auto;
+				flex: 1;
 			}
 
 			li p {
