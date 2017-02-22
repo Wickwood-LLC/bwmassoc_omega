@@ -295,14 +295,15 @@ html.js fieldset.collapsed {
 }
 
 #af-form-1281827340 {
-	.af-body {
+	#af-body-1281827340 {
 		label.previewLabel {
 			display: inline-block;
 			float: none;
 			width: 100px;
 		}
 
-		.af-textWrap {
+		.af-textWrap,
+		.af-selectWrap {
 			width: calc(100% - 100px);
 			min-width: 100px;
 			display: inline-block;
