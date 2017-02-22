@@ -895,7 +895,7 @@ html.js fieldset.collapsed {
 #af-form-1281827340 #af-body-1281827340 label.previewLabel {
   display: inline-block;
   float: none;
-  width: 200px; }
+  width: 100px; }
 #af-form-1281827340 #af-body-1281827340 .af-textWrap,
 #af-form-1281827340 #af-body-1281827340 .af-selectWrap {
   width: -webkit-calc(100% - 100px);
