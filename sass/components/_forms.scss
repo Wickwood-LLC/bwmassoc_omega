@@ -293,3 +293,20 @@ html.js fieldset.collapsed {
 		float: none;
 	}
 }
+
+#af-form-1281827340 {
+	.af-body {
+		label.previewLabel {
+			display: inline-block;
+			float: none;
+			width: 100px;
+		}
+
+		.af-textWrap {
+			width: calc(100% - 100px);
+			min-width: 100px;
+			display: inline-block;
+			float: none;
+		}
+	}
+}

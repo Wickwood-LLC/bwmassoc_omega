@@ -887,6 +887,17 @@ html.js fieldset.collapsed {
 .pane-form div.addressfield-container-inline > div.form-item {
   float: none; }
 
+#af-form-1281827340 .af-body label.previewLabel {
+  display: inline-block;
+  float: none;
+  width: 100px; }
+#af-form-1281827340 .af-body .af-textWrap {
+  width: -webkit-calc(100% - 100px);
+  width: calc(100% - 100px);
+  min-width: 100px;
+  display: inline-block;
+  float: none; }
+
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;
@@ -1938,7 +1949,7 @@ html.js fieldset.collapsed {
   border: 0;
   border-radius: 0; }
 .section-biweekly-calculator.page-node-12862 .radix-bryant .row .pane-content-area-bwmassoc {
-  padding: 0 2em 1em 2em; }
+  padding: 0 1em 1em 1em; }
 .section-biweekly-calculator.page-node-12862 .pane-node-body {
   display: inline-block;
   -webkit-box-flex: 1;
@@ -4109,5 +4120,4 @@ main#main-content {
   margin-left: 0.5em; }
   #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"]:hover {
     background-color: #2271bd; }
-
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
