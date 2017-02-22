@@ -1701,7 +1701,7 @@ html.js fieldset.collapsed {
       .section-biweekly-calculator .text-info ul li img {
         width: 20px;
         height: auto; }
-      @media (min-width: 700px) {
+      @media (min-width: 568px) {
         .section-biweekly-calculator .text-info ul li {
           font-size: 18px; }
           .section-biweekly-calculator .text-info ul li img {
