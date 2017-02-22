@@ -868,6 +868,7 @@
 
 		@include breakpoint(822px) {
 			order: 0;
+			min-width: 450px;
 		}
 
 		li {
@@ -876,7 +877,8 @@
 	}
 
 	.pane-aweber-webform-aweber-webform {
-		display: inline-block;
+		display: inline-table;
+		margin: 0 auto;
 		margin-bottom: 1em;
 		width: 100%;
 

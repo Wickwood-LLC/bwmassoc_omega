@@ -1977,11 +1977,13 @@ html.js fieldset.collapsed {
       -webkit-box-ordinal-group: 1;
       -webkit-order: 0;
           -ms-flex-order: 0;
-              order: 0; } }
+              order: 0;
+      min-width: 450px; } }
   .section-biweekly-calculator.page-node-12862 .pane-node-body li {
     line-height: 1.5; }
 .section-biweekly-calculator.page-node-12862 .pane-aweber-webform-aweber-webform {
-  display: inline-block;
+  display: inline-table;
+  margin: 0 auto;
   margin-bottom: 1em;
   width: 100%; }
   @media (min-width: 822px) {
