@@ -887,6 +887,11 @@ html.js fieldset.collapsed {
 .pane-form div.addressfield-container-inline > div.form-item {
   float: none; }
 
+@media (min-width: 0px) and (max-width: 568px) {
+  #af-form-1281827340 #af-header-1281827340 {
+    background: none;
+    padding: 0.5em 1em;
+    font-size: 16px; } }
 #af-form-1281827340 #af-body-1281827340 label.previewLabel {
   display: inline-block;
   float: none;

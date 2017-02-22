@@ -295,6 +295,14 @@ html.js fieldset.collapsed {
 }
 
 #af-form-1281827340 {
+	#af-header-1281827340 {
+		@include breakpoint(0px 568px) {
+			background: none;
+			padding: 0.5em 1em;
+			font-size: 16px;
+		}
+	}
+
 	#af-body-1281827340 {
 		label.previewLabel {
 			display: inline-block;
