@@ -684,8 +684,12 @@
 	}
 
 	.field--name-body p {
-		font-size: 1.2em;
+		font-size: 1em;
 		font-family: FontAwesome, sans-serif;
+
+		@include breakpoint(569px) {
+			font-size: 1.2em;
+		}
 	}
 
 	.calculate-savings {

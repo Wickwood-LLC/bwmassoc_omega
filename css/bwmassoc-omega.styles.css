@@ -1817,8 +1817,12 @@ html.js fieldset.collapsed {
   padding: 0 2em; }
 .section-7-minutes-7-years .field--name-body p,
 .section-as-seen-on-tv .field--name-body p {
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: FontAwesome, sans-serif; }
+  @media (min-width: 569px) {
+    .section-7-minutes-7-years .field--name-body p,
+    .section-as-seen-on-tv .field--name-body p {
+      font-size: 1.2em; } }
 .section-7-minutes-7-years .calculate-savings,
 .section-as-seen-on-tv .calculate-savings {
   color: #fff;
