@@ -1988,10 +1988,10 @@ html.js fieldset.collapsed {
           -ms-flex-order: 0;
               order: 0;
       min-width: 450px; } }
-  @media (min-width: 985px) and (max-width: 1023px) {
+  @media (min-width: 965px) and (max-width: 1023px) {
     .section-biweekly-calculator.page-node-12862 .pane-node-body {
       margin-right: 1em; } }
-  @media (min-width: 1329px) {
+  @media (min-width: 1303px) {
     .section-biweekly-calculator.page-node-12862 .pane-node-body {
       margin-right: 1em; } }
   .section-biweekly-calculator.page-node-12862 .pane-node-body li {

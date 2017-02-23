@@ -881,10 +881,10 @@
 			order: 0;
 			min-width: 450px;
 		}
-		@include breakpoint(985px 1023px) {
+		@include breakpoint(965px 1023px) {
 			margin-right: 1em;
 		}
-		@include breakpoint(1329px) {
+		@include breakpoint(1303px) {
 			margin-right: 1em;
 		}
 
