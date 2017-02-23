@@ -279,7 +279,6 @@ ul.breadcrumb {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  padding: 1em;
   padding-top: 0px; }
   .blog-type-page .l-content .panel-myriad-layout .row-one {
     display: -webkit-box;
@@ -294,8 +293,7 @@ ul.breadcrumb {
     -webkit-box-flex: 1;
     -webkit-flex: 1 100%;
         -ms-flex: 1 100%;
-            flex: 1 100%;
-    padding: 0.5em; }
+            flex: 1 100%; }
     @media (min-width: 626px) {
       .blog-type-page .l-content .panel-myriad-layout .main-content {
         min-width: 560px;
@@ -308,7 +306,7 @@ ul.breadcrumb {
     -webkit-flex: 1 1 0;
         -ms-flex: 1 1 0px;
             flex: 1 1 0;
-    margin: 0.5em; }
+    margin-top: 1em; }
     @media (min-width: 375px) {
       .blog-type-page .l-content .panel-myriad-layout .sidebar-content {
         max-width: 300px;
@@ -358,7 +356,6 @@ ul.breadcrumb {
           -ms-flex: 1 100%;
               flex: 1 100%;
       padding: 1em;
-      margin: 0 0.5em;
       border: 2px solid #cccccc;
       border-radius: 5px;
       background-color: white;
@@ -386,6 +383,8 @@ ul.breadcrumb {
         -webkit-flex: 1;
             -ms-flex: 1;
                 flex: 1; }
+    .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row-1 {
+      margin-bottom: 1em; }
     .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-field-title h2 {
       text-align: center;
       margin: 0; }
@@ -413,9 +412,9 @@ ul.breadcrumb {
             justify-content: center; }
     .blog-type-page .l-content .panel-myriad-layout .main-display .view-content .views-row {
       -webkit-box-flex: 1;
-      -webkit-flex: 1 30%;
-          -ms-flex: 1 30%;
-              flex: 1 30%;
+      -webkit-flex: 1 1 0px;
+          -ms-flex: 1 1 0px;
+              flex: 1 1 0px;
       margin: 0.5em;
       background-color: white;
       font-size: 14px;
