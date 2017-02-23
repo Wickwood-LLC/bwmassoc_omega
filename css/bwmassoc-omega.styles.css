@@ -701,7 +701,8 @@ a.button.fake-ok {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  margin-right: 1em; }
+  margin-right: 1em;
+  -webkit-appearance: none; }
 
 input[value="Save"],
 input[value*="Apply"],
