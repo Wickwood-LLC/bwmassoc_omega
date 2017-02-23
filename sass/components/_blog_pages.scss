@@ -30,7 +30,7 @@
 		}
 
 		.main-content {
-			flex: 1 100%;
+			flex: 1 auto;
 
     		@include breakpoint(626px) {
     			min-width: 560px;
@@ -39,7 +39,7 @@
 		}
 
 		.sidebar-content {
-			flex: 1 1 0;
+			flex: 1 1 auto;
 		    margin-top: 1em;
 
 		    @include breakpoint(375px) {
