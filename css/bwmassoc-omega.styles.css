@@ -904,6 +904,8 @@ html.js fieldset.collapsed {
   min-width: 200px;
   display: inline-block;
   float: none; }
+#af-form-1281827340 #af-body-1281827340 .af-checkWrap {
+  width: 100%; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
