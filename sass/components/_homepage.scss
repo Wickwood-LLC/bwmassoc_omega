@@ -869,18 +869,23 @@
 	.pane-node-body {
 		display: inline-block;
 		flex: 1 calc(40% - 1em);
-		margin-right: 1em;
 		vertical-align: top;
 		order: 1;
 		font-size: 1em;
+		padding: 0;
 
 		@include breakpoint(768px) {
 			font-size: 1.2em;
 		}
-
 		@include breakpoint(822px) {
 			order: 0;
 			min-width: 450px;
+		}
+		@include breakpoint(985px 1023px) {
+			margin-right: 1em;
+		}
+		@include breakpoint(1329px) {
+			margin-right: 1em;
 		}
 
 		li {
