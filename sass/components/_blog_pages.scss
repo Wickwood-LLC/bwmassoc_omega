@@ -45,6 +45,11 @@
 		    @include breakpoint(375px) {
 				flex: 1 1 300px;
 			}
+			@include breakpoint(891px) {
+				margin-top: 0;
+				flex: 1 1 calc(250px - 1em);
+				margin-left: 1em;
+			}
 
 			.boxed {
 				background-color: white;

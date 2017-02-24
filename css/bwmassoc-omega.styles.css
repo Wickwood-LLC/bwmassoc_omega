@@ -317,6 +317,14 @@ ul.breadcrumb {
         -webkit-flex: 1 1 300px;
             -ms-flex: 1 1 300px;
                 flex: 1 1 300px; } }
+    @media (min-width: 891px) {
+      .blog-type-page .l-content .panel-myriad-layout .sidebar-content {
+        margin-top: 0;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 -webkit-calc(250px - 1em);
+            -ms-flex: 1 1 calc(250px - 1em);
+                flex: 1 1 calc(250px - 1em);
+        margin-left: 1em; } }
     .blog-type-page .l-content .panel-myriad-layout .sidebar-content .boxed {
       background-color: white;
       margin: 0 0 1em 0; }
