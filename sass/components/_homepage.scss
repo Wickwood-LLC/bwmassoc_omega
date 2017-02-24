@@ -427,6 +427,7 @@
 
 		.radix-layouts-content {
 			flex: 100%;
+			max-width: 100%;
 			padding: 0;
 
 			@include breakpoint(1024px) {
@@ -721,8 +722,12 @@
 		padding: 0 1em;
 		
 		.field--name-body {
-			.field__item > h1 {
-				color: #0355a3;
+			.field__item {
+				overflow: auto;
+				
+				> h1 {
+					color: #0355a3;
+				}
 			}
 	
 			p {

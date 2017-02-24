@@ -1597,6 +1597,7 @@ html.js fieldset.collapsed {
     -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
+    max-width: 100%;
     padding: 0; }
     @media (min-width: 1024px) {
       .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
@@ -1874,8 +1875,10 @@ html.js fieldset.collapsed {
   border-radius: 0; }
 .section-compare-biweeklies .pane-content-area-bwmassoc {
   padding: 0 1em; }
-  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body .field__item > h1 {
-    color: #0355a3; }
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body .field__item {
+    overflow: auto; }
+    .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body .field__item > h1 {
+      color: #0355a3; }
   .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body p {
     font-size: 20px;
     font-family: FontAwesome, sans-serif; }
