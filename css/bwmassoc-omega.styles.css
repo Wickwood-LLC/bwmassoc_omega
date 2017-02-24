@@ -385,12 +385,12 @@ ul.breadcrumb {
       @media (min-width: 420px) {
         .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row {
           -webkit-box-flex: 1;
-          -webkit-flex: 1 1 250px;
-              -ms-flex: 1 1 250px;
-                  flex: 1 1 250px;
-          font-size: 18px;
+          -webkit-flex: 1 1 -webkit-calc(250px + 0.5em);
+              -ms-flex: 1 1 calc(250px + 0.5em);
+                  flex: 1 1 calc(250px + 0.5em);
           min-width: -webkit-calc(250px + 0.5em);
-          min-width: calc(250px + 0.5em); } }
+          min-width: calc(250px + 0.5em);
+          font-size: 18px; } }
       @media (min-width: 599px) {
         .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row {
           min-width: 250px; }

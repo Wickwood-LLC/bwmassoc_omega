@@ -114,9 +114,9 @@
 			    flex-flow: column nowrap;
 
 			    @include breakpoint(420px) {
-			    	flex: 1 1 250px;
-			    	font-size: 18px;
+			    	flex: 1 1 calc(250px + 0.5em);
 			    	min-width: calc(250px + 0.5em);
+			    	font-size: 18px;
 			    }
 			    @include breakpoint(599px) {
 			    	min-width: 250px;
