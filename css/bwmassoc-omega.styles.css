@@ -386,9 +386,9 @@ ul.breadcrumb {
       @media (min-width: 599px) {
         .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row {
           min-width: 250px; }
-          .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row .views-row-1 {
+          .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row.views-row-1 {
             margin-right: 0.5em; }
-          .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row .views-row-2 {
+          .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row.views-row-2 {
             margin-left: 0.5em; } }
       .blog-type-page .l-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
         width: 100%;

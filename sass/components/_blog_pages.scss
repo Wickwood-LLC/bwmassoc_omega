@@ -116,10 +116,10 @@
 			    @include breakpoint(599px) {
 			    	min-width: 250px;
 
-			    	.views-row-1 {
+			    	&.views-row-1 {
 			    		margin-right: 0.5em;
 			    	}
-			    	.views-row-2 {
+			    	&.views-row-2 {
 			    		margin-left: 0.5em;
 			    	}
 			    }
