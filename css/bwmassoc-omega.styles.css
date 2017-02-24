@@ -451,7 +451,8 @@ ul.breadcrumb {
       -webkit-box-flex: 1;
       -webkit-flex: 1 auto;
           -ms-flex: 1 auto;
-              flex: 1 auto; }
+              flex: 1 auto;
+      max-width: 100%; }
       @media (min-width: 375px) {
         .blog-type-page .l-content .panel-myriad-layout .main-display .view-content .views-row {
           min-width: 300px;

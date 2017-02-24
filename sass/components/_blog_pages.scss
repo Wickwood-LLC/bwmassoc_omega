@@ -173,6 +173,7 @@
 				display: flex;
     			flex-flow: column nowrap;
     			flex: 1 auto;
+    			max-width: 100%;
 
 				@include breakpoint(375px) {
 					min-width: 300px;
