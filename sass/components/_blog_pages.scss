@@ -43,9 +43,7 @@
 		    margin-top: 1em;
 
 		    @include breakpoint(375px) {
-				max-width: 300px;
 				flex: 1 1 300px;
-
 			}
 
 			.boxed {
@@ -113,7 +111,7 @@
 			    @include breakpoint(420px) {
 			    	flex: 1 1 300px;
 			    	font-size: 18px;
-			    	min-width: 300px;
+			    	min-width: calc(300px + 0.5em);
 			    }
 
 			    .featured-image img {
@@ -159,6 +157,7 @@
 				font-size: 14px;
 				display: flex;
     			flex-flow: column nowrap;
+    			flex: 1 auto;
 
 				@include breakpoint(375px) {
 					min-width: 300px;
