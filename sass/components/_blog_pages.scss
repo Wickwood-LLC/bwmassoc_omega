@@ -109,9 +109,19 @@
 			    flex-flow: column nowrap;
 
 			    @include breakpoint(420px) {
-			    	flex: 1 1 300px;
+			    	flex: 1 1 250px;
 			    	font-size: 18px;
-			    	min-width: calc(300px + 0.5em);
+			    	min-width: calc(250px + 0.5em);
+			    }
+			    @include breakpoint(617px) {
+			    	min-width: 250px;
+
+			    	.views-row-1 {
+			    		margin-right: 0.5em;
+			    	}
+			    	.views-row-2 {
+			    		margin-left: 0.5em;
+			    	}
 			    }
 
 			    .featured-image img {
