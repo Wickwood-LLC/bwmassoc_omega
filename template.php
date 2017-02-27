@@ -150,12 +150,11 @@ function bwmassoc_omega_html_head_alter(&$head_elements) {
   
   foreach($head_elements as $key => $item) {
     if(strpos($item, 'metatag_viewport') !== false) {
-      unset($head_elements[$key]);
+      dpm($item);
+      unset($item);
     }
   }
 
   $head_elements['omega-viewport']['#attributes']['content'] = 'width=device-width, initial-scale=1.0, user-scalable=yes';
-
-  dpm($head_elements);
 }
 
