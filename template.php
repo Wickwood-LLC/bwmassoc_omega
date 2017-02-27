@@ -149,8 +149,9 @@ function bwmassoc_omega_field_multiple_value_form($variables) {
 function bwmassoc_omega_html_head_alter(&$head_elements) {
   
   foreach($head_elements as $key => $item) {
+    dpm($item);
     if(strpos($item, 'metatag_viewport') !== false) {
-      dpm($item);
+      // dpm($item);
       unset($item);
     }
   }
