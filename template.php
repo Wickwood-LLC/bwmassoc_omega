@@ -147,6 +147,7 @@ function bwmassoc_omega_field_multiple_value_form($variables) {
 }
 
 function bwmassoc_omega_html_head_alter(&$head_elements) {
+  dpm($head_elements);
   $head_elements['omega-viewport']['#attributes']['content'] = 'width=device-width, initial-scale=1.0, user-scalable=yes';
 }
 
