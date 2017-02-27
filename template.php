@@ -150,8 +150,8 @@ function bwmassoc_omega_html_head_alter(&$head_elements) {
   
   foreach($head_elements as $key => $item) {
     if(strpos($key, 'metatag_viewport') !== false) {
-      dpm($key);
-      unset($key);
+      dpm($item);
+      unset($head_elements[$key]);
     }
   }
 
