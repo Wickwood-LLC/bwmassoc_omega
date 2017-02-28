@@ -3046,7 +3046,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 130px);
       -ms-flex-preferred-size: calc(100% - 130px);
           flex-basis: calc(100% - 130px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 .page-user-edit .pane-user-form-account .form-type-password-confirm label, .page-user-edit .pane-user-form-account .form-type-password-confirm input,
 .page-admin-people-create .pane-user-form-account .form-type-password-confirm label,
 .page-admin-people-create .pane-user-form-account .form-type-password-confirm input,
@@ -3168,7 +3169,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 150px);
       -ms-flex-preferred-size: calc(100% - 150px);
           flex-basis: calc(100% - 150px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 .page-user-edit .pane-basic-user-info-user-edit .date-form-element-content,
 .page-user-edit .pane-basic-user-info-user-edit .date-padding,
 .page-admin-people-create .pane-basic-user-info-user-edit .date-form-element-content,
@@ -3231,7 +3233,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 100px);
       -ms-flex-preferred-size: calc(100% - 100px);
           flex-basis: calc(100% - 100px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
 .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate input,
@@ -3359,7 +3362,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 110px);
       -ms-flex-preferred-size: calc(100% - 110px);
           flex-basis: calc(100% - 110px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 .page-user-edit .pane-user-group-full-name .description,
 .page-admin-people-create .pane-user-group-full-name .description,
 .page-user-register .pane-user-group-full-name .description {
@@ -3494,7 +3498,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 120px);
       -ms-flex-preferred-size: calc(100% - 120px);
           flex-basis: calc(100% - 120px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 .page-user-edit .field-name-field-phone .description,
 .page-admin-people-create .field-name-field-phone .description,
 .page-user-register .field-name-field-phone .description {
@@ -3568,7 +3573,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 114px);
       -ms-flex-preferred-size: calc(100% - 114px);
           flex-basis: calc(100% - 114px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 .page-user-edit .field-name-field-collection-mailing-address .description,
 .page-admin-people-create .field-name-field-collection-mailing-address .description,
 .page-user-register .field-name-field-collection-mailing-address .description {
@@ -3677,7 +3683,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 50px);
       -ms-flex-preferred-size: calc(100% - 50px);
           flex-basis: calc(100% - 50px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 .page-user-edit .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item,
 .page-admin-people-create .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item,
 .page-user-register .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item {
@@ -3872,7 +3879,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 250px);
       -ms-flex-preferred-size: calc(100% - 250px);
           flex-basis: calc(100% - 250px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 #edit-profile-bwma-client .field-name-field-driver-s-license legend {
   font-weight: bold; }
 #edit-profile-bwma-client .field-name-field-driver-s-license .description {
@@ -3919,7 +3927,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 150px);
       -ms-flex-preferred-size: calc(100% - 150px);
           flex-basis: calc(100% - 150px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first .form-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3955,7 +3964,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 100px);
       -ms-flex-preferred-size: calc(100% - 100px);
           flex-basis: calc(100% - 100px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-source-notes label {
   -webkit-box-flex: 100%;
   -webkit-flex: 100%;
@@ -3966,7 +3976,8 @@ main#main-content {
   -webkit-flex: 1 1 -webkit-calc(100% - 100px);
       -ms-flex: 1 1 calc(100% - 100px);
           flex: 1 1 calc(100% - 100px);
-  min-width: 0; }
+  min-width: 0;
+  max-width: 100%; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra .form-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4002,7 +4013,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 80px);
       -ms-flex-preferred-size: calc(100% - 80px);
           flex-basis: calc(100% - 80px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra legend {
   font-weight: bold; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-note label {
@@ -4061,7 +4073,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 90px);
       -ms-flex-preferred-size: calc(100% - 90px);
           flex-basis: calc(100% - 90px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
   display: inline-block;
   width: auto;
@@ -4160,7 +4173,8 @@ main#main-content {
   -webkit-flex-basis: -webkit-calc(100% - 150px);
       -ms-flex-preferred-size: calc(100% - 150px);
           flex-basis: calc(100% - 150px);
-  min-width: 150px; }
+  min-width: 150px;
+  max-width: 100%; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
   width: 100%; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-radios {

@@ -18,6 +18,7 @@
     flex: 1 1 calc(100% - #{$label-width});
     flex-basis: calc(100% - #{$label-width});
     min-width: $min-width;
+    max-width: 100%;
   }
 }
 
