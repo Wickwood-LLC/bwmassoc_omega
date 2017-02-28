@@ -15,7 +15,7 @@ body {
   }
 }
 
-html body.admin-menu {
+html body.admin-menu:not(.navbar-vertical) {
   @include breakpoint(250px) {
     margin-top: 151px !important;
   }
@@ -33,9 +33,6 @@ html body.admin-menu {
   }
   @include breakpoint(1084px) {
     margin-top: 29px !important;
-  }
-  &.navbar-vertical {
-    margin-top: 0 !important;
   }
 
   .l-branding {

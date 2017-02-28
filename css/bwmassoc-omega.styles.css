@@ -11,42 +11,40 @@ body {
     margin-bottom: 1em; }
 
 @media (min-width: 250px) {
-  html body.admin-menu {
+  html body.admin-menu:not(.navbar-vertical) {
     margin-top: 151px !important; } }
 @media (min-width: 289px) {
-  html body.admin-menu {
+  html body.admin-menu:not(.navbar-vertical) {
     margin-top: 126px !important; } }
 @media (min-width: 340px) {
-  html body.admin-menu {
+  html body.admin-menu:not(.navbar-vertical) {
     margin-top: 102px !important; } }
 @media (min-width: 407px) {
-  html body.admin-menu {
+  html body.admin-menu:not(.navbar-vertical) {
     margin-top: 78px !important; } }
 @media (min-width: 620px) {
-  html body.admin-menu {
+  html body.admin-menu:not(.navbar-vertical) {
     margin-top: 54px !important; } }
 @media (min-width: 1084px) {
-  html body.admin-menu {
+  html body.admin-menu:not(.navbar-vertical) {
     margin-top: 29px !important; } }
-html body.admin-menu.navbar-vertical {
-  margin-top: 0 !important; }
 @media (min-width: 250px) {
-  html body.admin-menu .l-branding.floating-block-active {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
     margin-top: 151px !important; } }
 @media (min-width: 289px) {
-  html body.admin-menu .l-branding.floating-block-active {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
     margin-top: 126px !important; } }
 @media (min-width: 340px) {
-  html body.admin-menu .l-branding.floating-block-active {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
     margin-top: 102px !important; } }
 @media (min-width: 407px) {
-  html body.admin-menu .l-branding.floating-block-active {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
     margin-top: 78px !important; } }
 @media (min-width: 620px) {
-  html body.admin-menu .l-branding.floating-block-active {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
     margin-top: 54px !important; } }
 @media (min-width: 1084px) {
-  html body.admin-menu .l-branding.floating-block-active {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
     margin-top: 29px !important; } }
 
 .l-region--header,
