@@ -565,10 +565,9 @@ ul.breadcrumb {
 .node-type-article-post .radix-layouts-sidebar,
 .node-type-panopoly-news-article .radix-layouts-sidebar {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 300px;
-      -ms-flex: 1 300px;
-          flex: 1 300px;
-  min-width: 300px;
+  -webkit-flex: 1 100%;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
   padding-left: 15px; }
   @media (min-width: 851px) {
     .node-type-article-post .radix-layouts-sidebar,
