@@ -293,9 +293,12 @@
 	.radix-layouts-content {
 		flex: 1 1 500px;
 		padding-right: 15px;
+		margin-bottom: 1em;
 
-		@include breakpoint(848px) {
+		@include breakpoint(851px) {
 			min-width: 500px;
+			margin-bottom: 0;
+			padding-right: 0.5em;
 		}
 	}
 
@@ -304,8 +307,9 @@
 		min-width: 300px;
 		padding-left: 15px;
 
-		@include breakpoint(848px) {
+		@include breakpoint(851px) {
 			flex: 0 300px;
+			padding-left: 0.5em;
 		}
 	}
 
