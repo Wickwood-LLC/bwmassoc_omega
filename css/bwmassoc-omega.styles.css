@@ -28,6 +28,8 @@ body {
 @media (min-width: 1084px) {
   html body.admin-menu {
     margin-top: 29px !important; } }
+html body.admin-menu.navbar-vertical {
+  margin-top: 0 !important; }
 @media (min-width: 250px) {
   html body.admin-menu .l-branding.floating-block-active {
     margin-top: 151px !important; } }
