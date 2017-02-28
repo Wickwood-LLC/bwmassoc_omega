@@ -7,6 +7,7 @@
   }
   label {
     flex: 0 0 $label-width;
+    max-width: 100%;
   }
   input {
     flex: 1 1 calc(100% - #{$label-width});

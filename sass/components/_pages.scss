@@ -4,3 +4,15 @@ main#main-content {
 	border: 1px solid #c1c1c1;
 	border-radius: 5px;
 }
+
+.panels-flexible-200 {
+	@include breakpoint(0px 568px) {
+		.panels-flexible-region {
+			width: 100%;
+		}
+
+		.panels-flexible-region-inside-last {
+			padding-left: 0;
+		}
+	}
+}
