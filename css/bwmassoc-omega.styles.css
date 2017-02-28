@@ -711,6 +711,9 @@ ul.breadcrumb {
     background-color: #E6E6E6; }
   .form-item .container-inline-date .form-item input {
     margin: 0; }
+    @media (min-width: 0px) and (max-width: 569px) {
+      .form-item .container-inline-date .form-item input {
+        display: block; } }
 
 input[type="submit"],
 a.button.fake-ok {
@@ -4029,6 +4032,12 @@ main#main-content {
   display: inline-block; }
   #edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user input {
     width: 24em; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    #edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user {
+      display: block; }
+      #edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user input {
+        display: block;
+        max-width: 100%; } }
 #edit-profile-bwma-client .field-name-field-loans .ief-form * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }

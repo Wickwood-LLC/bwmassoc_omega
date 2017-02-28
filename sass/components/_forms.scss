@@ -28,6 +28,10 @@
 
 	.container-inline-date .form-item input {
 		margin: 0;
+
+		@include breakpoint(0px 569px) {
+			display: block;
+		}
 	}
 }
 

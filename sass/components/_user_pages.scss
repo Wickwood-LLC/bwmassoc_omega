@@ -790,6 +790,15 @@
 			input {
 				width: 24em;
 			}
+
+			@include breakpoint(0px 569px) {
+				display: block;
+
+				input {
+					display: block;
+					max-width: 100%;
+				}
+			}
 		}
 	}
 
