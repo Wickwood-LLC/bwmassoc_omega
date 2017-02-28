@@ -446,6 +446,10 @@
 	}
   }
 
+  .field--name-field-contact-website .field__item {
+	word-break: break-word;
+  }
+
   .pane-node-title h1 {
 	line-height: 1.5;
 	text-align: center;

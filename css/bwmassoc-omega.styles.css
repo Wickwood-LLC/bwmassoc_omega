@@ -678,6 +678,8 @@ ul.breadcrumb {
       float: left; } }
   .node-type-press-release.panelized-node .field--name-field-featured-image img {
     width: 100%; }
+.node-type-press-release.panelized-node .field--name-field-contact-website .field__item {
+  word-break: break-word; }
 .node-type-press-release.panelized-node .pane-node-title h1 {
   line-height: 1.5;
   text-align: center; }
