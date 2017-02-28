@@ -166,12 +166,14 @@ td {
 }
 
 .title-bar {
-	display: flex;
-	align-items: center;
-  justify-content: flex-end;
+	overflow: auto;
 
 	.page-title {
-		flex: 1;
+		font-size: 1.5em;
+
+    @include breakpoint(569px) {
+      font-size: 2em;
+    }
 	}
 }
 

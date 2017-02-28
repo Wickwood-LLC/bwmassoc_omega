@@ -144,23 +144,12 @@ td {
   padding: 10px; }
 
 .title-bar {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
+  overflow: auto; }
   .title-bar .page-title {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1; }
+    font-size: 1.5em; }
+    @media (min-width: 569px) {
+      .title-bar .page-title {
+        font-size: 2em; } }
 
 .boxed {
   border: 1px solid #ccc;
@@ -2543,7 +2532,9 @@ form#user-login, form#user-pass {
   border-bottom: 0;
   margin-bottom: 0;
   text-transform: capitalize;
-  list-style: none; }
+  list-style: none;
+  float: right;
+  clear: both; }
   .tabs--primary > li,
   .tabs.secondary:not(#views-display-menu-tabs) > li {
     margin-right: 0;
