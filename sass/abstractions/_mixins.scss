@@ -4,6 +4,10 @@
     width: 100%;
     align-items: center;
     flex-flow: row wrap;
+
+    @include breakpoint(0px 569px) {
+      display: block;
+    }
   }
   label {
     flex: 0 0 $label-width;

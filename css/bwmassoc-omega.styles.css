@@ -3020,6 +3020,11 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    .page-user-edit .pane-user-form-account .form-item,
+    .page-admin-people-create .pane-user-form-account .form-item,
+    .page-user-register .pane-user-form-account .form-item {
+      display: block; } }
 .page-user-edit .pane-user-form-account label,
 .page-admin-people-create .pane-user-form-account label,
 .page-user-register .pane-user-form-account label {
@@ -3137,6 +3142,11 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    .page-user-edit .pane-basic-user-info-user-edit .form-item,
+    .page-admin-people-create .pane-basic-user-info-user-edit .form-item,
+    .page-user-register .pane-basic-user-info-user-edit .form-item {
+      display: block; } }
 .page-user-edit .pane-basic-user-info-user-edit label,
 .page-admin-people-create .pane-basic-user-info-user-edit label,
 .page-user-register .pane-basic-user-info-user-edit label {
@@ -3186,6 +3196,14 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+    .page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
+    .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+    .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
+    .page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+    .page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item {
+      display: block; } }
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate label,
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary label,
 .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate label,
@@ -3315,6 +3333,11 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    .page-user-edit .pane-user-group-full-name .form-item,
+    .page-admin-people-create .pane-user-group-full-name .form-item,
+    .page-user-register .pane-user-group-full-name .form-item {
+      display: block; } }
 .page-user-edit .pane-user-group-full-name label,
 .page-admin-people-create .pane-user-group-full-name label,
 .page-user-register .pane-user-group-full-name label {
@@ -3445,6 +3468,11 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    .page-user-edit .field-name-field-phone .form-item,
+    .page-admin-people-create .field-name-field-phone .form-item,
+    .page-user-register .field-name-field-phone .form-item {
+      display: block; } }
 .page-user-edit .field-name-field-phone label,
 .page-admin-people-create .field-name-field-phone label,
 .page-user-register .field-name-field-phone label {
@@ -3514,6 +3542,11 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    .page-user-edit .field-name-field-collection-mailing-address .form-item,
+    .page-admin-people-create .field-name-field-collection-mailing-address .form-item,
+    .page-user-register .field-name-field-collection-mailing-address .form-item {
+      display: block; } }
 .page-user-edit .field-name-field-collection-mailing-address label,
 .page-admin-people-create .field-name-field-collection-mailing-address label,
 .page-user-register .field-name-field-collection-mailing-address label {
@@ -3618,6 +3651,11 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    .page-user-edit .field-name-field-additional-email-addresses .form-item,
+    .page-admin-people-create .field-name-field-additional-email-addresses .form-item,
+    .page-user-register .field-name-field-additional-email-addresses .form-item {
+      display: block; } }
 .page-user-edit .field-name-field-additional-email-addresses label,
 .page-admin-people-create .field-name-field-additional-email-addresses label,
 .page-user-register .field-name-field-additional-email-addresses label {
@@ -3814,6 +3852,9 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    #edit-profile-bwma-client .field-name-field-driver-s-license .form-item {
+      display: block; } }
 #edit-profile-bwma-client .field-name-field-driver-s-license label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 250px;
@@ -3855,6 +3896,10 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    #edit-profile-bwma-client .field-name-field-company-name .form-item,
+    #edit-profile-bwma-client .field-name-field-occupation-or-title-tag .form-item {
+      display: block; } }
 #edit-profile-bwma-client .field-name-field-company-name label,
 #edit-profile-bwma-client .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
@@ -3890,6 +3935,9 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first .form-item {
+      display: block; } }
 #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 100px;
@@ -3934,6 +3982,9 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra .form-item {
+      display: block; } }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 80px;
@@ -3990,6 +4041,9 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title .form-item {
+      display: block; } }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 90px;
@@ -4083,6 +4137,10 @@ main#main-content {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  @media (min-width: 0px) and (max-width: 569px) {
+    #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
+    #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
+      display: block; } }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
   -webkit-box-flex: 0;
