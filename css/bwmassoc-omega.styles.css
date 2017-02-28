@@ -2885,7 +2885,8 @@ main#main-content {
 .client-acquisition .col-md-8 .field .field__label {
   width: 116px; }
 .client-acquisition .col-md-4 .field .field__label {
-  width: 264px; }
+  width: 264px;
+  max-width: 100%; }
 
 .pane-loan-debit-information .field .field__label {
   width: 282px; }
