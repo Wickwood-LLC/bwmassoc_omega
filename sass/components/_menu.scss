@@ -134,8 +134,8 @@
 
 				&:hover, &:focus {
 					background: #fff;
-				text-decoration: none;
-				color: #1894c7;
+					text-decoration: none;
+					color: #1894c7;
 				}
 
 				i {
@@ -276,47 +276,28 @@
 				background-color: white;
 			}
 
-			&.menuparent a {
-				ul li {
-					background: #dee7f1;
-				}
-			}
-
-			&:first-child > ul {
-				li:nth-child(2) a {
-					background: #57a63d;
-					color: white;
-				}
-				li:nth-child(3) a {
-					background: #0792cd;
-					color: white;
-				}
-				li:nth-child(4) a {
-					background: #ec1f27;
-					color: white;
-				}
-				li:nth-child(5) a {
-					background: #33a6d7;
-					color: white;
-				}
-				li:nth-child(6) a {
-					background: #0355a3;
-					color: white;
-				}
-
-				li a:hover {
-					background-color: #ffc43d;
-					color: black;
-				}
-				li a.active {
-					background-color: white;
-					color: #1894c7;
-				}
-			}
-
 			a:hover {
 				background-color: #ffc43d;
 				color: black;
+			}
+
+			a {
+				color: #262626;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 16px;
+				font-weight: 600;
+				padding: 16px 20px;
+				text-transform: uppercase;
+				position: relative;
+				top: 0px;
+				text-decoration: none;
+				line-height: 1.5;
+
+				&:hover, &:focus {
+					background: #fff;
+					text-decoration: none;
+					color: #1894c7;
+				}
 			}
 			a.active {
 				background-color: white;

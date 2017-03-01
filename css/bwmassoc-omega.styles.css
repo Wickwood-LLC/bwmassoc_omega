@@ -2560,32 +2560,24 @@ form#user-login, form#user-pass {
     text-align: center; }
     #block-superfish-2 #superfish-2-accordion li.sf-expanded {
       background-color: white; }
-    #block-superfish-2 #superfish-2-accordion li.menuparent a ul li {
-      background: #dee7f1; }
-    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(2) a {
-      background: #57a63d;
-      color: white; }
-    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(3) a {
-      background: #0792cd;
-      color: white; }
-    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(4) a {
-      background: #ec1f27;
-      color: white; }
-    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(5) a {
-      background: #33a6d7;
-      color: white; }
-    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(6) a {
-      background: #0355a3;
-      color: white; }
-    #block-superfish-2 #superfish-2-accordion li:first-child > ul li a:hover {
-      background-color: #ffc43d;
-      color: black; }
-    #block-superfish-2 #superfish-2-accordion li:first-child > ul li a.active {
-      background-color: white;
-      color: #1894c7; }
     #block-superfish-2 #superfish-2-accordion li a:hover {
       background-color: #ffc43d;
       color: black; }
+    #block-superfish-2 #superfish-2-accordion li a {
+      color: #262626;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 16px 20px;
+      text-transform: uppercase;
+      position: relative;
+      top: 0px;
+      text-decoration: none;
+      line-height: 1.5; }
+      #block-superfish-2 #superfish-2-accordion li a:hover, #block-superfish-2 #superfish-2-accordion li a:focus {
+        background: #fff;
+        text-decoration: none;
+        color: #1894c7; }
     #block-superfish-2 #superfish-2-accordion li a.active {
       background-color: white;
       color: #1894c7; }
