@@ -852,3 +852,9 @@
 		}
 	}
 }
+
+[class*="pane-profile-history-panel"] {
+	.view-content {
+		overflow: auto;
+	}
+}

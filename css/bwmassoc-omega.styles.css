@@ -4496,4 +4496,7 @@ main#main-content {
   #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"]:hover {
     background-color: #2271bd; }
 
+[class*="pane-profile-history-panel"] .view-content {
+  overflow: auto; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
