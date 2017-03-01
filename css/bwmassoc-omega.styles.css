@@ -144,7 +144,8 @@ td {
   padding: 10px; }
 
 .title-bar {
-  overflow: auto; }
+  display: inline-block;
+  width: 100%; }
   .title-bar .page-title {
     font-size: 1.5em; }
     @media (min-width: 569px) {
