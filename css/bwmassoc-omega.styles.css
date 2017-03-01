@@ -55,6 +55,7 @@ body {
 
 .l-branding {
   display: inline-block;
+  height: 56px;
   width: 100%;
   background: #f2f2f2;
   -webkit-box-shadow: #cecece 0px 0px 3px 2px;
@@ -2532,6 +2533,62 @@ form#user-login, form#user-pass {
           color: #1894c7; }
         #block-superfish-2 #superfish-2 li a i {
           margin-right: 3px; }
+  #block-superfish-2 .sf-accordion-toggle a {
+    background: #1894c7;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+    line-height: 1.5;
+    padding: 16px 20px;
+    display: block; }
+    #block-superfish-2 .sf-accordion-toggle a:before {
+      content: "\f007  ";
+      font-family: FontAwesome; }
+    #block-superfish-2 .sf-accordion-toggle a:hover, #block-superfish-2 .sf-accordion-toggle a:focus {
+      background: #fff;
+      text-decoration: none;
+      color: #1894c7; }
+  #block-superfish-2 #superfish-2-accordion.sf-hidden {
+    display: none !important; }
+  #block-superfish-2 #superfish-2-accordion li {
+    background-color: #f2f2f2;
+    text-align: center; }
+    #block-superfish-2 #superfish-2-accordion li.sf-expanded {
+      background-color: white; }
+    #block-superfish-2 #superfish-2-accordion li.menuparent a ul li {
+      background: #dee7f1; }
+    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(2) a {
+      background: #57a63d;
+      color: white; }
+    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(3) a {
+      background: #0792cd;
+      color: white; }
+    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(4) a {
+      background: #ec1f27;
+      color: white; }
+    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(5) a {
+      background: #33a6d7;
+      color: white; }
+    #block-superfish-2 #superfish-2-accordion li:first-child > ul li:nth-child(6) a {
+      background: #0355a3;
+      color: white; }
+    #block-superfish-2 #superfish-2-accordion li:first-child > ul li a:hover {
+      background-color: #ffc43d;
+      color: black; }
+    #block-superfish-2 #superfish-2-accordion li:first-child > ul li a.active {
+      background-color: white;
+      color: #1894c7; }
+    #block-superfish-2 #superfish-2-accordion li a:hover {
+      background-color: #ffc43d;
+      color: black; }
+    #block-superfish-2 #superfish-2-accordion li a.active {
+      background-color: white;
+      color: #1894c7; }
 
 #block-menu-menu-user-menu-bwmassoc-logout {
   float: left; }
