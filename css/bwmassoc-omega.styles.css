@@ -4474,7 +4474,8 @@ main#main-content {
 #edit-profile-bwma-client .field-name-field-loans input[value="Edit"] {
   display: inline-block;
   background-color: #1196cf;
-  color: white; }
+  color: white;
+  margin-right: 0.5em; }
   #edit-profile-bwma-client .field-name-field-loans input[value="Edit"]:hover {
     background-color: #2271bd; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Remove"] {
