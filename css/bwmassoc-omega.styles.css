@@ -704,7 +704,8 @@ ul.breadcrumb {
     display: inline-block;
     background-color: white; }
   .form-item input, .form-item textarea, .form-item keygen, .form-item select, .form-item button {
-    font-size: 16px; }
+    font-size: 16px;
+    border: 1px solid #cccccc; }
   .form-item th {
     background-color: initial; }
   .form-item tr.odd {
