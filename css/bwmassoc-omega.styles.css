@@ -3021,6 +3021,10 @@ main#main-content {
 .pane-user-history-panel-pane-1 {
   margin-top: 0; }
 
+#user-profile-form .field-name-field-loans .fieldset-wrapper,
+#edit-profile-bwma-client .field-name-field-loans .fieldset-wrapper {
+  overflow: auto; }
+
 .page-user-edit .form-item .clearfix,
 .page-admin-people-create .form-item .clearfix,
 .page-user-register .form-item .clearfix {
@@ -4484,15 +4488,15 @@ main#main-content {
   display: inline-block;
   margin-top: 0.5em;
   background-color: #1196cf;
-  color: white; }
+  color: white;
+  margin-right: 0.5em; }
   #edit-profile-bwma-client .field-name-field-loans input[value="Add new Loan"]:hover {
     background-color: #2271bd; }
 #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"] {
   display: inline-block;
   background-color: #1196cf;
   color: white;
-  margin-top: 0.5em;
-  margin-left: 0.5em; }
+  margin-top: 0.5em; }
   #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"]:hover {
     background-color: #2271bd; }
 

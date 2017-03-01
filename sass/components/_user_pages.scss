@@ -220,7 +220,11 @@
 
 #user-profile-form,
 #edit-profile-bwma-client {
-
+	.field-name-field-loans {
+		.fieldset-wrapper {
+			overflow: auto;
+		}
+	}
 }
 
 .page-user-edit,
@@ -834,6 +838,7 @@
 			margin-top: 0.5em;
 			background-color: #1196cf;
 			color: white;
+			margin-right: 0.5em;
 
 			&:hover {
 				background-color: #2271bd;
@@ -844,7 +849,6 @@
 			background-color: #1196cf;
 			color: white;
 			margin-top: 0.5em;
-			margin-left: 0.5em;
 
 			&:hover {
 				background-color: #2271bd;
