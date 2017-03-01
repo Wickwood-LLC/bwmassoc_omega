@@ -176,7 +176,8 @@ td {
     z-index: 1; }
 
 table {
-  width: 100%; }
+  width: 100%;
+  border: 1px solid #ccc; }
 
 input[type="radio"] {
   margin: 0; }
