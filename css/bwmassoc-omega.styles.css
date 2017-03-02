@@ -2264,43 +2264,6 @@ html.js fieldset.collapsed {
         background-color: white;
         color: black; }
 
-#wwm-special-2 .empty {
-  display: none; }
-#wwm-special-2 .top-columns,
-#wwm-special-2 .bottom-columns {
-  display: block; }
-  #wwm-special-2 .top-columns > section,
-  #wwm-special-2 .bottom-columns > section {
-    display: inline-block;
-    vertical-align: top;
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
-    padding: 0 1%;
-    width: 100%; }
-  @media (min-width: 693px) {
-    #wwm-special-2 .top-columns .top-1, #wwm-special-2 .top-columns .top-2, #wwm-special-2 .top-columns .top-3, #wwm-special-2 .top-columns .top-4,
-    #wwm-special-2 .bottom-columns .top-1,
-    #wwm-special-2 .bottom-columns .top-2,
-    #wwm-special-2 .bottom-columns .top-3,
-    #wwm-special-2 .bottom-columns .top-4 {
-      width: -webkit-calc(50% - 2%);
-      width: calc(50% - 2%); } }
-  @media (min-width: 1250px) {
-    #wwm-special-2 .top-columns .top-1, #wwm-special-2 .top-columns .top-2, #wwm-special-2 .top-columns .top-3, #wwm-special-2 .top-columns .top-4,
-    #wwm-special-2 .bottom-columns .top-1,
-    #wwm-special-2 .bottom-columns .top-2,
-    #wwm-special-2 .bottom-columns .top-3,
-    #wwm-special-2 .bottom-columns .top-4 {
-      width: -webkit-calc(25% - 2%);
-      width: calc(25% - 2%); } }
-  @media (min-width: 900px) {
-    #wwm-special-2 .top-columns .bottom-1, #wwm-special-2 .top-columns .bottom-2, #wwm-special-2 .top-columns .bottom-3,
-    #wwm-special-2 .bottom-columns .bottom-1,
-    #wwm-special-2 .bottom-columns .bottom-2,
-    #wwm-special-2 .bottom-columns .bottom-3 {
-      width: -webkit-calc((100% / 3) - 2%);
-      width: calc((100% / 3) - 2%); } }
-
 /* These are styles for the login and registration pages. */
 .page-user-login main#main-content,
 .not-logged-in.page-user main#main-content,
