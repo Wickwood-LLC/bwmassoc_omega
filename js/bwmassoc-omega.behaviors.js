@@ -55,7 +55,7 @@
         $anchor.appendTo(this);
       });
 
-      $(document).ready(function(){
+      $(document).load(function(){
         var b = document.documentElement;
         b.setAttribute('data-useragent',  navigator.userAgent);
         b.setAttribute('data-platform', navigator.platform );
