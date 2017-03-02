@@ -264,6 +264,7 @@
 		float: none;
 	    margin: 0 auto 1em;
 	    flex: 1 100%;
+	    max-width: 100%;
 	}
 	.password-confirm {
 		float: none;
@@ -857,7 +858,8 @@
 	}
 }
 
-[class*="pane-profile-history-panel"] {
+[class*="pane-profile-history-panel"],
+[class*="pane-user-history-panel"] {
 	.view-content {
 		overflow: auto;
 	}

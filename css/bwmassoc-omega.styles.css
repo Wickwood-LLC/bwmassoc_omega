@@ -2264,6 +2264,48 @@ html.js fieldset.collapsed {
         background-color: white;
         color: black; }
 
+#wwm-special-2 .empty {
+  display: none; }
+#wwm-special-2 .top-columns,
+#wwm-special-2 .bottom-columns {
+  display: block; }
+  #wwm-special-2 .top-columns > section,
+  #wwm-special-2 .bottom-columns > section {
+    display: inline-block;
+    padding: 0 1%;
+    width: 100%;
+    max-width: 100%; }
+  @media (min-width: 450px) {
+    #wwm-special-2 .top-columns .top-1, #wwm-special-2 .top-columns .top-2, #wwm-special-2 .top-columns .top-3, #wwm-special-2 .top-columns .top-4,
+    #wwm-special-2 .bottom-columns .top-1,
+    #wwm-special-2 .bottom-columns .top-2,
+    #wwm-special-2 .bottom-columns .top-3,
+    #wwm-special-2 .bottom-columns .top-4 {
+      width: -webkit-calc(50% - 2%);
+      width: calc(50% - 2%); } }
+  @media (min-width: 1250px) {
+    #wwm-special-2 .top-columns .top-1, #wwm-special-2 .top-columns .top-2, #wwm-special-2 .top-columns .top-3, #wwm-special-2 .top-columns .top-4,
+    #wwm-special-2 .bottom-columns .top-1,
+    #wwm-special-2 .bottom-columns .top-2,
+    #wwm-special-2 .bottom-columns .top-3,
+    #wwm-special-2 .bottom-columns .top-4 {
+      width: -webkit-calc(25% - 2%);
+      width: calc(25% - 2%); } }
+  @media (min-width: 900px) {
+    #wwm-special-2 .top-columns .bottom-1, #wwm-special-2 .top-columns .bottom-2, #wwm-special-2 .top-columns .bottom-3,
+    #wwm-special-2 .bottom-columns .bottom-1,
+    #wwm-special-2 .bottom-columns .bottom-2,
+    #wwm-special-2 .bottom-columns .bottom-3 {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 -webkit-calc(100% / 3);
+          -ms-flex: 1 calc(100% / 3);
+              flex: 1 calc(100% / 3);
+      -webkit-flex-basis: -webkit-calc(100% / 3);
+          -ms-flex-preferred-size: calc(100% / 3);
+              flex-basis: calc(100% / 3);
+      width: -webkit-calc((100% / 3) - 2%);
+      width: calc((100% / 3) - 2%); } }
+
 /* These are styles for the login and registration pages. */
 .page-user-login main#main-content,
 .not-logged-in.page-user main#main-content,
@@ -3076,7 +3118,8 @@ main#main-content {
   -webkit-box-flex: 1;
   -webkit-flex: 1 100%;
       -ms-flex: 1 100%;
-          flex: 1 100%; }
+          flex: 1 100%;
+  max-width: 100%; }
 .page-user-edit .password-confirm,
 .page-admin-people-create .password-confirm,
 .page-user-register .password-confirm {
@@ -4502,7 +4545,8 @@ main#main-content {
   #edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"]:hover {
     background-color: #2271bd; }
 
-[class*="pane-profile-history-panel"] .view-content {
+[class*="pane-profile-history-panel"] .view-content,
+[class*="pane-user-history-panel"] .view-content {
   overflow: auto; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
