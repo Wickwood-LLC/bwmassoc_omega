@@ -2272,6 +2272,9 @@ html.js fieldset.collapsed {
   #wwm-special-2 .top-columns > section,
   #wwm-special-2 .bottom-columns > section {
     display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
     padding: 0 1%;
     width: 100%;
     max-width: 100%; }
