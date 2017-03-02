@@ -11,10 +11,9 @@
 			box-sizing: content-box;
 			padding: 0 1%;
 			width: 100%;
-			max-width: 100%;
 		}
 
-		@include breakpoint(450px) {
+		@include breakpoint(693px) {
 			.top-1,	.top-2,	.top-3,	.top-4 {
 				width: calc(50% - 2%);
 			}
@@ -28,8 +27,6 @@
 
 		@include breakpoint(900px) {
 			.bottom-1, .bottom-2, .bottom-3 {
-				flex: 1 calc(100% / 3);
-				flex-basis: calc(100% / 3);		// for browsers that can't understand the above code (like IE)
 				width: calc((100% / 3) - 2%);
 			}
 		}

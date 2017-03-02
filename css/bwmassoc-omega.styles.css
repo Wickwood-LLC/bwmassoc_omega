@@ -2276,9 +2276,8 @@ html.js fieldset.collapsed {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
     padding: 0 1%;
-    width: 100%;
-    max-width: 100%; }
-  @media (min-width: 450px) {
+    width: 100%; }
+  @media (min-width: 693px) {
     #wwm-special-2 .top-columns .top-1, #wwm-special-2 .top-columns .top-2, #wwm-special-2 .top-columns .top-3, #wwm-special-2 .top-columns .top-4,
     #wwm-special-2 .bottom-columns .top-1,
     #wwm-special-2 .bottom-columns .top-2,
@@ -2299,13 +2298,6 @@ html.js fieldset.collapsed {
     #wwm-special-2 .bottom-columns .bottom-1,
     #wwm-special-2 .bottom-columns .bottom-2,
     #wwm-special-2 .bottom-columns .bottom-3 {
-      -webkit-box-flex: 1;
-      -webkit-flex: 1 -webkit-calc(100% / 3);
-          -ms-flex: 1 calc(100% / 3);
-              flex: 1 calc(100% / 3);
-      -webkit-flex-basis: -webkit-calc(100% / 3);
-          -ms-flex-preferred-size: calc(100% / 3);
-              flex-basis: calc(100% / 3);
       width: -webkit-calc((100% / 3) - 2%);
       width: calc((100% / 3) - 2%); } }
 
