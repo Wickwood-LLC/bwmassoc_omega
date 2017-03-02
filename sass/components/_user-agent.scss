@@ -1,0 +1,18 @@
+html[data-useragent*='iPhone OS 7'] {
+	#wwm-special-2 {
+		.empty { display: none; }
+
+		.top-columns,
+		.bottom-columns {
+			display: block;
+			width: 100%;
+			max-width: 100%;
+
+			> section {
+				width: 100%;
+				padding: 0 1%;
+				max-width: 100%;
+			}
+		}
+	}
+}

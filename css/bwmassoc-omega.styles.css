@@ -2881,6 +2881,19 @@ main#main-content {
       margin-bottom: 1em;
       width: 100%; } }
 
+html[data-useragent*='iPhone OS 7'] #wwm-special-2 .empty {
+  display: none; }
+html[data-useragent*='iPhone OS 7'] #wwm-special-2 .top-columns,
+html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
+  display: block;
+  width: 100%;
+  max-width: 100%; }
+  html[data-useragent*='iPhone OS 7'] #wwm-special-2 .top-columns > section,
+  html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns > section {
+    width: 100%;
+    padding: 0 1%;
+    max-width: 100%; }
+
 #user-account-main-page .action-links li,
 #user-account-client-profile .action-links li {
   list-style: none; }
