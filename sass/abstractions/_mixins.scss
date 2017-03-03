@@ -9,6 +9,7 @@
     flex: 0 0 $label-width;
     max-width: 100%;
     flex-basis: $label-width;
+    white-space: normal;
   }
   input {
     flex: 1 1 calc(100% - #{$label-width});

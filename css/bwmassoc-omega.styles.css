@@ -3135,7 +3135,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 130px;
       -ms-flex-preferred-size: 130px;
-          flex-basis: 130px; }
+          flex-basis: 130px;
+  white-space: normal; }
 .page-user-edit .pane-user-form-account input,
 .page-admin-people-create .pane-user-form-account input,
 .page-user-register .pane-user-form-account input {
@@ -3256,7 +3257,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 150px;
       -ms-flex-preferred-size: 150px;
-          flex-basis: 150px; }
+          flex-basis: 150px;
+  white-space: normal; }
 .page-user-edit .pane-basic-user-info-user-edit input,
 .page-admin-people-create .pane-basic-user-info-user-edit input,
 .page-user-register .pane-basic-user-info-user-edit input {
@@ -3315,7 +3317,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 100px;
       -ms-flex-preferred-size: 100px;
-          flex-basis: 100px; }
+          flex-basis: 100px;
+  white-space: normal; }
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
 .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate input,
@@ -3441,7 +3444,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 110px;
       -ms-flex-preferred-size: 110px;
-          flex-basis: 110px; }
+          flex-basis: 110px;
+  white-space: normal; }
 .page-user-edit .pane-user-group-full-name input,
 .page-admin-people-create .pane-user-group-full-name input,
 .page-user-register .pane-user-group-full-name input {
@@ -3571,7 +3575,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 120px;
       -ms-flex-preferred-size: 120px;
-          flex-basis: 120px; }
+          flex-basis: 120px;
+  white-space: normal; }
 .page-user-edit .field-name-field-phone input,
 .page-admin-people-create .field-name-field-phone input,
 .page-user-register .field-name-field-phone input {
@@ -3640,7 +3645,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 114px;
       -ms-flex-preferred-size: 114px;
-          flex-basis: 114px; }
+          flex-basis: 114px;
+  white-space: normal; }
 .page-user-edit .field-name-field-collection-mailing-address input,
 .page-admin-people-create .field-name-field-collection-mailing-address input,
 .page-user-register .field-name-field-collection-mailing-address input {
@@ -3744,7 +3750,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 50px;
       -ms-flex-preferred-size: 50px;
-          flex-basis: 50px; }
+          flex-basis: 50px;
+  white-space: normal; }
 .page-user-edit .field-name-field-additional-email-addresses input,
 .page-admin-people-create .field-name-field-additional-email-addresses input,
 .page-user-register .field-name-field-additional-email-addresses input {
@@ -3938,7 +3945,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 250px;
       -ms-flex-preferred-size: 250px;
-          flex-basis: 250px; }
+          flex-basis: 250px;
+  white-space: normal; }
 #edit-profile-bwma-client .field-name-field-driver-s-license input {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 -webkit-calc(100% - 250px);
@@ -3980,7 +3988,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 150px;
       -ms-flex-preferred-size: 150px;
-          flex-basis: 150px; }
+          flex-basis: 150px;
+  white-space: normal; }
 #edit-profile-bwma-client .field-name-field-company-name input,
 #edit-profile-bwma-client .field-name-field-occupation-or-title-tag input {
   -webkit-box-flex: 1;
@@ -4014,7 +4023,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 100px;
       -ms-flex-preferred-size: 100px;
-          flex-basis: 100px; }
+          flex-basis: 100px;
+  white-space: normal; }
 #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first input {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 -webkit-calc(100% - 100px);
@@ -4059,7 +4069,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 80px;
       -ms-flex-preferred-size: 80px;
-          flex-basis: 80px; }
+          flex-basis: 80px;
+  white-space: normal; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra input {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 -webkit-calc(100% - 80px);
@@ -4121,7 +4132,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 90px;
       -ms-flex-preferred-size: 90px;
-          flex-basis: 90px; }
+          flex-basis: 90px;
+  white-space: normal; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title input {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 -webkit-calc(100% - 90px);
@@ -4215,7 +4227,8 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   max-width: 100%;
   -webkit-flex-basis: 150px;
       -ms-flex-preferred-size: 150px;
-          flex-basis: 150px; }
+          flex-basis: 150px;
+  white-space: normal; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender input {
   -webkit-box-flex: 1;
