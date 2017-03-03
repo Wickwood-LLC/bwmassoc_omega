@@ -3125,11 +3125,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    .page-user-edit .pane-user-form-account .form-item,
-    .page-admin-people-create .pane-user-form-account .form-item,
-    .page-user-register .pane-user-form-account .form-item {
-      display: block; } }
 .page-user-edit .pane-user-form-account label,
 .page-admin-people-create .pane-user-form-account label,
 .page-user-register .pane-user-form-account label {
@@ -3151,7 +3146,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 130px);
       -ms-flex-preferred-size: calc(100% - 130px);
           flex-basis: calc(100% - 130px);
-  min-width: 150px;
   max-width: 100%; }
 .page-user-edit .pane-user-form-account .form-type-password-confirm label, .page-user-edit .pane-user-form-account .form-type-password-confirm input,
 .page-admin-people-create .pane-user-form-account .form-type-password-confirm label,
@@ -3197,6 +3191,10 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
     .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
       display: block;
       min-width: 200px; }
+  .page-user-edit .pane-user-form-account .form-item-roles .form-checkbox,
+  .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkbox,
+  .page-user-register .pane-user-form-account .form-item-roles .form-checkbox {
+    min-width: 0; }
 .page-user-edit .pane-user-form-account .form-item-notify,
 .page-admin-people-create .pane-user-form-account .form-item-notify,
 .page-user-register .pane-user-form-account .form-item-notify {
@@ -3248,11 +3246,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    .page-user-edit .pane-basic-user-info-user-edit .form-item,
-    .page-admin-people-create .pane-basic-user-info-user-edit .form-item,
-    .page-user-register .pane-basic-user-info-user-edit .form-item {
-      display: block; } }
 .page-user-edit .pane-basic-user-info-user-edit label,
 .page-admin-people-create .pane-basic-user-info-user-edit label,
 .page-user-register .pane-basic-user-info-user-edit label {
@@ -3274,8 +3267,14 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 150px);
       -ms-flex-preferred-size: calc(100% - 150px);
           flex-basis: calc(100% - 150px);
-  min-width: 150px;
   max-width: 100%; }
+.page-user-edit .pane-basic-user-info-user-edit input.form-radio,
+.page-user-edit .pane-basic-user-info-user-edit input.form-checkbox,
+.page-admin-people-create .pane-basic-user-info-user-edit input.form-radio,
+.page-admin-people-create .pane-basic-user-info-user-edit input.form-checkbox,
+.page-user-register .pane-basic-user-info-user-edit input.form-radio,
+.page-user-register .pane-basic-user-info-user-edit input.form-checkbox {
+  min-width: 0; }
 .page-user-edit .pane-basic-user-info-user-edit .date-form-element-content,
 .page-user-edit .pane-basic-user-info-user-edit .date-padding,
 .page-admin-people-create .pane-basic-user-info-user-edit .date-form-element-content,
@@ -3303,14 +3302,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
-    .page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
-    .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
-    .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
-    .page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
-    .page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item {
-      display: block; } }
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate label,
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary label,
 .page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate label,
@@ -3338,7 +3329,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 100px);
       -ms-flex-preferred-size: calc(100% - 100px);
           flex-basis: calc(100% - 100px);
-  min-width: 150px;
   max-width: 100%; }
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
 .page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
@@ -3441,11 +3431,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    .page-user-edit .pane-user-group-full-name .form-item,
-    .page-admin-people-create .pane-user-group-full-name .form-item,
-    .page-user-register .pane-user-group-full-name .form-item {
-      display: block; } }
 .page-user-edit .pane-user-group-full-name label,
 .page-admin-people-create .pane-user-group-full-name label,
 .page-user-register .pane-user-group-full-name label {
@@ -3467,7 +3452,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 110px);
       -ms-flex-preferred-size: calc(100% - 110px);
           flex-basis: calc(100% - 110px);
-  min-width: 150px;
   max-width: 100%; }
 .page-user-edit .pane-user-group-full-name .description,
 .page-admin-people-create .pane-user-group-full-name .description,
@@ -3577,11 +3561,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    .page-user-edit .field-name-field-phone .form-item,
-    .page-admin-people-create .field-name-field-phone .form-item,
-    .page-user-register .field-name-field-phone .form-item {
-      display: block; } }
 .page-user-edit .field-name-field-phone label,
 .page-admin-people-create .field-name-field-phone label,
 .page-user-register .field-name-field-phone label {
@@ -3603,7 +3582,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 120px);
       -ms-flex-preferred-size: calc(100% - 120px);
           flex-basis: calc(100% - 120px);
-  min-width: 150px;
   max-width: 100%; }
 .page-user-edit .field-name-field-phone .description,
 .page-admin-people-create .field-name-field-phone .description,
@@ -3652,11 +3630,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    .page-user-edit .field-name-field-collection-mailing-address .form-item,
-    .page-admin-people-create .field-name-field-collection-mailing-address .form-item,
-    .page-user-register .field-name-field-collection-mailing-address .form-item {
-      display: block; } }
 .page-user-edit .field-name-field-collection-mailing-address label,
 .page-admin-people-create .field-name-field-collection-mailing-address label,
 .page-user-register .field-name-field-collection-mailing-address label {
@@ -3678,8 +3651,11 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 114px);
       -ms-flex-preferred-size: calc(100% - 114px);
           flex-basis: calc(100% - 114px);
-  min-width: 150px;
   max-width: 100%; }
+.page-user-edit .field-name-field-collection-mailing-address input,
+.page-admin-people-create .field-name-field-collection-mailing-address input,
+.page-user-register .field-name-field-collection-mailing-address input {
+  min-width: 0; }
 .page-user-edit .field-name-field-collection-mailing-address .description,
 .page-admin-people-create .field-name-field-collection-mailing-address .description,
 .page-user-register .field-name-field-collection-mailing-address .description {
@@ -3762,11 +3738,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    .page-user-edit .field-name-field-additional-email-addresses .form-item,
-    .page-admin-people-create .field-name-field-additional-email-addresses .form-item,
-    .page-user-register .field-name-field-additional-email-addresses .form-item {
-      display: block; } }
 .page-user-edit .field-name-field-additional-email-addresses label,
 .page-admin-people-create .field-name-field-additional-email-addresses label,
 .page-user-register .field-name-field-additional-email-addresses label {
@@ -3788,7 +3759,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 50px);
       -ms-flex-preferred-size: calc(100% - 50px);
           flex-basis: calc(100% - 50px);
-  min-width: 150px;
   max-width: 100%; }
 .page-user-edit .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item,
 .page-admin-people-create .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item,
@@ -3964,9 +3934,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    #edit-profile-bwma-client .field-name-field-driver-s-license .form-item {
-      display: block; } }
 #edit-profile-bwma-client .field-name-field-driver-s-license label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 250px;
@@ -3984,7 +3951,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 250px);
       -ms-flex-preferred-size: calc(100% - 250px);
           flex-basis: calc(100% - 250px);
-  min-width: 150px;
   max-width: 100%; }
 #edit-profile-bwma-client .field-name-field-driver-s-license legend {
   font-weight: bold; }
@@ -4009,10 +3975,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    #edit-profile-bwma-client .field-name-field-company-name .form-item,
-    #edit-profile-bwma-client .field-name-field-occupation-or-title-tag .form-item {
-      display: block; } }
 #edit-profile-bwma-client .field-name-field-company-name label,
 #edit-profile-bwma-client .field-name-field-occupation-or-title-tag label {
   -webkit-box-flex: 0;
@@ -4032,7 +3994,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 150px);
       -ms-flex-preferred-size: calc(100% - 150px);
           flex-basis: calc(100% - 150px);
-  min-width: 150px;
   max-width: 100%; }
 #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first .form-item {
   display: -webkit-box;
@@ -4049,9 +4010,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first .form-item {
-      display: block; } }
 #edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 100px;
@@ -4069,7 +4027,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 100px);
       -ms-flex-preferred-size: calc(100% - 100px);
           flex-basis: calc(100% - 100px);
-  min-width: 150px;
   max-width: 100%; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-source-notes label {
   -webkit-box-flex: 100%;
@@ -4098,9 +4055,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra .form-item {
-      display: block; } }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 80px;
@@ -4118,7 +4072,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 80px);
       -ms-flex-preferred-size: calc(100% - 80px);
           flex-basis: calc(100% - 80px);
-  min-width: 150px;
   max-width: 100%; }
 #edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra legend {
   font-weight: bold; }
@@ -4164,9 +4117,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title .form-item {
-      display: block; } }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title label {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 90px;
@@ -4184,7 +4134,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 90px);
       -ms-flex-preferred-size: calc(100% - 90px);
           flex-basis: calc(100% - 90px);
-  min-width: 150px;
   max-width: 100%; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
   display: inline-block;
@@ -4261,10 +4210,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-  @media (min-width: 0px) and (max-width: 569px) {
-    #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
-    #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
-      display: block; } }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
   -webkit-box-flex: 0;
@@ -4284,7 +4229,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   -webkit-flex-basis: -webkit-calc(100% - 150px);
       -ms-flex-preferred-size: calc(100% - 150px);
           flex-basis: calc(100% - 150px);
-  min-width: 150px;
   max-width: 100%; }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
   width: 100%; }

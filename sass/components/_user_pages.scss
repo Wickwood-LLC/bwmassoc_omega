@@ -316,6 +316,10 @@
 				    min-width: 200px;
 				}
 			}
+
+			.form-checkbox {
+				min-width: 0;
+			}
 		}
 
 		.form-item-notify {
@@ -341,6 +345,11 @@
 
 	.pane-basic-user-info-user-edit {
 		@include flexifields(150px);
+		
+		input.form-radio,
+		input.form-checkbox {
+			min-width: 0;
+		}
 
 		.date-form-element-content,
 		.date-padding {
@@ -528,6 +537,10 @@
 
 	.field-name-field-collection-mailing-address {
 		@include flexifields(114px);
+
+		input {
+			min-width: 0;
+		}
 
 		.description {
 			flex: 100%;
