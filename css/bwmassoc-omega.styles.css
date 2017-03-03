@@ -3652,10 +3652,6 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
       -ms-flex-preferred-size: calc(100% - 114px);
           flex-basis: calc(100% - 114px);
   max-width: 100%; }
-.page-user-edit .field-name-field-collection-mailing-address input,
-.page-admin-people-create .field-name-field-collection-mailing-address input,
-.page-user-register .field-name-field-collection-mailing-address input {
-  min-width: 0; }
 .page-user-edit .field-name-field-collection-mailing-address .description,
 .page-admin-people-create .field-name-field-collection-mailing-address .description,
 .page-user-register .field-name-field-collection-mailing-address .description {

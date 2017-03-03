@@ -538,10 +538,6 @@
 	.field-name-field-collection-mailing-address {
 		@include flexifields(114px);
 
-		input {
-			min-width: 0;
-		}
-
 		.description {
 			flex: 100%;
 		}
