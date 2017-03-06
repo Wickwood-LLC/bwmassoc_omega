@@ -3865,14 +3865,7 @@ html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
   .page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"],
   .page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"],
   .page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 auto;
-        -ms-flex: 1 auto;
-            flex: 1 auto;
-    position: absolute;
-    top: -9px;
-    background: white;
-    padding: 0 1em; }
+    display: none; }
   .page-user-edit .pane-user-field-related-clients input[value="Search"],
   .page-admin-people-create .pane-user-field-related-clients input[value="Search"],
   .page-user-register .pane-user-field-related-clients input[value="Search"] {

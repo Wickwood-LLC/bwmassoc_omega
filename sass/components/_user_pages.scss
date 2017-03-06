@@ -682,11 +682,7 @@
     	}
 
     	label[for*="edit-field-related-clients"] {
-    		flex: 1 auto;
-			position: absolute;
-			top: -9px;
-			background: white;
-			padding: 0 1em;
+    		display: none;
     	}
 
     	input[value="Search"] {
