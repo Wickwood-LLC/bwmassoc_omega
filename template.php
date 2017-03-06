@@ -7,9 +7,9 @@
  */
 
 function bwmassoc_omega_preprocess_html(&$vars) {
-  drupal_add_js('https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js', array(
-    'type' => 'external'
-  ));
+  // drupal_add_js('https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js', array(
+  //   'type' => 'external'
+  // ));
 }
 
 /**
