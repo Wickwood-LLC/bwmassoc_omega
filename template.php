@@ -6,7 +6,7 @@
  * BWMAssoc Omega theme.
  */
 
-function YOURTHEME_preprocess_html(&$vars) {
+function bwmassoc_omega_preprocess_html(&$vars) {
   // Load font
   drupal_add_css('http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css', array(
     'type' => 'external'
