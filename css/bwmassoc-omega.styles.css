@@ -2,11 +2,15 @@
 /* No files to import found in variables/* */
 html {
   font-size: 16px;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  max-width: 100%;
+  overflow: hidden; }
 
 body {
   background-color: #f2fafe;
-  margin: 0; }
+  margin: 0;
+  max-width: 100%;
+  overflow: hidden; }
   body.not-logged-in #block-panels-mini-header-bwmassoc-com {
     margin-bottom: 1em; }
 
@@ -2880,15 +2884,15 @@ main#main-content {
       margin-bottom: 1em;
       width: 100%; } }
 
-html[data-useragent*='iPhone OS 7'] #wwm-special-2 .empty {
+html[data-useragent*='iPhone OS'] #wwm-special-2 .empty {
   display: none; }
-html[data-useragent*='iPhone OS 7'] #wwm-special-2 .top-columns,
-html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns {
+html[data-useragent*='iPhone OS'] #wwm-special-2 .top-columns,
+html[data-useragent*='iPhone OS'] #wwm-special-2 .bottom-columns {
   display: block;
   width: 100%;
   max-width: 100%; }
-  html[data-useragent*='iPhone OS 7'] #wwm-special-2 .top-columns > section,
-  html[data-useragent*='iPhone OS 7'] #wwm-special-2 .bottom-columns > section {
+  html[data-useragent*='iPhone OS'] #wwm-special-2 .top-columns > section,
+  html[data-useragent*='iPhone OS'] #wwm-special-2 .bottom-columns > section {
     width: 100%;
     padding: 0 1%;
     max-width: 100%; }
