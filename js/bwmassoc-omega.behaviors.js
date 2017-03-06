@@ -60,21 +60,14 @@
       b.setAttribute('data-platform', navigator.platform );
       b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
 
-      if ('ontouchstart' in window) {
-        $("a").click(function (e) {
-            e.preventDefault();
-            // trigger tooltip...
-        });
-      }
-
       if ($("html").hasClass("touch") && $(".tabs--primary li a.active").has(".secondary-tabs")) {
         if ('ontouchstart' in window) { //disable link
           $("tabs--primary li a.active").click(function (e) {
-              e.preventDefault();
+            e.preventDefault();
           });
         }
         $(".tabs--primary li a.active").on("tap",function(){
-          $(".secondary-tabs").slideToggle();
+          $(".tabs--primary li a.active .secondary-tabs").slideToggle();
         });
       }
     }
