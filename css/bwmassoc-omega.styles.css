@@ -3843,6 +3843,10 @@ html[data-useragent*='iPhone OS'] #wwm-special-2 .bottom-columns {
   padding: 0.5em;
   position: relative;
   margin-top: 1.5em; }
+  .page-user-edit .pane-user-field-related-clients .pane-title,
+  .page-admin-people-create .pane-user-field-related-clients .pane-title,
+  .page-user-register .pane-user-field-related-clients .pane-title {
+    font-size: 1.17em; }
   .page-user-edit .pane-user-field-related-clients .subform, .page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
   .page-admin-people-create .pane-user-field-related-clients .subform,
   .page-admin-people-create .pane-user-field-related-clients #edit-uid-wrapper,
