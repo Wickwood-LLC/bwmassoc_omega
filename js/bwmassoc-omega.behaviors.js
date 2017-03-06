@@ -59,6 +59,12 @@
       b.setAttribute('data-useragent',  navigator.userAgent);
       b.setAttribute('data-platform', navigator.platform );
       b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
+
+      if ($("html").hasClass("touch") && $(".tabs--primary li a.active").has(".secondary-tabs")) {
+        $(".tabs--primary li a.active").on("tap",function(){
+          $(".secondary-tabs").slideToggle();
+        });
+      }
     }
   };
 

@@ -2744,6 +2744,9 @@ form#user-login, form#user-pass {
         position: relative;
         top: 0px; }
 
+html.touch .tabs--primary ul.secondary-tabs {
+  display: none; }
+
 .tabs.secondary:not(#views-display-menu-tabs) {
   float: right; }
 
