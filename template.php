@@ -6,6 +6,16 @@
  * BWMAssoc Omega theme.
  */
 
+function YOURTHEME_preprocess_html(&$vars) {
+  // Load font
+  drupal_add_css('http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css', array(
+    'type' => 'external'
+  ));
+  drupal_add_js('http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js', array(
+    'type' => 'external'
+  ));
+}
+
 /**
  * Implements hook_preprocess_page().
  */
