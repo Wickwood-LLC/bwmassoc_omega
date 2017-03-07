@@ -485,11 +485,18 @@
 	}
 }
 
-html.touch .tabs--primary ul.secondary-tabs {
-	display: none;
-	position: absolute;
-    top: 100%;
-    height: auto;
+html.touch .tabs--primary {
+	li a.active:after {
+		content: ' \f0d7';
+		font-family: FontAwesome;
+	}
+	
+	ul.secondary-tabs {
+		display: none;
+		position: absolute;
+		top: 100%;
+		height: auto;
+	}
 }
 
 .tabs.secondary:not(#views-display-menu-tabs) {

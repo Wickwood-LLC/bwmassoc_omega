@@ -2744,6 +2744,9 @@ form#user-login, form#user-pass {
         position: relative;
         top: 0px; }
 
+html.touch .tabs--primary li a.active:after {
+  content: ' \f0d7';
+  font-family: FontAwesome; }
 html.touch .tabs--primary ul.secondary-tabs {
   display: none;
   position: absolute;
