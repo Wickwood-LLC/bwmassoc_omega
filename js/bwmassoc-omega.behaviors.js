@@ -64,7 +64,7 @@
         $(".tabs--primary li a.active").removeAttr("href"); //disable link
         $(".tabs--primary li a.active").on("click", function() {
           console.log('clicked!');
-          $(".tabs--primary li a.active .secondary-tabs a").css("color", "green");
+          $(".tabs--primary li a.active .secondary-tabs a").css("display", "none");
         });
       }
     }
