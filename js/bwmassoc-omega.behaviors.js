@@ -61,11 +61,7 @@
       b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
 
       if ($("html").hasClass("touch") && $(".tabs--primary li a.active").has(".secondary-tabs")) {
-        if ('ontouchstart' in window) { //disable link
-          $("tabs--primary li a.active").click(function (e) {
-            e.preventDefault();
-          });
-        }
+        document.getElementById(".tabs--primary li a.active").onclick = function() { return false; }; //disable link
         $(".tabs--primary li a.active").click(function(){
           $(".tabs--primary li a.active .secondary-tabs").slideToggle();
         });
