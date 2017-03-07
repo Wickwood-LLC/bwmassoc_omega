@@ -66,7 +66,7 @@
             e.preventDefault();
           });
         }
-        $(".tabs--primary li a.active").on("tap",function(){
+        $(".tabs--primary li a.active").click(function(){
           $(".tabs--primary li a.active .secondary-tabs").slideToggle();
         });
       }
