@@ -2905,6 +2905,8 @@ html[data-useragent*='iPhone OS'] #wwm-special-2 .bottom-columns {
     width: 100%;
     padding: 0 1%;
     max-width: 100%; }
+html[data-useragent*='iPhone OS'] .page-user-edit .pane-basic-user-info-user-edit .field-type-datetime .form-item {
+  display: block; }
 
 #user-account-main-page .action-links li,
 #user-account-client-profile .action-links li {

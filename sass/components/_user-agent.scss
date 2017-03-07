@@ -15,4 +15,8 @@ html[data-useragent*='iPhone OS'] {
 			}
 		}
 	}
+
+	.page-user-edit .pane-basic-user-info-user-edit .field-type-datetime .form-item {
+		display: block;
+	}
 }
