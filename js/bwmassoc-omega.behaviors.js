@@ -63,9 +63,9 @@
       if ($("html").hasClass("touch") && $(".tabs--primary li a.active").has(".secondary-tabs")) {
         $(".tabs--primary li a.active").removeAttr("href"); //disable link
         $(".tabs--primary li a.active").click(function() {
-          var $exists = $(".tabs--primary li a.active").find(".secondary-tabs").length;
+          var $exists = $(".tabs--primary li a.active").has(".secondary-tabs").length;
           console.log($exists);
-          $(".tabs--primary li a.active").find(".secondary-tabs").css("display", "block");
+          $(".tabs--primary li a.active").has(".secondary-tabs").css("display", "block");
         });
       }
     }
