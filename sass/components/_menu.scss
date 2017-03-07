@@ -486,7 +486,10 @@
 }
 
 html.touch .tabs--primary ul.secondary-tabs {
-	// display: none;
+	display: none;
+	position: absolute;
+    top: 100%;
+    height: auto;
 }
 
 .tabs.secondary:not(#views-display-menu-tabs) {
