@@ -486,7 +486,7 @@
 }
 
 html.touch .tabs--primary {
-	>li a.active:after {
+	>li>a.active:after {
 		content: ' \f0d7';
 		font-family: FontAwesome;
 	}
