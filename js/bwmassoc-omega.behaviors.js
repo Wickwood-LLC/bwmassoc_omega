@@ -65,7 +65,7 @@
         $(".tabs--primary li a.active").on("click", function() {
           var $exists = $(".tabs--primary li a.active").length;
           console.log($exists);
-          $(".tabs--primary li a.active .secondary-tabs a").css("display", "none");
+          $(".tabs--primary li a.active").find(".secondary-tabs").css("display", "block");
         });
       }
     }
