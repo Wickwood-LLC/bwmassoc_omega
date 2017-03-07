@@ -60,14 +60,16 @@
       b.setAttribute('data-platform', navigator.platform );
       b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
 
-      if ($("html").hasClass("touch") && $(".tabs--primary li a.active").has(".secondary-tabs")) {
-        $(".tabs--primary li a.active").removeAttr("href"); //disable link
-        $(".tabs--primary li a.active").click(function() {
-          var $exists = $(".tabs--primary li a.active").has(".secondary-tabs").length;
-          console.log($exists);
-          $(".tabs--primary li a.active").has(".secondary-tabs").css("display", "block");
-        });
-      }
+      $(window).load(function(){
+        if ($("html").hasClass("touch") && $(".tabs--primary li a.active").has(".secondary-tabs")) {
+          $(".tabs--primary li a.active").removeAttr("href"); //disable link
+          $(".tabs--primary li a.active").click(function() {
+            var $exists = $(".tabs--primary li a.active").has(".secondary-tabs").length;
+            console.log($exists);
+            $(".tabs--primary li a.active").has(".secondary-tabs").css("display", "block");
+          });
+        }
+      });
     }
   };
 
