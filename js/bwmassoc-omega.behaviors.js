@@ -63,7 +63,7 @@
       if ($("html").hasClass("touch") && $(".tabs--primary li a.active").has(".secondary-tabs")) {
         $(".tabs--primary li a.active").removeAttr("href"); //disable link
         $(".tabs--primary li a.active").on("click", function() {
-          var $exists = $(".tabs--primary li a.active .secondary-tabs a").length;
+          var $exists = $(".tabs--primary li a.active").length;
           console.log($exists);
           $(".tabs--primary li a.active .secondary-tabs a").css("display", "none");
         });
