@@ -3013,21 +3013,48 @@ html[data-useragent*='iPhone OS'] .page-user-edit .pane-basic-user-info-user-edi
   width: 264px;
   max-width: 100%; }
 
+@media (min-width: 0px) and (max-width: 359px) {
+  .pane-loan-debit-information {
+    padding-top: 2.5em; } }
 .pane-loan-debit-information .field .field__label {
   width: 282px;
   max-width: 100%; }
 
+@media (min-width: 0px) and (max-width: 349px) {
+  .pane-node-field-deferred-enrollment-fees {
+    padding-top: 4em; } }
+@media (min-width: 350px) and (max-width: 432px) {
+  .pane-node-field-deferred-enrollment-fees {
+    padding-top: 2.5em; } }
+
+@media (min-width: 0px) and (max-width: 389px) {
+  .pane-bwma-enrolment {
+    padding-top: 2.5em; } }
 .pane-bwma-enrolment .field .field__label {
   width: 196px;
   max-width: 100%; }
 
+@media (min-width: 0px) and (max-width: 336px) {
+  .pane-afts-advance {
+    padding-top: 2.5em; } }
 .pane-afts-advance .field .field__label {
   width: 320px;
   max-width: 100%; }
 
+@media (min-width: 0px) and (max-width: 395px) {
+  .pane-node-field-lenders {
+    padding-top: 2.5em; } }
+
+@media (min-width: 0px) and (max-width: 469px) {
+  .pane-node-field-service-bureaus {
+    padding-top: 2.5em; } }
 .pane-node-field-service-bureaus .field .field__label {
   width: 216px;
   max-width: 100%; }
+
+@media (min-width: 0px) and (max-width: 378px) {
+  .pane-loan-chaos-data {
+    padding-top: 2.5em; } }
 
 .action-links {
   font-size: 11px;

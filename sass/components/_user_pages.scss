@@ -157,13 +157,30 @@
 }
 
 .pane-loan-debit-information {
+	@include breakpoint(0px 359px) {
+		padding-top: 2.5em;
+	}
+
 	.field .field__label {
 		width: 282px;
 		max-width: 100%;
 	}
 }
 
+.pane-node-field-deferred-enrollment-fees {
+	@include breakpoint(0px 349px) {
+		padding-top: 4em;
+	}
+	@include breakpoint(350px 432px) {
+		padding-top: 2.5em;
+	}
+}
+
 .pane-bwma-enrolment {
+	@include breakpoint(0px 389px) {
+		padding-top: 2.5em;
+	}
+
 	.field .field__label {
 		width: 196px;
 		max-width: 100%;
@@ -171,16 +188,36 @@
 }
 
 .pane-afts-advance {
+	@include breakpoint(0px 336px) {
+		padding-top: 2.5em;
+	}
+
 	.field .field__label {
 		width: 320px;
 		max-width: 100%;
 	}
 }
 
+.pane-node-field-lenders {
+	@include breakpoint(0px 395px) {
+		padding-top: 2.5em;
+	}
+}
+
 .pane-node-field-service-bureaus {
+	@include breakpoint(0px 469px) {
+		padding-top: 2.5em;
+	}
+
 	.field .field__label {
 		width: 216px;
 		max-width: 100%;
+	}
+}
+
+.pane-loan-chaos-data {
+	@include breakpoint(0px 378px) {
+		padding-top: 2.5em;
 	}
 }
 
