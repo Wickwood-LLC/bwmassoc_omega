@@ -130,12 +130,14 @@
 .pane-loan-chaos-data {
 	.field .field__label {
 		width: 258px;
+		max-width: 100%;
 	}
 }
 
 .pane-client-additional-id-info {
 	.field .field__label {
 		width: 204px;
+		max-width: 100%;
 	}
 }
 
@@ -143,6 +145,7 @@
 	.col-md-8 {
 		.field .field__label {
 			width: 116px;
+			max-width: 100%;
 		}
 	}
 	.col-md-4 {
@@ -156,24 +159,28 @@
 .pane-loan-debit-information {
 	.field .field__label {
 		width: 282px;
+		max-width: 100%;
 	}
 }
 
 .pane-bwma-enrolment {
 	.field .field__label {
 		width: 196px;
+		max-width: 100%;
 	}
 }
 
 .pane-afts-advance {
 	.field .field__label {
 		width: 320px;
+		max-width: 100%;
 	}
 }
 
 .pane-node-field-service-bureaus {
 	.field .field__label {
 		width: 216px;
+		max-width: 100%;
 	}
 }
 
@@ -872,4 +879,8 @@
 	.view-content {
 		overflow: auto;
 	}
+}
+
+.pane-chaos-data .field .field__label {
+	max-width: 100%;
 }

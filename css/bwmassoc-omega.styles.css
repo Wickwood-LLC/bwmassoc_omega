@@ -2999,28 +2999,35 @@ html[data-useragent*='iPhone OS'] .page-user-edit .pane-basic-user-info-user-edi
   display: none; }
 
 .pane-loan-chaos-data .field .field__label {
-  width: 258px; }
+  width: 258px;
+  max-width: 100%; }
 
 .pane-client-additional-id-info .field .field__label {
-  width: 204px; }
+  width: 204px;
+  max-width: 100%; }
 
 .client-acquisition .col-md-8 .field .field__label {
-  width: 116px; }
+  width: 116px;
+  max-width: 100%; }
 .client-acquisition .col-md-4 .field .field__label {
   width: 264px;
   max-width: 100%; }
 
 .pane-loan-debit-information .field .field__label {
-  width: 282px; }
+  width: 282px;
+  max-width: 100%; }
 
 .pane-bwma-enrolment .field .field__label {
-  width: 196px; }
+  width: 196px;
+  max-width: 100%; }
 
 .pane-afts-advance .field .field__label {
-  width: 320px; }
+  width: 320px;
+  max-width: 100%; }
 
 .pane-node-field-service-bureaus .field .field__label {
-  width: 216px; }
+  width: 216px;
+  max-width: 100%; }
 
 .action-links {
   font-size: 11px;
@@ -4488,5 +4495,8 @@ html[data-useragent*='iPhone OS'] .page-user-edit .pane-basic-user-info-user-edi
 [class*="pane-profile-history-panel"] .view-content,
 [class*="pane-user-history-panel"] .view-content {
   overflow: auto; }
+
+.pane-chaos-data .field .field__label {
+  max-width: 100%; }
 
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
