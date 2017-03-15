@@ -1196,28 +1196,24 @@ html.js fieldset.collapsed {
       -ms-flex: 1 auto;
           flex: 1 auto;
   margin-top: 5px; }
-  #wwm-collapse-3 .middle-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) {
+  #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) {
     text-align: center;
     display: inline-table;
-    vertical-align: middle;
-    margin-left: -webkit-calc(50% - 238px);
-    margin-left: calc(50% - 238px); }
-    @media (min-width: 586px) and (max-width: 745px) {
-      #wwm-collapse-3 .middle-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) {
-        margin-left: -webkit-calc(38% - 238px);
-        margin-left: calc(38% - 238px); } }
-    #wwm-collapse-3 .middle-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) h2.pane-title {
+    vertical-align: middle; }
+    #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) h2.pane-title {
       font-size: 17px;
       margin: 0;
       display: inline-block; }
-    #wwm-collapse-3 .middle-column .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) .fieldable-panels-pane {
+    #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) .fieldable-panels-pane {
       display: inline-block;
       font-weight: bold; }
-  #wwm-collapse-3 .middle-column .pane-widgets-s-socialmedia-share-default {
+      #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) .fieldable-panels-pane p {
+        margin: 0; }
+  #wwm-collapse-3 .middle-column .pane-share-us .pane-widgets-s-socialmedia-share-default {
     display: inline-table;
     margin-right: auto;
     vertical-align: middle; }
-  #wwm-collapse-3 .middle-column #widgets-element-socialmedia_share-default {
+  #wwm-collapse-3 .middle-column .pane-share-us #widgets-element-socialmedia_share-default {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1226,7 +1222,7 @@ html.js fieldset.collapsed {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
-    #wwm-collapse-3 .middle-column #widgets-element-socialmedia_share-default .widgets-element {
+    #wwm-collapse-3 .middle-column .pane-share-us #widgets-element-socialmedia_share-default .widgets-element {
       margin-right: 3px; }
 
 .page-node-12852 .radix-bryant .row {

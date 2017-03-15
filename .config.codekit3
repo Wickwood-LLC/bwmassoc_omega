@@ -7,15 +7,17 @@
 		"uuidString": "C278C903-102A-411F-91B8-F53F0A5A2D9D"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/bleeds.png": {
 		"ft": 32768,
 		"iS": 6180,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/bleeds.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower.json": {
 		"ft": 524288,
@@ -735,10 +737,12 @@
 	"\/logo.png": {
 		"ft": 32768,
 		"iS": 61663,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/package.json": {
 		"ft": 524288,
@@ -1205,10 +1209,12 @@
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 4603,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/template.php": {
 		"ft": 8192,
@@ -1915,6 +1921,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -2394,6 +2404,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -2994,7 +3008,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3087,7 +3102,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
