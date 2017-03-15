@@ -1195,7 +1195,8 @@ html.js fieldset.collapsed {
   -webkit-flex: 1 auto;
       -ms-flex: 1 auto;
           flex: 1 auto;
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding: 0 0.5em; }
   #wwm-collapse-3 .middle-column .pane-share-us {
     text-align: center; }
     #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 {
