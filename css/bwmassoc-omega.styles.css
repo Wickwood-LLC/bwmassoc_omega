@@ -1196,18 +1196,18 @@ html.js fieldset.collapsed {
       -ms-flex: 1 auto;
           flex: 1 auto;
   margin-top: 5px; }
-  #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) {
+  #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 {
     text-align: center;
     display: inline-table;
     vertical-align: middle; }
-    #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) h2.pane-title {
+    #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 h2.pane-title {
       font-size: 17px;
       margin: 0;
       display: inline-block; }
-    #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) .fieldable-panels-pane {
+    #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane {
       display: inline-block;
       font-weight: bold; }
-      #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9:not(.pane-bundle-text) .fieldable-panels-pane p {
+      #wwm-collapse-3 .middle-column .pane-share-us .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
         margin: 0; }
   #wwm-collapse-3 .middle-column .pane-share-us .pane-widgets-s-socialmedia-share-default {
     display: inline-table;
