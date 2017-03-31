@@ -4319,6 +4319,9 @@ html[data-useragent*='iPhone OS'] #wwm-special-2 .bottom-columns {
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-date {
   float: left;
   width: 50%; }
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-date {
+  max-width: -webkit-calc(100% - 80px);
+  max-width: calc(100% - 80px); }
 #edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status .description {
   display: inline-block;
   width: auto; }
