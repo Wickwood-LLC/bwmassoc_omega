@@ -2909,7 +2909,7 @@ html[data-useragent*='iPhone OS'] #wwm-special-2 .bottom-columns {
     max-width: 100%; }
 @media (min-width: 0px) and (max-width: 750px) {
   html[data-useragent*='iPhone OS'] .field-type-datetime .form-item {
-    display: block !important; } }
+    display: inline-block !important; } }
 
 #user-account-main-page .action-links li,
 #user-account-client-profile .action-links li {

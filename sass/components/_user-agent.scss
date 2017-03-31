@@ -18,7 +18,7 @@ html[data-useragent*='iPhone OS'] {
 
 	.field-type-datetime .form-item {
 		@include breakpoint(0px 750px){
-			display: block !important;
+			display: inline-block !important;
 		}
 	}
 }
