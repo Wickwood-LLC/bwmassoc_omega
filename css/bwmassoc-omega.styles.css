@@ -2911,6 +2911,26 @@ html[data-useragent*='iPhone OS'] #wwm-special-2 .bottom-columns {
   html[data-useragent*='iPhone OS'] .field-type-datetime .form-item {
     display: inline-block !important; } }
 
+html[data-useragent*='iPad'] #wwm-special-2 .empty {
+  display: none; }
+html[data-useragent*='iPad'] #wwm-special-2 .top-columns,
+html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns {
+  display: block;
+  width: 100%;
+  max-width: 100%; }
+html[data-useragent*='iPad'] #wwm-special-2 .top-columns section {
+  display: inline-block;
+  width: 49%;
+  min-width: 0; }
+html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns section {
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%; }
+@media (min-width: 0px) and (max-width: 750px) {
+  html[data-useragent*='iPad'] .field-type-datetime .form-item {
+    display: inline-block !important; } }
+
 #user-account-main-page .action-links li,
 #user-account-client-profile .action-links li {
   list-style: none; }

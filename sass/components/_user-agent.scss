@@ -22,3 +22,34 @@ html[data-useragent*='iPhone OS'] {
 		}
 	}
 }
+
+html[data-useragent*='iPad'] {
+	#wwm-special-2 {
+		.empty { display: none; }
+
+		.top-columns,
+		.bottom-columns {
+			display: block;
+			width: 100%;
+			max-width: 100%;
+		}
+
+		.top-columns section {
+			display: inline-block;
+			width: 49%;
+			min-width: 0;
+		}
+		.bottom-columns section {
+			display: inline-block;
+			width: 100%;
+			min-width: 0;
+			max-width: 100%;
+		}
+	}
+
+	.field-type-datetime .form-item {
+		@include breakpoint(0px 750px){
+			display: inline-block !important;
+		}
+	}
+}
