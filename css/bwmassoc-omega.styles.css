@@ -2920,10 +2920,12 @@ html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns {
   max-width: 100%; }
 html[data-useragent*='iPad'] #wwm-special-2 .top-columns section {
   display: inline-block;
+  vertical-align: top;
   width: 49%;
   min-width: 0; }
 html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns section {
   display: inline-block;
+  vertical-align: top;
   width: 100%;
   min-width: 0;
   max-width: 100%; }

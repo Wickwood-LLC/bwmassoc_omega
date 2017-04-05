@@ -36,11 +36,13 @@ html[data-useragent*='iPad'] {
 
 		.top-columns section {
 			display: inline-block;
+			vertical-align: top;
 			width: 49%;
 			min-width: 0;
 		}
 		.bottom-columns section {
 			display: inline-block;
+			vertical-align: top;
 			width: 100%;
 			min-width: 0;
 			max-width: 100%;
