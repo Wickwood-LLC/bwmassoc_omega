@@ -330,3 +330,18 @@ html.js fieldset.collapsed {
 		}
 	}
 }
+
+.sendpulse-optin {
+	display: inline-table;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	width: 100%;
+
+	@include breakpoint(822px) {
+		width: auto;
+	}
+
+	.sp-dce4c329-9c07-4ba1-9136-46ca3b2a85ed-container {
+	    float: right;
+	}
+}
