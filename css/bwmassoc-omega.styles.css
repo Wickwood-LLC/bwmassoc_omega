@@ -971,6 +971,12 @@ html.js fieldset.collapsed {
       width: auto; } }
   .sendpulse-optin .sp-dce4c329-9c07-4ba1-9136-46ca3b2a85ed-container {
     float: right; }
+    @media (min-width: 0px) and (max-width: 568px) {
+      .sendpulse-optin .sp-dce4c329-9c07-4ba1-9136-46ca3b2a85ed-container {
+        display: none; } }
+  .sendpulse-optin #sp-form-81705 {
+    width: 100%;
+    max-width: 434px; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
@@ -4618,5 +4624,4 @@ html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns section {
 
 .pane-chaos-data .field .field__label {
   max-width: 100%; }
-
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

@@ -343,5 +343,14 @@ html.js fieldset.collapsed {
 
 	.sp-dce4c329-9c07-4ba1-9136-46ca3b2a85ed-container {
 	    float: right;
+
+	    @include breakpoint(0px 568px) {
+	    	display: none;
+	    }
+	}
+
+	#sp-form-81705 {
+		width: 100%;
+		max-width: 434px;
 	}
 }
