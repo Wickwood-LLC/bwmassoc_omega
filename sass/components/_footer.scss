@@ -1,24 +1,24 @@
-#block-block-3 {
+.bwma-footer {
 	p {
 		display: inline-block;
 		width: 100%;
 	}
 
 	.copyright {
-    color: #181818;
-    font-size: 13px;
-    margin: 0;
-    float: left;
+	    color: #181818;
+	    font-size: 13px;
+	    margin: 0;
+	    float: left;
 	}
 
 	.footer-links {
 		float: right;
-    font-size: 13px;
+    	font-size: 13px;
 
-    a {
+	    a {
 			color: #0355a3;
 			font-size: 13px;
 			text-decoration: underline;
-    }
+	    }
 	}
 }
