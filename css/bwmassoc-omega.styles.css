@@ -1889,26 +1889,26 @@ html.js fieldset.collapsed {
     font-family: FontAwesome;
     margin-right: 5px; }
 
-.page-node-12849 main#main-content,
-.page-node-12850 main#main-content {
+.section-7-minutes-7-years main#main-content,
+.section-as-seen-on-tv main#main-content {
   background-color: transparent;
   padding: 0;
   border: 0;
   -webkit-border-radius: 0;
           border-radius: 0; }
-.page-node-12849 .radix-bryant .row .pane-content-area-bwmassoc,
-.page-node-12850 .radix-bryant .row .pane-content-area-bwmassoc {
+.section-7-minutes-7-years .radix-bryant .row .pane-content-area-bwmassoc,
+.section-as-seen-on-tv .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0 2em; }
-.page-node-12849 .field--name-body p,
-.page-node-12850 .field--name-body p {
+.section-7-minutes-7-years .field--name-body p,
+.section-as-seen-on-tv .field--name-body p {
   font-size: 1em;
   font-family: FontAwesome, sans-serif; }
   @media (min-width: 569px) {
-    .page-node-12849 .field--name-body p,
-    .page-node-12850 .field--name-body p {
+    .section-7-minutes-7-years .field--name-body p,
+    .section-as-seen-on-tv .field--name-body p {
       font-size: 1.2em; } }
-.page-node-12849 .calculate-savings,
-.page-node-12850 .calculate-savings {
+.section-7-minutes-7-years .calculate-savings,
+.section-as-seen-on-tv .calculate-savings {
   color: #fff;
   font-weight: 600;
   background: #017cca;
@@ -1919,8 +1919,8 @@ html.js fieldset.collapsed {
   display: table;
   text-decoration: none;
   clear: both; }
-  .page-node-12849 .calculate-savings:before,
-  .page-node-12850 .calculate-savings:before {
+  .section-7-minutes-7-years .calculate-savings:before,
+  .section-as-seen-on-tv .calculate-savings:before {
     font-family: FontAwesome;
     margin-right: 5px; }
 
@@ -2048,15 +2048,15 @@ html.js fieldset.collapsed {
         background-color: #68afcc;
         color: white; }
 
-.section-biweekly-calculator.page-node-12862 main#main-content {
+.section-biweekly-calculator.bwma-calculator-access main#main-content {
   background-color: transparent;
   padding: 0;
   border: 0;
   -webkit-border-radius: 0;
           border-radius: 0; }
-.section-biweekly-calculator.page-node-12862 .radix-bryant .row .pane-content-area-bwmassoc {
+.section-biweekly-calculator.bwma-calculator-access .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0 1em 1em 1em; }
-.section-biweekly-calculator.page-node-12862 .pane-node-body {
+.section-biweekly-calculator.bwma-calculator-access .pane-node-body {
   display: inline-block;
   -webkit-box-flex: 1;
   -webkit-flex: 1 -webkit-calc(40% - 1em);
@@ -2070,30 +2070,30 @@ html.js fieldset.collapsed {
   font-size: 1em;
   padding: 0; }
   @media (min-width: 768px) {
-    .section-biweekly-calculator.page-node-12862 .pane-node-body {
+    .section-biweekly-calculator.bwma-calculator-access .pane-node-body {
       font-size: 1.2em; } }
   @media (min-width: 822px) {
-    .section-biweekly-calculator.page-node-12862 .pane-node-body {
+    .section-biweekly-calculator.bwma-calculator-access .pane-node-body {
       -webkit-box-ordinal-group: 1;
       -webkit-order: 0;
           -ms-flex-order: 0;
               order: 0;
       min-width: 450px; } }
   @media (min-width: 965px) and (max-width: 1023px) {
-    .section-biweekly-calculator.page-node-12862 .pane-node-body {
+    .section-biweekly-calculator.bwma-calculator-access .pane-node-body {
       margin-right: 1em; } }
   @media (min-width: 1303px) {
-    .section-biweekly-calculator.page-node-12862 .pane-node-body {
+    .section-biweekly-calculator.bwma-calculator-access .pane-node-body {
       margin-right: 1em; } }
-  .section-biweekly-calculator.page-node-12862 .pane-node-body li {
+  .section-biweekly-calculator.bwma-calculator-access .pane-node-body li {
     line-height: 1.5; }
-.section-biweekly-calculator.page-node-12862 .pane-aweber-webform-aweber-webform {
+.section-biweekly-calculator.bwma-calculator-access .pane-aweber-webform-aweber-webform {
   display: inline-table;
   margin: 0 auto;
   margin-bottom: 1em;
   width: 100%; }
   @media (min-width: 822px) {
-    .section-biweekly-calculator.page-node-12862 .pane-aweber-webform-aweber-webform {
+    .section-biweekly-calculator.bwma-calculator-access .pane-aweber-webform-aweber-webform {
       width: auto; } }
 
 .pane-superfish-4 {
