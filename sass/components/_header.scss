@@ -26,8 +26,8 @@
 		color: #0355a3;
 	}
 }
-.pane-current-6 h2,
-.pane-current-7 h2 {
+.welcome-pane h2,
+.slogan-pane h2 {
 	text-align: center;
 	font-weight: 700;
 	margin: 10px 0;
@@ -40,14 +40,14 @@
 	}
 }
 
-.pane-current-6 a {
+.welcome-pane a {
 	font-size: 20px;
 
 	@include breakpoint(1156px) {
 		font-size: 28px;
 	}
 }
-.pane-current-7 a {
+.slogan-pane a {
 	font-size: 18px;
 
 	@include breakpoint(563px 669px) {
@@ -87,7 +87,7 @@
 	}
 }
 
-.pane-current-9 {
+.header-cta {
 	color: #242424;
 	font-size: 15px;
 	font-weight: 700;

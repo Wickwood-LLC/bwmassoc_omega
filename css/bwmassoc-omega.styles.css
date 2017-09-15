@@ -985,54 +985,54 @@ html.js fieldset.collapsed {
     text-decoration: none;
     color: #0355a3; }
 
-.pane-current-6 h2,
-.pane-current-7 h2 {
+.welcome-pane h2,
+.slogan-pane h2 {
   text-align: center;
   font-weight: 700;
   margin: 10px 0;
   line-height: 1;
   font-size: 20px; }
-  .pane-current-6 h2 a,
-  .pane-current-7 h2 a {
+  .welcome-pane h2 a,
+  .slogan-pane h2 a {
     text-decoration: none;
     color: #2c2c2c; }
 
-.pane-current-6 a {
+.welcome-pane a {
   font-size: 20px; }
   @media (min-width: 1156px) {
-    .pane-current-6 a {
+    .welcome-pane a {
       font-size: 28px; } }
 
-.pane-current-7 a {
+.slogan-pane a {
   font-size: 18px; }
   @media (min-width: 563px) and (max-width: 669px) {
-    .pane-current-7 a {
+    .slogan-pane a {
       font-size: 16px; } }
   @media (min-width: 597px) and (max-width: 1233px) {
-    .pane-current-7 a {
+    .slogan-pane a {
       font-size: 18px; } }
-  .pane-current-7 a .slogan-2 {
+  .slogan-pane a .slogan-2 {
     display: inline-block; }
     @media (min-width: 768px) {
-      .pane-current-7 a .slogan-2 {
+      .slogan-pane a .slogan-2 {
         white-space: nowrap; } }
-    .pane-current-7 a .slogan-2:before {
+    .slogan-pane a .slogan-2:before {
       content: '';
       margin-left: 13px; }
       @media (min-width: 889px) and (max-width: 1023px) {
-        .pane-current-7 a .slogan-2:before {
+        .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
       @media (min-width: 1077px) and (max-width: 1261px) {
-        .pane-current-7 a .slogan-2:before {
+        .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
       @media (min-width: 1335px) {
-        .pane-current-7 a .slogan-2:before {
+        .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
 
-.pane-current-9 {
+.header-cta {
   color: #242424;
   font-size: 15px;
   font-weight: 700;
@@ -1047,17 +1047,17 @@ html.js fieldset.collapsed {
       -ms-flex-pack: center;
           justify-content: center; }
   @media (min-width: 603px) and (max-width: 763px) {
-    .pane-current-9 {
+    .header-cta {
       font-size: 17px; } }
   @media (min-width: 764px) and (max-width: 806px) {
-    .pane-current-9 {
+    .header-cta {
       font-size: 17px; } }
   @media (min-width: 1082px) {
-    .pane-current-9 {
+    .header-cta {
       font-size: 17px; } }
-  .pane-current-9 .fieldable-panels-pane {
+  .header-cta .fieldable-panels-pane {
     display: inline-block; }
-  .pane-current-9 p {
+  .header-cta p {
     margin: 0; }
 
 #wwm-collapse-3 .left-column {
