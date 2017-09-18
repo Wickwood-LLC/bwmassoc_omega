@@ -2040,14 +2040,14 @@ html.js fieldset.collapsed {
       .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions input:hover {
         background-color: #0355a3;
         text-decoration: none; }
-    .section-contact-bwma .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005,
-    .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005 {
+    .section-contact-bwma .pane-content-area-bwmassoc .form-actions input[value="Save Draft"],
+    .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions input[value="Save Draft"] {
       margin-right: 1em;
       background-color: white;
       border: 1px solid #1894c7;
       color: #1894c7; }
-      .section-contact-bwma .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005:hover,
-      .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions #edit-webform-ajax-draft-10005:hover {
+      .section-contact-bwma .pane-content-area-bwmassoc .form-actions input[value="Save Draft"]:hover,
+      .section-contact-bwmassoc .pane-content-area-bwmassoc .form-actions input[value="Save Draft"]:hover {
         background-color: #68afcc;
         color: white; }
 
