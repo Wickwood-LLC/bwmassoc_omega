@@ -1932,13 +1932,16 @@ html.js fieldset.collapsed {
           border-radius: 0; }
 .section-compare-biweeklies .pane-content-area-bwmassoc {
   padding: 0 1em; }
-  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body .field__item {
-    overflow: auto; }
-    .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body .field__item > h1 {
-      color: #0355a3; }
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body .field__item > h1 {
+    color: #0355a3; }
   .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body p {
     font-size: 20px;
     font-family: FontAwesome, sans-serif; }
+  .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body table {
+    overflow: auto;
+    display: block;
+    border-style: hidden;
+    margin: 0 auto; }
   .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body tr:nth-child(even) {
     background-color: #eeeeee; }
   .section-compare-biweeklies .pane-content-area-bwmassoc .field--name-body tr:hover {

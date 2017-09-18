@@ -722,9 +722,7 @@
 		padding: 0 1em;
 		
 		.field--name-body {
-			.field__item {
-				overflow: auto;
-				
+			.field__item {				
 				> h1 {
 					color: #0355a3;
 				}
@@ -733,6 +731,13 @@
 			p {
 				font-size: 20px;
 				font-family: FontAwesome, sans-serif;
+			}
+
+			table {
+				overflow: auto;
+				display: block;
+				border-style: hidden;
+				margin: 0 auto;
 			}
 	
 			tr:nth-child(even) {
