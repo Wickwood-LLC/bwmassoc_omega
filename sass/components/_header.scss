@@ -127,7 +127,7 @@
 			justify-content: center
 		}
 
-		.pane-block-4 {
+		.bbb-pane {
 			width: 95px;
 		}
 
@@ -192,7 +192,7 @@
 		}
 
 		@include breakpoint(1024px) {
-			.pane-block-4 {
+			.bbb-pane {
 				width: 124px;
 			}
 
@@ -222,7 +222,7 @@
 			align-items: center;
 			display: flex;
 
-			.pane-block-4 {
+			.bbb-pane {
 				float: left;
 			}
 		}
