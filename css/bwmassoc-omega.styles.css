@@ -1154,7 +1154,11 @@ html.js fieldset.collapsed {
           -ms-flex: 0 0 377px;
               flex: 0 0 377px; }
       #wwm-collapse-3 .left-column .bbb-pane {
-        width: 170px; }
+        width: 170px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1; }
       #wwm-collapse-3 .left-column #bbblogo a#bbblink {
         width: 113px;
         height: 180px; }
