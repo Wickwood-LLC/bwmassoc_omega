@@ -1019,11 +1019,11 @@ html.js fieldset.collapsed {
     .slogan-pane a .slogan-2:before {
       content: '';
       margin-left: 13px; }
-      @media (min-width: 904px) and (max-width: 1023px) {
+      @media (min-width: 949px) and (max-width: 1023px) {
         .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
-      @media (min-width: 1091px) and (max-width: 1261px) {
+      @media (min-width: 1135px) and (max-width: 1261px) {
         .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
