@@ -1019,15 +1019,15 @@ html.js fieldset.collapsed {
     .slogan-pane a .slogan-2:before {
       content: '';
       margin-left: 13px; }
-      @media (min-width: 889px) and (max-width: 1023px) {
+      @media (min-width: 904px) and (max-width: 1023px) {
         .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
-      @media (min-width: 1077px) and (max-width: 1261px) {
+      @media (min-width: 1091px) and (max-width: 1261px) {
         .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
-      @media (min-width: 1335px) {
+      @media (min-width: 1273px) {
         .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }

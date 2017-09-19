@@ -69,17 +69,17 @@
 			content: '';
 			margin-left: 13px;
 
-			@include breakpoint(889px 1023px) {
+			@include breakpoint(904px 1023px) {
 				content: '• ';
 				margin-left: 0px;
 			}
 
-			@include breakpoint(1077px 1261px) {
+			@include breakpoint(1091px 1261px) {
 				content: '• ';
 				margin-left: 0px;
 			}
 
-			@include breakpoint(1335px) {
+			@include breakpoint(1273px) {
 				content: '• ';
 				margin-left: 0px;
 			}
