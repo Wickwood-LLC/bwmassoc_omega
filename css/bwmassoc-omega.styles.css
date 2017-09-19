@@ -1807,7 +1807,8 @@ html.js fieldset.collapsed {
               align-items: center;
       font-size: 14px;
       font-weight: bold;
-      line-height: 1; }
+      line-height: 1;
+      margin-bottom: 2px; }
       .section-biweekly-calculator .text-info ul li img {
         width: 20px;
         height: auto; }
