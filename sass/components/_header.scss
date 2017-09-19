@@ -74,12 +74,17 @@
 				margin-left: 0px;
 			}
 
-			@include breakpoint(1135px 1261px) {
+			@include breakpoint(1135px 1199px) {
 				content: '• ';
 				margin-left: 0px;
 			}
 
-			@include breakpoint(1273px) {
+			@include breakpoint(1214px 1261px) {
+				content: '• ';
+				margin-left: 0px;
+			}
+
+			@include breakpoint(1314px) {
 				content: '• ';
 				margin-left: 0px;
 			}

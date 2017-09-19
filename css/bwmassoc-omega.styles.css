@@ -1023,11 +1023,15 @@ html.js fieldset.collapsed {
         .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
-      @media (min-width: 1135px) and (max-width: 1261px) {
+      @media (min-width: 1135px) and (max-width: 1199px) {
         .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
-      @media (min-width: 1273px) {
+      @media (min-width: 1214px) and (max-width: 1261px) {
+        .slogan-pane a .slogan-2:before {
+          content: '• ';
+          margin-left: 0px; } }
+      @media (min-width: 1314px) {
         .slogan-pane a .slogan-2:before {
           content: '• ';
           margin-left: 0px; } }
