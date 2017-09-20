@@ -961,6 +961,37 @@ html.js fieldset.collapsed {
 #af-form-1281827340 #af-body-1281827340 .af-checkWrap {
   width: 100%; }
 
+.sendpulse-optin {
+  display: inline-table;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  width: 100%; }
+  @media (min-width: 822px) {
+    .sendpulse-optin {
+      width: auto; } }
+  .sendpulse-optin .sp-dce4c329-9c07-4ba1-9136-46ca3b2a85ed-container {
+    float: right; }
+    @media (min-width: 0px) and (max-width: 568px) {
+      .sendpulse-optin .sp-dce4c329-9c07-4ba1-9136-46ca3b2a85ed-container {
+        display: none; } }
+  .sendpulse-optin #sp-form-81705 {
+    width: 100%;
+    max-width: 434px; }
+  .sendpulse-optin .sp-message p:first-child {
+    text-align: center;
+    font-size: 1.2em; }
+
+.pane-bwma-calculator-calculator {
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: auto; }
+  .pane-bwma-calculator-calculator #theform_table tr:hover {
+    background-color: none; }
+  .pane-bwma-calculator-calculator #theform_table table {
+    border: none; }
+    .pane-bwma-calculator-calculator #theform_table table tr:nth-child(even) {
+      background-color: none; }
+
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;

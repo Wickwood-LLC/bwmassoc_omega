@@ -330,3 +330,52 @@ html.js fieldset.collapsed {
 		}
 	}
 }
+
+.sendpulse-optin {
+	display: inline-table;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	width: 100%;
+
+	@include breakpoint(822px) {
+		width: auto;
+	}
+
+	.sp-dce4c329-9c07-4ba1-9136-46ca3b2a85ed-container {
+	    float: right;
+
+	    @include breakpoint(0px 568px) {
+	    	display: none;
+	    }
+	}
+
+	#sp-form-81705 {
+		width: 100%;
+		max-width: 434px;
+	}
+
+	.sp-message p:first-child {
+		text-align: center;
+		font-size: 1.2em;
+	}
+}
+
+.pane-bwma-calculator-calculator {
+	margin: 0 auto;
+	max-width: 100%;
+	overflow: auto;
+
+	#theform_table {
+		tr:hover {
+		    background-color: none;
+		}
+
+		table {
+			border: none;
+	
+			tr:nth-child(even) {
+				background-color: none;
+			}
+		}
+	}
+}
