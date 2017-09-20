@@ -367,14 +367,14 @@ html.js fieldset.collapsed {
 
 	#theform_table {
 		tr:hover {
-		    background-color: none;
+		    background-color: transparent;
 		}
 
 		table {
 			border: none;
 	
 			tr:nth-child(even) {
-				background-color: none;
+				background-color: transparent;
 			}
 		}
 	}

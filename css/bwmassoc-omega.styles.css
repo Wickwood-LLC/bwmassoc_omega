@@ -986,11 +986,11 @@ html.js fieldset.collapsed {
   max-width: 100%;
   overflow: auto; }
   .pane-bwma-calculator-calculator #theform_table tr:hover {
-    background-color: none; }
+    background-color: transparent; }
   .pane-bwma-calculator-calculator #theform_table table {
     border: none; }
     .pane-bwma-calculator-calculator #theform_table table tr:nth-child(even) {
-      background-color: none; }
+      background-color: transparent; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
