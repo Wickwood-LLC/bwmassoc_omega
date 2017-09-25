@@ -2948,6 +2948,13 @@ main#main-content {
   .panels-flexible-200 .panels-flexible-region-inside-last {
     padding-left: 0; } }
 
+.node-type-bwmassoc-basic-page main#main-content {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
   display: -webkit-flex;
