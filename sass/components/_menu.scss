@@ -13,8 +13,7 @@
 
 #block-superfish-3 {
 	display: inline-block;
-	position: absolute;
-	right: 0;
+	float: right;
 
 	.sf-accordion-toggle {
 		float: right;

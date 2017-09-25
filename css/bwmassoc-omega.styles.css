@@ -2482,8 +2482,7 @@ form#user-login, form#user-pass {
 
 #block-superfish-3 {
   display: inline-block;
-  position: absolute;
-  right: 0; }
+  float: right; }
   #block-superfish-3 .sf-accordion-toggle {
     float: right; }
     #block-superfish-3 .sf-accordion-toggle a {
