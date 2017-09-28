@@ -3074,20 +3074,22 @@ main#main-content {
   display: block;
   background: #c9e0ff;
   padding: 15px;
-  border-radius: 8px;
-  -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
+          border-radius: 8px;
   border-color: #dddddd;
   border-style: solid;
   border-width: 1px;
   font-family: Arial, "Helvetica Neue", sans-serif;
   width: 100%;
-  max-width: 434px; }
+  max-width: 434px;
+  margin: auto; }
   @media (min-width: 822px) {
     .registration-form .pane-form {
       width: auto; } }
   .registration-form .pane-form .form-item {
     position: relative; }
+    .registration-form .pane-form .form-item label {
+      display: block; }
     .registration-form .pane-form .form-item input {
       background: #ffffff;
       border-color: #cccccc;
@@ -3096,9 +3098,20 @@ main#main-content {
       font-size: 15px;
       padding-left: 8.75px;
       padding-right: 8.75px;
-      border-radius: 4px;
-      -moz-border-radius: 4px;
       -webkit-border-radius: 4px;
+              border-radius: 4px;
+      height: 35px;
+      width: 100%; }
+    .registration-form .pane-form .form-item select {
+      background: #ffffff;
+      border-color: #cccccc;
+      border-style: solid;
+      border-width: 1px;
+      font-size: 15px;
+      padding-left: 8.75px;
+      padding-right: 8.75px;
+      -webkit-border-radius: 4px;
+              border-radius: 4px;
       height: 35px;
       width: 100%; }
   .registration-form .pane-form .form-required {
@@ -3106,8 +3119,40 @@ main#main-content {
     right: 15px;
     bottom: 40%;
     color: #D4696A; }
+  .registration-form .pane-form .form-item-allow-text-message input {
+    width: auto; }
   .registration-form .pane-form .form-item-allow-text-message label {
     display: inline; }
+  .registration-form .pane-form .footer-text {
+    text-align: center; }
+  .registration-form .pane-form .form-submit {
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    background-color: #66ab35;
+    color: #ffffff;
+    width: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+    border-width: 1px;
+    border-color: #275c02;
+    border-style: solid;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: -webkit-gradient(linear, left bottom, left top, from(#4a7c27), to(#85ca53));
+    background: -webkit-linear-gradient(bottom, #4a7c27, #85ca53);
+    background: -o-linear-gradient(bottom, #4a7c27, #85ca53);
+    background: linear-gradient(to top, #4a7c27, #85ca53);
+    margin: 0 auto;
+    display: block;
+    margin-top: 1em; }
+    .registration-form .pane-form .form-submit:hover {
+      opacity: .9;
+      position: relative;
+      top: -1px;
+      -webkit-transition: all 60ms ease-in-out 30ms;
+      -o-transition: all 60ms ease-in-out 30ms;
+      transition: all 60ms ease-in-out 30ms; }
 
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
