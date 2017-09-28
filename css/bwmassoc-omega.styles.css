@@ -3172,7 +3172,10 @@ main#main-content {
   border-width: 1px;
   font-family: Arial, "Helvetica Neue", sans-serif;
   margin: 0 auto;
-  color: #333; }
+  color: #333;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
   @media (min-width: 822px) {
     .registration-form .pane-vuuid-fe784624-e322-41ed-97fd-8de44c46047a {
       width: auto; } }
