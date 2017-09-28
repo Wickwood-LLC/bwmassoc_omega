@@ -3022,9 +3022,54 @@ main#main-content {
       width: 100%; }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
       width: 100%;
-      padding: 0; }
+      padding: 0 1em 1em 1em;
+      display: inline-block;
+      width: 100%;
+      background: #fff none repeat scroll 0 0;
+      border: 1px solid #c1c1c1; }
+      .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 .panel-panel-inner {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap; }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
       display: none; }
+.registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a {
+  display: inline-block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 -webkit-calc(40% - 1em);
+      -ms-flex: 1 calc(40% - 1em);
+          flex: 1 calc(40% - 1em);
+  vertical-align: top;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  font-size: 1em;
+  padding: 0; }
+  @media (min-width: 768px) {
+    .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a {
+      font-size: 1.2em; } }
+  @media (min-width: 822px) {
+    .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a {
+      -webkit-box-ordinal-group: 1;
+      -webkit-order: 0;
+          -ms-flex-order: 0;
+              order: 0;
+      min-width: 450px; } }
+  @media (min-width: 965px) and (max-width: 1023px) {
+    .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a {
+      margin-right: 1em; } }
+  @media (min-width: 1303px) {
+    .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a {
+      margin-right: 1em; } }
+  .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a li {
+    line-height: 1.5; }
 
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;

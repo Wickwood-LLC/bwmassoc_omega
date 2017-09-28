@@ -51,11 +51,47 @@
 			}
 			.radix-layouts-contentcolumn1 {
 				width: 100%;
-				padding: 0;
+				padding: 0 1em 1em 1em;
+				display: inline-block;
+				width: 100%;
+				background: #fff none repeat scroll 0 0;
+				border: 1px solid #c1c1c1;
+
+				.panel-panel-inner {
+					display: flex;
+					flex-flow: row wrap;
+				}
 			}
 			.radix-layouts-contentcolumn2 {
 				display: none;
 			}
+		}
+	}
+
+	.pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a {
+		display: inline-block;
+		flex: 1 calc(40% - 1em);
+		vertical-align: top;
+		order: 1;
+		font-size: 1em;
+		padding: 0;
+
+		@include breakpoint(768px) {
+			font-size: 1.2em;
+		}
+		@include breakpoint(822px) {
+			order: 0;
+			min-width: 450px;
+		}
+		@include breakpoint(965px 1023px) {
+			margin-right: 1em;
+		}
+		@include breakpoint(1303px) {
+			margin-right: 1em;
+		}
+
+		li {
+			line-height: 1.5;
 		}
 	}
 }
