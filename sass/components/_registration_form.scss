@@ -1,0 +1,56 @@
+.registration-form {
+	.radix-bartlett .row {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 0;
+
+		.radix-layouts-sidebar {
+			order: 1;
+			flex: 100%;
+			padding: 0;
+
+			@include breakpoint(1024px) {
+				order: 0;
+				flex: 25%;
+			}
+
+			.pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 {
+				.pane-title {
+					text-align: center;
+					margin-bottom: 0;
+				}
+				.fieldable-panels-pane p {
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+			}
+
+			#widgets-element-socialmedia_share-default {
+				display: flex;
+				justify-content: center;
+
+				.widgets-element {
+					margin-right: 5px;
+				}
+			}
+		}
+
+		.col-md-8 {
+			flex: 100%;
+			max-width: 100%;
+			padding: 0;
+
+			@include breakpoint(1024px) {
+				flex: calc(75% - 1em);
+				padding-left: 1em;
+			}
+
+			.contentcolumn1 {
+				width: 100%;
+			}
+			.contentcolumn2 {
+				display: none;
+			}
+		}
+	}
+}

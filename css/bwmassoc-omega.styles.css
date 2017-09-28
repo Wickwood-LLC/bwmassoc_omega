@@ -1619,8 +1619,7 @@ html.js fieldset.collapsed {
 
 .node-type-bwmassoc-basic-page .radix-bryant .row,
 .page-contact-bwma .radix-bryant .row,
-.section-contact-bwmassoc .radix-bryant .row,
-.registration-form .radix-bryant .row {
+.section-contact-bwmassoc .radix-bryant .row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1633,8 +1632,7 @@ html.js fieldset.collapsed {
   margin: 0; }
   .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
   .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
-  .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar,
-  .registration-form .radix-bryant .row .radix-layouts-sidebar {
+  .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
@@ -1647,8 +1645,7 @@ html.js fieldset.collapsed {
     @media (min-width: 1024px) {
       .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
       .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
-      .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar,
-      .registration-form .radix-bryant .row .radix-layouts-sidebar {
+      .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar {
         -webkit-box-ordinal-group: 1;
         -webkit-order: 0;
             -ms-flex-order: 0;
@@ -1659,20 +1656,17 @@ html.js fieldset.collapsed {
                 flex: 25%; } }
     .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
-    .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
-    .registration-form .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title {
+    .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title {
       text-align: center;
       margin-bottom: 0; }
     .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
-    .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
-    .registration-form .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
+    .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
       margin-top: 0;
       margin-bottom: 0; }
     .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
-    .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
-    .registration-form .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default {
+    .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -1683,13 +1677,11 @@ html.js fieldset.collapsed {
               justify-content: center; }
       .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
       .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
-      .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
-      .registration-form .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element {
+      .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element {
         margin-right: 5px; }
   .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
   .page-contact-bwma .radix-bryant .row .radix-layouts-content,
-  .section-contact-bwmassoc .radix-bryant .row .radix-layouts-content,
-  .registration-form .radix-bryant .row .radix-layouts-content {
+  .section-contact-bwmassoc .radix-bryant .row .radix-layouts-content {
     -webkit-box-flex: 100%;
     -webkit-flex: 100%;
         -ms-flex: 100%;
@@ -1699,8 +1691,7 @@ html.js fieldset.collapsed {
     @media (min-width: 1024px) {
       .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
       .page-contact-bwma .radix-bryant .row .radix-layouts-content,
-      .section-contact-bwmassoc .radix-bryant .row .radix-layouts-content,
-      .registration-form .radix-bryant .row .radix-layouts-content {
+      .section-contact-bwmassoc .radix-bryant .row .radix-layouts-content {
         -webkit-box-flex: -webkit-calc(75% - 1em);
         -webkit-flex: -webkit-calc(75% - 1em);
             -ms-flex: calc(75% - 1em);
@@ -1708,34 +1699,29 @@ html.js fieldset.collapsed {
         padding-left: 1em; } }
   .node-type-bwmassoc-basic-page .radix-bryant .row .pane-content-area-bwmassoc,
   .page-contact-bwma .radix-bryant .row .pane-content-area-bwmassoc,
-  .section-contact-bwmassoc .radix-bryant .row .pane-content-area-bwmassoc,
-  .registration-form .radix-bryant .row .pane-content-area-bwmassoc {
+  .section-contact-bwmassoc .radix-bryant .row .pane-content-area-bwmassoc {
     padding: 0 1em; }
 .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc,
 .page-contact-bwma .pane-content-area-bwmassoc,
-.section-contact-bwmassoc .pane-content-area-bwmassoc,
-.registration-form .pane-content-area-bwmassoc {
+.section-contact-bwmassoc .pane-content-area-bwmassoc {
   display: inline-block;
   width: 100%;
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1; }
   .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc .file-video,
   .page-contact-bwma .pane-content-area-bwmassoc .file-video,
-  .section-contact-bwmassoc .pane-content-area-bwmassoc .file-video,
-  .registration-form .pane-content-area-bwmassoc .file-video {
+  .section-contact-bwmassoc .pane-content-area-bwmassoc .file-video {
     text-align: center; }
 .node-type-bwmassoc-basic-page .pane-node-title,
 .page-contact-bwma .pane-node-title,
-.section-contact-bwmassoc .pane-node-title,
-.registration-form .pane-node-title {
+.section-contact-bwmassoc .pane-node-title {
   text-align: center;
   color: #0355a3;
   text-decoration: none; }
   @media (min-width: 0px) and (max-width: 568px) {
     .node-type-bwmassoc-basic-page .pane-node-title h1,
     .page-contact-bwma .pane-node-title h1,
-    .section-contact-bwmassoc .pane-node-title h1,
-    .registration-form .pane-node-title h1 {
+    .section-contact-bwmassoc .pane-node-title h1 {
       font-size: 1.5em; } }
 
 .section-biweekly-calculator main#main-content {
@@ -2968,6 +2954,73 @@ main#main-content {
   border: 0;
   -webkit-border-radius: 0;
   border-radius: 0; }
+
+.registration-form .radix-bartlett .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 0; }
+  .registration-form .radix-bartlett .row .radix-layouts-sidebar {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    padding: 0; }
+    @media (min-width: 1024px) {
+      .registration-form .radix-bartlett .row .radix-layouts-sidebar {
+        -webkit-box-ordinal-group: 1;
+        -webkit-order: 0;
+            -ms-flex-order: 0;
+                order: 0;
+        -webkit-box-flex: 25%;
+        -webkit-flex: 25%;
+            -ms-flex: 25%;
+                flex: 25%; } }
+    .registration-form .radix-bartlett .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title {
+      text-align: center;
+      margin-bottom: 0; }
+    .registration-form .radix-bartlett .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
+      margin-top: 0;
+      margin-bottom: 0; }
+    .registration-form .radix-bartlett .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .registration-form .radix-bartlett .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element {
+        margin-right: 5px; }
+  .registration-form .radix-bartlett .row .col-md-8 {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+    padding: 0; }
+    @media (min-width: 1024px) {
+      .registration-form .radix-bartlett .row .col-md-8 {
+        -webkit-box-flex: -webkit-calc(75% - 1em);
+        -webkit-flex: -webkit-calc(75% - 1em);
+            -ms-flex: calc(75% - 1em);
+                flex: calc(75% - 1em);
+        padding-left: 1em; } }
+    .registration-form .radix-bartlett .row .col-md-8 .contentcolumn1 {
+      width: 100%; }
+    .registration-form .radix-bartlett .row .col-md-8 .contentcolumn2 {
+      display: none; }
 
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
