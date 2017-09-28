@@ -3017,8 +3017,12 @@ main#main-content {
             -ms-flex: calc(75% - 1em);
                 flex: calc(75% - 1em);
         padding-left: 1em; } }
-    .registration-form .radix-bartlett .row .col-md-8 .contentcolumn1 {
+    .registration-form .radix-bartlett .row .col-md-8 .contentheader {
+      padding: 0;
       width: 100%; }
+    .registration-form .radix-bartlett .row .col-md-8 .contentcolumn1 {
+      width: 100%;
+      padding: 0; }
     .registration-form .radix-bartlett .row .col-md-8 .contentcolumn2 {
       display: none; }
 
