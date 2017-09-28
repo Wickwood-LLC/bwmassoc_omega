@@ -3153,6 +3153,23 @@ main#main-content {
       -webkit-transition: all 60ms ease-in-out 30ms;
       -o-transition: all 60ms ease-in-out 30ms;
       transition: all 60ms ease-in-out 30ms; }
+.registration-form .pane-vuuid-fe784624-e322-41ed-97fd-8de44c46047a {
+  display: block;
+  background: #c9e0ff;
+  padding: 15px;
+  width: 100%;
+  max-width: 434px;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  border-color: #dddddd;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  margin: 0 auto;
+  color: #333; }
+  @media (min-width: 822px) {
+    .registration-form .pane-vuuid-fe784624-e322-41ed-97fd-8de44c46047a {
+      width: auto; } }
 
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
