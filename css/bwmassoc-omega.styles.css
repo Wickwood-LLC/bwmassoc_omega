@@ -3020,14 +3020,16 @@ main#main-content {
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentheader {
       padding: 0;
       width: 100%; }
-    .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
-      width: 100%;
+    .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1,
+    .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
+      width: 50%;
       padding: 0 1em 1em 1em;
       display: inline-block;
       width: 100%;
       background: #fff none repeat scroll 0 0;
       border: 1px solid #c1c1c1; }
-      .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 .panel-panel-inner {
+      .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 .panel-panel-inner,
+      .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 .panel-panel-inner {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -3037,8 +3039,10 @@ main#main-content {
         -webkit-flex-flow: row wrap;
             -ms-flex-flow: row wrap;
                 flex-flow: row wrap; }
+    .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
+      border-right: 0px; }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
-      display: none; }
+      border-left: 0px; }
 .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a,
 .registration-form .pane-current-15 {
   display: inline-block;

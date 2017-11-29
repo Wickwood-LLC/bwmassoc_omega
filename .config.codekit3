@@ -7,9 +7,10 @@
 		"uuidString": "C278C903-102A-411F-91B8-F53F0A5A2D9D"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
@@ -51,10 +52,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/breakpoint-sass\/CHANGELOG.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -69,10 +70,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/breakpoint-sass\/CONTRIBUTING.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -105,10 +106,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/breakpoint-sass\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -394,10 +395,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/sassy-maps\/CONTRIBUTING.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -425,40 +426,45 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassy-maps\/examples\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/examples\/index.html",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/lib\/sassy-maps.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/lib\/sassy-maps.rb",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/lib\/sassy-maps\/version.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/lib\/sassy-maps\/version.rb",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/lib\/tapout\/reporters\/navigator_reporter.rb": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/lib\/tapout\/reporters\/navigator_reporter.rb",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/Rakefile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/Rakefile",
 		"oF": 0
 		},
 	"\/bower_components\/sassy-maps\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -546,12 +552,14 @@
 		"uL": 1
 		},
 	"\/bower_components\/sassy-maps\/sassy-maps.gemspec": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/sassy-maps\/sassy-maps.gemspec",
 		"oF": 0
 		},
 	"\/bwmassoc_omega.info": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bwmassoc_omega.info",
@@ -578,138 +586,161 @@
 		"oS": 3
 		},
 	"\/css\/bwmassoc-omega.styles.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/bwmassoc-omega.styles.css.map",
 		"oF": 0
 		},
 	"\/fonts\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Semibold.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Semibold.otf",
 		"oF": 0
 		},
 	"\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Thin Italic.otf",
 		"oF": 0
 		},
 	"\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Thin.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extra Condensed Thin.otf",
 		"oF": 0
 		},
 	"\/fonts\/Mark Simonson - Proxima Nova Extrabold Italic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extrabold Italic.otf",
 		"oF": 0
 		},
 	"\/fonts\/Mark Simonson - Proxima Nova Extrabold.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Extrabold.otf",
 		"oF": 0
 		},
 	"\/fonts\/Mark Simonson - Proxima Nova Semibold Italic.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Semibold Italic.otf",
 		"oF": 0
 		},
 	"\/fonts\/Mark Simonson - Proxima Nova Semibold.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Semibold.otf",
 		"oF": 0
 		},
 	"\/fonts\/Mark Simonson - Proxima Nova Thin.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Mark Simonson - Proxima Nova Thin.otf",
 		"oF": 0
 		},
 	"\/fonts\/OpenSans-Bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/OpenSans-Bold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/OpenSans-Regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/OpenSans-Regular.ttf",
 		"oF": 0
 		},
 	"\/fonts\/OpenSans-Semibold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/OpenSans-Semibold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/OpenSans-SemiboldItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/OpenSans-SemiboldItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/ProximaNova-Regular.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/ProximaNova-Regular.otf",
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-Bold.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Roboto-BoldItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-BoldItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Italic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-Italic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-Light.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Roboto-LightItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-LightItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Medium.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-Medium.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Roboto-MediumItalic.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-MediumItalic.ttf",
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-Regular.ttf",
@@ -765,252 +796,294 @@
 		"oS": 1
 		},
 	"\/preprocess\/page.preprocess.inc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/preprocess\/page.preprocess.inc",
 		"oF": 0
 		},
 	"\/process\/page.process.inc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/process\/page.process.inc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_double.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_double.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_query.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_query.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_resolution.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_resolution.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_single.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_single.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_triple.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_triple.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default-pair.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default-pair.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_double-string.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_double-string.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/2f8628bc37321eb9b37ea97e8bf328429a9a17d8\/bwmassoc-omega.styles.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/2f8628bc37321eb9b37ea97e8bf328429a9a17d8\/bwmassoc-omega.styles.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3ce25154eb9aa96cbb5330cac3faf491d5e3630d\/_resolution.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3ce25154eb9aa96cbb5330cac3faf491d5e3630d\/_resolution.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3e20b961d7379ebb405f2f604ef2549094bcdb7c\/_breakpoint.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3e20b961d7379ebb405f2f604ef2549094bcdb7c\/_breakpoint.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/4200daca2118d370eadf23809d19568fc84a733c\/_default.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/4200daca2118d370eadf23809d19568fc84a733c\/_default.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/%042c": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/%042c",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/%042c": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/%042c",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/8e8b96f49139da752b0ad64484074d097df890a0\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/8e8b96f49139da752b0ad64484074d097df890a0\/_base.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/c4f35610658be530960c4231b1ef211d2e6a3b7c\/%042c": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/c4f35610658be530960c4231b1ef211d2e6a3b7c\/%042c",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_blog_pages.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_blog_pages.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_footer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_footer.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_forms.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_forms.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_header.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_header.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_homepage.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_homepage.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_layout.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_layout.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_login.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_login.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_media.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_media.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_menu.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_menu.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_pages.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_pages.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_registration_form.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_registration_form.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_testimonials.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_testimonials.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_user-agent.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_user-agent.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_user_pages.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_user_pages.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cda4d8bd783c72780a990b614a6d9a48bcb0b30e\/_default.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/cda4d8bd783c72780a990b614a6d9a48bcb0b30e\/_default.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/da713bb3489f5b62385fe9c5c463a67cbe3848b8\/%042c": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/da713bb3489f5b62385fe9c5c463a67cbe3848b8\/%042c",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_context.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_context.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_helpers.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_helpers.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_legacy-settings.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_legacy-settings.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_no-query.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_no-query.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_parsers.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_parsers.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_respond-to.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_respond-to.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_settings.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_settings.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f6c805f8e760dd2b05f3c8010654443fb0c67bd2\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/f6c805f8e760dd2b05f3c8010654443fb0c67bd2\/_mixins.scssc",
@@ -1249,24 +1322,28 @@
 		"q": 100
 		},
 	"\/template.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template.php",
 		"oF": 0
 		},
 	"\/templates\/maintenance-page.tpl.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/maintenance-page.tpl.php",
 		"oF": 0
 		},
 	"\/templates\/page.tpl.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/page.tpl.php",
 		"oF": 0
 		},
 	"\/theme-settings.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/theme-settings.php",
@@ -1817,6 +1894,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -1881,9 +1962,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1913,6 +1994,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1922,14 +2007,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3033,7 +3110,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -3066,6 +3144,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3107,7 +3186,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3139,13 +3219,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3154,7 +3234,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3174,7 +3255,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3202,7 +3284,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
