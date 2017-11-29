@@ -992,6 +992,16 @@ html.js fieldset.collapsed {
     .pane-bwma-calculator-calculator #theform_table table tr:nth-child(even) {
       background-color: transparent; }
 
+#edit-bwma-user-register-allowed-phone-types,
+#edit-bwma-text-message-phone-type {
+  -webkit-column-width: 100px;
+     -moz-column-width: 100px;
+          column-width: 100px; }
+  #edit-bwma-user-register-allowed-phone-types label, #edit-bwma-user-register-allowed-phone-types input,
+  #edit-bwma-text-message-phone-type label,
+  #edit-bwma-text-message-phone-type input {
+    vertical-align: bottom; }
+
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
     -webkit-box-orient: vertical;

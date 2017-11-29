@@ -379,3 +379,12 @@ html.js fieldset.collapsed {
 		}
 	}
 }
+
+#edit-bwma-user-register-allowed-phone-types,
+#edit-bwma-text-message-phone-type {
+	column-width: 100px;
+
+	label, input {
+		vertical-align: bottom;
+	}
+}
