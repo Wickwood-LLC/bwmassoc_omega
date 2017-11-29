@@ -63,7 +63,7 @@
 					flex-flow: row wrap;
 				}
 
-				@include breakpoint(846px) {
+				@include breakpoint(847px) {
 					width: 50%;
 				}
 				@include breakpoint(1024px) {
@@ -76,7 +76,7 @@
 			.radix-layouts-contentcolumn1 {
 				border-width: 1px 1px 0 1px;
 
-				@include breakpoint(846px) {
+				@include breakpoint(847px) {
 					border-width: 1px 0 1px 1px;
 				}
 				@include breakpoint(1024px) {
@@ -89,7 +89,7 @@
 			.radix-layouts-contentcolumn2 {
 				border-width: 0 1px 1px 1px;
 
-				@include breakpoint(846px) {
+				@include breakpoint(847px) {
 					border-width: 1px 1px 1px 0;
 				}
 				@include breakpoint(1024px) {
