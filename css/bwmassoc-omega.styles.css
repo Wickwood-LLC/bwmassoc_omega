@@ -3128,9 +3128,18 @@ main#main-content {
     .registration-form .pane-bwma-registration-form {
       width: auto;
       margin-top: 1em; } }
-  .registration-form .pane-form .header-text .form-required,
-  .registration-form .pane-bwma-registration-form .header-text .form-required {
-    position: static; }
+  .registration-form .pane-form .header-text,
+  .registration-form .pane-bwma-registration-form .header-text {
+    float: right;
+    width: -webkit-calc(100% - 170px);
+    width: calc(100% - 170px);
+    display: inline-block; }
+    .registration-form .pane-form .header-text .form-required,
+    .registration-form .pane-bwma-registration-form .header-text .form-required {
+      position: static; }
+  .registration-form .pane-form img,
+  .registration-form .pane-bwma-registration-form img {
+    margin-bottom: 1em; }
   .registration-form .pane-form .form-item,
   .registration-form .pane-bwma-registration-form .form-item {
     position: relative; }
@@ -3224,7 +3233,8 @@ main#main-content {
   color: #333;
   -webkit-align-self: flex-start;
       -ms-flex-item-align: start;
-          align-self: flex-start; }
+          align-self: flex-start;
+  margin-top: 1em; }
   @media (min-width: 822px) {
     .registration-form .pane-vuuid-fe784624-e322-41ed-97fd-8de44c46047a {
       width: auto; } }

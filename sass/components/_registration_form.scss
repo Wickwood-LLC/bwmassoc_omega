@@ -148,8 +148,18 @@
 			margin-top: 1em;
 		}
 
-		.header-text .form-required {
-			position: static;
+		.header-text {
+			float: right;
+			width: calc(100% - 170px);
+			display: inline-block;
+
+			.form-required {
+				position: static;
+			}
+		}
+
+		img {
+			margin-bottom: 1em;
 		}
 
 		.form-item {
@@ -245,6 +255,7 @@
 		margin: 0 auto;
 		color: #333;
 		align-self: flex-start;
+		margin-top: 1em;
 
 		@include breakpoint(822px) {
 			width: auto;
