@@ -51,7 +51,7 @@
 			}
 			.radix-layouts-contentcolumn1,
 			.radix-layouts-contentcolumn2 {
-				width: 50%;
+				width: 100%;
 				min-width: 400px;
 				padding: 0 1em 1em 1em;
 				display: inline-block;
@@ -62,12 +62,24 @@
 					display: flex;
 					flex-flow: row wrap;
 				}
+
+				@include breakpoint(1146px) {
+					width: 50%;
+				}
 			}
 			.radix-layouts-contentcolumn1 {
-				border-right: 0px;
+				border-width: 1px 1px 0 1px;
+
+				@include breakpoint(1146px) {
+					border-width: 1px 0 1px 1px;
+				}
 			}
 			.radix-layouts-contentcolumn2 {
-				border-left: 0px;
+				border-width: 0 1px 1px 1px;
+
+				@include breakpoint(1146px) {
+					border-width: 1px 1px 1px 0;
+				}
 			}
 		}
 	}
