@@ -3039,17 +3039,37 @@ main#main-content {
         -webkit-flex-flow: row wrap;
             -ms-flex-flow: row wrap;
                 flex-flow: row wrap; }
+      @media (min-width: 846px) {
+        .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1,
+        .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
+          width: 50%; } }
+      @media (min-width: 1024px) {
+        .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1,
+        .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
+          width: 100%; } }
       @media (min-width: 1146px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1,
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
           width: 50%; } }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
       border-width: 1px 1px 0 1px; }
+      @media (min-width: 846px) {
+        .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
+          border-width: 1px 0 1px 1px; } }
+      @media (min-width: 1024px) {
+        .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
+          border-width: 1px 1px 0 1px; } }
       @media (min-width: 1146px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
           border-width: 1px 0 1px 1px; } }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
       border-width: 0 1px 1px 1px; }
+      @media (min-width: 846px) {
+        .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
+          border-width: 1px 1px 1px 0; } }
+      @media (min-width: 1024px) {
+        .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
+          border-width: 0 1px 1px 1px; } }
       @media (min-width: 1146px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
           border-width: 1px 1px 1px 0; } }
