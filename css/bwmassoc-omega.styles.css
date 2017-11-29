@@ -3023,6 +3023,7 @@ main#main-content {
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1,
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
       width: 50%;
+      min-width: 400px;
       padding: 0 1em 1em 1em;
       display: inline-block;
       background: #fff none repeat scroll 0 0;
@@ -3066,8 +3067,7 @@ main#main-content {
       -webkit-box-ordinal-group: 1;
       -webkit-order: 0;
           -ms-flex-order: 0;
-              order: 0;
-      min-width: 450px; } }
+              order: 0; } }
   @media (min-width: 965px) and (max-width: 1023px) {
     .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a,
     .registration-form .pane-current-15 {
@@ -3096,7 +3096,11 @@ main#main-content {
   @media (min-width: 822px) {
     .registration-form .pane-form,
     .registration-form .pane-bwma-registration-form {
-      width: auto; } }
+      width: auto;
+      margin-top: 1em; } }
+  .registration-form .pane-form .header-text .form-required,
+  .registration-form .pane-bwma-registration-form .header-text .form-required {
+    position: static; }
   .registration-form .pane-form .form-item,
   .registration-form .pane-bwma-registration-form .form-item {
     position: relative; }
@@ -3133,7 +3137,7 @@ main#main-content {
   .registration-form .pane-bwma-registration-form .form-required {
     position: absolute;
     right: 15px;
-    bottom: 40%;
+    top: 30px;
     color: #D4696A; }
   .registration-form .pane-form .form-item-allow-text-message input,
   .registration-form .pane-bwma-registration-form .form-item-allow-text-message input {
