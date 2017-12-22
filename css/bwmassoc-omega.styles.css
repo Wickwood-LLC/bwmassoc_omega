@@ -3227,7 +3227,7 @@ main#main-content {
       -webkit-transition: all 60ms ease-in-out 30ms;
       -o-transition: all 60ms ease-in-out 30ms;
       transition: all 60ms ease-in-out 30ms; }
-.registration-form .pane-vuuid-fe784624-e322-41ed-97fd-8de44c46047a {
+.registration-form .success-bwma-reg {
   display: block;
   background: #c9e0ff;
   padding: 15px;
@@ -3246,7 +3246,7 @@ main#main-content {
           align-self: flex-start;
   margin-top: 1em; }
   @media (min-width: 822px) {
-    .registration-form .pane-vuuid-fe784624-e322-41ed-97fd-8de44c46047a {
+    .registration-form .success-bwma-reg {
       width: auto; } }
 
 .view-bwma-client-testimonials .view-content {
