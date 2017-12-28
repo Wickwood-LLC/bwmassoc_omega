@@ -1,0 +1,13 @@
+/*** Mailing Styles ***/
+
+#mimemail-body {
+	background-color: #bad4e6;
+	font-size: 14px;
+	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif, sans-serif;
+	color: #555;
+}
+
+#mail {
+	min-width: 590px;
+	width: 80%;
+}
