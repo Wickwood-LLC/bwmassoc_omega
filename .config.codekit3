@@ -792,9 +792,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/mail-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/package.json": {
@@ -1343,6 +1343,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/maintenance-page.tpl.php",
+		"oF": 0
+		},
+	"\/templates\/mimemail-message.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/mimemail-message.tpl.php",
 		"oF": 0
 		},
 	"\/templates\/page.tpl.php": {
