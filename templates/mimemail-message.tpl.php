@@ -19,6 +19,13 @@
  * @see template_preprocess_mimemail_message()
  */
 
+global $theme_key;
+global $base_url;
+$themes = list_themes();
+$theme_object = $themes[$theme_key];
+$settings = theme_get_settings($theme_key);
+$logos = $base_url .'/'. $settings['logo_path']; //this is the logo path
+
 
 /**
  * @file
@@ -45,6 +52,7 @@
   <body id="mimemail-body" <?php if ($module && $key): print 'class="'. $module .'-'. $key .'"'; endif; ?>>
     <div id="center">
       <div id="main">
+        <img id="logo" src="<?php print $logos ?>" />
         <div id="body"><?php print $body ?></div>
       </div>
     </div>
