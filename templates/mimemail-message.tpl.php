@@ -23,7 +23,7 @@ global $theme_key;
 global $base_url;
 $themes = list_themes();
 $theme_object = $themes[$theme_key];
-$settings = theme_get_settings($theme_key);
+$settings = theme_get_setting($theme_key);
 $logos = $base_url .'/'. $settings['logo_path']; //this is the logo path
 
 
