@@ -4,22 +4,26 @@
 	background-color: #bad4e6;
 	font-size: 14px;
 	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif, sans-serif;
-	color: #555;
+	color: black;
 }
 
 #main {
-	min-width: 590px;
-	width: 80%;
+	width: 590px;
 	margin: auto;
 	display: table;
 }
 
 #logo {
-	margin: auto;
+	margin: 2em auto;
 	display: table;
 }
 
 #body {
 	background-color: white;
 	padding: 1em;
+}
+
+#footer {
+	background-color: #555;
+	color: #919191;
 }
