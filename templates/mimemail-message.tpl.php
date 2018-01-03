@@ -18,6 +18,18 @@
  *
  * @see template_preprocess_mimemail_message()
  */
+
+
+/**
+ * @file
+ * Fallback-Template for HTML Mail messages.
+ */
+
+  $css_file = realpath(path_to_theme()) . '/mail.css';
+  if (!empty($css_file) && file_exists($css_file)) {
+    $css = file_get_contents($css_file);
+  }
+
 ?>
 <html>
   <head>
