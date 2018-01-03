@@ -45,7 +45,8 @@
   <body id="mimemail-body" <?php if ($module && $key): print 'class="'. $module .'-'. $key .'"'; endif; ?>>
     <div id="center">
       <div id="main">
-        <?php print $body ?>
+        <div id="logo"><?php print theme_get_setting('logo'); ?></div>
+        <div id="body"><?php print $body ?></div>
       </div>
     </div>
   </body>

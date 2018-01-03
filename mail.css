@@ -10,4 +10,15 @@
 #main {
 	min-width: 590px;
 	width: 80%;
+	margin: auto;
+	display: table;
+}
+
+#logo {
+	margin: auto;
+	display: table;
+}
+
+#body {
+	background-color: white;
 }
