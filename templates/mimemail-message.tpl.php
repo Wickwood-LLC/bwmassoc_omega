@@ -52,7 +52,7 @@ if (!empty($css_file) && file_exists($css_file)) {
     <div id="center">
       <div id="main">
         <?php echo '<pre>' . print_r($settings['logo_path']) . '</pre>'; ?>
-        <img src="<?php echo $GLOBALS['base_url'] .'/'. theme_get_setting('logo', 'bwmassoc_omega'); ?>" />
+        <img src="<?php echo theme_get_setting('logo', 'bwmassoc_omega'); ?>" />
         <div id="body"><?php print $body ?></div>
       </div>
     </div>
