@@ -52,7 +52,7 @@ if (!empty($css_file) && file_exists($css_file)) {
     <div id="center">
       <div id="main">
         <?php echo '<pre>' . print_r($settings['logo_path']) . '</pre>'; ?>
-        <img id="logo" src="<?php echo $GLOBALS['base_url']; ?>files/styles/panopoly_image_original-no_watermark/public/media/image_uploads/png_bwma_logo_small_1.png" />
+        <img id="logo" src="<?php echo $GLOBALS['base_url']; ?>/files/styles/panopoly_image_original-no_watermark/public/media/image_uploads/png_bwma_logo_small_1.png" />
         <div id="body"><?php print $body ?></div>
       </div>
     </div>
