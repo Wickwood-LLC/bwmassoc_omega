@@ -51,8 +51,7 @@ if (!empty($css_file) && file_exists($css_file)) {
   <body id="mimemail-body" <?php if ($module && $key): print 'class="'. $module .'-'. $key .'"'; endif; ?>>
     <div id="center">
       <div id="main">
-        <?php echo '<pre>' . print_r($settings['logo_path']) . '</pre>'; ?>
-        <img src="<?php echo theme_get_setting('logo', 'bwmassoc_omega'); ?>" />
+        <img src="<?php echo $GLOBALS['base_url']; ?>/sites/2018-01-01.a.1.testing.2.dev.bwma.info/themes/bwmassoc_omega/logo.png" />
         <div id="body"><?php print $body ?></div>
       </div>
     </div>
