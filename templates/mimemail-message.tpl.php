@@ -26,16 +26,15 @@ $theme_object = $themes[$theme_key];
 $settings = theme_get_setting($theme_key);
 $logos = $base_url .'/'. $settings['logo_path']; //this is the logo path
 
-
 /**
  * @file
  * Fallback-Template for HTML Mail messages.
  */
 
-  $css_file = realpath(path_to_theme()) . '/mail.css';
-  if (!empty($css_file) && file_exists($css_file)) {
-    $css = file_get_contents($css_file);
-  }
+$css_file = realpath(path_to_theme()) . '/mail.css';
+if (!empty($css_file) && file_exists($css_file)) {
+  $css = file_get_contents($css_file);
+}
 
 ?>
 <html>
@@ -52,7 +51,8 @@ $logos = $base_url .'/'. $settings['logo_path']; //this is the logo path
   <body id="mimemail-body" <?php if ($module && $key): print 'class="'. $module .'-'. $key .'"'; endif; ?>>
     <div id="center">
       <div id="main">
-        <img id="logo" src="<?php echo $GLOBALS['base_url']; ?>/sites/all/themes/my_theme/logo.png" />
+        <?php echo '<pre>' . print_r($settings) . '</pre>'; ?>
+        <img id="logo" src="<?php echo $GLOBALS['base_url']; ?>/sites/2018-01-01.a.1.testing.2.dev.bwma.info/themes/bwmassoc_omega/logo.png" />
         <div id="body"><?php print $body ?></div>
       </div>
     </div>
