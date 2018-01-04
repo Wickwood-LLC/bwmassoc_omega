@@ -14,7 +14,10 @@
 }
 
 #logo {
-	margin: 2em auto;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
 	display: table;
 }
 
@@ -23,7 +26,7 @@
 	padding: 1em;
 }
 
-.mail-button {
+#mail-button {
 	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif;
 	color: #ffffff;
 	font-weight: normal;
@@ -38,12 +41,12 @@
 	border-left: 0px None #9c9c9c;
 }
 
-.mail-footer-1 {
+#mail-footer-1 {
 	background-color: #555;
 	color: #ccc;
 }
 
-.mail-footer-2 {
+#mail-footer-2 {
 	background-color: #333;
 	color: #919191;
 }
