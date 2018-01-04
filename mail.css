@@ -24,6 +24,11 @@
 #body {
 	background-color: white;
 	padding: 1em;
+	padding-bottom: 0;
+}
+
+#body p:last-child {
+	margin-bottom: 0;
 }
 
 #mail-button {
