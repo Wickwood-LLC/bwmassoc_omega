@@ -39,25 +39,37 @@
 	border-right: 0px None #9c9c9c;
 	border-bottom: 0px None #9c9c9c;
 	border-left: 0px None #9c9c9c;
+	text-align: center;
+	display: table;
+	margin: auto;
 }
 
 #mail-footer-1 {
 	background-color: #555;
 	color: #ccc;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 1em;
 	display: block;
+	margin-left: -1em;
+	margin-right: -1em;
+	text-align: center;
 }
 
 #mail-footer-2 {
 	background-color: #333;
 	color: #919191;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding: 1em;
 	display: block;
+	margin-left: -1em;
+	margin-right: -1em;
+	text-align: center;
 }
 
 #footer {
 	background-color: #555;
 	color: #919191;
+}
+
+/* For Gmail */
+.im {
+	color: black;
 }
