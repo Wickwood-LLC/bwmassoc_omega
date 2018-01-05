@@ -15,7 +15,6 @@
 
 #logo {
 	margin: 2em auto;
-	display: table;
 }
 
 #body {
@@ -70,8 +69,6 @@ td {
 	color: #ccc;
 	padding: 1em;
 	display: block;
-	margin-left: -1em !important;
-	margin-right: -1em !important;
 	text-align: center;
 }
 #mail-footer-1 a {
@@ -84,8 +81,6 @@ td {
 	color: #919191;
 	padding: 1em;
 	display: block;
-	margin-left: -1em !important;
-	margin-right: -1em !important;
 	text-align: center;
 }
 

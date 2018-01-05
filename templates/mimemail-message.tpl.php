@@ -52,7 +52,7 @@ if (!empty($css_file) && file_exists($css_file)) {
     <div id="center">
       <div id="main">
         <div></div>
-        <table>
+        <table style="text-align: center; width: 590px;">
           <tbody>
             <tr>
               <td>
