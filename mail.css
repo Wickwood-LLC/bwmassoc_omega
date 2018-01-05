@@ -19,12 +19,10 @@
 
 #body {
 	background-color: white;
+	display: table;
 }
 #body p {
 	padding: 0 1em;
-}
-#body p:last-child {
-	margin-bottom: 0;
 }
 
 table {
