@@ -1,6 +1,6 @@
 /*** Mailing Styles ***/
 
-#mimemail-body {
+#mimemail-body, td {
 	background-color: #bad4e6;
 	font-size: 14px;
 	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif, sans-serif;
@@ -26,6 +26,13 @@
 
 #body p:last-child {
 	margin-bottom: 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+td {
+	padding: 0;
 }
 
 #mail-button {
