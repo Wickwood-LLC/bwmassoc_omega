@@ -1,6 +1,6 @@
 /*** Mailing Styles ***/
 
-#mimemail-body, td {
+#mimemail-body {
 	background-color: #bad4e6;
 	font-size: 14px;
 	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif, sans-serif;
@@ -20,19 +20,22 @@
 
 #body {
 	background-color: white;
-	padding: 1em;
-	padding-bottom: 0;
 }
-
+#body p {
+	padding: 0 1em;
+}
 #body p:last-child {
 	margin-bottom: 0;
 }
 
 table {
 	border-collapse: collapse;
+	width: 100%
 }
 td {
 	padding: 0;
+	font-size: 14px;
+	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif, sans-serif;
 }
 
 #mail-button {
