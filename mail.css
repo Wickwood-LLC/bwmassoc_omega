@@ -1,5 +1,9 @@
 /*** Mailing Styles ***/
 
+strong, b {
+	color: black;
+}
+
 #mimemail-body {
 	background-color: #bad4e6;
 	font-size: 14px;
