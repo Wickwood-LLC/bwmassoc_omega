@@ -684,7 +684,9 @@
 	.radix-bryant .row .pane-content-area-bwmassoc {
 		padding: 0 2em;
 	}
+}
 
+.node-type-bwmassoc-basic-page {
 	.field--name-body p {
 		font-size: 1em;
 		font-family: FontAwesome, sans-serif;
@@ -693,22 +695,22 @@
 			font-size: 1.2em;
 		}
 	}
+}
 
-	.calculate-savings {
-		color: #fff;
-		font-weight: 600;
-		background: #017cca;
-		padding: 9px 15px;
-		border-radius: 75px;
-		margin: 0.5em auto;
-		display: table;
-		text-decoration: none;
-		clear: both;
+.calculate-savings {
+	color: #fff;
+	font-weight: 600;
+	background: #017cca;
+	padding: 9px 15px;
+	border-radius: 75px;
+	margin: 0.5em auto;
+	display: table;
+	text-decoration: none;
+	clear: both;
 
-		&:before {
-			font-family: FontAwesome;
-			margin-right: 5px;
-		}
+	&:before {
+		font-family: FontAwesome;
+		margin-right: 5px;
 	}
 }
 

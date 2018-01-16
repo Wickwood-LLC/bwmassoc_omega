@@ -1949,16 +1949,15 @@ html.js fieldset.collapsed {
 .section-7-minutes-7-years .radix-bryant .row .pane-content-area-bwmassoc,
 .section-as-seen-on-tv .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0 2em; }
-.section-7-minutes-7-years .field--name-body p,
-.section-as-seen-on-tv .field--name-body p {
+
+.node-type-bwmassoc-basic-page .field--name-body p {
   font-size: 1em;
   font-family: FontAwesome, sans-serif; }
   @media (min-width: 569px) {
-    .section-7-minutes-7-years .field--name-body p,
-    .section-as-seen-on-tv .field--name-body p {
+    .node-type-bwmassoc-basic-page .field--name-body p {
       font-size: 1.2em; } }
-.section-7-minutes-7-years .calculate-savings,
-.section-as-seen-on-tv .calculate-savings {
+
+.calculate-savings {
   color: #fff;
   font-weight: 600;
   background: #017cca;
@@ -1969,8 +1968,7 @@ html.js fieldset.collapsed {
   display: table;
   text-decoration: none;
   clear: both; }
-  .section-7-minutes-7-years .calculate-savings:before,
-  .section-as-seen-on-tv .calculate-savings:before {
+  .calculate-savings:before {
     font-family: FontAwesome;
     margin-right: 5px; }
 
