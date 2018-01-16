@@ -36,6 +36,10 @@
 			display: block;
 		}
 	}
+
+	.description {
+		margin-top: 0.5em;
+	}
 }
 
 input[type="submit"],
@@ -384,5 +388,11 @@ html.js fieldset.collapsed {
 
 	label, input {
 		vertical-align: bottom;
+	}
+}
+
+#webform-client-form-14043 {
+	@include breakpoint(730px) {
+		margin: 0 10%;
 	}
 }

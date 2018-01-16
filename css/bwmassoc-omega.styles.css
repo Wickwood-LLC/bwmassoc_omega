@@ -731,6 +731,8 @@ ul.breadcrumb {
     @media (min-width: 0px) and (max-width: 569px) {
       .form-item .container-inline-date .form-item input {
         display: block; } }
+  .form-item .description {
+    margin-top: 0.5em; }
 
 input[type="submit"],
 a.button.fake-ok {
@@ -1000,6 +1002,10 @@ html.js fieldset.collapsed {
   #edit-bwma-text-message-phone-type label,
   #edit-bwma-text-message-phone-type input {
     vertical-align: bottom; }
+
+@media (min-width: 730px) {
+  #webform-client-form-14043 {
+    margin: 0 10%; } }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
