@@ -821,16 +821,15 @@ html.js fieldset.collapsed {
 
 .form-actions {
   text-align: center;
-  background: #eee;
-  border: 1px solid #ddd;
-  padding: 9px;
   margin-top: 10px;
   margin-bottom: 0; }
-  .form-actions #edit-submit {
+  .form-actions #edit-submit,
+  .form-actions .form-submit {
     display: inline-block;
     background-color: #1196cf;
     color: white; }
-    .form-actions #edit-submit:hover {
+    .form-actions #edit-submit:hover,
+    .form-actions .form-submit:hover {
       background-color: #2271bd; }
   .form-actions #edit-delete,
   .form-actions #edit-cancel {
@@ -2977,7 +2976,8 @@ main#main-content {
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1;
   border-top: 0px;
-  padding: 0 2em; }
+  padding: 0 2em;
+  padding-bottom: 1em; }
 
 .registration-form .radix-bartlett .row {
   display: -webkit-box;

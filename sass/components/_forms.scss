@@ -135,13 +135,11 @@ html.js fieldset.collapsed {
 
 .form-actions {
 	text-align: center;
-	background: #eee;
-    border: 1px solid #ddd;
-    padding: 9px;
     margin-top: 10px;
     margin-bottom: 0;
 
-	#edit-submit {
+	#edit-submit,
+	.form-submit {
 		display: inline-block;
 		background-color: #1196cf;
 		color: white;
