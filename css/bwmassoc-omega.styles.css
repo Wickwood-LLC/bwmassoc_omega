@@ -2956,7 +2956,7 @@ main#main-content {
   .panels-flexible-200 .panels-flexible-region-inside-last {
     padding-left: 0; } }
 
-.node-type-bwmassoc-basic-page main#main-content {
+.bwmassoc-page main#main-content {
   background-color: transparent;
   padding: 0;
   border: 0;
