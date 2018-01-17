@@ -393,12 +393,6 @@ html.js fieldset.collapsed {
 	position: relative;
 	border-radius: 5px;
 
-	@include breakpoint(730px) {
-		margin: 0 10%;
-	}
-}
-
-#webform-client-form-14043 {
 	#edit-submitted-87-pmts-survey-answers {
 		.form-item label {
 			margin-left: 1.5em;
@@ -417,5 +411,9 @@ html.js fieldset.collapsed {
 				width: 100px
 			}
 		}
+	}
+
+	@include breakpoint(730px) {
+		margin: 0 10%;
 	}
 }
