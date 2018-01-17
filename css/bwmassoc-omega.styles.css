@@ -1010,24 +1010,27 @@ html.js fieldset.collapsed {
   position: relative;
   -webkit-border-radius: 5px;
           border-radius: 5px; }
-  #webform-client-form-14043 #edit-submitted-87-pmts-survey-answers .form-item label,
-  #webform-client-form-14042 #edit-submitted-87-pmts-survey-answers .form-item label {
-    margin-left: 1.5em; }
-  #webform-client-form-14043 .webform-container-inline label,
-  #webform-client-form-14042 .webform-container-inline label {
-    display: inline-block;
-    width: 100px; }
-  #webform-client-form-14043 .webform-component--mailing-address .form-item,
-  #webform-client-form-14042 .webform-component--mailing-address .form-item {
-    margin-left: 1em; }
-    #webform-client-form-14043 .webform-component--mailing-address .form-item label,
-    #webform-client-form-14042 .webform-component--mailing-address .form-item label {
-      display: inline-block;
-      width: 100px; }
   @media (min-width: 730px) {
     #webform-client-form-14043,
     #webform-client-form-14042 {
       margin: 0 10%; } }
+
+#webform-client-form-14042 .webform-component--mailing-address .form-item {
+  margin-left: 1em; }
+  #webform-client-form-14042 .webform-component--mailing-address .form-item label {
+    display: inline-block;
+    width: 100px; }
+
+#webform-client-form-14043 #edit-submitted-87-pmts-survey-answers .form-item label {
+  margin-left: 1.5em; }
+#webform-client-form-14043 .webform-container-inline label {
+  display: inline-block;
+  width: 100px; }
+#webform-client-form-14043 .webform-component--mailing-address .form-item {
+  margin-left: 1em; }
+  #webform-client-form-14043 .webform-component--mailing-address .form-item label {
+    display: inline-block;
+    width: 100px; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
