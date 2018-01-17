@@ -451,6 +451,18 @@
 			text-align: center;
 		}
 	}
+
+	.pane-node-title {
+		text-align: center;
+		color: #0355a3;
+		text-decoration: none;
+
+		h1 {
+			@include breakpoint(0px 568px) {
+				font-size: 1.5em;
+			}
+		}
+	}
 }
 
 .section-biweekly-calculator {

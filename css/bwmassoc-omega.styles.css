@@ -1726,6 +1726,17 @@ html.js fieldset.collapsed {
   .page-contact-bwma .pane-content-area-bwmassoc .file-video,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .file-video {
     text-align: center; }
+.bwmassoc-page .pane-node-title,
+.page-contact-bwma .pane-node-title,
+.section-contact-bwmassoc .pane-node-title {
+  text-align: center;
+  color: #0355a3;
+  text-decoration: none; }
+  @media (min-width: 0px) and (max-width: 568px) {
+    .bwmassoc-page .pane-node-title h1,
+    .page-contact-bwma .pane-node-title h1,
+    .section-contact-bwmassoc .pane-node-title h1 {
+      font-size: 1.5em; } }
 
 .section-biweekly-calculator main#main-content {
   background-color: transparent;
