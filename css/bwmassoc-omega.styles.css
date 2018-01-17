@@ -734,6 +734,9 @@ ul.breadcrumb {
   .form-item .description {
     margin-top: 0.5em; }
 
+.form-type-radio label {
+  display: inline; }
+
 input[type="submit"],
 input[value="Save"],
 input[value*="Apply"],
@@ -1015,6 +1018,18 @@ html.js fieldset.collapsed {
     #webform-client-form-14042 {
       margin: 0 10%; } }
 
+#webform-client-form-14042 .webform-component--first-name label,
+#webform-client-form-14042 .webform-component--last-name label,
+#webform-client-form-14042 .webform-component--email label,
+#webform-client-form-14042 .webform-component--phone-number label {
+  display: inline-block;
+  width: 130px; }
+#webform-client-form-14042 .webform-component--first-name input,
+#webform-client-form-14042 .webform-component--last-name input,
+#webform-client-form-14042 .webform-component--email input,
+#webform-client-form-14042 .webform-component--phone-number input {
+  width: -webkit-calc(100% - 155px);
+  width: calc(100% - 155px); }
 #webform-client-form-14042 .webform-component--mailing-address .form-item {
   margin-left: 1em; }
   #webform-client-form-14042 .webform-component--mailing-address .form-item label {
@@ -1025,7 +1040,10 @@ html.js fieldset.collapsed {
   margin-left: 1.5em; }
 #webform-client-form-14043 .webform-container-inline label {
   display: inline-block;
-  width: 100px; }
+  width: 130px; }
+#webform-client-form-14043 .webform-container-inline input {
+  width: -webkit-calc(100% - 155px);
+  width: calc(100% - 155px); }
 #webform-client-form-14043 .webform-component--mailing-address .form-item {
   margin-left: 1em; }
   #webform-client-form-14043 .webform-component--mailing-address .form-item label {

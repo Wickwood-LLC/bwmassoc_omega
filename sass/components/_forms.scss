@@ -42,6 +42,12 @@
 	}
 }
 
+.form-type-radio {
+	label {
+		display: inline;
+	}
+}
+
 input[type="submit"],
 input[value="Save"],
 input[value*="Apply"],
@@ -399,6 +405,20 @@ html.js fieldset.collapsed {
 }
 
 #webform-client-form-14042 {
+	.webform-component--first-name,
+	.webform-component--last-name,
+	.webform-component--email,
+	.webform-component--phone-number {
+		label {
+			display: inline-block;
+			width: 130px;
+		}
+
+		input {
+			width: calc(100% - 155px);
+		}
+	}
+
 	.webform-component--mailing-address {
 		.form-item {
 			margin-left: 1em;
@@ -417,9 +437,15 @@ html.js fieldset.collapsed {
 			margin-left: 1.5em;
 		}
 	}
-	.webform-container-inline label {
-		display: inline-block;
-		width: 100px;
+	.webform-container-inline {
+		label {
+			display: inline-block;
+			width: 130px;
+		}
+
+		input {
+			width: calc(100% - 155px);
+		}
 	}
 	.webform-component--mailing-address {
 		.form-item {
