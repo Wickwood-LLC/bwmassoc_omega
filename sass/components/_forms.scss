@@ -397,3 +397,25 @@ html.js fieldset.collapsed {
 		margin: 0 10%;
 	}
 }
+
+#webform-client-form-14043 {
+	#edit-submitted-87-pmts-survey-answers {
+		.form-item label {
+			margin-left: 1.5em;
+		}
+	}
+	.webform-container-inline label {
+		display: inline-block;
+		width: 100px;
+	}
+	.webform-component--mailing-address {
+		.form-item {
+			margin-left: 1em;
+
+			label {
+				display: inline-block;
+				width: 100px
+			}
+		}
+	}
+}
