@@ -1,8 +1,43 @@
-main#main-content {
+#main-content {
 	background-color: white;
 	padding: 1em;
 	border: 1px solid #c1c1c1;
 	border-radius: 5px;
+
+	.pane-share-us {
+		#widgets-element-socialmedia_share-default {
+			text-align: center;
+
+			.widgets-element {
+				float: none;
+				display: inline-block;
+				margin-right: 5px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	.share-text {
+		text-align: center;
+		margin-bottom: 0.5em;
+
+		.pane-title {
+			font-size: 16px;
+			margin: 0;
+			display: inline-block;
+		}
+		.fieldable-panels-pane {
+			display: inline-block;
+
+			p {
+				margin: 0;
+				font-weight: bold;
+			}
+		}
+	}
 }
 
 .panels-flexible-200 {
