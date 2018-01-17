@@ -1003,7 +1003,8 @@ html.js fieldset.collapsed {
     vertical-align: bottom; }
 
 @media (min-width: 730px) {
-  #webform-client-form-14043 {
+  #webform-client-form-14043,
+  #webform-client-form-14042 {
     margin: 0 10%; } }
 
 @media (min-width: 0) and (max-width: 480px) {

@@ -385,7 +385,8 @@ html.js fieldset.collapsed {
 	}
 }
 
-#webform-client-form-14043 {
+#webform-client-form-14043,
+#webform-client-form-14042 {
 	@include breakpoint(730px) {
 		margin: 0 10%;
 	}
