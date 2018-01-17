@@ -1631,7 +1631,7 @@ html.js fieldset.collapsed {
   .pane-superfish-4 #superfish-4 {
     margin-bottom: -1px; }
 
-.node-type-bwmassoc-basic-page .radix-bryant .row,
+.bwmassoc-page .radix-bryant .row,
 .page-contact-bwma .radix-bryant .row,
 .section-contact-bwmassoc .radix-bryant .row {
   display: -webkit-box;
@@ -1644,7 +1644,7 @@ html.js fieldset.collapsed {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   margin: 0; }
-  .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
+  .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar,
   .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
   .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar {
     -webkit-box-ordinal-group: 2;
@@ -1657,7 +1657,7 @@ html.js fieldset.collapsed {
             flex: 100%;
     padding: 0; }
     @media (min-width: 1024px) {
-      .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
+      .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar,
       .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
       .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar {
         -webkit-box-ordinal-group: 1;
@@ -1668,17 +1668,17 @@ html.js fieldset.collapsed {
         -webkit-flex: 25%;
             -ms-flex: 25%;
                 flex: 25%; } }
-    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
+    .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
     .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title {
       text-align: center;
       margin-bottom: 0; }
-    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
+    .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
     .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
       margin-top: 0;
       margin-bottom: 0; }
-    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
+    .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
     .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default {
       display: -webkit-box;
@@ -1689,11 +1689,11 @@ html.js fieldset.collapsed {
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
+      .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
       .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
       .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element {
         margin-right: 5px; }
-  .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
+  .bwmassoc-page .radix-bryant .row .radix-layouts-content,
   .page-contact-bwma .radix-bryant .row .radix-layouts-content,
   .section-contact-bwmassoc .radix-bryant .row .radix-layouts-content {
     -webkit-box-flex: 100%;
@@ -1703,7 +1703,7 @@ html.js fieldset.collapsed {
     max-width: 100%;
     padding: 0; }
     @media (min-width: 1024px) {
-      .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
+      .bwmassoc-page .radix-bryant .row .radix-layouts-content,
       .page-contact-bwma .radix-bryant .row .radix-layouts-content,
       .section-contact-bwmassoc .radix-bryant .row .radix-layouts-content {
         -webkit-box-flex: -webkit-calc(75% - 1em);
@@ -1711,32 +1711,21 @@ html.js fieldset.collapsed {
             -ms-flex: calc(75% - 1em);
                 flex: calc(75% - 1em);
         padding-left: 1em; } }
-  .node-type-bwmassoc-basic-page .radix-bryant .row .pane-content-area-bwmassoc,
+  .bwmassoc-page .radix-bryant .row .pane-content-area-bwmassoc,
   .page-contact-bwma .radix-bryant .row .pane-content-area-bwmassoc,
   .section-contact-bwmassoc .radix-bryant .row .pane-content-area-bwmassoc {
     padding: 0 1em; }
-.node-type-bwmassoc-basic-page .pane-content-area-bwmassoc,
+.bwmassoc-page .pane-content-area-bwmassoc,
 .page-contact-bwma .pane-content-area-bwmassoc,
 .section-contact-bwmassoc .pane-content-area-bwmassoc {
   display: inline-block;
   width: 100%;
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1; }
-  .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc .file-video,
+  .bwmassoc-page .pane-content-area-bwmassoc .file-video,
   .page-contact-bwma .pane-content-area-bwmassoc .file-video,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .file-video {
     text-align: center; }
-.node-type-bwmassoc-basic-page .pane-node-title,
-.page-contact-bwma .pane-node-title,
-.section-contact-bwmassoc .pane-node-title {
-  text-align: center;
-  color: #0355a3;
-  text-decoration: none; }
-  @media (min-width: 0px) and (max-width: 568px) {
-    .node-type-bwmassoc-basic-page .pane-node-title h1,
-    .page-contact-bwma .pane-node-title h1,
-    .section-contact-bwmassoc .pane-node-title h1 {
-      font-size: 1.5em; } }
 
 .section-biweekly-calculator main#main-content {
   background-color: transparent;
