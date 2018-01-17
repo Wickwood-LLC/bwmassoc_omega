@@ -735,6 +735,9 @@ ul.breadcrumb {
     margin-top: 0.5em; }
 
 input[type="submit"],
+input[value="Save"],
+input[value*="Apply"],
+input#edit-submit,
 a.button.fake-ok {
   padding: 6px 12px;
   font-size: 1em;
@@ -755,14 +758,10 @@ a.button.fake-ok {
   -webkit-border-radius: 4px;
           border-radius: 4px;
   margin-right: 1em;
-  -webkit-appearance: none; }
-
-input[value="Save"],
-input[value*="Apply"],
-input#edit-submit,
-a.button.fake-ok {
+  -webkit-appearance: none;
   background-color: #1196cf;
   color: white; }
+  input[type="submit"]:hover,
   input[value="Save"]:hover,
   input[value*="Apply"]:hover,
   input#edit-submit:hover,
