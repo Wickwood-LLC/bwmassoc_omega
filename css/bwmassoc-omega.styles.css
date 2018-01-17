@@ -2949,30 +2949,30 @@ html.touch .tabs--primary ul.secondary-tabs {
   body.not-logged-in #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a {
     padding: 16px 20px; } }
 
-#main-content {
+main#main-content {
   background-color: white;
   padding: 1em;
   border: 1px solid #c1c1c1;
   -webkit-border-radius: 5px;
           border-radius: 5px; }
-  #main-content .pane-share-us #widgets-element-socialmedia_share-default {
+  main#main-content .pane-share-us #widgets-element-socialmedia_share-default {
     text-align: center; }
-    #main-content .pane-share-us #widgets-element-socialmedia_share-default .widgets-element {
+    main#main-content .pane-share-us #widgets-element-socialmedia_share-default .widgets-element {
       float: none;
       display: inline-block;
       margin-right: 5px; }
-      #main-content .pane-share-us #widgets-element-socialmedia_share-default .widgets-element:last-child {
+      main#main-content .pane-share-us #widgets-element-socialmedia_share-default .widgets-element:last-child {
         margin-right: 0; }
-  #main-content .share-text {
+  main#main-content .share-text {
     text-align: center;
     margin-bottom: 0.5em; }
-    #main-content .share-text .pane-title {
+    main#main-content .share-text .pane-title {
       font-size: 16px;
       margin: 0;
       display: inline-block; }
-    #main-content .share-text .fieldable-panels-pane {
+    main#main-content .share-text .fieldable-panels-pane {
       display: inline-block; }
-      #main-content .share-text .fieldable-panels-pane p {
+      main#main-content .share-text .fieldable-panels-pane p {
         margin: 0;
         font-weight: bold; }
 
