@@ -711,7 +711,7 @@ ul.breadcrumb {
   font-size: 16px;
   margin-bottom: 10px; }
   .form-item label {
-    display: inline; }
+    display: inline-block; }
   .form-item input, .form-item keygen, .form-item select {
     display: inline-block;
     background-color: white;
