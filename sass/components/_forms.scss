@@ -393,7 +393,7 @@ html.js fieldset.collapsed {
 }
 
 .form-87-payments-survey [action="/87-payments-survey"],
-#webform-client-form-14042 {
+.form-consultation-prep [action="/consultation-prep"] {
 	background-color: #f2f2f2;
 	border: 1px solid #ccc;
 	padding: 1em;
@@ -406,18 +406,35 @@ html.js fieldset.collapsed {
 	}
 }
 
-#webform-client-form-14042 {
+.form-consultation-prep [action="/consultation-prep"] {
 	.webform-component--first-name,
 	.webform-component--last-name,
 	.webform-component--email,
 	.webform-component--phone-number {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		flex-flow: row wrap;
+
 		@include flexifields(130px);
 	}
-
 	.webform-component--mailing-address {
+		@include flexifields(100px);
+
 		.form-item {
-			margin-left: 1em;
-			@include flexifields(100px);
+			padding-left: 1.5em;
+
+			select {
+				flex: 1 1 calc(100% - 100px);
+			}
+			input, select {
+				min-width: 150px;
+			}
+		}
+	}
+	.webform-component-radios:not(.webform-container-inline) {
+		.form-type-radio {
+			margin-left: 1.5em;
 		}
 	}
 }
