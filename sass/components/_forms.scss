@@ -446,8 +446,11 @@ html.js fieldset.collapsed {
 		@include flexifields(100px);
 
 		.form-item {
-			margin-left: 1.5em;
-			
+			padding-left: 1.5em;
+
+			select {
+				flex: 1 1 calc(100% - 100px);
+			}
 			input, select {
 				min-width: 150px;
 			}
