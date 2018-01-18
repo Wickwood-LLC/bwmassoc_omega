@@ -1315,7 +1315,8 @@ html.js fieldset.collapsed {
       vertical-align: middle; }
       #wwm-collapse-3 .middle-column .pane-share-us .share-text h2.pane-title {
         font-size: 17px;
-        margin: 5px;
+        margin: 0;
+        margin-right: 5px;
         display: inline-block; }
       #wwm-collapse-3 .middle-column .pane-share-us .share-text .fieldable-panels-pane {
         display: inline-block;
@@ -1676,6 +1677,7 @@ html.js fieldset.collapsed {
     margin-bottom: -1px; }
 
 .bwmassoc-page .radix-bryant .row,
+.node-type-bwmassoc-basic-page .radix-bryant .row,
 .page-contact-bwma .radix-bryant .row,
 .section-contact-bwmassoc .radix-bryant .row {
   display: -webkit-box;
@@ -1689,6 +1691,7 @@ html.js fieldset.collapsed {
           flex-flow: row wrap;
   margin: 0; }
   .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar,
+  .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
   .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
   .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar {
     -webkit-box-ordinal-group: 2;
@@ -1702,6 +1705,7 @@ html.js fieldset.collapsed {
     padding: 0; }
     @media (min-width: 1024px) {
       .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar,
+      .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar,
       .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar,
       .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar {
         -webkit-box-ordinal-group: 1;
@@ -1713,16 +1717,19 @@ html.js fieldset.collapsed {
             -ms-flex: 25%;
                 flex: 25%; } }
     .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
+    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title,
     .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title {
       text-align: center;
       margin-bottom: 0; }
     .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
+    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p,
     .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
       margin-top: 0;
       margin-bottom: 0; }
     .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
+    .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
     .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default,
     .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default {
       display: -webkit-box;
@@ -1734,10 +1741,12 @@ html.js fieldset.collapsed {
           -ms-flex-pack: center;
               justify-content: center; }
       .bwmassoc-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
+      .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
       .page-contact-bwma .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element,
       .section-contact-bwmassoc .radix-bryant .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element {
         margin-right: 5px; }
   .bwmassoc-page .radix-bryant .row .radix-layouts-content,
+  .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
   .page-contact-bwma .radix-bryant .row .radix-layouts-content,
   .section-contact-bwmassoc .radix-bryant .row .radix-layouts-content {
     -webkit-box-flex: 100%;
@@ -1748,6 +1757,7 @@ html.js fieldset.collapsed {
     padding: 0; }
     @media (min-width: 1024px) {
       .bwmassoc-page .radix-bryant .row .radix-layouts-content,
+      .node-type-bwmassoc-basic-page .radix-bryant .row .radix-layouts-content,
       .page-contact-bwma .radix-bryant .row .radix-layouts-content,
       .section-contact-bwmassoc .radix-bryant .row .radix-layouts-content {
         -webkit-box-flex: -webkit-calc(75% - 1em);
@@ -1756,10 +1766,12 @@ html.js fieldset.collapsed {
                 flex: calc(75% - 1em);
         padding-left: 1em; } }
   .bwmassoc-page .radix-bryant .row .pane-content-area-bwmassoc,
+  .node-type-bwmassoc-basic-page .radix-bryant .row .pane-content-area-bwmassoc,
   .page-contact-bwma .radix-bryant .row .pane-content-area-bwmassoc,
   .section-contact-bwmassoc .radix-bryant .row .pane-content-area-bwmassoc {
     padding: 0 1em; }
 .bwmassoc-page .pane-content-area-bwmassoc,
+.node-type-bwmassoc-basic-page .pane-content-area-bwmassoc,
 .page-contact-bwma .pane-content-area-bwmassoc,
 .section-contact-bwmassoc .pane-content-area-bwmassoc {
   display: inline-block;
@@ -1767,10 +1779,12 @@ html.js fieldset.collapsed {
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1; }
   .bwmassoc-page .pane-content-area-bwmassoc .file-video,
+  .node-type-bwmassoc-basic-page .pane-content-area-bwmassoc .file-video,
   .page-contact-bwma .pane-content-area-bwmassoc .file-video,
   .section-contact-bwmassoc .pane-content-area-bwmassoc .file-video {
     text-align: center; }
 .bwmassoc-page .pane-node-title,
+.node-type-bwmassoc-basic-page .pane-node-title,
 .page-contact-bwma .pane-node-title,
 .section-contact-bwmassoc .pane-node-title {
   text-align: center;
@@ -1778,6 +1792,7 @@ html.js fieldset.collapsed {
   text-decoration: none; }
   @media (min-width: 0px) and (max-width: 568px) {
     .bwmassoc-page .pane-node-title h1,
+    .node-type-bwmassoc-basic-page .pane-node-title h1,
     .page-contact-bwma .pane-node-title h1,
     .section-contact-bwmassoc .pane-node-title h1 {
       font-size: 1.5em; } }
