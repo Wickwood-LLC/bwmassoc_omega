@@ -44,8 +44,10 @@
 
 .form-type-radio,
 .form-type-checkbox {
-	label {
-		display: inline;
+	display: flex;
+
+	input.form-radio {
+		margin-right: 10px;
 	}
 }
 
@@ -416,6 +418,12 @@ html.js fieldset.collapsed {
 		align-items: center;
 		flex-flow: row wrap;
 
+		label {
+			margin-right: 0;
+		}
+		input {
+			min-width: 200px;
+		}
 		@include flexifields(130px);
 	}
 	.webform-component--mailing-address {
@@ -436,6 +444,34 @@ html.js fieldset.collapsed {
 		.form-type-radio {
 			margin-left: 1.5em;
 		}
+	}
+	.webform-component--lender-name {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		flex-flow: row wrap;
+
+		label {
+			margin-right: 0;
+		}
+		input {
+			min-width: 200px;
+		}
+		@include flexifields(180px);
+	}
+	.webform-component--exact-total-monthly-pmt {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		flex-flow: row wrap;
+
+		label {
+			margin-right: 0;
+		}
+		input {
+			min-width: 200px;
+		}
+		@include flexifields(350px);
 	}
 }
 
