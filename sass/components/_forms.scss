@@ -52,6 +52,26 @@
 	}
 }
 
+.webform-component-radios:not(.webform-container-inline) {
+	.form-type-radio {
+		margin-left: 1.5em;
+	}
+}
+.webform-component--mailing-address {
+	@include flexifields(100px);
+
+	.form-item {
+		padding-left: 1.5em;
+
+		select {
+			flex: 1 1 calc(100% - 100px);
+		}
+		input, select {
+			min-width: 150px;
+		}
+	}
+}
+
 input[type="submit"],
 input[value="Save"],
 input[value*="Apply"],
@@ -428,25 +448,6 @@ html.js fieldset.collapsed {
 		}
 		@include flexifields(130px);
 	}
-	.webform-component--mailing-address {
-		@include flexifields(100px);
-
-		.form-item {
-			padding-left: 1.5em;
-
-			select {
-				flex: 1 1 calc(100% - 100px);
-			}
-			input, select {
-				min-width: 150px;
-			}
-		}
-	}
-	.webform-component-radios:not(.webform-container-inline) {
-		.form-type-radio {
-			margin-left: 1.5em;
-		}
-	}
 	.webform-component--lender-name {
 		display: flex;
 		width: 100%;
@@ -492,18 +493,45 @@ html.js fieldset.collapsed {
 		}
 		@include flexifields(130px);
 	}
-	.webform-component--mailing-address {
-		@include flexifields(100px);
+}
 
-		.form-item {
-			padding-left: 1.5em;
+.form-refer-a-friend form {
+	fieldset {
+		background-color: white;
+	}
 
-			select {
-				flex: 1 1 calc(100% - 100px);
-			}
-			input, select {
-				min-width: 150px;
-			}
+	.webform-component--your-information--referrer-first-name,
+	.webform-component--your-information--referr-last-name,
+	.webform-component--your-information--referrer-email,
+	.webform-component--your-information--referr-phone-number {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		flex-flow: row wrap;
+
+		label {
+			margin-right: 0;
 		}
+		input {
+			min-width: 200px;
+		}
+		@include flexifields(180px);
+	}
+	.webform-component--your-referrals-information--referrals-first-name,
+	.webform-component--your-referrals-information--referrals-last-name,
+	.webform-component--your-referrals-information--referrals-best-phone-number,
+	.webform-component--your-referrals-information--your-referrals-best-email {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		flex-flow: row wrap;
+
+		label {
+			margin-right: 0;
+		}
+		input {
+			min-width: 100px;
+		}
+		@include flexifields(215px);
 	}
 }
