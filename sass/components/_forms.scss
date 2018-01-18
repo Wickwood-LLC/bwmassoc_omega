@@ -45,7 +45,6 @@
 .form-type-radio,
 .form-type-checkbox {
 	display: flex;
-	margin-left: 1.5em;
 
 	input.form-radio {
 		margin-right: 10px;
@@ -57,7 +56,7 @@
 		margin-left: 1.5em;
 	}
 }
-.webform-component--mailing-address {
+.webform-component-addressfield {
 	@include flexifields(100px);
 
 	.form-item {
