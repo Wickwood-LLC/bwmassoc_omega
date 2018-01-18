@@ -1102,7 +1102,7 @@ html.js fieldset.collapsed {
 
 .form-87-payments-survey [action="/87-payments-survey"] #edit-submitted-87-pmts-survey-answers .form-item {
   margin-left: 1.5em; }
-.form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline .form-item {
+.form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1117,25 +1117,44 @@ html.js fieldset.collapsed {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
-.form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline label {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 130px;
-      -ms-flex: 0 0 130px;
-          flex: 0 0 130px;
-  max-width: 100%;
-  -webkit-flex-basis: 130px;
-      -ms-flex-preferred-size: 130px;
-          flex-basis: 130px;
-  white-space: normal; }
-.form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline input {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 1 -webkit-calc(100% - 130px);
-      -ms-flex: 1 1 calc(100% - 130px);
-          flex: 1 1 calc(100% - 130px);
-  -webkit-flex-basis: -webkit-calc(100% - 130px);
-      -ms-flex-preferred-size: calc(100% - 130px);
-          flex-basis: calc(100% - 130px);
-  max-width: 100%; }
+  .form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline label {
+    margin-right: 0; }
+  .form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline input {
+    min-width: 200px; }
+  .form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline .form-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
+  .form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline label {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 130px;
+        -ms-flex: 0 0 130px;
+            flex: 0 0 130px;
+    max-width: 100%;
+    -webkit-flex-basis: 130px;
+        -ms-flex-preferred-size: 130px;
+            flex-basis: 130px;
+    white-space: normal; }
+  .form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 -webkit-calc(100% - 130px);
+        -ms-flex: 1 1 calc(100% - 130px);
+            flex: 1 1 calc(100% - 130px);
+    -webkit-flex-basis: -webkit-calc(100% - 130px);
+        -ms-flex-preferred-size: calc(100% - 130px);
+            flex-basis: calc(100% - 130px);
+    max-width: 100%; }
 .form-87-payments-survey [action="/87-payments-survey"] .webform-component--mailing-address .form-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1170,6 +1189,10 @@ html.js fieldset.collapsed {
       -ms-flex-preferred-size: calc(100% - 100px);
           flex-basis: calc(100% - 100px);
   max-width: 100%; }
+.form-87-payments-survey [action="/87-payments-survey"] .webform-component--mailing-address .form-item {
+  margin-left: 1.5em; }
+  .form-87-payments-survey [action="/87-payments-survey"] .webform-component--mailing-address .form-item input, .form-87-payments-survey [action="/87-payments-survey"] .webform-component--mailing-address .form-item select {
+    min-width: 150px; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
