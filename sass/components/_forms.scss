@@ -392,7 +392,7 @@ html.js fieldset.collapsed {
 	}
 }
 
-.form-87-payments-survey,
+.form-87-payments-survey [action="/87-payments-survey"],
 #webform-client-form-14042 {
 	background-color: #f2f2f2;
 	border: 1px solid #ccc;
@@ -422,7 +422,7 @@ html.js fieldset.collapsed {
 	}
 }
 
-.form-87-payments-survey {
+.form-87-payments-survey [action="/87-payments-survey"] {
 	#edit-submitted-87-pmts-survey-answers {
 		.form-item {
 			margin-left: 1.5em;

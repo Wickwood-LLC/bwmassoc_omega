@@ -1006,7 +1006,7 @@ html.js fieldset.collapsed {
   #edit-bwma-text-message-phone-type input {
     vertical-align: bottom; }
 
-.form-87-payments-survey,
+.form-87-payments-survey [action="/87-payments-survey"],
 #webform-client-form-14042 {
   background-color: #f2f2f2;
   border: 1px solid #ccc;
@@ -1016,7 +1016,7 @@ html.js fieldset.collapsed {
   -webkit-border-radius: 5px;
           border-radius: 5px; }
   @media (min-width: 730px) {
-    .form-87-payments-survey,
+    .form-87-payments-survey [action="/87-payments-survey"],
     #webform-client-form-14042 {
       margin: 0 10%; } }
 
@@ -1100,17 +1100,17 @@ html.js fieldset.collapsed {
             flex-basis: calc(100% - 100px);
     max-width: 100%; }
 
-.form-87-payments-survey #edit-submitted-87-pmts-survey-answers .form-item {
+.form-87-payments-survey [action="/87-payments-survey"] #edit-submitted-87-pmts-survey-answers .form-item {
   margin-left: 1.5em; }
-.form-87-payments-survey .webform-container-inline label {
+.form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline label {
   display: inline-block;
   width: 130px; }
-.form-87-payments-survey .webform-container-inline input {
+.form-87-payments-survey [action="/87-payments-survey"] .webform-container-inline input {
   width: -webkit-calc(100% - 155px);
   width: calc(100% - 155px); }
-.form-87-payments-survey .webform-component--mailing-address .form-item {
+.form-87-payments-survey [action="/87-payments-survey"] .webform-component--mailing-address .form-item {
   margin-left: 1em; }
-  .form-87-payments-survey .webform-component--mailing-address .form-item label {
+  .form-87-payments-survey [action="/87-payments-survey"] .webform-component--mailing-address .form-item label {
     display: inline-block;
     width: 100px; }
 
