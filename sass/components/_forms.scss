@@ -429,23 +429,9 @@ html.js fieldset.collapsed {
 		}
 	}
 	.webform-container-inline {
-		label {
-			display: inline-block;
-			width: 130px;
-		}
-
-		input {
-			width: calc(100% - 155px);
-		}
+		@include flexifields(130px);
 	}
 	.webform-component--mailing-address {
-		.form-item {
-			margin-left: 1em;
-
-			label {
-				display: inline-block;
-				width: 100px
-			}
-		}
+		@include flexifields(100px);
 	}
 }
