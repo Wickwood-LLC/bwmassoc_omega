@@ -57,6 +57,15 @@
 		margin-left: 1.5em;
 	}
 }
+.webform-component-radios.webform-container-inline {
+	.form-type-radio {
+		display: inline-flex;
+
+		label {
+			white-space: nowrap;
+		}
+	}
+}
 .webform-component-addressfield {
 	@include flexifields(100px);
 

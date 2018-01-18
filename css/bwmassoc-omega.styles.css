@@ -748,6 +748,14 @@ ul.breadcrumb {
 .webform-component-checkboxes:not(.webform-container-inline) .form-type-radio {
   margin-left: 1.5em; }
 
+.webform-component-radios.webform-container-inline .form-type-radio {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .webform-component-radios.webform-container-inline .form-type-radio label {
+    white-space: nowrap; }
+
 .webform-component-addressfield .form-item {
   display: -webkit-box;
   display: -webkit-flex;
