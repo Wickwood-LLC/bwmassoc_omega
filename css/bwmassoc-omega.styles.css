@@ -1784,17 +1784,25 @@ html.js fieldset.collapsed {
   .section-contact-bwmassoc .pane-content-area-bwmassoc .file-video {
     text-align: center; }
 .bwmassoc-page .pane-node-title,
+.bwmassoc-page .field--name-title-field,
 .node-type-bwmassoc-basic-page .pane-node-title,
+.node-type-bwmassoc-basic-page .field--name-title-field,
 .page-contact-bwma .pane-node-title,
-.section-contact-bwmassoc .pane-node-title {
+.page-contact-bwma .field--name-title-field,
+.section-contact-bwmassoc .pane-node-title,
+.section-contact-bwmassoc .field--name-title-field {
   text-align: center;
   color: #0355a3;
   text-decoration: none; }
   @media (min-width: 0px) and (max-width: 568px) {
     .bwmassoc-page .pane-node-title h1,
+    .bwmassoc-page .field--name-title-field h1,
     .node-type-bwmassoc-basic-page .pane-node-title h1,
+    .node-type-bwmassoc-basic-page .field--name-title-field h1,
     .page-contact-bwma .pane-node-title h1,
-    .section-contact-bwmassoc .pane-node-title h1 {
+    .page-contact-bwma .field--name-title-field h1,
+    .section-contact-bwmassoc .pane-node-title h1,
+    .section-contact-bwmassoc .field--name-title-field h1 {
       font-size: 1.5em; } }
 
 .section-biweekly-calculator main#main-content {
