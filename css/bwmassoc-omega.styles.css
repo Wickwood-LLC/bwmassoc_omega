@@ -744,7 +744,8 @@ ul.breadcrumb {
   .form-type-checkbox input.form-radio {
     margin-right: 10px; }
 
-.webform-component-radios:not(.webform-container-inline) .form-type-radio {
+.webform-component-radios:not(.webform-container-inline) .form-type-radio,
+.webform-component-checkboxes:not(.webform-container-inline) .form-type-radio {
   margin-left: 1.5em; }
 
 .webform-component-addressfield .form-item {

@@ -51,7 +51,8 @@
 	}
 }
 
-.webform-component-radios:not(.webform-container-inline) {
+.webform-component-radios:not(.webform-container-inline),
+.webform-component-checkboxes:not(.webform-container-inline) {
 	.form-type-radio {
 		margin-left: 1.5em;
 	}
