@@ -469,7 +469,7 @@ html.js fieldset.collapsed {
 			margin-right: 0;
 		}
 		input {
-			min-width: 200px;
+			min-width: 100px;
 		}
 		@include flexifields(350px);
 	}
