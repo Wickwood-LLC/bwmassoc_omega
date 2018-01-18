@@ -45,6 +45,7 @@
 .form-type-radio,
 .form-type-checkbox {
 	display: flex;
+	margin-left: 1.5em;
 
 	input.form-radio {
 		margin-right: 10px;
@@ -394,8 +395,9 @@ html.js fieldset.collapsed {
 	}
 }
 
-.form-87-payments-survey [action="/87-payments-survey"],
-.form-consultation-prep [action="/consultation-prep"] {
+.form-87-payments-survey form,
+.form-consultation-prep form,
+.form-refer-a-friend form {
 	background-color: #f2f2f2;
 	border: 1px solid #ccc;
 	padding: 1em;
@@ -408,7 +410,7 @@ html.js fieldset.collapsed {
 	}
 }
 
-.form-consultation-prep [action="/consultation-prep"] {
+.form-consultation-prep form {
 	.webform-component--first-name,
 	.webform-component--last-name,
 	.webform-component--email,
@@ -475,12 +477,7 @@ html.js fieldset.collapsed {
 	}
 }
 
-.form-87-payments-survey [action="/87-payments-survey"] {
-	#edit-submitted-87-pmts-survey-answers {
-		.form-item {
-			margin-left: 1.5em;
-		}
-	}
+.form-87-payments-survey form {
 	.webform-container-inline {
 		display: flex;
 		width: 100%;
