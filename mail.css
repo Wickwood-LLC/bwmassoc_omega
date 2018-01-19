@@ -1,0 +1,92 @@
+/*** Mailing Styles ***/
+
+strong, b {
+	color: black;
+}
+
+#mimemail-body {
+	background-color: #bad4e6;
+	font-size: 14px;
+	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif, sans-serif;
+	color: black;
+}
+
+#main {
+	width: 590px;
+	margin: auto;
+	display: table;
+}
+
+#logo {
+	margin: 2em auto;
+}
+
+#body {
+	background-color: white;
+	display: table;
+}
+#body p {
+	padding: 0 1em;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%
+}
+td {
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif, sans-serif;
+}
+
+#mail-button {
+	font-family: 'Lucida Sans Unicode',Lucida Grande,sans-serif;
+	color: #ffffff;
+	font-weight: normal;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: middle;
+	background-color: #3499db;
+	border-radius: 4px;
+	border-top: 0px None #9c9c9c;
+	border-right: 0px None #9c9c9c;
+	border-bottom: 0px None #9c9c9c;
+	border-left: 0px None #9c9c9c;
+	text-align: center;
+	display: table;
+	margin: auto;
+}
+#mail-button a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#mail-footer-1 {
+	background-color: #555;
+	color: #ccc;
+	padding: 1em;
+	display: block;
+	text-align: center;
+}
+#mail-footer-1 a {
+	color: #bad4e6;
+	text-decoration: none;
+}
+
+#mail-footer-2 {
+	background-color: #333;
+	color: #919191;
+	padding: 1em;
+	display: block;
+	text-align: center;
+}
+
+/* For Gmail */
+.im {
+	color: black;
+}

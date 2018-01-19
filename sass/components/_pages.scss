@@ -3,6 +3,41 @@ main#main-content {
 	padding: 1em;
 	border: 1px solid #c1c1c1;
 	border-radius: 5px;
+
+	.pane-share-us {
+		#widgets-element-socialmedia_share-default {
+			text-align: center;
+
+			.widgets-element {
+				float: none;
+				display: inline-block;
+				margin-right: 5px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+	.share-text {
+		text-align: center;
+		margin: 0.5em 0;
+
+		.pane-title {
+			font-size: 16px;
+			margin: 0;
+			display: inline-block;
+		}
+		.fieldable-panels-pane {
+			display: inline-block;
+
+			p {
+				margin: 0;
+				font-weight: bold;
+			}
+		}
+	}
 }
 
 .panels-flexible-200 {
@@ -17,10 +52,32 @@ main#main-content {
 	}
 }
 
-.node-type-bwmassoc-basic-page main#main-content {
+.bwmassoc-page main#main-content {
     background-color: transparent;
     padding: 0;
     border: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
+}
+
+.bwmassoc-page-middle {
+	display: inline-block;
+	width: 100%;
+	background: #fff none repeat scroll 0 0;
+	border-left: 1px solid #c1c1c1;
+	border-right: 1px solid #c1c1c1;
+	padding: 0 2em;
+}
+.bwmassoc-page-bottom {
+	display: inline-block;
+	width: 100%;
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c1c1c1;
+	border-top: 0px;
+	padding: 0 2em;
+	padding-bottom: 1em;
+}
+
+.wt-box {
+	text-align: justify;
 }
