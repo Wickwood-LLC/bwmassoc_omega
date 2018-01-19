@@ -739,10 +739,41 @@ ul.breadcrumb {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   .form-type-radio input.form-radio,
   .form-type-checkbox input.form-radio {
     margin-right: 10px; }
+  .form-type-radio .description,
+  .form-type-checkbox .description {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%; }
+
+.webform-component-checkboxes .form-type-checkbox,
+.form-item-checkboxes .form-type-checkbox {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap; }
+
+.webform-component-radios .form-type-radio,
+.form-item-radios .form-type-radio {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap; }
 
 .webform-component-radios:not(.webform-container-inline) .form-item,
 .webform-component-checkboxes:not(.webform-container-inline) .form-item {

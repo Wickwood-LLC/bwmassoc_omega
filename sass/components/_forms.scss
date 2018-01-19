@@ -45,9 +45,27 @@
 .form-type-radio,
 .form-type-checkbox {
 	display: flex;
+	align-items: baseline;
+	flex-flow: row wrap;
 
 	input.form-radio {
 		margin-right: 10px;
+	}
+	.description {
+		flex: 100%;
+	}
+}
+
+.webform-component-checkboxes,
+.form-item-checkboxes {
+	.form-type-checkbox {
+		flex-flow: row nowrap;
+	}
+}
+.webform-component-radios,
+.form-item-radios {
+	.form-type-radio {
+		flex-flow: row nowrap;
 	}
 }
 
