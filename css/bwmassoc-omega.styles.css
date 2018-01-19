@@ -1224,41 +1224,10 @@ html.js fieldset.collapsed {
   .form-consultation-prep form .webform-component--exact-total-monthly-pmt label {
     margin-right: 0; }
   .form-consultation-prep form .webform-component--exact-total-monthly-pmt input {
-    min-width: 100px; }
-  .form-consultation-prep form .webform-component--exact-total-monthly-pmt .form-item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
-  .form-consultation-prep form .webform-component--exact-total-monthly-pmt label {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 350px;
-        -ms-flex: 0 0 350px;
-            flex: 0 0 350px;
-    max-width: 100%;
-    -webkit-flex-basis: 350px;
-        -ms-flex-preferred-size: 350px;
-            flex-basis: 350px;
-    white-space: normal; }
-  .form-consultation-prep form .webform-component--exact-total-monthly-pmt input {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 -webkit-calc(100% - 350px);
-        -ms-flex: 1 1 calc(100% - 350px);
-            flex: 1 1 calc(100% - 350px);
-    -webkit-flex-basis: -webkit-calc(100% - 350px);
-        -ms-flex-preferred-size: calc(100% - 350px);
-            flex-basis: calc(100% - 350px);
-    max-width: 100%; }
+    -webkit-flex: 0 0 10em;
+        -ms-flex: 0 0 10em;
+            flex: 0 0 10em; }
 
 .form-87-payments-survey form .webform-container-inline {
   display: -webkit-box;

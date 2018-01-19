@@ -575,23 +575,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/bwmassoc-omega.styles.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/bwmassoc-omega.styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/bwmassoc-omega.styles.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/bwmassoc-omega.styles.css.map",
-		"oF": 0
-		},
 	"\/fonts\/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -1173,19 +1156,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/components\/_forms.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/sass\/css\/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
