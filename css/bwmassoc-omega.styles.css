@@ -1224,7 +1224,10 @@ html.js fieldset.collapsed {
   .form-consultation-prep form .webform-component--exact-total-monthly-pmt label {
     margin-right: 0; }
   .form-consultation-prep form .webform-component--exact-total-monthly-pmt input {
-    min-width: 100px; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 10em;
+        -ms-flex: 0 0 10em;
+            flex: 0 0 10em; }
   .form-consultation-prep form .webform-component--exact-total-monthly-pmt .form-item {
     display: -webkit-box;
     display: -webkit-flex;
