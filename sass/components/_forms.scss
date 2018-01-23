@@ -106,15 +106,14 @@ form {
 			min-width: 150px;
 		}
 
-		&.form-item-submitted-mailing-address-postal-code {
+		&.form-item-submitted-mailing-address-postal-code input {
 			max-width: 100px;
 		}
 	}
 }
 .webform-component-phone {
 	input {
-		flex: 0 1 240px;
-		width: 240px;
+		max-width: 240px;
 	}
 }
 
@@ -530,10 +529,11 @@ html.js fieldset.collapsed {
 			min-width: 200px;
 		}
 		@include flexifields(130px);
-	}
-	.webform-component--phone-number {
-		input {
-			max-width: 240px;
+
+		&.webform-component--phone-number {
+			input {
+				max-width: 240px;
+			}
 		}
 	}
 }
