@@ -840,6 +840,8 @@ form {
             flex: 1 1 calc(100% - 100px); }
   .webform-component-addressfield .form-item input, .webform-component-addressfield .form-item select {
     min-width: 150px; }
+  .webform-component-addressfield .form-item.form-item-submitted-mailing-address-postal-code {
+    max-width: 100px; }
 
 .webform-component-phone input {
   -webkit-box-flex: 0;
@@ -1187,12 +1189,8 @@ html.js fieldset.collapsed {
         -ms-flex-preferred-size: calc(100% - 130px);
             flex-basis: calc(100% - 130px);
     max-width: 100%; }
-.form-consultation-prep form .webform-component--phone-number {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 1 240px;
-      -ms-flex: 0 1 240px;
-          flex: 0 1 240px;
-  width: 240px; }
+.form-consultation-prep form .webform-component--phone-number input {
+  max-width: 240px; }
 .form-consultation-prep form .webform-component--lender-name {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1324,6 +1322,8 @@ html.js fieldset.collapsed {
         -ms-flex-preferred-size: calc(100% - 130px);
             flex-basis: calc(100% - 130px);
     max-width: 100%; }
+.form-87-payments-survey form .webform-component--phone-number input {
+  max-width: 240px; }
 
 .form-refer-a-friend form fieldset {
   background-color: white; }
@@ -1469,13 +1469,9 @@ html.js fieldset.collapsed {
         -ms-flex-preferred-size: calc(100% - 215px);
             flex-basis: calc(100% - 215px);
     max-width: 100%; }
-.form-refer-a-friend form .webform-component--your-information--referr-phone-number,
-.form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 1 240px;
-      -ms-flex: 0 1 240px;
-          flex: 0 1 240px;
-  width: 240px; }
+.form-refer-a-friend form .webform-component--your-information--referr-phone-number input,
+.form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number input {
+  max-width: 240px; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {

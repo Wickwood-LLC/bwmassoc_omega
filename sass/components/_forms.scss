@@ -105,6 +105,10 @@ form {
 		input, select {
 			min-width: 150px;
 		}
+
+		&.form-item-submitted-mailing-address-postal-code {
+			max-width: 100px;
+		}
 	}
 }
 .webform-component-phone {
@@ -476,8 +480,9 @@ html.js fieldset.collapsed {
 		@include flexifields(130px);
 	}
 	.webform-component--phone-number {
-		flex: 0 1 240px;
-		width: 240px;
+		input {
+			max-width: 240px;
+		}
 	}
 	.webform-component--lender-name {
 		display: flex;
@@ -526,6 +531,11 @@ html.js fieldset.collapsed {
 		}
 		@include flexifields(130px);
 	}
+	.webform-component--phone-number {
+		input {
+			max-width: 240px;
+		}
+	}
 }
 
 .form-refer-a-friend form {
@@ -569,7 +579,8 @@ html.js fieldset.collapsed {
 	}
 	.webform-component--your-information--referr-phone-number,
 	.webform-component--your-referrals-information--referrals-best-phone-number {
-		flex: 0 1 240px;
-		width: 240px;
+		input {
+			max-width: 240px;
+		}
 	}
 }
