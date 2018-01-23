@@ -94,6 +94,12 @@
 		}
 	}
 }
+.webform-component-phone {
+	input {
+		flex: 0 1 240px;
+		width: 240px;
+	}
+}
 
 input[type="submit"],
 input[value="Save"],
@@ -471,6 +477,10 @@ html.js fieldset.collapsed {
 		}
 		@include flexifields(130px);
 	}
+	.webform-component--phone-number {
+		flex: 0 1 240px;
+		width: 240px;
+	}
 	.webform-component--lender-name {
 		display: flex;
 		width: 100%;
@@ -558,5 +568,10 @@ html.js fieldset.collapsed {
 			min-width: 100px;
 		}
 		@include flexifields(215px);
+	}
+	.webform-component--your-information--referr-phone-number,
+	.webform-component--your-referrals-information--referrals-best-phone-number {
+		flex: 0 1 240px;
+		width: 240px;
 	}
 }

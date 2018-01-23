@@ -829,6 +829,13 @@ ul.breadcrumb {
   .webform-component-addressfield .form-item input, .webform-component-addressfield .form-item select {
     min-width: 150px; }
 
+.webform-component-phone input {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 240px;
+      -ms-flex: 0 1 240px;
+          flex: 0 1 240px;
+  width: 240px; }
+
 input[type="submit"],
 input[value="Save"],
 input[value*="Apply"],
@@ -1184,6 +1191,12 @@ html.js fieldset.collapsed {
         -ms-flex-preferred-size: calc(100% - 130px);
             flex-basis: calc(100% - 130px);
     max-width: 100%; }
+.form-consultation-prep form .webform-component--phone-number {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 240px;
+      -ms-flex: 0 1 240px;
+          flex: 0 1 240px;
+  width: 240px; }
 .form-consultation-prep form .webform-component--lender-name {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1460,6 +1473,13 @@ html.js fieldset.collapsed {
         -ms-flex-preferred-size: calc(100% - 215px);
             flex-basis: calc(100% - 215px);
     max-width: 100%; }
+.form-refer-a-friend form .webform-component--your-information--referr-phone-number,
+.form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 240px;
+      -ms-flex: 0 1 240px;
+          flex: 0 1 240px;
+  width: 240px; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
