@@ -1259,6 +1259,8 @@ html.js fieldset.collapsed {
     -webkit-flex: 0 0 10em;
         -ms-flex: 0 0 10em;
             flex: 0 0 10em; }
+  .form-consultation-prep form .webform-component--exact-total-monthly-pmt .field-prefix {
+    margin: 0 5px; }
 
 .form-87-payments-survey form .webform-container-inline {
   display: -webkit-box;
