@@ -80,6 +80,21 @@
 		display: inline-flex;
 	}
 }
+.webform-component-textfield,
+.webform-component-email,
+.webform-component-phone {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	flex-flow: row wrap;
+
+	label {
+		min-width: 120px;
+	}
+	input {
+		flex-flow: 1 1 calc(100% - 130px);
+	}
+}
 .webform-component-addressfield {
 	@include flexifields(100px);
 
@@ -186,6 +201,7 @@ fieldset {
     border-radius: 10px;
     padding: 0.5em 1em;
     min-width: 0;
+    background-color: white;
 }
 
 html.js fieldset.collapsed {
@@ -463,130 +479,5 @@ html.js fieldset.collapsed {
 
 	@include breakpoint(730px) {
 		margin: 0 10%;
-	}
-}
-
-.form-consultation-prep form {
-	.webform-component--first-name,
-	.webform-component--last-name,
-	.webform-component--email,
-	.webform-component--phone-number {
-		display: flex;
-		width: 100%;
-		align-items: center;
-		flex-flow: row wrap;
-
-		label {
-			margin-right: 0;
-		}
-		input {
-			min-width: 200px;
-		}
-		@include flexifields(130px);
-	}
-	.webform-component--phone-number {
-		input {
-			max-width: 240px;
-		}
-	}
-	.webform-component--lender-name {
-		display: flex;
-		width: 100%;
-		align-items: center;
-		flex-flow: row wrap;
-
-		label {
-			margin-right: 0;
-		}
-		input {
-			min-width: 200px;
-		}
-		@include flexifields(180px);
-	}
-	.webform-component--exact-total-monthly-pmt {
-		display: flex;
-		width: 100%;
-		align-items: center;
-		flex-flow: row wrap;
-
-		label {
-			margin-right: 0;
-		}
-		input {
-			flex: 0 0 10em;
-		}
-		.field-prefix {
-			margin: 0 5px;
-		}
-	}
-}
-
-.form-87-payments-survey form {
-	.webform-container-inline {
-		display: flex;
-		width: 100%;
-		align-items: center;
-		flex-flow: row wrap;
-
-		label {
-			margin-right: 0;
-		}
-		input {
-			min-width: 200px;
-		}
-		@include flexifields(130px);
-
-		&.webform-component--phone-number {
-			input {
-				max-width: 240px;
-			}
-		}
-	}
-}
-
-.form-refer-a-friend form {
-	fieldset {
-		background-color: white;
-	}
-
-	.webform-component--your-information--referrer-first-name,
-	.webform-component--your-information--referr-last-name,
-	.webform-component--your-information--referrer-email,
-	.webform-component--your-information--referr-phone-number {
-		display: flex;
-		width: 100%;
-		align-items: center;
-		flex-flow: row wrap;
-
-		label {
-			margin-right: 0;
-		}
-		input {
-			min-width: 200px;
-		}
-		@include flexifields(180px);
-	}
-	.webform-component--your-referrals-information--referrals-first-name,
-	.webform-component--your-referrals-information--referrals-last-name,
-	.webform-component--your-referrals-information--referrals-best-phone-number,
-	.webform-component--your-referrals-information--your-referrals-best-email {
-		display: flex;
-		width: 100%;
-		align-items: center;
-		flex-flow: row wrap;
-
-		label {
-			margin-right: 0;
-		}
-		input {
-			min-width: 100px;
-		}
-		@include flexifields(215px);
-	}
-	.webform-component--your-information--referr-phone-number,
-	.webform-component--your-referrals-information--referrals-best-phone-number {
-		input {
-			max-width: 240px;
-		}
 	}
 }
