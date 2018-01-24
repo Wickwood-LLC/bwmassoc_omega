@@ -254,6 +254,7 @@ html.js fieldset.collapsed {
 
 .form-item-path-alias {
 	display: flex;
+	flex-flow: row wrap;
 	align-items: center;
 }
 
