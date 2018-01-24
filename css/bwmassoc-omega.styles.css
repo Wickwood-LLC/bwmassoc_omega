@@ -809,11 +809,10 @@ ul.breadcrumb {
   .webform-component-textfield input,
   .webform-component-email input,
   .webform-component-phone input {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: 1 1 -webkit-calc(100% - 130px);
-        -ms-flex-flow: 1 1 calc(100% - 130px);
-            flex-flow: 1 1 calc(100% - 130px); }
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 -webkit-calc(100% - 130px);
+        -ms-flex: 1 1 calc(100% - 130px);
+            flex: 1 1 calc(100% - 130px); }
 
 .webform-component-addressfield .form-item {
   display: -webkit-box;
