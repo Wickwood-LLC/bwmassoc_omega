@@ -92,7 +92,8 @@
 		min-width: 125px;
 	}
 	input {
-		flex: 1 1 calc(100% - 150px);
+		flex: 1 1 200px;
+		min-width: 200px;
 	}
 }
 .webform-component-addressfield {

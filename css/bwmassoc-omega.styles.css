@@ -810,9 +810,10 @@ ul.breadcrumb {
   .webform-component-email input,
   .webform-component-phone input {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 1 -webkit-calc(100% - 150px);
-        -ms-flex: 1 1 calc(100% - 150px);
-            flex: 1 1 calc(100% - 150px); }
+    -webkit-flex: 1 1 200px;
+        -ms-flex: 1 1 200px;
+            flex: 1 1 200px;
+    min-width: 200px; }
 
 .webform-component-addressfield .form-item {
   display: -webkit-box;
