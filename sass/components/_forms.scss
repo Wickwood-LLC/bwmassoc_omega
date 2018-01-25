@@ -515,4 +515,10 @@ html.js fieldset.collapsed {
 	.form-item-submitted-your-referrals-information-referral-mailing-address-postal-code {
 		max-width: 100px;
 	}
+	.form-item-submitted-your-referrals-information-referral-mailing-address-country select {
+		max-width: 380px;
+	}
+	.form-item-submitted-your-referrals-information-referral-mailing-address-administrative-area select {
+		max-width: 418px;
+	}
 }
