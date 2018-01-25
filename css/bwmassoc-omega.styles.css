@@ -860,6 +860,10 @@ ul.breadcrumb {
     min-width: 150px; }
   .webform-component-addressfield .form-item.form-item-submitted-mailing-address-postal-code input {
     max-width: 100px; }
+.webform-component-addressfield .form-item-submitted-mailing-address-country select {
+  max-width: 380px; }
+.webform-component-addressfield .form-item-submitted-mailing-address-administrative-area select {
+  max-width: 418px; }
 
 .webform-component-phone input {
   max-width: 240px; }

@@ -113,6 +113,13 @@
 			max-width: 100px;
 		}
 	}
+
+	.form-item-submitted-mailing-address-country select {
+		max-width: 380px;
+	}
+	.form-item-submitted-mailing-address-administrative-area select {
+		max-width: 418px;
+	}
 }
 .webform-component-phone {
 	input {
