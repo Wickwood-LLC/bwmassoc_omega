@@ -1005,6 +1005,11 @@ html.js fieldset.collapsed {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  .form-item-path-alias input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
 
 .advanced-help-link {
   float: left; }
