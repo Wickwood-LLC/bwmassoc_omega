@@ -500,6 +500,24 @@ html.js fieldset.collapsed {
 }
 
 .form-refer-a-friend form {
+	.webform-component--your-information--referrer-first-name,
+	.webform-component--your-information--referr-last-name,
+	.webform-component--your-information--referrer-email,
+	.webform-component--your-information--referr-phone-number {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		flex-flow: row wrap;
+
+		label {
+			margin-right: 0;
+			min-width: 230px;
+		}
+		input {
+			flex: 1 1 200px;
+			min-width: 200px;
+		}
+	}
 	.webform-component--your-referrals-information--referrals-first-name,
 	.webform-component--your-referrals-information--referrals-last-name,
 	.webform-component--your-referrals-information--referrals-best-phone-number,
@@ -511,13 +529,17 @@ html.js fieldset.collapsed {
 
 		label {
 			margin-right: 0;
+			min-width: 230px;
 		}
 		input {
-			min-width: 100px;
+			flex: 1 1 200px;
+			min-width: 200px;
 		}
-		@include flexifields(215px);
 	}
-	.form-item-submitted-your-referrals-information-referral-mailing-address-postal-code {
+	.webform-component--your-referrals-information--referrals-best-phone-number input {
+		max-width: 240px;
+	}
+	.form-item-submitted-your-referrals-information-referral-mailing-address-postal-code input {
 		max-width: 100px;
 	}
 	.form-item-submitted-your-referrals-information-referral-mailing-address-country select {

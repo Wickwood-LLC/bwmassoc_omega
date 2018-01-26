@@ -1173,6 +1173,39 @@ html.js fieldset.collapsed {
     .webform-client-form {
       margin: 0 10%; } }
 
+.form-refer-a-friend form .webform-component--your-information--referrer-first-name,
+.form-refer-a-friend form .webform-component--your-information--referr-last-name,
+.form-refer-a-friend form .webform-component--your-information--referrer-email,
+.form-refer-a-friend form .webform-component--your-information--referr-phone-number {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+  .form-refer-a-friend form .webform-component--your-information--referrer-first-name label,
+  .form-refer-a-friend form .webform-component--your-information--referr-last-name label,
+  .form-refer-a-friend form .webform-component--your-information--referrer-email label,
+  .form-refer-a-friend form .webform-component--your-information--referr-phone-number label {
+    margin-right: 0;
+    min-width: 230px; }
+  .form-refer-a-friend form .webform-component--your-information--referrer-first-name input,
+  .form-refer-a-friend form .webform-component--your-information--referr-last-name input,
+  .form-refer-a-friend form .webform-component--your-information--referrer-email input,
+  .form-refer-a-friend form .webform-component--your-information--referr-phone-number input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 200px;
+        -ms-flex: 1 1 200px;
+            flex: 1 1 200px;
+    min-width: 200px; }
 .form-refer-a-friend form .webform-component--your-referrals-information--referrals-first-name,
 .form-refer-a-friend form .webform-component--your-referrals-information--referrals-last-name,
 .form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number,
@@ -1195,56 +1228,20 @@ html.js fieldset.collapsed {
   .form-refer-a-friend form .webform-component--your-referrals-information--referrals-last-name label,
   .form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number label,
   .form-refer-a-friend form .webform-component--your-referrals-information--your-referrals-best-email label {
-    margin-right: 0; }
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-first-name input,
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-last-name input,
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number input,
-  .form-refer-a-friend form .webform-component--your-referrals-information--your-referrals-best-email input {
-    min-width: 100px; }
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-first-name .form-item,
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-last-name .form-item,
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number .form-item,
-  .form-refer-a-friend form .webform-component--your-referrals-information--your-referrals-best-email .form-item {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-first-name label,
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-last-name label,
-  .form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number label,
-  .form-refer-a-friend form .webform-component--your-referrals-information--your-referrals-best-email label {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 215px;
-        -ms-flex: 0 0 215px;
-            flex: 0 0 215px;
-    max-width: 100%;
-    -webkit-flex-basis: 215px;
-        -ms-flex-preferred-size: 215px;
-            flex-basis: 215px;
-    white-space: normal; }
+    margin-right: 0;
+    min-width: 230px; }
   .form-refer-a-friend form .webform-component--your-referrals-information--referrals-first-name input,
   .form-refer-a-friend form .webform-component--your-referrals-information--referrals-last-name input,
   .form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number input,
   .form-refer-a-friend form .webform-component--your-referrals-information--your-referrals-best-email input {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 1 -webkit-calc(100% - 215px);
-        -ms-flex: 1 1 calc(100% - 215px);
-            flex: 1 1 calc(100% - 215px);
-    -webkit-flex-basis: -webkit-calc(100% - 215px);
-        -ms-flex-preferred-size: calc(100% - 215px);
-            flex-basis: calc(100% - 215px);
-    max-width: 100%; }
-.form-refer-a-friend form .form-item-submitted-your-referrals-information-referral-mailing-address-postal-code {
+    -webkit-flex: 1 1 200px;
+        -ms-flex: 1 1 200px;
+            flex: 1 1 200px;
+    min-width: 200px; }
+.form-refer-a-friend form .webform-component--your-referrals-information--referrals-best-phone-number input {
+  max-width: 240px; }
+.form-refer-a-friend form .form-item-submitted-your-referrals-information-referral-mailing-address-postal-code input {
   max-width: 100px; }
 .form-refer-a-friend form .form-item-submitted-your-referrals-information-referral-mailing-address-country select {
   max-width: 380px; }
