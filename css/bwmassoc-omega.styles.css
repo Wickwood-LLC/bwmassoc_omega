@@ -3496,12 +3496,15 @@ main#main-content {
     right: 15px;
     top: 30px;
     color: #D4696A; }
-  .registration-form .pane-form .form-item-allow-text-message input,
-  .registration-form .pane-bwma-registration-form .form-item-allow-text-message input {
-    width: auto; }
-  .registration-form .pane-form .form-item-allow-text-message label,
-  .registration-form .pane-bwma-registration-form .form-item-allow-text-message label {
-    display: inline; }
+  .registration-form .pane-form .form-item-allow-text-message,
+  .registration-form .pane-bwma-registration-form .form-item-allow-text-message {
+    display: block; }
+    .registration-form .pane-form .form-item-allow-text-message input,
+    .registration-form .pane-bwma-registration-form .form-item-allow-text-message input {
+      width: auto; }
+    .registration-form .pane-form .form-item-allow-text-message label,
+    .registration-form .pane-bwma-registration-form .form-item-allow-text-message label {
+      display: inline; }
   .registration-form .pane-form .footer-text,
   .registration-form .pane-bwma-registration-form .footer-text {
     text-align: center; }
