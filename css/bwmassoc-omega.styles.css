@@ -734,6 +734,10 @@ ul.breadcrumb {
   .form-item .description {
     margin-top: 0.5em; }
 
+.g-recaptcha {
+  display: table;
+  margin: auto; }
+
 .form-type-radio,
 .form-type-checkbox {
   display: -webkit-box;
@@ -2734,9 +2738,6 @@ form#user-login, form#user-pass {
   form#user-login > div > .form-item, form#user-pass > div > .form-item {
     display: block;
     margin: 0 auto 1em; }
-  form#user-login .g-recaptcha, form#user-pass .g-recaptcha {
-    display: table;
-    margin: auto; }
   form#user-login #edit-actions, form#user-pass #edit-actions {
     text-align: center;
     background: none;
