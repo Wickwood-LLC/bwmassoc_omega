@@ -3219,6 +3219,8 @@ main#main-content {
     @media (min-width: 569px) {
       main#main-content p {
         font-size: 1.2em; } }
+    main#main-content p:first-child {
+      margin-top: 0; }
   main#main-content .pane-share-us #widgets-element-socialmedia_share-default {
     text-align: center; }
     main#main-content .pane-share-us #widgets-element-socialmedia_share-default .widgets-element {

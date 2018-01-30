@@ -11,6 +11,10 @@ main#main-content {
 		@include breakpoint(569px) {
 			font-size: 1.2em;
 		}
+
+		&:first-child {
+			margin-top: 0;
+		}
 	}
 
 	.pane-share-us {
