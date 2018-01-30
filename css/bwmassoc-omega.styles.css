@@ -732,7 +732,8 @@ ul.breadcrumb {
       .form-item .container-inline-date .form-item input {
         display: block; } }
   .form-item .description {
-    margin-top: 0.5em; }
+    margin-top: 0.5em;
+    width: 100%; }
 
 .g-recaptcha {
   display: table;
