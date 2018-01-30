@@ -3219,11 +3219,11 @@ main#main-content {
   -webkit-border-radius: 5px;
           border-radius: 5px; }
   main#main-content p, main#main-content ol, main#main-content ul {
-    font-size: 1em;
+    font-size: 1rem;
     font-family: FontAwesome, sans-serif; }
     @media (min-width: 569px) {
       main#main-content p, main#main-content ol, main#main-content ul {
-        font-size: 1.2em; } }
+        font-size: 1.2rem; } }
     main#main-content p:first-child, main#main-content ol:first-child, main#main-content ul:first-child {
       margin-top: 0; }
   main#main-content .pane-share-us #widgets-element-socialmedia_share-default {
