@@ -132,6 +132,11 @@ h6 {
   margin-right: 0;
   font-weight: bold; }
 
+ol > li, ul > li {
+  margin-bottom: 0.5em; }
+  ol > li:last-child, ul > li:last-child {
+    margin-bottom: 0; }
+
 a {
   text-decoration: none; }
 
@@ -3213,13 +3218,13 @@ main#main-content {
   border: 1px solid #c1c1c1;
   -webkit-border-radius: 5px;
           border-radius: 5px; }
-  main#main-content p {
+  main#main-content p, main#main-content ol, main#main-content ul {
     font-size: 1em;
     font-family: FontAwesome, sans-serif; }
     @media (min-width: 569px) {
-      main#main-content p {
+      main#main-content p, main#main-content ol, main#main-content ul {
         font-size: 1.2em; } }
-    main#main-content p:first-child {
+    main#main-content p:first-child, main#main-content ol:first-child, main#main-content ul:first-child {
       margin-top: 0; }
   main#main-content .pane-share-us #widgets-element-socialmedia_share-default {
     text-align: center; }
