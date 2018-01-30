@@ -4,6 +4,15 @@ main#main-content {
 	border: 1px solid #c1c1c1;
 	border-radius: 5px;
 
+	p {
+		font-size: 1em;
+		font-family: FontAwesome, sans-serif;
+
+		@include breakpoint(569px) {
+			font-size: 1.2em;
+		}
+	}
+
 	.pane-share-us {
 		#widgets-element-socialmedia_share-default {
 			text-align: center;

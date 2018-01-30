@@ -85,6 +85,8 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold; }
+  h1 p {
+    margin: 0; }
 
 h2 {
   display: block;
@@ -2220,13 +2222,6 @@ html.js fieldset.collapsed {
 .section-as-seen-on-tv .radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0 2em; }
 
-.node-type-bwmassoc-basic-page .field--name-body p {
-  font-size: 1em;
-  font-family: FontAwesome, sans-serif; }
-  @media (min-width: 569px) {
-    .node-type-bwmassoc-basic-page .field--name-body p {
-      font-size: 1.2em; } }
-
 .calculate-savings,
 .link-button {
   color: #fff;
@@ -3218,6 +3213,12 @@ main#main-content {
   border: 1px solid #c1c1c1;
   -webkit-border-radius: 5px;
           border-radius: 5px; }
+  main#main-content p {
+    font-size: 1em;
+    font-family: FontAwesome, sans-serif; }
+    @media (min-width: 569px) {
+      main#main-content p {
+        font-size: 1.2em; } }
   main#main-content .pane-share-us #widgets-element-socialmedia_share-default {
     text-align: center; }
     main#main-content .pane-share-us #widgets-element-socialmedia_share-default .widgets-element {
