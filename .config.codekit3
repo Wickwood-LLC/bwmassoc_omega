@@ -7,7 +7,7 @@
 		"uuidString": "C278C903-102A-411F-91B8-F53F0A5A2D9D"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -1322,7 +1322,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 4603,
+		"iS": 116872,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
@@ -1946,6 +1946,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
