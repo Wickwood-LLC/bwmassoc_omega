@@ -2754,6 +2754,9 @@ form#user-login, form#user-pass {
       margin: 0 auto;
       width: auto; }
 
+#admin-menu .dropdown {
+  font-size: 1em; }
+
 .sf-menu .sf-sub-indicator {
   position: static;
   display: inline-block;
