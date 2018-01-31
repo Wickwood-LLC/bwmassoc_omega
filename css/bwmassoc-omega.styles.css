@@ -88,6 +88,12 @@ ul:not([class]) {
   ol:not([class]):first-child,
   ul:not([class]):first-child {
     margin-top: 0; }
+  ol:not([class]) > li,
+  ul:not([class]) > li {
+    margin-bottom: 0.5em; }
+    ol:not([class]) > li:last-child,
+    ul:not([class]) > li:last-child {
+      margin-bottom: 0; }
 
 h1 {
   display: block;
@@ -141,11 +147,6 @@ h6 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold; }
-
-ol > li, ul > li {
-  margin-bottom: 0.5em; }
-  ol > li:last-child, ul > li:last-child {
-    margin-bottom: 0; }
 
 a {
   text-decoration: none; }
@@ -1275,6 +1276,9 @@ html.js fieldset.collapsed {
   max-width: 380px; }
 .form-refer-a-friend form .form-item-submitted-your-referrals-information-referral-mailing-address-administrative-area select {
   max-width: 418px; }
+
+.ctools-dropbutton ul {
+  font-size: 1em; }
 
 @media (min-width: 0) and (max-width: 480px) {
   #block-panels-mini-header-bwmassoc-com #wwm-collapse-3 {
