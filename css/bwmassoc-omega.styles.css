@@ -1278,8 +1278,9 @@ html.js fieldset.collapsed {
   max-width: 418px; }
 
 .ctools-dropbutton ul {
-  font-size: 1em;
-  margin: 0; }
+  font-size: 1em; }
+  .ctools-dropbutton ul li {
+    margin: 0; }
 
 .views-display-menu-tabs {
   color: black;

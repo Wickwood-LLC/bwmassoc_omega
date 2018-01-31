@@ -565,7 +565,10 @@ html.js fieldset.collapsed {
 
 .ctools-dropbutton ul {
 	font-size: 1em;
-	margin: 0;
+	
+	li {
+		margin: 0;
+	}
 }
 
 .views-display-menu-tabs {
