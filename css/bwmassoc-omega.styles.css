@@ -777,6 +777,16 @@ ul.breadcrumb {
     -webkit-flex: 100%;
         -ms-flex: 100%;
             flex: 100%; }
+  .form-type-radio.webform-container-inline,
+  .form-type-checkbox.webform-container-inline {
+    display: block; }
+    .form-type-radio.webform-container-inline label,
+    .form-type-checkbox.webform-container-inline label {
+      display: inline; }
+      .form-type-radio.webform-container-inline label > input.form-text,
+      .form-type-checkbox.webform-container-inline label > input.form-text {
+        width: 100%;
+        margin-top: 5px; }
 
 .webform-component-checkboxes .form-type-checkbox,
 .form-item-checkboxes .form-type-checkbox {

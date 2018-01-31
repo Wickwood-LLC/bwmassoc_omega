@@ -60,6 +60,19 @@
 	.description {
 		flex: 100%;
 	}
+
+	&.webform-container-inline {
+		display: block;
+
+		label {
+			display: inline;
+
+			> input.form-text {
+				width: 100%;
+				margin-top: 5px;
+			}
+		}
+	}
 }
 
 .webform-component-checkboxes,
