@@ -77,13 +77,16 @@ body {
 .l-footer {
   padding: 0 1em; }
 
-ol, ul {
+ol:not([class]),
+ul:not([class]) {
   font-size: 1rem;
   font-family: FontAwesome, sans-serif; }
   @media (min-width: 569px) {
-    ol, ul {
+    ol:not([class]),
+    ul:not([class]) {
       font-size: 1.2rem; } }
-  ol:first-child, ul:first-child {
+  ol:not([class]):first-child,
+  ul:not([class]):first-child {
     margin-top: 0; }
 
 h1 {
