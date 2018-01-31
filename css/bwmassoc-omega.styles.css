@@ -85,9 +85,6 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold; }
-  h1 p {
-    font-size: 2rem;
-    margin: 0; }
 
 h2 {
   display: block;
@@ -3219,6 +3216,9 @@ main#main-content {
   border: 1px solid #c1c1c1;
   -webkit-border-radius: 5px;
           border-radius: 5px; }
+  main#main-content .field--name-title-field h1 p {
+    font-size: 2rem;
+    margin: 0; }
   main#main-content p, main#main-content ol, main#main-content ul {
     font-size: 1rem;
     font-family: FontAwesome, sans-serif; }
