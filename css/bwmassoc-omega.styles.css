@@ -1282,7 +1282,7 @@ html.js fieldset.collapsed {
   .ctools-dropbutton ul li {
     margin: 0; }
 
-.views-display-menu-tabs {
+#views-display-menu-tabs input[type="submit"] {
   color: black;
   font-size: 13px; }
 
