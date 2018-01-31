@@ -95,6 +95,19 @@ html body.admin-menu:not(.navbar-vertical) {
 	padding: 0 1em;
 }
 
+ol, ul {
+  font-size: 1rem;
+  font-family: FontAwesome, sans-serif;
+
+  @include breakpoint(569px) {
+    font-size: 1.2rem;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
 h1 { 
   display: block;
   font-size: 2em;
