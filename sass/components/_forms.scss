@@ -252,6 +252,21 @@ html.js fieldset.collapsed {
 	}
 	#edit-delete,
 	#edit-cancel {
+		padding: 6px 12px;
+		font-size: 1em;
+		font-weight: 400;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		touch-action: manipulation;
+		cursor: pointer;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+		margin-right: 1em;
+		-webkit-appearance: none;
 		color: white;
 		background: #ffa3a3;
 
