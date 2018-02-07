@@ -3517,7 +3517,7 @@ main#main-content {
     display: inline-block; }
     .registration-form .pane-form .header-text .input-form-note,
     .registration-form .pane-bwma-registration-form .header-text .input-form-note {
-      font-size: 0.8em; }
+      font-size: 0.8em !important; }
     .registration-form .pane-form .header-text .form-required,
     .registration-form .pane-bwma-registration-form .header-text .form-required {
       position: static; }
