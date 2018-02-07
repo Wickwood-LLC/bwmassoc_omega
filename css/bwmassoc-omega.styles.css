@@ -3334,12 +3334,33 @@ main#main-content {
   padding-bottom: 1em; }
 
 .page-biweekly-calculator-access-registration .pane-current-14 {
-  width: 200%;
-  position: absolute;
+  width: 100%;
+  position: relative;
   z-index: 1;
   margin-left: -1em; }
+  @media (min-width: 848px) {
+    .page-biweekly-calculator-access-registration .pane-current-14 {
+      width: 200%;
+      position: absolute; } }
+  @media (min-width: 1024px) {
+    .page-biweekly-calculator-access-registration .pane-current-14 {
+      width: 100%;
+      position: relative; } }
+  @media (min-width: 1146px) {
+    .page-biweekly-calculator-access-registration .pane-current-14 {
+      width: 200%;
+      position: absolute; } }
 .page-biweekly-calculator-access-registration .pane-uuid-c3439e07-8728-4a0c-a362-070aedd7beb1 {
-  padding-top: 5em; }
+  padding-top: 0; }
+  @media (min-width: 848px) {
+    .page-biweekly-calculator-access-registration .pane-uuid-c3439e07-8728-4a0c-a362-070aedd7beb1 {
+      padding-top: 5em; } }
+  @media (min-width: 1024px) {
+    .page-biweekly-calculator-access-registration .pane-uuid-c3439e07-8728-4a0c-a362-070aedd7beb1 {
+      padding-top: 0; } }
+  @media (min-width: 1146px) {
+    .page-biweekly-calculator-access-registration .pane-uuid-c3439e07-8728-4a0c-a362-070aedd7beb1 {
+      padding-top: 5em; } }
 
 .wt-box {
   text-align: justify; }
@@ -5345,4 +5366,5 @@ html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns section {
 
 .pane-chaos-data .field .field__label {
   max-width: 100%; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
