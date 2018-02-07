@@ -3340,8 +3340,6 @@ main#main-content {
   margin-left: -1em; }
 .page-biweekly-calculator-access-registration .pane-uuid-c3439e07-8728-4a0c-a362-070aedd7beb1 {
   padding-top: 5em; }
-.page-biweekly-calculator-access-registration .radix-layouts-contentcolumn2 {
-  padding-top: 5em; }
 
 .wt-box {
   text-align: justify; }
@@ -3459,7 +3457,8 @@ main#main-content {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
           border-width: 1px 0 1px 1px; } }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
-      border-width: 0 1px 1px 1px; }
+      border-width: 0 1px 1px 1px;
+      padding-top: 5em; }
       @media (min-width: 847px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
           border-width: 1px 1px 1px 0; } }
