@@ -3336,6 +3336,11 @@ main#main-content {
 .wt-box {
   text-align: justify; }
 
+.messages ul {
+  font-size: 1em; }
+  .messages ul li {
+    margin-bottom: 0; }
+
 .registration-form .radix-bartlett .row {
   display: -webkit-box;
   display: -webkit-flex;
