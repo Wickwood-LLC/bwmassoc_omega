@@ -98,10 +98,20 @@ main#main-content {
 
 .page-biweekly-calculator-access-registration {
 	.pane-current-14 {
-		width: 200%;
+		width: 100%;
 		position: absolute;
 		z-index: 1;
 		margin-left: -1em;
+
+		@include breakpoint(848px) {
+			width: 200%;
+		}
+		@include breakpoint(1024px) {
+			width: 100%;
+		}
+		@include breakpoint(1146px) {
+			width: 200%;
+		}
 	}
 
 	.pane-uuid-c3439e07-8728-4a0c-a362-070aedd7beb1 {

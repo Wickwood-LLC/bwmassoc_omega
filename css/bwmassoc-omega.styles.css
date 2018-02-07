@@ -3432,7 +3432,7 @@ main#main-content {
         -webkit-flex-flow: row wrap;
             -ms-flex-flow: row wrap;
                 flex-flow: row wrap; }
-      @media (min-width: 847px) {
+      @media (min-width: 848px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1,
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
           width: 50%;
@@ -3447,7 +3447,7 @@ main#main-content {
           width: 50%; } }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
       border-width: 1px 1px 0 1px; }
-      @media (min-width: 847px) {
+      @media (min-width: 848px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
           border-width: 1px 0 1px 1px; } }
       @media (min-width: 1024px) {
@@ -3458,16 +3458,19 @@ main#main-content {
           border-width: 1px 0 1px 1px; } }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
       border-width: 0 1px 1px 1px;
-      padding-top: 5em; }
-      @media (min-width: 847px) {
+      padding-top: 0; }
+      @media (min-width: 848px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
-          border-width: 1px 1px 1px 0; } }
+          border-width: 1px 1px 1px 0;
+          padding-top: 5em; } }
       @media (min-width: 1024px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
-          border-width: 0 1px 1px 1px; } }
+          border-width: 0 1px 1px 1px;
+          padding-top: 0; } }
       @media (min-width: 1146px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
-          border-width: 1px 1px 1px 0; } }
+          border-width: 1px 1px 1px 0;
+          padding-top: 5em; } }
 .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a,
 .registration-form .pane-current-15 {
   display: inline-block;
@@ -5342,5 +5345,4 @@ html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns section {
 
 .pane-chaos-data .field .field__label {
   max-width: 100%; }
-
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */

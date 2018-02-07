@@ -62,7 +62,7 @@
 					flex-flow: row wrap;
 				}
 
-				@include breakpoint(847px) {
+				@include breakpoint(848px) {
 					width: 50%;
 					min-width: 400px;
 				}
@@ -76,7 +76,7 @@
 			.radix-layouts-contentcolumn1 {
 				border-width: 1px 1px 0 1px;
 
-				@include breakpoint(847px) {
+				@include breakpoint(848px) {
 					border-width: 1px 0 1px 1px;
 				}
 				@include breakpoint(1024px) {
@@ -88,16 +88,19 @@
 			}
 			.radix-layouts-contentcolumn2 {
 				border-width: 0 1px 1px 1px;
-				padding-top: 5em;
+				padding-top: 0;
 
-				@include breakpoint(847px) {
+				@include breakpoint(848px) {
 					border-width: 1px 1px 1px 0;
+					padding-top: 5em;
 				}
 				@include breakpoint(1024px) {
 					border-width: 0 1px 1px 1px;
+					padding-top: 0;
 				}
 				@include breakpoint(1146px) {
 					border-width: 1px 1px 1px 0;
+					padding-top: 5em;
 				}
 			}
 		}
