@@ -3547,15 +3547,15 @@ main#main-content {
     .registration-form .pane-bwma-registration-form {
       width: auto;
       margin-top: 1em; } }
+  .registration-form .pane-form .input-form-note,
+  .registration-form .pane-bwma-registration-form .input-form-note {
+    font-size: 0.8em !important; }
   .registration-form .pane-form .header-text,
   .registration-form .pane-bwma-registration-form .header-text {
     float: right;
     width: -webkit-calc(100% - 170px);
     width: calc(100% - 170px);
     display: inline-block; }
-    .registration-form .pane-form .header-text .input-form-note,
-    .registration-form .pane-bwma-registration-form .header-text .input-form-note {
-      font-size: 0.8em !important; }
     .registration-form .pane-form .header-text .form-required,
     .registration-form .pane-bwma-registration-form .header-text .form-required {
       position: static; }

@@ -152,14 +152,14 @@
 			margin-top: 1em;
 		}
 
+		.input-form-note {
+			font-size: 0.8em !important;
+		}
+
 		.header-text {
 			float: right;
 			width: calc(100% - 170px);
 			display: inline-block;
-
-			.input-form-note {
-				font-size: 0.8em !important;
-			}
 
 			.form-required {
 				position: static;
