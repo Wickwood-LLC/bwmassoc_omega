@@ -88,19 +88,15 @@
 			}
 			.radix-layouts-contentcolumn2 {
 				border-width: 0 1px 1px 1px;
-				padding-top: 0;
 
 				@include breakpoint(848px) {
 					border-width: 1px 1px 1px 0;
-					padding-top: 5em;
 				}
 				@include breakpoint(1024px) {
 					border-width: 0 1px 1px 1px;
-					padding-top: 0;
 				}
 				@include breakpoint(1146px) {
 					border-width: 1px 1px 1px 0;
-					padding-top: 5em;
 				}
 			}
 		}

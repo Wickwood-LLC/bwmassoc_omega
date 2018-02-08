@@ -99,36 +99,6 @@ main#main-content {
 .page-biweekly-calculator-access-registration {
 	.pane-current-14 {
 		width: 100%;
-		position: relative;
-		z-index: 1;
-		margin-left: -1em;
-
-		@include breakpoint(848px) {
-			width: 200%;
-			position: absolute;
-		}
-		@include breakpoint(1024px) {
-			width: 100%;
-			position: relative;
-		}
-		@include breakpoint(1146px) {
-			width: 200%;
-			position: absolute;
-		}
-	}
-
-	.pane-uuid-c3439e07-8728-4a0c-a362-070aedd7beb1 {
-		padding-top: 0;
-
-		@include breakpoint(848px) {
-			padding-top: 5em;
-		}
-		@include breakpoint(1024px) {
-			padding-top: 0;
-		}
-		@include breakpoint(1146px) {
-			padding-top: 5em;
-		}
 	}
 }
 
