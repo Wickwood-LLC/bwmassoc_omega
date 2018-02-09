@@ -590,3 +590,19 @@ html.js fieldset.collapsed {
 	color: black;
 	font-size: 13px;
 }
+
+#bwma-admin-settings-form {
+	#edit-field-settings {
+		.form-item {
+			display: inline-block;
+
+			input[type="text"] {
+				width: 50%;
+			}
+
+			&[class*="label"] {
+				margin-right: 1em;
+			}
+		}
+	}
+}
