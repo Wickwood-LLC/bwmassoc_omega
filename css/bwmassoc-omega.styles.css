@@ -1309,7 +1309,7 @@ html.js fieldset.collapsed {
 #bwma-admin-settings-form #edit-field-settings .form-item {
   display: inline-block; }
   #bwma-admin-settings-form #edit-field-settings .form-item input[type="text"] {
-    width: 50%; }
+    width: 250px; }
   #bwma-admin-settings-form #edit-field-settings .form-item[class*="label"] {
     margin-right: 1em; }
 
