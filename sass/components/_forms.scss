@@ -509,6 +509,11 @@ html.js fieldset.collapsed {
 #edit-bwma-text-message-phone-type {
 	column-width: 100px;
 
+	.form-item {
+		display: inline-block;
+		width: 100%;
+	}
+
 	label, input {
 		vertical-align: bottom;
 	}
