@@ -3438,7 +3438,11 @@ main#main-content {
         -webkit-box-direction: normal;
         -webkit-flex-flow: row wrap;
             -ms-flex-flow: row wrap;
-                flex-flow: row wrap; }
+                flex-flow: row wrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
       @media (min-width: 848px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1,
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
@@ -3474,11 +3478,6 @@ main#main-content {
       @media (min-width: 1146px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
           border-width: 0 1px 1px 0; } }
-      .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 .panel-panel-inner {
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
-            -ms-flex-pack: center;
-                justify-content: center; }
 .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a,
 .registration-form .pane-current-15 {
   display: inline-block;
@@ -3522,7 +3521,7 @@ main#main-content {
     .registration-form .pane-form,
     .registration-form .pane-bwma-registration-form {
       width: auto;
-      margin-top: 1em; } }
+      margin: 1em; } }
   .registration-form .pane-form .input-form-note,
   .registration-form .pane-bwma-registration-form .input-form-note {
     font-size: 0.8em !important; }
