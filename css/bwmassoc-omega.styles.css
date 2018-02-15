@@ -3600,7 +3600,9 @@ main#main-content {
   .registration-form .pane-form .footer-text,
   .registration-form .pane-bwma-registration-form .footer-text {
     text-align: center; }
+  .registration-form .pane-form input#edit-submit,
   .registration-form .pane-form input[id*="edit-submit"],
+  .registration-form .pane-bwma-registration-form input#edit-submit,
   .registration-form .pane-bwma-registration-form input[id*="edit-submit"] {
     -webkit-border-radius: 4px;
             border-radius: 4px;
@@ -3622,7 +3624,9 @@ main#main-content {
     margin: 0 auto;
     display: block;
     margin-top: 1em; }
+    .registration-form .pane-form input#edit-submit:hover,
     .registration-form .pane-form input[id*="edit-submit"]:hover,
+    .registration-form .pane-bwma-registration-form input#edit-submit:hover,
     .registration-form .pane-bwma-registration-form input[id*="edit-submit"]:hover {
       opacity: .9;
       position: relative;
