@@ -1200,18 +1200,18 @@ html.js fieldset.collapsed {
     .pane-bwma-calculator-calculator #theform_table table tr:nth-child(even) {
       background-color: transparent; }
 
-.form-item-bwma-user-registration-form-bwma-user-register-allowed-phone-types,
+#edit-bwma-user-registration-form-bwma-user-register-allowed-phone-types,
 #edit-bwma-user-register-allowed-phone-types,
 #edit-bwma-text-message-phone-type {
   -webkit-column-width: 100px;
      -moz-column-width: 100px;
           column-width: 100px; }
-  .form-item-bwma-user-registration-form-bwma-user-register-allowed-phone-types .form-item,
+  #edit-bwma-user-registration-form-bwma-user-register-allowed-phone-types .form-item,
   #edit-bwma-user-register-allowed-phone-types .form-item,
   #edit-bwma-text-message-phone-type .form-item {
     display: inline-block;
     width: 100%; }
-  .form-item-bwma-user-registration-form-bwma-user-register-allowed-phone-types label, .form-item-bwma-user-registration-form-bwma-user-register-allowed-phone-types input,
+  #edit-bwma-user-registration-form-bwma-user-register-allowed-phone-types label, #edit-bwma-user-registration-form-bwma-user-register-allowed-phone-types input,
   #edit-bwma-user-register-allowed-phone-types label,
   #edit-bwma-user-register-allowed-phone-types input,
   #edit-bwma-text-message-phone-type label,
