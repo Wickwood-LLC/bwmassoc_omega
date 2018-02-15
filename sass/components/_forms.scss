@@ -507,8 +507,7 @@ html.js fieldset.collapsed {
 
 #edit-bwma-user-registration-form-bwma-user-register-allowed-phone-types,
 #edit-bwma-user-register-allowed-phone-types,
-#edit-bwma-text-message-phone-type,
-#edit-overrides {
+#edit-bwma-text-message-phone-type {
 	column-width: 100px;
 
 	.form-item {
@@ -617,6 +616,19 @@ html.js fieldset.collapsed {
 			label[for*="placeholder"] {
 				width: auto;
 			}
+		}
+	}
+
+	#edit-overrides {
+		column-width: 200px;
+
+		.form-item {
+			display: inline-block;
+			width: 100%;
+		}
+
+		label, input {
+			vertical-align: bottom;
 		}
 	}
 }
