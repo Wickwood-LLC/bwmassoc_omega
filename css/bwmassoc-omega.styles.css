@@ -1539,9 +1539,9 @@ html.js fieldset.collapsed {
   @media (min-width: 1200px) {
     #wwm-collapse-3 .left-column {
       -webkit-box-flex: 0;
-      -webkit-flex: 0 0 377px;
-          -ms-flex: 0 0 377px;
-              flex: 0 0 377px; }
+      -webkit-flex: 0 0 378px;
+          -ms-flex: 0 0 378px;
+              flex: 0 0 378px; }
       #wwm-collapse-3 .left-column .bbb-pane {
         width: 170px;
         -webkit-box-flex: 1;
