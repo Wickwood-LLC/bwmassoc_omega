@@ -3453,27 +3453,32 @@ main#main-content {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
           width: 50%; } }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
-      border-width: 1px 1px 0 1px; }
+      border-width: 0 1px 0 1px; }
       @media (min-width: 848px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
-          border-width: 1px 0 1px 1px; } }
+          border-width: 0 0 1px 1px; } }
       @media (min-width: 1024px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
-          border-width: 1px 1px 0 1px; } }
+          border-width: 0 1px 0 1px; } }
       @media (min-width: 1146px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn1 {
-          border-width: 1px 0 1px 1px; } }
+          border-width: 0 0 1px 1px; } }
     .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
       border-width: 0 1px 1px 1px; }
       @media (min-width: 848px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
-          border-width: 1px 1px 1px 0; } }
+          border-width: 0 1px 1px 0; } }
       @media (min-width: 1024px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
           border-width: 0 1px 1px 1px; } }
       @media (min-width: 1146px) {
         .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 {
-          border-width: 1px 1px 1px 0; } }
+          border-width: 0 1px 1px 0; } }
+      .registration-form .radix-bartlett .row .col-md-8 .radix-layouts-contentcolumn2 .panel-panel-inner {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
 .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a,
 .registration-form .pane-current-15 {
   display: inline-block;

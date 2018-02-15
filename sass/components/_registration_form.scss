@@ -74,29 +74,33 @@
 				}
 			}
 			.radix-layouts-contentcolumn1 {
-				border-width: 1px 1px 0 1px;
+				border-width: 0 1px 0 1px;
 
 				@include breakpoint(848px) {
-					border-width: 1px 0 1px 1px;
+					border-width: 0 0 1px 1px;
 				}
 				@include breakpoint(1024px) {
-					border-width: 1px 1px 0 1px;
+					border-width: 0 1px 0 1px;
 				}
 				@include breakpoint(1146px) {
-					border-width: 1px 0 1px 1px;
+					border-width: 0 0 1px 1px;
 				}
 			}
 			.radix-layouts-contentcolumn2 {
 				border-width: 0 1px 1px 1px;
 
 				@include breakpoint(848px) {
-					border-width: 1px 1px 1px 0;
+					border-width: 0 1px 1px 0;
 				}
 				@include breakpoint(1024px) {
 					border-width: 0 1px 1px 1px;
 				}
 				@include breakpoint(1146px) {
-					border-width: 1px 1px 1px 0;
+					border-width: 0 1px 1px 0;
+				}
+
+				.panel-panel-inner {
+					justify-content: center;
 				}
 			}
 		}
