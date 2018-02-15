@@ -597,7 +597,8 @@ html.js fieldset.collapsed {
 }
 
 #bwma-admin-settings-form {
-	#edit-field-settings {
+	#edit-field-settings,
+	#edit-bwma-user-registration-form-field-settings {
 		.form-item {
 			display: inline-block;
 

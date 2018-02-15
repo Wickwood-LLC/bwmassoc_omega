@@ -1310,12 +1310,15 @@ html.js fieldset.collapsed {
   color: black;
   font-size: 13px; }
 
-#bwma-admin-settings-form #edit-field-settings .form-item {
+#bwma-admin-settings-form #edit-field-settings .form-item,
+#bwma-admin-settings-form #edit-bwma-user-registration-form-field-settings .form-item {
   display: inline-block; }
-  #bwma-admin-settings-form #edit-field-settings .form-item input[type="text"] {
+  #bwma-admin-settings-form #edit-field-settings .form-item input[type="text"],
+  #bwma-admin-settings-form #edit-bwma-user-registration-form-field-settings .form-item input[type="text"] {
     width: 100%;
     max-width: 250px; }
-  #bwma-admin-settings-form #edit-field-settings .form-item[class*="label"] {
+  #bwma-admin-settings-form #edit-field-settings .form-item[class*="label"],
+  #bwma-admin-settings-form #edit-bwma-user-registration-form-field-settings .form-item[class*="label"] {
     margin-right: 1em; }
 
 @media (min-width: 0) and (max-width: 480px) {
