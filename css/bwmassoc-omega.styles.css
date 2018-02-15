@@ -1335,18 +1335,15 @@ html.js fieldset.collapsed {
   #bwma-user-registration-settngs #edit-field-settings .form-item label[for*="placeholder"],
   #bwma-user-registration-settngs #edit-bwma-user-registration-form-field-settings .form-item label[for*="placeholder"] {
     width: auto; }
-#bwma-admin-settings-form #edit-overrides,
-#bwma-user-registration-settngs #edit-overrides {
+
+.bwma-registration-form-content-type-edit-form #edit-overrides {
   -webkit-column-width: 200px;
      -moz-column-width: 200px;
           column-width: 200px; }
-  #bwma-admin-settings-form #edit-overrides .form-item,
-  #bwma-user-registration-settngs #edit-overrides .form-item {
+  .bwma-registration-form-content-type-edit-form #edit-overrides .form-item {
     display: inline-block;
     width: 100%; }
-  #bwma-admin-settings-form #edit-overrides label, #bwma-admin-settings-form #edit-overrides input,
-  #bwma-user-registration-settngs #edit-overrides label,
-  #bwma-user-registration-settngs #edit-overrides input {
+  .bwma-registration-form-content-type-edit-form #edit-overrides label, .bwma-registration-form-content-type-edit-form #edit-overrides input {
     vertical-align: bottom; }
 
 @media (min-width: 0) and (max-width: 480px) {
