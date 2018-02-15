@@ -612,6 +612,10 @@ html.js fieldset.collapsed {
 			&[class*="label"] {
 				margin-right: 1em;
 			}
+
+			label[class*="placeholder"] {
+				width: auto;
+			}
 		}
 	}
 }
