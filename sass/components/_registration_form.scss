@@ -111,7 +111,6 @@
 		display: inline-block;
 		flex: 1 calc(40% - 1em);
 		vertical-align: top;
-		order: 1;
 		font-size: 1em;
 		padding: 0;
 
@@ -119,7 +118,6 @@
 			font-size: 1.2em;
 		}
 		@include breakpoint(822px) {
-			order: 0;
 		}
 		@include breakpoint(965px 1023px) {
 			margin-right: 1em;
