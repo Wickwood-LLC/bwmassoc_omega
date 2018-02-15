@@ -3516,12 +3516,11 @@ main#main-content {
   font-family: Arial, "Helvetica Neue", sans-serif;
   width: 100%;
   max-width: 434px;
-  margin: auto; }
+  margin: 1em; }
   @media (min-width: 822px) {
     .registration-form .pane-form,
     .registration-form .pane-bwma-registration-form {
-      width: auto;
-      margin: 1em; } }
+      width: auto; } }
   .registration-form .pane-form .input-form-note,
   .registration-form .pane-bwma-registration-form .input-form-note {
     font-size: 0.8em !important; }

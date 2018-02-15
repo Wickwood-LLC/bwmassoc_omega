@@ -140,11 +140,10 @@
 		font-family: Arial, "Helvetica Neue", sans-serif;
 		width: 100%;
 		max-width: 434px;
-		margin: auto;
+		margin: 1em;
 
 		@include breakpoint(822px) {
 			width: auto;
-			margin: 1em;
 		}
 
 		.input-form-note {
