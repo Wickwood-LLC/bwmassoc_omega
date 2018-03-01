@@ -188,7 +188,7 @@
             min-width: 0;
           }
 
-          .views-field-title-field, .views-field-title-field p {
+          .views-field-title, .views-field-title p {
             text-align: center;
           }
 
@@ -323,8 +323,8 @@
         }
 
         .views-field-field-featured-image,
-        .views-field-title-field, 
-        .views-field-title-field p {
+        .views-field-title, 
+        .views-field-title p {
           text-align: center;
           
           h3 {
@@ -380,8 +380,8 @@
     }
   }
 
-  .views-field-title-field p,
-  .views-field-title-field h2 {
+  .views-field-title p,
+  .views-field-title h2 {
     text-align: center;
     margin: 0;
   }
