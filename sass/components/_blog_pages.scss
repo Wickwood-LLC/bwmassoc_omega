@@ -168,7 +168,7 @@
         }
   
         .views-row {
-          width: calc((100% / 3) - 42px);
+          width: calc((100% / 3) - 21px);
           flex: 1 100%;
           padding: 0.5em;
           margin: 0.5em;
@@ -177,6 +177,7 @@
           display: inline-block;
           flex-flow: column nowrap;
           vertical-align: top;
+          border-radius: 5px;
 
           @include breakpoint(420px) {
             flex: 1 1 300px;
@@ -219,11 +220,15 @@
           text-align: center;
           margin-bottom: 1em;
         }
-        .views-field-body img {
-          display: block;
-          height: auto;
-          margin: auto;
-        }
+        .views-field-body {
+        	width: 100%;
+        	img {
+				display: block;
+				height: auto;
+				margin: auto;
+				max-width: 100%;
+			}
+		}
       }
     }
 

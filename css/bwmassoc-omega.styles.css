@@ -413,8 +413,8 @@ ul.breadcrumb {
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
           display: block; } }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
-        width: -webkit-calc((100% / 3) - 42px);
-        width: calc((100% / 3) - 42px);
+        width: -webkit-calc((100% / 3) - 21px);
+        width: calc((100% / 3) - 21px);
         -webkit-box-flex: 1;
         -webkit-flex: 1 100%;
             -ms-flex: 1 100%;
@@ -429,7 +429,9 @@ ul.breadcrumb {
         -webkit-flex-flow: column nowrap;
             -ms-flex-flow: column nowrap;
                 flex-flow: column nowrap;
-        vertical-align: top; }
+        vertical-align: top;
+        -webkit-border-radius: 5px;
+                border-radius: 5px; }
         @media (min-width: 420px) {
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
             -webkit-box-flex: 1;
@@ -466,10 +468,13 @@ ul.breadcrumb {
         display: block;
         text-align: center;
         margin-bottom: 1em; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
-        display: block;
-        height: auto;
-        margin: auto; }
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body {
+        width: 100%; }
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
+          display: block;
+          height: auto;
+          margin: auto;
+          max-width: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content {
     display: -webkit-box;
     display: -webkit-flex;
