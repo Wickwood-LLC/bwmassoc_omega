@@ -168,7 +168,7 @@
         }
   
         .views-row {
-          width: calc((100% / 3) - 21px);
+          width: calc((100% / 3) - 37px);
           flex: 1 100%;
           padding: 0.5em;
           margin: 0.5em;
@@ -178,6 +178,7 @@
           flex-flow: column nowrap;
           vertical-align: top;
           border-radius: 5px;
+          box-sizing: content-box;
 
           @include breakpoint(420px) {
             flex: 1 1 300px;
