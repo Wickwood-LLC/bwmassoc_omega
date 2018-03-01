@@ -413,8 +413,8 @@ ul.breadcrumb {
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
           display: block; } }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
-        width: -webkit-calc((100% / 3) - 37px);
-        width: calc((100% / 3) - 37px);
+        width: -webkit-calc((100% / 3) - 41px);
+        width: calc((100% / 3) - 41px);
         -webkit-box-flex: 1;
         -webkit-flex: 1 100%;
             -ms-flex: 1 100%;
