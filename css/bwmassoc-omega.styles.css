@@ -298,9 +298,7 @@ ul.breadcrumb {
   -webkit-box-direction: normal;
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  padding: 1em;
-  padding-top: 0px; }
+          flex-flow: row wrap; }
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-reset-button {
     float: right; }
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-operator, .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
