@@ -193,6 +193,7 @@
           vertical-align: top;
           border-radius: 5px;
           box-sizing: content-box;
+          background-color: white;
 
           @include breakpoint(420px) {
             flex: 1 1 300px;

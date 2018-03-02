@@ -175,6 +175,7 @@ td {
         font-size: 2em; } }
 
 .boxed {
+  background-color: white;
   border: 1px solid #ccc;
   padding: 1em;
   margin: 1em 0;
@@ -441,7 +442,8 @@ ul.breadcrumb {
         -webkit-border-radius: 5px;
                 border-radius: 5px;
         -webkit-box-sizing: content-box;
-                box-sizing: content-box; }
+                box-sizing: content-box;
+        background-color: white; }
         @media (min-width: 420px) {
           .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
             -webkit-box-flex: 1;
