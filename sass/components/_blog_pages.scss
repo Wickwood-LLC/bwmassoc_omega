@@ -362,6 +362,15 @@
           h3 {
             margin-bottom: 0;
           }
+
+          a {
+          	color: black;
+
+          	&:hover {
+          		color: blue;
+          		text-decoration: underline;
+          	}
+          }
         }
         .views-field-name,
         .views-field-published-at {
