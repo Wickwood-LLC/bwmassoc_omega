@@ -458,6 +458,11 @@ ul.breadcrumb {
             min-width: 0; } }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title p {
           text-align: center; }
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title a, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title p a {
+            color: black; }
+            .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title a:hover, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title p a:hover {
+              color: blue;
+              text-decoration: underline; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
           width: 100%;
           height: auto; }
@@ -481,6 +486,11 @@ ul.breadcrumb {
         display: block;
         text-align: center;
         margin-bottom: 1em; }
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-name a {
+          color: black; }
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-name a:hover {
+            color: blue;
+            text-decoration: underline; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body {
         width: 100%; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
@@ -602,6 +612,13 @@ ul.breadcrumb {
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at {
         display: block;
         text-align: center; }
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-name a,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at a {
+          color: black; }
+          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-name a:hover,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at a:hover {
+            color: blue;
+            text-decoration: underline; }
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body {
         -webkit-box-flex: 1;
         -webkit-flex-grow: 1;
