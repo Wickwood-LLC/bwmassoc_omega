@@ -1,4 +1,10 @@
 .blog-type-page {
+	#main-content {
+		background-color: transparent;
+		border: 0;
+		padding: 0;
+	}
+
   h1.page-title {
     width: 100%;
       text-align: center;
@@ -106,7 +112,9 @@
       }
 
       .boxed {
-        padding-top: 2em;
+        .pane-title {
+        	position: static;
+        }
       }
 
       [data-pane] {
@@ -115,6 +123,12 @@
         .boxed {
           margin: 0;
         }
+      }
+
+      .views-summary {
+      	padding: 0;
+      	margin: 0;
+      	list-style: none;
       }
     }
 
