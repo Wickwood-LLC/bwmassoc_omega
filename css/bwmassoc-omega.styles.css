@@ -375,7 +375,10 @@ ul.breadcrumb {
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .views-summary {
       padding: 0;
       margin: 0;
-      list-style: none; }
+      list-style: none;
+      -webkit-column-width: 150px;
+         -moz-column-width: 150px;
+              column-width: 150px; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .item-list ul li {
@@ -5547,4 +5550,5 @@ html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns section {
 
 .pane-chaos-data .field .field__label {
   max-width: 100%; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
