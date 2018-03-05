@@ -99,7 +99,9 @@
         min-width: 0;
       }
 
-      .pane-articles-test-panel-pane-7 {
+      .pane-articles-test-panel-pane-7,
+      .pane-news-test-panel-pane-3,
+      .pane-press-releases-test-panel-pane-3 {
         .view-content {
           column-width: 150px;
         }
