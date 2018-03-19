@@ -895,6 +895,9 @@ ul.breadcrumb {
   width: 150px;
   height: auto; }
 
+.views .pager {
+  list-style: none; }
+
 .bwma-footer p {
   display: inline-block;
   width: 100%; }
