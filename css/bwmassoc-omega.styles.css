@@ -901,6 +901,20 @@ ul.breadcrumb {
   .view .pager li {
     display: inline-block; }
 
+p:last-child {
+  margin: 0; }
+
+.vbo-views-form p, .view-empty p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+  clear: both;
+  border: 1px solid #CCCCCC;
+  padding: 1em;
+  display: inline-block;
+  width: 66%; }
+
 .bwma-footer p {
   display: inline-block;
   width: 100%; }
