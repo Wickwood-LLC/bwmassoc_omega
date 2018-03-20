@@ -896,7 +896,8 @@ ul.breadcrumb {
   height: auto; }
 
 .view .pager {
-  list-style: none; }
+  list-style: none;
+  margin-bottom: 0; }
   .view .pager li {
     display: inline-block; }
 
