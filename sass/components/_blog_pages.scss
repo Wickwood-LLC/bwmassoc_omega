@@ -733,4 +733,8 @@
 
 .view .pager {
 	list-style: none;
+
+	li {
+		display: inline-block;
+	}
 }
