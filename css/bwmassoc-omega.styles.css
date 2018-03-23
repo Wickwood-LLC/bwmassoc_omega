@@ -3585,6 +3585,10 @@ main#main-content .share-text {
   .messages ul li {
     margin-bottom: 0; }
 
+.page-admin-structure-views .views-displays,
+.page-admin-structure-views #views-preview-wrapper {
+  background: white; }
+
 .registration-form .radix-bartlett .row {
   display: -webkit-box;
   display: -webkit-flex;
