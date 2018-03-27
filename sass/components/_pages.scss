@@ -116,3 +116,27 @@ main#main-content {
 		background: white;
 	}
 }
+
+.page-categories {
+	.view-display-id-panel_pane_2 {
+		.view-content {
+			padding: 1em;
+			background: white;
+			border: 1px solid #cccccc;
+			border-top: 0;
+			border-radius: 0 0 5px 5px;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: stretch;
+			justify-content: center;
+		}
+		.views-row {
+			margin: 0.5em;
+			flex: 0 1 200px;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}
