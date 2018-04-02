@@ -121,6 +121,8 @@ main#main-content {
 	.radix-bartlett .row {
 		display: flex;
 		flex-flow: row wrap;
+		width: 100%;
+		margin: auto;
 
 		> .col-md-4 {
 			order: 1;
@@ -150,9 +152,12 @@ main#main-content {
 
 		.radix-layouts-contentheader {
 			padding: 0;
+			flex: 100%;
 		}
 
 		.radix-layouts-contentcolumn1 {
+			flex: 100%;
+			order: 1;
 			padding: 1em;
 			background: white;
 			border: 1px solid #cccccc;
@@ -162,21 +167,51 @@ main#main-content {
 			flex-flow: row wrap;
 			align-items: stretch;
 			justify-content: center;
+
+			@include breakpoint(848px) {
+				flex: 50%;
+				order: 0;
+			}
+			@include breakpoint(1024px) {
+				flex: 100%;
+				order: 1;
+			}
+			@include breakpoint(1146px) {
+				flex: 50%;
+				order: 0;
+			}
+
+		}
+		.radix-layouts-contentcolumn2 {
+			flex: 100%;
+			order: 0;
+			background: white;
+			border-left: 1px solid #cccccc;
+			border-right: 1px solid #cccccc;
+
+			@include breakpoint(848px) {
+				flex: 50%;
+				order: 1;
+			}
+			@include breakpoint(1024px) {
+				flex: 100%;
+				order: 0;
+			}
+			@include breakpoint(1146px) {
+				flex: 50%;
+				order: 1;
+			}
 		}
 	}
 
 	.view-display-id-panel_pane_2 {
-		// .view-content {
-		// 	padding: 1em;
-		// 	background: white;
-		// 	border: 1px solid #cccccc;
-		// 	border-top: 0;
-		// 	border-radius: 0 0 5px 5px;
-		// 	display: flex;
-		// 	flex-flow: row wrap;
-		// 	align-items: stretch;
-		// 	justify-content: center;
-		// }
+		.view-content {
+			padding: 1em;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: stretch;
+			justify-content: center;
+		}
 		.views-row {
 			margin: 0.5em;
 			flex: 0 1 200px;
