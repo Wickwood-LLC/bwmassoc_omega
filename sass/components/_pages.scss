@@ -118,8 +118,24 @@ main#main-content {
 }
 
 .page-categories {
-	.view-display-id-panel_pane_2 {
-		.view-content {
+	.radix-bartlett .row {
+		display: flex;
+		flex-flow: row wrap;
+
+		> .col-md-4 {
+			flex: 25%;
+		}
+		> .col-md-8 {
+			flex: calc(75% - 1em);
+			padding-left: 1em;
+
+			> .row {
+				display: flex;
+				flex-flow: row wrap;
+			}
+		}
+
+		.radix-layouts-contentcolumn1 {
 			padding: 1em;
 			background: white;
 			border: 1px solid #cccccc;
@@ -130,6 +146,20 @@ main#main-content {
 			align-items: stretch;
 			justify-content: center;
 		}
+	}
+
+	.view-display-id-panel_pane_2 {
+		// .view-content {
+		// 	padding: 1em;
+		// 	background: white;
+		// 	border: 1px solid #cccccc;
+		// 	border-top: 0;
+		// 	border-radius: 0 0 5px 5px;
+		// 	display: flex;
+		// 	flex-flow: row wrap;
+		// 	align-items: stretch;
+		// 	justify-content: center;
+		// }
 		.views-row {
 			margin: 0.5em;
 			flex: 0 1 200px;

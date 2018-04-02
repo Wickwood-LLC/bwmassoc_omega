@@ -3589,13 +3589,7 @@ main#main-content .share-text {
 .page-admin-structure-views #views-preview-wrapper {
   background: white; }
 
-.page-categories .view-display-id-panel_pane_2 .view-content {
-  padding: 1em;
-  background: white;
-  border: 1px solid #cccccc;
-  border-top: 0;
-  -webkit-border-radius: 0 0 5px 5px;
-          border-radius: 0 0 5px 5px;
+.page-categories .radix-bartlett .row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3604,15 +3598,52 @@ main#main-content .share-text {
   -webkit-box-direction: normal;
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+          flex-flow: row wrap; }
+  .page-categories .radix-bartlett .row > .col-md-4 {
+    -webkit-box-flex: 25%;
+    -webkit-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%; }
+  .page-categories .radix-bartlett .row > .col-md-8 {
+    -webkit-box-flex: -webkit-calc(75% - 1em);
+    -webkit-flex: -webkit-calc(75% - 1em);
+        -ms-flex: calc(75% - 1em);
+            flex: calc(75% - 1em);
+    padding-left: 1em; }
+    .page-categories .radix-bartlett .row > .col-md-8 > .row {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap; }
+  .page-categories .radix-bartlett .row .radix-layouts-contentcolumn1 {
+    padding: 1em;
+    background: white;
+    border: 1px solid #cccccc;
+    border-top: 0;
+    -webkit-border-radius: 0 0 5px 5px;
+            border-radius: 0 0 5px 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 .page-categories .view-display-id-panel_pane_2 .views-row {
   margin: 0.5em;
   -webkit-box-flex: 0;
