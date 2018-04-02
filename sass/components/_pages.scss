@@ -123,16 +123,33 @@ main#main-content {
 		flex-flow: row wrap;
 
 		> .col-md-4 {
-			flex: 25%;
+			order: 1;
+			flex: 100%;
+			padding: 0;
+
+			@include breakpoint(1024px) {
+				order: 0;
+				flex: 25%;
+			}
 		}
 		> .col-md-8 {
-			flex: calc(75% - 1em);
-			padding-left: 1em;
+			flex: 100%;
+			max-width: 100%;
+			padding: 0;
+
+			@include breakpoint(1024px) {
+				flex: calc(75% - 1em);
+				padding-left: 1em;
+			}
 
 			> .row {
 				display: flex;
 				flex-flow: row wrap;
 			}
+		}
+
+		.radix-layouts-contentheader {
+			padding: 0;
 		}
 
 		.radix-layouts-contentcolumn1 {

@@ -3600,16 +3600,39 @@ main#main-content .share-text {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
   .page-categories .radix-bartlett .row > .col-md-4 {
-    -webkit-box-flex: 25%;
-    -webkit-flex: 25%;
-        -ms-flex: 25%;
-            flex: 25%; }
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    padding: 0; }
+    @media (min-width: 1024px) {
+      .page-categories .radix-bartlett .row > .col-md-4 {
+        -webkit-box-ordinal-group: 1;
+        -webkit-order: 0;
+            -ms-flex-order: 0;
+                order: 0;
+        -webkit-box-flex: 25%;
+        -webkit-flex: 25%;
+            -ms-flex: 25%;
+                flex: 25%; } }
   .page-categories .radix-bartlett .row > .col-md-8 {
-    -webkit-box-flex: -webkit-calc(75% - 1em);
-    -webkit-flex: -webkit-calc(75% - 1em);
-        -ms-flex: calc(75% - 1em);
-            flex: calc(75% - 1em);
-    padding-left: 1em; }
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+    padding: 0; }
+    @media (min-width: 1024px) {
+      .page-categories .radix-bartlett .row > .col-md-8 {
+        -webkit-box-flex: -webkit-calc(75% - 1em);
+        -webkit-flex: -webkit-calc(75% - 1em);
+            -ms-flex: calc(75% - 1em);
+                flex: calc(75% - 1em);
+        padding-left: 1em; } }
     .page-categories .radix-bartlett .row > .col-md-8 > .row {
       display: -webkit-box;
       display: -webkit-flex;
@@ -3620,6 +3643,8 @@ main#main-content .share-text {
       -webkit-flex-flow: row wrap;
           -ms-flex-flow: row wrap;
               flex-flow: row wrap; }
+  .page-categories .radix-bartlett .row .radix-layouts-contentheader {
+    padding: 0; }
   .page-categories .radix-bartlett .row .radix-layouts-contentcolumn1 {
     padding: 1em;
     background: white;
