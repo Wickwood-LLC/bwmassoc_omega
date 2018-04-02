@@ -168,17 +168,23 @@ main#main-content {
 			align-items: stretch;
 			justify-content: center;
 
-			@include breakpoint(848px) {
+			@include breakpoint(848px 1023px) {
 				flex: 50%;
 				order: 0;
+				border-right: 0;
+				border-top: 0;
+				border-bottom-right-radius: 0px;
 			}
-			@include breakpoint(1024px) {
+			@include breakpoint(1024px 1145px) {
 				flex: 100%;
 				order: 1;
 			}
 			@include breakpoint(1146px) {
 				flex: 50%;
 				order: 0;
+				border-right: 0;
+				border-top: 0;
+				border-bottom-right-radius: 0px;
 			}
 
 		}
@@ -189,17 +195,23 @@ main#main-content {
 			border-left: 1px solid #cccccc;
 			border-right: 1px solid #cccccc;
 
-			@include breakpoint(848px) {
+			@include breakpoint(848px 1023px) {
 				flex: 50%;
 				order: 1;
+				border-left: 0;
+				border-bottom: 1px solid #cccccc;
+				border-bottom-right-radius: 5px;
 			}
-			@include breakpoint(1024px) {
+			@include breakpoint(1024px 1145px) {
 				flex: 100%;
 				order: 0;
 			}
 			@include breakpoint(1146px) {
 				flex: 50%;
 				order: 1;
+				border-left: 0;
+				border-bottom: 1px solid #cccccc;
+				border-bottom-right-radius: 5px;
 			}
 		}
 	}
