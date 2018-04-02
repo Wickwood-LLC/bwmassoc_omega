@@ -169,7 +169,7 @@ main#main-content {
 			justify-content: center;
 
 			@include breakpoint(848px 1023px) {
-				flex: 50%;
+				flex: 75%;
 				order: 0;
 				border-right: 0;
 				border-top: 0;
@@ -180,7 +180,7 @@ main#main-content {
 				order: 1;
 			}
 			@include breakpoint(1146px) {
-				flex: 50%;
+				flex: 75%;
 				order: 0;
 				border-right: 0;
 				border-top: 0;
@@ -196,7 +196,7 @@ main#main-content {
 			border-right: 1px solid #cccccc;
 
 			@include breakpoint(848px 1023px) {
-				flex: 50%;
+				flex: 25%;
 				order: 1;
 				border-left: 0;
 				border-bottom: 1px solid #cccccc;
@@ -207,7 +207,7 @@ main#main-content {
 				order: 0;
 			}
 			@include breakpoint(1146px) {
-				flex: 50%;
+				flex: 25%;
 				order: 1;
 				border-left: 0;
 				border-bottom: 1px solid #cccccc;
