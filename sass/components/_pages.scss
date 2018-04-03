@@ -206,6 +206,7 @@ main#main-content {
 
 			@include breakpoint(848px 1023px) {
 				flex: 25%;
+				max-width: 25%;
 				order: 1;
 				border-left: 0;
 				border-bottom: 1px solid #cccccc;
@@ -218,6 +219,7 @@ main#main-content {
 			}
 			@include breakpoint(1146px) {
 				flex: 25%;
+				max-width: 25%;
 				order: 1;
 				border-left: 0;
 				border-bottom: 1px solid #cccccc;
@@ -249,6 +251,12 @@ main#main-content {
 		display: flex;
 		align-items: flex-start;
 		flex-flow: row wrap;
+
+		.form-item-published-at-op-tags select,
+		.form-item-published-at-tags-min input,
+		.form-item-published-at-tags-max input {
+			width: 100%;
+		}
 	}
 
 	.views-submit-button {
@@ -264,5 +272,15 @@ main#main-content {
 	.pane-title {
 		text-align: center;
 		margin-bottom: 0;
+	}
+
+	#views_slideshow_cycle_div_card_cycles-card_blog_1_0 {
+		display: flex;
+		flex-flow: row wrap;
+
+		.views-row {
+			flex: 1 1 30%;
+			margin: 0.5em;
+		}
 	}
 }
