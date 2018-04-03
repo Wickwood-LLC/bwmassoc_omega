@@ -200,7 +200,7 @@ main#main-content {
 				border-left: 0;
 				border-bottom: 1px solid #cccccc;
 				border-bottom-right-radius: 5px;
-				margin-top: 0.5em;
+				padding-top: 0.5em;
 			}
 			@include breakpoint(1024px 1145px) {
 				flex: 100%;
@@ -212,7 +212,7 @@ main#main-content {
 				border-left: 0;
 				border-bottom: 1px solid #cccccc;
 				border-bottom-right-radius: 5px;
-				margin-top: 0.5em;
+				padding-top: 0.5em;
 			}
 		}
 	}
@@ -232,6 +232,16 @@ main#main-content {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+		}
+	}
+
+	.views-submit-button {
+		width: 100%;
+		text-align: right;
+		padding-right: 0;
+
+		input {
+			margin: 0;
 		}
 	}
 }
