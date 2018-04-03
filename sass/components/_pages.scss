@@ -158,7 +158,6 @@ main#main-content {
 		.radix-layouts-contentcolumn1 {
 			flex: 100%;
 			order: 1;
-			padding: 1em;
 			background: white;
 			border: 1px solid #cccccc;
 			border-top: 0;
@@ -201,6 +200,7 @@ main#main-content {
 				border-left: 0;
 				border-bottom: 1px solid #cccccc;
 				border-bottom-right-radius: 5px;
+				margin-top: 0.5em;
 			}
 			@include breakpoint(1024px 1145px) {
 				flex: 100%;
@@ -212,6 +212,7 @@ main#main-content {
 				border-left: 0;
 				border-bottom: 1px solid #cccccc;
 				border-bottom-right-radius: 5px;
+				margin-top: 0.5em;
 			}
 		}
 	}

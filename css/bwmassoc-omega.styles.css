@@ -3660,7 +3660,6 @@ main#main-content .share-text {
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
-    padding: 1em;
     background: white;
     border: 1px solid #cccccc;
     border-top: 0;
@@ -3746,7 +3745,8 @@ main#main-content .share-text {
         border-left: 0;
         border-bottom: 1px solid #cccccc;
         -webkit-border-bottom-right-radius: 5px;
-                border-bottom-right-radius: 5px; } }
+                border-bottom-right-radius: 5px;
+        margin-top: 0.5em; } }
     @media (min-width: 1024px) and (max-width: 1145px) {
       .page-categories .radix-bartlett .row .radix-layouts-contentcolumn2 {
         -webkit-box-flex: 100%;
@@ -3770,7 +3770,8 @@ main#main-content .share-text {
         border-left: 0;
         border-bottom: 1px solid #cccccc;
         -webkit-border-bottom-right-radius: 5px;
-                border-bottom-right-radius: 5px; } }
+                border-bottom-right-radius: 5px;
+        margin-top: 0.5em; } }
 .page-categories .view-display-id-panel_pane_2 .view-content {
   padding: 1em;
   display: -webkit-box;
