@@ -117,7 +117,8 @@ main#main-content {
 	}
 }
 
-.page-categories {
+.page-categories,
+.page-taxonomy-term {
 	.radix-bartlett .row {
 		display: flex;
 		flex-flow: row wrap;
