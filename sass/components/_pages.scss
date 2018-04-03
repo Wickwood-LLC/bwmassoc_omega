@@ -194,9 +194,13 @@ main#main-content {
 			border-left: 1px solid #cccccc;
 			border-right: 1px solid #cccccc;
 			border-top: 1px solid #cccccc;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
 
 			@include breakpoint(768px) {
 				border-top: 0;
+				border-top-left-radius: 0;
+				border-top-right-radius: 0;
 			}
 
 			@include breakpoint(848px 1023px) {
