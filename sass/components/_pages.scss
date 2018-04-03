@@ -193,6 +193,11 @@ main#main-content {
 			background: white;
 			border-left: 1px solid #cccccc;
 			border-right: 1px solid #cccccc;
+			border-top: 1px solid #cccccc;
+
+			@include breakpoint(768px) {
+				border-top: 0;
+			}
 
 			@include breakpoint(848px 1023px) {
 				flex: 25%;

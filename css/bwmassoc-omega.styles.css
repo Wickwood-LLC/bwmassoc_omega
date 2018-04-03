@@ -3731,7 +3731,11 @@ main#main-content .share-text {
             order: 0;
     background: white;
     border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc; }
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc; }
+    @media (min-width: 768px) {
+      .page-categories .radix-bartlett .row .radix-layouts-contentcolumn2 {
+        border-top: 0; } }
     @media (min-width: 848px) and (max-width: 1023px) {
       .page-categories .radix-bartlett .row .radix-layouts-contentcolumn2 {
         -webkit-box-flex: 25%;
