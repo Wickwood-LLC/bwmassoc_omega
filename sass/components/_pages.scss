@@ -253,6 +253,7 @@ main#main-content {
 		align-items: flex-start;
 		flex-flow: row wrap;
 
+		.views-widget-filter-published_at,
 		.form-item-published-at-op-tags select,
 		.form-item-published-at-tags-min input,
 		.form-item-published-at-tags-max input {
@@ -260,7 +261,8 @@ main#main-content {
 		}
 	}
 
-	.views-submit-button {
+	.views-submit-button,
+	.views-reset-button {
 		flex: 1 1 auto;
 		text-align: right;
 		padding-right: 0;

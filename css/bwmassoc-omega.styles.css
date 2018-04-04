@@ -3853,15 +3853,19 @@ main#main-content .share-text {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  .page-categories .views-exposed-widgets .views-widget-filter-published_at,
   .page-categories .views-exposed-widgets .form-item-published-at-op-tags select,
   .page-categories .views-exposed-widgets .form-item-published-at-tags-min input,
   .page-categories .views-exposed-widgets .form-item-published-at-tags-max input,
+  .page-taxonomy-term .views-exposed-widgets .views-widget-filter-published_at,
   .page-taxonomy-term .views-exposed-widgets .form-item-published-at-op-tags select,
   .page-taxonomy-term .views-exposed-widgets .form-item-published-at-tags-min input,
   .page-taxonomy-term .views-exposed-widgets .form-item-published-at-tags-max input {
     width: 100%; }
 .page-categories .views-submit-button,
-.page-taxonomy-term .views-submit-button {
+.page-categories .views-reset-button,
+.page-taxonomy-term .views-submit-button,
+.page-taxonomy-term .views-reset-button {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
@@ -3869,7 +3873,9 @@ main#main-content .share-text {
   text-align: right;
   padding-right: 0; }
   .page-categories .views-submit-button input.form-submit,
-  .page-taxonomy-term .views-submit-button input.form-submit {
+  .page-categories .views-reset-button input.form-submit,
+  .page-taxonomy-term .views-submit-button input.form-submit,
+  .page-taxonomy-term .views-reset-button input.form-submit {
     margin: 0; }
 .page-categories .pane-title,
 .page-taxonomy-term .pane-title {
