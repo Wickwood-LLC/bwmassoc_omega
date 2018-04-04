@@ -3529,6 +3529,8 @@ main#main-content .pane-share-us #widgets-element-socialmedia_share-default {
 main#main-content .share-text {
   text-align: center;
   margin: 0.5em 0; }
+  main#main-content .share-text p {
+    font-size: 1em; }
   main#main-content .share-text .pane-title {
     font-size: 16px;
     margin: 0;
