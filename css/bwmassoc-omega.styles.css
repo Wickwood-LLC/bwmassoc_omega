@@ -3804,7 +3804,8 @@ main#main-content .share-text {
         padding-top: 0.5em; } }
 .page-categories .view-display-id-panel_pane_2 .view-content,
 .page-taxonomy-term .view-display-id-panel_pane_2 .view-content {
-  padding: 1em;
+  padding: 0 1em;
+  margin: -0.5em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
