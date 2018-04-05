@@ -127,6 +127,15 @@ main#main-content {
 
 	&.blog-type-page #main-content .panel-myriad-layout {
 		display: block;
+		
+		@include breakpoint (0px 943px){
+			.sidebar-content {
+				flex: 100%;
+				width: 100%;
+				margin: 0;
+				padding: 0.5em;
+			}
+		}
 	}
 
 	.radix-bartlett .row {

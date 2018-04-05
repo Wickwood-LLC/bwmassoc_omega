@@ -3590,6 +3590,16 @@ main#main-content .share-text {
 .page-categories.blog-type-page #main-content .panel-myriad-layout,
 .page-taxonomy-term.blog-type-page #main-content .panel-myriad-layout {
   display: block; }
+  @media (min-width: 0px) and (max-width: 943px) {
+    .page-categories.blog-type-page #main-content .panel-myriad-layout .sidebar-content,
+    .page-taxonomy-term.blog-type-page #main-content .panel-myriad-layout .sidebar-content {
+      -webkit-box-flex: 100%;
+      -webkit-flex: 100%;
+          -ms-flex: 100%;
+              flex: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0.5em; } }
 .page-categories .radix-bartlett .row,
 .page-taxonomy-term .radix-bartlett .row {
   display: -webkit-box;
