@@ -463,6 +463,8 @@ ul.breadcrumb {
             .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title a:hover, .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-title p a:hover {
               color: blue;
               text-decoration: underline; }
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .views-field-field-featured-image {
+          text-align: center; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
           width: 100%;
           height: auto; }
