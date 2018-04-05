@@ -280,6 +280,15 @@ main#main-content {
 		}
 	}
 
+	.views-widget-filter-type {
+		flex: 100%;
+		
+		.views-widget,
+		.form-type-bef-checkbox {
+			display: inline-block;
+		}
+	}
+
 	.views-submit-button,
 	.views-reset-button {
 		flex: 1 1 auto;
