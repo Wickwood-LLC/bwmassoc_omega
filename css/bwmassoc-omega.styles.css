@@ -3533,6 +3533,7 @@ main#main-content .share-text {
     font-size: 1em; }
   main#main-content .share-text .pane-title {
     font-size: 16px;
+    padding: 0;
     margin: 0;
     display: inline-block; }
   main#main-content .share-text .fieldable-panels-pane {
@@ -3586,6 +3587,9 @@ main#main-content .share-text {
 .page-admin-structure-views #views-preview-wrapper {
   background: white; }
 
+.page-categories.blog-type-page #main-content .panel-myriad-layout,
+.page-taxonomy-term.blog-type-page #main-content .panel-myriad-layout {
+  display: block; }
 .page-categories .radix-bartlett .row,
 .page-taxonomy-term .radix-bartlett .row {
   display: -webkit-box;
