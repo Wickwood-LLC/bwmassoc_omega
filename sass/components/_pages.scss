@@ -317,11 +317,11 @@ main#main-content {
 
 	.view-empty {
 		display: flex;
-		padding-top: 0.5em;
-		padding: 0 0.5em;
-		
+		padding: 0.5em;
+
 		p {
 			width: 100%;
+			border-radius: 5px;
 		}
 	}
 }

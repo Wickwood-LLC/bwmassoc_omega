@@ -3934,11 +3934,12 @@ main#main-content .share-text {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 0.5em;
-  padding: 0 0.5em; }
+  padding: 0.5em; }
   .page-categories .view-empty p,
   .page-taxonomy-term .view-empty p {
-    width: 100%; }
+    width: 100%;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
 
 .registration-form .radix-bartlett .row {
   display: -webkit-box;
