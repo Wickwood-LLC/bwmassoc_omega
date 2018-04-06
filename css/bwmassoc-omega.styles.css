@@ -3928,9 +3928,17 @@ main#main-content .share-text {
         -ms-flex: 1 1 30%;
             flex: 1 1 30%;
     margin: 0.5em; }
-.page-categories .view-empty p,
-.page-taxonomy-term .view-empty p {
-  width: 100%; }
+.page-categories .view-empty,
+.page-taxonomy-term .view-empty {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0.5em;
+  padding: 0 0.5em; }
+  .page-categories .view-empty p,
+  .page-taxonomy-term .view-empty p {
+    width: 100%; }
 
 .registration-form .radix-bartlett .row {
   display: -webkit-box;

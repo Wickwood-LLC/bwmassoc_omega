@@ -315,7 +315,13 @@ main#main-content {
 		}
 	}
 
-	.view-empty p {
-		width: 100%;
+	.view-empty {
+		display: flex;
+		padding-top: 0.5em;
+		padding: 0 0.5em;
+		
+		p {
+			width: 100%;
+		}
 	}
 }
