@@ -914,6 +914,7 @@ ul.breadcrumb {
 
 .view-display-id-card_slideshow_clone .views-slideshow-cycle-main-frame,
 .view-display-id-card_slideshow_clone .views-slideshow-cycle-main-frame-row {
+  width: auto;
   max-width: 350px;
   margin: auto; }
 
