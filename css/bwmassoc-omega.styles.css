@@ -918,6 +918,9 @@ ul.breadcrumb {
 .view-display-id-card_slideshow_clone .field-name-field-amazon-book-listing img {
   width: 150px;
   height: auto; }
+.view-display-id-card_slideshow .file-video iframe,
+.view-display-id-card_slideshow_clone .file-video iframe {
+  max-width: 100%; }
 
 .pane-card-cycles-card-slideshow-clone {
   width: 100%;
