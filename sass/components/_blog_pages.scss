@@ -32,6 +32,10 @@
     display: flex;
     flex-flow: row wrap;
 
+    > div {
+      flex: 100%;
+    }
+
     .views-exposed-widgets {
       .views-reset-button {
         float: right;
@@ -745,7 +749,7 @@
   }
 }
 
-.rpp-views-slideshow-processed {
+.pane-card-cycles-card-slideshow-clone {
   width: 100%;
   max-width: 350px;
   margin: auto;

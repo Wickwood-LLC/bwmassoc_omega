@@ -294,6 +294,11 @@ ul.breadcrumb {
   -webkit-flex-flow: row wrap;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
+  .blog-type-page #main-content .panel-myriad-layout > div {
+    -webkit-box-flex: 100%;
+    -webkit-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-reset-button {
     float: right; }
   .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-operator, .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
@@ -914,7 +919,7 @@ ul.breadcrumb {
   width: 150px;
   height: auto; }
 
-.rpp-views-slideshow-processed {
+.pane-card-cycles-card-slideshow-clone {
   width: 100%;
   max-width: 350px;
   margin: auto; }
