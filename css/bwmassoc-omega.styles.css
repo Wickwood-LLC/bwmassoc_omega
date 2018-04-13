@@ -569,9 +569,11 @@ ul.breadcrumb {
       display: table;
       text-decoration: none;
       clear: both; }
-  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow {
+  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow,
+  .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow-clone {
     position: relative; }
-    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow .col-1 {
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow .col-1,
+    .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-slideshow-clone .col-1 {
       width: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .main-display {
     width: 100%; }
