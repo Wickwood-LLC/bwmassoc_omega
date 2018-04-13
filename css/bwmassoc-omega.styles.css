@@ -881,7 +881,6 @@ ul.breadcrumb {
   z-index: 10; }
 .view-card-cycles .views-slideshow-cycle-main-frame,
 .view-card-cycles .views-slideshow-cycle-main-frame-row {
-  width: 100% !important;
   max-width: 350px;
   margin: auto; }
 .view-card-cycles .views-slideshow-cycle-main-frame-row-item {
