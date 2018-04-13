@@ -526,7 +526,8 @@ ul.breadcrumb {
           -ms-flex: 1 30%;
               flex: 1 30%;
       margin: 0.5em;
-      padding: 0; }
+      padding: 0;
+      text-align: center; }
       @media (min-width: 375px) {
         .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row {
           min-width: 300px;

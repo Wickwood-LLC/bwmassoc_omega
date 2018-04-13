@@ -277,6 +277,7 @@
         flex: 1 30%;
         margin: 0.5em;
         padding: 0;
+        text-align: center;
 
         @include breakpoint(375px) {
           min-width: 300px;
