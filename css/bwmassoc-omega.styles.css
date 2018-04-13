@@ -894,11 +894,6 @@ ul.breadcrumb {
   width: 100%;
   text-align: center;
   z-index: 10; }
-.view-display-id-card_slideshow .views-slideshow-cycle-main-frame,
-.view-display-id-card_slideshow .views-slideshow-cycle-main-frame-row,
-.view-display-id-card_slideshow_clone .views-slideshow-cycle-main-frame,
-.view-display-id-card_slideshow_clone .views-slideshow-cycle-main-frame-row {
-  width: 100% !important; }
 .view-display-id-card_slideshow .views-slideshow-cycle-main-frame-row-item,
 .view-display-id-card_slideshow_clone .views-slideshow-cycle-main-frame-row-item {
   padding-top: 2em;
