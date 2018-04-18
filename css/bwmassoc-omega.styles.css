@@ -690,18 +690,6 @@ ul.breadcrumb {
   float: left;
   margin-right: 4px; }
 
-.node-type-article-post .radix-layouts-sidebar .boxed,
-.node-type-panopoly-news-article .radix-layouts-sidebar .boxed,
-.node-type-panopoly-faq .radix-layouts-sidebar .boxed {
-  padding-top: 1em; }
-  .node-type-article-post .radix-layouts-sidebar .boxed .pane-title,
-  .node-type-panopoly-news-article .radix-layouts-sidebar .boxed .pane-title,
-  .node-type-panopoly-faq .radix-layouts-sidebar .boxed .pane-title {
-    position: static; }
-.node-type-article-post .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed,
-.node-type-panopoly-news-article .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed,
-.node-type-panopoly-faq .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed {
-  padding-top: 2em; }
 .node-type-article-post .field-name-field-featured-image,
 .node-type-panopoly-news-article .field-name-field-featured-image,
 .node-type-panopoly-faq .field-name-field-featured-image {
@@ -777,6 +765,18 @@ ul.breadcrumb {
   .node-type-article-post .radix-layouts-sidebar .boxed,
   .node-type-panopoly-news-article .radix-layouts-sidebar .boxed,
   .node-type-panopoly-faq .radix-layouts-sidebar .boxed {
+    padding-top: 2em; }
+  .node-type-article-post .radix-layouts-sidebar .radix-layouts-sidebar .boxed,
+  .node-type-panopoly-news-article .radix-layouts-sidebar .radix-layouts-sidebar .boxed,
+  .node-type-panopoly-faq .radix-layouts-sidebar .radix-layouts-sidebar .boxed {
+    padding-top: 1em; }
+    .node-type-article-post .radix-layouts-sidebar .radix-layouts-sidebar .boxed .pane-title,
+    .node-type-panopoly-news-article .radix-layouts-sidebar .radix-layouts-sidebar .boxed .pane-title,
+    .node-type-panopoly-faq .radix-layouts-sidebar .radix-layouts-sidebar .boxed .pane-title {
+      position: static; }
+  .node-type-article-post .radix-layouts-sidebar .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed,
+  .node-type-panopoly-news-article .radix-layouts-sidebar .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed,
+  .node-type-panopoly-faq .radix-layouts-sidebar .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed {
     padding-top: 2em; }
 
 .node-type-press-release.panelized-node.logged-in .field--name-field-basic-text-text h1 {
