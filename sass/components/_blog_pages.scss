@@ -466,126 +466,60 @@
 }
 
 .node-type-article-post,
-.node-type-panopoly-news-article {
-	&.logged-in {
-		.panels-ipe-portlet-marker:first-child {
-			.boxed {
-				margin-top: 0;
-			}
-		}
-		.panels-ipe-portlet-marker:last-child {
-			.boxed {
-				margin-bottom: 0;
-			}
-		}
-	}
-	&.not-logged-in {
-		.boxed:first-child {
-			margin-top: 0;
-		}
-		.boxed:last-child {
-			margin-bottom: 0;
-		}
-	}
+.node-type-panopoly-news-article,
+.node-type-panopoly-faq {
+  .field-name-field-featured-image {
+    width: 100%;
 
-	article.boxed {
-		margin: 0;
-	}
+      @include breakpoint(481px) {
+        margin: 0 1em 1em 0;
+        width: 50%;
+        float: left;
+      }
 
-	.pane-content-area {
-		display: inline-block;
-	}
+      img {
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        width: 100%;
+      }
+  }
+  .field-name-field-categories {
+    margin-top: 1em;
+    font-weight: bold;
+  }
 
-	.pane-node-title {
-		text-align: center;
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 1em;
+  }
 
-		h1 {
-			margin-top: 0;
-		}
-	}
+  .radix-layouts-content {
+    flex: 1 100%;
+    padding-right: 0;
 
-	.pane-page-actions {
-		text-align: center;
+    @include breakpoint(848px) {
+      flex: 3 0 560px;
+      min-width: 560px;
+      padding: 0.5em;
+    }
+  }
 
-		.action-links {
-			display: inline-block;
-			padding: 0;
-			margin: 0;
-			margin-top: -10px;
-		}
-	}
+  .radix-layouts-sidebar {
+    flex: 1 300px;
+    min-width: 300px;
+    padding-left: 0;
 
-	.field--name-field-featured-image {
-		img {
-			float: left;
-			margin-bottom: 1em;
-			max-width: 480px;
-			height: auto;
-			width: 100%;
+    @include breakpoint(848px) {
+      flex: 1 1 250px;
+      padding: 0.5em;
+    }
 
-			@include breakpoint(481px) {
-				width: 50%;
-				margin-right: 1em;
-				margin-bottom: 0;
-			}
-		}
-	}
-
-	.row {
-		display: flex;
-		flex-flow: row wrap;
-	}
-
-	.radix-layouts-content {
-		flex: 1 1 500px;
-		padding-right: 15px;
-		margin-bottom: 1em;
-
-		@include breakpoint(851px) {
-			min-width: 500px;
-			margin-bottom: 0;
-			padding-right: 0.5em;
-		}
-	}
-
-	.radix-layouts-sidebar {
-		flex: 1 100%;
-		padding-left: 15px;
-
-		@include breakpoint(851px) {
-			flex: 0 300px;
-			padding-left: 0.5em;
-		}
-	}
-
-	.boxed {
-		background-color: white;
-
-		.pane-title {
-			position: static;
-			padding: 0;
-			margin-bottom: 0.5em;
-		}	
-	}
-
-	.view-related-news {
-		.view-content {
-			display: flex;
-			flex-flow: row wrap;
-		}
-
-		.views-row {
-			display: inline-block;
-			width: 100%;
-			margin-bottom: 1em;
-			flex: 1 1 250px;
-		}
-
-		.views-field-field-featured-image {
-			float: left;
-			margin-right: 1em;
-		}
-	}
+    .boxed {
+      padding-top: 2em;
+    }
+  }
 }
 
 .node-type-press-release.panelized-node {
