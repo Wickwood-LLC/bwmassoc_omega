@@ -690,9 +690,9 @@ ul.breadcrumb {
   float: left;
   margin-right: 4px; }
 
-.node-type-article-post .sidebar-content .boxed .pane-title,
-.node-type-panopoly-news-article .sidebar-content .boxed .pane-title,
-.node-type-panopoly-faq .sidebar-content .boxed .pane-title {
+.node-type-article-post .radix-layouts-sidebar .boxed .pane-title,
+.node-type-panopoly-news-article .radix-layouts-sidebar .boxed .pane-title,
+.node-type-panopoly-faq .radix-layouts-sidebar .boxed .pane-title {
   position: static; }
 .node-type-article-post .field-name-field-featured-image,
 .node-type-panopoly-news-article .field-name-field-featured-image,

@@ -7,7 +7,7 @@
 		"uuidString": "C278C903-102A-411F-91B8-F53F0A5A2D9D"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -1375,7 +1375,8 @@
 	"creationDate": 502267713,
 	"displayValue": "bwmassoc_omega",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-yesBaby"
+	"iconImageName": "meme-yesBaby",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3178,6 +3179,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
