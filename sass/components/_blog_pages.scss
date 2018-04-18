@@ -519,19 +519,19 @@
     .boxed {
       padding-top: 2em;
     }
+  }
 
-    .radix-layouts-sidebar {
-      .boxed {
-        padding-top: 1em;
-    
-        .pane-title {
-          position: static;
-        }
+  .radix-layouts-sidebar {
+    .boxed {
+      padding-top: 1em;
+  
+      .pane-title {
+        position: static;
       }
+    }
 
-      .views-slideshow-cycle-main-frame-row-item .boxed {
-        padding-top: 2em;
-      }
+    .views-slideshow-cycle-main-frame-row-item .boxed {
+      padding-top: 2em;
     }
   }
 }
