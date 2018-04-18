@@ -468,9 +468,17 @@
 .node-type-article-post,
 .node-type-panopoly-news-article,
 .node-type-panopoly-faq {
-  .radix-layouts-sidebar .boxed {
-    .pane-title {
-      position: static;
+  .radix-layouts-sidebar {
+    .boxed {
+      padding-top: 1em;
+  
+      .pane-title {
+        position: static;
+      }
+    }
+
+    .views-slideshow-cycle-main-frame-row-item .boxed {
+      padding-top: 2em;
     }
   }
 
