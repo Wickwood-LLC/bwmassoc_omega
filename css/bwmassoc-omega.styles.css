@@ -790,6 +790,9 @@ ul.breadcrumb {
 .node-type-press-release.panelized-node .view-related-news .views-field-field-featured-image {
   float: left;
   margin-right: 1em; }
+@media (min-width: 1024px) {
+  .node-type-press-release.panelized-node .panel-col-right {
+    max-width: 24%; } }
 .node-type-press-release.panelized-node .boxed {
   background-color: white; }
   .node-type-press-release.panelized-node .boxed .pane-title {

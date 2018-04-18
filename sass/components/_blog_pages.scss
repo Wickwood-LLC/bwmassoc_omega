@@ -544,21 +544,27 @@
 	}
 
   h1.page-title {
-	text-align: center;
+	 text-align: center;
   }
 
-  	.view-related-news {
-		.views-row {
-			display: inline-block;
-			width: 100%;
-			margin-bottom: 1em;
-		}
+	.view-related-news {
+  	.views-row {
+  		display: inline-block;
+  		width: 100%;
+  		margin-bottom: 1em;
+  	}
 
 		.views-field-field-featured-image {
 			float: left;
 			margin-right: 1em;
 		}
 	}
+
+  .panel-col-right {
+    @include breakpoint(1024px) {
+      max-width: 24%;
+    }
+  }
 
 	.boxed {
 		background-color: white;
