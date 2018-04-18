@@ -690,6 +690,10 @@ ul.breadcrumb {
   float: left;
   margin-right: 4px; }
 
+.node-type-article-post .sidebar-content .boxed .pane-title,
+.node-type-panopoly-news-article .sidebar-content .boxed .pane-title,
+.node-type-panopoly-faq .sidebar-content .boxed .pane-title {
+  position: static; }
 .node-type-article-post .field-name-field-featured-image,
 .node-type-panopoly-news-article .field-name-field-featured-image,
 .node-type-panopoly-faq .field-name-field-featured-image {
@@ -845,6 +849,40 @@ ul.breadcrumb {
   text-align: center; }
   .node-type-press-release.panelized-node .pane-node-links .links {
     display: inline-block; }
+
+.pane-news-test-panel-pane-5 .view-content,
+.pane-articles-test-panel-pane-5 .view-content,
+.pane-press-releases-test-panel-pane-5 .view-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+.pane-news-test-panel-pane-5 .views-row,
+.pane-articles-test-panel-pane-5 .views-row,
+.pane-press-releases-test-panel-pane-5 .views-row {
+  display: inline-block;
+  vertical-align: top;
+  width: 230px;
+  margin-right: 10px;
+  margin-bottom: 0.5em;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 240px;
+      -ms-flex: 1 240px;
+          flex: 1 240px; }
+.pane-news-test-panel-pane-5 .views-field-field-featured-image,
+.pane-articles-test-panel-pane-5 .views-field-field-featured-image,
+.pane-press-releases-test-panel-pane-5 .views-field-field-featured-image {
+  float: left;
+  margin-right: 10px; }
+.pane-news-test-panel-pane-5 .views-field-published-at,
+.pane-articles-test-panel-pane-5 .views-field-published-at,
+.pane-press-releases-test-panel-pane-5 .views-field-published-at {
+  font-size: 0.8em; }
 
 .view-display-id-card_slideshow .vscc-controls,
 .view-display-id-card_slideshow_clone .vscc-controls {

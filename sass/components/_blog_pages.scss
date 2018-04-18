@@ -468,6 +468,12 @@
 .node-type-article-post,
 .node-type-panopoly-news-article,
 .node-type-panopoly-faq {
+  .sidebar-content .boxed {
+    .pane-title {
+      position: static;
+    }
+  }
+
   .field-name-field-featured-image {
     width: 100%;
 
@@ -641,6 +647,30 @@
 	.links {
 		display: inline-block;
 	}
+  }
+}
+
+.pane-news-test-panel-pane-5,
+.pane-articles-test-panel-pane-5,
+.pane-press-releases-test-panel-pane-5 {
+  .view-content {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .views-row {
+    display: inline-block;
+    vertical-align: top;
+    width: 230px;
+    margin-right: 10px;
+    margin-bottom: 0.5em;
+    flex: 1 240px;
+  }
+  .views-field-field-featured-image {
+    float: left;
+    margin-right: 10px;
+  }
+  .views-field-published-at {
+    font-size: 0.8em;
   }
 }
 
