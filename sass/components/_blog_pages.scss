@@ -468,7 +468,7 @@
 .node-type-article-post,
 .node-type-panopoly-news-article,
 .node-type-panopoly-faq {
-  .field-name-field-featured-image {
+  .field--name-field-featured-imageimage {
     width: 100%;
 
       @include breakpoint(481px) {
@@ -586,81 +586,81 @@
 	}
   
   .content-main {
-	max-width: 960px;
-	background: #FFF;
-	margin: 1em auto;
-	position: relative;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	padding: 5%;
-	box-sizing: border-box;
+  	max-width: 960px;
+  	background: #FFF;
+  	margin: 1em auto;
+  	position: relative;
+  	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  	padding: 5%;
+  	box-sizing: border-box;
 
-	&:before, &:after {
-	  content: "";
-	  position: absolute;
-	  z-index: -1;
-	  box-shadow: 0 0 20px rgba(0,0,0,0.8);
-	  top: 50%;
-	  bottom: 0;
-	  left: 10px;
-	  right: 10px;
-	  border-radius: 100px / 10px;
-	}
+  	&:before, &:after {
+  	  content: "";
+  	  position: absolute;
+  	  z-index: -1;
+  	  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  	  top: 50%;
+  	  bottom: 0;
+  	  left: 10px;
+  	  right: 10px;
+  	  border-radius: 100px / 10px;
+  	}
   }
 
   .pane-node-field-immediate-release,
-  .contact-title {
-	h4 {
-	  margin: 0;
-	}
+    .contact-title {
+  	h4 {
+  	  margin: 0;
+  	}
   }
 
   .field--name-field-pr-about {
-	margin: 2em 0;
+    margin: 2em 0;
   }
 
   .field--name-field-full-contact-details {
-	margin: 2em 0;
-	text-align: center;
+  	margin: 2em 0;
+  	text-align: center;
 
-	h4 {
-	  margin: 0;
-	  display: inline-flex;
+  	h4 {
+  	  margin: 0;
+  	  display: inline-flex;
 
-	  &:after {
-		content: '\00a0';
-	  }
-	}
+  	  &:after {
+  		content: '\00a0';
+  	  }
+  	}
   }
 
   .field--name-field-featured-image {
-	width: 100%;
+  	width: 100%;
 
-	@include breakpoint(481px){
-	  margin: 0 1em 1em 0;
-	  width: 50%;
-	  float: left;
-	}
+  	@include breakpoint(481px){
+  	  margin: 0 1em 1em 0;
+  	  width: 50%;
+  	  float: left;
+  	}
 
-	img {
-		width: 100%;
-	}
+  	img {
+  		width: 100%;
+  	}
   }
 
   .field--name-field-contact-website .field__item {
-	word-break: break-word;
+    word-break: break-word;
   }
 
   .pane-node-title h1 {
-	line-height: 1.5;
-	text-align: center;
+  	line-height: 1.5;
+  	text-align: center;
   }
 
   .pane-node-links {
-	text-align: center;
+  	text-align: center;
 
-	.links {
-		display: inline-block;
-	}
+  	.links {
+  		display: inline-block;
+  	}
   }
 }
 
