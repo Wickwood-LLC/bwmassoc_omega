@@ -708,9 +708,9 @@ ul.breadcrumb {
     min-width: 0;
     height: auto;
     width: 100%; }
-.node-type-article-post .field-name-field-categories,
-.node-type-panopoly-news-article .field-name-field-categories,
-.node-type-panopoly-faq .field-name-field-categories {
+.node-type-article-post .field--name-field-categories,
+.node-type-panopoly-news-article .field--name-field-categories,
+.node-type-panopoly-faq .field--name-field-categories {
   margin-top: 1em;
   font-weight: bold; }
 .node-type-article-post .row,
