@@ -863,7 +863,8 @@ ul.breadcrumb {
 
 .pane-news-test-panel-pane-5 .view-content,
 .pane-articles-test-panel-pane-5 .view-content,
-.pane-press-releases-test-panel-pane-5 .view-content {
+.pane-press-releases-test-panel-pane-5 .view-content,
+.pane-panopoly-faq-panel-pane-6 .view-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -875,7 +876,8 @@ ul.breadcrumb {
           flex-flow: row wrap; }
 .pane-news-test-panel-pane-5 .views-row,
 .pane-articles-test-panel-pane-5 .views-row,
-.pane-press-releases-test-panel-pane-5 .views-row {
+.pane-press-releases-test-panel-pane-5 .views-row,
+.pane-panopoly-faq-panel-pane-6 .views-row {
   display: inline-block;
   vertical-align: top;
   width: 230px;
@@ -887,12 +889,14 @@ ul.breadcrumb {
           flex: 1 240px; }
 .pane-news-test-panel-pane-5 .views-field-field-featured-image,
 .pane-articles-test-panel-pane-5 .views-field-field-featured-image,
-.pane-press-releases-test-panel-pane-5 .views-field-field-featured-image {
+.pane-press-releases-test-panel-pane-5 .views-field-field-featured-image,
+.pane-panopoly-faq-panel-pane-6 .views-field-field-featured-image {
   float: left;
   margin-right: 10px; }
 .pane-news-test-panel-pane-5 .views-field-published-at,
 .pane-articles-test-panel-pane-5 .views-field-published-at,
-.pane-press-releases-test-panel-pane-5 .views-field-published-at {
+.pane-press-releases-test-panel-pane-5 .views-field-published-at,
+.pane-panopoly-faq-panel-pane-6 .views-field-published-at {
   font-size: 0.8em; }
 
 .view-display-id-card_slideshow .vscc-controls,
