@@ -250,6 +250,12 @@
 
         .views-field-field-featured-image {
           text-align: center;
+
+          img {
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+          }
         }
 
         .featured-image img {
