@@ -80,7 +80,8 @@ body {
 ol:not([class]),
 ul:not([class]) {
   font-size: 1rem;
-  font-family: FontAwesome, sans-serif; }
+  font-family: FontAwesome, sans-serif;
+  overflow: auto; }
   @media (min-width: 569px) {
     ol:not([class]),
     ul:not([class]) {
