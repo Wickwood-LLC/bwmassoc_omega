@@ -774,9 +774,9 @@ ul.breadcrumb {
   .node-type-panopoly-news-article .radix-layouts-sidebar .boxed .pane-title,
   .node-type-panopoly-faq .radix-layouts-sidebar .boxed .pane-title {
     position: static; }
-.node-type-article-post .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed,
-.node-type-panopoly-news-article .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed,
-.node-type-panopoly-faq .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item .boxed {
+.node-type-article-post .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed,
+.node-type-panopoly-news-article .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed,
+.node-type-panopoly-faq .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed {
   padding-top: 2em; }
 
 .node-type-press-release.panelized-node.logged-in .field--name-field-basic-text-text h1 {
