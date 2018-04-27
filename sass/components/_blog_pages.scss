@@ -178,61 +178,6 @@
         @include breakpoint(944px) {
           display: block;
         }
-  
-        .views-row {
-          width: calc((100% / 3) - 41px);
-          flex: 1 100%;
-          padding: 0.5em;
-          margin: 0.5em;
-          border: 1px solid #cccccc;
-          font-size: 14px;
-          display: inline-flex;
-          flex-flow: column nowrap;
-          vertical-align: top;
-          border-radius: 5px;
-          box-sizing: content-box;
-          background-color: white;
-
-          @include breakpoint(420px) {
-            flex: 1 1 300px;
-            font-size: 18px;
-            min-width: 300px;
-          }
-          @include breakpoint(944px) {
-            min-width: 0;
-          }
-
-          .views-field-title, .views-field-title p {
-            text-align: center;
-
-            a {
-            	color: black;
-
-            	&:hover {
-            		color: blue;
-            		text-decoration: underline;
-            	}
-            }
-          }
-
-          .views-field-field-featured-image {
-            text-align: center;
-          }
-
-          .featured-image img {
-            width: 100%;
-            height: auto;
-          }
-
-          .views-field-body {
-            flex: 1;
-            display: flex;
-
-            iframe {
-              max-width: 100%;
-            }
-          }
-        }
 
         .scroll-pane {
           overflow: auto;
@@ -264,6 +209,61 @@
 				margin: auto;
 				max-width: 100%;
 			}
+
+      .views-row {
+        width: calc((100% / 3) - 41px);
+        flex: 1 100%;
+        padding: 0.5em;
+        margin: 0.5em;
+        border: 1px solid #cccccc;
+        font-size: 14px;
+        display: inline-flex;
+        flex-flow: column nowrap;
+        vertical-align: top;
+        border-radius: 5px;
+        box-sizing: content-box;
+        background-color: white;
+
+        @include breakpoint(420px) {
+          flex: 1 1 300px;
+          font-size: 18px;
+          min-width: 300px;
+        }
+        @include breakpoint(944px) {
+          min-width: 0;
+        }
+
+        .views-field-title, .views-field-title p {
+          text-align: center;
+
+          a {
+            color: black;
+
+            &:hover {
+              color: blue;
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .views-field-field-featured-image {
+          text-align: center;
+        }
+
+        .featured-image img {
+          width: 100%;
+          height: auto;
+        }
+
+        .views-field-body {
+          flex: 1;
+          display: flex;
+
+          iframe {
+            max-width: 100%;
+          }
+        }
+      }
 		}
       }
     }
