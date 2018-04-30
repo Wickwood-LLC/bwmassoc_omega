@@ -447,15 +447,15 @@ ul.breadcrumb {
           .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-name a:hover {
             color: blue;
             text-decoration: underline; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-body {
-        width: 100%; }
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-body img {
-          display: block;
-          height: auto;
-          margin: auto;
-          max-width: 100%; }
+    .blog-type-page #main-content .panel-myriad-layout .featured-display .views-field-body,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-body {
+      width: 100%; }
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .views-field-body img,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-body img {
+        display: block;
+        height: auto;
+        margin: auto;
+        max-width: 100%; }
     .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row,
     .blog-type-page #main-content .panel-myriad-layout .main-display .views-row {
       width: -webkit-calc((100% / 3) - 41px);

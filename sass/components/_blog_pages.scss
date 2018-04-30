@@ -202,15 +202,16 @@
           	}
           }
         }
-        .views-field-body {
-        	width: 100%;
-        	img {
-    				display: block;
-    				height: auto;
-    				margin: auto;
-    				max-width: 100%;
-    			}
-    		}
+      }
+
+      .views-field-body {
+        width: 100%;
+        img {
+          display: block;
+          height: auto;
+          margin: auto;
+          max-width: 100%;
+        }
       }
 
       .views-row {
