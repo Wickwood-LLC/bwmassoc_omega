@@ -90,7 +90,7 @@
 
       @include breakpoint(375px) {
         min-width: 300px;
-        flex: 1 1 250px;
+        flex: 100%;
       }
       @include breakpoint(944px) {
         min-width: 0;
@@ -279,7 +279,7 @@
     .featured-display {
       display: flex;
 
-      @include breakpoint(923px) {
+      @include breakpoint(944px) {
         display: block;
       }
     }

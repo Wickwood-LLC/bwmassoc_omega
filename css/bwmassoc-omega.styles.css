@@ -354,10 +354,10 @@ ul.breadcrumb {
     @media (min-width: 375px) {
       .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
         min-width: 300px;
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 1 250px;
-            -ms-flex: 1 1 250px;
-                flex: 1 1 250px; } }
+        -webkit-box-flex: 100%;
+        -webkit-flex: 100%;
+            -ms-flex: 100%;
+                flex: 100%; } }
     @media (min-width: 944px) {
       .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
         min-width: 0; } }
@@ -539,7 +539,7 @@ ul.breadcrumb {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-    @media (min-width: 923px) {
+    @media (min-width: 944px) {
       .blog-type-page #main-content .panel-myriad-layout .featured-display {
         display: block; } }
   .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content {
