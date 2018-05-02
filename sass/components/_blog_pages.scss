@@ -276,6 +276,14 @@
       }
     }
 
+    .featured-display {
+      display: flex;
+
+      @include breakpoint(923px) {
+        display: block;
+      }
+    }
+
     .pane-card-cycles-card-blog .view-content {
       display: flex;
       flex-flow: row wrap;

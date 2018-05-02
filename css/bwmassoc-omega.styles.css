@@ -534,6 +534,14 @@ ul.breadcrumb {
         .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-body iframe,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-body iframe {
           max-width: 100%; }
+  .blog-type-page #main-content .panel-myriad-layout .featured-display {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (min-width: 923px) {
+      .blog-type-page #main-content .panel-myriad-layout .featured-display {
+        display: block; } }
   .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content {
     display: -webkit-box;
     display: -webkit-flex;
