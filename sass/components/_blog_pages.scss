@@ -278,6 +278,7 @@
 
     .featured-display {
       display: flex;
+      flex-flow: row wrap;
 
       @include breakpoint(944px) {
         display: block;
@@ -389,65 +390,64 @@
           flex: 1 250px;
           font-size: 18px;
         }
-
-        .views-field-field-featured-image,
-        .views-field-title, 
-        .views-field-title p {
-          text-align: center;
-          
-          h3 {
-            margin-bottom: 0;
-          }
-
-          a {
-          	color: black;
-
-          	&:hover {
-          		color: blue;
-          		text-decoration: underline;
-          	}
-          }
+      }
+      .views-field-field-featured-image,
+      .views-field-title, 
+      .views-field-title p {
+        text-align: center;
+        
+        h3 {
+          margin-bottom: 0;
         }
-        .views-field-name,
-        .views-field-published-at {
-          display: block;
-          text-align: center;
 
-          a {
-          	color: black;
+        a {
+          color: black;
 
-          	&:hover {
-          		color: blue;
-          		text-decoration: underline;
-          	}
+          &:hover {
+            color: blue;
+            text-decoration: underline;
           }
         }
+      }
+      .views-field-name,
+      .views-field-published-at {
+        display: block;
+        text-align: center;
 
-        .views-field-body {
-          flex-grow: 1;
+        a {
+          color: black;
 
-          .field-content {
-            margin-bottom: 1em;
-            line-height: 1.35em;
+          &:hover {
+            color: blue;
+            text-decoration: underline;
           }
+        }
+      }
 
-          iframe {
-            width: 100%;
-            height: auto;
-          }
+      .views-field-body {
+        flex-grow: 1;
+
+        .field-content {
+          margin-bottom: 1em;
+          line-height: 1.35em;
         }
-        .views-field-field-categories {
-          font-weight: bold;
-          font-size: 0.8em;
+
+        iframe {
+          width: 100%;
+          height: auto;
         }
-        .views-label-field-categories {
-          float: left;
-          margin-right: 4px;
-        }
-        .views-field-type {
-          font-weight: bold;
-          font-size: 0.8em;
-        }
+      }
+      .views-field-field-categories {
+        font-weight: bold;
+        font-size: 0.8em;
+      }
+      .views-label-field-categories {
+        float: left;
+        margin-right: 4px;
+      }
+      .views-field-type {
+        font-weight: bold;
+        font-size: 0.8em;
       }
     }
 

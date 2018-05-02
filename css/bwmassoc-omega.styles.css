@@ -538,7 +538,12 @@ ul.breadcrumb {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
     @media (min-width: 944px) {
       .blog-type-page #main-content .panel-myriad-layout .featured-display {
         display: block; } }
@@ -661,78 +666,78 @@ ul.breadcrumb {
               -ms-flex: 1 250px;
                   flex: 1 250px;
           font-size: 18px; } }
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-field-featured-image,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title p {
-        text-align: center; }
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-field-featured-image h3,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title h3,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p h3,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image h3,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title h3,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title p h3 {
-          margin-bottom: 0; }
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-field-featured-image a,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title a,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p a,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image a,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title a,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title p a {
-          color: black; }
-          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-field-featured-image a:hover,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title a:hover,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p a:hover,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-featured-image a:hover,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title a:hover,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title p a:hover {
-            color: blue;
-            text-decoration: underline; }
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-name,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-published-at,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-name,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at {
-        display: block;
-        text-align: center; }
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-name a,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-published-at a,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-name a,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at a {
-          color: black; }
-          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-name a:hover,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-published-at a:hover,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-name a:hover,
-          .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at a:hover {
-            color: blue;
-            text-decoration: underline; }
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-body,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body {
-        -webkit-box-flex: 1;
-        -webkit-flex-grow: 1;
-            -ms-flex-positive: 1;
-                flex-grow: 1; }
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-body .field-content,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body .field-content {
-          margin-bottom: 1em;
-          line-height: 1.35em; }
-        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-body iframe,
-        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-body iframe {
-          width: 100%;
-          height: auto; }
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-field-categories,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-field-categories {
-        font-weight: bold;
-        font-size: 0.8em; }
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-label-field-categories,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-label-field-categories {
-        float: left;
-        margin-right: 4px; }
-      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-type,
-      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-type {
-        font-weight: bold;
-        font-size: 0.8em; }
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p {
+      text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p h3 {
+        margin-bottom: 0; }
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p a {
+        color: black; }
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p a:hover {
+          color: blue;
+          text-decoration: underline; }
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-name,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-published-at,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-name,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-published-at {
+      display: block;
+      text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-name a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-published-at a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-name a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-published-at a {
+        color: black; }
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-name a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-published-at a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-name a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-published-at a:hover {
+          color: blue;
+          text-decoration: underline; }
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-body,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-body {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-body .field-content,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-body .field-content {
+        margin-bottom: 1em;
+        line-height: 1.35em; }
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-body iframe,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-body iframe {
+        width: 100%;
+        height: auto; }
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-categories,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-categories {
+      font-weight: bold;
+      font-size: 0.8em; }
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-label-field-categories,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-label-field-categories {
+      float: left;
+      margin-right: 4px; }
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-type,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-type {
+      font-weight: bold;
+      font-size: 0.8em; }
   .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a {
     float: right;
     text-transform: capitalize;
