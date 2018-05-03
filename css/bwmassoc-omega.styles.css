@@ -337,7 +337,8 @@ ul.breadcrumb {
         -webkit-box-flex: 3;
         -webkit-flex: 3 0 560px;
             -ms-flex: 3 0 560px;
-                flex: 3 0 560px; } }
+                flex: 3 0 560px;
+        padding: 0.5em 0; } }
   .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 0;

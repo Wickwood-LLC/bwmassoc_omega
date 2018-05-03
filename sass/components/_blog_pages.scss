@@ -75,6 +75,7 @@
       @include breakpoint(626px) {
         min-width: 560px;
         flex: 3 0 560px;
+        padding: 0.5em 0;
       }
     }
 
