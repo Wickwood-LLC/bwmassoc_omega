@@ -781,3 +781,34 @@ p:last-child {
     width: 66%;
     background: white;
 }
+
+.pane-views-pager {
+  text-align: center;
+}
+ul.pager {
+  display: inline-block;
+
+  .pager__item {
+    background: #eee;
+    float: left;
+
+    &.first-child {
+      border-radius: 5px 0 0 5px;
+    }
+    &.last-child {
+      border-radius: 0 5px 5px 0;
+    }
+    &.pager__item--current {
+      background: #007bcb;
+
+      a, a:visited {
+        color: white;
+      }
+    }
+
+    a, a:visited {
+      color: black;
+    }
+  }
+
+}

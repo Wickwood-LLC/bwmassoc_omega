@@ -1028,6 +1028,27 @@ p:last-child {
   width: 66%;
   background: white; }
 
+.pane-views-pager {
+  text-align: center; }
+
+ul.pager {
+  display: inline-block; }
+  ul.pager .pager__item {
+    background: #eee;
+    float: left; }
+    ul.pager .pager__item.first-child {
+      -webkit-border-radius: 5px 0 0 5px;
+              border-radius: 5px 0 0 5px; }
+    ul.pager .pager__item.last-child {
+      -webkit-border-radius: 0 5px 5px 0;
+              border-radius: 0 5px 5px 0; }
+    ul.pager .pager__item.pager__item--current {
+      background: #007bcb; }
+      ul.pager .pager__item.pager__item--current a, ul.pager .pager__item.pager__item--current a:visited {
+        color: white; }
+    ul.pager .pager__item a, ul.pager .pager__item a:visited {
+      color: black; }
+
 .bwma-footer p {
   display: inline-block;
   width: 100%; }
