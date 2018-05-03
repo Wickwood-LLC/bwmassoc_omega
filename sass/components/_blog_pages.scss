@@ -111,6 +111,7 @@
       .boxed {
         .pane-title {
         	position: static;
+          margin-bottom: 1em;
         }
       }
 
@@ -228,9 +229,9 @@
         background-color: white;
 
         @include breakpoint(420px) {
-          flex: 1 1 300px;
+          flex: 1 1 250px;
           font-size: 18px;
-          min-width: 300px;
+          min-width: 250px;
         }
         @include breakpoint(944px) {
           min-width: 0;
