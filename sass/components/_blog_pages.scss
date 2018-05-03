@@ -792,18 +792,18 @@ ul.pager {
     background: #eee;
     float: left;
 
-    &.first-child {
+    &:first-child {
       border-radius: 5px 0 0 5px;
     }
-    &.last-child {
+    &:last-child {
       border-radius: 0 5px 5px 0;
     }
     &.pager__item--current {
       background: #007bcb;
-
-      a, a:visited {
-        color: white;
-      }
+      color: white;
+    }
+    &:hover {
+      background: white;
     }
 
     a, a:visited {
