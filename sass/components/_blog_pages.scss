@@ -183,27 +183,26 @@
         .scroll-pane {
           overflow: auto;
         }
+      }
 
-        .views-field-published-at {
-          text-align: center;
-          margin-bottom: 1em;
-        }
-        .views-field-name {
-          display: block;
-          text-align: center;
-          margin-bottom: 1em;
+      .views-field-published-at {
+        text-align: center;
+        margin-bottom: 1em;
+      }
+      .views-field-name {
+        display: block;
+        text-align: center;
+        margin-bottom: 1em;
 
-          a {
-          	color: black;
+        a {
+          color: black;
 
-          	&:hover {
-          		color: blue;
-          		text-decoration: underline;
-          	}
+          &:hover {
+            color: blue;
+            text-decoration: underline;
           }
         }
       }
-
       .views-field-body {
         width: 100%;
         img {
