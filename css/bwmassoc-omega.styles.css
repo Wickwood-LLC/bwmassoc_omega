@@ -1034,7 +1034,10 @@ p:last-child {
   text-align: center; }
 
 ul.pager {
-  display: inline-block; }
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 6px;
+          border-radius: 6px; }
   ul.pager .pager__item {
     background: #eee;
     float: left; }

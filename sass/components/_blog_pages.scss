@@ -789,6 +789,8 @@ p:last-child {
 }
 ul.pager {
   display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 
   .pager__item {
     background: #eee;
