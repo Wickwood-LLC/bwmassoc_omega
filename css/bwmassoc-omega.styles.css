@@ -330,7 +330,7 @@ ul.breadcrumb {
     -webkit-flex: 1 100%;
         -ms-flex: 1 100%;
             flex: 1 100%;
-    padding: 0.5em; }
+    padding: 0.5em 0; }
     @media (min-width: 626px) {
       .blog-type-page #main-content .panel-myriad-layout .main-content {
         min-width: 560px;
