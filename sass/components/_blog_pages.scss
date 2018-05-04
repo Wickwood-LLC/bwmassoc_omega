@@ -803,6 +803,10 @@ ul.pager {
     &.pager__item--current {
       background: #007bcb;
       color: white;
+
+      &:hover {
+        color: black;
+      }
     }
     &:hover {
       background: white;
@@ -813,4 +817,7 @@ ul.pager {
     }
   }
 
+}
+.sidebar-content ul.pager {
+  display: block;
 }

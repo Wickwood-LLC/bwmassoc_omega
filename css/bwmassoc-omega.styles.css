@@ -1047,10 +1047,15 @@ ul.pager {
     ul.pager .pager__item.pager__item--current {
       background: #007bcb;
       color: white; }
+      ul.pager .pager__item.pager__item--current:hover {
+        color: black; }
     ul.pager .pager__item:hover {
       background: white; }
     ul.pager .pager__item a, ul.pager .pager__item a:visited {
       color: black; }
+
+.sidebar-content ul.pager {
+  display: block; }
 
 .bwma-footer p {
   display: inline-block;
