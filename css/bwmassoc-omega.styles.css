@@ -1039,7 +1039,8 @@ ul.pager {
   -webkit-border-radius: 6px;
           border-radius: 6px;
   border: 1px solid #ccc;
-  border-radius: 6px; }
+  border-radius: 6px;
+  margin: 0; }
   ul.pager .pager__item {
     background: #eee;
     float: left; }
@@ -1061,8 +1062,7 @@ ul.pager {
 
 .sidebar-content ul.pager {
   display: block;
-  border: 0;
-  margin: 0; }
+  border: 0; }
 
 .bwma-footer p {
   display: inline-block;

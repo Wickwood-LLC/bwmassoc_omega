@@ -793,6 +793,7 @@ ul.pager {
   border-radius: 6px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  margin: 0;
 
   .pager__item {
     background: #eee;
@@ -825,5 +826,4 @@ ul.pager {
 .sidebar-content ul.pager {
   display: block;
   border: 0;
-  margin: 0;
 }
