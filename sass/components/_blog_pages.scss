@@ -791,6 +791,8 @@ ul.pager {
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 
   .pager__item {
     background: #eee;
@@ -822,4 +824,6 @@ ul.pager {
 }
 .sidebar-content ul.pager {
   display: block;
+  border: 0;
+  margin: 0;
 }

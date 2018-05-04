@@ -1037,7 +1037,9 @@ ul.pager {
   display: inline-block;
   border: 1px solid #ccc;
   -webkit-border-radius: 6px;
-          border-radius: 6px; }
+          border-radius: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px; }
   ul.pager .pager__item {
     background: #eee;
     float: left; }
@@ -1058,7 +1060,9 @@ ul.pager {
       color: black; }
 
 .sidebar-content ul.pager {
-  display: block; }
+  display: block;
+  border: 0;
+  margin: 0; }
 
 .bwma-footer p {
   display: inline-block;
