@@ -545,6 +545,7 @@
   
       .pane-title {
         position: static;
+        margin-bottom: 0.5em;
       }
     }
 
@@ -630,6 +631,14 @@
   	h4 {
   	  margin: 0;
   	}
+  }
+
+  .pane-node-field-upload-document {
+    text-align: center;
+
+    .field--name-field-upload-document {
+      display: inline-block;
+    }
   }
 
   .field--name-field-pr-about {

@@ -844,7 +844,8 @@ ul.breadcrumb {
   .node-type-article-post .radix-layouts-sidebar .boxed .pane-title,
   .node-type-panopoly-news-article .radix-layouts-sidebar .boxed .pane-title,
   .node-type-panopoly-faq .radix-layouts-sidebar .boxed .pane-title {
-    position: static; }
+    position: static;
+    margin-bottom: 0.5em; }
 .node-type-article-post .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed,
 .node-type-panopoly-news-article .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed,
 .node-type-panopoly-faq .radix-layouts-sidebar .views-slideshow-cycle-main-frame-row-item.boxed {
@@ -900,6 +901,10 @@ ul.breadcrumb {
 .node-type-press-release.panelized-node .pane-node-field-immediate-release h4,
 .node-type-press-release.panelized-node .contact-title h4 {
   margin: 0; }
+.node-type-press-release.panelized-node .pane-node-field-upload-document {
+  text-align: center; }
+  .node-type-press-release.panelized-node .pane-node-field-upload-document .field--name-field-upload-document {
+    display: inline-block; }
 .node-type-press-release.panelized-node .field--name-field-pr-about {
   margin: 2em 0; }
 .node-type-press-release.panelized-node .field--name-field-full-contact-details {
