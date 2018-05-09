@@ -761,6 +761,10 @@ ul.breadcrumb {
   float: left;
   margin-right: 4px; }
 
+.node-type-article-post .pane-node-title,
+.node-type-panopoly-news-article .pane-node-title,
+.node-type-panopoly-faq .pane-node-title {
+  text-align: center; }
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image,
 .node-type-panopoly-faq .field--name-field-featured-image {

@@ -486,6 +486,10 @@
 .node-type-article-post,
 .node-type-panopoly-news-article,
 .node-type-panopoly-faq {
+  .pane-node-title {
+    text-align: center;
+  }
+  
   .field--name-field-featured-image {
     width: 100%;
 
