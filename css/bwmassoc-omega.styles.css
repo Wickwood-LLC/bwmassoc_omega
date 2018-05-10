@@ -1039,6 +1039,26 @@ p:last-child {
   width: 66%;
   background: white; }
 
+.pane-views-empty {
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+  @media (min-width: 944px) {
+    .pane-views-empty {
+      width: -webkit-calc(66% - 1em);
+      width: calc(66% - 1em);
+      margin-top: 0.5rem; } }
+  .pane-views-empty p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+    clear: both;
+    border: 1px solid #CCCCCC;
+    padding: 1em;
+    display: inline-block;
+    width: 100%; }
+
 .pane-views-pager {
   text-align: center; }
 

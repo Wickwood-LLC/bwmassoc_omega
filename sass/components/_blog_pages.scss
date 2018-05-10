@@ -782,9 +782,32 @@
 element.style {
 }
 p:last-child {
-    margin: 0;
+  margin: 0;
 }
 .vbo-views-form p, .view-empty p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+  clear: both;
+  border: 1px solid #CCCCCC;
+  padding: 1em;
+  display: inline-block;
+  width: 66%;
+  background: white;
+}
+
+.pane-views-empty {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+
+  @include breakpoint(944px) {
+    width: calc(66% - 1em);
+    margin-top: 0.5rem;
+  }
+
+  p {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -793,8 +816,8 @@ p:last-child {
     border: 1px solid #CCCCCC;
     padding: 1em;
     display: inline-block;
-    width: 66%;
-    background: white;
+    width: 100%;
+  }
 }
 
 .pane-views-pager {
