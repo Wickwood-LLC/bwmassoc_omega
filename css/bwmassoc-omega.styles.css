@@ -777,6 +777,8 @@ ul.breadcrumb {
 .blog-type-page .views-label-field-categories {
   float: left;
   margin-right: 4px; }
+.blog-type-page.section-faqs .views-field-title-field {
+  margin-bottom: 1em; }
 
 .node-type-article-post .pane-node-title,
 .node-type-panopoly-news-article .pane-node-title,
