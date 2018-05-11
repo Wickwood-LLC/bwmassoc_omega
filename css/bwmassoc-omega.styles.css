@@ -372,6 +372,20 @@ ul.breadcrumb {
       -webkit-column-width: 150px;
          -moz-column-width: 150px;
               column-width: 150px; }
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content .view-display-id-panel_pane_2 .item-list ul li {
+      border-bottom: 0;
+      margin-left: 0;
+      padding: 0; }
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content .view-display-id-panel_pane_2 .pager {
+      margin-bottom: 0; }
+      .blog-type-page #main-content .panel-myriad-layout .sidebar-content .view-display-id-panel_pane_2 .pager li {
+        list-style: none;
+        font-size: 14px;
+        display: inline-block;
+        padding: 3px 4px;
+        -webkit-border-radius: 5px;
+                border-radius: 5px;
+        width: auto; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content > div:first-child {
       margin-top: 0; }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .boxed .pane-title {
@@ -390,20 +404,6 @@ ul.breadcrumb {
               column-width: 150px; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
-  .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .item-list ul li {
-    border-bottom: 0;
-    margin-left: 0;
-    padding: 0; }
-  .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {
-    margin-bottom: 0; }
-    .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li {
-      list-style: none;
-      font-size: 14px;
-      display: inline-block;
-      padding: 3px 4px;
-      -webkit-border-radius: 5px;
-              border-radius: 5px;
-      width: auto; }
   .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-press-releases-test-panel-pane-6,
@@ -1068,6 +1068,8 @@ p:last-child {
 
 .pane-views-pager {
   text-align: center; }
+  .pane-views-pager ul.pager {
+    margin: 0; }
 
 ul.pager {
   display: inline-block;
@@ -1076,7 +1078,9 @@ ul.pager {
           border-radius: 6px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  margin: 0; }
+  display: table;
+  margin: auto;
+  margin-top: 1em; }
   ul.pager .pager__item {
     background: #eee;
     float: left; }

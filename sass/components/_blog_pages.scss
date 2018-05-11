@@ -106,6 +106,26 @@
         }
       }
 
+      .view-display-id-panel_pane_2 {
+        .item-list ul li {
+          border-bottom: 0;
+          margin-left: 0;
+          padding: 0;
+        }
+        .pager {
+          margin-bottom: 0;
+
+          li {
+            list-style: none;
+              font-size: 14px;
+              display: inline-block;
+              padding: 3px 4px;
+              border-radius: 5px;
+              width: auto;
+          }
+        }
+      }
+
       > div:first-child {
         margin-top: 0;
       }
@@ -135,26 +155,6 @@
 
     .view-display-id-panel_pane_1 .view-content {
       padding: 0.5em;
-    }
-
-    .view-display-id-panel_pane_2 {
-      .item-list ul li {
-        border-bottom: 0;
-        margin-left: 0;
-        padding: 0;
-      }
-      .pager {
-        margin-bottom: 0;
-
-        li {
-          list-style: none;
-            font-size: 14px;
-            display: inline-block;
-            padding: 3px 4px;
-            border-radius: 5px;
-            width: auto;
-        }
-      }
     }
 
     .pane-articles-test-panel-pane-6,
@@ -825,6 +825,10 @@ p:last-child {
 
 .pane-views-pager {
   text-align: center;
+
+  ul.pager {
+    margin: 0;
+  }
 }
 ul.pager {
   display: inline-block;
@@ -832,7 +836,9 @@ ul.pager {
   border-radius: 6px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  margin: 0;
+  display: table;
+  margin: auto;
+  margin-top: 1em;
 
   .pager__item {
     background: #eee;
@@ -860,7 +866,6 @@ ul.pager {
       color: black;
     }
   }
-
 }
 .sidebar-content ul.pager {
   display: block;
