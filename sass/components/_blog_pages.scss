@@ -239,7 +239,10 @@
           min-width: 0;
         }
 
-        .views-field-title-field, .views-field-title-field p {
+        .views-field-title,
+        .views-field-title-field,
+        .views-field-title p, 
+        .views-field-title-field p {
           text-align: center;
 
           a {
@@ -399,7 +402,9 @@
         }
       }
       .views-field-field-featured-image,
+      .views-field-title,
       .views-field-title-field, 
+      .views-field-title p,
       .views-field-title-field p {
         text-align: center;
         
@@ -478,6 +483,7 @@
     }
   }
 
+  .views-field-title p,
   .views-field-title-field p,
   .views-field-title-field h2 {
     text-align: center;
@@ -493,8 +499,11 @@
     margin-right: 4px;
   }
 
-  &.section-faqs .views-field-title-field {
-    margin-bottom: 1em;
+  &.section-faqs {
+    .views-field-title,
+    .views-field-title-field {
+      margin-bottom: 1em;
+    }
   }
 }
 

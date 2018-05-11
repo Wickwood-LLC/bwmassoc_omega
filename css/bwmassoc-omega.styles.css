@@ -502,21 +502,41 @@ ul.breadcrumb {
         .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-row {
           min-width: 0; } }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field, .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p,
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p {
         text-align: center; }
-        .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a, .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p a,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title a,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p a,
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p a,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title a,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field a,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p a,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p a {
           color: black; }
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a:hover, .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p a:hover,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title a:hover,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a:hover,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p a:hover,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p a:hover,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title a:hover,
           .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field a:hover,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p a:hover,
           .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p a:hover {
             color: blue;
             text-decoration: underline; }
-          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a > *, .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p a > *,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title a > *,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a > *,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p a > *,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p a > *,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title a > *,
           .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field a > *,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p a > *,
           .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p a > * {
             display: inline;
             font-size: inherit; }
@@ -678,39 +698,59 @@ ul.breadcrumb {
                   flex: 1 250px;
           font-size: 18px; } }
     .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title,
     .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p,
     .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field p,
     .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title,
     .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field,
+    .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p,
     .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field p {
       text-align: center; }
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title h3,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p h3,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field p h3,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title h3,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field h3,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p h3,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field p h3 {
         margin-bottom: 0; }
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title a,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p a,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field p a,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title a,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field a,
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p a,
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field p a {
         color: black; }
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title a:hover,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p a:hover,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field p a:hover,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title a:hover,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field a:hover,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p a:hover,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field p a:hover {
           color: blue;
           text-decoration: underline; }
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image a > *,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title a > *,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field a > *,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p a > *,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field p a > *,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image a > *,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title a > *,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field a > *,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p a > *,
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field p a > * {
           display: inline;
           font-size: inherit; }
@@ -766,6 +806,7 @@ ul.breadcrumb {
       text-decoration: underline; }
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
+.blog-type-page .views-field-title p,
 .blog-type-page .views-field-title-field p,
 .blog-type-page .views-field-title-field h2 {
   text-align: center;
@@ -777,6 +818,7 @@ ul.breadcrumb {
 .blog-type-page .views-label-field-categories {
   float: left;
   margin-right: 4px; }
+.blog-type-page.section-faqs .views-field-title,
 .blog-type-page.section-faqs .views-field-title-field {
   margin-bottom: 1em; }
 
