@@ -1069,7 +1069,7 @@ p:last-child {
 .pane-views-pager {
   text-align: center; }
   .pane-views-pager ul.pager {
-    margin: 0; }
+    margin: auto; }
 
 ul.pager {
   display: inline-block;
