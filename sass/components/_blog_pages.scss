@@ -95,6 +95,7 @@
       }
       @include breakpoint(944px) {
         min-width: 0;
+        flex: 300px;
       }
 
       .pane-articles-test-panel-pane-7,

@@ -361,7 +361,11 @@ ul.breadcrumb {
                 flex: 100%; } }
     @media (min-width: 944px) {
       .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
-        min-width: 0; } }
+        min-width: 0;
+        -webkit-box-flex: 300px;
+        -webkit-flex: 300px;
+            -ms-flex: 300px;
+                flex: 300px; } }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-articles-test-panel-pane-7 .view-content,
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-news-test-panel-pane-3 .view-content,
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content .pane-press-releases-test-panel-pane-3 .view-content {
