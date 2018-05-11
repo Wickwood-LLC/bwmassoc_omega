@@ -249,6 +249,11 @@
               color: blue;
               text-decoration: underline;
             }
+
+            > * {
+              display: inline;
+              font-size: inherit;
+            }
           }
         }
 
@@ -408,6 +413,11 @@
           &:hover {
             color: blue;
             text-decoration: underline;
+          }
+
+          > * {
+            display: inline;
+            font-size: inherit;
           }
         }
       }
