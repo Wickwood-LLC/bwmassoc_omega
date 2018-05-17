@@ -999,7 +999,7 @@ ul.breadcrumb {
     width: 100%; }
 .node-type-press-release.panelized-node .field--name-field-contact-website .field__item {
   word-break: break-word; }
-.node-type-press-release.panelized-node .pane-node-title h1 {
+.node-type-press-release.panelized-node .pane-node-title-field h1 {
   line-height: 1.5;
   text-align: center; }
 .node-type-press-release.panelized-node .pane-node-links {
