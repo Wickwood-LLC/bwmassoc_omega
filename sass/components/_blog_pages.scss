@@ -514,7 +514,7 @@
   .pane-node-title-field {
     text-align: center;
 
-    .field__item . * {
+    .field__item > * {
       margin-top: 0;
     }
   }
