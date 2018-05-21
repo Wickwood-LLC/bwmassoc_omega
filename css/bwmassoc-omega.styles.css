@@ -907,6 +907,10 @@ ul.breadcrumb {
   .node-type-panopoly-news-article .radix-layouts-sidebar .boxed,
   .node-type-panopoly-faq .radix-layouts-sidebar .boxed {
     padding-top: 2em; }
+  .node-type-article-post .radix-layouts-sidebar .pane-card-cycles-card-slideshow,
+  .node-type-panopoly-news-article .radix-layouts-sidebar .pane-card-cycles-card-slideshow,
+  .node-type-panopoly-faq .radix-layouts-sidebar .pane-card-cycles-card-slideshow {
+    margin-top: 1em; }
 .node-type-article-post .radix-layouts-sidebar .boxed,
 .node-type-panopoly-news-article .radix-layouts-sidebar .boxed,
 .node-type-panopoly-faq .radix-layouts-sidebar .boxed {
