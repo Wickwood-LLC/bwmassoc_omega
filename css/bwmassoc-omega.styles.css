@@ -874,7 +874,7 @@ ul.breadcrumb {
   -webkit-flex: 1 100%;
       -ms-flex: 1 100%;
           flex: 1 100%;
-  padding-right: 0; }
+  padding: 0; }
   @media (min-width: 848px) {
     .node-type-article-post .radix-layouts-content,
     .node-type-panopoly-news-article .radix-layouts-content,
@@ -893,7 +893,7 @@ ul.breadcrumb {
       -ms-flex: 1 300px;
           flex: 1 300px;
   min-width: 300px;
-  padding-left: 0; }
+  padding: 0; }
   @media (min-width: 848px) {
     .node-type-article-post .radix-layouts-sidebar,
     .node-type-panopoly-news-article .radix-layouts-sidebar,

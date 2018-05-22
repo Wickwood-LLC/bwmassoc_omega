@@ -548,7 +548,7 @@
 
   .radix-layouts-content {
     flex: 1 100%;
-    padding-right: 0;
+    padding: 0;
 
     @include breakpoint(848px) {
       flex: 3 0 560px;
@@ -560,7 +560,7 @@
   .radix-layouts-sidebar {
     flex: 1 300px;
     min-width: 300px;
-    padding-left: 0;
+    padding: 0;
 
     @include breakpoint(848px) {
       flex: 1 1 250px;
