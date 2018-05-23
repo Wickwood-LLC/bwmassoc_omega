@@ -836,7 +836,6 @@ p:last-child {
   text-align: center;
 
   @include breakpoint(944px) {
-    width: calc(66% - 1em);
     margin-top: 0.5rem;
   }
 

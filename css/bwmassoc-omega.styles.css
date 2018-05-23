@@ -1115,8 +1115,6 @@ p:last-child {
   text-align: center; }
   @media (min-width: 944px) {
     .pane-views-empty {
-      width: -webkit-calc(66% - 1em);
-      width: calc(66% - 1em);
       margin-top: 0.5rem; } }
   .pane-views-empty p {
     text-align: center;
