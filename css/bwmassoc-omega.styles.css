@@ -562,9 +562,18 @@ ul.breadcrumb {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex; }
+        .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-body .file-video .content,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-body .file-video .content {
+          position: relative;
+          padding-bottom: 56.25%;
+          height: 0; }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-body iframe,
         .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-body iframe {
-          max-width: 100%; }
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .featured-display {
     display: -webkit-box;
     display: -webkit-flex;
