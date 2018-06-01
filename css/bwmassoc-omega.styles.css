@@ -4204,6 +4204,11 @@ main#main-content .share-text {
       margin: 0;
       padding: 0.5em; } }
 
+.messages {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-height: 40px; }
+
 .registration-form .radix-bartlett .row {
   display: -webkit-box;
   display: -webkit-flex;
