@@ -642,7 +642,9 @@ ul.breadcrumb {
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .pane-node-field-card-image {
         text-align: center; }
       .blog-type-page #main-content .panel-myriad-layout .pane-card-cycles-card-blog .view-content .views-row .field--name-field-amazon-book-listing {
-        text-align: center; }
+        text-align: center;
+        width: 150px;
+        height: auto; }
   .blog-type-page #main-content .panel-myriad-layout .pane-node-field-call-to-action {
     text-align: center; }
     .blog-type-page #main-content .panel-myriad-layout .pane-node-field-call-to-action a {
