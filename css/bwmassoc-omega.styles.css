@@ -1084,8 +1084,8 @@ ul.breadcrumb {
 .view-display-id-card_slideshow div.field-type-asin,
 .view-display-id-card_slideshow_clone div.field-type-asin {
   border: 0px; }
-.view-display-id-card_slideshow .field-name-field-amazon-book-listing img,
-.view-display-id-card_slideshow_clone .field-name-field-amazon-book-listing img {
+.view-display-id-card_slideshow .field--name-field-amazon-book-listing img,
+.view-display-id-card_slideshow_clone .field--name-field-amazon-book-listing img {
   width: 150px;
   height: auto; }
 .view-display-id-card_slideshow .file-video iframe,
