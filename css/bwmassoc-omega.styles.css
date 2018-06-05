@@ -583,7 +583,8 @@ ul.breadcrumb {
     -webkit-box-direction: normal;
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
+            flex-flow: row wrap;
+    width: 100%; }
     @media (min-width: 944px) {
       .blog-type-page #main-content .panel-myriad-layout .featured-display {
         display: block; } }

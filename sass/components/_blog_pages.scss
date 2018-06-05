@@ -299,6 +299,7 @@
     .featured-display {
       display: flex;
       flex-flow: row wrap;
+      width: 100%;
 
       @include breakpoint(944px) {
         display: block;
