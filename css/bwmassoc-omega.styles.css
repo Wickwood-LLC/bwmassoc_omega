@@ -2127,6 +2127,16 @@ html.js fieldset.collapsed {
       #wwm-collapse-3 .middle-column .pane-share-us #widgets-element-socialmedia_share-default .widgets-element {
         margin-right: 3px; }
 
+.l-branding.sticky-header {
+  display: block;
+  position: fixed;
+  background: white;
+  z-index: 100;
+  -webkit-box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+          box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
+  left: 0;
+  width: 100%; }
+
 .page-node-12852 .radix-bryant .row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3796,6 +3806,9 @@ html.touch .tabs--primary ul.secondary-tabs {
     padding: 16px 20px; }
   body.not-logged-in #block-menu-menu-user-menu-bwmassoc-logout ul.menu li a {
     padding: 16px 20px; } }
+
+#block-system-main {
+  border: 0px; }
 
 main#main-content .field--name-title-field h1 p {
   font-size: 2rem;
