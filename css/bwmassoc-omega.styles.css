@@ -3241,7 +3241,8 @@ div.jp-audio {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    border: none; }
+    border: none;
+    height: auto; }
     div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls {
       display: -webkit-inline-box;
       display: -webkit-inline-flex;
@@ -3255,15 +3256,17 @@ div.jp-audio {
       -webkit-order: 0;
           -ms-flex-order: 0;
               order: 0; }
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls li {
+        line-height: 1; }
       div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls a {
         position: static;
         display: inline-block; }
-      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-play,
-      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-pause,
-      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-mute,
-      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-unmute {
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls a.jp-play,
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls a.jp-pause,
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls a.jp-mute,
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls a.jp-unmute {
         margin-right: 5px; }
-      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-stop {
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls a.jp-stop {
         display: none; }
     div.jp-audio div.jp-type-single div.jp-interface div.jp-playlist {
       display: none; }

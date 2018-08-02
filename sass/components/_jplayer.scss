@@ -9,24 +9,29 @@ div.jp-audio {
 			align-items: center;
 			width: 100%;
 			border: none;
+			height: auto;
 
 			ul.jp-controls {
 				display: inline-flex;
 				align-items: center;
 				order: 0;
 
+				li {
+					line-height: 1;
+				}
+
 				a {
 					position: static;
 					display: inline-block;
 				}
 
-				div.jp-play,
-				div.jp-pause,
-				div.jp-mute,
-				div.jp-unmute {
+				a.jp-play,
+				a.jp-pause,
+				a.jp-mute,
+				a.jp-unmute {
 					margin-right: 5px;
 				}
-				div.jp-stop {
+				a.jp-stop {
 					display: none;
 				}
 			}
