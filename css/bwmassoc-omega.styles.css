@@ -3226,7 +3226,8 @@ html.js fieldset.collapsed {
 
 div.jp-audio {
   border: 1px solid #009be3;
-  width: 100%; }
+  width: 100%;
+  max-width: 420px; }
   div.jp-audio div.jp-type-single div.jp-interface {
     display: -webkit-box;
     display: -webkit-flex;
