@@ -3242,55 +3242,55 @@ div.jp-audio {
             align-items: center;
     width: 100%;
     border: none; }
-  div.jp-audio div.jp-type-single ul.jp-controls {
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-ordinal-group: 1;
-    -webkit-order: 0;
-        -ms-flex-order: 0;
-            order: 0; }
-    div.jp-audio div.jp-type-single ul.jp-controls a {
+    div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls {
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-ordinal-group: 1;
+      -webkit-order: 0;
+          -ms-flex-order: 0;
+              order: 0; }
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls a {
+        position: static;
+        display: inline-block; }
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-play,
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-pause,
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-mute,
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-unmute {
+        margin-right: 5px; }
+      div.jp-audio div.jp-type-single div.jp-interface ul.jp-controls div.jp-stop {
+        display: none; }
+    div.jp-audio div.jp-type-single div.jp-interface div.jp-playlist {
+      display: none; }
+    div.jp-audio div.jp-type-single div.jp-interface div.jp-progress {
+      -webkit-box-ordinal-group: 3;
+      -webkit-order: 2;
+          -ms-flex-order: 2;
+              order: 2;
+      margin: 0 5px;
       position: static;
       display: inline-block; }
-    div.jp-audio div.jp-type-single ul.jp-controls div.jp-play,
-    div.jp-audio div.jp-type-single ul.jp-controls div.jp-pause,
-    div.jp-audio div.jp-type-single ul.jp-controls div.jp-mute,
-    div.jp-audio div.jp-type-single ul.jp-controls div.jp-unmute {
-      margin-right: 5px; }
-    div.jp-audio div.jp-type-single ul.jp-controls div.jp-stop {
-      display: none; }
-  div.jp-audio div.jp-type-single div.jp-playlist {
-    display: none; }
-  div.jp-audio div.jp-type-single div.jp-progress {
-    -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-        -ms-flex-order: 2;
-            order: 2;
-    margin: 0 5px;
-    position: static;
-    display: inline-block; }
-  div.jp-audio div.jp-type-single div.jp-volume-bar {
-    display: none !important; }
-  div.jp-audio div.jp-type-single div.jp-current-time, div.jp-audio div.jp-type-single div.jp-duration {
-    position: static;
-    display: inline-block;
-    width: auto; }
-  div.jp-audio div.jp-type-single div.jp-current-time {
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1; }
-  div.jp-audio div.jp-type-single div.jp-duration {
-    -webkit-box-ordinal-group: 4;
-    -webkit-order: 3;
-        -ms-flex-order: 3;
-            order: 3; }
+    div.jp-audio div.jp-type-single div.jp-interface div.jp-volume-bar {
+      display: none !important; }
+    div.jp-audio div.jp-type-single div.jp-interface div.jp-current-time, div.jp-audio div.jp-type-single div.jp-interface div.jp-duration {
+      position: static;
+      display: inline-block;
+      width: auto; }
+    div.jp-audio div.jp-type-single div.jp-interface div.jp-current-time {
+      -webkit-box-ordinal-group: 2;
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1; }
+    div.jp-audio div.jp-type-single div.jp-interface div.jp-duration {
+      -webkit-box-ordinal-group: 4;
+      -webkit-order: 3;
+          -ms-flex-order: 3;
+              order: 3; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login main#main-content,

@@ -9,49 +9,50 @@ div.jp-audio {
 			align-items: center;
 			width: 100%;
 			border: none;
-		}
-		ul.jp-controls {
-			display: inline-flex;
-			align-items: center;
-			order: 0;
 
-			a {
+			ul.jp-controls {
+				display: inline-flex;
+				align-items: center;
+				order: 0;
+
+				a {
+					position: static;
+					display: inline-block;
+				}
+
+				div.jp-play,
+				div.jp-pause,
+				div.jp-mute,
+				div.jp-unmute {
+					margin-right: 5px;
+				}
+				div.jp-stop {
+					display: none;
+				}
+			}
+			div.jp-playlist {
+				display: none;	
+			}
+			div.jp-progress {
+				order: 2;
+				margin: 0 5px;
 				position: static;
 				display: inline-block;
 			}
-
-			div.jp-play,
-			div.jp-pause,
-			div.jp-mute,
-			div.jp-unmute {
-				margin-right: 5px;
+			div.jp-volume-bar {
+				display: none !important;
 			}
-			div.jp-stop {
-				display: none;
+			div.jp-current-time, div.jp-duration {
+				position: static;
+				display: inline-block;
+				width: auto;
 			}
-		}
-		div.jp-playlist {
-			display: none;	
-		}
-		div.jp-progress {
-			order: 2;
-			margin: 0 5px;
-			position: static;
-			display: inline-block;
-		}
-		div.jp-volume-bar {
-			display: none !important;
-		}
-		div.jp-current-time, div.jp-duration {
-			position: static;
-			display: inline-block;
-			width: auto;
-		}
-		div.jp-current-time {
-			order: 1;
-		}
-		div.jp-duration {
-			order: 3;
+			div.jp-current-time {
+				order: 1;
+			}
+			div.jp-duration {
+				order: 3;
+			}
 		}
 	}
 }
