@@ -2666,7 +2666,8 @@ html.js fieldset.collapsed {
       display: block; } }
   .section-biweekly-calculator .pane-node-field-featured-image .field__items img {
     width: 100%;
-    vertical-align: bottom; }
+    vertical-align: bottom;
+    height: auto; }
 .section-biweekly-calculator div[alt="Compare Home"] {
   max-width: 255px;
   -webkit-box-flex: 1;
