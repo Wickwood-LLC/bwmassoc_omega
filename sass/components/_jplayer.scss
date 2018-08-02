@@ -2,8 +2,8 @@ div.jp-audio {
 	border: 1px solid #009be3;
 	width: 100%;
 
-	.jp-type-single {
-		.jp-interface {
+	div.jp-type-single {
+		div.jp-interface {
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -20,37 +20,37 @@ div.jp-audio {
 				display: inline-block;
 			}
 
-			.jp-play,
-			.jp-pause,
-			.jp-mute,
-			.jp-unmute {
+			div.jp-play,
+			div.jp-pause,
+			div.jp-mute,
+			div.jp-unmute {
 				margin-right: 5px;
 			}
-			.jp-stop {
+			div.jp-stop {
 				display: none;
 			}
 		}
-		.jp-playlist {
+		div.jp-playlist {
 			display: none;	
 		}
-		.jp-progress {
+		div.jp-progress {
 			order: 2;
 			margin: 0 5px;
 			position: static;
 			display: inline-block;
 		}
-		.jp-volume-bar {
-			display: none;
+		div.jp-volume-bar {
+			display: none !important;
 		}
 		div.jp-current-time, div.jp-duration {
 			position: static;
 			display: inline-block;
 			width: auto;
 		}
-		.jp-current-time {
+		div.jp-current-time {
 			order: 1;
 		}
-		.jp-duration {
+		div.jp-duration {
 			order: 3;
 		}
 	}

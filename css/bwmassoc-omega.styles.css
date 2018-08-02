@@ -3227,7 +3227,7 @@ html.js fieldset.collapsed {
 div.jp-audio {
   border: 1px solid #009be3;
   width: 100%; }
-  div.jp-audio .jp-type-single .jp-interface {
+  div.jp-audio div.jp-type-single div.jp-interface {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3242,7 +3242,7 @@ div.jp-audio {
             align-items: center;
     width: 100%;
     border: none; }
-  div.jp-audio .jp-type-single ul.jp-controls {
+  div.jp-audio div.jp-type-single ul.jp-controls {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
@@ -3255,19 +3255,19 @@ div.jp-audio {
     -webkit-order: 0;
         -ms-flex-order: 0;
             order: 0; }
-    div.jp-audio .jp-type-single ul.jp-controls a {
+    div.jp-audio div.jp-type-single ul.jp-controls a {
       position: static;
       display: inline-block; }
-    div.jp-audio .jp-type-single ul.jp-controls .jp-play,
-    div.jp-audio .jp-type-single ul.jp-controls .jp-pause,
-    div.jp-audio .jp-type-single ul.jp-controls .jp-mute,
-    div.jp-audio .jp-type-single ul.jp-controls .jp-unmute {
+    div.jp-audio div.jp-type-single ul.jp-controls div.jp-play,
+    div.jp-audio div.jp-type-single ul.jp-controls div.jp-pause,
+    div.jp-audio div.jp-type-single ul.jp-controls div.jp-mute,
+    div.jp-audio div.jp-type-single ul.jp-controls div.jp-unmute {
       margin-right: 5px; }
-    div.jp-audio .jp-type-single ul.jp-controls .jp-stop {
+    div.jp-audio div.jp-type-single ul.jp-controls div.jp-stop {
       display: none; }
-  div.jp-audio .jp-type-single .jp-playlist {
+  div.jp-audio div.jp-type-single div.jp-playlist {
     display: none; }
-  div.jp-audio .jp-type-single .jp-progress {
+  div.jp-audio div.jp-type-single div.jp-progress {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
         -ms-flex-order: 2;
@@ -3275,18 +3275,18 @@ div.jp-audio {
     margin: 0 5px;
     position: static;
     display: inline-block; }
-  div.jp-audio .jp-type-single .jp-volume-bar {
-    display: none; }
-  div.jp-audio .jp-type-single div.jp-current-time, div.jp-audio .jp-type-single div.jp-duration {
+  div.jp-audio div.jp-type-single div.jp-volume-bar {
+    display: none !important; }
+  div.jp-audio div.jp-type-single div.jp-current-time, div.jp-audio div.jp-type-single div.jp-duration {
     position: static;
     display: inline-block;
     width: auto; }
-  div.jp-audio .jp-type-single .jp-current-time {
+  div.jp-audio div.jp-type-single div.jp-current-time {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1; }
-  div.jp-audio .jp-type-single .jp-duration {
+  div.jp-audio div.jp-type-single div.jp-duration {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
         -ms-flex-order: 3;
