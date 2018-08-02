@@ -3224,6 +3224,74 @@ html.js fieldset.collapsed {
         background-color: white;
         color: black; }
 
+div.jp-audio {
+  border: 1px solid #009be3;
+  width: 100%; }
+  div.jp-audio .jp-type-single .jp-interface {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    border: none; }
+  div.jp-audio .jp-type-single ul.jp-controls {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+        -ms-flex-order: 0;
+            order: 0; }
+    div.jp-audio .jp-type-single ul.jp-controls a {
+      position: static;
+      display: inline-block; }
+    div.jp-audio .jp-type-single ul.jp-controls .jp-play,
+    div.jp-audio .jp-type-single ul.jp-controls .jp-pause,
+    div.jp-audio .jp-type-single ul.jp-controls .jp-mute,
+    div.jp-audio .jp-type-single ul.jp-controls .jp-unmute {
+      margin-right: 5px; }
+    div.jp-audio .jp-type-single ul.jp-controls .jp-stop {
+      display: none; }
+  div.jp-audio .jp-type-single .jp-playlist {
+    display: none; }
+  div.jp-audio .jp-type-single .jp-progress {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 0 5px;
+    position: static;
+    display: inline-block; }
+  div.jp-audio .jp-type-single .jp-volume-bar {
+    display: none; }
+  div.jp-audio .jp-type-single div.jp-current-time, div.jp-audio .jp-type-single div.jp-duration {
+    position: static;
+    display: inline-block;
+    width: auto; }
+  div.jp-audio .jp-type-single .jp-current-time {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; }
+  div.jp-audio .jp-type-single .jp-duration {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3; }
+
 /* These are styles for the login and registration pages. */
 .page-user-login main#main-content,
 .not-logged-in.page-user main#main-content,

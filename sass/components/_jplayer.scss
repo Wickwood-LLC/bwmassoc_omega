@@ -1,0 +1,57 @@
+div.jp-audio {
+	border: 1px solid #009be3;
+	width: 100%;
+
+	.jp-type-single {
+		.jp-interface {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			border: none;
+		}
+		ul.jp-controls {
+			display: inline-flex;
+			align-items: center;
+			order: 0;
+
+			a {
+				position: static;
+				display: inline-block;
+			}
+
+			.jp-play,
+			.jp-pause,
+			.jp-mute,
+			.jp-unmute {
+				margin-right: 5px;
+			}
+			.jp-stop {
+				display: none;
+			}
+		}
+		.jp-playlist {
+			display: none;	
+		}
+		.jp-progress {
+			order: 2;
+			margin: 0 5px;
+			position: static;
+			display: inline-block;
+		}
+		.jp-volume-bar {
+			display: none;
+		}
+		div.jp-current-time, div.jp-duration {
+			position: static;
+			display: inline-block;
+			width: auto;
+		}
+		.jp-current-time {
+			order: 1;
+		}
+		.jp-duration {
+			order: 3;
+		}
+	}
+}
