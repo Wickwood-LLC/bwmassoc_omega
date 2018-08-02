@@ -341,13 +341,11 @@
 	}
 }
 
-.l-branding.sticky-header {
-  display: block;
-  position: fixed;
-  background: white;
-  z-index: 100;
-  box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
-  left: 0;
-  width: 100%;
+.l-branding {
+	position: fixed;
+	top: 0px;
+	z-index: 10;
 }
-
+.admin-menu .l-branding {
+	top: 30px;
+}

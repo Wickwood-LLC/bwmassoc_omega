@@ -51,6 +51,9 @@ body {
   html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
     margin-top: 29px !important; } }
 
+.l-region--header {
+  margin-top: 66px; }
+
 .l-region--header,
 .l-main,
 .l-footer {
@@ -2127,15 +2130,13 @@ html.js fieldset.collapsed {
       #wwm-collapse-3 .middle-column .pane-share-us #widgets-element-socialmedia_share-default .widgets-element {
         margin-right: 3px; }
 
-.l-branding.sticky-header {
-  display: block;
+.l-branding {
   position: fixed;
-  background: white;
-  z-index: 100;
-  -webkit-box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
-          box-shadow: 0px 2px 8px 1px rgba(80, 80, 80, 0.7);
-  left: 0;
-  width: 100%; }
+  top: 0px;
+  z-index: 10; }
+
+.admin-menu .l-branding {
+  top: 30px; }
 
 .page-node-12852 .radix-bryant .row {
   display: -webkit-box;
