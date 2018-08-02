@@ -51,9 +51,6 @@ body {
   html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
     margin-top: 29px !important; } }
 
-.l-region--header {
-  margin-top: 66px; }
-
 .l-region--header,
 .l-main,
 .l-footer {
@@ -74,6 +71,9 @@ body {
     max-width: 1360px;
     margin: 0 auto;
     position: relative; }
+
+.l-region--header {
+  margin-top: 66px; }
 
 .l-region--header,
 .l-main,
