@@ -3341,6 +3341,14 @@ form#user-login, form#user-pass {
       margin: 0 auto;
       width: auto; }
 
+.mejs__container {
+  max-width: 100%; }
+
+.views-field-field-audio-testimonial .mejs__audio {
+  max-width: -webkit-calc(100% - 2px);
+  max-width: calc(100% - 2px);
+  margin-left: 1px; }
+
 #admin-menu .dropdown {
   font-size: 1em; }
 
@@ -4556,7 +4564,7 @@ main#main-content .share-text {
   .view-bwma-client-testimonials .views-row .views-field-title {
     position: absolute;
     z-index: 2;
-    bottom: 37px;
+    bottom: 48px;
     width: -webkit-calc(100% - 8px);
     width: calc(100% - 8px);
     text-align: center;
@@ -4569,7 +4577,7 @@ main#main-content .share-text {
     z-index: 2;
     left: 3px;
     right: 3px;
-    bottom: 3px; }
+    bottom: 8px; }
     .view-bwma-client-testimonials .views-row .views-field-field-audio-testimonial audio {
       width: 100%; }
   @media (min-width: 1024px) {
