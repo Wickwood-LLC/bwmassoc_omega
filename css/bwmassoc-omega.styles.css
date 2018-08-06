@@ -4082,24 +4082,26 @@ main#main-content .share-text {
       border-width: 0 1px 0 1px; }
       @media (min-width: 848px) {
         .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn1 {
-          border-width: 0 0 1px 1px; } }
+          border-width: 0 0 0 1px; } }
       @media (min-width: 1024px) {
         .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn1 {
           border-width: 0 1px 0 1px; } }
       @media (min-width: 1146px) {
         .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn1 {
-          border-width: 0 0 1px 1px; } }
+          border-width: 0 0 0 1px; } }
     .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
-      border-width: 0 1px 1px 1px; }
+      border-width: 0 1px 0 1px; }
       @media (min-width: 848px) {
         .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
-          border-width: 0 1px 1px 0; } }
+          border-width: 0 1px 0 0; } }
       @media (min-width: 1024px) {
         .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
-          border-width: 0 1px 1px 1px; } }
+          border-width: 0 1px 0 1px; } }
       @media (min-width: 1146px) {
         .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
-          border-width: 0 1px 1px 0; } }
+          border-width: 0 1px 0 0; } }
+    .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentfooter {
+      padding: 0; }
 .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a,
 .registration-form .pane-current-15 {
   display: inline-block;
