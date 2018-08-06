@@ -1,78 +1,78 @@
 #block-system-main {
-	border: 0px;
+    border: 0px;
 }
 
 main#main-content {
 
-	.field--name-title-field h1 p {
-		font-size: 2rem;
-		margin: 0;
-	}
+    .field--name-title-field h1 p {
+        font-size: 2rem;
+        margin: 0;
+    }
 
-	p {
-		font-size: 1rem;
-		font-family: FontAwesome, sans-serif;
+    p {
+        font-size: 1rem;
+        font-family: FontAwesome, sans-serif;
 
-		@include breakpoint(569px) {
-			font-size: 1.2rem;
-		}
+        @include breakpoint(569px) {
+            font-size: 1.2rem;
+        }
 
-		&:first-child {
-			margin-top: 0;
-		}
-	}
+        &:first-child {
+            margin-top: 0;
+        }
+    }
 
-	.pane-share-us {
-		#widgets-element-socialmedia_share-default {
-			text-align: center;
+    .pane-share-us {
+        #widgets-element-socialmedia_share-default {
+            text-align: center;
 
-			.widgets-element {
-				float: none;
-				display: inline-block;
-				margin-right: 5px;
+            .widgets-element {
+                float: none;
+                display: inline-block;
+                margin-right: 5px;
 
-				&:last-child {
-					margin-right: 0;
-				}
-			}
-		}
-	}
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 
-	.share-text {
-		text-align: center;
-		margin: 0.5em 0;
+    .share-text {
+        text-align: center;
+        margin: 0.5em 0;
 
-		p {
-			font-size: 1em;
-		}
+        p {
+            font-size: 1em;
+        }
 
-		.pane-title {
-			font-size: 16px;
-			padding: 0;
-			margin: 0;
-			display: inline-block;
-		}
-		.fieldable-panels-pane {
-			display: inline-block;
+        .pane-title {
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+        .fieldable-panels-pane {
+            display: inline-block;
 
-			p {
-				margin: 0;
-				font-weight: bold;
-			}
-		}
-	}
+            p {
+                margin: 0;
+                font-weight: bold;
+            }
+        }
+    }
 }
 
 .panels-flexible-200 {
-	@include breakpoint(0px 568px) {
-		.panels-flexible-region {
-			width: 100%;
-		}
+    @include breakpoint(0px 568px) {
+        .panels-flexible-region {
+            width: 100%;
+        }
 
-		.panels-flexible-region-inside-last {
-			padding-left: 0;
-		}
-	}
+        .panels-flexible-region-inside-last {
+            padding-left: 0;
+        }
+    }
 }
 
 .bwmassoc-page main#main-content {
@@ -84,253 +84,253 @@ main#main-content {
 }
 
 .bwmassoc-page-middle {
-	display: inline-block;
-	width: 100%;
-	background: #fff none repeat scroll 0 0;
-	border-left: 1px solid #c1c1c1;
-	border-right: 1px solid #c1c1c1;
-	padding: 0 2em;
+    display: inline-block;
+    width: 100%;
+    background: #fff none repeat scroll 0 0;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    padding: 0 2em;
 }
+
 .bwmassoc-page-bottom {
-	display: inline-block;
-	width: 100%;
-	background: #fff none repeat scroll 0 0;
-	border: 1px solid #c1c1c1;
-	border-top: 0px;
-	padding: 0 2em;
-	padding-bottom: 1em;
+    display: inline-block;
+    width: 100%;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c1c1c1;
+    border-top: 0px;
+    padding: 0 2em;
+    padding-bottom: 1em;
 }
 
 .page-biweekly-calculator-access-registration {
-	.pane-bundle-text {
-		width: 100%;
-	}
+    .pane-bundle-text {
+        width: 100%;
+    }
 }
 
 .wt-box {
-	text-align: justify;
+    text-align: justify;
 }
 
 .messages ul {
-	font-size: 1em;
+    font-size: 1em;
 
-	li {
-		margin-bottom: 0;
-	}
+    li {
+        margin-bottom: 0;
+    }
 }
 
 .page-admin-structure-views {
-	.views-displays,
-	#views-preview-wrapper {
-		background: white;
-	}
+    .views-displays,
+    #views-preview-wrapper {
+        background: white;
+    }
 }
 
 .page-categories,
 .page-taxonomy-term {
-	.radix-bartlett .row {
-		display: flex;
-		flex-flow: row wrap;
-		width: 100%;
-		margin: auto;
+    .radix-bartlett .row {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        margin: auto;
 
-		> .col-md-4 {
-			order: 1;
-			flex: 100%;
-			padding: 0;
+        >.col-md-4 {
+            order: 1;
+            flex: 100%;
+            padding: 0;
 
-			@include breakpoint(1024px) {
-				order: 0;
-				flex: 25%;
-			}
-		}
-		> .col-md-8 {
-			flex: 100%;
-			max-width: 100%;
-			padding: 0;
+            @include breakpoint(1024px) {
+                order: 0;
+                flex: 25%;
+            }
+        }
+        >.col-md-8 {
+            flex: 100%;
+            max-width: 100%;
+            padding: 0;
 
-			@include breakpoint(1024px) {
-				flex: calc(75% - 1em);
-				padding-left: 1em;
-			}
+            @include breakpoint(1024px) {
+                flex: calc(75% - 1em);
+                padding-left: 1em;
+            }
 
-			> .row {
-				display: flex;
-				flex-flow: row wrap;
-			}
-		}
+            >.row {
+                display: flex;
+                flex-flow: row wrap;
+            }
+        }
 
-		.radix-layouts-contentheader {
-			padding: 0;
-			flex: 100%;
-		}
+        .radix-layouts-contentheader {
+            padding: 0;
+            flex: 100%;
+        }
 
-		.radix-layouts-contentcolumn1 {
-			flex: 100%;
-			order: 1;
-			background: white;
-			border: 1px solid #cccccc;
-			border-top: 0;
-			border-radius: 0 0 5px 5px;
-			display: flex;
-			flex-flow: row wrap;
-			align-items: stretch;
-			justify-content: center;
+        .radix-layouts-contentcolumn1 {
+            flex: 100%;
+            order: 1;
+            background: white;
+            border: 1px solid #cccccc;
+            border-top: 0;
+            border-radius: 0 0 5px 5px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: stretch;
+            justify-content: center;
 
-			@include breakpoint(848px 1023px) {
-				flex: 75%;
-				order: 0;
-				border-right: 0;
-				border-top: 0;
-				border-bottom-right-radius: 0px;
-			}
-			@include breakpoint(1024px 1145px) {
-				flex: 100%;
-				order: 1;
-			}
-			@include breakpoint(1146px) {
-				flex: 75%;
-				order: 0;
-				border-right: 0;
-				border-top: 0;
-				border-bottom-right-radius: 0px;
-			}
+            @include breakpoint(848px 1023px) {
+                flex: 75%;
+                order: 0;
+                border-right: 0;
+                border-top: 0;
+                border-bottom-right-radius: 0px;
+            }
+            @include breakpoint(1024px 1145px) {
+                flex: 100%;
+                order: 1;
+            }
+            @include breakpoint(1146px) {
+                flex: 75%;
+                order: 0;
+                border-right: 0;
+                border-top: 0;
+                border-bottom-right-radius: 0px;
+            }
+        }
+        .radix-layouts-contentcolumn2 {
+            flex: 100%;
+            order: 0;
+            background: white;
+            border-left: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+            border-top: 1px solid #cccccc;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
 
-		}
-		.radix-layouts-contentcolumn2 {
-			flex: 100%;
-			order: 0;
-			background: white;
-			border-left: 1px solid #cccccc;
-			border-right: 1px solid #cccccc;
-			border-top: 1px solid #cccccc;
-			border-top-left-radius: 5px;
-			border-top-right-radius: 5px;
+            @include breakpoint(768px) {
+                border-top: 0;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
 
-			@include breakpoint(768px) {
-				border-top: 0;
-				border-top-left-radius: 0;
-				border-top-right-radius: 0;
-			}
+            @include breakpoint(848px 1023px) {
+                flex: 25%;
+                max-width: 25%;
+                order: 1;
+                border-left: 0;
+                border-bottom: 1px solid #cccccc;
+                border-bottom-right-radius: 5px;
+                padding-top: 0.5em;
+            }
+            @include breakpoint(1024px 1145px) {
+                flex: 100%;
+                order: 0;
+            }
+            @include breakpoint(1146px) {
+                flex: 25%;
+                max-width: 25%;
+                order: 1;
+                border-left: 0;
+                border-bottom: 1px solid #cccccc;
+                border-bottom-right-radius: 5px;
+                padding-top: 0.5em;
+            }
+        }
+    }
 
-			@include breakpoint(848px 1023px) {
-				flex: 25%;
-				max-width: 25%;
-				order: 1;
-				border-left: 0;
-				border-bottom: 1px solid #cccccc;
-				border-bottom-right-radius: 5px;
-				padding-top: 0.5em;
-			}
-			@include breakpoint(1024px 1145px) {
-				flex: 100%;
-				order: 0;
-			}
-			@include breakpoint(1146px) {
-				flex: 25%;
-				max-width: 25%;
-				order: 1;
-				border-left: 0;
-				border-bottom: 1px solid #cccccc;
-				border-bottom-right-radius: 5px;
-				padding-top: 0.5em;
-			}
-		}
-	}
+    .view-display-id-panel_pane_2 {
+        .view-content {
+            padding: 0 1em;
+            margin: -0.5em;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: stretch;
+            justify-content: center;
+        }
+        .views-row {
+            margin: 0.5em;
+            flex: 0 1 200px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 
-	.view-display-id-panel_pane_2 {
-		.view-content {
-			padding: 0 1em;
-			margin: -0.5em;
-			display: flex;
-			flex-flow: row wrap;
-			align-items: stretch;
-			justify-content: center;
-		}
-		.views-row {
-			margin: 0.5em;
-			flex: 0 1 200px;
-			text-align: center;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-	}
+    .views-exposed-widgets {
+        display: flex;
+        align-items: flex-start;
+        flex-flow: row wrap;
 
-	.views-exposed-widgets {
-		display: flex;
-		align-items: flex-start;
-		flex-flow: row wrap;
+        .views-widget-filter-published_at,
+        .form-item-published-at-op-tags select,
+        .form-item-published-at-tags-min input,
+        .form-item-published-at-tags-max input {
+            width: 100%;
+        }
+    }
 
-		.views-widget-filter-published_at,
-		.form-item-published-at-op-tags select,
-		.form-item-published-at-tags-min input,
-		.form-item-published-at-tags-max input {
-			width: 100%;
-		}
-	}
+    .views-widget-filter-type {
+        flex: 100%;
 
-	.views-widget-filter-type {
-		flex: 100%;
-		
-		.views-widget,
-		.form-type-bef-checkbox {
-			display: inline-block;
-		}
-	}
+        .views-widget,
+        .form-type-bef-checkbox {
+            display: inline-block;
+        }
+    }
 
-	.views-submit-button,
-	.views-reset-button {
-		flex: 1 1 auto;
-		text-align: right;
-		padding-right: 0;
+    .views-submit-button,
+    .views-reset-button {
+        flex: 1 1 auto;
+        text-align: right;
+        padding-right: 0;
 
-		input.form-submit {
-			margin: 0;
-		}
-	}
+        input.form-submit {
+            margin: 0;
+        }
+    }
 
-	.pane-title {
-		text-align: center;
-		margin-bottom: 0;
-	}
+    .pane-title {
+        text-align: center;
+        margin-bottom: 0;
+    }
 
-	#views_slideshow_cycle_div_card_cycles-card_blog_1_0 {
-		display: flex;
-		flex-flow: row wrap;
+    #views_slideshow_cycle_div_card_cycles-card_blog_1_0 {
+        display: flex;
+        flex-flow: row wrap;
 
-		.views-row {
-			flex: 1 1 30%;
-			margin: 0.5em;
-		}
-	}
+        .views-row {
+            flex: 1 1 30%;
+            margin: 0.5em;
+        }
+    }
 
-	.view-empty {
-		display: flex;
-		padding: 0.5em;
+    .view-empty {
+        display: flex;
+        padding: 0.5em;
 
-		p {
-			width: 100%;
-			border-radius: 5px;
-		}
-	}
+        p {
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
 }
 
 .page-taxonomy-term.blog-type-page #main-content .panel-myriad-layout {
-	display: block;
-	
-	@include breakpoint (0px 943px){
-		.sidebar-content {
-			flex: 100%;
-			width: 100%;
-			margin: 0;
-			padding: 0.5em;
-		}
-	}
+    display: block;
+
+    @include breakpoint (0px 943px) {
+        .sidebar-content {
+            flex: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0.5em;
+        }
+    }
 }
 
 .messages {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	min-height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 40px;
 }

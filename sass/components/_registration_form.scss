@@ -1,5 +1,40 @@
 .registration-form {
-	.radix-bartlett .row {
+	// .radix-selby {
+	//     .container-fluid>.row {
+	//         display: flex;
+	//         flex-flow: row nowrap;
+	//         margin: 0;
+	//     }
+	//     .col-md-4 {
+	//         order: 1;
+	//         flex: 100%;
+	//         padding: 0;
+
+	//         @include breakpoint(1024px) {
+	//             order: 0;
+	//             flex: 25%;
+	//         }
+	//     }
+	//     .col-md-8 {
+	//         flex: 100%;
+	//         max-width: 100%;
+	//         padding: 0;
+
+	//         >.row:nth-child(2) {
+	//             margin-left: 0;
+	//             margin-right: 0;
+	//             border-left: 1px solid #c1c1c1;
+	//             border-right: 1px solid #c1c1c1;
+	//             background: white;
+	//         }
+
+	//         @include breakpoint(1024px) {
+	//             flex: calc(75% - 1em);
+	//             padding-left: 1em;
+	//         }
+	//     }
+	// }
+	.radix-selby .row {
 		display: flex;
 		flex-flow: row wrap;
 		margin: 0;
