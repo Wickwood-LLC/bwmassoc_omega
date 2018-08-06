@@ -1077,13 +1077,13 @@
         }
 
         &:first-child a {
-            background: #57a63d;
-            border: 1px solid #57a63d;
+            background: #68ca24;
+            border: 1px solid #68ca24;
             border-bottom: 1px solid #c1c1c1;
         }
         &:nth-child(2) a {
-            background: #0792cd;
-            border: 1px solid #0792cd;
+            background: #529e39;
+            border: 1px solid #529e39;
             border-bottom: 1px solid #c1c1c1;
         }
         &:nth-child(3) a {
@@ -1092,11 +1092,16 @@
             border-bottom: 1px solid #c1c1c1;
         }
         &:nth-child(4) a {
+            background: #0792cd;
+            border: 1px solid #0792cd;
+            border-bottom: 1px solid #c1c1c1;
+        }
+        &:nth-child(5) a {
             background: #33a6d7;
             border: 1px solid #33a6d7;
             border-bottom: 1px solid #c1c1c1;
         }
-        &:nth-child(5) a {
+        &:nth-child(6) a {
             background: #0355a3;
             border: 1px solid #0355a3;
             border-bottom: 1px solid #c1c1c1;
