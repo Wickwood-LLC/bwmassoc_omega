@@ -517,7 +517,8 @@
 		}
 	}
 
-	.pane-node-field-featured-image {
+	.pane-node-field-featured-image,
+	.girl-on-phone {
 		z-index: 1;
 		right: 0;
 		bottom: 0;
@@ -644,6 +645,10 @@
 		display: table;
 		clear: both;
 		margin-bottom: 0;
+
+		a {
+			color: #fff;
+		}
 	}
 	.saved {
 		color: #fff;
@@ -656,6 +661,10 @@
 		display: table;
 		clear: both;
 		margin-bottom: 0;
+
+		a {
+			color: #fff;
+		}
 	}
 	.calculate-savings {
 		color: #fff;

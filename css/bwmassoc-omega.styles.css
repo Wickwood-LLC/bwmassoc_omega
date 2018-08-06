@@ -2479,7 +2479,8 @@ html.js fieldset.collapsed {
     .homepage .pane-node-body .field__item > h1 a {
       color: #0355a3;
       text-decoration: none; }
-.homepage .pane-node-field-featured-image {
+.homepage .pane-node-field-featured-image,
+.homepage .girl-on-phone {
   z-index: 1;
   right: 0;
   bottom: 0;
@@ -2488,9 +2489,11 @@ html.js fieldset.collapsed {
   position: absolute;
   display: none; }
   @media (min-width: 768px) {
-    .homepage .pane-node-field-featured-image {
+    .homepage .pane-node-field-featured-image,
+    .homepage .girl-on-phone {
       display: block; } }
-  .homepage .pane-node-field-featured-image .field__items img {
+  .homepage .pane-node-field-featured-image .field__items img,
+  .homepage .girl-on-phone .field__items img {
     width: 100%;
     vertical-align: bottom;
     height: auto; }
@@ -2594,6 +2597,8 @@ html.js fieldset.collapsed {
   display: table;
   clear: both;
   margin-bottom: 0; }
+  .homepage .saved-nothing a {
+    color: #fff; }
 .homepage .saved {
   color: #fff;
   font-size: 18px;
@@ -2605,6 +2610,8 @@ html.js fieldset.collapsed {
   display: table;
   clear: both;
   margin-bottom: 0; }
+  .homepage .saved a {
+    color: #fff; }
 .homepage .calculate-savings {
   color: #fff;
   font-weight: 600;
