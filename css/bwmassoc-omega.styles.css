@@ -2204,7 +2204,8 @@ html.js fieldset.collapsed {
             font-size: 24px; }
             .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .text-info ul li img {
               width: auto; } }
-  .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #conventional h2, .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #conventional h3,
+  .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #conventional h2,
+  .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #conventional h3,
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #supersaver h2,
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #supersaver h3 {
     margin: 0; }
@@ -2550,7 +2551,8 @@ html.js fieldset.collapsed {
           font-size: 24px; }
           .homepage .text-info ul li img {
             width: auto; } }
-.homepage #conventional h2, .homepage #conventional h3,
+.homepage #conventional h2,
+.homepage #conventional h3,
 .homepage #supersaver h2,
 .homepage #supersaver h3 {
   margin: 0; }
@@ -2588,7 +2590,15 @@ html.js fieldset.collapsed {
   margin: 1em auto;
   display: table;
   clear: both;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border: solid #BDBDBD 1px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); }
+  .homepage .saved-nothing:hover {
+    background: #ce1d24;
+    border: solid #BDBDBD 1px;
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5) inset;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5) inset; }
   .homepage .saved-nothing a {
     color: #fff; }
 .homepage .saved {
@@ -2601,7 +2611,15 @@ html.js fieldset.collapsed {
   margin: 1em auto;
   display: table;
   clear: both;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border: solid #BDBDBD 1px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); }
+  .homepage .saved:hover {
+    background: #028627;
+    border: solid #BDBDBD 1px;
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5) inset;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5) inset; }
   .homepage .saved a {
     color: #fff; }
 .homepage .calculate-savings {
@@ -2613,19 +2631,29 @@ html.js fieldset.collapsed {
   margin: 0.5em auto;
   display: table;
   text-decoration: none;
-  clear: both; }
+  clear: both;
+  border: solid #BDBDBD 1px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5); }
+  .homepage .calculate-savings:hover {
+    background: #2D56ED;
+    border: solid #BDBDBD 1px;
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5) inset;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5) inset; }
   .homepage .calculate-savings:before {
     font-family: FontAwesome;
     margin-right: 5px; }
 
 .section-7-minutes-7-years main#main-content,
-.section-as-seen-on-tv main#main-content {
+.section-as-seen-on-tv
+main#main-content {
   background-color: transparent;
   padding: 0;
   border: 0;
   border-radius: 0; }
 .section-7-minutes-7-years .radix-bryant .row .pane-content-area-bwmassoc,
-.section-as-seen-on-tv .radix-bryant .row .pane-content-area-bwmassoc {
+.section-as-seen-on-tv
+.radix-bryant .row .pane-content-area-bwmassoc {
   padding: 0 2em; }
 
 .calculate-savings,
