@@ -2481,7 +2481,7 @@ html.js fieldset.collapsed {
       text-decoration: none; }
 .homepage .pane-node-field-featured-image,
 .homepage .girl-on-phone {
-  z-index: 1;
+  z-index: -1;
   right: 0;
   bottom: 0;
   max-width: 40%;
@@ -2511,12 +2511,8 @@ html.js fieldset.collapsed {
       width: 100%; } }
 .homepage .text-info {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
+      -ms-flex: 1 1 65%;
+          flex: 1 1 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2568,13 +2564,9 @@ html.js fieldset.collapsed {
           align-items: center; }
   .homepage #conventional > .content > .media,
   .homepage #supersaver > .content > .media {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto; }
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 255px;
+            flex: 0 1 255px; }
   .homepage #conventional > .content li p,
   .homepage #supersaver > .content li p {
     margin: 0;

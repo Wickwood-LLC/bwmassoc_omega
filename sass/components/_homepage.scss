@@ -519,7 +519,7 @@
 
 	.pane-node-field-featured-image,
 	.girl-on-phone {
-		z-index: 1;
+		z-index: -1;
 		right: 0;
 		bottom: 0;
 		max-width: 40%;
@@ -556,9 +556,7 @@
 	}
 
 	.text-info {
-		flex-grow: 1;
-		flex-shrink: 1;
-		flex-basis: auto;
+		flex: 1 1 65%;
 		display: flex;
 		flex-flow: row wrap;
 
@@ -610,9 +608,7 @@
 			align-items: center;
 
 			> .media {
-				flex-grow: 1;
-				flex-shrink: 1;
-				flex-basis: auto;
+				flex: 0 1 255px;
 			}
 
 			li p {
