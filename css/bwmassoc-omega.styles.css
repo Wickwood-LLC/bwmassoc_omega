@@ -3690,6 +3690,18 @@ main#main-content .share-text {
   border: 0;
   border-radius: 0; }
 
+.bwmassoc-page-top {
+  display: inline-block;
+  width: 100%;
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #c1c1c1;
+  border-bottom: 0px;
+  padding: 0 2em;
+  padding-top: 1em; }
+  @media (min-width: 768px) {
+    .bwmassoc-page-top {
+      border-top: 0; } }
+
 .bwmassoc-page-middle {
   display: inline-block;
   width: 100%;
@@ -4342,11 +4354,6 @@ main#main-content .share-text {
       width: 100%; }
       .registration-form-submitted .radix-bartlett .row .col-md-8 .radix-layouts-contentheader .panel-panel-inner {
         border-bottom: 1px solid #c1c1c1; }
-  .registration-form-submitted .radix-bartlett .row .bwmassoc-page-middle {
-    border-top: 1px solid #c1c1c1; }
-    @media (min-width: 768px) {
-      .registration-form-submitted .radix-bartlett .row .bwmassoc-page-middle {
-        border-top: 0; } }
 
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
