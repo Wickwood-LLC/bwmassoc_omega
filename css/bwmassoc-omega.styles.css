@@ -2511,6 +2511,8 @@ html.js fieldset.collapsed {
     width: 100%;
     vertical-align: bottom;
     height: auto; }
+.homepage .pane-node-field-featured-image {
+  z-index: 0; }
 .homepage div[alt="Compare Home"] {
   max-width: 255px;
   -webkit-box-flex: 1;
@@ -4278,6 +4280,64 @@ main#main-content .share-text {
     .registration-form .success-bwma-reg {
       width: auto; } }
 
+.registration-form-submitted .radix-bartlett .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 0; }
+  .registration-form-submitted .radix-bartlett .row .radix-layouts-sidebar {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    padding: 0; }
+    @media (min-width: 1024px) {
+      .registration-form-submitted .radix-bartlett .row .radix-layouts-sidebar {
+        -webkit-box-ordinal-group: 1;
+            -ms-flex-order: 0;
+                order: 0;
+        -webkit-box-flex: 25%;
+            -ms-flex: 25%;
+                flex: 25%; } }
+    .registration-form-submitted .radix-bartlett .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .pane-title {
+      text-align: center;
+      margin-bottom: 0; }
+    .registration-form-submitted .radix-bartlett .row .radix-layouts-sidebar .pane-uuid-0ca4c5ea-c6b6-4588-96a9-7a654351b5d9 .fieldable-panels-pane p {
+      margin-top: 0;
+      margin-bottom: 0; }
+    .registration-form-submitted .radix-bartlett .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .registration-form-submitted .radix-bartlett .row .radix-layouts-sidebar #widgets-element-socialmedia_share-default .widgets-element {
+        margin-right: 5px; }
+  .registration-form-submitted .radix-bartlett .row .col-md-8 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+    padding: 0; }
+    @media (min-width: 1024px) {
+      .registration-form-submitted .radix-bartlett .row .col-md-8 {
+        -webkit-box-flex: calc(75% - 1em);
+            -ms-flex: calc(75% - 1em);
+                flex: calc(75% - 1em);
+        padding-left: 1em; } }
+    .registration-form-submitted .radix-bartlett .row .col-md-8 .radix-layouts-contentheader {
+      padding: 0;
+      width: 100%; }
+      .registration-form-submitted .radix-bartlett .row .col-md-8 .radix-layouts-contentheader .panel-panel-inner {
+        border-bottom: 1px solid #c1c1c1; }
+
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5835,4 +5895,5 @@ html[data-useragent*='iPad'] #wwm-special-2 .bottom-columns section {
 
 .pane-chaos-data .field .field__label {
   max-width: 100%; }
+
 /*# sourceMappingURL=bwmassoc-omega.styles.css.map */
