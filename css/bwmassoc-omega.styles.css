@@ -4130,6 +4130,11 @@ main#main-content .share-text {
           border-width: 0 1px 0 0; } }
     .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentfooter {
       padding: 0; }
+  .registration-form .radix-selby .row .bwmassoc-page-middle {
+    border-top: 1px solid #c1c1c1; }
+    @media (min-width: 768px) {
+      .registration-form .radix-selby .row .bwmassoc-page-middle {
+        border-top: 0; } }
 .registration-form .pane-uuid-fdb15536-fa5f-4729-bb0a-59deeb96268a,
 .registration-form .pane-current-15 {
   display: inline-block;
@@ -4337,6 +4342,11 @@ main#main-content .share-text {
       width: 100%; }
       .registration-form-submitted .radix-bartlett .row .col-md-8 .radix-layouts-contentheader .panel-panel-inner {
         border-bottom: 1px solid #c1c1c1; }
+  .registration-form-submitted .radix-bartlett .row .bwmassoc-page-middle {
+    border-top: 1px solid #c1c1c1; }
+    @media (min-width: 768px) {
+      .registration-form-submitted .radix-bartlett .row .bwmassoc-page-middle {
+        border-top: 0; } }
 
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
