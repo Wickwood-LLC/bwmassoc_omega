@@ -2238,12 +2238,6 @@ html.js fieldset.collapsed {
       margin: 0; }
     .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #cta1 p {
       margin: 0; }
-  .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #cta2 {
-    margin-bottom: 1em; }
-    .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #cta2 h1 {
-      margin: 0; }
-    .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 #cta2 p {
-      margin: 0; }
   .page-node-12852 #quicktabs-container-bwmassoc_home_page #quicktabs-tabpage-bwmassoc_home_page-0 .saved-nothing {
     color: #fff;
     font-size: 18px;
@@ -2600,13 +2594,6 @@ html.js fieldset.collapsed {
   .homepage #cta1 h1 {
     margin: 0; }
   .homepage #cta1 p {
-    margin: 0; }
-.homepage #cta2 {
-  margin-bottom: 1em;
-  padding: 0 1em; }
-  .homepage #cta2 h1 {
-    margin: 0; }
-  .homepage #cta2 p {
     margin: 0; }
 .homepage .saved-nothing {
   color: #fff;
@@ -3066,6 +3053,14 @@ main#main-content {
       #superfish-4-accordion li a.active {
         background-color: white;
         color: black; }
+
+#cta2 {
+  margin-bottom: 1em;
+  padding: 0 1em; }
+  #cta2 h1 {
+    margin: 0; }
+  #cta2 p {
+    margin: 0; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login main#main-content,

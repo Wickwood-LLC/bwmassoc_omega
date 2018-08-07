@@ -260,16 +260,6 @@
                     margin: 0;
                 }
             }
-            #cta2 {
-                margin-bottom: 1em;
-
-                h1 {
-                    margin: 0;
-                }
-                p {
-                    margin: 0;
-                }
-            }
 
             .saved-nothing {
                 color: #fff;
@@ -651,17 +641,6 @@
         	width: calc(152% - 2px);
         	padding: 0 17%;
         }
-
-        h1 {
-            margin: 0;
-        }
-        p {
-            margin: 0;
-        }
-    }
-    #cta2 {
-        margin-bottom: 1em;
-        padding: 0 1em;
 
         h1 {
             margin: 0;
@@ -1245,5 +1224,17 @@
                 color: black;
             }
         }
+    }
+}
+
+#cta2 {
+    margin-bottom: 1em;
+    padding: 0 1em;
+
+    h1 {
+        margin: 0;
+    }
+    p {
+        margin: 0;
     }
 }
