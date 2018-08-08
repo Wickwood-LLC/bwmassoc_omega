@@ -285,22 +285,6 @@
                 clear: both;
                 margin-bottom: 0;
             }
-            .calculate-savings {
-                color: #fff;
-                font-weight: 600;
-                background: #017cca;
-                padding: 9px 15px;
-                border-radius: 75px;
-                margin: 0.5em auto;
-                display: table;
-                text-decoration: none;
-                clear: both;
-
-                &:before {
-                    font-family: FontAwesome;
-                    margin-right: 5px;
-                }
-            }
         }
 
         #quicktabs-tabpage-bwmassoc_home_page-1 {
@@ -364,23 +348,6 @@
                 td {
                     padding: 10px;
                     width: calc(100% / 3);
-                }
-            }
-
-            .calculate-savings {
-                color: #fff;
-                font-weight: 600;
-                background: #017cca;
-                padding: 9px 15px;
-                border-radius: 75px;
-                margin: 0.5em auto;
-                display: table;
-                text-decoration: none;
-                clear: both;
-
-                &:before {
-                    font-family: FontAwesome;
-                    margin-right: 5px;
                 }
             }
         }
@@ -994,7 +961,6 @@
             border-top-left-radius: 5px;
             border-top-right-radius: 24px;
             color: #fff;
-            font-size: 11px;
             font-weight: bold;
             padding: 12px 10px;
             display: inline-block;
@@ -1006,6 +972,9 @@
             width: 100%;
             text-align: center;
             height: 37px;
+
+            font-size: 14px;  // backup size
+			@include fluid-type(400px, 718px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 
             &:after {
                 content: " ";
@@ -1160,8 +1129,10 @@
     border-radius: 10px;
     border-left: 0px;
     padding: 0.5em;
-    font-size: 1.2em;
     text-decoration: none;
+
+    font-size: 14px;  // backup size
+	@include fluid-type(400px, 718px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 
     &.sf-expanded {
         background-color: #239fd3;
