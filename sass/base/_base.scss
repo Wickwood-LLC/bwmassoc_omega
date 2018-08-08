@@ -216,11 +216,12 @@ td {
   width: 100%;
 
 	.page-title {
-		font-size: 1.5em;
-
-    @include breakpoint(569px) {
-      font-size: 2em;
-    }
+		font-size: 24px;  // backup size
+    @include fluid-type(400px, 1200px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    text-transform: capitalize;
+    bottom-border: none;
+    font-weight: 700;
+    margin-bottom: 0em;
 	}
 }
 
@@ -241,7 +242,10 @@ td {
   }
   h2.pane-title {
     top: -13px;
-    font-size: 1.3em;
+    font-size: 22px;
+    @include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    text-transform: capitalize;
+    border-bottom: 1px solid #d6dd89;
   }
   h3.pane-title {
     top: -11px;
