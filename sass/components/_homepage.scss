@@ -1153,19 +1153,22 @@
         width: 100%;
 
         &:first-child a {
-            background: #57a63d;
+            background: #68ca24;
         }
         &:nth-child(2) a {
-            background: #0792cd;
+            background: #529e39;
         }
         &:nth-child(3) a {
             background: #ec1f27;
         }
         &:nth-child(4) a {
-            background: #33a6d7;
+            background: #0792cd;
         }
         &:nth-child(5) a {
-            background: #0355a3;
+            background: #33a6d7;
+        }
+        &:nth-child(6) a {
+        	background: #0355a3;
         }
         &:last-child {
             border-radius: 0 0 10px 10px;
