@@ -2858,6 +2858,7 @@ main#main-content {
       border-top-left-radius: 5px;
       border-top-right-radius: 24px;
       color: #fff;
+      font-size: 11px;
       font-weight: bold;
       padding: 12px 10px;
       display: inline-block;
@@ -2868,14 +2869,7 @@ main#main-content {
       border-bottom: 1px solid #c1c1c1;
       width: 100%;
       text-align: center;
-      height: 37px;
-      font-size: 14px; }
-      @media screen and (min-width: 400px) {
-        #superfish-4 li a {
-          font-size: calc(14px + 4 * ((100vw - 400px) / 318)); } }
-      @media screen and (min-width: 718px) {
-        #superfish-4 li a {
-          font-size: 18px; } }
+      height: 37px; }
       #superfish-4 li a:after {
         content: " ";
         position: absolute;
@@ -3033,7 +3027,14 @@ main#main-content {
       padding-left: 34px;
       text-decoration: none;
       padding: 0.75em 1em;
-      text-align: center; }
+      text-align: center;
+      font-size: 14px; }
+      @media screen and (min-width: 400px) {
+        #superfish-4-accordion li a {
+          font-size: calc(14px + 4 * ((100vw - 400px) / 318)); } }
+      @media screen and (min-width: 718px) {
+        #superfish-4-accordion li a {
+          font-size: 18px; } }
       #superfish-4-accordion li a:hover {
         background-color: #ffc43d;
         color: black; }
