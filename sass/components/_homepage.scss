@@ -436,9 +436,12 @@
         text-decoration: none;
 
         h1 {
-            @include breakpoint(0px 568px) {
-                font-size: 1.5em;
-            }
+            font-size: 24px;  // backup size
+            @include fluid-type(400px, 1200px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+            text-transform: capitalize;
+            bottom-border: none;
+            font-weight: 700;
+            margin-bottom: 0em;
         }
     }
 }

@@ -102,30 +102,52 @@ ul:not([class]) {
 
 h1 {
   display: block;
-  font-size: 2em;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold; }
+  font-size: 24px;
+  text-transform: none;
+  font-weight: 700;
+  bottom-border: none; }
+  @media screen and (min-width: 400px) {
+    h1 {
+      font-size: calc(24px + 8 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 32px; } }
 
 h2 {
   display: block;
-  font-size: 1.5em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: none;
+  bottom-border: none; }
+  @media screen and (min-width: 400px) {
+    h2 {
+      font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h2 {
+      font-size: 26px; } }
 
 h3 {
   display: block;
-  font-size: 1.17em;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 14px; }
+  @media screen and (min-width: 400px) {
+    h3 {
+      font-size: calc(14px + 4 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h3 {
+      font-size: 18px; } }
 
 h4 {
   display: block;
@@ -133,25 +155,53 @@ h4 {
   margin-bottom: 1.33em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 12px; }
+  @media screen and (min-width: 400px) {
+    h4 {
+      font-size: calc(14px + 2 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h4 {
+      font-size: 16px; } }
 
 h5 {
   display: block;
-  font-size: .83em;
   margin-top: 1.67em;
   margin-bottom: 1.67em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 10px; }
+  @media screen and (min-width: 400px) {
+    h5 {
+      font-size: calc(10px + 4 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h5 {
+      font-size: 14px; } }
 
 h6 {
   display: block;
-  font-size: .67em;
   margin-top: 2.33em;
   margin-bottom: 2.33em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 9px; }
+  @media screen and (min-width: 400px) {
+    h6 {
+      font-size: calc(9px + 3 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    h6 {
+      font-size: 12px; } }
+
+p {
+  font-size: 13px; }
+  @media screen and (min-width: 400px) {
+    p {
+      font-size: calc(13px + 5 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    p {
+      font-size: 18px; } }
 
 a {
   text-decoration: none; }
@@ -489,7 +539,30 @@ ul.breadcrumb {
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p {
-        text-align: center; }
+        text-align: center;
+        font-size: 22px;
+        text-transform: none;
+        bottom-border: none; }
+        @media screen and (min-width: 400px) {
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p {
+            font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
+        @media screen and (min-width: 1200px) {
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p,
+          .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field p,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title p,
+          .blog-type-page #main-content .panel-myriad-layout .main-display .views-row .views-field-title-field p {
+            font-size: 26px; } }
         .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title a,
         .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title-field a,
         .blog-type-page #main-content .panel-myriad-layout .featured-display .views-row .views-field-title p a,
@@ -678,7 +751,34 @@ ul.breadcrumb {
     .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field,
     .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p,
     .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field p {
-      text-align: center; }
+      text-align: center;
+      font-size: 22px;
+      text-transform: none;
+      bottom-border: none; }
+      @media screen and (min-width: 400px) {
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field p,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field p {
+          font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
+      @media screen and (min-width: 1200px) {
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title p,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field p,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-field-featured-image,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title p,
+        .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-field-title-field p {
+          font-size: 26px; } }
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-field-featured-image h3,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title h3,
       .blog-type-page #main-content .panel-myriad-layout .main-display .views-field-title-field h3,
@@ -781,7 +881,22 @@ ul.breadcrumb {
 .blog-type-page .views-field-title-field p,
 .blog-type-page .views-field-title-field h2 {
   text-align: center;
-  margin: 0; }
+  margin: 0;
+  font-size: 22px;
+  text-transform: none;
+  bottom-border: none; }
+  @media screen and (min-width: 400px) {
+    .blog-type-page .views-field-title p,
+    .blog-type-page .views-field-title h2,
+    .blog-type-page .views-field-title-field p,
+    .blog-type-page .views-field-title-field h2 {
+      font-size: calc(20px + 6 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    .blog-type-page .views-field-title p,
+    .blog-type-page .views-field-title h2,
+    .blog-type-page .views-field-title-field p,
+    .blog-type-page .views-field-title-field h2 {
+      font-size: 26px; } }
 .blog-type-page .views-field-field-categories {
   font-weight: bold;
   font-size: 0.8em;
@@ -2408,16 +2523,39 @@ html.js fieldset.collapsed {
   text-align: center;
   color: #0355a3;
   text-decoration: none; }
-  @media (min-width: 0px) and (max-width: 568px) {
-    .bwmassoc-page .pane-node-title h1,
-    .bwmassoc-page .field--name-title-field h1,
-    .node-type-bwmassoc-basic-page .pane-node-title h1,
-    .node-type-bwmassoc-basic-page .field--name-title-field h1,
-    .page-contact-bwma .pane-node-title h1,
-    .page-contact-bwma .field--name-title-field h1,
-    .section-contact-bwmassoc .pane-node-title h1,
-    .section-contact-bwmassoc .field--name-title-field h1 {
-      font-size: 1.5em; } }
+  .bwmassoc-page .pane-node-title h1,
+  .bwmassoc-page .field--name-title-field h1,
+  .node-type-bwmassoc-basic-page .pane-node-title h1,
+  .node-type-bwmassoc-basic-page .field--name-title-field h1,
+  .page-contact-bwma .pane-node-title h1,
+  .page-contact-bwma .field--name-title-field h1,
+  .section-contact-bwmassoc .pane-node-title h1,
+  .section-contact-bwmassoc .field--name-title-field h1 {
+    font-size: 24px;
+    text-transform: capitalize;
+    bottom-border: none;
+    font-weight: 700;
+    margin-bottom: 0em; }
+    @media screen and (min-width: 400px) {
+      .bwmassoc-page .pane-node-title h1,
+      .bwmassoc-page .field--name-title-field h1,
+      .node-type-bwmassoc-basic-page .pane-node-title h1,
+      .node-type-bwmassoc-basic-page .field--name-title-field h1,
+      .page-contact-bwma .pane-node-title h1,
+      .page-contact-bwma .field--name-title-field h1,
+      .section-contact-bwmassoc .pane-node-title h1,
+      .section-contact-bwmassoc .field--name-title-field h1 {
+        font-size: calc(24px + 8 * ((100vw - 400px) / 800)); } }
+    @media screen and (min-width: 1200px) {
+      .bwmassoc-page .pane-node-title h1,
+      .bwmassoc-page .field--name-title-field h1,
+      .node-type-bwmassoc-basic-page .pane-node-title h1,
+      .node-type-bwmassoc-basic-page .field--name-title-field h1,
+      .page-contact-bwma .pane-node-title h1,
+      .page-contact-bwma .field--name-title-field h1,
+      .section-contact-bwmassoc .pane-node-title h1,
+      .section-contact-bwmassoc .field--name-title-field h1 {
+        font-size: 32px; } }
 
 .homepage main#main-content {
   background-color: transparent;
@@ -3629,8 +3767,17 @@ html.touch .tabs--primary ul.secondary-tabs {
   border: 0px; }
 
 main#main-content .field--name-title-field h1 p {
-  font-size: 2rem;
-  margin: 0; }
+  font-size: 24px;
+  margin: 0;
+  text-transform: capitalize;
+  border-bottom: 1px solid #d6dd89;
+  font-weight: 700; }
+  @media screen and (min-width: 400px) {
+    main#main-content .field--name-title-field h1 p {
+      font-size: calc(24px + 8 * ((100vw - 400px) / 800)); } }
+  @media screen and (min-width: 1200px) {
+    main#main-content .field--name-title-field h1 p {
+      font-size: 32px; } }
 main#main-content p {
   font-size: 1rem;
   font-family: FontAwesome, sans-serif; }

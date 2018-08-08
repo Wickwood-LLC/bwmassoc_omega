@@ -5,8 +5,12 @@
 main#main-content {
 
     .field--name-title-field h1 p {
-        font-size: 2rem;
+        font-size: 24px;  // backup size
+        @include fluid-type(400px, 1200px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
         margin: 0;
+        text-transform: capitalize;
+        border-bottom: 1px solid #d6dd89;
+        font-weight: 700;
     }
 
     p {

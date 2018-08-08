@@ -124,30 +124,37 @@ ul:not([class]) {
 
 h1 { 
   display: block;
-  font-size: 2em;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold;
+  font-size: 24px; // backup size
+  @include fluid-type(400px, 1200px, 24px, 32px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  text-transform: none;
+  font-weight: 700;
+  bottom-border: none;
 }
 h2 {
   display: block;
-  font-size: 1.5em;
   margin-top: 0.83em;
   margin-bottom: 0.83em;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-size: 22px;
+  @include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  text-transform: none;
+  bottom-border: none;
 }
 h3 { 
   display: block;
-  font-size: 1.17em;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-size: 14px;
+  @include fluid-type(400px, 1200px, 14px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 h4 { 
   display: block;
@@ -156,24 +163,32 @@ h4 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-size: 12px;
+  @include fluid-type(400px, 1200px, 14px, 16px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 h5 { 
   display: block;
-  font-size: .83em;
   margin-top: 1.67em;
   margin-bottom: 1.67em;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-size: 10px;
+  @include fluid-type(400px, 1200px, 10px, 14px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 h6 { 
   display: block;
-  font-size: .67em;
   margin-top: 2.33em;
   margin-bottom: 2.33em;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-size: 9px;
+  @include fluid-type(400px, 1200px, 9px, 12px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+}
+p {
+  font-size: 13px;
+  @include fluid-type(400px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
 }
 
 a {
