@@ -3779,11 +3779,7 @@ main#main-content .field--name-title-field h1 p {
     main#main-content .field--name-title-field h1 p {
       font-size: 32px; } }
 main#main-content p {
-  font-size: 1rem;
   font-family: FontAwesome, sans-serif; }
-  @media (min-width: 569px) {
-    main#main-content p {
-      font-size: 1.2rem; } }
   main#main-content p:first-child {
     margin-top: 0; }
 main#main-content .pane-share-us #widgets-element-socialmedia_share-default {
