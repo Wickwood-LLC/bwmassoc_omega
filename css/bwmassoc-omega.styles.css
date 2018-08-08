@@ -2771,7 +2771,7 @@ html.js fieldset.collapsed {
   background: #017cca;
   padding: 9px 15px;
   border-radius: 20px;
-  margin: 0.5em auto;
+  margin: 0 0 0.5em 0;
   display: table;
   text-decoration: none;
   clear: both;
@@ -3198,9 +3198,10 @@ main#main-content {
         color: black; }
 
 #cta2 {
+  margin-top: -1em;
   margin-bottom: 1em;
   padding: 0 1em; }
-  #cta2 h1 {
+  #cta2 h2 {
     margin: 0; }
   #cta2 p {
     margin: 0; }
