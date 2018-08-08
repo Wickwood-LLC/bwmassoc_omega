@@ -2711,7 +2711,7 @@ html.js fieldset.collapsed {
     margin: 0;
     white-space: nowrap; }
 .homepage #cta1 {
-  margin-bottom: 1em;
+  margin: 0.5em 0;
   padding: 0 1em;
   width: 100%;
   padding: 0 1em; }
@@ -2719,7 +2719,7 @@ html.js fieldset.collapsed {
     .homepage #cta1 {
       width: calc(152% - 2px);
       padding: 0 17%; } }
-  .homepage #cta1 h1 {
+  .homepage #cta1 h2 {
     margin: 0; }
   .homepage #cta1 p {
     margin: 0; }
