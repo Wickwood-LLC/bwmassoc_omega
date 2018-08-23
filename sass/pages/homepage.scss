@@ -1,3 +1,11 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+// Import variables, abstractions, base styles and components.
+// Uncomment the next lines and adjust them to your needs.
+@import "../variables/*";
+@import "../abstractions/*";
+@import "../base/*";
+
 .page-node-12852 {
     .radix-bryant .row {
         display: flex;
@@ -695,14 +703,8 @@
     }
 }
 
-.section-7-minutes-7-years,
-
-/* "7 minutes for 7 years" page */
-
-.section-as-seen-on-tv
-/* "as seen on tv" page */
-
-{
+.section-7-minutes-7-years, /* "7 minutes for 7 years" page */
+.section-as-seen-on-tv { /* "as seen on tv" page */
     main#main-content {
         background-color: transparent;
         padding: 0;

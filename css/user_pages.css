@@ -1,0 +1,2380 @@
+/* No files to import found in ../variables/* */
+/* Fluid Typography */
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f2fafe;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body.not-logged-in #block-panels-mini-header-bwmassoc-com {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 250px) {
+  html body.admin-menu:not(.navbar-vertical) {
+    margin-top: 151px !important;
+  }
+}
+@media (min-width: 289px) {
+  html body.admin-menu:not(.navbar-vertical) {
+    margin-top: 126px !important;
+  }
+}
+@media (min-width: 340px) {
+  html body.admin-menu:not(.navbar-vertical) {
+    margin-top: 102px !important;
+  }
+}
+@media (min-width: 407px) {
+  html body.admin-menu:not(.navbar-vertical) {
+    margin-top: 78px !important;
+  }
+}
+@media (min-width: 620px) {
+  html body.admin-menu:not(.navbar-vertical) {
+    margin-top: 54px !important;
+  }
+}
+@media (min-width: 1084px) {
+  html body.admin-menu:not(.navbar-vertical) {
+    margin-top: 29px !important;
+  }
+}
+@media (min-width: 250px) {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
+    margin-top: 151px !important;
+  }
+}
+@media (min-width: 289px) {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
+    margin-top: 126px !important;
+  }
+}
+@media (min-width: 340px) {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
+    margin-top: 102px !important;
+  }
+}
+@media (min-width: 407px) {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
+    margin-top: 78px !important;
+  }
+}
+@media (min-width: 620px) {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
+    margin-top: 54px !important;
+  }
+}
+@media (min-width: 1084px) {
+  html body.admin-menu:not(.navbar-vertical) .l-branding.floating-block-active {
+    margin-top: 29px !important;
+  }
+}
+
+.l-region--header,
+.l-main,
+.l-footer {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.l-branding {
+  display: inline-block;
+  width: 100%;
+  background: #f2f2f2;
+  -webkit-box-shadow: #cecece 0px 0px 3px 2px;
+          box-shadow: #cecece 0px 0px 3px 2px;
+  margin-bottom: 10px;
+}
+.l-branding.blockFloat-processed {
+  z-index: 10;
+  width: 100% !important;
+}
+.l-branding .l-region--branding {
+  max-width: 1360px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.l-region--header {
+  margin-top: 66px;
+}
+
+.l-region--header,
+.l-main,
+.l-footer {
+  padding: 0 1em;
+}
+
+ol:not([class]),
+ul:not([class]) {
+  font-size: 1rem;
+  font-family: FontAwesome, sans-serif;
+  overflow: auto;
+}
+@media (min-width: 569px) {
+  ol:not([class]),
+  ul:not([class]) {
+    font-size: 1.2rem;
+  }
+}
+ol:not([class]):first-child,
+ul:not([class]):first-child {
+  margin-top: 0;
+}
+ol:not([class]) > li,
+ul:not([class]) > li {
+  margin-bottom: 0.5em;
+}
+ol:not([class]) > li:last-child,
+ul:not([class]) > li:last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  display: block;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 24px;
+  text-transform: none;
+  font-weight: 700;
+  bottom-border: none;
+}
+@media screen and (min-width: 400px) {
+  h1 {
+    font-size: -webkit-calc(24px + 8 * ((100vw - 400px) / 800));
+    font-size: calc(24px + 8 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  display: block;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: none;
+  bottom-border: none;
+}
+@media screen and (min-width: 400px) {
+  h2 {
+    font-size: -webkit-calc(20px + 6 * ((100vw - 400px) / 800));
+    font-size: calc(20px + 6 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 26px;
+  }
+}
+
+h3 {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+@media screen and (min-width: 400px) {
+  h3 {
+    font-size: -webkit-calc(14px + 4 * ((100vw - 400px) / 800));
+    font-size: calc(14px + 4 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: 12px;
+}
+@media screen and (min-width: 400px) {
+  h4 {
+    font-size: -webkit-calc(14px + 2 * ((100vw - 400px) / 800));
+    font-size: calc(14px + 2 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h4 {
+    font-size: 16px;
+  }
+}
+
+h5 {
+  display: block;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: 10px;
+}
+@media screen and (min-width: 400px) {
+  h5 {
+    font-size: -webkit-calc(10px + 4 * ((100vw - 400px) / 800));
+    font-size: calc(10px + 4 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h5 {
+    font-size: 14px;
+  }
+}
+
+h6 {
+  display: block;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  font-size: 9px;
+}
+@media screen and (min-width: 400px) {
+  h6 {
+    font-size: -webkit-calc(9px + 3 * ((100vw - 400px) / 800));
+    font-size: calc(9px + 3 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  h6 {
+    font-size: 12px;
+  }
+}
+
+p {
+  font-size: 13px;
+}
+@media screen and (min-width: 400px) {
+  p {
+    font-size: -webkit-calc(13px + 5 * ((100vw - 400px) / 800));
+    font-size: calc(13px + 5 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+tr:hover {
+  background-color: #ffffdc;
+}
+
+th {
+  text-align: center;
+  padding: 5px;
+  background-color: #c0eaff;
+}
+
+td {
+  padding: 10px;
+}
+
+.title-bar {
+  display: inline-block;
+  width: 100%;
+}
+.title-bar .page-title {
+  font-size: 24px;
+  text-transform: capitalize;
+  bottom-border: none;
+  font-weight: 700;
+  margin-bottom: 0em;
+}
+@media screen and (min-width: 400px) {
+  .title-bar .page-title {
+    font-size: -webkit-calc(24px + 8 * ((100vw - 400px) / 800));
+    font-size: calc(24px + 8 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title-bar .page-title {
+    font-size: 32px;
+  }
+}
+
+.boxed {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em 0;
+  position: relative;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+.boxed .pane-title {
+  position: absolute;
+  margin: 0;
+  background: white;
+  padding: 0 1em;
+  display: inline-block !important;
+}
+.boxed h2.pane-title {
+  top: -13px;
+  font-size: 22px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #d6dd89;
+}
+@media screen and (min-width: 400px) {
+  .boxed h2.pane-title {
+    font-size: -webkit-calc(20px + 6 * ((100vw - 400px) / 800));
+    font-size: calc(20px + 6 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  .boxed h2.pane-title {
+    font-size: 26px;
+  }
+}
+.boxed h3.pane-title {
+  top: -11px;
+}
+.boxed .ctools-toggle {
+  position: absolute;
+  top: -10px;
+  z-index: 1;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+input[type="radio"] {
+  margin: 0;
+}
+
+div.vertical-tabs {
+  background: white;
+  padding-bottom: 1em;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0;
+}
+ul.breadcrumb li {
+  float: left;
+  padding-right: 10px;
+  line-height: 30px;
+  height: 30px;
+  padding-left: 10px;
+  margin-left: 13px;
+  margin-bottom: 5px;
+  background: #1894c7;
+  position: relative;
+  font-size: 12px;
+}
+ul.breadcrumb li:first-child {
+  -webkit-border-top-left-radius: 5px;
+          border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+}
+ul.breadcrumb li:first-child:before, ul.breadcrumb li:first-child:hover:before {
+  border: 0;
+}
+ul.breadcrumb li:before {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-top: 15px solid #1894c7;
+  border-right: 10px solid #1894c7;
+  border-bottom: 15px solid #1894c7;
+  content: "";
+  position: absolute;
+  left: -10px;
+}
+ul.breadcrumb li:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  width: 0;
+  height: 15px;
+  border-top: 15px solid transparent;
+  border-left: 10px solid #1894c7;
+  border-bottom: 15px solid transparent;
+}
+ul.breadcrumb li:hover {
+  background: #0355a3;
+}
+ul.breadcrumb li:hover:before {
+  border-top: 15px solid #0355a3;
+  border-right: 10px solid #0355a3;
+  border-bottom: 15px solid #0355a3;
+}
+ul.breadcrumb li:hover:after {
+  border-left: 10px solid #0355a3;
+}
+ul.breadcrumb li a {
+  color: white;
+}
+
+.pane-node-links img {
+  display: inline-block;
+  height: 1em;
+  width: auto;
+}
+
+#user-account-main-page .action-links li,
+#user-account-client-profile .action-links li {
+  list-style: none;
+}
+#user-account-main-page ul,
+#user-account-client-profile ul {
+  margin: 0;
+  padding: 0;
+}
+#user-account-main-page ul li,
+#user-account-client-profile ul li {
+  list-style: none;
+}
+
+.field {
+  line-height: 1.3;
+}
+
+.views-table {
+  width: 100%;
+}
+
+.user-account-page-title h1 {
+  margin: 0;
+}
+
+.pane-basic-user-info-for-user-account .field__label,
+.pane-basic-user-info .field__label {
+  width: 124px;
+}
+
+.pane-user-field-identification {
+  width: 120px;
+  display: inline-block;
+  font-weight: bold;
+}
+.pane-user-field-identification .field--name-field-identification .field__item {
+  float: left;
+}
+.pane-user-field-identification .field--name-field-identification .field__item:after {
+  content: ':\00a0';
+}
+
+.pane-user-field-ss-or-ein {
+  display: inline-block;
+}
+
+.pane-user-roles ul li {
+  margin-left: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.pane-user-mail .field-label {
+  width: 50px;
+  display: inline-block;
+  font-weight: bold;
+}
+.pane-user-mail .field-items {
+  display: inline-block;
+}
+
+.field--name-field-phone-type {
+  display: inline-block;
+  font-weight: bold;
+  width: 100px;
+}
+.field--name-field-phone-type .field__items {
+  display: inline-block;
+}
+.field--name-field-phone-type:after {
+  content: ':\00a0';
+}
+
+.field--name-field-phone-number {
+  display: inline-block;
+}
+
+.panel-pane .field-collection-container {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.field-collection-view {
+  border: 1px dotted #D3D7D9;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+.pane-chaos-data .field .field__label {
+  width: 335px;
+}
+
+.panelizer-view-mode.node-embedded-to-profile > h3 {
+  cursor: pointer;
+  margin: 0;
+  padding: 0 0.5em;
+  position: absolute;
+  top: -12px;
+  background: white;
+}
+.panelizer-view-mode.node-embedded-to-profile > h3:before {
+  content: '\f0da';
+  font-family: FontAwesome;
+}
+.panelizer-view-mode.node-embedded-to-profile > h3.open:before {
+  content: '\f0d7';
+  font-family: FontAwesome;
+}
+.panelizer-view-mode.node-embedded-to-profile > .panel-display {
+  display: none;
+}
+
+.pane-loan-chaos-data .field .field__label {
+  width: 258px;
+  max-width: 100%;
+}
+
+.pane-client-additional-id-info .field .field__label {
+  width: 204px;
+  max-width: 100%;
+}
+
+.client-acquisition .col-md-8 .field .field__label {
+  width: 116px;
+  max-width: 100%;
+}
+.client-acquisition .col-md-4 .field .field__label {
+  width: 264px;
+  max-width: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 359px) {
+  .pane-loan-debit-information {
+    padding-top: 2.5em;
+  }
+}
+.pane-loan-debit-information .field .field__label {
+  width: 282px;
+  max-width: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 349px) {
+  .pane-node-field-deferred-enrollment-fees {
+    padding-top: 4em;
+  }
+}
+@media (min-width: 350px) and (max-width: 432px) {
+  .pane-node-field-deferred-enrollment-fees {
+    padding-top: 2.5em;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 389px) {
+  .pane-bwma-enrolment {
+    padding-top: 2.5em;
+  }
+}
+.pane-bwma-enrolment .field .field__label {
+  width: 196px;
+  max-width: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 336px) {
+  .pane-afts-advance {
+    padding-top: 2.5em;
+  }
+}
+.pane-afts-advance .field .field__label {
+  width: 320px;
+  max-width: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 395px) {
+  .pane-node-field-lenders {
+    padding-top: 2.5em;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 469px) {
+  .pane-node-field-service-bureaus {
+    padding-top: 2.5em;
+  }
+}
+.pane-node-field-service-bureaus .field .field__label {
+  width: 216px;
+  max-width: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 378px) {
+  .pane-loan-chaos-data {
+    padding-top: 2.5em;
+  }
+}
+
+.action-links {
+  font-size: 11px;
+  padding: 0;
+  margin-top: 0;
+  display: inline-block;
+}
+.action-links > li {
+  margin-left: 0;
+  list-style: none;
+}
+.action-links > li, .action-links > li a {
+  float: left;
+}
+.action-links a {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  margin: 0 5px 0 0;
+  display: inline-block;
+  line-height: 21px;
+  padding-right: 1em;
+  color: #fff;
+  text-shadow: #666 0 1px 0;
+  background-color: #7bc;
+  text-shadow: #38a 0 1px 0;
+}
+.action-links a:before {
+  content: '\f067';
+  font-family: FontAwesome;
+  padding: 0 0.5em;
+}
+.action-links a:last-child {
+  margin-right: 0;
+}
+
+.pane-user-history-panel-pane-1 {
+  margin-top: 0;
+}
+
+#user-profile-form .field-name-field-loans .fieldset-wrapper,
+#edit-profile-bwma-client .field-name-field-loans .fieldset-wrapper {
+  overflow: auto;
+}
+
+.page-user-edit .form-item .clearfix,
+.page-admin-people-create .form-item .clearfix,
+.page-user-register .form-item .clearfix {
+  width: 100%;
+}
+.page-user-edit .form-type-radio,
+.page-user-edit .form-type-checkbox,
+.page-admin-people-create .form-type-radio,
+.page-admin-people-create .form-type-checkbox,
+.page-user-register .form-type-radio,
+.page-user-register .form-type-checkbox {
+  display: block;
+}
+.page-user-edit .form-type-radio input,
+.page-user-edit .form-type-checkbox input,
+.page-admin-people-create .form-type-radio input,
+.page-admin-people-create .form-type-checkbox input,
+.page-user-register .form-type-radio input,
+.page-user-register .form-type-checkbox input {
+  width: auto;
+}
+.page-user-edit input, .page-user-edit textarea, .page-user-edit select,
+.page-admin-people-create input,
+.page-admin-people-create textarea,
+.page-admin-people-create select,
+.page-user-register input,
+.page-user-register textarea,
+.page-user-register select {
+  font-size: 16px;
+}
+.page-user-edit input.form-radio,
+.page-user-edit input.form-checkbox,
+.page-admin-people-create input.form-radio,
+.page-admin-people-create input.form-checkbox,
+.page-user-register input.form-radio,
+.page-user-register input.form-checkbox {
+  display: block;
+  float: left;
+}
+.page-user-edit label.option,
+.page-admin-people-create label.option,
+.page-user-register label.option {
+  display: block;
+  margin-left: 25px;
+  font-weight: normal;
+  text-align: left;
+}
+.page-user-edit .password-strength,
+.page-admin-people-create .password-strength,
+.page-user-register .password-strength {
+  float: none;
+  margin: 0 auto 1em;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 100%;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+  max-width: 100%;
+}
+.page-user-edit .password-confirm,
+.page-admin-people-create .password-confirm,
+.page-user-register .password-confirm {
+  float: none;
+  margin: 0 auto 1em;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 100%;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+}
+.page-user-edit .password-confirm.form-text,
+.page-admin-people-create .password-confirm.form-text,
+.page-user-register .password-confirm.form-text {
+  margin-bottom: 0;
+}
+.page-user-edit .password-suggestions,
+.page-admin-people-create .password-suggestions,
+.page-user-register .password-suggestions {
+  margin: 0.7em auto;
+}
+.page-user-edit .pane-user-form-account .form-item,
+.page-admin-people-create .pane-user-form-account .form-item,
+.page-user-register .pane-user-form-account .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .pane-user-form-account label,
+.page-admin-people-create .pane-user-form-account label,
+.page-user-register .pane-user-form-account label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 130px;
+      -ms-flex: 0 0 130px;
+          flex: 0 0 130px;
+  max-width: 100%;
+  -webkit-flex-basis: 130px;
+      -ms-flex-preferred-size: 130px;
+          flex-basis: 130px;
+  white-space: normal;
+}
+.page-user-edit .pane-user-form-account input,
+.page-admin-people-create .pane-user-form-account input,
+.page-user-register .pane-user-form-account input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 130px);
+      -ms-flex: 1 1 calc(100% - 130px);
+          flex: 1 1 calc(100% - 130px);
+  -webkit-flex-basis: -webkit-calc(100% - 130px);
+      -ms-flex-preferred-size: calc(100% - 130px);
+          flex-basis: calc(100% - 130px);
+  max-width: 100%;
+}
+.page-user-edit .pane-user-form-account .form-type-password-confirm label, .page-user-edit .pane-user-form-account .form-type-password-confirm input,
+.page-admin-people-create .pane-user-form-account .form-type-password-confirm label,
+.page-admin-people-create .pane-user-form-account .form-type-password-confirm input,
+.page-user-register .pane-user-form-account .form-type-password-confirm label,
+.page-user-register .pane-user-form-account .form-type-password-confirm input {
+  -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+.page-user-edit .pane-user-form-account .form-item-status .form-radios,
+.page-admin-people-create .pane-user-form-account .form-item-status .form-radios,
+.page-user-register .pane-user-form-account .form-item-status .form-radios {
+  display: inline-block;
+}
+.page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio,
+.page-admin-people-create .pane-user-form-account .form-item-status .form-radios .form-type-radio,
+.page-user-register .pane-user-form-account .form-item-status .form-radios .form-type-radio {
+  display: inline-block;
+  width: auto;
+}
+.page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio label,
+.page-admin-people-create .pane-user-form-account .form-item-status .form-radios .form-type-radio label,
+.page-user-register .pane-user-form-account .form-item-status .form-radios .form-type-radio label {
+  width: auto;
+}
+.page-user-edit .pane-user-form-account .form-item-roles,
+.page-admin-people-create .pane-user-form-account .form-item-roles,
+.page-user-register .pane-user-form-account .form-item-roles {
+  display: block;
+}
+.page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes,
+.page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes,
+.page-user-register .pane-user-form-account .form-item-roles .form-checkboxes {
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
+}
+@media (min-width: 1020px) and (max-width: 1249px) {
+  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes,
+  .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes,
+  .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+  }
+}
+.page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
+.page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
+.page-user-register .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
+  display: block;
+  min-width: 200px;
+}
+.page-user-edit .pane-user-form-account .form-item-roles .form-checkbox,
+.page-admin-people-create .pane-user-form-account .form-item-roles .form-checkbox,
+.page-user-register .pane-user-form-account .form-item-roles .form-checkbox {
+  min-width: 0;
+}
+.page-user-edit .pane-user-form-account .form-item-notify,
+.page-admin-people-create .pane-user-form-account .form-item-notify,
+.page-user-register .pane-user-form-account .form-item-notify {
+  margin-bottom: 0;
+  border: 1px solid red;
+  background-color: #f3b9b9;
+  padding: 5px;
+}
+.page-user-edit .pane-user-form-account .form-item-notify .form-checkbox,
+.page-admin-people-create .pane-user-form-account .form-item-notify .form-checkbox,
+.page-user-register .pane-user-form-account .form-item-notify .form-checkbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .pane-user-form-account .form-item-notify input,
+.page-admin-people-create .pane-user-form-account .form-item-notify input,
+.page-user-register .pane-user-form-account .form-item-notify input {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+      -ms-flex: 0 auto;
+          flex: 0 auto;
+}
+.page-user-edit .pane-user-form-account .form-item-notify label,
+.page-admin-people-create .pane-user-form-account .form-item-notify label,
+.page-user-register .pane-user-form-account .form-item-notify label {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 130px;
+      -ms-flex: 1 130px;
+          flex: 1 130px;
+  margin-left: 0;
+}
+.page-user-edit .pane-basic-user-info-user-edit .form-item,
+.page-admin-people-create .pane-basic-user-info-user-edit .form-item,
+.page-user-register .pane-basic-user-info-user-edit .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .pane-basic-user-info-user-edit label,
+.page-admin-people-create .pane-basic-user-info-user-edit label,
+.page-user-register .pane-basic-user-info-user-edit label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150px;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+  max-width: 100%;
+  -webkit-flex-basis: 150px;
+      -ms-flex-preferred-size: 150px;
+          flex-basis: 150px;
+  white-space: normal;
+}
+.page-user-edit .pane-basic-user-info-user-edit input,
+.page-admin-people-create .pane-basic-user-info-user-edit input,
+.page-user-register .pane-basic-user-info-user-edit input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 150px);
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
+  -webkit-flex-basis: -webkit-calc(100% - 150px);
+      -ms-flex-preferred-size: calc(100% - 150px);
+          flex-basis: calc(100% - 150px);
+  max-width: 100%;
+}
+.page-user-edit .pane-basic-user-info-user-edit input.form-radio,
+.page-user-edit .pane-basic-user-info-user-edit input.form-checkbox,
+.page-admin-people-create .pane-basic-user-info-user-edit input.form-radio,
+.page-admin-people-create .pane-basic-user-info-user-edit input.form-checkbox,
+.page-user-register .pane-basic-user-info-user-edit input.form-radio,
+.page-user-register .pane-basic-user-info-user-edit input.form-checkbox {
+  min-width: 0;
+}
+.page-user-edit .pane-basic-user-info-user-edit .date-form-element-content,
+.page-user-edit .pane-basic-user-info-user-edit .date-padding,
+.page-admin-people-create .pane-basic-user-info-user-edit .date-form-element-content,
+.page-admin-people-create .pane-basic-user-info-user-edit .date-padding,
+.page-user-register .pane-basic-user-info-user-edit .date-form-element-content,
+.page-user-register .pane-basic-user-info-user-edit .date-padding {
+  width: 100%;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .form-item,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate label,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary label,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate label,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary label,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate label,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100px;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+  max-width: 100%;
+  -webkit-flex-basis: 100px;
+      -ms-flex-preferred-size: 100px;
+          flex-basis: 100px;
+  white-space: normal;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 100px);
+      -ms-flex: 1 1 calc(100% - 100px);
+          flex: 1 1 calc(100% - 100px);
+  -webkit-flex-basis: -webkit-calc(100% - 100px);
+      -ms-flex-preferred-size: calc(100% - 100px);
+          flex-basis: calc(100% - 100px);
+  max-width: 100%;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary input {
+  max-width: 173px;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-anniversary .description,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-anniversary .description,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-birthdate .description,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-anniversary .description {
+  display: none;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radios > label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 65px;
+      -ms-flex: 0 0 65px;
+          flex: 0 0 65px;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-radios,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-radios,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-radios {
+  display: inline-block;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio {
+  width: auto;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio input {
+  width: auto;
+  margin: 0 5px 0 0;
+}
+.page-user-edit .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio label,
+.page-admin-people-create .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio label,
+.page-user-register .pane-basic-user-info-user-edit .field-name-field-gender .form-type-radio label {
+  margin: 0;
+  display: inline-block;
+}
+.page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification,
+.page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification,
+.page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification {
+  width: auto;
+}
+.page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item,
+.page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item,
+.page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0;
+}
+.page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input,
+.page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input,
+.page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item input {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+}
+.page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item label,
+.page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item label,
+.page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .form-radios .form-item label {
+  margin-left: 0;
+  display: inline-block;
+}
+.page-user-edit .pane-basic-user-info-user-edit .pane-user-field-identification .description,
+.page-admin-people-create .pane-basic-user-info-user-edit .pane-user-field-identification .description,
+.page-user-register .pane-basic-user-info-user-edit .pane-user-field-identification .description {
+  padding-top: 0.5em;
+  font-weight: normal;
+}
+.page-user-edit .field-multiple-table,
+.page-admin-people-create .field-multiple-table,
+.page-user-register .field-multiple-table {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page-user-edit .field-multiple-table th.field-label,
+.page-admin-people-create .field-multiple-table th.field-label,
+.page-user-register .field-multiple-table th.field-label {
+  display: none;
+}
+.page-user-edit .field-multiple-table tbody,
+.page-admin-people-create .field-multiple-table tbody,
+.page-user-register .field-multiple-table tbody {
+  width: 100%;
+}
+.page-user-edit .pane-user-group-full-name .form-item,
+.page-admin-people-create .pane-user-group-full-name .form-item,
+.page-user-register .pane-user-group-full-name .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .pane-user-group-full-name label,
+.page-admin-people-create .pane-user-group-full-name label,
+.page-user-register .pane-user-group-full-name label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 110px;
+      -ms-flex: 0 0 110px;
+          flex: 0 0 110px;
+  max-width: 100%;
+  -webkit-flex-basis: 110px;
+      -ms-flex-preferred-size: 110px;
+          flex-basis: 110px;
+  white-space: normal;
+}
+.page-user-edit .pane-user-group-full-name input,
+.page-admin-people-create .pane-user-group-full-name input,
+.page-user-register .pane-user-group-full-name input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 110px);
+      -ms-flex: 1 1 calc(100% - 110px);
+          flex: 1 1 calc(100% - 110px);
+  -webkit-flex-basis: -webkit-calc(100% - 110px);
+      -ms-flex-preferred-size: calc(100% - 110px);
+          flex-basis: calc(100% - 110px);
+  max-width: 100%;
+}
+.page-user-edit .pane-user-group-full-name .description,
+.page-admin-people-create .pane-user-group-full-name .description,
+.page-user-register .pane-user-group-full-name .description {
+  -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+.page-user-edit .pane-user-group-full-name .form-type-radio,
+.page-user-edit .pane-user-group-full-name .form-type-checkbox,
+.page-admin-people-create .pane-user-group-full-name .form-type-radio,
+.page-admin-people-create .pane-user-group-full-name .form-type-checkbox,
+.page-user-register .pane-user-group-full-name .form-type-radio,
+.page-user-register .pane-user-group-full-name .form-type-checkbox {
+  display: block;
+}
+.page-user-edit .pane-user-group-full-name .form-type-radio input,
+.page-user-edit .pane-user-group-full-name .form-type-checkbox input,
+.page-admin-people-create .pane-user-group-full-name .form-type-radio input,
+.page-admin-people-create .pane-user-group-full-name .form-type-checkbox input,
+.page-user-register .pane-user-group-full-name .form-type-radio input,
+.page-user-register .pane-user-group-full-name .form-type-checkbox input {
+  width: auto;
+}
+.page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]),
+.page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]),
+.page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user,
+.page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user,
+.page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 271px);
+      -ms-flex: 1 1 calc(100% - 271px);
+          flex: 1 1 calc(100% - 271px);
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input,
+.page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input,
+.page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input {
+  width: -webkit-calc(100% - 40px);
+  width: calc(100% - 40px);
+  min-width: 150px;
+}
+.page-user-edit .field-name-field-user-notes .field-name-field-date,
+.page-admin-people-create .field-name-field-user-notes .field-name-field-date,
+.page-user-register .field-name-field-user-notes .field-name-field-date {
+  display: inline-block;
+}
+.page-user-edit .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
+.page-admin-people-create .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label,
+.page-user-register .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
+  display: none;
+}
+.page-user-edit .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield,
+.page-admin-people-create .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield,
+.page-user-register .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield {
+  margin-right: 10px;
+}
+.page-user-edit .field-name-field-user-notes .field-name-field-date .description,
+.page-admin-people-create .field-name-field-user-notes .field-name-field-date .description,
+.page-user-register .field-name-field-user-notes .field-name-field-date .description {
+  display: none;
+}
+.page-user-edit .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item,
+.page-admin-people-create .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item,
+.page-user-register .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item {
+  margin-bottom: 0px;
+}
+.page-user-edit .field-name-field-user-notes fieldset,
+.page-admin-people-create .field-name-field-user-notes fieldset,
+.page-user-register .field-name-field-user-notes fieldset {
+  border: 1px solid #CCCCCC;
+}
+.page-user-edit .field-name-field-user-notes fieldset,
+.page-admin-people-create .field-name-field-user-notes fieldset,
+.page-user-register .field-name-field-user-notes fieldset {
+  min-width: 0;
+}
+.page-user-edit .field-name-field-user-notes .filter-help a,
+.page-admin-people-create .field-name-field-user-notes .filter-help a,
+.page-user-register .field-name-field-user-notes .filter-help a {
+  display: inline-block;
+}
+.page-user-edit .field-name-field-user-notes .filter-guidelines,
+.page-admin-people-create .field-name-field-user-notes .filter-guidelines,
+.page-user-register .field-name-field-user-notes .filter-guidelines {
+  padding: 0;
+  clear: both;
+}
+.page-user-edit .field-name-field-user-notes .filter-guidelines-item,
+.page-admin-people-create .field-name-field-user-notes .filter-guidelines-item,
+.page-user-register .field-name-field-user-notes .filter-guidelines-item {
+  word-break: break-word;
+}
+.page-user-edit .field-name-field-phone .form-item,
+.page-admin-people-create .field-name-field-phone .form-item,
+.page-user-register .field-name-field-phone .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .field-name-field-phone label,
+.page-admin-people-create .field-name-field-phone label,
+.page-user-register .field-name-field-phone label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 120px;
+      -ms-flex: 0 0 120px;
+          flex: 0 0 120px;
+  max-width: 100%;
+  -webkit-flex-basis: 120px;
+      -ms-flex-preferred-size: 120px;
+          flex-basis: 120px;
+  white-space: normal;
+}
+.page-user-edit .field-name-field-phone input,
+.page-admin-people-create .field-name-field-phone input,
+.page-user-register .field-name-field-phone input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 120px);
+      -ms-flex: 1 1 calc(100% - 120px);
+          flex: 1 1 calc(100% - 120px);
+  -webkit-flex-basis: -webkit-calc(100% - 120px);
+      -ms-flex-preferred-size: calc(100% - 120px);
+          flex-basis: calc(100% - 120px);
+  max-width: 100%;
+}
+.page-user-edit .field-name-field-phone .description,
+.page-admin-people-create .field-name-field-phone .description,
+.page-user-register .field-name-field-phone .description {
+  -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+.page-user-edit .field-name-field-phone > div > .form-item,
+.page-admin-people-create .field-name-field-phone > div > .form-item,
+.page-user-register .field-name-field-phone > div > .form-item {
+  margin-bottom: 0;
+}
+.page-user-edit .field-name-field-phone .field-name-field-accept-text-messages .form-item,
+.page-admin-people-create .field-name-field-phone .field-name-field-accept-text-messages .form-item,
+.page-user-register .field-name-field-phone .field-name-field-accept-text-messages .form-item {
+  display: block;
+}
+.page-user-edit .field-name-field-phone .field-name-field-note label,
+.page-admin-people-create .field-name-field-phone .field-name-field-note label,
+.page-user-register .field-name-field-phone .field-name-field-note label {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+  white-space: normal;
+}
+.page-user-edit .field-name-field-book-types .form-item.form-type-radio,
+.page-admin-people-create .field-name-field-book-types .form-item.form-type-radio,
+.page-user-register .field-name-field-book-types .form-item.form-type-radio {
+  margin-bottom: 0;
+  width: auto;
+  display: inline-block;
+  margin-right: 8px;
+}
+.page-user-edit .field-name-field-collection-mailing-address .form-item,
+.page-admin-people-create .field-name-field-collection-mailing-address .form-item,
+.page-user-register .field-name-field-collection-mailing-address .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .field-name-field-collection-mailing-address label,
+.page-admin-people-create .field-name-field-collection-mailing-address label,
+.page-user-register .field-name-field-collection-mailing-address label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 114px;
+      -ms-flex: 0 0 114px;
+          flex: 0 0 114px;
+  max-width: 100%;
+  -webkit-flex-basis: 114px;
+      -ms-flex-preferred-size: 114px;
+          flex-basis: 114px;
+  white-space: normal;
+}
+.page-user-edit .field-name-field-collection-mailing-address input,
+.page-admin-people-create .field-name-field-collection-mailing-address input,
+.page-user-register .field-name-field-collection-mailing-address input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 114px);
+      -ms-flex: 1 1 calc(100% - 114px);
+          flex: 1 1 calc(100% - 114px);
+  -webkit-flex-basis: -webkit-calc(100% - 114px);
+      -ms-flex-preferred-size: calc(100% - 114px);
+          flex-basis: calc(100% - 114px);
+  max-width: 100%;
+}
+.page-user-edit .field-name-field-collection-mailing-address .description,
+.page-admin-people-create .field-name-field-collection-mailing-address .description,
+.page-user-register .field-name-field-collection-mailing-address .description {
+  -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+.page-user-edit .field-name-field-collection-mailing-address .field-name-field-address-type,
+.page-admin-people-create .field-name-field-collection-mailing-address .field-name-field-address-type,
+.page-user-register .field-name-field-collection-mailing-address .field-name-field-address-type {
+  margin-bottom: 10px;
+}
+.page-user-edit .field-name-field-collection-mailing-address select.country,
+.page-user-edit .field-name-field-collection-mailing-address select.state,
+.page-admin-people-create .field-name-field-collection-mailing-address select.country,
+.page-admin-people-create .field-name-field-collection-mailing-address select.state,
+.page-user-register .field-name-field-collection-mailing-address select.country,
+.page-user-register .field-name-field-collection-mailing-address select.state {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 114px);
+      -ms-flex: 1 1 calc(100% - 114px);
+          flex: 1 1 calc(100% - 114px);
+  min-width: 100px;
+}
+.page-user-edit .field-name-field-collection-mailing-address > div > .form-item,
+.page-admin-people-create .field-name-field-collection-mailing-address > div > .form-item,
+.page-user-register .field-name-field-collection-mailing-address > div > .form-item {
+  margin-bottom: 0;
+}
+.page-user-edit .field-name-field-collection-mailing-address .field-type-addressfield fieldset,
+.page-admin-people-create .field-name-field-collection-mailing-address .field-type-addressfield fieldset,
+.page-user-register .field-name-field-collection-mailing-address .field-type-addressfield fieldset {
+  border: 0px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.page-user-edit .field-name-field-collection-mailing-address .field-type-addressfield legend,
+.page-admin-people-create .field-name-field-collection-mailing-address .field-type-addressfield legend,
+.page-user-register .field-name-field-collection-mailing-address .field-type-addressfield legend {
+  display: none;
+}
+.page-user-edit .field-name-field-website input[type="text"],
+.page-admin-people-create .field-name-field-website input[type="text"],
+.page-user-register .field-name-field-website input[type="text"] {
+  width: -webkit-calc(100% - 38px);
+  width: calc(100% - 38px);
+}
+.page-user-edit .field-name-field-website [id*="add-more-wrapper"] > .form-item,
+.page-admin-people-create .field-name-field-website [id*="add-more-wrapper"] > .form-item,
+.page-user-register .field-name-field-website [id*="add-more-wrapper"] > .form-item {
+  margin-bottom: 0;
+}
+.page-user-edit .field-name-field-website .link-field-title,
+.page-user-edit .field-name-field-website .link-field-url,
+.page-admin-people-create .field-name-field-website .link-field-title,
+.page-admin-people-create .field-name-field-website .link-field-url,
+.page-user-register .field-name-field-website .link-field-title,
+.page-user-register .field-name-field-website .link-field-url {
+  width: 100%;
+  margin: 12px 0px;
+}
+.page-user-edit .field-name-field-website .description,
+.page-admin-people-create .field-name-field-website .description,
+.page-user-register .field-name-field-website .description {
+  white-space: normal;
+}
+.page-user-edit .field-name-field-website #field-websites-add-more-wrapper > .form-item,
+.page-admin-people-create .field-name-field-website #field-websites-add-more-wrapper > .form-item,
+.page-user-register .field-name-field-website #field-websites-add-more-wrapper > .form-item {
+  margin-bottom: 0;
+}
+.page-user-edit .field-name-field-website tr.draggable,
+.page-admin-people-create .field-name-field-website tr.draggable,
+.page-user-register .field-name-field-website tr.draggable {
+  min-height: 130px;
+}
+.page-user-edit .field-name-field-additional-email-addresses .form-item,
+.page-admin-people-create .field-name-field-additional-email-addresses .form-item,
+.page-user-register .field-name-field-additional-email-addresses .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.page-user-edit .field-name-field-additional-email-addresses label,
+.page-admin-people-create .field-name-field-additional-email-addresses label,
+.page-user-register .field-name-field-additional-email-addresses label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50px;
+      -ms-flex: 0 0 50px;
+          flex: 0 0 50px;
+  max-width: 100%;
+  -webkit-flex-basis: 50px;
+      -ms-flex-preferred-size: 50px;
+          flex-basis: 50px;
+  white-space: normal;
+}
+.page-user-edit .field-name-field-additional-email-addresses input,
+.page-admin-people-create .field-name-field-additional-email-addresses input,
+.page-user-register .field-name-field-additional-email-addresses input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 50px);
+      -ms-flex: 1 1 calc(100% - 50px);
+          flex: 1 1 calc(100% - 50px);
+  -webkit-flex-basis: -webkit-calc(100% - 50px);
+      -ms-flex-preferred-size: calc(100% - 50px);
+          flex-basis: calc(100% - 50px);
+  max-width: 100%;
+}
+.page-user-edit .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item,
+.page-admin-people-create .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item,
+.page-user-register .field-name-field-additional-email-addresses [id*="add-more-wrapper"] > .form-item {
+  margin-bottom: 0;
+}
+.page-user-edit .field-name-field-additional-email-addresses .field-name-field-email,
+.page-admin-people-create .field-name-field-additional-email-addresses .field-name-field-email,
+.page-user-register .field-name-field-additional-email-addresses .field-name-field-email {
+  margin-bottom: 1em;
+}
+.page-user-edit .field-name-field-additional-email-addresses tr.draggable,
+.page-admin-people-create .field-name-field-additional-email-addresses tr.draggable,
+.page-user-register .field-name-field-additional-email-addresses tr.draggable {
+  min-height: 130px;
+}
+.page-user-edit tr.draggable,
+.page-admin-people-create tr.draggable,
+.page-user-register tr.draggable {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+.page-user-edit tr.draggable td:not([class]),
+.page-admin-people-create tr.draggable td:not([class]),
+.page-user-register tr.draggable td:not([class]) {
+  -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  display: block;
+  position: relative;
+  width: -webkit-calc(100% - 38px);
+  width: calc(100% - 38px);
+}
+.page-user-edit td.field-multiple-drag,
+.page-admin-people-create td.field-multiple-drag,
+.page-user-register td.field-multiple-drag {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  width: 50px;
+  padding: 10px;
+  padding-right: 0;
+}
+.page-user-edit .pane-user-form-timezone fieldset,
+.page-admin-people-create .pane-user-form-timezone fieldset,
+.page-user-register .pane-user-form-timezone fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.page-user-edit .pane-user-form-timezone legend,
+.page-user-edit .pane-user-form-timezone label,
+.page-admin-people-create .pane-user-form-timezone legend,
+.page-admin-people-create .pane-user-form-timezone label,
+.page-user-register .pane-user-form-timezone legend,
+.page-user-register .pane-user-form-timezone label {
+  display: none;
+}
+.page-user-edit .pane-user-form-timezone select,
+.page-admin-people-create .pane-user-form-timezone select,
+.page-user-register .pane-user-form-timezone select {
+  width: 100%;
+  min-width: 0;
+}
+.page-user-edit .pane-user-form-timezone .form-item-timezone,
+.page-admin-people-create .pane-user-form-timezone .form-item-timezone,
+.page-user-register .pane-user-form-timezone .form-item-timezone {
+  margin: 0;
+}
+.page-user-edit .pane-user-field-related-clients,
+.page-admin-people-create .pane-user-field-related-clients,
+.page-user-register .pane-user-field-related-clients {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 0.5em;
+  position: relative;
+  margin-top: 1.5em;
+}
+.page-user-edit .pane-user-field-related-clients .pane-title,
+.page-admin-people-create .pane-user-field-related-clients .pane-title,
+.page-user-register .pane-user-field-related-clients .pane-title {
+  font-size: 1.17em;
+}
+.page-user-edit .pane-user-field-related-clients .subform, .page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
+.page-admin-people-create .pane-user-field-related-clients .subform,
+.page-admin-people-create .pane-user-field-related-clients #edit-uid-wrapper,
+.page-user-register .pane-user-field-related-clients .subform,
+.page-user-register .pane-user-field-related-clients #edit-uid-wrapper {
+  max-width: 100%;
+}
+.page-user-edit .pane-user-field-related-clients .relation-select-entities,
+.page-admin-people-create .pane-user-field-related-clients .relation-select-entities,
+.page-user-register .pane-user-field-related-clients .relation-select-entities {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.page-user-edit .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
+.page-admin-people-create .pane-user-field-related-clients .relation-select-entities .rs-wrapper,
+.page-user-register .pane-user-field-related-clients .relation-select-entities .rs-wrapper {
+  height: auto;
+}
+.page-user-edit .pane-user-field-related-clients .rs-remove-item,
+.page-admin-people-create .pane-user-field-related-clients .rs-remove-item,
+.page-user-register .pane-user-field-related-clients .rs-remove-item {
+  color: blue;
+}
+.page-user-edit .pane-user-field-related-clients .redirect-list,
+.page-admin-people-create .pane-user-field-related-clients .redirect-list,
+.page-user-register .pane-user-field-related-clients .redirect-list {
+  margin-bottom: 0;
+}
+.page-user-edit .pane-user-field-related-clients label[for*="edit-field-related-clients"],
+.page-admin-people-create .pane-user-field-related-clients label[for*="edit-field-related-clients"],
+.page-user-register .pane-user-field-related-clients label[for*="edit-field-related-clients"] {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.page-user-edit .pane-user-field-related-clients input[value="Search"],
+.page-admin-people-create .pane-user-field-related-clients input[value="Search"],
+.page-user-register .pane-user-field-related-clients input[value="Search"] {
+  margin-top: 0;
+  background: #1196cf;
+  color: white;
+  font-size: 12px;
+  min-width: auto;
+}
+.page-user-edit .pane-user-field-related-clients [id*="relation-select-relation-fields"],
+.page-admin-people-create .pane-user-field-related-clients [id*="relation-select-relation-fields"],
+.page-user-register .pane-user-field-related-clients [id*="relation-select-relation-fields"] {
+  width: 100%;
+}
+.page-user-edit .tabledrag-toggle-weight-wrapper,
+.page-admin-people-create .tabledrag-toggle-weight-wrapper,
+.page-user-register .tabledrag-toggle-weight-wrapper {
+  display: none;
+}
+.page-user-edit #edit-masquerade-users,
+.page-admin-people-create #edit-masquerade-users,
+.page-user-register #edit-masquerade-users {
+  width: 100%;
+}
+.page-user-edit .field-name-field-name-notes,
+.page-admin-people-create .field-name-field-name-notes,
+.page-user-register .field-name-field-name-notes {
+  margin-bottom: 1em;
+}
+
+.page-user-register .field-name-field-phone input[value="Remove"] {
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  float: right;
+  font-size: 10px;
+  padding: 3px 5px;
+  right: -50px;
+}
+
+#edit-profile-bwma-client .profile-edit-form-title h1 {
+  margin: 0;
+}
+#edit-profile-bwma-client .pane-user-field-identification {
+  display: block;
+}
+#edit-profile-bwma-client .pane-user-field-identification .field__item {
+  width: 125px;
+}
+#edit-profile-bwma-client .pane-user-field-related-clients {
+  margin-top: 0;
+  border: 0;
+  padding: 0;
+}
+#edit-profile-bwma-client .pane-user-field-related-clients ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#edit-profile-bwma-client .field-name-field-driver-s-license .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+#edit-profile-bwma-client .field-name-field-driver-s-license label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 250px;
+      -ms-flex: 0 0 250px;
+          flex: 0 0 250px;
+  max-width: 100%;
+  -webkit-flex-basis: 250px;
+      -ms-flex-preferred-size: 250px;
+          flex-basis: 250px;
+  white-space: normal;
+}
+#edit-profile-bwma-client .field-name-field-driver-s-license input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 250px);
+      -ms-flex: 1 1 calc(100% - 250px);
+          flex: 1 1 calc(100% - 250px);
+  -webkit-flex-basis: -webkit-calc(100% - 250px);
+      -ms-flex-preferred-size: calc(100% - 250px);
+          flex-basis: calc(100% - 250px);
+  max-width: 100%;
+}
+#edit-profile-bwma-client .field-name-field-driver-s-license legend {
+  font-weight: bold;
+}
+#edit-profile-bwma-client .field-name-field-driver-s-license .description {
+  -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+#edit-profile-bwma-client .field-name-field-company-name .form-item,
+#edit-profile-bwma-client .field-name-field-occupation-or-title-tag .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+#edit-profile-bwma-client .field-name-field-company-name label,
+#edit-profile-bwma-client .field-name-field-occupation-or-title-tag label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150px;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+  max-width: 100%;
+  -webkit-flex-basis: 150px;
+      -ms-flex-preferred-size: 150px;
+          flex-basis: 150px;
+  white-space: normal;
+}
+#edit-profile-bwma-client .field-name-field-company-name input,
+#edit-profile-bwma-client .field-name-field-occupation-or-title-tag input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 150px);
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
+  -webkit-flex-basis: -webkit-calc(100% - 150px);
+      -ms-flex-preferred-size: calc(100% - 150px);
+          flex-basis: calc(100% - 150px);
+  max-width: 100%;
+}
+#edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+#edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100px;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+  max-width: 100%;
+  -webkit-flex-basis: 100px;
+      -ms-flex-preferred-size: 100px;
+          flex-basis: 100px;
+  white-space: normal;
+}
+#edit-profile-bwma-client .client-acquisition-edit .panels-flexible-region-inside-first input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 100px);
+      -ms-flex: 1 1 calc(100% - 100px);
+          flex: 1 1 calc(100% - 100px);
+  -webkit-flex-basis: -webkit-calc(100% - 100px);
+      -ms-flex-preferred-size: calc(100% - 100px);
+          flex-basis: calc(100% - 100px);
+  max-width: 100%;
+}
+#edit-profile-bwma-client .client-acquisition-edit .field-name-field-source-notes label {
+  -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+#edit-profile-bwma-client .client-acquisition-edit .field-name-field-source select {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 100px);
+      -ms-flex: 1 1 calc(100% - 100px);
+          flex: 1 1 calc(100% - 100px);
+  min-width: 0;
+  max-width: 100%;
+}
+#edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+#edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 80px;
+      -ms-flex: 0 0 80px;
+          flex: 0 0 80px;
+  max-width: 100%;
+  -webkit-flex-basis: 80px;
+      -ms-flex-preferred-size: 80px;
+          flex-basis: 80px;
+  white-space: normal;
+}
+#edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 80px);
+      -ms-flex: 1 1 calc(100% - 80px);
+          flex: 1 1 calc(100% - 80px);
+  -webkit-flex-basis: -webkit-calc(100% - 80px);
+      -ms-flex-preferred-size: calc(100% - 80px);
+          flex-basis: calc(100% - 80px);
+  max-width: 100%;
+}
+#edit-profile-bwma-client .client-acquisition-edit .field-name-field-thank-you-card-and-referra legend {
+  font-weight: bold;
+}
+#edit-profile-bwma-client .client-acquisition-edit .field-name-field-note label {
+  -webkit-box-flex: 100%;
+  -webkit-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+#edit-profile-bwma-client .field-name-field-notes .field-name-field-date {
+  display: inline-block;
+  vertical-align: top;
+}
+#edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user {
+  display: inline-block;
+}
+#edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user input {
+  width: 24em;
+}
+@media (min-width: 0px) and (max-width: 569px) {
+  #edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user {
+    display: block;
+  }
+  #edit-profile-bwma-client .field-name-field-notes .field-name-field-staff-user input {
+    display: block;
+    max-width: 100%;
+  }
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form div[class*="form-title"] {
+  display: inline;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .form-wrapper {
+  margin-bottom: 10px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .description {
+  white-space: normal;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 90px;
+      -ms-flex: 0 0 90px;
+          flex: 0 0 90px;
+  max-width: 100%;
+  -webkit-flex-basis: 90px;
+      -ms-flex-preferred-size: 90px;
+          flex-basis: 90px;
+  white-space: normal;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 90px);
+      -ms-flex: 1 1 calc(100% - 90px);
+          flex: 1 1 calc(100% - 90px);
+  -webkit-flex-basis: -webkit-calc(100% - 90px);
+      -ms-flex-preferred-size: calc(100% - 90px);
+          flex-basis: calc(100% - 90px);
+  max-width: 100%;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title-options .form-radios {
+  display: inline-block;
+  width: auto;
+  margin-left: 10px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .group-loan-custom-title .field-name-field-loan-custom-title-options .form-type-radio {
+  display: inline-block;
+  width: auto;
+  margin-right: 5px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+}
+@media (min-width: 0px) {
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+}
+@media (min-width: 780px) {
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
+    display: block;
+    width: 49%;
+    margin-right: 1%;
+    float: left;
+    clear: left;
+  }
+}
+@media (min-width: 992px) {
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+}
+@media (min-width: 1280px) {
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-debit-info,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .deferred-enrolment-fees {
+    display: block;
+    width: 49%;
+    margin-right: 1%;
+    float: left;
+    clear: left;
+  }
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-notes {
+  clear: both;
+  width: 100%;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-bwma-loan-program {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-bwma-loan-program .form-radios .form-item {
+  float: left;
+  width: 150px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .fieldset-title {
+  font-size: 13px;
+  font-weight: bold;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field .field-label {
+  width: 152px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .form-item input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .form-item label {
+  width: 150px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name .form-item,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name label,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150px;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+  max-width: 100%;
+  -webkit-flex-basis: 150px;
+      -ms-flex-preferred-size: 150px;
+          flex-basis: 150px;
+  white-space: normal;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-owner-name input,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-lender input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 -webkit-calc(100% - 150px);
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
+  -webkit-flex-basis: -webkit-calc(100% - 150px);
+      -ms-flex-preferred-size: calc(100% - 150px);
+          flex-basis: calc(100% - 150px);
+  max-width: 100%;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-item.form-type-radios {
+  width: 100%;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-radios {
+  display: inline-block;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-drafting-account-informati .field-name-field-account-type .form-type-radio {
+  display: inline-block;
+  margin-right: 10px;
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-total-deferred-enrollment- input {
+  display: inline-block;
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-enrollment-date {
+  display: inline-block;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form {
+  display: inline-block;
+  vertical-align: top;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-used-diy-form label.option {
+  font-size: 13px;
+  font-weight: bold;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fee-amount {
+  width: 100%;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-amount-advanced-by-s input,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-advanced-by-afts-amo input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-date {
+  float: left;
+  width: 50%;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status select {
+  max-width: -webkit-calc(100% - 80px);
+  max-width: calc(100% - 80px);
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-status .description {
+  display: inline-block;
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-collection-status .field-name-field-note {
+  clear: left;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-welcome-package-note {
+  clear: left;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-fee-notes .field-name-field-note {
+  clear: left;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-amount input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 75px;
+      -ms-flex: 0 0 75px;
+          flex: 0 0 75px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item input {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-address .form-item select {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-loan-type .form-item label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 90px;
+      -ms-flex: 0 0 90px;
+          flex: 0 0 90px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-monthly-payment input,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-additional-extra-principal input,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debit-fee input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debiting-schedule {
+  display: inline-block;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-debiting-schedule .form-radios .form-item {
+  float: left;
+  min-width: 150px;
+  width: 25%;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-current-lender label,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-current-service-bureau label {
+  font-weight: bold;
+  font-size: 13px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-current-lender .field-items,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-current-service-bureau .field-items {
+  margin-left: 0;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .afts-advance label {
+  width: 287px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .afts-advance input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .afts-advance .field-name-field-debit-advanced-by-afts-amo label,
+#edit-profile-bwma-client .field-name-field-loans .ief-form .afts-advance .field-name-field-chargeback-fee-amount label {
+  margin-right: -12px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees label {
+  width: 162px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .field-name-field-deferred-fees .field-name-field-deferred-fee-amount label {
+  margin-right: -12px;
+}
+@media (min-width: 0px) {
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .afts-advance,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (min-width: 780px) {
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .afts-advance,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+    display: inline-block;
+    width: 49%;
+    margin-left: 1%;
+  }
+}
+@media (min-width: 992px) {
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .afts-advance,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (min-width: 1280px) {
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .bwma-enrolment,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .afts-advance,
+  #edit-profile-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+    display: inline-block;
+    width: 49%;
+    margin-left: 1%;
+  }
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-status-history {
+  float: right;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-chaos-data {
+  clear: both;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-chaos-data .form-item input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 114px;
+      -ms-flex: 0 0 114px;
+          flex: 0 0 114px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders .field-name-field-lender .form-item input {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders label {
+  width: 110px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-lenders input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item label {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 184px;
+      -ms-flex: 0 0 184px;
+          flex: 0 0 184px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb .field-name-field-service-bureau .form-item input {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb label {
+  width: 180px;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .loan-sb input {
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .boxed {
+  position: relative;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form .boxed h3 {
+  margin-top: 0;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] {
+  display: none;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio {
+  display: inline-block;
+  padding: 5px;
+  width: auto;
+}
+#edit-profile-bwma-client .field-name-field-loans .ief-form div[class*="form-status"] .form-type-radio label {
+  font-weight: bold;
+}
+#edit-profile-bwma-client .field-name-field-loans table {
+  width: 100%;
+}
+#edit-profile-bwma-client .field-name-field-loans tr {
+  display: table-row;
+}
+#edit-profile-bwma-client .field-name-field-loans input[value="Edit"] {
+  display: inline-block;
+  background-color: #1196cf;
+  color: white;
+  margin-right: 0.5em;
+}
+#edit-profile-bwma-client .field-name-field-loans input[value="Edit"]:hover {
+  background-color: #2271bd;
+}
+#edit-profile-bwma-client .field-name-field-loans input[value="Remove"] {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  position: static;
+  display: inline-block;
+}
+#edit-profile-bwma-client .field-name-field-loans input[value="Add new Loan"] {
+  display: inline-block;
+  margin-top: 0.5em;
+  background-color: #1196cf;
+  color: white;
+  margin-right: 0.5em;
+}
+#edit-profile-bwma-client .field-name-field-loans input[value="Add new Loan"]:hover {
+  background-color: #2271bd;
+}
+#edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"] {
+  display: inline-block;
+  background-color: #1196cf;
+  color: white;
+  margin-top: 0.5em;
+}
+#edit-profile-bwma-client .field-name-field-loans input[value="Add existing Loan"]:hover {
+  background-color: #2271bd;
+}
+
+[class*="pane-profile-history-panel"] .view-content,
+[class*="pane-user-history-panel"] .view-content {
+  overflow: auto;
+}
+
+.pane-chaos-data .field .field__label {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=user_pages.css.map */
