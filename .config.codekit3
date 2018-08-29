@@ -576,11 +576,11 @@
 		"oS": 0
 		},
 	"\/css\/bwmassoc-omega.styles.css": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/css\/bwmassoc-omega.styles-min.css",
 		"oF": 0,
 		"oS": 3
@@ -588,7 +588,7 @@
 	"\/css\/bwmassoc-omega.styles.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/css\/bwmassoc-omega.styles.css.map",
 		"oF": 0
 		},
@@ -910,11 +910,25 @@
 		"oAP": "\/sass\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/%042c",
 		"oF": 0
 		},
+	"\/sass\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/_mixins.scssc",
+		"oF": 0
+		},
 	"\/sass\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/%042c": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/%042c",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/_base.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/_base.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/8e8b96f49139da752b0ad64484074d097df890a0\/_base.scssc": {
@@ -929,6 +943,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/c4f35610658be530960c4231b1ef211d2e6a3b7c\/%042c",
+		"oF": 0
+		},
+	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_audio_testimonials.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_audio_testimonials.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_blog_pages.scssc": {
@@ -1043,11 +1064,11 @@
 		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_user_pages.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_wysiwyg.scssc": {
+	"\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/login.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/_wysiwyg.scssc",
+		"oA": 2,
+		"oAP": "\/sass\/.sass-cache\/cd1691a887ca78b0cf9c9559d6b6893f1992daf6\/login.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/cda4d8bd783c72780a990b614a6d9a48bcb0b30e\/_default.scssc": {
@@ -1128,7 +1149,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/abstractions\/_mixins.css",
+		"oAP": "\/sass\/css\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1172,6 +1193,19 @@
 		"oS": 1,
 		"uL": 0
 		},
+	"\/sass\/components\/_audio_testimonials.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_audio_testimonials.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/components\/_blog_pages.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1180,7 +1214,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_blog_pages.css",
+		"oAP": "\/sass\/css\/_blog_pages.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1193,7 +1227,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_footer.css",
+		"oAP": "\/sass\/css\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1206,7 +1240,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_forms.css",
+		"oAP": "\/sass\/css\/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1219,20 +1253,20 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_header.css",
+		"oAP": "\/sass\/css\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/sass\/components\/_homepage.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_homepage.css",
+		"oAP": "\/sass\/css\/_homepage.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1245,7 +1279,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_login.css",
+		"oAP": "\/sass\/css\/_login.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1258,7 +1292,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_media.css",
+		"oAP": "\/sass\/css\/_media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1272,7 +1306,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_media_element.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1284,7 +1318,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_menu.css",
+		"oAP": "\/sass\/css\/_menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1297,7 +1331,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_pages.css",
+		"oAP": "\/sass\/css\/_pages.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1310,7 +1344,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_registration_form.css",
+		"oAP": "\/sass\/css\/_registration_form.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1323,7 +1357,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_testimonials.css",
+		"oAP": "\/sass\/css\/_testimonials.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1336,7 +1370,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_user-agent.css",
+		"oAP": "\/sass\/css\/_user-agent.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1349,10 +1383,192 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/sass\/components\/_user_pages.css",
+		"oAP": "\/sass\/css\/_user_pages.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_double.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_double.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_query.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_query.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_resolution.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_resolution.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_single.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_single.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_triple.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_triple.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default-pair.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default-pair.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_double-string.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_double-string.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/3ce25154eb9aa96cbb5330cac3faf491d5e3630d\/_resolution.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/3ce25154eb9aa96cbb5330cac3faf491d5e3630d\/_resolution.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/3e20b961d7379ebb405f2f604ef2549094bcdb7c\/_breakpoint.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/3e20b961d7379ebb405f2f604ef2549094bcdb7c\/_breakpoint.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/4200daca2118d370eadf23809d19568fc84a733c\/_default.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/4200daca2118d370eadf23809d19568fc84a733c\/_default.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_pages.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_pages.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/homepage.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/homepage.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/login.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/login.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/registration_form.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/registration_form.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/user_pages.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/user_pages.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/_base.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/_base.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/cda4d8bd783c72780a990b614a6d9a48bcb0b30e\/_default.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/cda4d8bd783c72780a990b614a6d9a48bcb0b30e\/_default.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_context.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_context.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_helpers.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_helpers.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_legacy-settings.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_legacy-settings.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_no-query.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_no-query.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_parsers.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_parsers.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_respond-to.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_respond-to.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_settings.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_settings.scssc",
+		"oF": 0
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
@@ -1417,7 +1633,7 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerBrowserString": "> 1%, last 10 versions",
 	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
@@ -1825,7 +2041,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": "{'allowImplicit': false}"
+			"optionString": ""
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -1989,7 +2205,7 @@
 			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -2216,8 +2432,8 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -2236,7 +2452,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -2444,7 +2660,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -2465,14 +2681,14 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": "{'allowAtRootLevel': false}"
+			"optionString": ""
 			},
 		"no-tabs": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -2489,7 +2705,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			"optionString": "{'skipBlankLines': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -2505,7 +2721,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -2528,12 +2744,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -2541,18 +2757,18 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			"optionString": "{'functions': true, 'classes': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -2609,7 +2825,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowAllPropertiesOnSameLine': true}"
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -2677,7 +2893,7 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			"optionString": "'double', 'avoid-escape'"
 			},
 		"radix": {
 			"active": 0,
@@ -2689,10 +2905,10 @@
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
 			},
 		"require-yield": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
@@ -2807,7 +3023,7 @@
 	"esLintSourceType": 0,
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
-	"hideConfigFile": 0,
+	"hideConfigFile": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -3171,7 +3387,7 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -3179,7 +3395,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -3225,7 +3441,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 1,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -3287,7 +3503,7 @@
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*.*",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -3322,12 +3538,12 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -3392,7 +3608,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
@@ -3518,7 +3734,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {

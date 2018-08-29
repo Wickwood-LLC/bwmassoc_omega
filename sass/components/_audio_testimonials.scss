@@ -1,0 +1,14 @@
+.node-type-client-audio-testimonial {
+	.pane-node-field-image-testimonial {
+		text-align: center;
+	}
+
+	.pane-node-field-audio-testimonial {
+		text-align: center;
+
+		.file-audio {
+			display: inline-block;
+			max-width: 326px;
+		}
+	}
+}
