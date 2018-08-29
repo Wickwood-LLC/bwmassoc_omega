@@ -4533,6 +4533,19 @@ form#user-login #edit-actions input, form#user-pass #edit-actions input {
   width: auto;
 }
 
+.file-video .content {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.file-video .content iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .mejs__container {
   max-width: 100%;
 }
