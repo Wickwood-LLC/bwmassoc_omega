@@ -1790,6 +1790,7 @@ ul.pager .pager__item a, ul.pager .pager__item a:visited {
 }
 .bwmassoc-page .panel-display .row .radix-layouts-contentfooter {
   padding: 0;
+  width: 100%;
 }
 .bwmassoc-page .panel-display .row .col-md-8 {
   -webkit-box-flex: 100%;
