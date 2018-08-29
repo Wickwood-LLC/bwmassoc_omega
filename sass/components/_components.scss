@@ -121,3 +121,11 @@
 	}
 }
 
+.centered-pane {
+	text-align: center;
+
+	.field__items {
+		display: inline-block;
+	}
+}
+
