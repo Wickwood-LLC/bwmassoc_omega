@@ -1,0 +1,51 @@
+.bwmassoc-page-left,
+.bwmassoc-page-right {
+	width: 100%;
+	padding: 0 1em 1em 1em;
+	display: inline-block;
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c1c1c1;
+
+	.panel-panel-inner {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+
+	@include breakpoint(848px) {
+		width: 50%;
+		min-width: 400px;
+	}
+	@include breakpoint(1024px) {
+		width: 100%;
+	}
+	@include breakpoint(1146px) {
+		width: 50%;
+	}
+}
+.bwmassoc-page-left {
+	border-width: 0 1px 0 1px;
+
+	@include breakpoint(848px) {
+		border-width: 0 0 0 1px;
+	}
+	@include breakpoint(1024px) {
+		border-width: 0 1px 0 1px;
+	}
+	@include breakpoint(1146px) {
+		border-width: 0 0 0 1px;
+	}
+}
+.bwmassoc-page-right {
+	border-width: 0 1px 0 1px;
+
+	@include breakpoint(848px) {
+		border-width: 0 1px 0 0;
+	}
+	@include breakpoint(1024px) {
+		border-width: 0 1px 0 1px;
+	}
+	@include breakpoint(1146px) {
+		border-width: 0 1px 0 0;
+	}
+}
