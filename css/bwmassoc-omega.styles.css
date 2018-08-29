@@ -1786,6 +1786,9 @@ ul.pager .pager__item a, ul.pager .pager__item a:visited {
   width: 100%;
   border: 1px solid #c1c1c1;
   border-top: 0px;
+  padding: 0 2em;
+  padding-bottom: 1em;
+  background: #fff none repeat scroll 0 0;
 }
 .bwmassoc-page .panel-display .row .col-md-8 {
   -webkit-box-flex: 100%;
