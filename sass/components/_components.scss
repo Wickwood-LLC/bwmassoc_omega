@@ -126,11 +126,16 @@
 	}
 }
 
-.centered-pane {
+.centered-pane-horizontal {
 	text-align: center;
 
 	.field__items {
 		display: inline-block;
 	}
+}
+.centered-pane-vertical {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
