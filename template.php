@@ -14,6 +14,44 @@ function bwmassoc_omega_preprocess_page(&$vars) {
   // to the theme function or template file.
 
 	_bwmassoc_omega_local_tasks($vars);
+
+	if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) {
+		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
+	}
+	else if (drupal_is_front_page() || in_array(request_path(), array('as-seen-on-tv', 'how-does-it-work', 'compare-biweeklies', 'contact-bwmassoc'))) {
+		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
+	}
+  // Pages: /biweekly-calculator/access-registration, /biweekly-calculator/access-registration?submitted=1
+  // Aslo see bwmassoc_omega_ctools_render_alter().
+  else if (in_array(request_path(), array('biweekly-calculator/access-registration'))) {
+		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
+	}
+	else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
+		// Get node being displayed.
+    $node = menu_get_object();
+		if (in_array($node->type, array('article_post', 'panopoly_news_article', 'press_release', 'panopoly_faq'))) {
+			drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
+		}
+		else if ($node->type == 'page') {
+			drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
+		}
+	}
+  else if (arg(0) == 'user') {
+    // login and password reset pages.
+    if ((arg(1) == 'login' || arg(1) == 'password')) {
+      drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/login.css', array('group' => CSS_THEME));
+    }
+    // pages:
+    //  /user
+    //  /user/[uid]/edit
+    else if (empty(arg(1)) || preg_match('/^\d+$/', arg(1)) || (preg_match('/^\d+$/', arg(1)) && arg(2) == 'edit')) {
+      drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/user_pages.css', array('group' => CSS_THEME));
+    }
+  }
+  // Page /admin/people/create
+  else if (arg(0) == 'admin' && arg(1) == 'people' && arg(2) == 'create') {
+    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/user_pages.css', array('group' => CSS_THEME));
+  }
 }
 
 
@@ -21,7 +59,7 @@ function bwmassoc_omega_preprocess_page(&$vars) {
  * Override of theme('menu_local_task').
  */
 function bwmassoc_omega_menu_local_task($variables) {
-	
+
 	// dpm($variables);
 
   $link = $variables['element']['#link'];
@@ -147,7 +185,7 @@ function bwmassoc_omega_field_multiple_value_form($variables) {
 }
 
 function bwmassoc_omega_html_head_alter(&$head_elements) {
-  
+
   foreach($head_elements as $key => $item) {
     if(strpos($key, 'metatag_viewport') !== false) {
       unset($head_elements[$key]);
@@ -157,3 +195,12 @@ function bwmassoc_omega_html_head_alter(&$head_elements) {
   $head_elements['omega-viewport']['#attributes']['content'] = 'width=device-width, initial-scale=1.0, user-scalable=yes';
 }
 
+/**
+ * Implements hook_ctools_render_alter()
+ */
+function bwmassoc_omega_ctools_render_alter(&$info, &$page, &$context) {
+  // Load homepage.css on panelizer page with "bwmassoc-page" CSS class.
+  if ($context['handler']->name == 'node_view_panelizer' && !empty($info['classes_array']) && in_array('bwmassoc-page', $info['classes_array'])) {
+    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
+  }
+}
