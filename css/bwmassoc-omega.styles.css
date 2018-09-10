@@ -454,6 +454,17 @@ ul.breadcrumb li a {
   width: auto;
 }
 
+.node-type-client-audio-testimonial .pane-node-field-image-testimonial {
+  text-align: center;
+}
+.node-type-client-audio-testimonial .pane-node-field-audio-testimonial {
+  text-align: center;
+}
+.node-type-client-audio-testimonial .pane-node-field-audio-testimonial .file-audio {
+  display: inline-block;
+  max-width: 326px;
+}
+
 .bwma-footer p {
   display: inline-block;
   width: 100%;
