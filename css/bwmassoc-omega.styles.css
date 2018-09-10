@@ -2998,7 +2998,8 @@ main#main-content .share-text .fieldable-panels-pane p {
 
 .node-type-client-image-testimonial .pane-node-title,
 .node-type-client-video-testimonial .pane-node-title,
-.node-type-client-audio-testimonial .pane-node-title {
+.node-type-client-audio-testimonial .pane-node-title,
+.node-type-client-written-testimonial .pane-node-title {
   padding-bottom: 1em;
 }
 
