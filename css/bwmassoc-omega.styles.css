@@ -579,6 +579,8 @@ ul.breadcrumb li a {
 .bwmassoc-page .panel-display .row .radix-layouts-contentfooter {
   padding: 0;
   width: 100%;
+  border: 1px solid #c1c1c1;
+  border-top: 0px;
 }
 .bwmassoc-page .panel-display .row .col-md-8 {
   -webkit-box-flex: 100%;
