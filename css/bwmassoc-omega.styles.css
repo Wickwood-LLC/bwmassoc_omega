@@ -454,6 +454,9 @@ ul.breadcrumb li a {
   width: auto;
 }
 
+.node-type-client-audio-testimonial .pane-node-title {
+  padding-bottom: 1em;
+}
 .node-type-client-audio-testimonial .pane-node-field-audio-testimonial .file-audio {
   max-width: 326px;
 }
