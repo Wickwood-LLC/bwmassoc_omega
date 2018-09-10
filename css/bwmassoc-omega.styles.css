@@ -454,14 +454,7 @@ ul.breadcrumb li a {
   width: auto;
 }
 
-.node-type-client-audio-testimonial .pane-node-field-image-testimonial {
-  text-align: center;
-}
-.node-type-client-audio-testimonial .pane-node-field-audio-testimonial {
-  text-align: center;
-}
 .node-type-client-audio-testimonial .pane-node-field-audio-testimonial .file-audio {
-  display: inline-block;
   max-width: 326px;
 }
 
@@ -634,6 +627,13 @@ ul.breadcrumb li a {
   border-top: 0px;
   padding: 0 2em;
   padding-bottom: 1em;
+}
+
+.centered-pane {
+  text-align: center;
+}
+.centered-pane .field__items {
+  display: inline-block;
 }
 
 .bwma-footer p {
