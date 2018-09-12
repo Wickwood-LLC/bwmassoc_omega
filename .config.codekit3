@@ -1507,19 +1507,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/components\/login.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/sass\/css\/login.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_double.scssc": {
 		"cB": 0,
 		"ft": 8192,
