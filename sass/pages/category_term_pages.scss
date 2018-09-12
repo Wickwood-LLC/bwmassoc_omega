@@ -1,0 +1,20 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+// Import variables, abstractions, base styles and components.
+// Uncomment the next lines and adjust them to your needs.
+@import "../variables/*";
+@import "../abstractions/*";
+@import "../base/*";
+
+.page-taxonomy-term.blog-type-page #main-content .panel-myriad-layout {
+    display: block;
+
+    @include breakpoint (0px 943px) {
+        .sidebar-content {
+            flex: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0.5em;
+        }
+    }
+}
