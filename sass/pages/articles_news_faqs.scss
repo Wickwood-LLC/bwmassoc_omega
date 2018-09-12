@@ -1,0 +1,115 @@
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+// Import variables, abstractions, base styles and components.
+// Uncomment the next lines and adjust them to your needs.
+@import "../variables/*";
+@import "../abstractions/*";
+@import "../base/*";
+
+.node-type-article-post,
+.node-type-panopoly-news-article,
+.node-type-panopoly-faq {
+  .pane-node-title-field {
+    text-align: center;
+
+    .field__item > * {
+      margin-top: 0;
+    }
+  }
+  
+  .field--name-field-featured-image {
+    width: 100%;
+
+      @include breakpoint(481px) {
+        margin: 0 1em 1em 0;
+        width: 50%;
+        float: left;
+      }
+
+      img {
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        width: 100%;
+      }
+  }
+  .field--name-field-categories {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+
+  .row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 1em;
+  }
+
+  .radix-layouts-content {
+    flex: 1 100%;
+    padding: 0;
+
+    @include breakpoint(848px) {
+      flex: 3 0 560px;
+      min-width: 560px;
+      padding: 0.5em;
+    }
+  }
+
+  .radix-layouts-sidebar {
+    flex: 1 300px;
+    min-width: 300px;
+    padding: 0;
+
+    @include breakpoint(848px) {
+      flex: 1 1 250px;
+      padding: 0.5em;
+    }
+
+    .boxed {
+      padding-top: 2em;
+    }
+
+    .pane-card-cycles-card-slideshow {
+      margin-top: 1em;
+    }
+  }
+
+  .radix-layouts-sidebar {
+    .boxed {
+      padding-top: 1em;
+  
+      .pane-title {
+        position: static;
+        margin-bottom: 0.5em;
+      }
+    }
+
+    .views-slideshow-cycle-main-frame-row-item.boxed {
+      padding-top: 2em;
+    }
+  }
+}
+
+.pane-news2-panel-pane-5,
+.pane-articles2-panel-pane-5,
+.pane-panopoly-faq-panel-pane-6 {
+  .view-content {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .views-row {
+    display: inline-block;
+    vertical-align: top;
+    width: 230px;
+    margin-right: 10px;
+    margin-bottom: 0.5em;
+    flex: 1 240px;
+  }
+  .views-field-field-featured-image {
+    float: left;
+    margin-right: 10px;
+  }
+  .views-field-published-at {
+    font-size: 0.8em;
+  }
+}
