@@ -660,6 +660,23 @@
 		"oAP": "\/css\/login.css.map",
 		"oF": 0
 		},
+	"\/css\/press_release_nodes.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/press_release_nodes-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/press_release_nodes.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/press_release_nodes.css.map",
+		"oF": 0
+		},
 	"\/css\/registration_form.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1629,6 +1646,13 @@
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/login.scssc",
 		"oF": 1
 		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/press_release_nodes.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/press_release_nodes.scssc",
+		"oF": 0
+		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/registration_form.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1783,6 +1807,19 @@
 		"oA": 0,
 		"oAP": "\/css\/login.css",
 		"oF": 3,
+		"oS": 1,
+		"uL": 0
+		},
+	"\/sass\/pages\/press_release_nodes.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/press_release_nodes.css",
+		"oF": 2,
 		"oS": 1,
 		"uL": 0
 		},
