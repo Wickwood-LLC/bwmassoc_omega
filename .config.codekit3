@@ -565,21 +565,21 @@
 		"oAP": "\/bwmassoc_omega.info",
 		"oF": 0
 		},
-	"\/css\/blog_pages.css": {
+	"\/css\/blog_view_panel_pages.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "\/css\/blog_pages-min.css",
+		"oAP": "\/css\/blog_view_panel_pages-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/blog_pages.css.map": {
+	"\/css\/blog_view_panel_pages.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/blog_pages.css.map",
+		"oAP": "\/css\/blog_view_panel_pages.css.map",
 		"oF": 0
 		},
 	"\/css\/bwmassoc-omega.reset.css": {
@@ -1718,7 +1718,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/blog_pages.css",
+		"oAP": "\/css\/blog_view_panel_pages.css",
 		"oF": 3,
 		"oS": 1,
 		"uL": 0
