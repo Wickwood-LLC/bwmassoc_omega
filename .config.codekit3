@@ -677,6 +677,23 @@
 		"oAP": "\/css\/user_pages.css.map",
 		"oF": 0
 		},
+	"\/css\/view_card_cycles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/view_card_cycles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/view_card_cycles.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/view_card_cycles.css.map",
+		"oF": 0
+		},
 	"\/fonts\/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -1472,214 +1489,228 @@
 	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_double.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_double.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_query.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_query.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_resolution.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_resolution.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_single.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_single.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_triple.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/018a1bf3f59154b7b7dfc668151ccdb3b3152260\/_triple.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default-pair.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default-pair.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_default.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_double-string.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/17810f8c425c96f9f606348ca7ca6ba1eca6e64e\/_double-string.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/3ce25154eb9aa96cbb5330cac3faf491d5e3630d\/_resolution.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/3ce25154eb9aa96cbb5330cac3faf491d5e3630d\/_resolution.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/3e20b961d7379ebb405f2f604ef2549094bcdb7c\/_breakpoint.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/3e20b961d7379ebb405f2f604ef2549094bcdb7c\/_breakpoint.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/4200daca2118d370eadf23809d19568fc84a733c\/_default.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/4200daca2118d370eadf23809d19568fc84a733c\/_default.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/%042c": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/%042c",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/_mixins.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/_mixins.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_pages.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_pages.scssc",
-		"oF": 0
+		"oF": 1
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_view_panel_pages.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_view_panel_pages.scssc",
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/homepage.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/homepage.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/login.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/login.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/registration_form.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/registration_form.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/user_pages.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/user_pages.scssc",
+		"oF": 1
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/view_card_cycles.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/view_card_cycles.scssc",
 		"oF": 0
 		},
 	"\/sass\/pages\/.sass-cache\/70c8e6d7c5524bea8a7194c741c64ecfab2cdd68\/%042c": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/70c8e6d7c5524bea8a7194c741c64ecfab2cdd68\/%042c",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/%042c": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/%042c",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/_base.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/_base.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/c4f35610658be530960c4231b1ef211d2e6a3b7c\/%042c": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/c4f35610658be530960c4231b1ef211d2e6a3b7c\/%042c",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/cda4d8bd783c72780a990b614a6d9a48bcb0b30e\/_default.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/cda4d8bd783c72780a990b614a6d9a48bcb0b30e\/_default.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_context.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_context.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_helpers.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_helpers.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_legacy-settings.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_legacy-settings.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_no-query.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_no-query.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_parsers.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_parsers.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_respond-to.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_respond-to.scssc",
-		"oF": 0
+		"oF": 1
 		},
 	"\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_settings.scssc": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/pages\/.sass-cache\/f596e5f1f49fb992b70e2dab0a39993b080f04b6\/_settings.scssc",
-		"oF": 0
+		"oF": 1
 		},
-	"\/sass\/pages\/blog_pages.scss": {
+	"\/sass\/pages\/blog_view_panel_pages.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1714,7 +1745,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/login.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 1,
 		"uL": 0
 		},
@@ -1740,6 +1771,19 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/user_pages.css",
+		"oF": 3,
+		"oS": 1,
+		"uL": 0
+		},
+	"\/sass\/pages\/view_card_cycles.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/view_card_cycles.css",
 		"oF": 3,
 		"oS": 1,
 		"uL": 0

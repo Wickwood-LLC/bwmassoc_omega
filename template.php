@@ -16,7 +16,8 @@ function bwmassoc_omega_preprocess_page(&$vars) {
 	_bwmassoc_omega_local_tasks($vars);
 
 	if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) {
-		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
+		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
+    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
 	}
 	else if (empty(request_path()) || in_array(request_path(), array('as-seen-on-tv', 'how-does-it-work', 'compare-biweeklies', 'contact-bwmassoc'))) {
 		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
@@ -30,7 +31,8 @@ function bwmassoc_omega_preprocess_page(&$vars) {
 		// Get node being displayed.
     $node = menu_get_object();
 		if (in_array($node->type, array('article_post', 'panopoly_news_article', 'press_release', 'panopoly_faq'))) {
-			drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_pages.css', array('group' => CSS_THEME));
+			drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
+      drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
 		}
 		else if ($node->type == 'page') {
 			drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
