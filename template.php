@@ -34,6 +34,12 @@ function bwmassoc_omega_preprocess_page(&$vars) {
 			drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
       drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
 		}
+    else if (in_array($node->type, array('article_post', 'panopoly_news_article', 'panopoly_faq'))) {
+      drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/articles_news_faqs.css', array('group' => CSS_THEME));
+    }
+    else if (in_array($node->type, array('press_release'))) {
+      drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/press_release_nodes.css', array('group' => CSS_THEME));
+    }
 		else if ($node->type == 'page') {
 			drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
 		}
