@@ -22,11 +22,13 @@ function bwmassoc_omega_preprocess_page(&$vars) {
   else if (arg(0) == 'categories') { // Categories view pages
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/categories_view_panel_pages.css', array('group' => CSS_THEME));
+    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
   }
   else if (arg(0) == 'taxonomy' && arg(1) == 'term' && preg_match('/^\d+$/', arg(2)) && empty(arg(3))) { // Categories term view pages
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/categories_view_panel_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/category_term_pages.css', array('group' => CSS_THEME));
+    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
   }
 	else if (empty(request_path()) || in_array(request_path(), array('as-seen-on-tv', 'how-does-it-work', 'compare-biweeklies', 'contact-bwmassoc'))) {
 		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
