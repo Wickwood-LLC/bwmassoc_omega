@@ -17,18 +17,15 @@ function bwmassoc_omega_preprocess_page(&$vars) {
 
 	if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) {
 		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
-    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
 	}
   else if (arg(0) == 'categories') { // Categories view pages
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/categories_view_panel_pages.css', array('group' => CSS_THEME));
-    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
   }
   else if (arg(0) == 'taxonomy' && arg(1) == 'term' && preg_match('/^\d+$/', arg(2)) && empty(arg(3))) { // Categories term view pages
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/categories_view_panel_pages.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/category_term_pages.css', array('group' => CSS_THEME));
-    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
   }
 	else if (empty(request_path()) || in_array(request_path(), array('as-seen-on-tv', 'how-does-it-work', 'compare-biweeklies', 'contact-bwmassoc'))) {
 		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
@@ -43,7 +40,6 @@ function bwmassoc_omega_preprocess_page(&$vars) {
     $node = menu_get_object();
 		if (in_array($node->type, array('article_post', 'panopoly_news_article', 'press_release', 'panopoly_faq'))) {
 			drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
-      drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
 
       if (in_array($node->type, array('article_post', 'panopoly_news_article', 'panopoly_faq'))) {
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/articles_news_faqs.css', array('group' => CSS_THEME));
@@ -71,6 +67,15 @@ function bwmassoc_omega_preprocess_page(&$vars) {
   // Page /admin/people/create
   else if (arg(0) == 'admin' && arg(1) == 'people' && arg(2) == 'create') {
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/user_pages.css', array('group' => CSS_THEME));
+  }
+}
+
+/**
+ * Implements hook_views_pre_render()
+ */
+function bwmassoc_omega_views_pre_render(&$view) {
+  if ($view->name == 'card_cycles') {
+    drupal_add_css(drupal_get_path('theme', 'dgr_rubik') . '/css/view_card_cycles.css', array('group' => CSS_THEME));
   }
 }
 
