@@ -1822,7 +1822,10 @@ ul.pager .pager__item a, ul.pager .pager__item a:visited {
   }
 }
 .bwmassoc-page .bwmassoc-page-middle {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   width: 100%;
   background: #fff none repeat scroll 0 0;
   border-left: 1px solid #c1c1c1;

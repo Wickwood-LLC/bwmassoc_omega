@@ -1492,11 +1492,39 @@
 		"oAP": "\/sass\/pages\/.sass-cache\/4dcec1d9b871f7589dc79bbd252ae928a36e8a58\/_mixins.scssc",
 		"oF": 0
 		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/articles_news_faqs.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/articles_news_faqs.scssc",
+		"oF": 0
+		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_pages.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_pages.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_view_panel_pages.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/blog_view_panel_pages.scssc",
+		"oF": 1
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/categories_view_panel_pages.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/categories_view_panel_pages.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/category_term_pages.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/category_term_pages.scssc",
 		"oF": 0
 		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/homepage.scssc": {
@@ -1513,6 +1541,13 @@
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/login.scssc",
 		"oF": 0
 		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/press_release_nodes.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/press_release_nodes.scssc",
+		"oF": 0
+		},
 	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/registration_form.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1525,6 +1560,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/user_pages.scssc",
+		"oF": 0
+		},
+	"\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/view_card_cycles.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/sass\/pages\/.sass-cache\/6f96d43548bdf28e83cab97af98efd123dccd04a\/view_card_cycles.scssc",
 		"oF": 0
 		},
 	"\/sass\/pages\/.sass-cache\/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008\/_base.scssc": {
