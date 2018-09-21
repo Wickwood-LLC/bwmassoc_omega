@@ -34,6 +34,7 @@ function bwmassoc_omega_preprocess_page(&$vars) {
   // Aslo see bwmassoc_omega_ctools_render_alter().
   else if (in_array(request_path(), array('biweekly-calculator/access-registration'))) {
 		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/registration_form.css', array('group' => CSS_THEME));
+    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
 	}
 	else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
 		// Get node being displayed.
