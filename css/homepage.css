@@ -975,6 +975,7 @@ ul.breadcrumb li a {
   text-align: center;
   color: #0355a3;
   text-decoration: none;
+  width: 100%;
 }
 .bwmassoc-page .pane-node-title h1,
 .bwmassoc-page .field--name-title-field h1,
