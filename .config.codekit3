@@ -700,6 +700,23 @@
 		"oAP": "/css/press_release_nodes.css.map",
 		"oF": 0
 		},
+	"/css/print.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/css/print-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/print.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/css/print.css.map",
+		"oF": 0
+		},
 	"/css/registration_form.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1695,6 +1712,13 @@
 		"oAP": "/sass/pages/.sass-cache/6f96d43548bdf28e83cab97af98efd123dccd04a/press_release_nodes.scssc",
 		"oF": 0
 		},
+	"/sass/pages/.sass-cache/6f96d43548bdf28e83cab97af98efd123dccd04a/print.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/sass/pages/.sass-cache/6f96d43548bdf28e83cab97af98efd123dccd04a/print.scssc",
+		"oF": 0
+		},
 	"/sass/pages/.sass-cache/6f96d43548bdf28e83cab97af98efd123dccd04a/registration_form.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1891,6 +1915,19 @@
 		"oS": 1,
 		"uL": 0
 		},
+	"/sass/pages/print.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/css/print.css",
+		"oF": 2,
+		"oS": 1,
+		"uL": 0
+		},
 	"/sass/pages/registration_form.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1969,6 +2006,13 @@
 		"oAP": "/templates/page.tpl.php",
 		"oF": 0
 		},
+	"/templates/print--node--press-release.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/templates/print--node--press-release.tpl.php",
+		"oF": 0
+		},
 	"/theme-settings.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1984,7 +2028,7 @@
 "projectAttributes": {
 	"creationDate": 502267713,
 	"displayValue": "bwmassoc_omega",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-yesBaby",
 	"iconImageWasSetByUser": 0
 	},
