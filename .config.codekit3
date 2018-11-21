@@ -2013,6 +2013,13 @@
 		"oAP": "/templates/print--node--press-release.tpl.php",
 		"oF": 0
 		},
+	"/templates/print.tpl.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/templates/print.tpl.php",
+		"oF": 0
+		},
 	"/theme-settings.php": {
 		"cB": 0,
 		"ft": 8192,

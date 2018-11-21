@@ -155,7 +155,8 @@ img.print-logo {
 }
 
 .print-version {
-    .field-name-field-featured-image {
+    .field-name-field-featured-image,
+    .field--name-field-featured-image {
         margin: 0 1em 1em 0;
         float: left;
         max-width: 300px;
@@ -165,7 +166,8 @@ img.print-logo {
             height: auto;
         }
     }
-    .field-name-title-field {
+    .field-name-title-field,
+    .field--name-title-field {
         text-align: center;
     }
 }
@@ -211,7 +213,8 @@ img.print-logo {
         text-align: center;
     }
 
-    .field-name-field-full-contact-details {
+    .field-name-field-full-contact-details,
+    .field--name-field-full-contact-details {
         margin: 2em 0;
         text-align: center;
 
@@ -233,21 +236,6 @@ img.print-logo {
     img {
         max-width: 100%;
         height: auto;
-    }
-
-    .field-name-field-upload-document {
-        flex-flow: row wrap;
-        margin-bottom: 0.5em;
-    }
-
-    .field-name-field-categories {
-        margin-bottom: 0.5em;
-
-        .field-label,
-        .field-items {
-            float: none;
-            display: inline-block;
-        }
     }
 
     .pane-custom.pane-1 {

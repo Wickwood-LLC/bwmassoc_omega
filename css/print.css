@@ -148,16 +148,19 @@ img.print-logo {
   text-align: center;
 }
 
-.print-version .field-name-field-featured-image {
+.print-version .field-name-field-featured-image,
+.print-version .field--name-field-featured-image {
   margin: 0 1em 1em 0;
   float: left;
   max-width: 300px;
 }
-.print-version .field-name-field-featured-image img {
+.print-version .field-name-field-featured-image img,
+.print-version .field--name-field-featured-image img {
   width: 100%;
   height: auto;
 }
-.print-version .field-name-title-field {
+.print-version .field-name-title-field,
+.print-version .field--name-title-field {
   text-align: center;
 }
 
@@ -208,11 +211,13 @@ img.print-logo {
 .node-type-press-release.panelized-node.print-version h1.pane-node-title-field {
   text-align: center;
 }
-.node-type-press-release.panelized-node.print-version .field-name-field-full-contact-details {
+.node-type-press-release.panelized-node.print-version .field-name-field-full-contact-details,
+.node-type-press-release.panelized-node.print-version .field--name-field-full-contact-details {
   margin: 2em 0;
   text-align: center;
 }
-.node-type-press-release.panelized-node.print-version .field-name-field-full-contact-details h4 {
+.node-type-press-release.panelized-node.print-version .field-name-field-full-contact-details h4,
+.node-type-press-release.panelized-node.print-version .field--name-field-full-contact-details h4 {
   margin: 0;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -229,22 +234,6 @@ img.print-logo {
 .node-type-press-release.panelized-node.print-version img {
   max-width: 100%;
   height: auto;
-}
-.node-type-press-release.panelized-node.print-version .field-name-field-upload-document {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  margin-bottom: 0.5em;
-}
-.node-type-press-release.panelized-node.print-version .field-name-field-categories {
-  margin-bottom: 0.5em;
-}
-.node-type-press-release.panelized-node.print-version .field-name-field-categories .field-label,
-.node-type-press-release.panelized-node.print-version .field-name-field-categories .field-items {
-  float: none;
-  display: inline-block;
 }
 .node-type-press-release.panelized-node.print-version .pane-custom.pane-1 {
   text-align: center;
