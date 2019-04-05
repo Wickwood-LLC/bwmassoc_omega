@@ -15,7 +15,7 @@
 	background: #f2f2f2;
 }
 
-#block-superfish-3 {
+.main-menu {
 	display: inline-block;
 	float: right;
 
@@ -49,7 +49,7 @@
 		}
 	}
 
-	#superfish-3-accordion {
+	.sf-menu-accordion {
 		&.sf-hidden {
 			display: none !important;
 		}
@@ -508,8 +508,8 @@ html.touch .tabs--primary {
 
 body.logged-in	{
 	@include breakpoint(551px 724px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a i:before {
 					content: '';
 				}
@@ -523,10 +523,10 @@ body.logged-in	{
 		}
 	}
 	@include breakpoint(551px) {
-		#block-superfish-3 {
+		.main-menu {
 			text-align: center;
 
-			#superfish-3 {
+			.sf-menu {
 				display: inline-block !important;
 				vertical-align: middle;
 
@@ -545,8 +545,8 @@ body.logged-in	{
 		}
 	}
 	@include breakpoint(645px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					font-size: 14px;
 					padding: 6px 10px;
@@ -562,13 +562,13 @@ body.logged-in	{
 		}
 	}
 	@include breakpoint(724px) {
-		#block-superfish-3 {
+		.main-menu {
 			width: auto;
 		}
 	}
 	@include breakpoint(765px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					font-size: 15px;
 				}
@@ -582,8 +582,8 @@ body.logged-in	{
 		}
 	}
 	@include breakpoint(806px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					font-size: 16px;
 				}
@@ -597,8 +597,8 @@ body.logged-in	{
 		}
 	}
 	@include breakpoint(866px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					padding: 11px 16px;
 				}
@@ -612,8 +612,8 @@ body.logged-in	{
 		}
 	}
 	@include breakpoint(926px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					padding: 16px 20px;
 				}
@@ -630,8 +630,8 @@ body.logged-in	{
 
 body.not-logged-in {
 	@include breakpoint(551px) {
-		#block-superfish-3 {	
-			#superfish-3 {
+		.main-menu {	
+			.sf-menu {
 				display: inline-block !important;
 				vertical-align: middle;
 	
@@ -650,13 +650,13 @@ body.not-logged-in {
 		}
 	}
 	@include breakpoint(566px) {
-		#block-superfish-3 {
+		.main-menu {
 			width: auto;
 		}
 	}
 	@include breakpoint(566px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					font-size: 14px;
 				}
@@ -670,8 +670,8 @@ body.not-logged-in {
 		}
 	}
 	@include breakpoint(628px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					font-size: 16px;
 				}
@@ -685,8 +685,8 @@ body.not-logged-in {
 		}
 	}
 	@include breakpoint(688px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					padding: 11px 16px;
 				}
@@ -700,8 +700,8 @@ body.not-logged-in {
 		}
 	}
 	@include breakpoint(728px) {
-		#block-superfish-3 {	
-			#superfish-3 {	
+		.main-menu {	
+			.sf-menu {	
 				li a {
 					padding: 16px 20px;
 				}
