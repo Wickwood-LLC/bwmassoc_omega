@@ -361,14 +361,6 @@
     }
 }
 
-.pane-superfish-4 {
-    display: inline-block;
-
-    #superfish-4 {
-        margin-bottom: -1px;
-    }
-}
-
 .bwmassoc-page,
 .node-type-bwmassoc-basic-page,
 .page-contact-bwma,
@@ -935,7 +927,8 @@
     }
 }
 
-.pane-superfish-4 {
+.pane-main-tabs {
+    display: inline-block;
     width: 100%;
     margin-bottom: 1em;
 
@@ -943,261 +936,262 @@
         width: calc(100% - 12px);
         margin-bottom: 0;
     }
-}
 
-#superfish-4 {
-    margin: 0;
-    padding: 0;
-    margin-bottom: -1px;
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-
-    li {
+    .sf-menu {
+        margin: 0;
+        margin-bottom: -1px;
         padding: 0;
-        margin-right: 10px;
-        flex: 1 auto;
-        z-index: 1;
-
-        a {
-            border-top-left-radius: 5px;
-            border-top-right-radius: 24px;
-            color: #fff;
-            font-size: 11px;
-            font-weight: bold;
-            padding: 12px 10px;
-            display: inline-block;
-            text-decoration: none;
-            position: relative;
-            padding-right: 13px;
-            padding-left: 1em;
-            border-bottom: 1px solid #c1c1c1;
-            width: 100%;
-            text-align: center;
-            height: 37px;
-
-            &:after {
-                content: " ";
-                position: absolute;
-                top: -1px;
-                width: 23px;
-                background-color: inherit;
-                border-radius: 0 12px 0 0;
-                border-bottom: 1px solid #c1c1c1;
-                transform: skew(24deg);
-                right: -13px;
-                z-index: 1;
-                height: 37px;
-            }
-
-            @include breakpoint(769px) {
-                font-size: 12px;
-                height: 38px;
-
-                &:after {
-                    height: 38px;
-                }
-            }
-
-            @include breakpoint(866px) {
-                font-size: 14px;
-                height: 40px;
-
-                &:after {
-                    height: 40px;
-                }
-            }
-
-            @include breakpoint(963px) {
-                font-size: 16px;
-                height: 42px;
-
-                &:after {
-                    height: 42px;
-                }
-            }
-
-            @include breakpoint(1024px) {
-                font-size: 11px;
-                height: 36px;
-
-                &:after {
-                    height: 36px;
-                }
-            }
-
-            @include breakpoint(1041px) {
-                font-size: 12px;
-                height: 38px;
-
-                &:after {
-                    height: 38px;
-                }
-            }
-
-            @include breakpoint(1171px) {
-                font-size: 14px;
-                height: 40px;
-
-                &:after {
-                    height: 40px;
-                }
-            }
-
-            @include breakpoint(1301px) {
-                font-size: 16px;
-                height: 42px;
-
-                &:after {
-                    height: 42px;
-                }
-            }
-
-            @include breakpoint(1366px) {
-                font-size: 17px;
-                height: 47px;
-
-                &:after {
-                    height: 47px;
-                }
-            }
-        }
-
-        &:first-child a {
-            background: #68ca24;
-            border: 1px solid #68ca24;
-            border-bottom: 1px solid #c1c1c1;
-        }
-        &:nth-child(2) a {
-            background: #529e39;
-            border: 1px solid #529e39;
-            border-bottom: 1px solid #c1c1c1;
-        }
-        &:nth-child(3) a {
-            background: #ec1f27;
-            border: 1px solid #ec1f27;
-            border-bottom: 1px solid #c1c1c1;
-        }
-        &:nth-child(4) a {
-            background: #0792cd;
-            border: 1px solid #0792cd;
-            border-bottom: 1px solid #c1c1c1;
-        }
-        &:nth-child(5) a {
-            background: #33a6d7;
-            border: 1px solid #33a6d7;
-            border-bottom: 1px solid #c1c1c1;
-        }
-        &:nth-child(6) a {
-            background: #0355a3;
-            border: 1px solid #0355a3;
-            border-bottom: 1px solid #c1c1c1;
-        }
-
-        &.active-trail a {
-            background-color: white;
-            color: black;
-            border: 1px solid #c1c1c1;
-            border-bottom: 1px solid white;
-            z-index: 2;
-
-            &:after {
-                border: 1px solid #c1c1c1;
-                border-left: 0;
-                border-bottom: 0;
-                z-index: 2;
-            }
-        }
-
-        &:hover a {
-            background-color: #ffc43d;
-            color: black;
-            border-color: #ffc43d;
-        }
-    }
-
-    .sf-accordion-toggle {
-        margin-bottom: 1em;
-    }
-}
-
-#superfish-4-toggle {
-    display: block;
-    text-align: center;
-    background-color: #0355a3;
-    color: white;
-    border-radius: 10px;
-    border-left: 0px;
-    padding: 0.5em;
-    text-decoration: none;
-
-    font-size: 14px;  // backup size
-	@include fluid-type(400px, 718px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-
-    &.sf-expanded {
-        background-color: #239fd3;
-        border-radius: 10px 10px 0 0;
-        font-weight: normal;
-    }
-}
-
-#superfish-4-accordion {
-    border: 1px solid #239fd3;
-    border-top: 0px;
-    border-radius: 0 0 10px 10px;
-    box-sizing: border-box;
-    display: block !important;
-
-    li {
-        border: 1px solid #ddd;
-        box-sizing: border-box;
-        float: none;
+        margin-bottom: -1px;
+        display: flex;
+        flex-flow: row wrap;
         width: 100%;
 
-        &:first-child a {
-            background: #68ca24;
-        }
-        &:nth-child(2) a {
-            background: #529e39;
-        }
-        &:nth-child(3) a {
-            background: #ec1f27;
-        }
-        &:nth-child(4) a {
-            background: #0792cd;
-        }
-        &:nth-child(5) a {
-            background: #33a6d7;
-        }
-        &:nth-child(6) a {
-        	background: #0355a3;
-        }
-        &:last-child {
-            border-radius: 0 0 10px 10px;
+        li {
+            padding: 0;
+            margin-right: 10px;
+            flex: 1 auto;
+            z-index: 1;
 
             a {
-                border-radius: 0 0 10px 10px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 24px;
+                color: #fff;
+                font-size: 11px;
+                font-weight: bold;
+                padding: 12px 10px;
+                display: inline-block;
+                text-decoration: none;
+                position: relative;
+                padding-right: 13px;
+                padding-left: 1em;
+                border-bottom: 1px solid #c1c1c1;
+                width: 100%;
+                text-align: center;
+                height: 37px;
+
+                &:after {
+                    content: " ";
+                    position: absolute;
+                    top: -1px;
+                    width: 23px;
+                    background-color: inherit;
+                    border-radius: 0 12px 0 0;
+                    border-bottom: 1px solid #c1c1c1;
+                    transform: skew(24deg);
+                    right: -13px;
+                    z-index: 1;
+                    height: 37px;
+                }
+
+                @include breakpoint(769px) {
+                    font-size: 12px;
+                    height: 38px;
+
+                    &:after {
+                        height: 38px;
+                    }
+                }
+
+                @include breakpoint(866px) {
+                    font-size: 14px;
+                    height: 40px;
+
+                    &:after {
+                        height: 40px;
+                    }
+                }
+
+                @include breakpoint(963px) {
+                    font-size: 16px;
+                    height: 42px;
+
+                    &:after {
+                        height: 42px;
+                    }
+                }
+
+                @include breakpoint(1024px) {
+                    font-size: 11px;
+                    height: 36px;
+
+                    &:after {
+                        height: 36px;
+                    }
+                }
+
+                @include breakpoint(1041px) {
+                    font-size: 12px;
+                    height: 38px;
+
+                    &:after {
+                        height: 38px;
+                    }
+                }
+
+                @include breakpoint(1171px) {
+                    font-size: 14px;
+                    height: 40px;
+
+                    &:after {
+                        height: 40px;
+                    }
+                }
+
+                @include breakpoint(1301px) {
+                    font-size: 16px;
+                    height: 42px;
+
+                    &:after {
+                        height: 42px;
+                    }
+                }
+
+                @include breakpoint(1366px) {
+                    font-size: 17px;
+                    height: 47px;
+
+                    &:after {
+                        height: 47px;
+                    }
+                }
+            }
+
+            &:first-child a {
+                background: #68ca24;
+                border: 1px solid #68ca24;
+                border-bottom: 1px solid #c1c1c1;
+            }
+            &:nth-child(2) a {
+                background: #529e39;
+                border: 1px solid #529e39;
+                border-bottom: 1px solid #c1c1c1;
+            }
+            &:nth-child(3) a {
+                background: #ec1f27;
+                border: 1px solid #ec1f27;
+                border-bottom: 1px solid #c1c1c1;
+            }
+            &:nth-child(4) a {
+                background: #0792cd;
+                border: 1px solid #0792cd;
+                border-bottom: 1px solid #c1c1c1;
+            }
+            &:nth-child(5) a {
+                background: #33a6d7;
+                border: 1px solid #33a6d7;
+                border-bottom: 1px solid #c1c1c1;
+            }
+            &:nth-child(6) a {
+                background: #0355a3;
+                border: 1px solid #0355a3;
+                border-bottom: 1px solid #c1c1c1;
+            }
+
+            &.active-trail a {
+                background-color: white;
+                color: black;
+                border: 1px solid #c1c1c1;
+                border-bottom: 1px solid white;
+                z-index: 2;
+
+                &:after {
+                    border: 1px solid #c1c1c1;
+                    border-left: 0;
+                    border-bottom: 0;
+                    z-index: 2;
+                }
+            }
+
+            &:hover a {
+                background-color: #ffc43d;
+                color: black;
+                border-color: #ffc43d;
             }
         }
 
-        a {
-            border: 0px;
-            color: white;
-            padding-left: 34px;
-            text-decoration: none;
-            padding: 0.75em 1em;
-            text-align: center;
-            font-size: 14px;  // backup size
-			@include fluid-type(400px, 718px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+        .sf-accordion-toggle {
+            margin-bottom: 1em;
+        }
+    }
 
-            &:hover {
-                background-color: #ffc43d;
-                color: black;
+    a[id*="toggle"] {
+        display: block;
+        text-align: center;
+        background-color: #0355a3;
+        color: white;
+        border-radius: 10px;
+        border-left: 0px;
+        padding: 0.5em;
+        text-decoration: none;
+
+        font-size: 14px;  // backup size
+        @include fluid-type(400px, 718px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+
+        &.sf-expanded {
+            background-color: #239fd3;
+            border-radius: 10px 10px 0 0;
+            font-weight: normal;
+        }
+    }
+
+    .sf-accordion {
+        border: 1px solid #239fd3;
+        border-top: 0px;
+        border-radius: 0 0 10px 10px;
+        box-sizing: border-box;
+        display: block !important;
+
+        li {
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+            float: none;
+            width: 100%;
+
+            &:first-child a {
+                background: #68ca24;
+            }
+            &:nth-child(2) a {
+                background: #529e39;
+            }
+            &:nth-child(3) a {
+                background: #ec1f27;
+            }
+            &:nth-child(4) a {
+                background: #0792cd;
+            }
+            &:nth-child(5) a {
+                background: #33a6d7;
+            }
+            &:nth-child(6) a {
+                background: #0355a3;
+            }
+            &:last-child {
+                border-radius: 0 0 10px 10px;
+
+                a {
+                    border-radius: 0 0 10px 10px;
+                }
             }
 
-            &.active {
-                background-color: white;
-                color: black;
+            a {
+                border: 0px;
+                color: white;
+                padding-left: 34px;
+                text-decoration: none;
+                padding: 0.75em 1em;
+                text-align: center;
+                font-size: 14px;  // backup size
+                @include fluid-type(400px, 718px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+
+                &:hover {
+                    background-color: #ffc43d;
+                    color: black;
+                }
+
+                &.active {
+                    background-color: white;
+                    color: black;
+                }
             }
         }
     }
