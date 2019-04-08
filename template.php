@@ -32,10 +32,13 @@ function bwmassoc_omega_preprocess_page(&$vars) {
 	}
   // Pages: /biweekly-calculator/access-registration, /biweekly-calculator/access-registration?submitted=1
   // Aslo see bwmassoc_omega_ctools_render_alter().
-  else if (in_array(request_path(), array('referral-registration', 'biweekly-calculator/access-registration', ''))) {
+  else if (in_array(request_path(), array('biweekly-calculator/access-registration'))) {
 		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/registration_form.css', array('group' => CSS_THEME));
     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
 	}
+  else if (in_array(arg(0), array('referral-registration'))) {
+    drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/registration_form.css', array('group' => CSS_THEME));
+  }
 	else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2))) ) { // Node view page.
 		// Get node being displayed.
     $node = menu_get_object();
