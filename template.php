@@ -14,6 +14,7 @@ function bwmassoc_omega_preprocess_page(&$vars) {
   // to the theme function or template file.
 
 	_bwmassoc_omega_local_tasks($vars);
+    dpm($vars);
 
 	if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) {
 		drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
