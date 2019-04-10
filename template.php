@@ -15,7 +15,9 @@ function bwmassoc_omega_preprocess_page(&$vars)
     // to the theme function or template file.
 
     _bwmassoc_omega_local_tasks($vars);
-    dpm($vars);
+    dpm($vars['attributes_array']['class']);
+    $node = menu_get_object();
+    dpm($node);
 
     if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) {
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
@@ -40,7 +42,6 @@ function bwmassoc_omega_preprocess_page(&$vars)
         // Node view page.
         // Get node being displayed.
         $node = menu_get_object();
-        dpm($node);
         if (in_array($node->type, array('article_post', 'panopoly_news_article', 'press_release', 'panopoly_faq'))) {
             drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
 
