@@ -15,9 +15,6 @@ function bwmassoc_omega_preprocess_page(&$vars)
     // to the theme function or template file.
 
     _bwmassoc_omega_local_tasks($vars);
-    dpm($vars['attributes_array']['class']);
-    $node = menu_get_object();
-    dpm($node);
 
     if (in_array(arg(0), array('articles', 'news', 'press-releases', 'faqs'))) {
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
@@ -35,7 +32,7 @@ function bwmassoc_omega_preprocess_page(&$vars)
     }
     // Pages: /biweekly-calculator/access-registration, /biweekly-calculator/access-registration?submitted=1
     // Aslo see bwmassoc_omega_ctools_render_alter().
-    else if (in_array(request_path(), array('biweekly-calculator/access-registration', 'referral-registration'))) {
+    else if ((in_array(request_path(), array('biweekly-calculator/access-registration', 'biweekly-calculator/access-registration?submitted=1', 'referral-registration', 'referral-registration?submitted=1', '?submitted=1'))) || (is_front)) {
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/registration_form.css', array('group' => CSS_THEME));
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
     } else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2)))) {
