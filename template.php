@@ -29,10 +29,6 @@ function bwmassoc_omega_preprocess_page(&$vars)
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/categories_view_panel_pages.css', array('group' => CSS_THEME));
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/category_term_pages.css', array('group' => CSS_THEME));
     } 
-    // else if ($vars['is_front']) {
-    //     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/registration_form.css', array('group' => CSS_THEME));
-    //     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
-    // }
     // Pages: /biweekly-calculator/access-registration, /biweekly-calculator/access-registration?submitted=1
     // Aslo see bwmassoc_omega_ctools_render_alter().
     else if ((in_array(request_path(), array('biweekly-calculator/access-registration', 'referral-registration'))) || ($vars['is_front'])) {
