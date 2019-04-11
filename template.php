@@ -28,19 +28,21 @@ function bwmassoc_omega_preprocess_page(&$vars)
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/blog_view_panel_pages.css', array('group' => CSS_THEME));
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/categories_view_panel_pages.css', array('group' => CSS_THEME));
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/category_term_pages.css', array('group' => CSS_THEME));
-    } else if (empty(request_path()) || in_array(request_path(), array('biweekly-calculator', 'as-seen-on-tv', 'how-does-it-work', 'compare-biweeklies', 'contact-bwmassoc'))) {
-        drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
-    }
-    else if (empty(arg(0))) {
-        drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/registration_form.css', array('group' => CSS_THEME));
-        drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
-    }
+    } 
+    // else if ($vars['is_front']) {
+    //     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/registration_form.css', array('group' => CSS_THEME));
+    //     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
+    // }
     // Pages: /biweekly-calculator/access-registration, /biweekly-calculator/access-registration?submitted=1
     // Aslo see bwmassoc_omega_ctools_render_alter().
     else if ((in_array(request_path(), array('biweekly-calculator/access-registration', 'referral-registration'))) || ($vars['is_front'])) {
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/registration_form.css', array('group' => CSS_THEME));
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
-    } else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2)))) {
+    } 
+    else if (empty(request_path()) || in_array(request_path(), array('biweekly-calculator', 'as-seen-on-tv', 'how-does-it-work', 'compare-biweeklies', 'contact-bwmassoc'))) {
+        drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
+    }
+    else if ((arg(0) == 'node' && preg_match('/^\d+$/', arg(1)) && empty(arg(2)))) {
         // Node view page.
         // Get node being displayed.
         $node = menu_get_object();
