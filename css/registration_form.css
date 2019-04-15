@@ -80,7 +80,6 @@
 .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn1,
 .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
   width: 100%;
-  padding: 0 1em 1em 1em;
   display: inline-block;
   background: #fff none repeat scroll 0 0;
   border: 1px solid #c1c1c1;
@@ -122,38 +121,48 @@
 }
 .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn1 {
   border-width: 0 1px 0 1px;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 @media (min-width: 848px) {
   .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn1 {
     border-width: 0 0 0 1px;
+    padding-right: 1em;
   }
 }
 @media (min-width: 1024px) {
   .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn1 {
     border-width: 0 1px 0 1px;
+    padding-right: 2em;
   }
 }
 @media (min-width: 1146px) {
   .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn1 {
     border-width: 0 0 0 1px;
+    padding-right: 1em;
   }
 }
 .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
   border-width: 0 1px 0 1px;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 @media (min-width: 848px) {
   .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
     border-width: 0 1px 0 0;
+    padding-left: 1em;
   }
 }
 @media (min-width: 1024px) {
   .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
     border-width: 0 1px 0 1px;
+    padding-left: 2em;
   }
 }
 @media (min-width: 1146px) {
   .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentcolumn2 {
     border-width: 0 1px 0 0;
+    padding-left: 1em;
   }
 }
 .registration-form .radix-selby .row .col-md-8 .radix-layouts-contentfooter {
