@@ -54,9 +54,9 @@ function bwmassoc_omega_preprocess_page(&$vars)
         }
     } else if (arg(0) == 'user') {
         // login and password reset pages.
-        if ((arg(1) == 'login' || arg(1) == 'password')) {
-            drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/login.css', array('group' => CSS_THEME));
-        }
+        // if ((arg(1) == 'login' || arg(1) == 'password')) {
+        //     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/login.css', array('group' => CSS_THEME));
+        // }
         // pages:
         //  /user
         //  /user/[uid]/edit
