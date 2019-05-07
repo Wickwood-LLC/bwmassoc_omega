@@ -54,13 +54,13 @@ function bwmassoc_omega_preprocess_page(&$vars)
         }
     } else if (arg(0) == 'user') {
         // login and password reset pages.
-        // if ((arg(1) == 'login' || arg(1) == 'password')) {
-        //     drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/login.css', array('group' => CSS_THEME));
-        // }
+        if ((arg(1) == 'login' || arg(1) == 'password')) {
+            drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/login.css', array('group' => CSS_THEME));
+        }
         // pages:
         //  /user
         //  /user/[uid]/edit
-        if (empty(arg(1)) || preg_match('/^\d+$/', arg(1)) || (preg_match('/^\d+$/', arg(1)) && arg(2) == 'edit')) {
+        else if (empty(arg(1)) || preg_match('/^\d+$/', arg(1)) || (preg_match('/^\d+$/', arg(1)) && arg(2) == 'edit')) {
             drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/user_pages.css', array('group' => CSS_THEME));
         }
     }
