@@ -10,7 +10,6 @@ core = 7.x
 ; ========================================
 stylesheets[all][] = css/bwmassoc-omega.reset.css
 stylesheets[all][] = css/bwmassoc-omega.styles.css
-stylesheets[all][] = css/login.css
 
 ; ========================================
 ; Scripts
