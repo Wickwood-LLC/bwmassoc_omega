@@ -60,7 +60,7 @@ function bwmassoc_omega_preprocess_page(&$vars)
         // pages:
         //  /user
         //  /user/[uid]/edit
-        else if (empty(arg(1)) || preg_match('/^\d+$/', arg(1)) || (preg_match('/^\d+$/', arg(1)) && arg(2) == 'edit')) {
+        if (empty(arg(1)) || preg_match('/^\d+$/', arg(1)) || (preg_match('/^\d+$/', arg(1)) && arg(2) == 'edit')) {
             drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/user_pages.css', array('group' => CSS_THEME));
         }
     }
