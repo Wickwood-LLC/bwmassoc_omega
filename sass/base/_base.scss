@@ -247,8 +247,7 @@ td {
 .boxed {
     background-color: white;
     border: 1px solid #ccc;
-    ;
-    padding: 1em;
+    padding: 2em 1em 1em;
     margin: 1em 0;
     position: relative;
     border-radius: 5px;
@@ -257,7 +256,7 @@ td {
         position: absolute;
         margin: 0;
         background: white;
-        padding: 0 1em;
+        padding: 0 0.5em;
         display: inline-block !important;
     }
 
@@ -266,7 +265,7 @@ td {
         font-size: 22px;
         @include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
         text-transform: capitalize;
-        border-bottom: 1px solid #d6dd89;
+        border: 1px solid #ccc;
     }
 
     h3.pane-title {
