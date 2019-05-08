@@ -342,7 +342,7 @@ td {
   position: absolute;
   margin: 0;
   background: white;
-  padding: 0 0.5em;
+  padding: 0 1em;
   display: inline-block !important;
 }
 .boxed h2.pane-title {

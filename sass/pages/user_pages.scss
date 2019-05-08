@@ -7,87 +7,93 @@
 
 #user-account-main-page,
 #user-account-client-profile {
-	.action-links li {
-		list-style: none;
-	}
+    .action-links li {
+        list-style: none;
+    }
 
-	ul {
-		margin: 0;
-		padding: 0;
+    ul {
+        margin: 0;
+        padding: 0;
 
-		li {
-			list-style: none;
-		}
-	}
+        li {
+            list-style: none;
+        }
+    }
 }
 
 .field {
-	line-height: 1.3;
+    line-height: 1.3;
 }
 
 .views-table {
-	width: 100%;
+    width: 100%;
 }
 
 .user-account-page-title h1 {
-	margin: 0;
+    margin: 0;
 }
 
 .pane-basic-user-info-for-user-account,
-.pane-basic-user-info{
-	.field__label {
-		width: 124px;
-	}
+.pane-basic-user-info {
+    .field__label {
+        width: 124px;
+    }
 }
-.pane-user-field-identification {
-	width: 120px;
-	display: inline-block;
-	font-weight: bold;
 
-	.field--name-field-identification .field__item {
-		float: left;
-		&:after {
-		    content: ':\00a0';
-		}
-	}
+.pane-user-field-identification {
+    width: 120px;
+    display: inline-block;
+    font-weight: bold;
+
+    .field--name-field-identification .field__item {
+        float: left;
+
+        &:after {
+            content: ':\00a0';
+        }
+    }
 }
+
 .pane-user-field-ss-or-ein {
-	display: inline-block;
+    display: inline-block;
 }
+
 .pane-user-roles {
-  ul li {
-    margin-left: 0;
-    padding: 0; 
-    text-transform: capitalize;
-  }
+    ul li {
+        margin-left: 0;
+        padding: 0;
+        text-transform: capitalize;
+    }
 }
 
 .pane-user-mail {
-	.field-label {
-		width: 50px;
-		display: inline-block;
-		font-weight: bold;
-	}
-	.field-items {
-		display: inline-block;
-	}
+    .field-label {
+        width: 50px;
+        display: inline-block;
+        font-weight: bold;
+    }
+
+    .field-items {
+        display: inline-block;
+    }
 }
 
 .field--name-field-phone-type {
-	display: inline-block;
+    display: inline-block;
     font-weight: bold;
     width: 100px;
 
     .field__items {
-    	display: inline-block;
+        display: inline-block;
     }
 
     &:after {
-	    content: ':\00a0';
-	}
+        content: ':\00a0';
+    }
 }
+
 .field--name-field-phone-number {
-	display: inline-block;
+    display: inline-block;
 }
 
 .panel-pane .field-collection-container {
@@ -102,829 +108,879 @@
 }
 
 .pane-chaos-data {
-	.field {
-		.field__label {
-			width: 335px;
-		}
-	}
+    .field {
+        .field__label {
+            width: 335px;
+        }
+    }
 }
 
 .panelizer-view-mode.node-embedded-to-profile {
-  >h3 {
-    cursor: pointer;
-	margin: 0;
-    padding: 0 0.5em;
-    position: absolute;
-    top: -12px;
-    background: white;
+    >h3 {
+        cursor: pointer;
+        margin: 0;
+        padding: 0 0.5em;
+        position: absolute;
+        top: -12px;
+        background: white;
 
-    &:before {
-      content: '\f0da';
-      font-family: FontAwesome;
+        &:before {
+            content: '\f0da';
+            font-family: FontAwesome;
+        }
     }
-  }
 
-  >h3.open:before {
-    content: '\f0d7';
-    font-family: FontAwesome;
-  }
+    >h3.open:before {
+        content: '\f0d7';
+        font-family: FontAwesome;
+    }
 
-  >.panel-display {
-    display: none;
-  }
+    >.panel-display {
+        display: none;
+    }
 }
 
 .pane-loan-chaos-data {
-	.field .field__label {
-		width: 258px;
-		max-width: 100%;
-	}
+    .field .field__label {
+        width: 258px;
+        max-width: 100%;
+    }
 }
 
 .pane-client-additional-id-info {
-	.field .field__label {
-		width: 204px;
-		max-width: 100%;
-	}
+    .field .field__label {
+        width: 204px;
+        max-width: 100%;
+    }
 }
 
 .client-acquisition {
-	.col-md-8 {
-		.field .field__label {
-			width: 116px;
-			max-width: 100%;
-		}
-	}
-	.col-md-4 {
-		.field .field__label {
-			width: 264px;
-			max-width: 100%;
-		}
-	}
+    .col-md-8 {
+        .field .field__label {
+            width: 116px;
+            max-width: 100%;
+        }
+    }
+
+    .col-md-4 {
+        .field .field__label {
+            width: 264px;
+            max-width: 100%;
+        }
+    }
 }
 
 .pane-loan-debit-information {
-	@include breakpoint(0px 359px) {
-		padding-top: 2.5em;
-	}
+    @include breakpoint(0px 359px) {
+        padding-top: 2.5em;
+    }
 
-	.field .field__label {
-		width: 282px;
-		max-width: 100%;
-	}
+    .field .field__label {
+        width: 282px;
+        max-width: 100%;
+    }
 }
 
 .pane-node-field-deferred-enrollment-fees {
-	@include breakpoint(0px 349px) {
-		padding-top: 4em;
-	}
-	@include breakpoint(350px 432px) {
-		padding-top: 2.5em;
-	}
+    @include breakpoint(0px 349px) {
+        padding-top: 4em;
+    }
+
+    @include breakpoint(350px 432px) {
+        padding-top: 2.5em;
+    }
 }
 
 .pane-bwma-enrolment {
-	@include breakpoint(0px 389px) {
-		padding-top: 2.5em;
-	}
+    @include breakpoint(0px 389px) {
+        padding-top: 2.5em;
+    }
 
-	.field .field__label {
-		width: 196px;
-		max-width: 100%;
-	}
+    .field .field__label {
+        width: 196px;
+        max-width: 100%;
+    }
 }
 
 .pane-afts-advance {
-	@include breakpoint(0px 336px) {
-		padding-top: 2.5em;
-	}
+    @include breakpoint(0px 336px) {
+        padding-top: 2.5em;
+    }
 
-	.field .field__label {
-		width: 320px;
-		max-width: 100%;
-	}
+    .field .field__label {
+        width: 320px;
+        max-width: 100%;
+    }
 }
 
 .pane-node-field-lenders {
-	@include breakpoint(0px 395px) {
-		padding-top: 2.5em;
-	}
+    @include breakpoint(0px 395px) {
+        padding-top: 2.5em;
+    }
 }
 
 .pane-node-field-service-bureaus {
-	@include breakpoint(0px 469px) {
-		padding-top: 2.5em;
-	}
+    @include breakpoint(0px 469px) {
+        padding-top: 2.5em;
+    }
 
-	.field .field__label {
-		width: 216px;
-		max-width: 100%;
-	}
+    .field .field__label {
+        width: 216px;
+        max-width: 100%;
+    }
 }
 
 .pane-loan-chaos-data {
-	@include breakpoint(0px 378px) {
-		padding-top: 2.5em;
-	}
+    @include breakpoint(0px 378px) {
+        padding-top: 2.5em;
+    }
 }
 
 .action-links {
-	font-size: 11px;
-	padding: 0;
-	margin-top: 0;
-	display: inline-block;
+    font-size: 11px;
+    padding: 0;
+    margin-top: 0;
+    display: inline-block;
 
-	&>li {
-		margin-left: 0;
-		list-style: none;
-	}
-	&>li, &>li a {
-		float: left;
-	}
+    &>li {
+        margin-left: 0;
+        list-style: none;
+    }
 
-	a {
-		border-radius: 5px;
-		margin: 0 5px 0 0;
-		display: inline-block;
-		line-height: 21px;
-		padding-right: 1em;
-		color: #fff;
-		text-shadow: #666 0 1px 0;
-		background-color: #7bc;
-		text-shadow: #38a 0 1px 0;
+    &>li,
+    &>li a {
+        float: left;
+    }
 
-		&:before {
-			content: '\f067';
-			font-family: FontAwesome;
-			padding: 0 0.5em;
-		}
+    a {
+        border-radius: 5px;
+        margin: 0 5px 0 0;
+        display: inline-block;
+        line-height: 21px;
+        padding-right: 1em;
+        color: #fff;
+        text-shadow: #666 0 1px 0;
+        background-color: #7bc;
+        text-shadow: #38a 0 1px 0;
 
-		&:last-child {
-			margin-right: 0;
-		}
-	}
+        &:before {
+            content: '\f067';
+            font-family: FontAwesome;
+            padding: 0 0.5em;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }
 
 .pane-user-history-panel-pane-1 {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 #user-profile-form,
 #edit-profile-bwma-client {
-	.field-name-field-loans {
-		.fieldset-wrapper {
-			overflow: auto;
-		}
-	}
+    .field-name-field-loans {
+        .fieldset-wrapper {
+            overflow: auto;
+        }
+    }
 }
 
 .page-user-edit,
 .page-admin-people-create,
 .page-user-register {
-	.form-item .clearfix {
-		width: 100%;
-	}
-
-	.form-type-radio,
-	.form-type-checkbox {
-		display: block;
-		
-		input {
-			width: auto;
-		}
-	}
-
-	input, textarea, select {
-		font-size: 16px;
-	}
-
-	input.form-radio,
-	input.form-checkbox {
-		display: block;
-	    float: left;
-	}
-
-	label.option {
-		display: block;
-	    margin-left: 25px;
-	    font-weight: normal;
-		text-align: left;
-	}
-
-	.password-strength {
-		float: none;
-	    margin: 0 auto 1em;
-	    flex: 1 100%;
-	    max-width: 100%;
-	}
-	.password-confirm {
-		float: none;
-	    margin: 0 auto 1em;
-	    flex: 1 100%;
-
-	    &.form-text {
-	    	margin-bottom: 0;
-	    }
-	}
-	.password-suggestions {
-		margin: 0.7em auto;
-	}
-
-	.pane-user-form-account {
-		@include flexifields(130px);
-
-		.form-type-password-confirm {
-			label, input {
-				flex: 100%;
-			}
-		}
-
-		.form-item-status .form-radios {
-			display: inline-block;
-
-			.form-type-radio {
-				display: inline-block;
-				width: auto;
-
-				label {
-					width: auto;
-				}
-			}
-		}
-
-		.form-item-roles {
-			display: block;
-			
-			.form-checkboxes {
-				column-count: 1;
-
-				@include breakpoint(1020px 1249px) {
-					column-count: 2;
-				}
-	
-				.form-type-checkbox {
-					display: block;
-				    min-width: 200px;
-				}
-			}
-
-			.form-checkbox {
-				min-width: 0;
-			}
-		}
-
-		.form-item-notify {
-			margin-bottom: 0;
-			border: 1px solid red;
-			background-color: #f3b9b9;
-			padding: 5px;
-			
-			.form-checkbox {
-				display: flex;
-	    		flex-flow: row wrap;
-			}
-
-			input{
-				flex: 0 auto;
-			}
-			label {
-				flex: 1 130px;
-				margin-left: 0;
-			}
-		}
-	}
-
-	.pane-basic-user-info-user-edit {
-		@include flexifields(150px);
-		
-		input.form-radio,
-		input.form-checkbox {
-			min-width: 0;
-		}
-
-		.date-form-element-content,
-		.date-padding {
-			width: 100%;
-		}
-
-		.field-name-field-birthdate,
-		.field-name-field-anniversary {
-			@include flexifields(100px);
-
-			input {
-				max-width: 173px;
-			}
-
-			.description {
-				display: none;
-			}
-		}
-
-		.field-name-field-gender {
-			.form-type-radios > label {
-				flex: 0 0 65px;
-			}
-			.form-radios {
-				display: inline-block;
-			}
-			.form-type-radio {
-				width: auto;
-			    display: inline-block;
-			    margin-right: 10px;
-			    margin-bottom: 0;
-
-			    input {
-			    	width: auto;
-			    	margin: 0 5px 0 0;
-				}
-				label {
-					margin: 0;
-					display: inline-block;
-				}
-			}
-		}
-
-		.pane-user-field-identification {
-			width: auto;
-
-			.form-radios {
-				.form-item {
-					display: inline-block;
-    				width: auto;
-    				margin-bottom: 0;
-
-					input {
-						display: inline-block;
-					    vertical-align: middle;
-					    margin: 0 5px 0 0;
-					}
-					label {
-						margin-left: 0;
-						display: inline-block;
-					}
-				}
-			}
-
-			.description {
-				padding-top: 0.5em;
-				font-weight: normal;
-			}
-		}
+    .form-item .clearfix {
+        width: 100%;
     }
 
-	.field-multiple-table {
-		width: 100%;
-    	display: flex;
+    .form-type-radio,
+    .form-type-checkbox {
+        display: block;
 
-		th.field-label {
-			display: none;
-		}
+        input {
+            width: auto;
+        }
+    }
 
-		tbody {
-			width: 100%;
-		}
-	}
+    input,
+    textarea,
+    select {
+        font-size: 16px;
+    }
 
-	.pane-user-group-full-name {
-		@include flexifields(110px);
+    input.form-radio,
+    input.form-checkbox {
+        display: block;
+        float: left;
+    }
 
-		.description {
-			flex: 100%;
-		}
+    label.option {
+        display: block;
+        margin-left: 25px;
+        font-weight: normal;
+        text-align: left;
+    }
 
-		.form-type-radio,
-		.form-type-checkbox {
-			display: block;
-			
-			input {
-				width: auto;
-			}
-		}
-	}
+    .password-strength {
+        float: none;
+        margin: 0 auto 1em;
+        flex: 1 100%;
+        max-width: 100%;
+    }
 
-	.field-name-field-user-notes {
-		#field-user-notes-values {
-			td:not([class]) {
-				display: flex;
-    			flex-flow: row wrap;
+    .password-confirm {
+        float: none;
+        margin: 0 auto 1em;
+        flex: 1 100%;
 
-    			.field-name-field-staff-user {
-					flex: 1 1 calc(100% - 271px);
-    				display: inline-flex;
+        &.form-text {
+            margin-bottom: 0;
+        }
+    }
 
-					input {
-						width: calc(100% - 40px);
-    					min-width: 150px;
-					}
-				}
-			}
-		}
+    .password-suggestions {
+        margin: 0.7em auto;
+    }
 
-		.field-name-field-date {
-			display: inline-block;
+    .pane-user-form-account {
+        @include flexifields(130px);
 
-			.form-type-date-combo>label {
-				display: none;
-			}
-			.form-item.form-type-textfield {
-				margin-right: 10px;
-			}
+        .form-type-password-confirm {
 
-			.description {
-				display: none;
-			}
-		}
+            label,
+            input {
+                flex: 100%;
+            }
+        }
 
-		#field-user-notes-add-more-wrapper > .form-item {
-			margin-bottom: 0px;
-		}
+        .form-item-status .form-radios {
+            display: inline-block;
 
-		fieldset {
-			border: 1px solid #CCCCCC;
-		}
+            .form-type-radio {
+                display: inline-block;
+                width: auto;
 
-		fieldset {
-			min-width: 0;
-		}
+                label {
+                    width: auto;
+                }
+            }
+        }
 
-		.filter-help a {
-			display: inline-block;
-		}
-		.filter-guidelines {
-			padding: 0;
-			clear: both;
-		}
-		.filter-guidelines-item {
-			word-break: break-word;
-		}
-	}
+        .form-item-roles {
+            display: block;
 
-	.field-name-field-phone {
-		@include flexifields(120px);
+            .form-checkboxes {
+                column-count: 1;
 
-		.description {
-			flex: 100%;
-		}
+                @include breakpoint(1020px 1249px) {
+                    column-count: 2;
+                }
 
-		>div>.form-item {
-			margin-bottom: 0;
-		}
+                .form-type-checkbox {
+                    display: block;
+                    min-width: 200px;
+                }
+            }
 
-		.field-name-field-accept-text-messages .form-item {
-			display: block;
-		}
-		.field-name-field-note label {
-			flex: auto;
-			white-space: normal;
-		}
-	}
+            .form-checkbox {
+                min-width: 0;
+            }
+        }
 
-	.field-name-field-book-types .form-item.form-type-radio {
-		margin-bottom: 0;
-		width: auto;
-	    display: inline-block;
-	    margin-right: 8px;
-	}
+        .form-item-notify {
+            margin-bottom: 0;
+            border: 1px solid red;
+            background-color: #f3b9b9;
+            padding: 5px;
 
-	.field-name-field-collection-mailing-address {
-		@include flexifields(114px);
+            .form-checkbox {
+                display: flex;
+                flex-flow: row wrap;
+            }
 
-		.description {
-			flex: 100%;
-		}
+            input {
+                flex: 0 auto;
+            }
 
-		.field-name-field-address-type {
-			margin-bottom: 10px;
-		}
+            label {
+                flex: 1 130px;
+                margin-left: 0;
+            }
+        }
+    }
 
-		select.country,
-		select.state {
-			flex: 1 1 calc(100% - 114px);
-    		min-width: 100px;
-		}
+    .pane-basic-user-info-user-edit {
+        @include flexifields(150px);
 
-		>div>.form-item {
-			margin-bottom: 0;
-		}
+        input.form-radio,
+        input.form-checkbox {
+            min-width: 0;
+        }
 
-		.field-type-addressfield {
-			fieldset {
-				border: 0px;
-				padding: 0;
-				margin-bottom: 0;
-			}
-			legend {
-				display: none;
-			}
-		}
-	}
+        .date-form-element-content,
+        .date-padding {
+            width: 100%;
+        }
 
-	.field-name-field-website {
-		input[type="text"] {
-			width: calc(100% - 38px);
-		}
+        .field-name-field-birthdate,
+        .field-name-field-anniversary {
+            @include flexifields(100px);
 
-		[id*="add-more-wrapper"] >.form-item {
-			margin-bottom: 0;
-		}
+            input {
+                max-width: 173px;
+            }
 
-		.link-field-title,
-		.link-field-url {
-			width: 100%;
-			margin: 12px 0px;
-		}
+            .description {
+                display: none;
+            }
+        }
 
-		.description {
-			white-space: normal;
-		}
+        .field-name-field-gender {
+            .form-type-radios>label {
+                flex: 0 0 65px;
+            }
 
-		#field-websites-add-more-wrapper > .form-item {
-			margin-bottom: 0;
-		}
+            .form-radios {
+                display: inline-block;
+            }
 
-		tr.draggable {
-			min-height: 130px;
-		}
-	}
+            .form-type-radio {
+                width: auto;
+                display: inline-block;
+                margin-right: 10px;
+                margin-bottom: 0;
 
-	.field-name-field-additional-email-addresses {
-		@include flexifields(50px);
+                input {
+                    width: auto;
+                    margin: 0 5px 0 0;
+                }
 
-		[id*="add-more-wrapper"] >.form-item {
-			margin-bottom: 0;
-		}
+                label {
+                    margin: 0;
+                    display: inline-block;
+                }
+            }
+        }
 
-		.field-name-field-email {
-			margin-bottom: 1em;
-		}
+        .pane-user-field-identification {
+            width: auto;
 
-		tr.draggable {
-			min-height: 130px;
-		}
-	}
+            .form-radios {
+                .form-item {
+                    display: inline-block;
+                    width: auto;
+                    margin-bottom: 0;
 
-	tr.draggable {
-		display: flex;
-		border: 1px solid #ccc;
-	    box-sizing: border-box;
-	    width: 100%;
-	}
-	tr.draggable td:not([class]) {
-		flex: 100%;
-    	display: block;
-    	position: relative;
-    	width: calc(100% - 38px);
-	}
+                    input {
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin: 0 5px 0 0;
+                    }
 
-	td.field-multiple-drag {
-		order: 1;
-	    box-sizing: border-box;
-	    display: block;
-	    width: 50px;
-	    padding: 10px;
-	    padding-right: 0;
-	}
+                    label {
+                        margin-left: 0;
+                        display: inline-block;
+                    }
+                }
+            }
 
-	.pane-user-form-timezone {
-		fieldset {
-			border: 0;
-			margin: 0;
-			padding: 0;
-		}
-		legend,
-		label {
-			display: none;
-		}
-		select {
-			width: 100%;
-			min-width: 0;
-		}
+            .description {
+                padding-top: 0.5em;
+                font-weight: normal;
+            }
+        }
+    }
 
-		.form-item-timezone {
-			margin: 0;
-		}
+    .field-multiple-table {
+        width: 100%;
+        display: flex;
+
+        th.field-label {
+            display: none;
+        }
+
+        tbody {
+            width: 100%;
+        }
+    }
+
+    .pane-user-group-full-name {
+        @include flexifields(110px);
+
+        .description {
+            flex: 100%;
+        }
+
+        .form-type-radio,
+        .form-type-checkbox {
+            display: block;
+
+            input {
+                width: auto;
+            }
+        }
+    }
+
+    .field-name-field-user-notes {
+        #field-user-notes-values {
+            td:not([class]) {
+                display: flex;
+                flex-flow: row wrap;
+
+                .field-name-field-staff-user {
+                    flex: 1 1 calc(100% - 271px);
+                    display: inline-flex;
+
+                    input {
+                        width: calc(100% - 40px);
+                        min-width: 150px;
+                    }
+                }
+            }
+        }
+
+        .field-name-field-date {
+            display: inline-block;
+
+            .form-type-date-combo>label {
+                display: none;
+            }
+
+            .form-item.form-type-textfield {
+                margin-right: 10px;
+            }
+
+            .description {
+                display: none;
+            }
+        }
+
+        #field-user-notes-add-more-wrapper>.form-item {
+            margin-bottom: 0px;
+        }
+
+        fieldset {
+            border: 1px solid #CCCCCC;
+        }
+
+        fieldset {
+            min-width: 0;
+        }
+
+        .filter-help a {
+            display: inline-block;
+        }
+
+        .filter-guidelines {
+            padding: 0;
+            clear: both;
+        }
+
+        .filter-guidelines-item {
+            word-break: break-word;
+        }
+    }
+
+    .field-name-field-phone {
+        @include flexifields(120px);
+
+        .description {
+            flex: 100%;
+        }
+
+        >div>.form-item {
+            margin-bottom: 0;
+        }
+
+        .field-name-field-accept-text-messages .form-item {
+            display: block;
+        }
+
+        .field-name-field-note label {
+            flex: auto;
+            white-space: normal;
+        }
+    }
+
+    .field-name-field-book-types .form-item.form-type-radio {
+        margin-bottom: 0;
+        width: auto;
+        display: inline-block;
+        margin-right: 8px;
+    }
+
+    .field-name-field-collection-mailing-address {
+        @include flexifields(114px);
+
+        .description {
+            flex: 100%;
+        }
+
+        .field-name-field-address-type {
+            margin-bottom: 10px;
+        }
+
+        select.country,
+        select.state {
+            flex: 1 1 calc(100% - 114px);
+            min-width: 100px;
+        }
+
+        >div>.form-item {
+            margin-bottom: 0;
+        }
+
+        .field-type-addressfield {
+            fieldset {
+                border: 0px;
+                padding: 0;
+                margin-bottom: 0;
+            }
+
+            legend {
+                display: none;
+            }
+        }
+    }
+
+    .field-name-field-website {
+        input[type="text"] {
+            width: calc(100% - 38px);
+        }
+
+        [id*="add-more-wrapper"]>.form-item {
+            margin-bottom: 0;
+        }
+
+        .link-field-title,
+        .link-field-url {
+            width: 100%;
+            margin: 12px 0px;
+        }
+
+        .description {
+            white-space: normal;
+        }
+
+        #field-websites-add-more-wrapper>.form-item {
+            margin-bottom: 0;
+        }
+
+        tr.draggable {
+            min-height: 130px;
+        }
+    }
+
+    .field-name-field-additional-email-addresses {
+        @include flexifields(50px);
+
+        [id*="add-more-wrapper"]>.form-item {
+            margin-bottom: 0;
+        }
+
+        .field-name-field-email {
+            margin-bottom: 1em;
+        }
+
+        tr.draggable {
+            min-height: 130px;
+        }
+    }
+
+    tr.draggable {
+        display: flex;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    tr.draggable td:not([class]) {
+        flex: 100%;
+        display: block;
+        position: relative;
+        width: calc(100% - 38px);
+    }
+
+    td.field-multiple-drag {
+        order: 1;
+        box-sizing: border-box;
+        display: block;
+        width: 50px;
+        padding: 10px;
+        padding-right: 0;
+    }
+
+    .pane-user-form-timezone {
+        fieldset {
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        legend,
+        label {
+            display: none;
+        }
+
+        select {
+            width: 100%;
+            min-width: 0;
+        }
+
+        .form-item-timezone {
+            margin: 0;
+        }
     }
 
     .pane-user-field-related-clients {
-		border: 1px solid #ccc;
-		border-radius: 5px;
-		padding: 0.5em;
-		position: relative;
-		margin-top: 1.5em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 0.5em;
+        position: relative;
+        margin-top: 1.5em;
 
-		.pane-title {
-			font-size: 1.17em;
-		}
+        .pane-title {
+            font-size: 1.17em;
+        }
 
-    	.subform, #edit-uid-wrapper {
-    		max-width: 100%;
-    	}
+        .subform,
+        #edit-uid-wrapper {
+            max-width: 100%;
+        }
 
-    	.relation-select-entities {
-    		width: 100%;
-    		margin-bottom: 1em;
+        .relation-select-entities {
+            width: 100%;
+            margin-bottom: 1em;
 
-    		.rs-wrapper {
-    			height: auto;
-    		}
-    	}
+            .rs-wrapper {
+                height: auto;
+            }
+        }
 
-    	.rs-remove-item {
-    		color: blue;
-    	}
-    	.redirect-list {
-    		margin-bottom: 0;
-    	}
+        .rs-remove-item {
+            color: blue;
+        }
 
-    	label[for*="edit-field-related-clients"] {
-    		flex: 1 1 auto;
-    	}
+        .redirect-list {
+            margin-bottom: 0;
+        }
 
-    	input[value="Search"] {
-			margin-top: 0;
-			background: #1196cf;
-			color: white;
-			font-size: 12px;
-			min-width: auto;
-    	}
+        label[for*="edit-field-related-clients"] {
+            flex: 1 1 auto;
+        }
 
-    	[id*="relation-select-relation-fields"] {
-    		width: 100%;
-    	}
+        input[value="Search"] {
+            margin-top: 0;
+            background: #1196cf;
+            color: white;
+            font-size: 12px;
+            min-width: auto;
+        }
+
+        [id*="relation-select-relation-fields"] {
+            width: 100%;
+        }
     }
 
-	.tabledrag-toggle-weight-wrapper {
-		display: none;
-	}
+    .tabledrag-toggle-weight-wrapper {
+        display: none;
+    }
 
-	#edit-masquerade-users {
-		width: 100%;
-	}
+    #edit-masquerade-users {
+        width: 100%;
+    }
 
-	.field-name-field-name-notes {
-		margin-bottom: 1em;
-	}
+    .field-name-field-name-notes {
+        margin-bottom: 1em;
+    }
 }
 
 .page-user-register {
-	.field-name-field-phone input[value="Remove"] {
-		transform: rotate(0deg);
-		float: right;
-		font-size: 10px;
-		padding: 3px 5px;
-		right: -50px;
-	}
+    .field-name-field-phone input[value="Remove"] {
+        transform: rotate(0deg);
+        float: right;
+        font-size: 10px;
+        padding: 3px 5px;
+        right: -50px;
+    }
 }
 
 #edit-profile-bwma-client {
-	.profile-edit-form-title h1 {
-		margin: 0;
-	}
+    .profile-edit-form-title h1 {
+        margin: 0;
+    }
 
-	.pane-user-field-identification {
-		display: block;
+    .pane-user-field-identification {
+        display: block;
 
-		.field__item {
-			width: 125px;
-		}
-	}
+        .field__item {
+            width: 125px;
+        }
+    }
 
-	.pane-user-field-related-clients {
-		margin-top: 0;
-		border: 0;
-		padding: 0;
+    .pane-user-field-related-clients {
+        margin-top: 0;
+        border: 0;
+        padding: 0;
 
-		ul {
-			padding: 0;
-			margin: 0;
-			list-style: none;
-		}
-	}
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+    }
 
-	.field-name-field-driver-s-license {
-		@include flexifields(250px);
+    .field-name-field-driver-s-license {
+        @include flexifields(250px);
 
-		legend {
-			font-weight: bold;
-		}
+        legend {
+            font-weight: bold;
+        }
 
-		.description {
-			flex: 100%;
-		}
-	}
+        .description {
+            flex: 100%;
+        }
+    }
 
-	.field-name-field-company-name,
-	.field-name-field-occupation-or-title-tag {
-		@include flexifields(150px);
-	}
+    .field-name-field-company-name,
+    .field-name-field-occupation-or-title-tag {
+        @include flexifields(150px);
+    }
 
-	.client-acquisition-edit {
-		.panels-flexible-region-inside-first {
-			@include flexifields(100px);
-		}
+    .client-acquisition-edit {
+        .panels-flexible-region-inside-first {
+            @include flexifields(100px);
+        }
 
-		.field-name-field-source-notes label {
-			flex: 100%;
-		}
-		.field-name-field-source select {
-			flex: 1 1 calc(100% - 100px);
-			min-width: 0;
-			max-width: 100%;
-		}
+        .field-name-field-source-notes label {
+            flex: 100%;
+        }
 
-		.field-name-field-thank-you-card-and-referra {
-			@include flexifields(80px);
+        .field-name-field-source select {
+            flex: 1 1 calc(100% - 100px);
+            min-width: 0;
+            max-width: 100%;
+        }
 
-			legend {
-				font-weight: bold;
-			}
-		}
-		.field-name-field-note label {
-			flex: 100%;
-		}
-	}
+        .field-name-field-thank-you-card-and-referra {
+            @include flexifields(80px);
 
-	.field-name-field-notes {
-		.field-name-field-date {
-			display: inline-block;
-			vertical-align: top;
-		}
-		.field-name-field-staff-user {
-			display: inline-block;
+            legend {
+                font-weight: bold;
+            }
+        }
 
-			input {
-				width: 24em;
-			}
+        .field-name-field-note label {
+            flex: 100%;
+        }
+    }
 
-			@include breakpoint(0px 569px) {
-				display: block;
+    .field-name-field-notes {
+        .field-name-field-date {
+            display: inline-block;
+            vertical-align: top;
+        }
 
-				input {
-					display: block;
-					max-width: 100%;
-				}
-			}
-		}
-	}
+        .field-name-field-staff-user {
+            display: inline-block;
 
-	.field-name-field-loans {
-		.ief-form {
-			@include loans-ief;
-		}
-		
-		table {
-			width: 100%;
-		}
-		tr {
-			display: table-row;
-		}
+            input {
+                width: 24em;
+            }
 
-		input[value="Edit"] {
-			display: inline-block;
-			background-color: #1196cf;
-			color: white;
-			margin-right: 0.5em;
+            @include breakpoint(0px 569px) {
+                display: block;
 
-			&:hover {
-				background-color: #2271bd;
-			}
-		}
-		input[value="Remove"] {
-			transform: none;
-			position: static;
-			display: inline-block;
-		}
-		input[value="Add new Loan"] {
-			display: inline-block;
-			margin-top: 0.5em;
-			background-color: #1196cf;
-			color: white;
-			margin-right: 0.5em;
+                input {
+                    display: block;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
 
-			&:hover {
-				background-color: #2271bd;
-			}
-		}
-		input[value="Add existing Loan"] {
-			display: inline-block;
-			background-color: #1196cf;
-			color: white;
-			margin-top: 0.5em;
+    .field-name-field-loans {
+        .ief-form {
+            @include loans-ief;
+        }
 
-			&:hover {
-				background-color: #2271bd;
-			}
-		}
-	}
+        table {
+            width: 100%;
+        }
+
+        tr {
+            display: table-row;
+        }
+
+        input[value="Edit"] {
+            display: inline-block;
+            background-color: #1196cf;
+            color: white;
+            margin-right: 0.5em;
+
+            &:hover {
+                background-color: #2271bd;
+            }
+        }
+
+        input[value="Remove"] {
+            transform: none;
+            position: static;
+            display: inline-block;
+        }
+
+        input[value="Add new Loan"] {
+            display: inline-block;
+            margin-top: 0.5em;
+            background-color: #1196cf;
+            color: white;
+            margin-right: 0.5em;
+
+            &:hover {
+                background-color: #2271bd;
+            }
+        }
+
+        input[value="Add existing Loan"] {
+            display: inline-block;
+            background-color: #1196cf;
+            color: white;
+            margin-top: 0.5em;
+
+            &:hover {
+                background-color: #2271bd;
+            }
+        }
+    }
 }
 
 [class*="pane-profile-history-panel"],
 [class*="pane-user-history-panel"] {
-	.view-content {
-		overflow: auto;
-	}
+    .view-content {
+        overflow: auto;
+    }
 }
 
 .pane-chaos-data .field .field__label {
-	max-width: 100%;
+    max-width: 100%;
+}
+
+.bwma-referral-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: baseline;
+	
+	input[type="text"] {
+	    flex: 1 1 auto;
+	    border-width: 1px;
+	    border-color: black;
+	    border-style: solid;
+	    margin-bottom: 5px;
+	    margin-left: 1em;
+	    margin-right: 1em;
+	    background: #c3f3ff;
+	    padding-left: .5em;
+	}
 }

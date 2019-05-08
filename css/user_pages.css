@@ -259,7 +259,9 @@
 .page-user-register .form-type-checkbox input {
   width: auto;
 }
-.page-user-edit input, .page-user-edit textarea, .page-user-edit select,
+.page-user-edit input,
+.page-user-edit textarea,
+.page-user-edit select,
 .page-admin-people-create input,
 .page-admin-people-create textarea,
 .page-admin-people-create select,
@@ -359,7 +361,8 @@
           flex-basis: calc(100% - 130px);
   max-width: 100%;
 }
-.page-user-edit .pane-user-form-account .form-type-password-confirm label, .page-user-edit .pane-user-form-account .form-type-password-confirm input,
+.page-user-edit .pane-user-form-account .form-type-password-confirm label,
+.page-user-edit .pane-user-form-account .form-type-password-confirm input,
 .page-admin-people-create .pane-user-form-account .form-type-password-confirm label,
 .page-admin-people-create .pane-user-form-account .form-type-password-confirm input,
 .page-user-register .pane-user-form-account .form-type-password-confirm label,
@@ -1148,7 +1151,8 @@
 .page-user-register .pane-user-field-related-clients .pane-title {
   font-size: 1.17em;
 }
-.page-user-edit .pane-user-field-related-clients .subform, .page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
+.page-user-edit .pane-user-field-related-clients .subform,
+.page-user-edit .pane-user-field-related-clients #edit-uid-wrapper,
 .page-admin-people-create .pane-user-field-related-clients .subform,
 .page-admin-people-create .pane-user-field-related-clients #edit-uid-wrapper,
 .page-user-register .pane-user-field-related-clients .subform,
@@ -1920,6 +1924,36 @@
 
 .pane-chaos-data .field .field__label {
   max-width: 100%;
+}
+
+.bwma-referral-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.bwma-referral-wrapper input[type="text"] {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 5px;
+  margin-left: 1em;
+  margin-right: 1em;
+  background: #c3f3ff;
+  padding-left: .5em;
 }
 
 /*# sourceMappingURL=user_pages.css.map */
