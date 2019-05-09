@@ -366,6 +366,9 @@ td {
 }
 .boxed h3.pane-title {
   top: -11px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
 }
 .boxed .ctools-toggle {
   position: absolute;
