@@ -123,6 +123,8 @@
         position: absolute;
         top: -12px;
         background: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
 
         &:before {
             content: '\f0da';
@@ -971,7 +973,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	align-items: baseline;
-	
+
 	input[type="text"] {
 	    flex: 1 1 auto;
 	    border-width: 1px;

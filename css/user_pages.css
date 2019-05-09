@@ -100,6 +100,9 @@
   position: absolute;
   top: -12px;
   background: white;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
 }
 .panelizer-view-mode.node-embedded-to-profile > h3:before {
   content: '\f0da';
