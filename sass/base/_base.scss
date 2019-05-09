@@ -266,6 +266,7 @@ td {
         @include fluid-type(400px, 1200px, 20px, 26px); // values inside are ($min_width,$max_width, $min_font, $max_font);
         text-transform: capitalize;
         border: 1px solid #ccc;
+        border-radius: 5px;
     }
 
     h3.pane-title {

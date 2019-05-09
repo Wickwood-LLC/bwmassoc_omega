@@ -350,6 +350,8 @@ td {
   font-size: 22px;
   text-transform: capitalize;
   border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
 }
 @media screen and (min-width: 400px) {
   .boxed h2.pane-title {
