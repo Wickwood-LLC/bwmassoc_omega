@@ -56,7 +56,7 @@ if (!empty($css_file) && file_exists($css_file)) {
           <tbody>
             <tr>
               <td>
-                <img id="logo" src="<?php print $logos ?>" />
+                <img id="logo" src="<?php echo $$base_url ?>/themes/bwmassoc_omega/logo.png" />
               </td>
             </tr>
           </tbody>
