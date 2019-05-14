@@ -56,7 +56,7 @@ if (!empty($css_file) && file_exists($css_file)) {
           <tbody>
             <tr>
               <td>
-                <img id="logo" src="<?php drupal_get_path('theme',$GLOBALS['theme']); ?>/logo.png" />
+                <img id="logo" src="<?php print drupal_get_path('theme',$GLOBALS['theme']); ?>/logo.png" />
               </td>
             </tr>
           </tbody>
