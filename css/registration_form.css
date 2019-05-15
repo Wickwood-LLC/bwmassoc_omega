@@ -202,7 +202,7 @@
   line-height: 1.5;
 }
 .registration-form .pane-form,
-.registration-form .pane-bwma-registration-form {
+.registration-form [id*="bwma-user-register-form"] {
   display: block;
   background: #c9e0ff;
   padding: 15px;
@@ -217,35 +217,35 @@
   margin: auto;
 }
 .registration-form .pane-form .input-form-note,
-.registration-form .pane-bwma-registration-form .input-form-note {
+.registration-form [id*="bwma-user-register-form"] .input-form-note {
   font-size: 0.8em !important;
 }
 .registration-form .pane-form .header-text,
-.registration-form .pane-bwma-registration-form .header-text {
+.registration-form [id*="bwma-user-register-form"] .header-text {
   float: right;
   width: -webkit-calc(100% - 170px);
   width: calc(100% - 170px);
   display: inline-block;
 }
 .registration-form .pane-form .header-text .form-required,
-.registration-form .pane-bwma-registration-form .header-text .form-required {
+.registration-form [id*="bwma-user-register-form"] .header-text .form-required {
   position: static;
 }
 .registration-form .pane-form img,
-.registration-form .pane-bwma-registration-form img {
+.registration-form [id*="bwma-user-register-form"] img {
   margin-bottom: 1em;
 }
 .registration-form .pane-form .form-item,
-.registration-form .pane-bwma-registration-form .form-item {
+.registration-form [id*="bwma-user-register-form"] .form-item {
   position: relative;
   clear: both;
 }
 .registration-form .pane-form .form-item label,
-.registration-form .pane-bwma-registration-form .form-item label {
+.registration-form [id*="bwma-user-register-form"] .form-item label {
   display: block;
 }
 .registration-form .pane-form .form-item input,
-.registration-form .pane-bwma-registration-form .form-item input {
+.registration-form [id*="bwma-user-register-form"] .form-item input {
   background: #ffffff;
   border-color: #cccccc;
   border-style: solid;
@@ -259,7 +259,7 @@
   width: 100%;
 }
 .registration-form .pane-form .form-item select,
-.registration-form .pane-bwma-registration-form .form-item select {
+.registration-form [id*="bwma-user-register-form"] .form-item select {
   background: #ffffff;
   border-color: #cccccc;
   border-style: solid;
@@ -273,32 +273,32 @@
   width: 100%;
 }
 .registration-form .pane-form .form-required,
-.registration-form .pane-bwma-registration-form .form-required {
+.registration-form [id*="bwma-user-register-form"] .form-required {
   position: absolute;
   right: 15px;
   top: 30px;
   color: #D4696A;
 }
 .registration-form .pane-form .form-item-allow-text-message,
-.registration-form .pane-bwma-registration-form .form-item-allow-text-message {
+.registration-form [id*="bwma-user-register-form"] .form-item-allow-text-message {
   display: block;
 }
 .registration-form .pane-form .form-item-allow-text-message input,
-.registration-form .pane-bwma-registration-form .form-item-allow-text-message input {
+.registration-form [id*="bwma-user-register-form"] .form-item-allow-text-message input {
   width: auto;
 }
 .registration-form .pane-form .form-item-allow-text-message label,
-.registration-form .pane-bwma-registration-form .form-item-allow-text-message label {
+.registration-form [id*="bwma-user-register-form"] .form-item-allow-text-message label {
   display: inline;
 }
 .registration-form .pane-form .footer-text,
-.registration-form .pane-bwma-registration-form .footer-text {
+.registration-form [id*="bwma-user-register-form"] .footer-text {
   text-align: center;
 }
 .registration-form .pane-form input#edit-submit,
 .registration-form .pane-form input[id*="edit-submit"],
-.registration-form .pane-bwma-registration-form input#edit-submit,
-.registration-form .pane-bwma-registration-form input[id*="edit-submit"] {
+.registration-form [id*="bwma-user-register-form"] input#edit-submit,
+.registration-form [id*="bwma-user-register-form"] input[id*="edit-submit"] {
   -webkit-border-radius: 4px;
           border-radius: 4px;
   background-color: #66ab35;
@@ -322,8 +322,8 @@
 }
 .registration-form .pane-form input#edit-submit:hover,
 .registration-form .pane-form input[id*="edit-submit"]:hover,
-.registration-form .pane-bwma-registration-form input#edit-submit:hover,
-.registration-form .pane-bwma-registration-form input[id*="edit-submit"]:hover {
+.registration-form [id*="bwma-user-register-form"] input#edit-submit:hover,
+.registration-form [id*="bwma-user-register-form"] input[id*="edit-submit"]:hover {
   opacity: .9;
   position: relative;
   top: -1px;

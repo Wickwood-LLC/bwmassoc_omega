@@ -148,7 +148,7 @@
 	}
 
 	.pane-form,
-	.pane-bwma-registration-form {
+	[id*="bwma-user-register-form"] {
 		display: block;
 		background: #c9e0ff;
 		padding: 15px;
