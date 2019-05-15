@@ -56,7 +56,7 @@ if (!empty($css_file) && file_exists($css_file)) {
           <tbody>
             <tr>
               <td>
-                <img id="logo" src="<?php print drupal_get_path('theme',$GLOBALS['theme']); ?>/logo.png" />
+                <img id="logo" src="<?php echo variable_get('file_public_path', conf_path() . '/files'); ?>/styles/panopoly_image_original-no_watermark/public/media/image_uploads/png_bwma_logo_small_1.png" />
               </td>
             </tr>
           </tbody>
