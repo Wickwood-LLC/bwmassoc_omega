@@ -237,9 +237,12 @@ function bwmassoc_omega_ctools_render_alter(&$info, &$page, &$context)
 function bwmassoc_omega_preprocess_mimemail_message(&$variables) {
   $email_logo_file = file_load(theme_get_setting('email_logo'));
   if ($email_logo_file) {
-    $variables['email_logo_url'] = file_create_url($email_logo_file->uri);
+    $scheme = file_uri_scheme($email_logo_file->uri);
+    if ($scheme && $scheme == 'public') {
+      $variables['email_logo_path'] = variable_get('file_public_path', conf_path() . '/files') . substr ($email_logo_file->uri ,strlen($scheme) + 2);
+    }
   }
   else {
-    $variables['email_logo_url'] = '';
+    $variables['email_logo_path'] = '';
   }
 }
