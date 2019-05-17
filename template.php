@@ -233,3 +233,13 @@ function bwmassoc_omega_ctools_render_alter(&$info, &$page, &$context)
         drupal_add_css(drupal_get_path('theme', 'bwmassoc_omega') . '/css/homepage.css', array('group' => CSS_THEME));
     }
 }
+
+function bwmassoc_omega_preprocess_mimemail_message(&$variables) {
+  $email_logo_file = file_load(theme_get_setting('email_logo'));
+  if ($email_logo_file) {
+    $variables['email_logo_url'] = file_create_url($email_logo_file->uri);
+  }
+  else {
+    $variables['email_logo_url'] = '';
+  }
+}

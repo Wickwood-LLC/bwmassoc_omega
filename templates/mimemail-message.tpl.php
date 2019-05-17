@@ -56,7 +56,7 @@ if (!empty($css_file) && file_exists($css_file)) {
           <tbody>
             <tr>
               <td>
-                <img id="logo" src="<?php echo variable_get('file_public_path', conf_path() . '/files'); ?>/styles/panopoly_image_original-no_watermark/public/media/image_uploads/png_bwma_logo_small_1.png" />
+                <img id="logo" src="<?php echo $email_logo_url ?>" />
               </td>
             </tr>
           </tbody>
