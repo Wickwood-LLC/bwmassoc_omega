@@ -56,7 +56,7 @@ if (!empty($css_file) && file_exists($css_file)) {
           <tbody>
             <tr>
               <td>
-                <img id="logo" src="<?php echo $email_logo_path ?>" />
+                <img id="logo" src="<?php echo $email_logo_path; ?>" />
               </td>
             </tr>
           </tbody>
