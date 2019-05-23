@@ -819,6 +819,7 @@
 
             a {
                 border: 0px;
+                border-radius: 0;
                 color: white;
                 padding-left: 34px;
                 text-decoration: none;
@@ -835,6 +836,10 @@
                 &.active {
                     background-color: white;
                     color: black;
+                }
+
+                &:after {
+                    display: none;
                 }
             }
         }
