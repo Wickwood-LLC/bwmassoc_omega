@@ -96,3 +96,4 @@ settings[rescan_breakpoints] = Scan this theme for breakpoints
 settings[domain_id] = 4
 settings[theme] = bwmassoc_omega
 settings[favicon_mimetype] = image/vnd.microsoft.icon
+settings[email_logo] = 0

@@ -11,19 +11,27 @@ require_once dirname(__FILE__) . '/template.php';
  * Implements hook_form_FORM_alter().
  */
 function bwmassoc_omega_form_system_theme_settings_alter(&$form, &$form_state) {
+  form_load_include($form_state, 'inc', 'system', 'system.admin');
   // You can use this hook to append your own theme settings to the theme
   // settings form for your subtheme. You should also take a look at the
   // 'extensions' concept in the Omega base theme.
 
   $form['email_logo'] = array(
-    '#type'     => 'managed_file',
-    '#title'    => t('Email logo'),
-    '#description' => t('Upload a logo image to be used within emails'),
-    // '#required' => TRUE,
-    '#upload_location' => file_default_scheme() . '://theme/logo/',
+    '#type' => 'media',
+    '#title' => t('Email logo'),
     '#default_value' => theme_get_setting('email_logo'),
-    '#upload_validators' => array(
-      'file_validate_extensions' => array('gif png jpg jpeg'),
+    '#description' => t('Upload a logo image to be used within emails.'),
+    '#theme' => 'media_widget', // Without that, you only get text input
+    '#media_options' => array(
+      'global' => array(
+        'file_extensions' => 'png gif jpg jpeg',
+        'max_filesize'    => '2 MB',
+        'uri_scheme'      => 'public',
+        'types'           => array('image'),
+        'schemes'         => array(
+          'public' => 'public',
+        ),
+      ),
     ),
   );
   $form_state['build_info']['files'][] = drupal_get_path('theme', 'bwmassoc_omega') . '/theme-settings.php';
