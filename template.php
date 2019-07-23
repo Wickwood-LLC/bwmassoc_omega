@@ -235,7 +235,8 @@ function bwmassoc_omega_ctools_render_alter(&$info, &$page, &$context)
 }
 
 function bwmassoc_omega_preprocess_mimemail_message(&$variables) {
-  $email_logo_file = file_load(theme_get_setting('email_logo'));
+  $fid = theme_get_setting('email_logo', 'bwmassoc_omega');
+  $email_logo_file = file_load($fid);
   if ($email_logo_file) {
     $scheme = file_uri_scheme($email_logo_file->uri);
     if ($scheme && $scheme == 'public') {
