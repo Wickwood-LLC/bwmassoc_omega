@@ -1846,7 +1846,8 @@ html.js fieldset.collapsed {
 
 .main-menu {
   display: inline-block;
-  float: right;
+  position: absolute;
+  right: 0;
 }
 .main-menu .sf-accordion-toggle {
   float: right;
@@ -1873,57 +1874,54 @@ html.js fieldset.collapsed {
   text-decoration: none;
   color: #1894c7;
 }
-.main-menu .sf-menu-accordion.sf-hidden {
+.main-menu .sf-accordion.sf-hidden {
   display: none !important;
 }
-.main-menu .sf-menu-accordion li {
+.main-menu .sf-accordion li {
   background-color: #f2f2f2;
   text-align: center;
 }
-.main-menu .sf-menu-accordion li.sf-expanded {
+.main-menu .sf-accordion li.sf-expanded {
   background-color: white;
 }
-.main-menu .sf-menu-accordion li.menuparent a ul li {
+.main-menu .sf-accordion li.menuparent a ul li {
   background: #dee7f1;
 }
-.main-menu .sf-menu-accordion li:first-child > ul li:nth-child(2) a {
+.main-menu .sf-accordion li:first-child > ul li:nth-child(2) a {
   background: #57a63d;
   color: white;
 }
-.main-menu .sf-menu-accordion li:first-child > ul li:nth-child(3) a {
+.main-menu .sf-accordion li:first-child > ul li:nth-child(3) a {
   background: #0792cd;
   color: white;
 }
-.main-menu .sf-menu-accordion li:first-child > ul li:nth-child(4) a {
+.main-menu .sf-accordion li:first-child > ul li:nth-child(4) a {
   background: #ec1f27;
   color: white;
 }
-.main-menu .sf-menu-accordion li:first-child > ul li:nth-child(5) a {
+.main-menu .sf-accordion li:first-child > ul li:nth-child(5) a {
   background: #33a6d7;
   color: white;
 }
-.main-menu .sf-menu-accordion li:first-child > ul li:nth-child(6) a {
+.main-menu .sf-accordion li:first-child > ul li:nth-child(6) a {
   background: #0355a3;
   color: white;
 }
-.main-menu .sf-menu-accordion li:first-child > ul li a:hover {
+.main-menu .sf-accordion li:first-child > ul li a:hover {
   background-color: #ffc43d;
   color: black;
 }
-.main-menu .sf-menu-accordion li:first-child > ul li a.active {
+.main-menu .sf-accordion li:first-child > ul li a.active {
   background-color: white;
   color: #1894c7;
 }
-.main-menu .sf-menu-accordion li a:hover {
+.main-menu .sf-accordion li a:hover {
   background-color: #ffc43d;
   color: black;
 }
-.main-menu .sf-menu-accordion li a.active {
+.main-menu .sf-accordion li a.active {
   background-color: white;
   color: #1894c7;
-}
-.main-menu ul.sf-menu {
-  position: initial;
 }
 .main-menu ul.sf-menu li {
   padding: 0;
