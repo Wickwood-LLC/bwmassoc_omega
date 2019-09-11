@@ -1846,8 +1846,7 @@ html.js fieldset.collapsed {
 
 .main-menu {
   display: inline-block;
-  position: absolute;
-  right: 0;
+  float: right;
 }
 .main-menu .sf-accordion-toggle {
   float: right;
@@ -1874,12 +1873,19 @@ html.js fieldset.collapsed {
   text-decoration: none;
   color: #1894c7;
 }
+.main-menu .sf-accordion {
+  width: auto;
+  float: right;
+}
 .main-menu .sf-accordion.sf-hidden {
   display: none !important;
 }
 .main-menu .sf-accordion li {
   background-color: #f2f2f2;
-  text-align: center;
+  float: left;
+  width: auto;
+  clear: both;
+  text-align: right;
 }
 .main-menu .sf-accordion li.sf-expanded {
   background-color: white;
@@ -1923,6 +1929,9 @@ html.js fieldset.collapsed {
   background-color: white;
   color: #1894c7;
 }
+.main-menu ul.sf-menu {
+  position: initial;
+}
 .main-menu ul.sf-menu li {
   padding: 0;
 }
@@ -1933,6 +1942,7 @@ html.js fieldset.collapsed {
 }
 .main-menu ul.sf-menu li a {
   color: #262626;
+  display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 600;
