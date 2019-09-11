@@ -1967,6 +1967,18 @@ html.js fieldset.collapsed {
   margin-right: 3px;
 }
 
+body.not-logged-in .main-menu {
+  display: block;
+  position: initial;
+  text-align: right;
+}
+body.not-logged-in .main-menu ul.sf-menu.sf-accordion {
+  position: absolute;
+  top: 56px;
+  width: auto;
+  right: 0px;
+}
+
 #block-menu-menu-user-menu-bwmassoc {
   float: left;
 }
