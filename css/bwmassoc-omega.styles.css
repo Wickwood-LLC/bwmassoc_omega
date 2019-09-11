@@ -1887,7 +1887,7 @@ html.js fieldset.collapsed {
 }
 .main-menu ul.sf-menu.sf-accordion li {
   background-color: #f2f2f2;
-  width: auto;
+  width: 100%;
   clear: both;
   text-align: right;
 }
