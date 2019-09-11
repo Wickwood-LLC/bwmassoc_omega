@@ -74,7 +74,7 @@
 				}
 			}
 
-			&:first-child > ul {
+			&:nth-child(2) > ul {
 				li:nth-child(2) a {
 					background: #57a63d;
 					color: white;
