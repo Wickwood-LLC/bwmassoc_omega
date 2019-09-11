@@ -17,7 +17,8 @@
 
 .main-menu {
 	display: inline-block;
-	float: right;
+	position: absolute;
+    right: 0;
 
 	.sf-accordion-toggle {
 		float: right;
@@ -50,11 +51,16 @@
 	}
 
 	.sf-accordion {
-		width: auto;
-		float: right;
+		float: left;
+		width: 100%;
+		clear: both;
 
 		&.sf-hidden {
 			display: none !important;
+		}
+
+		ul {
+			float: none;
 		}
 
 		li {
@@ -141,6 +147,7 @@
 				top: 0px;
 				text-decoration: none;
 				line-height: 1.5;
+				width: 100%;
 
 				&:hover, &:focus {
 					background: #fff;

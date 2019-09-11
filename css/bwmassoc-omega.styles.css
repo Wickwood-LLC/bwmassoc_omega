@@ -1846,7 +1846,8 @@ html.js fieldset.collapsed {
 
 .main-menu {
   display: inline-block;
-  float: right;
+  position: absolute;
+  right: 0;
 }
 .main-menu .sf-accordion-toggle {
   float: right;
@@ -1874,11 +1875,15 @@ html.js fieldset.collapsed {
   color: #1894c7;
 }
 .main-menu .sf-accordion {
-  width: auto;
-  float: right;
+  float: left;
+  width: 100%;
+  clear: both;
 }
 .main-menu .sf-accordion.sf-hidden {
   display: none !important;
+}
+.main-menu .sf-accordion ul {
+  float: none;
 }
 .main-menu .sf-accordion li {
   background-color: #f2f2f2;
@@ -1952,6 +1957,7 @@ html.js fieldset.collapsed {
   top: 0px;
   text-decoration: none;
   line-height: 1.5;
+  width: 100%;
 }
 .main-menu ul.sf-menu li a:hover, .main-menu ul.sf-menu li a:focus {
   background: #fff;
