@@ -145,6 +145,7 @@
         right: 0;
         bottom: 0;
         position: absolute;
+        width: auto;
 
         @include breakpoint(768px) {
             display: block;

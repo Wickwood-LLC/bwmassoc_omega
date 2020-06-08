@@ -238,6 +238,7 @@
   right: 0;
   bottom: 0;
   position: absolute;
+  width: auto;
 }
 @media (min-width: 768px) {
   .homepage .pane-node-field-featured-image,
