@@ -2016,22 +2016,22 @@ body.not-logged-in .main-menu ul.sf-menu.sf-accordion {
   margin-right: 3px;
 }
 
-#block-superfish-2 {
+.sf-menu-user-logged-in {
   float: left;
 }
-#block-superfish-2 #superfish-2 {
+.sf-menu-user-logged-in .block__content > ul {
   margin: 0;
   padding: 0;
 }
-#block-superfish-2 #superfish-2 li {
+.sf-menu-user-logged-in .block__content > ul li {
   list-style: none;
   float: left;
 }
-#block-superfish-2 #superfish-2 li:first-child a {
+.sf-menu-user-logged-in .block__content > ul li:first-child a {
   background: #1894c7;
   color: white;
 }
-#block-superfish-2 #superfish-2 li a {
+.sf-menu-user-logged-in .block__content > ul li a {
   display: block;
   color: #262626;
   font-family: 'Open Sans', sans-serif;
@@ -2044,18 +2044,18 @@ body.not-logged-in .main-menu ul.sf-menu.sf-accordion {
   text-decoration: none;
   line-height: 1.5;
 }
-#block-superfish-2 #superfish-2 li a:hover, #block-superfish-2 #superfish-2 li a:focus {
+.sf-menu-user-logged-in .block__content > ul li a:hover, .sf-menu-user-logged-in .block__content > ul li a:focus {
   background: #fff;
   text-decoration: none;
   color: #1894c7;
 }
-#block-superfish-2 #superfish-2 li a i {
+.sf-menu-user-logged-in .block__content > ul li a i {
   margin-right: 3px;
 }
-#block-superfish-2 .sf-accordion-toggle {
+.sf-menu-user-logged-in .sf-accordion-toggle {
   float: left;
 }
-#block-superfish-2 .sf-accordion-toggle a {
+.sf-menu-user-logged-in .sf-accordion-toggle a {
   background: #1894c7;
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -2069,30 +2069,30 @@ body.not-logged-in .main-menu ul.sf-menu.sf-accordion {
   padding: 16px 20px;
   display: block;
 }
-#block-superfish-2 .sf-accordion-toggle a:before {
+.sf-menu-user-logged-in .sf-accordion-toggle a:before {
   content: "\f007  ";
   font-family: FontAwesome;
 }
-#block-superfish-2 .sf-accordion-toggle a:hover, #block-superfish-2 .sf-accordion-toggle a:focus {
+.sf-menu-user-logged-in .sf-accordion-toggle a:hover, .sf-menu-user-logged-in .sf-accordion-toggle a:focus {
   background: #fff;
   text-decoration: none;
   color: #1894c7;
 }
-#block-superfish-2 #superfish-2-accordion.sf-hidden {
+.sf-menu-user-logged-in .sf-accordion.sf-hidden {
   display: none !important;
 }
-#block-superfish-2 #superfish-2-accordion li {
+.sf-menu-user-logged-in .sf-accordion li {
   background-color: #f2f2f2;
   text-align: center;
 }
-#block-superfish-2 #superfish-2-accordion li.sf-expanded {
+.sf-menu-user-logged-in .sf-accordion li.sf-expanded {
   background-color: white;
 }
-#block-superfish-2 #superfish-2-accordion li a:hover {
+.sf-menu-user-logged-in .sf-accordion li a:hover {
   background-color: #ffc43d;
   color: black;
 }
-#block-superfish-2 #superfish-2-accordion li a {
+.sf-menu-user-logged-in .sf-accordion li a {
   color: #262626;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -2104,12 +2104,12 @@ body.not-logged-in .main-menu ul.sf-menu.sf-accordion {
   text-decoration: none;
   line-height: 1.5;
 }
-#block-superfish-2 #superfish-2-accordion li a:hover, #block-superfish-2 #superfish-2-accordion li a:focus {
+.sf-menu-user-logged-in .sf-accordion li a:hover, .sf-menu-user-logged-in .sf-accordion li a:focus {
   background: #fff;
   text-decoration: none;
   color: #1894c7;
 }
-#block-superfish-2 #superfish-2-accordion li a.active {
+.sf-menu-user-logged-in .sf-accordion li a.active {
   background-color: white;
   color: #1894c7;
 }

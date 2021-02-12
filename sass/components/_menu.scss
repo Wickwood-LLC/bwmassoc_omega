@@ -220,10 +220,10 @@ body.not-logged-in .main-menu {
 	}
 }
 
-#block-superfish-2 {
+.sf-menu-user-logged-in {
 	float: left;
 
-	#superfish-2 {
+	.block__content>ul {
 		margin: 0;
 		padding: 0;
 
@@ -294,7 +294,7 @@ body.not-logged-in .main-menu {
 		}
 	}
 
-	#superfish-2-accordion {
+	.sf-accordion {
 		&.sf-hidden {
 			display: none !important;
 		}
