@@ -2326,7 +2326,7 @@ html.touch .tabs--primary ul.secondary-tabs {
   body.logged-in .main-menu .sf-menu li a i:before {
     content: '';
   }
-  body.logged-in #block-superfish-2 ul#superfish-2 li a i:before {
+  body.logged-in .sf-menu-user-logged-in .block__content > ul li a i:before {
     content: '';
   }
 }
@@ -2342,7 +2342,7 @@ html.touch .tabs--primary ul.secondary-tabs {
     font-size: 13px;
     padding: 6px 6px;
   }
-  body.logged-in #block-superfish-2 ul#superfish-2 li a {
+  body.logged-in .sf-menu-user-logged-in .block__content > ul li a {
     font-size: 13px;
     padding: 6px 3px;
   }
@@ -2352,7 +2352,7 @@ html.touch .tabs--primary ul.secondary-tabs {
     font-size: 14px;
     padding: 6px 10px;
   }
-  body.logged-in #block-superfish-2 ul#superfish-2 li a {
+  body.logged-in .sf-menu-user-logged-in .block__content > ul li a {
     font-size: 14px;
     padding: 6px 10px;
   }
@@ -2366,7 +2366,7 @@ html.touch .tabs--primary ul.secondary-tabs {
   body.logged-in .main-menu .sf-menu li a {
     font-size: 15px;
   }
-  body.logged-in #block-superfish-2 ul#superfish-2 li a {
+  body.logged-in .sf-menu-user-logged-in .block__content > ul li a {
     font-size: 15px;
   }
 }
@@ -2374,7 +2374,7 @@ html.touch .tabs--primary ul.secondary-tabs {
   body.logged-in .main-menu .sf-menu li a {
     font-size: 16px;
   }
-  body.logged-in #block-superfish-2 ul#superfish-2 li a {
+  body.logged-in .sf-menu-user-logged-in .block__content > ul li a {
     font-size: 16px;
   }
 }
@@ -2382,7 +2382,7 @@ html.touch .tabs--primary ul.secondary-tabs {
   body.logged-in .main-menu .sf-menu li a {
     padding: 11px 16px;
   }
-  body.logged-in #block-superfish-2 ul#superfish-2 li a {
+  body.logged-in .sf-menu-user-logged-in .block__content > ul li a {
     padding: 11px 16px;
   }
 }
@@ -2390,7 +2390,7 @@ html.touch .tabs--primary ul.secondary-tabs {
   body.logged-in .main-menu .sf-menu li a {
     padding: 16px 20px;
   }
-  body.logged-in #block-superfish-2 ul#superfish-2 li a {
+  body.logged-in .sf-menu-user-logged-in .block__content > ul li a {
     padding: 16px 20px;
   }
 }
