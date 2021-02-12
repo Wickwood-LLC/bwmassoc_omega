@@ -7,8 +7,10 @@
 
 .bwmassoc-page,
 .node-type-bwmassoc-basic-page,
+.node-type-bwma-com-basic-page,
 .page-contact-bwma,
-.section-contact-bwmassoc {
+.section-contact-bwmassoc,
+.section-contact-bwma {
     .radix-bryant .row {
         display: flex;
         flex-flow: row wrap;
@@ -56,12 +58,14 @@
             }
         }
 
-        .pane-content-area-bwmassoc {
+        .pane-content-area-bwmassoc,
+        .pane-content-area-bwma {
             padding: 0 1em;
         }
     }
 
-    .pane-content-area-bwmassoc {
+    .pane-content-area-bwmassoc,
+    .pane-content-area-bwma {
         display: inline-block;
         width: 100%;
         background: #fff none repeat scroll 0 0;
