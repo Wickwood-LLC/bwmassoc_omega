@@ -374,3 +374,15 @@ ul.breadcrumb {
         width: auto;
     }
 }
+
+dl {
+    margin: 0 1em;
+    font-size: 13px;
+    @include fluid-type(400px, 1200px, 13px, 18px); // values inside are ($min_width, $max_width, $min_font, $max_font);
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 1em;
+}

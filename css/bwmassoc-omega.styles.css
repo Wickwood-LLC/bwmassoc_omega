@@ -459,6 +459,30 @@ ul.breadcrumb li a {
   width: auto;
 }
 
+dl {
+  margin: 0 1em;
+  font-size: 13px;
+}
+@media screen and (min-width: 400px) {
+  dl {
+    font-size: -webkit-calc(13px + 5 * ((100vw - 400px) / 800));
+    font-size: calc(13px + 5 * ((100vw - 400px) / 800));
+  }
+}
+@media screen and (min-width: 1200px) {
+  dl {
+    font-size: 18px;
+  }
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 1em;
+}
+
 .node-type-client-audio-testimonial .pane-node-field-audio-testimonial .file-audio {
   max-width: 326px;
 }
