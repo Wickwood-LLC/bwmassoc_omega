@@ -87,15 +87,14 @@
     attach: function (context, settings) {
         $("td a").click(function(e) {
             e.preventDefault();
-            var target = $('#' + $(this).data("target"));
-            var targetTitle = $('#' + (this).data("target") + ' h3');
-            targetTitle.remove();
+            var target = $('#' + $(this).data("target"));   // the content to be displayed in the dialog
+            var targetTitle = $('#' + $ (this).data("target") + ' .layer-title'); // the title of the dialog
             target.dialog({
               autoOpen: false,
               modal: true,
               title: targetTitle.text(),
-              close: function( event, ui ) {
-                target.prepend(targetTitle);
+              open: function( event, ui ) {
+                $('.compareLayer.ui-dialog-content .layer-title').remove();
               },
             }).dialog('open');
         }); 

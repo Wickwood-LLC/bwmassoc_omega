@@ -1,4 +1,4 @@
-!function(i){
+!function(a){
 /**
    * The recommended way for producing HTML markup through JavaScript is to write
    * theming functions. These are similiar to the theming functions that you might
@@ -11,7 +11,7 @@
    */
 Drupal.theme.prototype.bwmassocOmegaExampleButton=function(e,t){
 // Create an anchor element with jQuery.
-return i('<a href="'+e+'" title="'+t+'">'+t+"</a>")},
+return a('<a href="'+e+'" title="'+t+'">'+t+"</a>")},
 /**
    * Behaviors are Drupal's way of applying JavaScript to a page. In short, the
    * advantage of Behaviors over a simple 'document.ready()' lies in how it
@@ -65,5 +65,7 @@ return i('<a href="'+e+'" title="'+t+'">'+t+"</a>")},
 //     });
 //   }
 // };
-Drupal.behaviors.collapseBlock={attach:function(e,t){i(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),// This is to prevent the yoyo effect wherein the block opens and closes immediately
-i(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=i(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,t){i("td a").click(function(e){e.preventDefault();var o=i("#"+i(this).data("target")),a=i("#"+this.data("target")+" h3");a.remove(),o.dialog({autoOpen:!1,modal:!0,title:a.text(),close:function(e,t){o.prepend(a)}}).dialog("open")})}}}(jQuery);
+Drupal.behaviors.collapseBlock={attach:function(e,t){a(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),// This is to prevent the yoyo effect wherein the block opens and closes immediately
+a(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=a(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,t){a("td a").click(function(e){e.preventDefault();var t=a("#"+a(this).data("target")),o=a("#"+a(this).data("target")+" .layer-title");// the content to be displayed in the dialog
+// the title of the dialog
+t.dialog({autoOpen:!1,modal:!0,title:o.text(),open:function(e,t){a(".compareLayer.ui-dialog-content .layer-title").remove()}}).dialog("open")})}}}(jQuery);
