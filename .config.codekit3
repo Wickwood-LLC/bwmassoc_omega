@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/bower.json": {
 		"ft": 524288,
 		"oA": 1,
