@@ -87,10 +87,16 @@
     attach: function (context, settings) {
         $("td a").click(function(e) {
             e.preventDefault();
-            var target = $(this).data("target");
-            $('#' + target).dialog({
+            var target = $('#' + $(this).data("target"));
+            var targetTitle = $('#' + (this).data("target") + ' h3');
+            targetTitle.remove();
+            target.dialog({
               autoOpen: false,
               modal: true,
+              title: targetTitle.text(),
+              close: function( event, ui ) {
+                target.prepend(targetTitle);
+              },
             }).dialog('open');
         }); 
     }
