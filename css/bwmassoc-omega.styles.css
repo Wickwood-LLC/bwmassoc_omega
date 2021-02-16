@@ -682,6 +682,18 @@ dd {
           transform: translateY(-50%);
 }
 
+.ui-dialog .ui-dialog-content {
+  padding: 1em;
+}
+.ui-dialog .ui-dialog-content > *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.ui-dialog .ui-dialog-content > *:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .bwma-footer p {
   display: inline-block;
   width: 100%;
@@ -2607,6 +2619,10 @@ main#main-content .share-text .fieldable-panels-pane p {
   margin-top: 5px;
   margin-bottom: 5px;
   min-height: 40px;
+}
+
+.compareLayer {
+  display: none;
 }
 
 .view-bwma-client-testimonials .view-content {

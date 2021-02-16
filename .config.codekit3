@@ -1188,6 +1188,13 @@
 		"oAP": "/sass/.sass-cache/cd1691a887ca78b0cf9c9559d6b6893f1992daf6/_components.scssc",
 		"oF": 0
 		},
+	"/sass/.sass-cache/cd1691a887ca78b0cf9c9559d6b6893f1992daf6/_dialogs.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/cd1691a887ca78b0cf9c9559d6b6893f1992daf6/_dialogs.scssc",
+		"oF": 0
+		},
 	"/sass/.sass-cache/cd1691a887ca78b0cf9c9559d6b6893f1992daf6/_footer.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1444,6 +1451,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/sass/css/_components.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/sass/components/_dialogs.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/sass/css/_dialogs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
