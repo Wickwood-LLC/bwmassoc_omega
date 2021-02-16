@@ -66,6 +66,6 @@ return a('<a href="'+e+'" title="'+t+'">'+t+"</a>")},
 //   }
 // };
 Drupal.behaviors.collapseBlock={attach:function(e,t){a(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),// This is to prevent the yoyo effect wherein the block opens and closes immediately
-a(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=a(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,t){a("td a").click(function(e){e.preventDefault();var o=a("#"+a(this).data("target")+" .layer-content"),t=a("#"+a(this).data("target")+" .layer-title").text();// the content to be displayed in the dialog
+a(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=a(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,t){a(".open-dialog").click(function(e){e.preventDefault();var o=a("#"+a(this).data("target")+" .layer-content"),t=a("#"+a(this).data("target")+" .layer-title").text();// the content to be displayed in the dialog
 // the title of the dialog
 o.dialog({autoOpen:!1,modal:!0,title:t,close:function(e,t){o.dialog("destroy")}}).dialog("open")})}}}(jQuery);

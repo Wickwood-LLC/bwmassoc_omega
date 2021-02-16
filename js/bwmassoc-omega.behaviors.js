@@ -85,7 +85,7 @@
 
   Drupal.behaviors.compareModals = {
     attach: function (context, settings) {
-        $("td a").click(function(e) {
+        $(".open-dialog").click(function(e) {
             e.preventDefault();
             var target = $('#' + $(this).data("target") + ' .layer-content');   // the content to be displayed in the dialog
             var targetTitle = $('#' + $(this).data("target") + ' .layer-title').text(); // the title of the dialog
