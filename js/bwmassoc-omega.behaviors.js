@@ -94,7 +94,7 @@
               modal: true,
               title: targetTitle,
               close: function( event, ui ) {
-                target.dialog( "destroy" );
+                target.dialog( "destroy" );   // restore target to original state so that we can open it again when clicking the same link
               },
             }).dialog('open');
         }); 
