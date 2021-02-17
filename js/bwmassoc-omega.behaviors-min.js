@@ -66,9 +66,4 @@ return a('<a href="'+e+'" title="'+o+'">'+o+"</a>")},
 //   }
 // };
 Drupal.behaviors.collapseBlock={attach:function(e,o){a(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),// This is to prevent the yoyo effect wherein the block opens and closes immediately
-a(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=a(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,o){
-// $(".open-dialog").on("click", function(e) {
-//     e.preventDefault();
-//     $('#' + $(this).data("target")).slideToggle();
-// }); 
-a("#compare_table").accordion({collapsible:!0})}}}(jQuery);
+a(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=a(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,o){a(".open-dialog").off("click"),a(".open-dialog").on("click",function(e){e.preventDefault(),a("#"+a(this).data("target")).slideToggle("slow")})}}}(jQuery);
