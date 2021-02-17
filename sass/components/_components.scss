@@ -4,6 +4,10 @@
         flex-flow: row wrap;
         margin: 0;
 
+        .field--name-body {
+            width: 100%;
+        }
+
         .radix-layouts-sidebar {
             order: 1;
             flex: 100%;
