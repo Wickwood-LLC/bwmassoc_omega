@@ -12,7 +12,7 @@
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
@@ -550,16 +550,16 @@
 	"/bwmassoc_omega.info": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/bwmassoc_omega.info",
 		"oF": 0
 		},
 	"/css/articles_news_faqs.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/articles_news_faqs-min.css",
 		"oF": 0,
 		"oS": 3
@@ -567,16 +567,16 @@
 	"/css/articles_news_faqs.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/articles_news_faqs.css.map",
 		"oF": 0
 		},
 	"/css/blog_view_panel_pages.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/blog_view_panel_pages-min.css",
 		"oF": 0,
 		"oS": 3
@@ -584,7 +584,7 @@
 	"/css/blog_view_panel_pages.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/blog_view_panel_pages.css.map",
 		"oF": 0
 		},
@@ -599,11 +599,11 @@
 		"oS": 0
 		},
 	"/css/bwmassoc-omega.styles.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/bwmassoc-omega.styles-min.css",
 		"oF": 0,
 		"oS": 3
@@ -611,16 +611,16 @@
 	"/css/bwmassoc-omega.styles.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/bwmassoc-omega.styles.css.map",
 		"oF": 0
 		},
 	"/css/categories_view_panel_pages.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/categories_view_panel_pages-min.css",
 		"oF": 0,
 		"oS": 3
@@ -628,16 +628,16 @@
 	"/css/categories_view_panel_pages.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/categories_view_panel_pages.css.map",
 		"oF": 0
 		},
 	"/css/category_term_pages.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/category_term_pages-min.css",
 		"oF": 0,
 		"oS": 3
@@ -645,16 +645,16 @@
 	"/css/category_term_pages.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/category_term_pages.css.map",
 		"oF": 0
 		},
 	"/css/homepage.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/homepage-min.css",
 		"oF": 0,
 		"oS": 3
@@ -662,16 +662,16 @@
 	"/css/homepage.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/homepage.css.map",
 		"oF": 0
 		},
 	"/css/login.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/login-min.css",
 		"oF": 0,
 		"oS": 3
@@ -679,16 +679,16 @@
 	"/css/login.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/login.css.map",
 		"oF": 0
 		},
 	"/css/press_release_nodes.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/press_release_nodes-min.css",
 		"oF": 0,
 		"oS": 3
@@ -696,16 +696,16 @@
 	"/css/press_release_nodes.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/press_release_nodes.css.map",
 		"oF": 0
 		},
 	"/css/print.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/print-min.css",
 		"oF": 0,
 		"oS": 3
@@ -713,16 +713,16 @@
 	"/css/print.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/print.css.map",
 		"oF": 0
 		},
 	"/css/registration_form.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/registration_form-min.css",
 		"oF": 0,
 		"oS": 3
@@ -730,16 +730,16 @@
 	"/css/registration_form.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/registration_form.css.map",
 		"oF": 0
 		},
 	"/css/user_pages.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/user_pages-min.css",
 		"oF": 0,
 		"oS": 3
@@ -747,16 +747,16 @@
 	"/css/user_pages.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/user_pages.css.map",
 		"oF": 0
 		},
 	"/css/view_card_cycles.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/view_card_cycles-min.css",
 		"oF": 0,
 		"oS": 3
@@ -764,8 +764,15 @@
 	"/css/view_card_cycles.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/css/view_card_cycles.css.map",
+		"oF": 0
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicon.ico",
 		"oF": 0
 		},
 	"/favicons/android-icon-144x144.png": {
@@ -958,7 +965,7 @@
 	"/favicons/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/favicons/browserconfig.xml",
 		"oF": 0
 		},
@@ -998,7 +1005,7 @@
 	"/favicons/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/favicons/favicon.ico",
 		"oF": 0
 		},
@@ -1236,7 +1243,7 @@
 		"oA": 0,
 		"oAP": "/js/bwmassoc-omega.behaviors-min-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"/js/bwmassoc-omega.behaviors.js": {
@@ -1246,7 +1253,7 @@
 		"oA": 0,
 		"oAP": "/js/bwmassoc-omega.behaviors-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 3,
 		"tS": 0
 		},
 	"/logo.png": {
@@ -1351,7 +1358,7 @@
 	"/sass/.sass-cache/18d19e322f63161852bde740f5985e7b98dbc8e2/%042c": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/sass/.sass-cache/18d19e322f63161852bde740f5985e7b98dbc8e2/%042c",
 		"oF": 0
 		},
@@ -1400,14 +1407,14 @@
 	"/sass/.sass-cache/4ef0bd136c6c671173d2c1f28caae1c65c75659c/%042c": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/sass/.sass-cache/4ef0bd136c6c671173d2c1f28caae1c65c75659c/%042c",
 		"oF": 0
 		},
 	"/sass/.sass-cache/8a726d5c5e70c7c672b3c433d7d9b2bcd1a099cd/%042c": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/sass/.sass-cache/8a726d5c5e70c7c672b3c433d7d9b2bcd1a099cd/%042c",
 		"oF": 0
 		},
@@ -1435,7 +1442,7 @@
 	"/sass/.sass-cache/aecd54e38d4895a5fead66f25f4b0bd0460a32cb/%042c": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/sass/.sass-cache/aecd54e38d4895a5fead66f25f4b0bd0460a32cb/%042c",
 		"oF": 0
 		},
@@ -1671,18 +1678,18 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/sass/css/_mixins.css",
+		"oAP": "/sass/abstractions/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"/sass/base/_base.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/base/_base.css",
 		"oF": 0,
@@ -1716,40 +1723,40 @@
 		"uL": 0
 		},
 	"/sass/components/_audio_testimonials.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/css/_audio_testimonials.css",
+		"oAP": "/sass/components/_audio_testimonials.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"/sass/components/_components.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/css/_components.css",
+		"oAP": "/sass/components/_components.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"/sass/components/_dialogs.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/css/_dialogs.css",
+		"oAP": "/sass/components/_dialogs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1762,7 +1769,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/sass/css/_footer.css",
+		"oAP": "/sass/components/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1775,7 +1782,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/sass/css/_forms.css",
+		"oAP": "/sass/components/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1788,20 +1795,20 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/sass/css/_header.css",
+		"oAP": "/sass/components/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"/sass/components/_media.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/css/_media.css",
+		"oAP": "/sass/components/_media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1815,7 +1822,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/sass/css/_media_element.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1825,22 +1832,22 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/css/_menu.css",
+		"oAP": "/sass/components/_menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
 	"/sass/components/_pages.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/css/_pages.css",
+		"oAP": "/sass/components/_pages.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1851,9 +1858,9 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/sass/css/_testimonials.css",
+		"oAP": "/sass/components/_testimonials.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1866,7 +1873,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/sass/css/_user-agent.css",
+		"oAP": "/sass/components/_user-agent.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1953,7 +1960,7 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/sass/pages/.sass-cache/4dcec1d9b871f7589dc79bbd252ae928a36e8a58/%042c",
-		"oF": 1
+		"oF": 0
 		},
 	"/sass/pages/.sass-cache/4dcec1d9b871f7589dc79bbd252ae928a36e8a58/_mixins.scssc": {
 		"cB": 0,
@@ -2051,14 +2058,14 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/sass/pages/.sass-cache/70c8e6d7c5524bea8a7194c741c64ecfab2cdd68/%042c",
-		"oF": 1
+		"oF": 0
 		},
 	"/sass/pages/.sass-cache/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008/%042c": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/sass/pages/.sass-cache/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008/%042c",
-		"oF": 1
+		"oF": 0
 		},
 	"/sass/pages/.sass-cache/8e4c5bc9df154f4cc5c9d7b26ee36e110dd51008/_base.scssc": {
 		"cB": 0,
@@ -2072,7 +2079,7 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/sass/pages/.sass-cache/c4f35610658be530960c4231b1ef211d2e6a3b7c/%042c",
-		"oF": 1
+		"oF": 0
 		},
 	"/sass/pages/.sass-cache/cda4d8bd783c72780a990b614a6d9a48bcb0b30e/_default.scssc": {
 		"cB": 0,
@@ -2152,7 +2159,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/blog_view_panel_pages.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 1,
 		"uL": 0
 		},
@@ -2191,7 +2198,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/homepage.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 1,
 		"uL": 0
 		},
@@ -2204,7 +2211,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/login.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 1,
 		"uL": 0
 		},
@@ -2243,7 +2250,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/registration_form.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 1,
 		"uL": 0
 		},
@@ -2256,7 +2263,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/user_pages.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 1,
 		"uL": 0
 		},
@@ -2269,7 +2276,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/view_card_cycles.css",
-		"oF": 3,
+		"oF": 2,
 		"oS": 1,
 		"uL": 0
 		},
@@ -2287,14 +2294,14 @@
 	"/template.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/template.php",
 		"oF": 0
 		},
 	"/templates/html.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/templates/html.tpl.php",
 		"oF": 0
 		},
@@ -2308,7 +2315,7 @@
 	"/templates/mimemail-message.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/templates/mimemail-message.tpl.php",
 		"oF": 0
 		},
@@ -2322,21 +2329,21 @@
 	"/templates/print--node--press-release.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/templates/print--node--press-release.tpl.php",
 		"oF": 0
 		},
 	"/templates/print.tpl.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/templates/print.tpl.php",
 		"oF": 0
 		},
 	"/theme-settings.php": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/theme-settings.php",
 		"oF": 0
 		}
@@ -2348,7 +2355,7 @@
 "projectAttributes": {
 	"creationDate": 502267713,
 	"displayValue": "bwmassoc_omega",
-	"displayValueWasSetByUser": 1,
+	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-yesBaby",
 	"iconImageWasSetByUser": 0
 	},
@@ -2591,7 +2598,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"browserslistString": "> 1%, last 10 versions",
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -2751,7 +2758,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -2915,7 +2922,7 @@
 			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -3150,8 +3157,8 @@
 			"optionString": ""
 			},
 		"no-extra-parens": {
-			"active": 1,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -3170,7 +3177,7 @@
 			"optionString": ""
 			},
 		"no-global-assign": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-implicit-coercion": {
@@ -3382,7 +3389,7 @@
 			"optionString": "{'props': false}"
 			},
 		"no-self-compare": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-sequences": {
@@ -3403,14 +3410,14 @@
 			},
 		"no-sync": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAtRootLevel': false}"
 			},
 		"no-tabs": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-ternary": {
@@ -3427,7 +3434,7 @@
 			},
 		"no-trailing-spaces": {
 			"active": 0,
-			"optionString": "{'skipBlankLines': false}"
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
 			"active": 1,
@@ -3443,7 +3450,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -3466,12 +3473,12 @@
 			"optionString": ""
 			},
 		"no-unsafe-negation": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
-			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
 			"active": 1,
@@ -3479,18 +3486,18 @@
 			},
 		"no-unused-vars": {
 			"active": 1,
-			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
 			"active": 0,
-			"optionString": "{'functions': true, 'classes': true}"
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
 		"no-useless-call": {
 			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-computed-key": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-useless-concat": {
@@ -3547,7 +3554,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -3619,7 +3626,7 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', 'avoid-escape'"
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
 			},
 		"radix": {
 			"active": 0,
@@ -3635,14 +3642,14 @@
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
 			"active": 0,
 			"optionString": ""
 			},
 		"require-yield": {
-			"active": 0,
+			"active": 1,
 			"optionString": ""
 			},
 		"rest-spread-spacing": {
@@ -3757,7 +3764,7 @@
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
-	"hideConfigFile": 1,
+	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -4121,7 +4128,7 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -4129,7 +4136,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -4174,7 +4181,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -4236,7 +4243,7 @@
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.*",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -4271,12 +4278,12 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 1,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -4337,7 +4344,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
