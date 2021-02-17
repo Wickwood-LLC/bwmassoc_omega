@@ -1,4 +1,4 @@
-!function(a){
+!function(t){
 /**
    * The recommended way for producing HTML markup through JavaScript is to write
    * theming functions. These are similiar to the theming functions that you might
@@ -9,9 +9,9 @@
    * In most cases, there is no good reason to NOT wrap your markup producing
    * JavaScript in a theme function.
    */
-Drupal.theme.prototype.bwmassocOmegaExampleButton=function(e,t){
+Drupal.theme.prototype.bwmassocOmegaExampleButton=function(e,o){
 // Create an anchor element with jQuery.
-return a('<a href="'+e+'" title="'+t+'">'+t+"</a>")},
+return t('<a href="'+e+'" title="'+o+'">'+o+"</a>")},
 /**
    * Behaviors are Drupal's way of applying JavaScript to a page. In short, the
    * advantage of Behaviors over a simple 'document.ready()' lies in how it
@@ -65,8 +65,5 @@ return a('<a href="'+e+'" title="'+t+'">'+t+"</a>")},
 //     });
 //   }
 // };
-Drupal.behaviors.collapseBlock={attach:function(e,t){a(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),// This is to prevent the yoyo effect wherein the block opens and closes immediately
-a(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=a(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,t){a(".open-dialog").click(function(e){e.preventDefault();var o=a("#"+a(this).data("target")+" .layer-content"),t=a("#"+a(this).data("target")+" .layer-title").text();// the content to be displayed in the dialog
-// the title of the dialog
-o.dialog({autoOpen:!1,modal:!0,title:t,close:function(e,t){o.dialog("destroy");// restore target to original state so that we can open it again when clicking the same link
-}}).dialog("open")})}}}(jQuery);
+Drupal.behaviors.collapseBlock={attach:function(e,o){t(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),// This is to prevent the yoyo effect wherein the block opens and closes immediately
+t(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=t(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,o){t(".open-dialog").click(function(e){e.preventDefault(),t("#"+t(this).data("target")).slideToggle()})}}}(jQuery);

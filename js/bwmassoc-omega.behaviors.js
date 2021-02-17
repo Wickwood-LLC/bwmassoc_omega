@@ -87,16 +87,7 @@
     attach: function (context, settings) {
         $(".open-dialog").click(function(e) {
             e.preventDefault();
-            var target = $('#' + $(this).data("target") + ' .layer-content');   // the content to be displayed in the dialog
-            var targetTitle = $('#' + $(this).data("target") + ' .layer-title').text(); // the title of the dialog
-            target.dialog({
-              autoOpen: false,
-              modal: true,
-              title: targetTitle,
-              close: function( event, ui ) {
-                target.dialog( "destroy" );   // restore target to original state so that we can open it again when clicking the same link
-              },
-            }).dialog('open');
+            $('#' + $(this).data("target")).slideToggle();
         }); 
     }
   };
