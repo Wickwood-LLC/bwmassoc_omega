@@ -85,10 +85,13 @@
 
   Drupal.behaviors.compareModals = {
     attach: function (context, settings) {
-        $(".open-dialog").click(function(e) {
-            e.preventDefault();
-            $('#' + $(this).data("target")).slideToggle();
-        }); 
+      // $(".open-dialog").on("click", function(e) {
+      //     e.preventDefault();
+      //     $('#' + $(this).data("target")).slideToggle();
+      // }); 
+      $( "#compare_table" ).accordion({
+        collapsible: true
+      });
     }
   };
 })(jQuery);

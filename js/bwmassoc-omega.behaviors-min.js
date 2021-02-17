@@ -1,4 +1,4 @@
-!function(t){
+!function(a){
 /**
    * The recommended way for producing HTML markup through JavaScript is to write
    * theming functions. These are similiar to the theming functions that you might
@@ -11,7 +11,7 @@
    */
 Drupal.theme.prototype.bwmassocOmegaExampleButton=function(e,o){
 // Create an anchor element with jQuery.
-return t('<a href="'+e+'" title="'+o+'">'+o+"</a>")},
+return a('<a href="'+e+'" title="'+o+'">'+o+"</a>")},
 /**
    * Behaviors are Drupal's way of applying JavaScript to a page. In short, the
    * advantage of Behaviors over a simple 'document.ready()' lies in how it
@@ -65,5 +65,10 @@ return t('<a href="'+e+'" title="'+o+'">'+o+"</a>")},
 //     });
 //   }
 // };
-Drupal.behaviors.collapseBlock={attach:function(e,o){t(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),// This is to prevent the yoyo effect wherein the block opens and closes immediately
-t(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=t(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,o){t(".open-dialog").click(function(e){e.preventDefault(),t("#"+t(this).data("target")).slideToggle()})}}}(jQuery);
+Drupal.behaviors.collapseBlock={attach:function(e,o){a(".panelizer-view-mode.node-embedded-to-profile>h3").off("click"),// This is to prevent the yoyo effect wherein the block opens and closes immediately
+a(".panelizer-view-mode.node-embedded-to-profile>h3").on("click",function(){var e=a(this);e.parents(".panelizer-view-mode.node-embedded-to-profile").find(".panel-display").first().slideToggle(),e.toggleClass("open")})}},Drupal.behaviors.compareModals={attach:function(e,o){
+// $(".open-dialog").on("click", function(e) {
+//     e.preventDefault();
+//     $('#' + $(this).data("target")).slideToggle();
+// }); 
+a("#compare_table").accordion({collapsible:!0})}}}(jQuery);
