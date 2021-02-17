@@ -88,7 +88,7 @@
       $(".open-dialog").off("click");
       $(".open-dialog").on("click", function(e) {
           e.preventDefault();
-          $('#' + $(this).data("target")).slideToggle("slow");
+          $('#' + $(this).data("target")).toggle();
       }); 
     }
   };
