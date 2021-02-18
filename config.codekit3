@@ -1236,26 +1236,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/js/bwmassoc-omega.behaviors-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/bwmassoc-omega.behaviors-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/bwmassoc-omega.behaviors.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/bwmassoc-omega.behaviors-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/logo.png": {
 		"ft": 32768,
 		"iS": 61663,
@@ -2290,13 +2270,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/template.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/template.php",
-		"oF": 0
 		},
 	"/templates/html.tpl.php": {
 		"cB": 0,
