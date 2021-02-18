@@ -2366,6 +2366,25 @@ main#main-content .share-text .fieldable-panels-pane p {
   min-height: 40px;
 }
 
+#compare_table tr:nth-child(2) {
+  background-color: #c0eaff;
+}
+#compare_table tr:nth-child(4n+3),
+#compare_table tr:nth-child(4n+4) {
+  background-color: white;
+}
+#compare_table tr:nth-child(4n+5),
+#compare_table tr:nth-child(4n+6) {
+  background-color: #eeeeee;
+}
+#compare_table tr:nth-child(4n + 3),
+#compare_table tr:nth-child(4n + 5) {
+  border-top: 1px solid #cccccc;
+}
+#compare_table tr:hover {
+  background-color: #ffffdc;
+}
+
 .compareLayer {
   display: none;
 }
