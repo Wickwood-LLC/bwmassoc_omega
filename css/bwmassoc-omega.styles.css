@@ -2253,7 +2253,7 @@ main#main-content .field--name-title-field h1 p {
   }
 }
 main#main-content p {
-  font-family: FontAwesome, sans-serif;
+  font-family: Arial, FontAwesome, sans-serif;
 }
 main#main-content p:first-child {
   margin-top: 0;
