@@ -171,3 +171,9 @@ main#main-content {
 .compareLayer {
     display: none;
 }
+
+.view-bwma-active-consultant-profiles .view-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1rem;
+}
