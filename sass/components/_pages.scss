@@ -176,4 +176,20 @@ main#main-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 1rem;
+
+  .views-field-field-company-name h3 {
+    margin: 0;
+  }
+}
+
+.views-exposed-form {
+  .views-exposed-widget {
+    vertical-align: bottom;
+    float: none;
+    display: inline-block;
+
+    .form-submit {
+      margin: 0;
+    }
+  }
 }

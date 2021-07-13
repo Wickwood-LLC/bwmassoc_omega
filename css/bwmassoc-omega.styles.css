@@ -2869,6 +2869,20 @@ main#main-content .share-text .fieldable-panels-pane p {
   grid-gap: 1rem;
 }
 
+.view-bwma-active-consultant-profiles .view-content .views-field-field-company-name h3 {
+  margin: 0;
+}
+
+.views-exposed-form .views-exposed-widget {
+  vertical-align: bottom;
+  float: none;
+  display: inline-block;
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin: 0;
+}
+
 .view-bwma-client-testimonials .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
