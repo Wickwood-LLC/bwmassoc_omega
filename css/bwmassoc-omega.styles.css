@@ -2971,12 +2971,12 @@ html.touch .tabs--primary ul.secondary-tabs {
   }
   /* line 1755, components/* */
   body.logged-in .main-menu .sf-menu li a {
-    font-size: 13px;
+    font-size: 12.5px;
     padding: 3px 3px;
   }
   /* line 1763, components/* */
   body.logged-in .sf-menu-user-logged-in .block__content > ul li a {
-    font-size: 13px;
+    font-size: 12.5px;
     padding: 3px 3px;
   }
 }
